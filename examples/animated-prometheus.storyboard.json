@@ -1,0 +1,210 @@
+{
+  "title": "Prometheus Brings Fire",
+  "resolution": [1920, 1080],
+  "fps": 30,
+  "settings": {
+    "defaultDuration": 5
+  },
+  "background_music": {
+    "file": "../assets/demo/audio/music.wav",
+    "volume": 0.18,
+    "loop": true,
+    "fade_in": 1.5,
+    "fade_out": 2,
+    "duck_under_narration": true,
+    "duck_volume": 0.055
+  },
+  "ambient_audio": {
+    "file": "../assets/demo/audio/ambient.wav",
+    "volume": 0.12,
+    "loop": true,
+    "fade_in": 1,
+    "fade_out": 1.5
+  },
+  "tts": {
+    "enabled": false,
+    "provider": "disabled",
+    "cache_dir": ".cache/tts"
+  },
+  "scenes": [
+    {
+      "duration": 5,
+      "background": "#17233a",
+      "transition": {
+        "type": "crossfade",
+        "duration": 0.7
+      },
+      "layers": [
+        {
+          "file": "../assets/demo/scenes/olympus-bg.png",
+          "z_index": 0,
+          "depth": 0.2,
+          "animation": {
+            "type": "slow_zoom_in",
+            "start_scale": 1,
+            "end_scale": 1.08,
+            "easing": "ease_in_out"
+          }
+        },
+        {
+          "file": "../assets/demo/scenes/fire.png",
+          "z_index": 10,
+          "position": [490, 285],
+          "animation": {
+            "type": "fade_in",
+            "start": 0.4,
+            "duration": 1.2,
+            "start_scale": 0.9,
+            "end_scale": 1.04,
+            "start_opacity": 0,
+            "end_opacity": 1
+          }
+        }
+      ],
+      "caption": {
+        "text": "On Olympus, divine fire is guarded from humankind.",
+        "start": 1,
+        "duration": 3.4,
+        "animation": "fade"
+      },
+      "narration": {
+        "file": "../assets/demo/audio/narration-1.wav",
+        "start": 0.35,
+        "volume": 1
+      },
+      "sound_effects": [
+        {
+          "file": "../assets/demo/audio/spark.wav",
+          "start": 2.1,
+          "volume": 0.55
+        }
+      ]
+    },
+    {
+      "duration": 5,
+      "background": "#102033",
+      "transition": {
+        "type": "slide",
+        "direction": "left",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "file": "../assets/demo/scenes/earth-bg.png",
+          "z_index": 0,
+          "depth": 0.1,
+          "animation": {
+            "type": "pan_right",
+            "duration": 5,
+            "easing": "linear"
+          }
+        },
+        {
+          "file": "../assets/demo/scenes/prometheus.png",
+          "z_index": 10,
+          "position": [130, 210],
+          "animation": {
+            "type": "slide_in",
+            "from": "left",
+            "start": 0.2,
+            "duration": 1.1,
+            "easing": "ease_out"
+          }
+        },
+        {
+          "file": "../assets/demo/scenes/spark.png",
+          "z_index": 12,
+          "position": [545, 305],
+          "animation": {
+            "type": "slow_zoom_in",
+            "start": 1,
+            "duration": 3,
+            "start_scale": 0.7,
+            "end_scale": 1.2,
+            "easing": "ease_in_out"
+          }
+        }
+      ],
+      "caption": {
+        "text": "Prometheus steals a spark and carries it into the dark.",
+        "start": 0.9,
+        "duration": 3.7,
+        "animation": "fade"
+      },
+      "narration": {
+        "file": "../assets/demo/audio/narration-2.wav",
+        "start": 0.25,
+        "volume": 1
+      },
+      "sound_effects": [
+        {
+          "file": "../assets/demo/audio/spark.wav",
+          "start": 1.4,
+          "volume": 0.7
+        }
+      ]
+    },
+    {
+      "duration": 5,
+      "background": "#2b2336",
+      "transition": {
+        "type": "dip_to_black",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "file": "../assets/demo/scenes/olympus-bg.png",
+          "z_index": 0,
+          "depth": 0.1,
+          "animation": {
+            "type": "slow_zoom_out",
+            "start_scale": 1.08,
+            "end_scale": 1
+          }
+        },
+        {
+          "file": "../assets/demo/scenes/zeus.png",
+          "z_index": 10,
+          "position": [430, 190],
+          "animation": {
+            "type": "fade_in",
+            "start": 0.2,
+            "duration": 0.9,
+            "start_opacity": 0,
+            "end_opacity": 1
+          }
+        },
+        {
+          "file": "../assets/demo/scenes/lightning.png",
+          "z_index": 20,
+          "position": [760, 250],
+          "animation": {
+            "type": "slide_out",
+            "to": "bottom",
+            "start": 1.2,
+            "duration": 1.1,
+            "easing": "ease_in"
+          }
+        }
+      ],
+      "caption": {
+        "text": "Zeus punishes the theft, but the gift of fire endures.",
+        "start": 0.8,
+        "duration": 3.8,
+        "animation": "fade"
+      },
+      "narration": {
+        "file": "../assets/demo/audio/narration-3.wav",
+        "start": 0.25,
+        "volume": 1
+      },
+      "sound_effects": [
+        {
+          "file": "../assets/demo/audio/thunder.wav",
+          "start": 1.25,
+          "volume": 0.8
+        }
+      ]
+    }
+  ]
+}
