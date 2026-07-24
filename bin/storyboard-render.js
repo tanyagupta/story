@@ -4,7 +4,7 @@ const path = require("path");
 const { renderStoryboardFile } = require("../src");
 
 function printUsage() {
-  console.log("Usage: storyboard-render <storyboard.json> --out <video.mp4>");
+  console.log("Usage: storyboard-render <storyboard.json> [--out <video.mp4>] [--preview]");
 }
 
 function parseArgs(argv) {
@@ -12,14 +12,16 @@ function parseArgs(argv) {
   const input = args.find((arg) => !arg.startsWith("-"));
   const outIndex = args.indexOf("--out");
   const output = outIndex >= 0 ? args[outIndex + 1] : null;
+  const preview = args.includes("--preview");
 
-  if (!input || !output || output.startsWith("-")) {
+  if (!input || (output && output.startsWith("-"))) {
     return null;
   }
 
   return {
     input: path.resolve(process.cwd(), input),
-    output: path.resolve(process.cwd(), output)
+    output: output ? path.resolve(process.cwd(), output) : null,
+    preview
   };
 }
 
@@ -31,8 +33,8 @@ async function main() {
     return;
   }
 
-  const result = await renderStoryboardFile(parsed.input, parsed.output);
-  console.log(`Rendered ${result.sceneCount} scenes to ${result.output}`);
+  const result = await renderStoryboardFile(parsed.input, parsed.output, { preview: parsed.preview });
+  console.log(`Rendered ${result.sceneCount} scenes (${result.mode}) to ${result.output}`);
 }
 
 main().catch((error) => {

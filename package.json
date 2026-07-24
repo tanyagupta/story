@@ -7,6 +7,9 @@
     "storyboard-render": "bin/storyboard-render.js"
   },
   "scripts": {
+    "demo:assets": "node scripts/generate-demo-assets.js",
+    "demo:preview": "npm run demo:assets && node bin/storyboard-render.js examples/animated-prometheus.storyboard.json --preview",
+    "demo:render": "npm run demo:assets && node bin/storyboard-render.js examples/animated-prometheus.storyboard.json",
     "render": "node bin/storyboard-render.js",
     "sample:render": "node bin/storyboard-render.js examples/product-launch.storyboard.json --out renders/sample.mp4",
     "test": "node tests/run-tests.js"
