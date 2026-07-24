@@ -21,21 +21,22 @@ function runFfmpeg(args, label) {
   });
 }
 
-async function generateDiagnosticAudio(outputDir) {
+async function generateDiagnosticAudio(outputDir, options) {
+  const seconds = (options && options.seconds) || 5;
   fs.mkdirSync(outputDir, { recursive: true });
-  const music = path.join(outputDir, "blender_music.wav");
-  const beepOne = path.join(outputDir, "blender_beep_one.wav");
-  const beepTwo = path.join(outputDir, "blender_beep_two.wav");
-  const mix = path.join(outputDir, "blender_proof_audio.wav");
+  const music = path.join(outputDir, "human_music.wav");
+  const beepOne = path.join(outputDir, "human_notification.wav");
+  const beepTwo = path.join(outputDir, "human_typing_click.wav");
+  const mix = path.join(outputDir, "human_figure_proof_audio.wav");
 
   await runFfmpeg([
     "-y",
     "-f",
     "lavfi",
     "-i",
-    "sine=frequency=262:duration=5",
+    `sine=frequency=294:duration=${seconds}`,
     "-af",
-    "volume=0.35,tremolo=f=5:d=0.45,afade=t=in:st=0:d=0.5,afade=t=out:st=4.3:d=0.7",
+    `volume=0.32,tremolo=f=4.5:d=0.35,afade=t=in:st=0:d=0.5,afade=t=out:st=${Math.max(seconds - 0.8, 0)}:d=0.8`,
     "-ar",
     "48000",
     "-ac",
@@ -48,9 +49,9 @@ async function generateDiagnosticAudio(outputDir) {
     "-f",
     "lavfi",
     "-i",
-    "sine=frequency=880:duration=0.28",
+    "sine=frequency=1046:duration=0.35",
     "-af",
-    "volume=0.6,afade=t=out:st=0.18:d=0.1",
+    "volume=0.62,afade=t=out:st=0.22:d=0.12",
     "-ar",
     "48000",
     "-ac",
@@ -63,9 +64,9 @@ async function generateDiagnosticAudio(outputDir) {
     "-f",
     "lavfi",
     "-i",
-    "sine=frequency=1320:duration=0.28",
+    "sine=frequency=1760:duration=0.08",
     "-af",
-    "volume=0.6,afade=t=out:st=0.18:d=0.1",
+    "volume=0.5,afade=t=out:st=0.04:d=0.04",
     "-ar",
     "48000",
     "-ac",
@@ -82,7 +83,7 @@ async function generateDiagnosticAudio(outputDir) {
     "-i",
     beepTwo,
     "-filter_complex",
-    "[1:a]adelay=1200:all=1[b1];[2:a]adelay=3200:all=1[b2];[0:a][b1][b2]amix=inputs=3:duration=longest:normalize=0,alimiter=limit=0.95[outa]",
+    "[1:a]adelay=3900:all=1[b1];[2:a]adelay=900|1080:all=0[b2];[0:a][b1][b2]amix=inputs=3:duration=longest:normalize=0,alimiter=limit=0.95[outa]",
     "-map",
     "[outa]",
     "-ar",

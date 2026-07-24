@@ -12,12 +12,41 @@ npm install
 
 ## Quick Start
 
-Run the Blender proof. This uses Node.js as the orchestrator, Blender Python
-with `bpy` for animation, and FFmpeg for muxing the rendered PNG sequence with
-locally generated audio:
+Run the Blender expressive-character proof. This uses Node.js as the
+orchestrator, Blender Python with `bpy` for a procedural stylized human
+character, and FFmpeg for muxing the rendered PNG sequence with locally
+generated audio. The v2 proof uses a separate face mesh, geometric eyes,
+pupils, eyelids, eyebrows, and Blender mouth shape keys for neutral, smile,
+frown, open, and rounded mouth poses:
 
 ```bash
 npm run blender:proof
+```
+
+The same render can also be started with:
+
+```bash
+npm run human:proof
+npm run human:face
+npm run human:face:v2
+```
+
+Render the Zeus Blender storyboard:
+
+```bash
+npm run zeus:preview
+npm run zeus:render
+```
+
+Those commands read `storyboard-zeus.json`, generate local macOS `say` speech
+for the narrator, Zeus, and Hermes under `assets/generated/voices/zeus`,
+generate synthetic mythic music and effects, duck the music under speech, render
+a Blender PNG sequence with speech-timed mouth movement, burn readable subtitles,
+mux H.264/AAC MP4 with FFmpeg, verify the media, and write:
+
+```text
+output/zeus-story-speech-preview-v2.mp4
+output/zeus-story-speech-v2.mp4
 ```
 
 The runner uses `blender` from `PATH` when available, otherwise it uses:
@@ -29,10 +58,15 @@ The runner uses `blender` from `PATH` when available, otherwise it uses:
 It writes:
 
 ```text
-output/blender-proof-v2.mp4
-output/blender-proof-v2_frame_start.png
-output/blender-proof-v2_frame_middle.png
-output/blender-proof-v2_frame_end.png
+output/human-face-proof-v2.mp4
+output/human-face-proof-v2_frame_start.png
+output/human-face-proof-v2_frame_middle.png
+output/human-face-proof-v2_frame_end.png
+output/face-verification/face_2_5.png
+output/face-verification/face_3_5.png
+output/face-verification/face_4_5.png
+output/face-verification/face_5_5.png
+output/face-verification/contact-sheet.png
 ```
 
 Run the diagnostic animation/audio proof first:

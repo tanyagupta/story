@@ -1,0 +1,208 @@
+{
+  "title": "Zeus and the Stolen Thunderbolt",
+  "resolution": [1280, 720],
+  "fps": 15,
+  "settings": {
+    "defaultDuration": 7
+  },
+  "renderer": "blender",
+  "background_music": {
+    "file": "output/zeus-story-speech-v2-audio/zeus_speech_mix.wav",
+    "volume": 1,
+    "loop": false
+  },
+  "voices": {
+    "narrator": { "provider": "macos_say", "name": "Samantha", "rate": 168 },
+    "zeus": { "provider": "macos_say", "name": "Daniel", "rate": 145 },
+    "hermes": { "provider": "macos_say", "name": "Alex", "rate": 176 }
+  },
+  "blender": {
+    "style": "stylized toon Greek mythology explainer",
+    "characters": {
+      "zeus": {
+        "type": "stylized_human",
+        "age": "older_adult",
+        "hair": "white",
+        "beard": true,
+        "clothing": "white_gold_greek_robes",
+        "face_controls": ["blink", "look", "smile", "frown", "talk", "react"]
+      },
+      "hermes": {
+        "type": "stylized_human",
+        "age": "younger_adult",
+        "hair": "dark",
+        "winged_sandals": true,
+        "face_controls": ["blink", "look", "smile", "concerned", "talk", "react"]
+      }
+    },
+    "audio": {
+      "music": "synthetic mythic orchestral pulse",
+      "ambience": ["wind", "distant thunder"],
+      "effects": ["dramatic sting", "electric crackle", "surge", "impact"]
+    }
+  },
+  "scenes": [
+    {
+      "id": "olympus-dawn",
+      "title": "Scene 1 - Olympus at Dawn",
+      "duration": 7,
+      "background": "#16243a",
+      "transition": { "type": "crossfade", "duration": 0.5 },
+      "shapes": [
+        { "type": "caption", "x": 72, "y": 610, "text": "High above the clouds, Zeus began his day on Mount Olympus.", "size": 28, "color": "#ffffff" }
+      ],
+      "narration": "High above the clouds, Zeus began his day on Mount Olympus.",
+      "dialogue": [
+        { "character": "zeus", "start": 4.2, "text": "My thunderbolt. Where has it gone?" }
+      ],
+      "blender_scene": {
+        "environment": "olympus_terrace",
+        "time_of_day": "dawn",
+        "camera": "establishing_push",
+        "lighting": "warm_dawn",
+        "characters": [
+          { "id": "zeus", "entrance": "walk_to_throne", "expression": "concerned", "actions": ["walk", "stop", "look_empty_pedestal", "blink", "frown"] }
+        ],
+        "props": ["empty_pedestal", "throne", "columns", "moving_clouds"],
+        "audio_cues": [
+          { "type": "wind", "start": 0 },
+          { "type": "dramatic_sting", "start": 4.0 }
+        ]
+      }
+    },
+    {
+      "id": "hermes-arrives",
+      "title": "Scene 2 - Hermes Arrives",
+      "duration": 7,
+      "background": "#1a3048",
+      "transition": { "type": "crossfade", "duration": 0.5 },
+      "shapes": [
+        { "type": "caption", "x": 72, "y": 610, "text": "Hermes races in with news from the valley below.", "size": 28, "color": "#ffffff" }
+      ],
+      "dialogue": [
+        { "character": "hermes", "start": 1.2, "text": "A strange storm is gathering over the valley. Someone is using its power." },
+        { "character": "zeus", "start": 5.0, "text": "Then we will follow the storm." }
+      ],
+      "blender_scene": {
+        "environment": "olympus_terrace",
+        "camera": "two_shot_with_closeups",
+        "characters": [
+          { "id": "hermes", "entrance": "speed_run", "expression": "urgent", "actions": ["run", "stop", "point", "talk", "blink"] },
+          { "id": "zeus", "expression": "determined", "actions": ["turn_to_hermes", "listen", "talk"] }
+        ],
+        "props": ["columns", "clouds", "empty_pedestal"],
+        "audio_cues": [
+          { "type": "whoosh", "start": 0.6 }
+        ]
+      }
+    },
+    {
+      "id": "valley",
+      "title": "Scene 3 - The Valley",
+      "duration": 7,
+      "background": "#1c2530",
+      "transition": { "type": "slide", "direction": "left", "duration": 0.5 },
+      "shapes": [
+        { "type": "caption", "x": 72, "y": 610, "text": "The thunderbolt had awakened an ancient device hidden beneath the mountain.", "size": 26, "color": "#ffffff" }
+      ],
+      "narration": "The thunderbolt had awakened an ancient device hidden beneath the mountain.",
+      "blender_scene": {
+        "environment": "rocky_valley",
+        "camera": "descending_reveal",
+        "lighting": "storm_flashes",
+        "characters": [
+          { "id": "zeus", "expression": "alert", "actions": ["enter", "shield_eyes", "react"] },
+          { "id": "hermes", "expression": "surprised", "actions": ["enter", "step_back", "react"] }
+        ],
+        "props": ["ancient_machine", "stolen_thunderbolt", "lightning"],
+        "audio_cues": [
+          { "type": "thunder", "start": 1.0 },
+          { "type": "crackle", "start": 2.2 }
+        ]
+      }
+    },
+    {
+      "id": "zeus-approaches",
+      "title": "Scene 4 - Zeus Approaches the Thunderbolt",
+      "duration": 7,
+      "background": "#222331",
+      "transition": { "type": "crossfade", "duration": 0.5 },
+      "shapes": [
+        { "type": "caption", "x": 72, "y": 610, "text": "Power without control is only destruction.", "size": 30, "color": "#ffffff" }
+      ],
+      "dialogue": [
+        { "character": "hermes", "start": 1.3, "text": "The power is unstable!" },
+        { "character": "zeus", "start": 3.3, "text": "Power without control is only destruction." }
+      ],
+      "blender_scene": {
+        "environment": "rocky_valley",
+        "camera": "tracking_then_closeup",
+        "lighting": "electric_reflections",
+        "characters": [
+          { "id": "zeus", "expression": "strained", "actions": ["walk", "raise_hand", "talk", "look_thunderbolt"] },
+          { "id": "hermes", "expression": "worried", "actions": ["reach_warning", "talk"] }
+        ],
+        "props": ["ancient_machine", "stolen_thunderbolt", "electrical_burst"],
+        "audio_cues": [
+          { "type": "electric_burst", "start": 2.4 }
+        ]
+      }
+    },
+    {
+      "id": "zeus-reclaims-it",
+      "title": "Scene 5 - Zeus Reclaims It",
+      "duration": 7,
+      "background": "#172738",
+      "transition": { "type": "dip_to_black", "duration": 0.5 },
+      "shapes": [
+        { "type": "caption", "x": 72, "y": 610, "text": "Zeus steadies the storm and reclaims the thunderbolt.", "size": 28, "color": "#ffffff" }
+      ],
+      "dialogue": [
+        { "character": "zeus", "start": 2.1, "text": "Return to the hand that commands you." }
+      ],
+      "blender_scene": {
+        "environment": "rocky_valley",
+        "camera": "hero_reclaim",
+        "lighting": "controlled_lightning",
+        "characters": [
+          { "id": "zeus", "expression": "relieved", "actions": ["reach", "grasp_thunderbolt", "hero_pose", "smile"] },
+          { "id": "hermes", "expression": "happy", "actions": ["smile", "nod"] }
+        ],
+        "props": ["energy_stream", "ancient_machine_shutdown", "recovered_thunderbolt"],
+        "audio_cues": [
+          { "type": "surge", "start": 1.2 },
+          { "type": "impact", "start": 4.0 }
+        ]
+      }
+    },
+    {
+      "id": "return-to-olympus",
+      "title": "Scene 6 - Return to Olympus",
+      "duration": 7,
+      "background": "#27425c",
+      "transition": { "type": "crossfade", "duration": 0.5 },
+      "shapes": [
+        { "type": "caption", "x": 72, "y": 610, "text": "And so the skies grew calm again - at least until the next adventure on Mount Olympus.", "size": 25, "color": "#ffffff" }
+      ],
+      "narration": "And so the skies grew calm again - at least until the next adventure on Mount Olympus.",
+      "dialogue": [
+        { "character": "hermes", "start": 1.0, "text": "Perhaps next time, keep it somewhere less obvious." },
+        { "character": "zeus", "start": 3.8, "text": "Perhaps next time, I shall ask you to guard it." }
+      ],
+      "blender_scene": {
+        "environment": "olympus_terrace",
+        "time_of_day": "sunrise",
+        "camera": "final_pullback",
+        "lighting": "sun_returns",
+        "characters": [
+          { "id": "zeus", "expression": "smile", "actions": ["place_thunderbolt", "talk", "smile", "blink"] },
+          { "id": "hermes", "expression": "playful", "actions": ["nod", "talk", "blink"] }
+        ],
+        "props": ["thunderbolt_on_pedestal", "columns", "sunlit_clouds"],
+        "audio_cues": [
+          { "type": "resolved_music", "start": 0 }
+        ]
+      }
+    }
+  ]
+}
