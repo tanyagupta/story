@@ -1,0 +1,27 @@
+{
+  "name": "storyboard-to-video",
+  "version": "1.0.0",
+  "description": "Render JSON storyboards into MP4 videos with a bundled FFmpeg binary.",
+  "main": "src/index.js",
+  "bin": {
+    "storyboard-render": "bin/storyboard-render.js"
+  },
+  "scripts": {
+    "render": "node bin/storyboard-render.js",
+    "sample:render": "node bin/storyboard-render.js examples/product-launch.storyboard.json --out renders/sample.mp4",
+    "test": "node tests/run-tests.js"
+  },
+  "keywords": [
+    "storyboard",
+    "video",
+    "ffmpeg"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ffmpeg-static": "4.4.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

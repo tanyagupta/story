@@ -1,0 +1,158 @@
+{
+  "title": "Product launch storyboard",
+  "settings": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "defaultDuration": 2.5
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Launch day, one view",
+      "duration": 2.5,
+      "background": "#17324d",
+      "narration": "Open with the product dashboard coming into focus.",
+      "shapes": [
+        {
+          "type": "rect",
+          "x": 88,
+          "y": 132,
+          "width": 1104,
+          "height": 428,
+          "color": "#f7f8fb"
+        },
+        {
+          "type": "rect",
+          "x": 128,
+          "y": 178,
+          "width": 300,
+          "height": 118,
+          "color": "#21a67a"
+        },
+        {
+          "type": "rect",
+          "x": 472,
+          "y": 178,
+          "width": 300,
+          "height": 118,
+          "color": "#f4b942"
+        },
+        {
+          "type": "rect",
+          "x": 816,
+          "y": 178,
+          "width": 300,
+          "height": 118,
+          "color": "#e85d75"
+        },
+        {
+          "type": "text",
+          "x": 138,
+          "y": 222,
+          "text": "Audience",
+          "size": 34,
+          "color": "#102033"
+        },
+        {
+          "type": "text",
+          "x": 482,
+          "y": 222,
+          "text": "Message",
+          "size": 34,
+          "color": "#102033"
+        },
+        {
+          "type": "text",
+          "x": 826,
+          "y": 222,
+          "text": "Launch",
+          "size": 34,
+          "color": "#102033"
+        }
+      ]
+    },
+    {
+      "id": "momentum",
+      "title": "Momentum by channel",
+      "duration": 3,
+      "background": "#243447",
+      "narration": "Show demand building across the channels that matter.",
+      "shapes": [
+        {
+          "type": "rect",
+          "x": 120,
+          "y": 420,
+          "width": 180,
+          "height": 110,
+          "color": "#58c4dd"
+        },
+        {
+          "type": "rect",
+          "x": 365,
+          "y": 330,
+          "width": 180,
+          "height": 200,
+          "color": "#8bd450"
+        },
+        {
+          "type": "rect",
+          "x": 610,
+          "y": 260,
+          "width": 180,
+          "height": 270,
+          "color": "#f2cc5d"
+        },
+        {
+          "type": "rect",
+          "x": 855,
+          "y": 185,
+          "width": 180,
+          "height": 345,
+          "color": "#ff8a65"
+        },
+        {
+          "type": "caption",
+          "x": 390,
+          "y": 590,
+          "text": "Email, community, paid, and partner channels rise together.",
+          "size": 28,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Close on the invitation",
+      "duration": 2.5,
+      "background": "#0f2537",
+      "narration": "End with a clear call to try the release.",
+      "shapes": [
+        {
+          "type": "rect",
+          "x": 300,
+          "y": 230,
+          "width": 680,
+          "height": 176,
+          "color": "#ffffff"
+        },
+        {
+          "type": "text",
+          "x": 352,
+          "y": 284,
+          "text": "Start the preview",
+          "size": 54,
+          "color": "#0f2537"
+        },
+        {
+          "type": "caption",
+          "x": 370,
+          "y": 468,
+          "text": "Built from a storyboard JSON file, rendered as MP4.",
+          "size": 28,
+          "color": "#ffffff"
+        }
+      ]
+    }
+  ]
+}
