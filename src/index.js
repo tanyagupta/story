@@ -90,8 +90,12 @@ async function renderStoryboard(storyboard, outputPath, options) {
   const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "storyboard-render-"));
   const sceneFiles = [];
   const output = path.resolve(outputPath || defaultOutputPath(options));
+  const startedAt = Date.now();
 
   fs.mkdirSync(path.dirname(output), { recursive: true });
+  if (fs.existsSync(output)) {
+    fs.rmSync(output);
+  }
   ensureLayerAssets(storyboard, rootDir);
   await prepareTtsNarration(storyboard, rootDir, logger);
 
@@ -109,6 +113,11 @@ async function renderStoryboard(storyboard, outputPath, options) {
     await runFfmpeg(buildVideoCombineArgs(storyboard, settings, sceneFiles, silentVideo, concatPath), "video transitions", logger);
 
     await runFfmpeg(buildAudioMixArgs(storyboard, settings, rootDir, silentVideo, output), "audio mix and final encode", logger);
+    const stat = fs.statSync(output);
+    if (stat.mtimeMs < startedAt || stat.size === 0) {
+      throw new Error(`Render did not create a fresh non-empty output file: ${output}`);
+    }
+    logger(`Verified fresh output ${output} (${stat.size} bytes, mtime ${stat.mtime.toISOString()})`);
     return {
       output,
       sceneCount: storyboard.scenes.length,
