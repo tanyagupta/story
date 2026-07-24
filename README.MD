@@ -12,9 +12,10 @@ npm install
 
 ## Quick Start
 
-Run the Blender human-figure proof. This uses Node.js as the orchestrator,
-Blender Python with `bpy` for articulated 2.5D cut-out human animation, and
-FFmpeg for muxing the rendered PNG sequence with locally generated audio:
+Run the Blender expressive-character proof. This uses Node.js as the
+orchestrator, Blender Python with `bpy` for articulated 2.5D cut-out human
+animation with visible faces, and FFmpeg for muxing the rendered PNG sequence
+with locally generated audio:
 
 ```bash
 npm run blender:proof
@@ -24,6 +25,7 @@ The same render can also be started with:
 
 ```bash
 npm run human:proof
+npm run human:face
 ```
 
 The runner uses `blender` from `PATH` when available, otherwise it uses:
@@ -35,10 +37,10 @@ The runner uses `blender` from `PATH` when available, otherwise it uses:
 It writes:
 
 ```text
-output/human-figure-proof.mp4
-output/human-figure-proof_frame_start.png
-output/human-figure-proof_frame_middle.png
-output/human-figure-proof_frame_end.png
+output/human-face-proof.mp4
+output/human-face-proof_frame_start.png
+output/human-face-proof_frame_middle.png
+output/human-face-proof_frame_end.png
 ```
 
 Run the diagnostic animation/audio proof first:

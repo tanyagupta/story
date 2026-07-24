@@ -8,9 +8,9 @@ const { generateDiagnosticAudio } = require("./generate-diagnostic-audio");
 const ROOT = path.resolve(__dirname, "..");
 const BLENDER_FALLBACK = "/Applications/Blender.app/Contents/MacOS/Blender";
 const OUTPUT_DIR = path.join(ROOT, "output");
-const FRAME_DIR = path.join(OUTPUT_DIR, "human-figure-proof-frames");
-const AUDIO_DIR = path.join(OUTPUT_DIR, "human-figure-proof-audio");
-const VIDEO_PATH = path.join(OUTPUT_DIR, "human-figure-proof.mp4");
+const FRAME_DIR = path.join(OUTPUT_DIR, "human-face-proof-frames");
+const AUDIO_DIR = path.join(OUTPUT_DIR, "human-face-proof-audio");
+const VIDEO_PATH = path.join(OUTPUT_DIR, "human-face-proof.mp4");
 const FPS = 30;
 const SECONDS = 7;
 
@@ -106,7 +106,7 @@ async function renderBlenderProof() {
   console.log(`Created ${VIDEO_PATH} (${stat.size} bytes, mtime ${stat.mtime.toISOString()})`);
 
   verify(VIDEO_PATH, {
-    prefix: "human-figure-proof",
+    prefix: "human-face-proof",
     times: [1.0, 3.5, 6.5]
   });
 
