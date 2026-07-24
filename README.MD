@@ -31,6 +31,24 @@ npm run human:face
 npm run human:face:v2
 ```
 
+Render the Zeus Blender storyboard:
+
+```bash
+npm run zeus:preview
+npm run zeus:render
+```
+
+Those commands read `storyboard-zeus.json`, generate local macOS `say` speech
+for the narrator, Zeus, and Hermes under `assets/generated/voices/zeus`,
+generate synthetic mythic music and effects, duck the music under speech, render
+a Blender PNG sequence with speech-timed mouth movement, burn readable subtitles,
+mux H.264/AAC MP4 with FFmpeg, verify the media, and write:
+
+```text
+output/zeus-story-speech-preview-v2.mp4
+output/zeus-story-speech-v2.mp4
+```
+
 The runner uses `blender` from `PATH` when available, otherwise it uses:
 
 ```text
