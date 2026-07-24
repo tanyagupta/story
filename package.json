@@ -11,6 +11,8 @@
     "demo:preview": "npm run demo:assets && node bin/storyboard-render.js examples/animated-prometheus.storyboard.json --preview",
     "demo:render": "npm run demo:assets && node bin/storyboard-render.js examples/animated-prometheus.storyboard.json",
     "diagnostic": "node scripts/render-diagnostic.js && node scripts/verify-media.js output/diagnostic_animation_audio.mp4 --diagnostic --prefix diagnostic",
+    "blender:proof": "node src/blender-runner.js",
+    "blender:audio": "node src/generate-diagnostic-audio.js output/blender-proof-v2-audio",
     "render": "node bin/storyboard-render.js",
     "sample:render": "node bin/storyboard-render.js examples/product-launch.storyboard.json --out renders/sample.mp4",
     "test": "node tests/run-tests.js",

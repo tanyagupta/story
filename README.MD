@@ -12,6 +12,29 @@ npm install
 
 ## Quick Start
 
+Run the Blender proof. This uses Node.js as the orchestrator, Blender Python
+with `bpy` for animation, and FFmpeg for muxing the rendered PNG sequence with
+locally generated audio:
+
+```bash
+npm run blender:proof
+```
+
+The runner uses `blender` from `PATH` when available, otherwise it uses:
+
+```text
+/Applications/Blender.app/Contents/MacOS/Blender
+```
+
+It writes:
+
+```text
+output/blender-proof-v2.mp4
+output/blender-proof-v2_frame_start.png
+output/blender-proof-v2_frame_middle.png
+output/blender-proof-v2_frame_end.png
+```
+
 Run the diagnostic animation/audio proof first:
 
 ```bash
@@ -209,6 +232,7 @@ The earlier shape-based format still works:
 
 ```bash
 npm test
+npm run blender:proof
 npm run diagnostic
 npm run sample:render
 npm run demo:preview
