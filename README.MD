@@ -12,12 +12,18 @@ npm install
 
 ## Quick Start
 
-Run the Blender proof. This uses Node.js as the orchestrator, Blender Python
-with `bpy` for animation, and FFmpeg for muxing the rendered PNG sequence with
-locally generated audio:
+Run the Blender human-figure proof. This uses Node.js as the orchestrator,
+Blender Python with `bpy` for articulated 2.5D cut-out human animation, and
+FFmpeg for muxing the rendered PNG sequence with locally generated audio:
 
 ```bash
 npm run blender:proof
+```
+
+The same render can also be started with:
+
+```bash
+npm run human:proof
 ```
 
 The runner uses `blender` from `PATH` when available, otherwise it uses:
@@ -29,10 +35,10 @@ The runner uses `blender` from `PATH` when available, otherwise it uses:
 It writes:
 
 ```text
-output/blender-proof-v2.mp4
-output/blender-proof-v2_frame_start.png
-output/blender-proof-v2_frame_middle.png
-output/blender-proof-v2_frame_end.png
+output/human-figure-proof.mp4
+output/human-figure-proof_frame_start.png
+output/human-figure-proof_frame_middle.png
+output/human-figure-proof_frame_end.png
 ```
 
 Run the diagnostic animation/audio proof first:

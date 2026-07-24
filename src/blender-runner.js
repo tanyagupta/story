@@ -8,11 +8,11 @@ const { generateDiagnosticAudio } = require("./generate-diagnostic-audio");
 const ROOT = path.resolve(__dirname, "..");
 const BLENDER_FALLBACK = "/Applications/Blender.app/Contents/MacOS/Blender";
 const OUTPUT_DIR = path.join(ROOT, "output");
-const FRAME_DIR = path.join(OUTPUT_DIR, "blender-proof-v2-frames");
-const AUDIO_DIR = path.join(OUTPUT_DIR, "blender-proof-v2-audio");
-const VIDEO_PATH = path.join(OUTPUT_DIR, "blender-proof-v2.mp4");
+const FRAME_DIR = path.join(OUTPUT_DIR, "human-figure-proof-frames");
+const AUDIO_DIR = path.join(OUTPUT_DIR, "human-figure-proof-audio");
+const VIDEO_PATH = path.join(OUTPUT_DIR, "human-figure-proof.mp4");
 const FPS = 30;
-const SECONDS = 5;
+const SECONDS = 7;
 
 function run(command, args, options) {
   console.log(`+ ${[command].concat(args).join(" ")}`);
@@ -61,7 +61,7 @@ async function renderBlenderProof() {
   }
 
   const blender = blenderCommand();
-  const audio = await generateDiagnosticAudio(AUDIO_DIR);
+  const audio = await generateDiagnosticAudio(AUDIO_DIR, { seconds: SECONDS });
   const blenderArgs = [
     "--background",
     "--factory-startup",
@@ -106,8 +106,8 @@ async function renderBlenderProof() {
   console.log(`Created ${VIDEO_PATH} (${stat.size} bytes, mtime ${stat.mtime.toISOString()})`);
 
   verify(VIDEO_PATH, {
-    prefix: "blender-proof-v2",
-    times: [0.5, 2.5, 4.5]
+    prefix: "human-figure-proof",
+    times: [1.0, 3.5, 6.5]
   });
 
   await run("open", [VIDEO_PATH]);
