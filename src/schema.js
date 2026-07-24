@@ -54,7 +54,7 @@ function validateAnimation(animation, location) {
   if (animation.type !== undefined) {
     assert(ANIMATION_TYPES.has(animation.type), `${location}.type must be a supported animation type`);
   }
-  ["start", "duration", "start_x", "end_x", "start_y", "end_y", "start_scale", "end_scale", "start_opacity", "end_opacity"].forEach((field) => {
+  ["start", "duration", "start_x", "end_x", "start_y", "end_y", "start_scale", "end_scale", "start_opacity", "end_opacity", "start_rotation", "end_rotation"].forEach((field) => {
     if (animation[field] !== undefined) {
       assertNonNegativeNumber(animation[field], `${location}.${field}`);
     }

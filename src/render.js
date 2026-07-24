@@ -46,13 +46,20 @@ function numberOr(value, fallback) {
 function normalizeSettings(storyboard, mode) {
   const settings = storyboard.settings || {};
   const resolution = storyboard.resolution || [settings.width, settings.height];
+  const sourceWidth = resolution[0] || DEFAULT_WIDTH;
+  const sourceHeight = resolution[1] || DEFAULT_HEIGHT;
   const preview = mode === "preview";
-  const width = preview ? 960 : resolution[0] || DEFAULT_WIDTH;
-  const height = preview ? 540 : resolution[1] || DEFAULT_HEIGHT;
+  const width = preview ? 960 : sourceWidth;
+  const height = preview ? 540 : sourceHeight;
 
   return {
     width,
     height,
+    sourceWidth,
+    sourceHeight,
+    scaleX: width / sourceWidth,
+    scaleY: height / sourceHeight,
+    layerScale: Math.min(width / sourceWidth, height / sourceHeight),
     fps: storyboard.fps || settings.fps || DEFAULT_FPS,
     defaultDuration: settings.defaultDuration || DEFAULT_DURATION,
     fontFile: resolveFontFile(settings),
@@ -123,27 +130,29 @@ function presetLayerAnimation(layer, settings, sceneLength) {
   const position = layer.position || [numberOr(layer.x, 0), numberOr(layer.y, 0)];
   const depth = numberOr(layer.depth, numberOr(layer.z_index, 0) / 20);
   const parallax = numberOr(layer.parallax, depth * 10);
-  let startX = numberOr(animation.start_x, position[0]);
-  let endX = numberOr(animation.end_x, position[0]);
-  let startY = numberOr(animation.start_y, position[1]);
-  let endY = numberOr(animation.end_y, position[1]);
-  let startScale = numberOr(animation.start_scale, numberOr(layer.scale, 1));
-  let endScale = numberOr(animation.end_scale, startScale);
+  let startX = numberOr(animation.start_x, position[0]) * settings.scaleX;
+  let endX = numberOr(animation.end_x, position[0]) * settings.scaleX;
+  let startY = numberOr(animation.start_y, position[1]) * settings.scaleY;
+  let endY = numberOr(animation.end_y, position[1]) * settings.scaleY;
+  let startScale = numberOr(animation.start_scale, numberOr(layer.scale, 1)) * settings.layerScale;
+  let endScale = numberOr(animation.end_scale, numberOr(layer.scale, 1)) * settings.layerScale;
+  let startRotation = numberOr(animation.start_rotation, numberOr(layer.rotation, 0));
+  let endRotation = numberOr(animation.end_rotation, startRotation);
   let startOpacity = numberOr(animation.start_opacity, numberOr(layer.opacity, 1));
   let endOpacity = numberOr(animation.end_opacity, startOpacity);
 
   if (animation.type === "slow_zoom_in") {
-    endScale = numberOr(animation.end_scale, startScale * 1.08);
+    endScale = numberOr(animation.end_scale, numberOr(layer.scale, 1) * 1.08) * settings.layerScale;
   } else if (animation.type === "slow_zoom_out") {
-    startScale = numberOr(animation.start_scale, endScale * 1.08);
+    startScale = numberOr(animation.start_scale, numberOr(layer.scale, 1) * 1.08) * settings.layerScale;
   } else if (animation.type === "pan_left") {
-    endX = numberOr(animation.end_x, position[0] - 80 - parallax);
+    endX = numberOr(animation.end_x, position[0] - 240 - parallax) * settings.scaleX;
   } else if (animation.type === "pan_right") {
-    endX = numberOr(animation.end_x, position[0] + 80 + parallax);
+    endX = numberOr(animation.end_x, position[0] + 240 + parallax) * settings.scaleX;
   } else if (animation.type === "pan_up") {
-    endY = numberOr(animation.end_y, position[1] - 60 - parallax);
+    endY = numberOr(animation.end_y, position[1] - 180 - parallax) * settings.scaleY;
   } else if (animation.type === "pan_down") {
-    endY = numberOr(animation.end_y, position[1] + 60 + parallax);
+    endY = numberOr(animation.end_y, position[1] + 180 + parallax) * settings.scaleY;
   } else if (animation.type === "fade_in") {
     startOpacity = numberOr(animation.start_opacity, 0);
     endOpacity = numberOr(animation.end_opacity, numberOr(layer.opacity, 1));
@@ -164,7 +173,7 @@ function presetLayerAnimation(layer, settings, sceneLength) {
     if (to === "bottom") endY = settings.height;
   }
 
-  return { start, duration, easing, startX, endX, startY, endY, startScale, endScale, startOpacity, endOpacity };
+  return { start, duration, easing, startX, endX, startY, endY, startScale, endScale, startOpacity, endOpacity, startRotation, endRotation };
 }
 
 function layerInputArgs(layer, sceneLength) {
@@ -174,6 +183,7 @@ function layerInputArgs(layer, sceneLength) {
 function layerFilter(inputIndex, outputIndex, layer, settings, sceneLength) {
   const animation = presetLayerAnimation(layer, settings, sceneLength);
   const scaleExpr = interpolateExpression(animation.startScale, animation.endScale, animation.start, animation.duration, animation.easing);
+  const rotationExpr = interpolateExpression(animation.startRotation, animation.endRotation, animation.start, animation.duration, animation.easing);
   const opacity = Math.max(0, Math.min(1, animation.endOpacity));
   const fadeIn = animation.startOpacity < animation.endOpacity ? `,fade=t=in:st=${animation.start}:d=${animation.duration}:alpha=1` : "";
   const fadeOut = animation.startOpacity > animation.endOpacity ? `,fade=t=out:st=${animation.start}:d=${animation.duration}:alpha=1` : "";
@@ -181,7 +191,7 @@ function layerFilter(inputIndex, outputIndex, layer, settings, sceneLength) {
   const yExpr = interpolateExpression(animation.startY, animation.endY, animation.start, animation.duration, animation.easing);
 
   return {
-    prep: `[${inputIndex}:v]format=rgba,scale=w='iw*${scaleExpr}':h='ih*${scaleExpr}':eval=frame,colorchannelmixer=aa=${opacity}${fadeIn}${fadeOut}[layer${outputIndex}]`,
+    prep: `[${inputIndex}:v]format=rgba,scale=w='iw*${scaleExpr}':h='ih*${scaleExpr}':eval=frame,rotate='${rotationExpr}':c=none:ow=rotw(iw):oh=roth(ih),colorchannelmixer=aa=${opacity}${fadeIn}${fadeOut}[layer${outputIndex}]`,
     overlay: `overlay=x='${xExpr}':y='${yExpr}':eval=frame:enable='between(t,${numberOr(layer.start, 0)},${numberOr(layer.end, sceneLength)})'`
   };
 }
@@ -193,9 +203,9 @@ function drawCaptionFilters(caption, settings) {
 
   const start = numberOr(caption.start, 0);
   const duration = numberOr(caption.duration, 3);
-  const x = numberOr(caption.x, 80);
-  const y = numberOr(caption.y, settings.height - 130);
-  const size = numberOr(caption.size, 34);
+  const x = numberOr(caption.x, 80) * settings.scaleX;
+  const y = numberOr(caption.y, settings.sourceHeight - 130) * settings.scaleY;
+  const size = numberOr(caption.size, 34) * settings.layerScale;
   const fontOption = settings.fontFile ? `fontfile='${escapeFilterPath(settings.fontFile)}':` : "";
   const base = `x=${x}:y=${y}:fontsize=${size}:fontcolor=0xffffffff:box=1:boxcolor=0x00000088:boxborderw=22`;
 
@@ -228,12 +238,12 @@ function addLegacyShapeFilters(filters, scene, settings) {
 
   (scene.shapes || []).forEach((shape) => {
     if (shape.type === "rect") {
-      filters.push(`drawbox=x=${numberOr(shape.x, 0)}:y=${numberOr(shape.y, 0)}:w=${numberOr(shape.width, 100)}:h=${numberOr(shape.height, 100)}:color=${shellColor(shape.color, "#ffffff")}:t=fill`);
+      filters.push(`drawbox=x=${numberOr(shape.x, 0) * settings.scaleX}:y=${numberOr(shape.y, 0) * settings.scaleY}:w=${numberOr(shape.width, 100) * settings.scaleX}:h=${numberOr(shape.height, 100) * settings.scaleY}:color=${shellColor(shape.color, "#ffffff")}:t=fill`);
     } else if (shape.type === "text" || shape.type === "caption") {
       const x = numberOr(shape.x, 80);
       const y = numberOr(shape.y, shape.type === "caption" ? settings.height - 130 : 100);
       const box = shape.type === "caption" ? ":box=1:boxcolor=0x00000088:boxborderw=24" : "";
-      filters.push(`drawtext=${fontOption}text='${escapeDrawtext(shape.text || "")}':x=${x}:y=${y}:fontsize=${numberOr(shape.size, 36)}:fontcolor=${shellColor(shape.color, "#ffffff")}${box}`);
+      filters.push(`drawtext=${fontOption}text='${escapeDrawtext(shape.text || "")}':x=${x * settings.scaleX}:y=${y * settings.scaleY}:fontsize=${numberOr(shape.size, 36) * settings.layerScale}:fontcolor=${shellColor(shape.color, "#ffffff")}${box}`);
     }
   });
 }
@@ -343,7 +353,7 @@ function normalizeAudioItem(item, sceneStart) {
     loop: Boolean(item.loop),
     trimStart: numberOr(item.trim_start, numberOr(item.trimStart, 0)),
     trimDuration: item.trim_duration || item.trimDuration || item.duration || null,
-    optional: item.optional !== false,
+    optional: item.optional === true,
     role: item.role || "audio"
   };
 }
@@ -441,7 +451,7 @@ function buildAudioMixArgs(storyboard, settings, rootDir, videoInput, outputPath
   };
   const audioFilters = items.map((item, index) => audioFilterForItem(item, index + 1, index, totalDuration, narrationIntervals, duckConfig));
   const mixInputs = items.map((_, index) => `[a${index}]`).join("");
-  audioFilters.push(`${mixInputs}amix=inputs=${items.length}:duration=longest:normalize=1,dynaudnorm=f=150:g=11,alimiter=limit=0.95[outa]`);
+  audioFilters.push(`${mixInputs}amix=inputs=${items.length}:duration=longest:normalize=0,dynaudnorm=f=150:g=9,alimiter=limit=0.95[outa]`);
 
   args.push(
     "-filter_complex",

@@ -136,6 +136,28 @@ test("validates layered animated storyboards", () => {
   assert.strictEqual(validateStoryboard(layered), layered);
 });
 
+test("rejects missing required audio during render setup", () => {
+  const { buildAudioMixArgs, normalizeSettings } = require("../src/render");
+  const missing = {
+    resolution: [1280, 720],
+    background_music: {
+      file: "missing-music.wav",
+      volume: 0.35
+    },
+    scenes: [
+      {
+        duration: 2,
+        layers: [{ file: "placeholder.png" }]
+      }
+    ]
+  };
+
+  assert.throws(
+    () => buildAudioMixArgs(missing, normalizeSettings(missing, "normal"), process.cwd(), "video.mp4", "out.mp4"),
+    /Missing required audio asset/
+  );
+});
+
 if (process.exitCode) {
   process.exit(process.exitCode);
 }

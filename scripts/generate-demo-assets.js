@@ -57,48 +57,49 @@ async function main() {
   fs.mkdirSync(imageRoot, { recursive: true });
   fs.mkdirSync(audioRoot, { recursive: true });
 
-  await png(path.join(imageRoot, "olympus-bg.png"), "1280x720", [
-    "drawbox=x=0:y=0:w=1280:h=720:color=0x17233aff:t=fill",
-    "drawbox=x=90:y=115:w=1100:h=92:color=0xf2f0e6ff:t=fill",
-    "drawbox=x=170:y=245:w=160:h=320:color=0xd8d3c2ff:t=fill",
-    "drawbox=x=560:y=245:w=160:h=320:color=0xd8d3c2ff:t=fill",
-    "drawbox=x=950:y=245:w=160:h=320:color=0xd8d3c2ff:t=fill",
-    `drawtext=text='OLYMPUS':x=455:y=140:fontsize=52:fontcolor=0x17233aff${fontOption()}`
+  await png(path.join(imageRoot, "olympus-bg.png"), "1920x1080", [
+    "drawbox=x=0:y=0:w=1920:h=1080:color=0x17233aff:t=fill:replace=1",
+    "drawbox=x=130:y=170:w=1660:h=138:color=0xf2f0e6ff:t=fill:replace=1",
+    "drawbox=x=260:y=368:w=240:h=480:color=0xd8d3c2ff:t=fill:replace=1",
+    "drawbox=x=840:y=368:w=240:h=480:color=0xd8d3c2ff:t=fill:replace=1",
+    "drawbox=x=1420:y=368:w=240:h=480:color=0xd8d3c2ff:t=fill:replace=1",
+    `drawtext=text='OLYMPUS':x=710:y=205:fontsize=78:fontcolor=0x17233aff${fontOption()}`
   ]);
   await png(path.join(imageRoot, "fire.png"), "300x260", [
-    "drawbox=x=95:y=95:w=110:h=130:color=0xffb347dd:t=fill",
-    "drawbox=x=125:y=35:w=56:h=95:color=0xff7043ee:t=fill",
-    "drawbox=x=145:y=0:w=32:h=80:color=0xf7d154ff:t=fill"
+    "drawbox=x=95:y=95:w=110:h=130:color=0xffb347dd:t=fill:replace=1",
+    "drawbox=x=125:y=35:w=56:h=95:color=0xff7043ee:t=fill:replace=1",
+    "drawbox=x=145:y=0:w=32:h=80:color=0xf7d154ff:t=fill:replace=1"
   ]);
   await png(path.join(imageRoot, "prometheus.png"), "310x430", [
-    "drawbox=x=75:y=78:w=160:h=300:color=0xb9c7d9ff:t=fill",
-    "drawbox=x=105:y=30:w=100:h=80:color=0xf0cfb4ff:t=fill",
+    "drawbox=x=75:y=78:w=160:h=300:color=0xb9c7d9ff:t=fill:replace=1",
+    "drawbox=x=105:y=30:w=100:h=80:color=0xf0cfb4ff:t=fill:replace=1",
     `drawtext=text='PROMETHEUS':x=24:y=365:fontsize=28:fontcolor=0xffffffff${fontOption()}`
   ]);
-  await png(path.join(imageRoot, "earth-bg.png"), "1280x720", [
-    "drawbox=x=0:y=0:w=1280:h=720:color=0x102033ff:t=fill",
-    "drawbox=x=0:y=520:w=1280:h=200:color=0x35583eff:t=fill",
-    "drawbox=x=130:y=390:w=165:h=130:color=0x8c5a3cff:t=fill",
-    "drawbox=x=920:y=400:w=190:h=120:color=0x8c5a3cff:t=fill"
+  await png(path.join(imageRoot, "earth-bg.png"), "1920x1080", [
+    "drawbox=x=0:y=0:w=1920:h=1080:color=0x102033ff:t=fill:replace=1",
+    "drawbox=x=0:y=780:w=1920:h=300:color=0x35583eff:t=fill:replace=1",
+    "drawbox=x=190:y=585:w=250:h=195:color=0x8c5a3cff:t=fill:replace=1",
+    "drawbox=x=1380:y=600:w=285:h=180:color=0x8c5a3cff:t=fill:replace=1",
+    "drawbox=x=780:y=690:w=360:h=90:color=0x4e6d4aff:t=fill:replace=1"
   ]);
   await png(path.join(imageRoot, "spark.png"), "200x200", [
-    "drawbox=x=65:y=58:w=70:h=104:color=0xff7043ee:t=fill",
-    "drawbox=x=88:y=18:w=34:h=70:color=0xf7d154ff:t=fill"
+    "drawbox=x=65:y=58:w=70:h=104:color=0xff7043ee:t=fill:replace=1",
+    "drawbox=x=88:y=18:w=34:h=70:color=0xf7d154ff:t=fill:replace=1"
   ]);
   await png(path.join(imageRoot, "zeus.png"), "360x410", [
-    "drawbox=x=78:y=80:w=204:h=260:color=0xf2f0e6ff:t=fill",
-    "drawbox=x=115:y=28:w=130:h=86:color=0xdfe8f7ff:t=fill",
-    "drawbox=x=238:y=158:w=64:h=190:color=0xf6c445ff:t=fill",
+    "drawbox=x=78:y=80:w=204:h=260:color=0xf2f0e6ff:t=fill:replace=1",
+    "drawbox=x=115:y=28:w=130:h=86:color=0xdfe8f7ff:t=fill:replace=1",
+    "drawbox=x=238:y=158:w=64:h=190:color=0xf6c445ff:t=fill:replace=1",
     `drawtext=text='ZEUS':x=117:y=185:fontsize=54:fontcolor=0x18202bff${fontOption()}`
   ]);
   await png(path.join(imageRoot, "lightning.png"), "240x240", [
-    "drawbox=x=90:y=15:w=58:h=120:color=0xf6c445ff:t=fill",
-    "drawbox=x=60:y=110:w=115:h=48:color=0xf6c445ff:t=fill",
-    "drawbox=x=105:y=150:w=48:h=75:color=0xf6c445ff:t=fill"
+    "drawbox=x=90:y=15:w=58:h=120:color=0xf6c445ff:t=fill:replace=1",
+    "drawbox=x=60:y=110:w=115:h=48:color=0xf6c445ff:t=fill:replace=1",
+    "drawbox=x=105:y=150:w=48:h=75:color=0xf6c445ff:t=fill:replace=1"
   ]);
 
-  await wav(path.join(audioRoot, "music.wav"), "sine=frequency=220:duration=22", ["volume=0.3", "afade=t=in:st=0:d=1.5", "afade=t=out:st=19:d=2"]);
-  await wav(path.join(audioRoot, "ambient.wav"), "anoisesrc=color=brown:duration=22:amplitude=0.12", ["volume=0.22"]);
+  await wav(path.join(audioRoot, "music.wav"), "sine=frequency=330:duration=22", ["volume=0.75", "tremolo=f=5:d=0.35", "afade=t=in:st=0:d=1.5", "afade=t=out:st=19:d=2"]);
+  await wav(path.join(audioRoot, "ambient.wav"), "anoisesrc=color=brown:duration=22:amplitude=0.12", ["volume=0.14"]);
   await wav(path.join(audioRoot, "narration-1.wav"), "sine=frequency=420:duration=3.6", ["volume=0.45", "afade=t=in:st=0:d=0.1", "afade=t=out:st=3.3:d=0.3"]);
   await wav(path.join(audioRoot, "narration-2.wav"), "sine=frequency=470:duration=3.8", ["volume=0.45", "afade=t=in:st=0:d=0.1", "afade=t=out:st=3.5:d=0.3"]);
   await wav(path.join(audioRoot, "narration-3.wav"), "sine=frequency=380:duration=3.5", ["volume=0.45", "afade=t=in:st=0:d=0.1", "afade=t=out:st=3.2:d=0.3"]);

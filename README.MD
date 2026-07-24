@@ -12,6 +12,21 @@ npm install
 
 ## Quick Start
 
+Run the diagnostic animation/audio proof first:
+
+```bash
+python3 main.py --diagnostic
+```
+
+That writes and verifies:
+
+```text
+output/diagnostic_animation_audio.mp4
+output/diagnostic_frame_start.png
+output/diagnostic_frame_middle.png
+output/diagnostic_frame_end.png
+```
+
 Render the original simple storyboard:
 
 ```bash
@@ -21,8 +36,8 @@ npm run sample:render
 Render the animated three-scene Prometheus demo:
 
 ```bash
-npm run demo:preview
-npm run demo:render
+python3 main.py --preview
+python3 main.py
 ```
 
 The animated demo writes:
@@ -194,8 +209,12 @@ The earlier shape-based format still works:
 
 ```bash
 npm test
+npm run diagnostic
 npm run sample:render
 npm run demo:preview
 npm run demo:render
+python3 main.py --diagnostic
+python3 main.py --preview
+python3 main.py
 npm run render -- examples/animated-prometheus.storyboard.json --out output/custom.mp4
 ```
