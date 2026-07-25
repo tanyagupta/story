@@ -34,6 +34,9 @@ npm run human:face:v2
 Render the Zeus Blender storyboard:
 
 ```bash
+npm run preview
+npm run render
+npm run verify
 npm run zeus:preview
 npm run zeus:render
 ```
@@ -47,6 +50,60 @@ mux H.264/AAC MP4 with FFmpeg, verify the media, and write:
 ```text
 output/zeus-story-speech-preview-v2.mp4
 output/zeus-story-speech-v2.mp4
+```
+
+## Experimental AI Renderer
+
+The Blender backend remains the production renderer. An experimental AI backend
+now sits beside it behind a renderer/provider interface:
+
+```text
+Storyboard JSON -> scene objects -> PromptBuilder -> AiProvider -> FFmpeg editor
+```
+
+The AI path reads `ai-renderer.config.json`, converts the Zeus storyboard into
+scene objects, builds one prompt per scene, renders scene clips through a
+provider, concatenates those clips, and reuses the existing local Zeus
+speech/music/effects/subtitle pipeline for the final MP4.
+
+Runway credentials are read from the environment with `dotenv`:
+
+```bash
+cp .env.example .env
+# then edit .env and set RUNWAY_API_KEY
+```
+
+The default provider in `ai-renderer.config.json` is `mock` so the commands
+below are deterministic and do not spend cloud credits. Set `ai.provider` to
+`runway` when you want to use Runway. When `RUNWAY_API_KEY` is present, the
+`runway` provider submits text-to-video scene prompts to Runway. When it is
+missing or unavailable, the runner falls back to the deterministic local `mock`
+provider so the full architecture, FFmpeg edit pass, subtitles, audio, and
+verification can still run without cloud credentials.
+
+```bash
+npm run ai:preview
+npm run ai:render
+npm run ai:verify
+```
+
+Those commands write:
+
+```text
+output/ai-zeus-preview.mp4
+output/ai-zeus-video.mp4
+output/ai-renderer/preview-report.json
+output/ai-renderer/render-report.json
+```
+
+Provider status:
+
+```text
+runway  implemented, requires RUNWAY_API_KEY
+mock    implemented, deterministic local FFmpeg clips
+veo     placeholder stub
+kling   placeholder stub
+luma    placeholder stub
 ```
 
 The runner uses `blender` from `PATH` when available, otherwise it uses:
@@ -113,9 +170,9 @@ npm run demo:assets
 ## Render Your Own Storyboard
 
 ```bash
-npm run render -- path/to/storyboard.json
-npm run render -- path/to/storyboard.json --preview
-npm run render -- path/to/storyboard.json --out output/custom.mp4
+npm run storyboard:render -- path/to/storyboard.json
+npm run storyboard:render -- path/to/storyboard.json --preview
+npm run storyboard:render -- path/to/storyboard.json --out output/custom.mp4
 ```
 
 Default output paths are deterministic:

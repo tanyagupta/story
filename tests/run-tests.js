@@ -1,6 +1,9 @@
 const assert = require("assert");
 const { buildFfmpegArgs, validateStoryboard } = require("../src");
 const { escapeDrawtext, normalizeSettings } = require("../src/render");
+const { parseStoryboardToSceneObjects } = require("../src/storyboard/scene-objects");
+const { PromptBuilder } = require("../src/ai/prompt-builder");
+const { createProvider } = require("../src/ai/providers");
 
 const validStoryboard = {
   settings: {
@@ -156,6 +159,68 @@ test("rejects missing required audio during render setup", () => {
     () => buildAudioMixArgs(missing, normalizeSettings(missing, "normal"), process.cwd(), "video.mp4", "out.mp4"),
     /Missing required audio asset/
   );
+});
+
+test("parses Zeus-style scenes into renderer-neutral scene objects", () => {
+  const parsed = parseStoryboardToSceneObjects({
+    title: "Tiny myth",
+    resolution: [1280, 720],
+    fps: 15,
+    renderer: "blender",
+    scenes: [
+      {
+        id: "arrival",
+        title: "Arrival",
+        duration: 4,
+        narration: "Zeus enters.",
+        dialogue: [{ character: "zeus", text: "Who took my thunder?", start: 1.2 }],
+        blender_scene: {
+          environment: "olympus_terrace",
+          camera: "establishing_push",
+          lighting: "warm_dawn",
+          characters: [{ id: "zeus", expression: "concerned", actions: ["walk", "point"] }],
+          props: ["empty_pedestal"]
+        }
+      }
+    ]
+  });
+  assert.strictEqual(parsed.settings.width, 1280);
+  assert.strictEqual(parsed.scenes[0].environment, "olympus_terrace");
+  assert.strictEqual(parsed.scenes[0].characters[0].id, "zeus");
+  assert.strictEqual(parsed.scenes[0].dialogue.length, 2);
+});
+
+test("builds AI prompts with character, camera, lighting, dialogue, and duration", () => {
+  const parsed = parseStoryboardToSceneObjects({
+    title: "Tiny myth",
+    scenes: [
+      {
+        title: "Arrival",
+        duration: 4,
+        dialogue: [{ character: "hermes", text: "Look there." }],
+        blender_scene: {
+          environment: "rocky_valley",
+          camera: "tracking_then_closeup",
+          lighting: "storm_flashes",
+          characters: [{ id: "hermes", actions: ["run", "point"], expression: "urgent" }]
+        }
+      }
+    ]
+  });
+  const prompt = new PromptBuilder({ style: "test style" }).buildScenePrompt(parsed.scenes[0], parsed);
+  assert.ok(prompt.includes("4.0 second"));
+  assert.ok(prompt.includes("Hermes"));
+  assert.ok(prompt.includes("tracking_then_closeup"));
+  assert.ok(prompt.includes("storm_flashes"));
+  assert.ok(prompt.includes("Look there."));
+});
+
+test("creates AI providers and future provider stubs", () => {
+  assert.strictEqual(createProvider("mock", {}).name, "mock");
+  assert.strictEqual(createProvider("runway", {}).name, "runway");
+  assert.strictEqual(createProvider("veo", {}).name, "veo");
+  assert.strictEqual(createProvider("kling", {}).name, "kling");
+  assert.strictEqual(createProvider("luma", {}).name, "luma");
 });
 
 if (process.exitCode) {

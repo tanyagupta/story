@@ -9,6 +9,8 @@ assets/generated/voices/**/*.wav
 npm-debug.log*
 # Environment variables
 .env
+.env.*
+!.env.example
 
 # Generated speech
 assets/generated/

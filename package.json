@@ -18,7 +18,13 @@
     "zeus:preview": "node src/blender-storyboard-runner.js storyboard-zeus.json --preview --out output/zeus-story-speech-preview-v2.mp4",
     "zeus:render": "node src/blender-storyboard-runner.js storyboard-zeus.json --out output/zeus-story-speech-v2.mp4",
     "blender:audio": "node src/generate-diagnostic-audio.js output/human-face-proof-v2-audio",
-    "render": "node bin/storyboard-render.js",
+    "preview": "npm run zeus:preview",
+    "render": "npm run zeus:render",
+    "verify": "node scripts/verify-media.js output/zeus-story-speech-v2.mp4 --prefix zeus-story-speech-v2",
+    "storyboard:render": "node bin/storyboard-render.js",
+    "ai:preview": "node src/ai-renderer-runner.js --preview",
+    "ai:render": "node src/ai-renderer-runner.js",
+    "ai:verify": "node scripts/verify-media.js output/ai-zeus-video.mp4 --prefix ai-zeus-video",
     "sample:render": "node bin/storyboard-render.js examples/product-launch.storyboard.json --out renders/sample.mp4",
     "test": "node tests/run-tests.js",
     "test:media": "npm run diagnostic"
@@ -31,6 +37,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "ffmpeg-static": "4.4.0",
     "ffprobe-static": "^3.1.0"
   },
