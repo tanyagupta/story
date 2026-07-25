@@ -7,3 +7,19 @@ assets/generated/voices/**/*.aiff
 assets/generated/voices/**/*.wav
 .DS_Store
 npm-debug.log*
+# Environment variables
+.env
+
+# Generated speech
+assets/generated/
+
+# Rendered videos
+output/
+
+# Temporary files
+tmp/
+temp/
+
+# Blender cache
+*.blend1
+*.blend2
