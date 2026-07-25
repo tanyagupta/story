@@ -90,6 +90,7 @@ FFmpeg edit pass, subtitles, audio, and verification without cloud credentials.
 npm run ai:preview
 npm run ai:render
 npm run ai:verify
+npm run ai:preview -- --provider runway
 ```
 
 Those commands write:

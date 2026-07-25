@@ -103,6 +103,27 @@ function concatClips(clipPaths, outputPath, workDir) {
   return outputPath;
 }
 
+function conformClipDuration(inputPath, outputPath, duration, width, height, fps) {
+  run(ffmpegPath, [
+    "-y",
+    "-stream_loop",
+    "-1",
+    "-i",
+    inputPath,
+    "-t",
+    String(duration),
+    "-vf",
+    `scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=${fps},format=yuv420p`,
+    "-an",
+    "-c:v",
+    "libx264",
+    "-pix_fmt",
+    "yuv420p",
+    outputPath
+  ], "conforming AI scene clip duration");
+  return outputPath;
+}
+
 function muxVideoWithAudioAndSubtitles(options) {
   const subtitleEntries = writeSubtitles(options.speechEntries || [], options.subtitleDir);
   const args = [
@@ -137,6 +158,7 @@ function muxVideoWithAudioAndSubtitles(options) {
 
 module.exports = {
   cleanDir,
+  conformClipDuration,
   concatClips,
   muxVideoWithAudioAndSubtitles,
   subtitleVideoFilter,

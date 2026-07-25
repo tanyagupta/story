@@ -7,7 +7,7 @@ const { verify } = require("../../scripts/verify-media");
 const { parseStoryboardToSceneObjects } = require("../storyboard/scene-objects");
 const { PromptBuilder } = require("./prompt-builder");
 const { createProvider } = require("./providers");
-const { cleanDir, concatClips, muxVideoWithAudioAndSubtitles } = require("../editor/ffmpeg-editor");
+const { cleanDir, conformClipDuration, concatClips, muxVideoWithAudioAndSubtitles } = require("../editor/ffmpeg-editor");
 
 dotenv.config({ quiet: true });
 
@@ -73,6 +73,9 @@ async function renderAiStoryboard(options) {
   const mode = options.preview ? "preview" : "render";
   const { configFile, config } = loadConfig(options.configPath);
   const aiConfig = config.ai || {};
+  if (options.provider) {
+    aiConfig.provider = options.provider;
+  }
   const storyboardPath = path.resolve(ROOT, options.storyboard || config.storyboard || "storyboard-zeus.json");
   const outputPath = path.resolve(ROOT, options.output || resolveOutput(aiConfig, options.preview));
   const workDir = path.resolve(ROOT, aiConfig.outputDir || "output/ai-renderer");
@@ -80,6 +83,7 @@ async function renderAiStoryboard(options) {
   const promptDir = path.join(workDir, `${mode}-prompts`);
   const audioDir = path.join(workDir, `${mode}-audio`);
   const subtitleDir = path.join(workDir, `${mode}-subtitles`);
+  const conformedDir = path.join(workDir, `${mode}-conformed`);
   const finalSilent = path.join(workDir, `${mode}-silent.mp4`);
   const reportPath = path.join(workDir, `${mode}-report.json`);
   const startedAt = Date.now();
@@ -88,6 +92,7 @@ async function renderAiStoryboard(options) {
   cleanDir(clipDir);
   cleanDir(promptDir);
   cleanDir(audioDir);
+  cleanDir(conformedDir);
   if (fs.existsSync(finalSilent)) fs.rmSync(finalSilent);
   if (fs.existsSync(outputPath)) fs.rmSync(outputPath);
 
@@ -145,7 +150,22 @@ async function renderAiStoryboard(options) {
       fps: Number(aiConfig.fps || sceneObjects.settings.fps)
     };
     try {
-      rendered.push(await activeProvider.renderScene(request));
+      const result = await activeProvider.renderScene(request);
+      if (activeProvider.name === "runway") {
+        const conformedPath = path.join(conformedDir, `scene_${String(item.scene.number).padStart(2, "0")}.mp4`);
+        conformClipDuration(
+          result.outputPath,
+          conformedPath,
+          item.scene.duration,
+          sceneObjects.settings.width,
+          sceneObjects.settings.height,
+          Number(aiConfig.fps || sceneObjects.settings.fps)
+        );
+        result.sourceOutputPath = result.outputPath;
+        result.outputPath = conformedPath;
+        result.conformedOutputPath = conformedPath;
+      }
+      rendered.push(result);
     } catch (error) {
       if (activeProvider.name === "mock") throw error;
       if (activeProvider.name === "runway") {

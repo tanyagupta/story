@@ -107,6 +107,10 @@ function truncatePrompt(prompt, maxLength) {
   return `${value.slice(0, maxLength - 24).replace(/\s+\S*$/, "")} [prompt truncated]`;
 }
 
+function runwayDurationForScene(sceneDuration) {
+  return Number(sceneDuration || 0) <= 5 ? 5 : 10;
+}
+
 class RunwayProvider extends AiProvider {
   get name() {
     return "runway";
@@ -162,14 +166,18 @@ class RunwayProvider extends AiProvider {
       model: this.config.model || "gen4.5",
       promptText: truncatePrompt(request.prompt, Number(this.config.promptMaxLength || 1000)),
       ratio: this.config.ratio || "1280:720",
-      duration: Math.min(10, Math.max(5, Math.round(request.scene.duration || 5)))
+      duration: runwayDurationForScene(request.scene.duration)
     };
+    console.log(
+      `Runway submit: scene=${request.scene.id} model=${body.model} requestedDuration=${request.scene.duration}s runwayDuration=${body.duration}s`
+    );
     const createdResponse = await requestJson("POST", `${RUNWAY_API_BASE}/text_to_video`, body, apiKey);
     const created = createdResponse.body;
     const taskId = created.id || created.taskId;
     if (!taskId) {
       throw new Error(`Runway response did not include a task id: ${JSON.stringify(created)}`);
     }
+    console.log(`Runway task submitted: scene=${request.scene.id} taskId=${taskId}`);
 
     const timeoutMs = Number(this.config.timeoutMs || 12 * 60 * 1000);
     const started = Date.now();
@@ -178,17 +186,22 @@ class RunwayProvider extends AiProvider {
       const taskResponse = await requestJson("GET", `${RUNWAY_API_BASE}/tasks/${encodeURIComponent(taskId)}`, null, apiKey);
       task = taskResponse.body;
       const status = String(task.status || "").toUpperCase();
+      console.log(`Runway poll: scene=${request.scene.id} taskId=${taskId} status=${status || "UNKNOWN"}`);
       if (["SUCCEEDED", "SUCCESS", "COMPLETED"].includes(status)) {
         const url = taskOutputUrl(task);
         if (!url) {
           throw new Error(`Runway task completed without downloadable output: ${JSON.stringify(task)}`);
         }
+        console.log(`Runway download: scene=${request.scene.id} taskId=${taskId} output=${request.outputPath}`);
         await downloadFile(url, request.outputPath);
         return Object.assign({}, request, {
           outputPath: request.outputPath,
+          downloadedOutputPath: request.outputPath,
           provider: this.name,
           taskId,
-          status
+          status,
+          runwayDuration: body.duration,
+          targetDuration: request.scene.duration
         });
       }
       if (["FAILED", "CANCELLED", "CANCELED"].includes(status)) {
@@ -203,6 +216,7 @@ class RunwayProvider extends AiProvider {
 module.exports = {
   RunwayProvider,
   RunwayApiError,
+  runwayDurationForScene,
   RUNWAY_API_BASE,
   RUNWAY_VERSION
 };
