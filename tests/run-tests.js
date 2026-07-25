@@ -4,6 +4,7 @@ const { escapeDrawtext, normalizeSettings } = require("../src/render");
 const { parseStoryboardToSceneObjects } = require("../src/storyboard/scene-objects");
 const { PromptBuilder } = require("../src/ai/prompt-builder");
 const { createProvider } = require("../src/ai/providers");
+const pendingTests = [];
 
 const validStoryboard = {
   settings: {
@@ -41,7 +42,21 @@ const validStoryboard = {
 
 function test(name, fn) {
   try {
-    fn();
+    const result = fn();
+    if (result && typeof result.then === "function") {
+      pendingTests.push(
+        result
+          .then(() => {
+            console.log(`ok - ${name}`);
+          })
+          .catch((error) => {
+            console.error(`not ok - ${name}`);
+            console.error(error.stack);
+            process.exitCode = 1;
+          })
+      );
+      return;
+    }
     console.log(`ok - ${name}`);
   } catch (error) {
     console.error(`not ok - ${name}`);
@@ -223,6 +238,27 @@ test("creates AI providers and future provider stubs", () => {
   assert.strictEqual(createProvider("luma", {}).name, "luma");
 });
 
-if (process.exitCode) {
-  process.exit(process.exitCode);
-}
+test("does not fall back to mock when explicit Runway authentication is unavailable", async () => {
+  const { chooseProvider } = require("../src/ai/ai-renderer");
+  const oldRunwayKey = process.env.RUNWAY_API_KEY;
+  const oldRunwaySecret = process.env.RUNWAYML_API_SECRET;
+  delete process.env.RUNWAY_API_KEY;
+  delete process.env.RUNWAYML_API_SECRET;
+  try {
+    await assert.rejects(
+      () => chooseProvider({ provider: "runway", fallbackProvider: "mock" }),
+      /Runway provider unavailable/
+    );
+  } finally {
+    if (oldRunwayKey === undefined) delete process.env.RUNWAY_API_KEY;
+    else process.env.RUNWAY_API_KEY = oldRunwayKey;
+    if (oldRunwaySecret === undefined) delete process.env.RUNWAYML_API_SECRET;
+    else process.env.RUNWAYML_API_SECRET = oldRunwaySecret;
+  }
+});
+
+Promise.all(pendingTests).then(() => {
+  if (process.exitCode) {
+    process.exit(process.exitCode);
+  }
+});

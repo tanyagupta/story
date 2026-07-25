@@ -43,6 +43,12 @@ async function chooseProvider(config) {
     };
   }
 
+  if (requested.name === "runway") {
+    const status = requestedAvailability.statusCode ? ` HTTP ${requestedAvailability.statusCode}.` : "";
+    const message = requestedAvailability.errorMessage ? ` ${requestedAvailability.errorMessage}` : "";
+    throw new Error(`Runway provider unavailable.${status}${message}`);
+  }
+
   const fallbackName = config.fallbackProvider || "mock";
   const fallback = createProvider(fallbackName, config);
   const fallbackAvailability = await fallback.isAvailable();
@@ -107,6 +113,14 @@ async function renderAiStoryboard(options) {
   if (providerChoice.fallbackReason) {
     console.log(`Provider fallback: ${providerChoice.fallbackReason}`);
   }
+  if (providerChoice.provider.name === "runway") {
+    const auth = providerChoice.availability || {};
+    console.log(`Runway authentication: success HTTP ${auth.statusCode || "unknown"}`);
+    if (auth.organization) {
+      const tier = auth.organization.tier || auth.organization.usageTier || auth.organization.plan || "unknown";
+      console.log(`Runway organization/workspace: tier=${tier}`);
+    }
+  }
   sceneObjects.scenes.forEach((scene) => {
     console.log(
       `Scene ${scene.number}: ${scene.id} duration=${scene.duration}s camera=${scene.camera} characters=${scene.characters
@@ -134,6 +148,9 @@ async function renderAiStoryboard(options) {
       rendered.push(await activeProvider.renderScene(request));
     } catch (error) {
       if (activeProvider.name === "mock") throw error;
+      if (activeProvider.name === "runway") {
+        throw new Error(`Runway render failed without mock fallback: ${error.message}`);
+      }
       fallbackReason = `${activeProvider.name} render failed: ${error.message}`;
       console.log(`Provider fallback: ${fallbackReason}`);
       activeProvider = createProvider(aiConfig.fallbackProvider || "mock", aiConfig);

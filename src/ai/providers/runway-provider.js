@@ -10,6 +10,15 @@ function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+class RunwayApiError extends Error {
+  constructor(message, statusCode, body) {
+    super(message);
+    this.name = "RunwayApiError";
+    this.statusCode = statusCode;
+    this.body = body;
+  }
+}
+
 function requestJson(method, url, body, apiKey) {
   const parsed = new URL(url);
   const payload = body ? JSON.stringify(body) : null;
@@ -46,10 +55,19 @@ function requestJson(method, url, body, apiKey) {
           }
         }
         if (res.statusCode < 200 || res.statusCode >= 300) {
-          reject(new Error(`Runway API ${method} ${url} failed with ${res.statusCode}: ${JSON.stringify(parsedBody)}`));
+          reject(
+            new RunwayApiError(
+              `Runway API ${method} ${url} failed with ${res.statusCode}: ${JSON.stringify(parsedBody)}`,
+              res.statusCode,
+              parsedBody
+            )
+          );
           return;
         }
-        resolve(parsedBody);
+        resolve({
+          statusCode: res.statusCode,
+          body: parsedBody
+        });
       });
     });
     req.on("error", reject);
@@ -102,7 +120,36 @@ class RunwayProvider extends AiProvider {
     if (!this.apiKey()) {
       return { ok: false, reason: "RUNWAY_API_KEY is not set." };
     }
-    return { ok: true, reason: "RUNWAY_API_KEY is present; provider will attempt Runway API calls." };
+    return this.validateAuthentication();
+  }
+
+  async validateAuthentication() {
+    const apiKey = this.apiKey();
+    if (!apiKey) {
+      return {
+        ok: false,
+        statusCode: null,
+        reason: "RUNWAY_API_KEY is not set.",
+        errorMessage: "Missing RUNWAY_API_KEY"
+      };
+    }
+    try {
+      const response = await requestJson("GET", `${RUNWAY_API_BASE}/organization`, null, apiKey);
+      return {
+        ok: true,
+        statusCode: response.statusCode,
+        reason: "Runway authentication succeeded.",
+        organization: response.body
+      };
+    } catch (error) {
+      return {
+        ok: false,
+        statusCode: error.statusCode || null,
+        reason: "Runway authentication failed.",
+        errorMessage: error.message,
+        response: error.body || null
+      };
+    }
   }
 
   async renderScene(request) {
@@ -117,7 +164,8 @@ class RunwayProvider extends AiProvider {
       ratio: this.config.ratio || "1280:720",
       duration: Math.min(10, Math.max(5, Math.round(request.scene.duration || 5)))
     };
-    const created = await requestJson("POST", `${RUNWAY_API_BASE}/text_to_video`, body, apiKey);
+    const createdResponse = await requestJson("POST", `${RUNWAY_API_BASE}/text_to_video`, body, apiKey);
+    const created = createdResponse.body;
     const taskId = created.id || created.taskId;
     if (!taskId) {
       throw new Error(`Runway response did not include a task id: ${JSON.stringify(created)}`);
@@ -127,7 +175,8 @@ class RunwayProvider extends AiProvider {
     const started = Date.now();
     let task = created;
     while (Date.now() - started < timeoutMs) {
-      task = await requestJson("GET", `${RUNWAY_API_BASE}/tasks/${encodeURIComponent(taskId)}`, null, apiKey);
+      const taskResponse = await requestJson("GET", `${RUNWAY_API_BASE}/tasks/${encodeURIComponent(taskId)}`, null, apiKey);
+      task = taskResponse.body;
       const status = String(task.status || "").toUpperCase();
       if (["SUCCEEDED", "SUCCESS", "COMPLETED"].includes(status)) {
         const url = taskOutputUrl(task);
@@ -153,6 +202,7 @@ class RunwayProvider extends AiProvider {
 
 module.exports = {
   RunwayProvider,
+  RunwayApiError,
   RUNWAY_API_BASE,
   RUNWAY_VERSION
 };

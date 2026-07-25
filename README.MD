@@ -54,8 +54,9 @@ output/zeus-story-speech-v2.mp4
 
 ## Experimental AI Renderer
 
-The Blender backend remains the production renderer. An experimental AI backend
-now sits beside it behind a renderer/provider interface:
+Blender remains the existing production renderer. This change adds an
+experimental AI renderer alongside it and does not replace or modify the Blender
+rendering flow. The AI backend sits behind a renderer/provider interface:
 
 ```text
 Storyboard JSON -> scene objects -> PromptBuilder -> AiProvider -> FFmpeg editor
@@ -75,11 +76,15 @@ cp .env.example .env
 
 The default provider in `ai-renderer.config.json` is `mock` so the commands
 below are deterministic and do not spend cloud credits. Set `ai.provider` to
-`runway` when you want to use Runway. When `RUNWAY_API_KEY` is present, the
-`runway` provider submits text-to-video scene prompts to Runway. When it is
-missing or unavailable, the runner falls back to the deterministic local `mock`
-provider so the full architecture, FFmpeg edit pass, subtitles, audio, and
-verification can still run without cloud credentials.
+`runway` when you want to use Runway. In Runway mode, the runner first validates
+`RUNWAY_API_KEY` with an authenticated `GET /v1/organization` request, reports
+the HTTP status and any API error, submits real text-to-video scene jobs, polls
+until completion, downloads the clips, and feeds them into the shared FFmpeg
+pipeline. If Runway authentication or generation fails, Runway mode stops with a
+clear blocker instead of switching to `mock`.
+
+Use `mock` directly when you want to test the AI architecture, prompt building,
+FFmpeg edit pass, subtitles, audio, and verification without cloud credentials.
 
 ```bash
 npm run ai:preview
