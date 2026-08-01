@@ -1,0 +1,175 @@
+{
+  "mythId": "bulk-myth-0006",
+  "mythFamilyId": "addison",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-addison-2c48c0",
+  "title": "Addison.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:46.46.1-46.46.1:605c0220",
+      "gutenberg:ebooks:39250:46.46.2-46.46.2:a95e4cbe",
+      "gutenberg:ebooks:39250:46.46.3-46.46.3:596e84a5",
+      "gutenberg:ebooks:39250:46.46.4-46.46.4:8f7b1405",
+      "gutenberg:ebooks:39250:46.46.5-46.46.5:ae10e0df",
+      "gutenberg:ebooks:39250:46.46.6-46.46.6:430431a0",
+      "gutenberg:ebooks:39250:46.46.7-46.46.7:e8c3c7e3",
+      "gutenberg:ebooks:39250:46.46.8-46.46.8:5c234a07"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "atlas",
+      "roman-jupiter",
+      "roman-neptune",
+      "roman-pluto",
+      "prometheus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Atlas",
+      "normalizedId": "atlas",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:46.46.1-46.46.1:605c0220"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:46.46.1-46.46.1:605c0220"
+        }
+      ]
+    },
+    {
+      "sourceName": "Neptune",
+      "normalizedId": "roman-neptune",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:46.46.1-46.46.1:605c0220"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pluto",
+      "normalizedId": "roman-pluto",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:46.46.1-46.46.1:605c0220"
+        }
+      ]
+    },
+    {
+      "sourceName": "Prometheus",
+      "normalizedId": "prometheus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:46.46.1-46.46.1:605c0220"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "atlas",
+      "predicate": "is introduced in",
+      "object": "Addison.",
+      "evidence": [
+        "gutenberg:ebooks:39250:46.46.1-46.46.1:605c0220"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "roman-jupiter",
+      "action": "defeat",
+      "sourceAction": "conquered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:46.46.1-46.46.1:605c0220"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:46.46.2-46.46.2:a95e4cbe"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "roman-neptune",
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:46.46.3-46.46.3:596e84a5"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "atlas",
+      "predicate": "is last attested in selected candidate",
+      "object": "Addison.",
+      "evidence": [
+        "gutenberg:ebooks:39250:46.46.8-46.46.8:5c234a07"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

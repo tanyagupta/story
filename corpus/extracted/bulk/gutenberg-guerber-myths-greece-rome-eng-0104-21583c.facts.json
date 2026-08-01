@@ -1,0 +1,112 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0104-21583c",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Helios",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "helios",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "was",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "gave",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:104.104.2-104.104.2:49329cd0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:104.104.3-104.104.3:17baff1f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "is introduced in",
+      "object": "Moore.",
+      "evidence": [
+        "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "is last attested in selected candidate",
+      "object": "Moore.",
+      "evidence": [
+        "gutenberg:ebooks:39250:104.104.6-104.104.6:40358324"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

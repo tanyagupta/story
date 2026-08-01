@@ -52,6 +52,7 @@ npm run corpus:normalize -- --facts corpus/extracted/example.entities-normalized
 npm run corpus:validate -- --manifests corpus/manifests/example.json --passages corpus/passages/example.passages.json --candidates corpus/candidates/example.candidate.json --registries corpus/normalized/entity-registry.json --extracted corpus/extracted/example.facts.json --myths corpus/normalized/example.myth.json --out corpus/review/example.validation.json
 npm run corpus:run
 npm run corpus:real
+npm run corpus:bulk
 npm run test:corpus
 ```
 
@@ -75,6 +76,13 @@ corpus/normalized/homeric-hymn-7-dionysus.myth.json
 corpus/review/homeric-hymn-23-zeus.review.json
 corpus/review/homeric-hymn-7-dionysus.review.json
 corpus/review/real-sources.validation-report.json
+```
+
+`npm run corpus:bulk` rebuilds the public-domain compilation layer from locally committed Project Gutenberg text files. It verifies raw checksums, creates deterministic derived TEI files, extracts passages, segments candidate episodes from source structure, updates the inventory, writes duplicate/variant and review reports, and produces 50 conservative normalized production records. It accepts selectors and limits:
+
+```bash
+npm run corpus:bulk -- --source-id 39250
+npm run corpus:bulk -- --limit 25
 ```
 
 ## TEI Support
@@ -170,4 +178,52 @@ Current limitations:
 - Real-source semantic extraction is curated and deterministic, not a general Greek NLP extractor.
 - Greek and English witness alignment is evidence-based but not a full critical alignment model.
 - Review queues are JSON only; there is no review UI.
+```
+
+## Public-Domain Compilation Layer
+
+A public-domain retelling is not an ancient textual witness.
+
+Multiple retellings of the same myth remain separate source variants.
+
+The corpus subsystem is not connected to story generation or rendering.
+
+The bulk layer currently ingests three Project Gutenberg mythology compilations:
+
+```text
+H. A. Guerber, Myths of Greece and Rome, Project Gutenberg #39250
+E. M. Berens, Myths and Legends of Ancient Greece and Rome, Project Gutenberg #22381
+Emilie K. Baker, Stories of Old Greece and Rome, Project Gutenberg #45489
+```
+
+Each raw UTF-8 text file is preserved unchanged under `corpus/sources/raw/gutenberg/`. The runner removes Project Gutenberg boilerplate only in deterministic derived TEI files under `corpus/sources/derived/`; it does not rewrite, modernize, summarize, or paraphrase the source prose. The manifests record ebook number, release/update dates where available, original publication year, source URL, retrieval date, Project Gutenberg License/public-domain basis in the United States, raw checksum, and derived conversion metadata.
+
+Candidate segmentation uses source structure first: headings, chapters, explicit section breaks, and non-story markers. Tables of contents, prefaces, illustration captions, indexes, footnotes, and other publishing matter are retained in the inventory as non-story material rather than treated as production episodes.
+
+The current batch output is:
+
+```text
+total passages: 6292
+total candidate sections: 917
+valid narrative candidates: 316
+non-story candidates: 601
+fully normalized records: 50
+approved records: 50
+open review items: probable duplicate and ambiguous family review queues
+```
+
+The normalized production records are conservative automatic records. They preserve source provenance, candidate boundaries, evidence references, source-derived entity mappings, initial/final state placeholders tied to evidence, and ordered source-supported events. The batch runner does not synthesize a canonical narrative across books; overlapping retellings are grouped by myth family and kept as distinct source variants.
+
+Bulk outputs are written to:
+
+```text
+corpus/catalog/myth-inventory.json
+corpus/catalog/bulk-ingestion-summary.json
+corpus/catalog/duplicate-and-variant-report.json
+corpus/catalog/source-coverage-report.json
+corpus/candidates/bulk/
+corpus/extracted/bulk/
+corpus/normalized/bulk/
+corpus/review/bulk-validation-report.json
+corpus/review/open-review-items.json
 ```

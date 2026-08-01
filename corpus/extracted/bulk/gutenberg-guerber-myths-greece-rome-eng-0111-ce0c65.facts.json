@@ -1,0 +1,98 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0111-ce0c65",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Midas",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "midas",
+      "sourceAction": "was",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "was",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:111.111.2-111.111.2:ba01a8e7"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": "midas",
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "midas",
+      "predicate": "is introduced in",
+      "object": "Swift.",
+      "evidence": [
+        "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "midas",
+      "predicate": "is last attested in selected candidate",
+      "object": "Swift.",
+      "evidence": [
+        "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

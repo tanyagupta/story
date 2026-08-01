@@ -1,0 +1,140 @@
+{
+  "mythId": "bulk-myth-0019",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-1ae06a",
+  "title": "Keats.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:100.100.1-100.100.1:6f089fb9",
+      "gutenberg:ebooks:39250:100.100.2-100.100.2:7a0b6c62",
+      "gutenberg:ebooks:39250:100.100.3-100.100.3:9cd578a2",
+      "gutenberg:ebooks:39250:100.100.4-100.100.4:1f22c65d",
+      "gutenberg:ebooks:39250:100.100.5-100.100.5:06b0e244",
+      "gutenberg:ebooks:39250:100.100.6-100.100.6:e50629e8"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "daphne"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:100.100.1-100.100.1:6f089fb9"
+        }
+      ]
+    },
+    {
+      "sourceName": "Daphne",
+      "normalizedId": "daphne",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:100.100.1-100.100.1:6f089fb9"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "is introduced in",
+      "object": "Keats.",
+      "evidence": [
+        "gutenberg:ebooks:39250:100.100.1-100.100.1:6f089fb9"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "apollo",
+      "action": "defeat",
+      "sourceAction": "killed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:100.100.1-100.100.1:6f089fb9"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "apollo",
+      "action": "transform",
+      "sourceAction": "changed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:100.100.2-100.100.2:7a0b6c62"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "apollo",
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:100.100.3-100.100.3:9cd578a2"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "is last attested in selected candidate",
+      "object": "Keats.",
+      "evidence": [
+        "gutenberg:ebooks:39250:100.100.6-100.100.6:e50629e8"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

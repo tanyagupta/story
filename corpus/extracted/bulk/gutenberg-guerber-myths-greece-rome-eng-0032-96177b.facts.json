@@ -1,0 +1,83 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0032-96177b",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "was",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:32.32.1-32.32.1:8179ba06"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:32.32.2-32.32.2:f49d10a8"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "was",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:32.32.3-32.32.3:7dfa5ce8"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "source-section",
+      "predicate": "is introduced in",
+      "object": "That he might sheltering compass her around",
+      "evidence": [
+        "gutenberg:ebooks:39250:32.32.1-32.32.1:8179ba06"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "source-section",
+      "predicate": "is last attested in selected candidate",
+      "object": "That he might sheltering compass her around",
+      "evidence": [
+        "gutenberg:ebooks:39250:32.32.11-32.32.11:8966478f"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

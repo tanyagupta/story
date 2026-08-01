@@ -1,0 +1,66 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0088-853965",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "was",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "had",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:88.88.2-88.88.2:176e8b5e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "source-section",
+      "predicate": "is introduced in",
+      "object": "Coronis through the heart.",
+      "evidence": [
+        "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "source-section",
+      "predicate": "is last attested in selected candidate",
+      "object": "Coronis through the heart.",
+      "evidence": [
+        "gutenberg:ebooks:39250:88.88.2-88.88.2:176e8b5e"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

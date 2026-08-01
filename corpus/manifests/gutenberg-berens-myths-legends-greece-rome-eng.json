@@ -1,0 +1,41 @@
+{
+  "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "repository": "Project Gutenberg",
+  "commit": "Project Gutenberg eBook #22381; release 2007-08-23",
+  "file": "https://www.gutenberg.org/ebooks/22381.txt.utf-8",
+  "canonicalIdentifier": "gutenberg:ebooks:22381",
+  "language": "eng",
+  "author": "E. M. Berens",
+  "work": "Myths and Legends of Ancient Greece and Rome",
+  "edition": "Project Gutenberg UTF-8 plain-text edition of Myths and Legends of Ancient Greece and Rome",
+  "translator": null,
+  "publicationDate": null,
+  "license": "Project Gutenberg License; public-domain basis in the United States",
+  "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+  "retrievedAt": "2026-08-01T00:00:00Z",
+  "sourceType": "public-domain-retelling",
+  "downloadFormat": "text/plain; charset=utf-8",
+  "projectGutenbergEbook": "22381",
+  "releaseDate": "2007-08-23",
+  "updatedDate": null,
+  "publicationDateNotes": "The downloaded Project Gutenberg text lists the New York Maynard, Merrill, & Co. title page but does not state an original publication year in the inspected header/title-page metadata.",
+  "transformationNotes": "Raw source is preserved unchanged. Project Gutenberg boilerplate is excluded only from the derived TEI used for passage extraction.",
+  "licensingNotes": "Project Gutenberg identifies this ebook as public domain for use in the United States under the Project Gutenberg License. Users outside the United States should check local law.",
+  "rawSource": {
+    "path": "corpus/sources/raw/gutenberg/berens-myths-legends-ancient-greece-rome-22381.txt",
+    "checksumAlgorithm": "sha256",
+    "checksum": "d9aa9c3742d2a9b7a058713e8067c9908a0129066d1f6bb1ea5c75bdb8076b6b"
+  },
+  "derivedSource": {
+    "path": "corpus/sources/derived/gutenberg-berens-myths-legends-greece-rome-eng.tei.xml",
+    "checksumAlgorithm": "sha256",
+    "checksum": "aa8ffd189f4e8a9aa7db1369aefe10fc9c19e3d15af19be8b1690e48d59ef59f",
+    "conversionVersion": "bulk-gutenberg-tei-v1",
+    "deterministicRules": [
+      "Project Gutenberg boilerplate between START and END markers is excluded from derived body.",
+      "Heading-like source lines create TEI div boundaries.",
+      "Non-heading contiguous text lines form TEI paragraph elements.",
+      "Original wording is preserved; line wrapping may be normalized inside paragraph elements."
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0169-3db3d9",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Venus",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-jupiter",
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": "roman-venus",
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-jupiter",
+      "predicate": "is introduced in",
+      "object": "Spenser.",
+      "evidence": [
+        "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-jupiter",
+      "predicate": "is last attested in selected candidate",
+      "object": "Spenser.",
+      "evidence": [
+        "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

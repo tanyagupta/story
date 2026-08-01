@@ -1,0 +1,112 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0100-38de09",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:100.100.1-100.100.1:6f089fb9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Daphne",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:100.100.1-100.100.1:6f089fb9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "daphne",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "apollo",
+      "sourceAction": "killed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:100.100.1-100.100.1:6f089fb9"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": "apollo",
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:100.100.2-100.100.2:7a0b6c62"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": "apollo",
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:100.100.3-100.100.3:9cd578a2"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "is introduced in",
+      "object": "Keats.",
+      "evidence": [
+        "gutenberg:ebooks:39250:100.100.1-100.100.1:6f089fb9"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "is last attested in selected candidate",
+      "object": "Keats.",
+      "evidence": [
+        "gutenberg:ebooks:39250:100.100.6-100.100.6:e50629e8"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

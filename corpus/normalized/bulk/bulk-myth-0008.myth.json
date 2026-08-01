@@ -1,0 +1,162 @@
+{
+  "mythId": "bulk-myth-0008",
+  "mythFamilyId": "prometheus",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-prometheus-1ac0a6",
+  "title": "Longfellow.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:51.51.1-51.51.1:52c78af7",
+      "gutenberg:ebooks:39250:51.51.2-51.51.2:e6013d67",
+      "gutenberg:ebooks:39250:51.51.3-51.51.3:d52fa56a",
+      "gutenberg:ebooks:39250:51.51.4-51.51.4:233d74b8",
+      "gutenberg:ebooks:39250:51.51.5-51.51.5:1d273751",
+      "gutenberg:ebooks:39250:51.51.6-51.51.6:427d29b3"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-hercules",
+      "roman-jupiter",
+      "pandora",
+      "prometheus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Hercules",
+      "normalizedId": "roman-hercules",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:51.51.1-51.51.1:52c78af7"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:51.51.1-51.51.1:52c78af7"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pandora",
+      "normalizedId": "pandora",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:51.51.1-51.51.1:52c78af7"
+        }
+      ]
+    },
+    {
+      "sourceName": "Prometheus",
+      "normalizedId": "prometheus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:51.51.1-51.51.1:52c78af7"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "roman-hercules",
+      "predicate": "is introduced in",
+      "object": "Longfellow.",
+      "evidence": [
+        "gutenberg:ebooks:39250:51.51.1-51.51.1:52c78af7"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "roman-jupiter",
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:51.51.1-51.51.1:52c78af7"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:51.51.2-51.51.2:e6013d67"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "prometheus",
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:51.51.3-51.51.3:d52fa56a"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-hercules",
+      "predicate": "is last attested in selected candidate",
+      "object": "Longfellow.",
+      "evidence": [
+        "gutenberg:ebooks:39250:51.51.6-51.51.6:427d29b3"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

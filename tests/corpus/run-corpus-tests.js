@@ -66,6 +66,10 @@ function runRealSources() {
   childProcess.execFileSync(process.execPath, [path.join(root, "src/corpus/corpus-real-runner.js")], { cwd: root, stdio: "pipe" });
 }
 
+function runBulkSources() {
+  childProcess.execFileSync(process.execPath, [path.join(root, "src/corpus/corpus-bulk-runner.js")], { cwd: root, stdio: "pipe" });
+}
+
 test("extracts TEI metadata, checksum, and prose passages", () => {
   const files = runOne("prose");
   const manifest = readJson(files.manifest);
@@ -345,6 +349,64 @@ test("complete real-source runner succeeds offline and is deterministic", () => 
   const after = files.map(hashFile);
   assert.deepStrictEqual(before, after);
   assert.strictEqual(readJson(path.join(root, "corpus/review/real-sources.validation-report.json")).valid, true);
+});
+
+test("bulk Project Gutenberg runner preserves raw sources and excludes boilerplate", () => {
+  const rawFile = path.join(root, "corpus/sources/raw/gutenberg/guerber-myths-greece-rome-39250.txt");
+  const before = hashFile(rawFile);
+  runBulkSources();
+  const after = hashFile(rawFile);
+  const passages = readJson(path.join(root, "corpus/passages/gutenberg-guerber-myths-greece-rome-eng.passages.json"));
+  const joined = passages.passages.slice(0, 20).map((passage) => passage.text).join(" ");
+  assert.strictEqual(before, after);
+  assert.ok(passages.passages.length > 0);
+  assert.ok(!joined.includes("Project Gutenberg License"));
+  assert.ok(!joined.includes("START OF THIS PROJECT GUTENBERG"));
+});
+
+test("bulk derived TEI preserves source wording and is deterministic", () => {
+  runBulkSources();
+  const derivedFile = path.join(root, "corpus/sources/derived/gutenberg-baker-stories-old-greece-rome-eng.tei.xml");
+  const before = hashFile(derivedFile);
+  const derived = fs.readFileSync(derivedFile, "utf8");
+  assert.ok(derived.includes("STORIES OF OLD GREECE AND ROME"));
+  runBulkSources();
+  const after = hashFile(derivedFile);
+  assert.strictEqual(before, after);
+});
+
+test("bulk inventory meets candidate and production targets", () => {
+  runBulkSources();
+  const inventory = readJson(path.join(root, "corpus/catalog/myth-inventory.json"));
+  const summary = readJson(path.join(root, "corpus/catalog/bulk-ingestion-summary.json"));
+  const validation = readJson(path.join(root, "corpus/review/bulk-validation-report.json"));
+  assert.strictEqual(validation.valid, true);
+  assert.ok(summary.validNarrativeCandidates >= 100);
+  assert.ok(summary.fullyNormalizedRecords >= 50);
+  assert.strictEqual(summary.approvedRecords, 50);
+  assert.ok(inventory.entries.some((entry) => entry.candidateType === "non_story_material"));
+  assert.ok(inventory.entries.every((entry) => entry.passageIds.length > 0));
+});
+
+test("bulk variants remain separate and probable duplicates are queued", () => {
+  runBulkSources();
+  const duplicates = readJson(path.join(root, "corpus/catalog/duplicate-and-variant-report.json"));
+  const review = readJson(path.join(root, "corpus/review/open-review-items.json"));
+  assert.ok(duplicates.distinctSourceVariants.length > 0);
+  assert.ok(duplicates.probableDuplicates.length > 0);
+  assert.ok(review.items.some((item) => item.issueType === "probable-duplicate"));
+});
+
+test("bulk production records have evidence and preserve event order", () => {
+  runBulkSources();
+  const mythFiles = fs.readdirSync(path.join(root, "corpus/normalized/bulk")).filter((file) => file.endsWith(".myth.json")).sort();
+  assert.ok(mythFiles.length >= 50);
+  mythFiles.slice(0, 50).forEach((file) => {
+    const myth = readJson(path.join(root, "corpus/normalized/bulk", file));
+    assert.strictEqual(myth.reviewStatus, "approved");
+    assert.ok(myth.events.every((event) => event.evidence && event.evidence.length));
+    assert.deepStrictEqual(myth.events.map((event) => event.eventId), myth.events.map((event, index) => `event-${String(index + 1).padStart(3, "0")}`));
+  });
 });
 
 fs.rmSync(tempRoot, { recursive: true, force: true });

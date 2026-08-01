@@ -1,0 +1,98 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0180-185da4",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Venus",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-venus",
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "was",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:180.180.2-180.180.2:c362d486"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "was",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-venus",
+      "predicate": "is introduced in",
+      "object": "Landon.",
+      "evidence": [
+        "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-venus",
+      "predicate": "is last attested in selected candidate",
+      "object": "Landon.",
+      "evidence": [
+        "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

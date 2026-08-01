@@ -1,0 +1,138 @@
+{
+  "mythId": "bulk-myth-0032",
+  "mythFamilyId": "worsley",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-worsley-c1c5c0",
+  "title": "Worsley.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd",
+      "gutenberg:ebooks:39250:137.137.2-137.137.2:719193d5",
+      "gutenberg:ebooks:39250:137.137.3-137.137.3:80eda73e",
+      "gutenberg:ebooks:39250:137.137.4-137.137.4:1af30029"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "roman-jupiter"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "is introduced in",
+      "object": "Worsley.",
+      "evidence": [
+        "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "transformed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "assist",
+      "sourceAction": "gave",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:137.137.2-137.137.2:719193d5"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "changed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:137.137.3-137.137.3:80eda73e"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "is last attested in selected candidate",
+      "object": "Worsley.",
+      "evidence": [
+        "gutenberg:ebooks:39250:137.137.4-137.137.4:1af30029"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

@@ -1,0 +1,154 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0070-6fd164",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Callisto",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "callisto",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Juno",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-juno",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Mercury",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Vulcan",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-vulcan",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-juno",
+      "sourceAction": "seized",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": "roman-juno",
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.2-70.70.2:3978e35b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "was",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.3-70.70.3:629ffe27"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "callisto",
+      "predicate": "is introduced in",
+      "object": "JUNO.",
+      "evidence": [
+        "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "callisto",
+      "predicate": "is last attested in selected candidate",
+      "object": "JUNO.",
+      "evidence": [
+        "gutenberg:ebooks:39250:70.70.12-70.70.12:3ef721e2"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

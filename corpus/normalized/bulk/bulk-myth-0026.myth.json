@@ -1,0 +1,126 @@
+{
+  "mythId": "bulk-myth-0026",
+  "mythFamilyId": "midas",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-midas-238688",
+  "title": "Swift.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2",
+      "gutenberg:ebooks:39250:111.111.2-111.111.2:ba01a8e7",
+      "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "midas"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Midas",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "midas",
+      "predicate": "is introduced in",
+      "object": "Swift.",
+      "evidence": [
+        "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "midas",
+      "action": "describe",
+      "sourceAction": "was",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "was",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:111.111.2-111.111.2:ba01a8e7"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "midas",
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "midas",
+      "predicate": "is last attested in selected candidate",
+      "object": "Swift.",
+      "evidence": [
+        "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

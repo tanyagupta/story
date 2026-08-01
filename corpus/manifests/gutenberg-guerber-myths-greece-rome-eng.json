@@ -1,0 +1,41 @@
+{
+  "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "repository": "Project Gutenberg",
+  "commit": "Project Gutenberg eBook #39250; release 2012-03-25",
+  "file": "https://www.gutenberg.org/files/39250/39250-0.txt",
+  "canonicalIdentifier": "gutenberg:ebooks:39250",
+  "language": "eng",
+  "author": "H. A. Guerber",
+  "work": "Myths of Greece and Rome",
+  "edition": "Project Gutenberg UTF-8 plain-text edition of Myths of Greece and Rome",
+  "translator": null,
+  "publicationDate": "1893",
+  "license": "Project Gutenberg License; public-domain basis in the United States",
+  "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+  "retrievedAt": "2026-08-01T00:00:00Z",
+  "sourceType": "public-domain-retelling",
+  "downloadFormat": "text/plain; charset=utf-8",
+  "projectGutenbergEbook": "39250",
+  "releaseDate": "2012-03-25",
+  "updatedDate": null,
+  "publicationDateNotes": null,
+  "transformationNotes": "Raw source is preserved unchanged. Project Gutenberg boilerplate is excluded only from the derived TEI used for passage extraction.",
+  "licensingNotes": "Project Gutenberg identifies this ebook as public domain for use in the United States under the Project Gutenberg License. Users outside the United States should check local law.",
+  "rawSource": {
+    "path": "corpus/sources/raw/gutenberg/guerber-myths-greece-rome-39250.txt",
+    "checksumAlgorithm": "sha256",
+    "checksum": "6c6a687319da2e96ae22c00b65654ef5e7dc0fb6a9bbc5fb031b0f9cdafe9c7f"
+  },
+  "derivedSource": {
+    "path": "corpus/sources/derived/gutenberg-guerber-myths-greece-rome-eng.tei.xml",
+    "checksumAlgorithm": "sha256",
+    "checksum": "a6b32a0b3f79afd19c0489d134b8ac07d4ec0107a6fc93c63425829b8ac75762",
+    "conversionVersion": "bulk-gutenberg-tei-v1",
+    "deterministicRules": [
+      "Project Gutenberg boilerplate between START and END markers is excluded from derived body.",
+      "Heading-like source lines create TEI div boundaries.",
+      "Non-heading contiguous text lines form TEI paragraph elements.",
+      "Original wording is preserved; line wrapping may be normalized inside paragraph elements."
+    ]
+  }
+}

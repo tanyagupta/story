@@ -1,0 +1,156 @@
+{
+  "mythId": "bulk-myth-0034",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-51939d",
+  "title": "Byron.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:150.150.1-150.150.1:82d9726e",
+      "gutenberg:ebooks:39250:150.150.2-150.150.2:59c444ac",
+      "gutenberg:ebooks:39250:150.150.3-150.150.3:4345e0c3",
+      "gutenberg:ebooks:39250:150.150.4-150.150.4:f65e2950",
+      "gutenberg:ebooks:39250:150.150.5-150.150.5:cae51f69",
+      "gutenberg:ebooks:39250:150.150.6-150.150.6:60215cb6",
+      "gutenberg:ebooks:39250:150.150.7-150.150.7:77f9923b",
+      "gutenberg:ebooks:39250:150.150.8-150.150.8:79f03266",
+      "gutenberg:ebooks:39250:150.150.9-150.150.9:31728dcc",
+      "gutenberg:ebooks:39250:150.150.10-150.150.10:5bc8167c",
+      "gutenberg:ebooks:39250:150.150.11-150.150.11:000bec77"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "roman-diana",
+      "niobe"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:150.150.1-150.150.1:82d9726e"
+        }
+      ]
+    },
+    {
+      "sourceName": "Diana",
+      "normalizedId": "roman-diana",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:150.150.1-150.150.1:82d9726e"
+        }
+      ]
+    },
+    {
+      "sourceName": "Niobe",
+      "normalizedId": "niobe",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:150.150.1-150.150.1:82d9726e"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "is introduced in",
+      "object": "Byron.",
+      "evidence": [
+        "gutenberg:ebooks:39250:150.150.1-150.150.1:82d9726e"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:150.150.1-150.150.1:82d9726e"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "apollo",
+      "action": "describe",
+      "sourceAction": "had",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:150.150.2-150.150.2:59c444ac"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "niobe",
+      "action": "describe",
+      "sourceAction": "was",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:150.150.3-150.150.3:4345e0c3"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "is last attested in selected candidate",
+      "object": "Byron.",
+      "evidence": [
+        "gutenberg:ebooks:39250:150.150.11-150.150.11:000bec77"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

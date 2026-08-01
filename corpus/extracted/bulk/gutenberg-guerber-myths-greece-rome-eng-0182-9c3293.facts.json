@@ -1,0 +1,83 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0182-9c3293",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "went",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "had",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "source-section",
+      "predicate": "is introduced in",
+      "object": "Edwin Arnold.",
+      "evidence": [
+        "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "source-section",
+      "predicate": "is last attested in selected candidate",
+      "object": "Edwin Arnold.",
+      "evidence": [
+        "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

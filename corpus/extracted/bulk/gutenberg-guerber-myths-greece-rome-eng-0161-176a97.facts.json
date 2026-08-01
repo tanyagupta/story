@@ -1,0 +1,98 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0161-176a97",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Diana",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:161.161.1-161.161.1:8520510a"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-diana",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:161.161.1-161.161.1:8520510a"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": "roman-diana",
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:161.161.2-161.161.2:b63df615"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": "roman-diana",
+      "sourceAction": "caught",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:161.161.3-161.161.3:0d9095bb"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-diana",
+      "predicate": "is introduced in",
+      "object": "Lewis Morris.",
+      "evidence": [
+        "gutenberg:ebooks:39250:161.161.1-161.161.1:8520510a"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-diana",
+      "predicate": "is last attested in selected candidate",
+      "object": "Lewis Morris.",
+      "evidence": [
+        "gutenberg:ebooks:39250:161.161.6-161.161.6:707aa458"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

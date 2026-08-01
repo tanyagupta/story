@@ -1,0 +1,140 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0117-5d39c0",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Hades",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Orpheus",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "orpheus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Pluto",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-pluto",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-jupiter",
+      "sourceAction": "wandered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "warned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:117.117.2-117.117.2:bac1f913"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": "hades",
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:117.117.3-117.117.3:c5e95095"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hades",
+      "predicate": "is introduced in",
+      "object": "Orpheus broken-hearted.",
+      "evidence": [
+        "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hades",
+      "predicate": "is last attested in selected candidate",
+      "object": "Orpheus broken-hearted.",
+      "evidence": [
+        "gutenberg:ebooks:39250:117.117.4-117.117.4:a071a73e"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

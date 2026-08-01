@@ -1,0 +1,152 @@
+{
+  "mythId": "bulk-myth-0011",
+  "mythFamilyId": "europa",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-europa-3abdfc",
+  "title": "Shakespeare.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:64.64.1-64.64.1:a980c3e5",
+      "gutenberg:ebooks:39250:64.64.2-64.64.2:d4a933bf",
+      "gutenberg:ebooks:39250:64.64.3-64.64.3:6af5fe68",
+      "gutenberg:ebooks:39250:64.64.4-64.64.4:45d3b359",
+      "gutenberg:ebooks:39250:64.64.5-64.64.5:72dbead5",
+      "gutenberg:ebooks:39250:64.64.6-64.64.6:0674dc38",
+      "gutenberg:ebooks:39250:64.64.7-64.64.7:5ca61e04"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "cadmus",
+      "europa",
+      "roman-jupiter"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Cadmus",
+      "normalizedId": "cadmus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:64.64.1-64.64.1:a980c3e5"
+        }
+      ]
+    },
+    {
+      "sourceName": "Europa",
+      "normalizedId": "europa",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:64.64.1-64.64.1:a980c3e5"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:64.64.1-64.64.1:a980c3e5"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "cadmus",
+      "predicate": "is introduced in",
+      "object": "Shakespeare.",
+      "evidence": [
+        "gutenberg:ebooks:39250:64.64.1-64.64.1:a980c3e5"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "cadmus",
+      "action": "describe",
+      "sourceAction": "was",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:64.64.1-64.64.1:a980c3e5"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:64.64.2-64.64.2:d4a933bf"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "had",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:64.64.3-64.64.3:6af5fe68"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "cadmus",
+      "predicate": "is last attested in selected candidate",
+      "object": "Shakespeare.",
+      "evidence": [
+        "gutenberg:ebooks:39250:64.64.7-64.64.7:5ca61e04"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

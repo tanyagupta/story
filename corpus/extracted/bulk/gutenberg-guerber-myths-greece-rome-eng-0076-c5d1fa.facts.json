@@ -1,0 +1,154 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0076-c5d1fa",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Arachne",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "arachne",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Europa",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "europa",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Minerva",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-minerva",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Neptune",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-neptune",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-minerva",
+      "sourceAction": "seized",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:76.76.2-76.76.2:f136ac88"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:76.76.3-76.76.3:180b680d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "arachne",
+      "predicate": "is introduced in",
+      "object": "Pope.",
+      "evidence": [
+        "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "arachne",
+      "predicate": "is last attested in selected candidate",
+      "object": "Pope.",
+      "evidence": [
+        "gutenberg:ebooks:39250:76.76.14-76.76.14:977cdcef"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

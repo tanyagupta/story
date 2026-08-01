@@ -1,0 +1,140 @@
+{
+  "mythId": "bulk-myth-0044",
+  "mythFamilyId": "trojan-war",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-8b32a7",
+  "title": "Lewis Morris.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:175.175.1-175.175.1:686e86cb",
+      "gutenberg:ebooks:39250:175.175.2-175.175.2:ff070c83",
+      "gutenberg:ebooks:39250:175.175.3-175.175.3:6b6be0f1",
+      "gutenberg:ebooks:39250:175.175.4-175.175.4:654847be",
+      "gutenberg:ebooks:39250:175.175.5-175.175.5:c39794ca",
+      "gutenberg:ebooks:39250:175.175.6-175.175.6:761a06f4"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-jupiter",
+      "roman-venus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:175.175.1-175.175.1:686e86cb"
+        }
+      ]
+    },
+    {
+      "sourceName": "Venus",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:175.175.1-175.175.1:686e86cb"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "roman-jupiter",
+      "predicate": "is introduced in",
+      "object": "Lewis Morris.",
+      "evidence": [
+        "gutenberg:ebooks:39250:175.175.1-175.175.1:686e86cb"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "roman-venus",
+      "action": "love",
+      "sourceAction": "loved",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:175.175.1-175.175.1:686e86cb"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "roman-jupiter",
+      "action": "reveal",
+      "sourceAction": "revealed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:175.175.2-175.175.2:ff070c83"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:175.175.3-175.175.3:6b6be0f1"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-jupiter",
+      "predicate": "is last attested in selected candidate",
+      "object": "Lewis Morris.",
+      "evidence": [
+        "gutenberg:ebooks:39250:175.175.6-175.175.6:761a06f4"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

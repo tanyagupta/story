@@ -1,0 +1,173 @@
+{
+  "mythId": "bulk-myth-0014",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-cda9e7",
+  "title": "Pike.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:86.86.1-86.86.1:b48ec734",
+      "gutenberg:ebooks:39250:86.86.2-86.86.2:26ca702c",
+      "gutenberg:ebooks:39250:86.86.3-86.86.3:0530d2cc",
+      "gutenberg:ebooks:39250:86.86.4-86.86.4:c031e984",
+      "gutenberg:ebooks:39250:86.86.5-86.86.5:8893935c",
+      "gutenberg:ebooks:39250:86.86.6-86.86.6:435b9369"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "roman-diana",
+      "roman-juno",
+      "roman-jupiter",
+      "roman-neptune"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:86.86.1-86.86.1:b48ec734"
+        }
+      ]
+    },
+    {
+      "sourceName": "Diana",
+      "normalizedId": "roman-diana",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:86.86.1-86.86.1:b48ec734"
+        }
+      ]
+    },
+    {
+      "sourceName": "Juno",
+      "normalizedId": "roman-juno",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:86.86.1-86.86.1:b48ec734"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:86.86.1-86.86.1:b48ec734"
+        }
+      ]
+    },
+    {
+      "sourceName": "Neptune",
+      "normalizedId": "roman-neptune",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:86.86.1-86.86.1:b48ec734"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "is introduced in",
+      "object": "Pike.",
+      "evidence": [
+        "gutenberg:ebooks:39250:86.86.1-86.86.1:b48ec734"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "apollo",
+      "action": "describe",
+      "sourceAction": "was",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:86.86.1-86.86.1:b48ec734"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "roman-juno",
+      "action": "describe",
+      "sourceAction": "had",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:86.86.2-86.86.2:26ca702c"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "assist",
+      "sourceAction": "gave",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:86.86.3-86.86.3:0530d2cc"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "is last attested in selected candidate",
+      "object": "Pike.",
+      "evidence": [
+        "gutenberg:ebooks:39250:86.86.6-86.86.6:435b9369"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}
