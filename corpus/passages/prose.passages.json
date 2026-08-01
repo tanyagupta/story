@@ -1,0 +1,46 @@
+{
+  "sourceId": "fixture-prose-source",
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "passages": [
+    {
+      "passageId": "urn:cts:fixture:prose:1.1-1.1:c7f92a2c",
+      "sourceId": "fixture-prose-source",
+      "citation": {
+        "book": "1",
+        "start": "1",
+        "end": "1"
+      },
+      "language": "eng",
+      "text": "Zeus holds the thunderbolt on Olympus.",
+      "sequence": 1,
+      "sourcePointers": {
+        "xmlId": "p1",
+        "elementPath": "TEI[prose-fixture]/text[text]/body[body]/div[book1]/p[p1]"
+      }
+    },
+    {
+      "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da",
+      "sourceId": "fixture-prose-source",
+      "citation": {
+        "book": "1",
+        "start": "2",
+        "end": "2"
+      },
+      "language": "eng",
+      "text": "Hermes warns Zeus before Apollo takes the thunderbolt.",
+      "sequence": 2,
+      "sourcePointers": {
+        "xmlId": "p2",
+        "elementPath": "TEI[prose-fixture]/text[text]/body[body]/div[book1]/p[p2]"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "type": "unsupported-text-element",
+      "message": "Unsupported text-bearing element <title> was inspected",
+      "path": "TEI[prose-fixture]/teiHeader[teiHeader]/fileDesc[fileDesc]/titleStmt[titleStmt]/title[1]"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "id": "zeus",
+      "preferredName": "Zeus",
+      "greekName": "Ζεύς",
+      "aliases": ["Zeus", "Ζεύς", "Zeus pater"],
+      "entityType": "deity",
+      "tradition": "greek"
+    },
+    {
+      "id": "apollo",
+      "preferredName": "Apollo",
+      "greekName": "Ἀπόλλων",
+      "aliases": ["Apollo", "Ἀπόλλων"],
+      "entityType": "deity",
+      "tradition": "greek"
+    },
+    {
+      "id": "hermes",
+      "preferredName": "Hermes",
+      "greekName": "Ἑρμῆς",
+      "aliases": ["Hermes", "Ἑρμῆς"],
+      "entityType": "deity",
+      "tradition": "greek"
+    },
+    {
+      "id": "hera",
+      "preferredName": "Hera",
+      "greekName": "Ἥρη",
+      "aliases": ["Hera", "Ἥρη"],
+      "entityType": "deity",
+      "tradition": "greek"
+    },
+    {
+      "id": "mount-olympus",
+      "preferredName": "Mount Olympus",
+      "greekName": "Ὄλυμπος",
+      "aliases": ["Olympus", "Ὄλυμπος", "Mount Olympus"],
+      "entityType": "place",
+      "tradition": "greek"
+    },
+    {
+      "id": "thunderbolt",
+      "preferredName": "thunderbolt",
+      "greekName": "κεραυνός",
+      "aliases": ["thunderbolt", "κεραυνός"],
+      "entityType": "object",
+      "tradition": "greek"
+    },
+    {
+      "id": "golden-apple",
+      "preferredName": "golden apple",
+      "greekName": "χρύσεον μῆλον",
+      "aliases": ["golden apple", "χρύσεον μῆλον"],
+      "entityType": "object",
+      "tradition": "greek"
+    },
+    {
+      "id": "jupiter",
+      "preferredName": "Jupiter",
+      "greekName": null,
+      "aliases": ["Jupiter"],
+      "entityType": "deity",
+      "tradition": "roman",
+      "links": [{ "type": "parallel", "target": "zeus", "reviewStatus": "approved" }]
+    }
+  ]
+}

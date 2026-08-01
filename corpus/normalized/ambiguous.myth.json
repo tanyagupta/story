@@ -1,0 +1,125 @@
+{
+  "mythId": "myth-fixture-0003",
+  "mythFamilyId": "fixture-myth-episode",
+  "variantId": "fixture-ambiguous-source-variant",
+  "title": "Fixture Myth Episode",
+  "source": {
+    "sourceId": "fixture-ambiguous-source",
+    "passages": [
+      "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f",
+      "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "zeus"
+    ],
+    "locations": [
+      "mount-olympus"
+    ],
+    "objects": [
+      "golden-apple"
+    ],
+    "creatures": []
+  },
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "mount-olympus",
+      "action": "take",
+      "sourceAction": "takes",
+      "object": "golden-apple",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "zeus",
+      "action": "warn",
+      "sourceAction": "cautions",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-57d30e92",
+      "recordType": "entity",
+      "recordId": "ambiguous-candidate:entity:Phoibos",
+      "issueType": "ambiguous-normalization",
+      "sourceValue": "Phoibos",
+      "suggestions": [
+        "apollo"
+      ],
+      "evidence": [
+        "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-57d30e92",
+      "recordType": "entity",
+      "recordId": "ambiguous-candidate:entity:Phoibos",
+      "issueType": "ambiguous-normalization",
+      "sourceValue": "Phoibos",
+      "suggestions": [
+        "apollo"
+      ],
+      "evidence": [
+        "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-7019928d",
+      "recordType": "entity",
+      "recordId": "ambiguous-candidate:entity-3",
+      "issueType": "unresolved-person-name",
+      "sourceValue": "Phoibos",
+      "suggestions": [],
+      "evidence": [
+        "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-6cd30da1",
+      "recordType": "entity",
+      "recordId": "ambiguous-candidate:entity-5",
+      "issueType": "unresolved-person-name",
+      "sourceValue": "Phoibos",
+      "suggestions": [],
+      "evidence": [
+        "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
+      ],
+      "status": "open"
+    }
+  ],
+  "reviewStatus": "awaiting_review"
+}

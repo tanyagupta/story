@@ -1,0 +1,39 @@
+{
+  "sourceId": "fixture-variant-a-source",
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "passages": [
+    {
+      "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760",
+      "sourceId": "fixture-variant-a-source",
+      "citation": {
+        "book": "1",
+        "start": "1",
+        "end": "1"
+      },
+      "language": "eng",
+      "text": "Hermes steals the golden apple from Hera.",
+      "sequence": 1,
+      "sourcePointers": {
+        "xmlId": null,
+        "elementPath": "TEI[variant-a-fixture]/text[text]/body[body]/div[1]/p[1]"
+      }
+    },
+    {
+      "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5",
+      "sourceId": "fixture-variant-a-source",
+      "citation": {
+        "book": "1",
+        "start": "2",
+        "end": "2"
+      },
+      "language": "eng",
+      "text": "Zeus warns Hermes on Olympus.",
+      "sequence": 2,
+      "sourcePointers": {
+        "xmlId": null,
+        "elementPath": "TEI[variant-a-fixture]/text[text]/body[body]/div[1]/p[2]"
+      }
+    }
+  ],
+  "warnings": []
+}

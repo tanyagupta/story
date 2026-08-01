@@ -1,0 +1,74 @@
+{
+  "mythId": "myth-fixture-0004",
+  "mythFamilyId": "conflicting-apple-theft",
+  "variantId": "fixture-variant-a-source-variant",
+  "title": "Conflicting Apple Theft Variant",
+  "source": {
+    "sourceId": "fixture-variant-a-source",
+    "passages": [
+      "urn:cts:fixture:variant-a:1.1-1.1:2ce49760",
+      "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hermes",
+      "hera",
+      "zeus"
+    ],
+    "locations": [
+      "mount-olympus"
+    ],
+    "objects": [
+      "golden-apple"
+    ],
+    "creatures": []
+  },
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "hermes",
+      "action": "steal",
+      "sourceAction": "steals",
+      "object": "golden-apple",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "zeus",
+      "action": "warn",
+      "sourceAction": "warns",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

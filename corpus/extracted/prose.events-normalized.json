@@ -1,0 +1,148 @@
+{
+  "candidateId": "prose-candidate",
+  "entities": [
+    {
+      "sourceName": "Zeus",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.1-1.1:c7f92a2c"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Olympus",
+      "entityType": "place",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.1-1.1:c7f92a2c"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "mount-olympus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "thunderbolt",
+      "entityType": "object",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.1-1.1:c7f92a2c"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "thunderbolt",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Zeus",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Apollo",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hermes",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "thunderbolt",
+      "entityType": "object",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "thunderbolt",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "apollo",
+      "action": "take",
+      "sourceAction": "takes",
+      "object": "thunderbolt",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "hermes",
+      "action": "warn",
+      "sourceAction": "warns",
+      "object": "thunderbolt",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [],
+  "finalState": [],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": []
+}

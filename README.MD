@@ -112,6 +112,22 @@ kling   placeholder stub
 luma    placeholder stub
 ```
 
+## Standalone Myth Corpus Pipeline
+
+This repository also includes a separate Greek mythology corpus-processing
+layer. It converts local licensed or public-domain TEI fixtures into traceable
+passages, candidate episodes, extracted facts, normalized entities/events, and
+validated myth JSON records. It does not generate stories, scene plans,
+storyboards, images, audio, or videos, and it is not wired into the renderer.
+
+```bash
+npm run corpus:run
+npm run test:corpus
+```
+
+See `docs/corpus-pipeline.md` for manifests, licensing requirements, review
+queues, validation, and variant-preservation details.
+
 The runner uses `blender` from `PATH` when available, otherwise it uses:
 
 ```text

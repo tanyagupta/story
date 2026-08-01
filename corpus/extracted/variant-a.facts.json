@@ -1,0 +1,120 @@
+{
+  "candidateId": "variant-a-candidate",
+  "entities": [
+    {
+      "sourceName": "Hermes",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "Hera",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "golden apple",
+      "entityType": "object",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "Zeus",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "Hermes",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "Olympus",
+      "entityType": "place",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "Hermes",
+      "sourceAction": "steals",
+      "objectSourceName": "golden apple",
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "Zeus",
+      "sourceAction": "warns",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [],
+  "finalState": [],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": []
+}

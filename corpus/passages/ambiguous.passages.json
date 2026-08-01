@@ -1,0 +1,46 @@
+{
+  "sourceId": "fixture-ambiguous-source",
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "passages": [
+    {
+      "passageId": "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f",
+      "sourceId": "fixture-ambiguous-source",
+      "citation": {
+        "book": "1",
+        "start": "1",
+        "end": "1"
+      },
+      "language": "eng",
+      "text": "Phoibos takes the golden apple near Olympus.",
+      "sequence": 1,
+      "sourcePointers": {
+        "xmlId": null,
+        "elementPath": "TEI[ambiguous-fixture]/text[text]/body[body]/div[1]/p[1]"
+      }
+    },
+    {
+      "passageId": "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b",
+      "sourceId": "fixture-ambiguous-source",
+      "citation": {
+        "book": "1",
+        "start": "2",
+        "end": "2"
+      },
+      "language": "eng",
+      "text": "Zeus cautions Phoibos.",
+      "sequence": 2,
+      "sourcePointers": {
+        "xmlId": null,
+        "elementPath": "TEI[ambiguous-fixture]/text[text]/body[body]/div[1]/p[2]"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "type": "milestone",
+      "message": "<milestone> retained as structural context only",
+      "path": "TEI[ambiguous-fixture]/text[text]/body[body]/div[1]/milestone[ambiguous]"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$id": "extracted-facts.schema.json",
+  "type": "object",
+  "required": ["candidateId", "entities", "events", "reviewStatus"],
+  "properties": {
+    "candidateId": { "type": "string" },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sourceName", "entityType", "roleInEpisode", "evidence"],
+        "properties": {
+          "sourceName": { "type": "string" },
+          "entityType": { "type": "string" },
+          "roleInEpisode": { "type": "string" },
+          "evidence": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["passageId"], "properties": { "passageId": { "type": "string" } } } },
+          "confidence": { "type": "number" },
+          "reviewStatus": { "type": "string" },
+          "normalizedId": { "type": ["string", "null"] },
+          "normalizationStatus": { "type": "string" }
+        }
+      }
+    },
+    "relationships": { "type": "array" },
+    "goals": { "type": "array" },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sourceAction", "evidence"],
+        "properties": {
+          "actorSourceName": { "type": ["string", "null"] },
+          "sourceAction": { "type": "string" },
+          "objectSourceName": { "type": ["string", "null"] },
+          "targetSourceName": { "type": ["string", "null"] },
+          "recipientSourceName": { "type": ["string", "null"] },
+          "locationSourceName": { "type": ["string", "null"] },
+          "evidence": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["passageId"], "properties": { "passageId": { "type": "string" } } } }
+        }
+      }
+    },
+    "initialState": { "type": "array" },
+    "finalState": { "type": "array" },
+    "causalLinks": { "type": "array" },
+    "reviewStatus": { "type": "string" },
+    "review": { "type": "array" }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "candidateId": "ambiguous-candidate",
+  "entities": [
+    {
+      "sourceName": "Olympus",
+      "entityType": "place",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "golden apple",
+      "entityType": "object",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "Phoibos",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
+        }
+      ],
+      "confidence": 0.4,
+      "reviewStatus": "open"
+    },
+    {
+      "sourceName": "Zeus",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "Phoibos",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
+        }
+      ],
+      "confidence": 0.4,
+      "reviewStatus": "open"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "Olympus",
+      "sourceAction": "takes",
+      "objectSourceName": "golden apple",
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "Zeus",
+      "sourceAction": "cautions",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [],
+  "finalState": [],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-57d30e92",
+      "recordType": "entity",
+      "recordId": "ambiguous-candidate:entity:Phoibos",
+      "issueType": "ambiguous-normalization",
+      "sourceValue": "Phoibos",
+      "suggestions": [
+        "apollo"
+      ],
+      "evidence": [
+        "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-57d30e92",
+      "recordType": "entity",
+      "recordId": "ambiguous-candidate:entity:Phoibos",
+      "issueType": "ambiguous-normalization",
+      "sourceValue": "Phoibos",
+      "suggestions": [
+        "apollo"
+      ],
+      "evidence": [
+        "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
+      ],
+      "status": "open"
+    }
+  ]
+}
