@@ -18,7 +18,7 @@
     "gutenberg:ebooks:39250:330.330.13-330.330.13:0d60509a",
     "gutenberg:ebooks:39250:330.330.14-330.330.14:21bb00dd"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -32,14 +32,15 @@
   "mythFamilyId": "that-come-through-the-carved-ivory-deceive",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-that-come-through-the-carved-ivory-deceive-52de80",
   "characters": [
-    "Proserpina"
+    "Proserpina",
+    "Ceyx"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 129,
+    "score": 137,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -50,7 +51,7 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 1,
+      "namedMythologicalEntities": 2,
       "meaningfulEvents": 8,
       "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,

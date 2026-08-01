@@ -7,7 +7,7 @@
     "gutenberg:ebooks:39250:372.372.2-372.372.2:4061372b",
     "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,12 +24,12 @@
     "Atlas",
     "Hercules"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 65,
+    "score": 60,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
@@ -42,7 +42,7 @@
     "components": {
       "namedMythologicalEntities": 2,
       "meaningfulEvents": 1,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

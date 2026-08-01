@@ -1,0 +1,256 @@
+{
+  "mythId": "bulk-myth-0255",
+  "mythFamilyId": "that-i-was-only-the-supposed-son",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-that-i-was-only-the-supposed-son-075af3",
+  "title": "That I was only the supposed son",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:408.408.1-408.408.1:477d5713",
+      "gutenberg:ebooks:39250:408.408.2-408.408.2:aa73578c",
+      "gutenberg:ebooks:39250:408.408.3-408.408.3:418112e2",
+      "gutenberg:ebooks:39250:408.408.4-408.408.4:b1e839b0",
+      "gutenberg:ebooks:39250:408.408.5-408.408.5:9a9c0333",
+      "gutenberg:ebooks:39250:408.408.6-408.408.6:0a2a3271"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "[Sidenote: Œdipus consults the oracle.] These words, coupled with a few meaning glances hastily exchanged by the guests, excited Œdipus' suspicions, and made him question the Something in her manner, however, left a lingering doubt in Œdipus' mind, and made him resolve to consult the oracle of Delphi, whose words he knew would reveal the exact truth.",
+    "openingSituation": "[Sidenote: Œdipus consults the oracle.] These words, coupled with a few meaning glances hastily exchanged by the guests, excited Œdipus' suspicions, and made him question the",
+    "centralConflict": "Something in her manner, however, left a lingering doubt in Œdipus' mind, and made him resolve to consult the oracle of Delphi, whose words he knew would reveal the exact truth.",
+    "resolution": "He therefore went to this shrine; but, as usual, the oracle answered somewhat ambiguously, and merely warned him that fate had decreed he should kill his father, marry his mother",
+    "outcome": "He therefore went to this shrine; but, as usual, the oracle answered somewhat ambiguously, and merely warned him that fate had decreed he should kill his father, marry his mother",
+    "storyline": [
+      "[Sidenote: Œdipus consults the oracle.] These words, coupled with a few meaning glances hastily exchanged by the guests, excited Œdipus' suspicions, and made him question the",
+      "Something in her manner, however, left a lingering doubt in Œdipus' mind, and made him resolve to consult the oracle of Delphi, whose words he knew would reveal the exact truth.",
+      "He therefore went to this shrine; but, as usual, the oracle answered somewhat ambiguously, and merely warned him that fate had decreed he should kill his father, marry his mother"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:408.408.1-408.408.1:477d5713",
+        "gutenberg:ebooks:39250:408.408.2-408.408.2:aa73578c",
+        "gutenberg:ebooks:39250:408.408.3-408.408.3:418112e2"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:408.408.3-408.408.3:418112e2",
+        "gutenberg:ebooks:39250:408.408.4-408.408.4:b1e839b0"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:408.408.5-408.408.5:9a9c0333"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:408.408.5-408.408.5:9a9c0333"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:408.408.5-408.408.5:9a9c0333"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:408.408.1-408.408.1:477d5713",
+      "excerpt": "Of Corinth's king.\"",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:408.408.2-408.408.2:aa73578c",
+      "excerpt": "Sophocles (Francklin's tr.).",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:408.408.3-408.408.3:418112e2",
+      "excerpt": "[Sidenote: Œdipus consults the oracle.]",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:408.408.4-408.408.4:b1e839b0",
+      "excerpt": "These words, coupled with a few meaning glances hastily exchanged by the guests, excited Œdipus' suspicions, and made him question the queen, who, afraid lest he might do himself an injury in the first moment of his despair if the truth",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:408.408.5-408.408.5:9a9c0333",
+      "excerpt": "Something in her manner, however, left a lingering doubt in Œdipus' mind, and made him resolve to consult the oracle of Delphi, whose words he knew would reveal the exact truth.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:408.408.6-408.408.6:0a2a3271",
+      "excerpt": "\"I felt A secret anguish, and unknown to them Sought out the Pythian oracle; in vain; Touching my parents, nothing could I learn;",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Œdipus consults the oracle.] These words, coupled with a few meaning glances hastily exchanged by the guests, excited Œdipus' suspicions, and made him question the",
+      "evidence": [
+        "gutenberg:ebooks:39250:408.408.1-408.408.1:477d5713"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "[Sidenote: Œdipus consults the oracle.] These words, coupled with a few meaning glances hastily exchanged by the guests, excited Œdipus' suspicions, and made him question the queen, who, afraid lest he might do himself an injury in the first moment of his despair if the truth were revealed to him, had recourse to prevarication, and quieted him by the assurance that he was her beloved son.",
+      "sourceClause": "[Sidenote: Œdipus consults the oracle.] These words, coupled with a few meaning glances hastily exchanged by the guests, excited Œdipus' suspicions, and made him question the queen, who, afraid lest he might do himself an injury in the first moment of his despair if the truth were revealed to him, had recourse to prevarication, and quieted him by the assurance that he was her beloved son.",
+      "actor": null,
+      "action": "reveal",
+      "sourceAction": "revealed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "[Sidenote: Œdipus consults the oracle.] These words, coupled with a few meaning glances hastily exchanged by the guests, excited Œdipus' suspicions, and made him question the",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:408.408.3-408.408.3:418112e2"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:408.408.4-408.408.4:b1e839b0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Something in her manner, however, left a lingering doubt in Œdipus' mind, and made him resolve to consult the oracle of Delphi, whose words he knew would reveal the exact truth.",
+      "sourceClause": "Something in her manner, however, left a lingering doubt in Œdipus' mind, and made him resolve to consult the oracle of Delphi, whose words he knew would reveal the exact truth.",
+      "actor": null,
+      "action": "recognize",
+      "sourceAction": "knew",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "delphi",
+      "result": "Something in her manner, however, left a lingering doubt in Œdipus' mind, and made him resolve to consult the oracle of Delphi, whose words he knew would reveal the exact truth.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:408.408.5-408.408.5:9a9c0333"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "He therefore went to this shrine; but, as usual, the oracle answered somewhat ambiguously, and merely warned him that fate had decreed he should kill his father, marry his mother, and cause great woes to his native city.",
+      "sourceClause": "He therefore went to this shrine; but, as usual, the oracle answered somewhat ambiguously, and merely warned him that fate had decreed he should kill his father, marry his mother, and cause great woes to his native city.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "went",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He therefore went to this shrine; but, as usual, the oracle answered somewhat ambiguously, and merely warned him that fate had decreed he should kill his father, marry his mother",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:408.408.5-408.408.5:9a9c0333"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "He therefore went to this shrine; but, as usual, the oracle answered somewhat ambiguously, and merely warned him that fate had decreed he should kill his father, marry his mother",
+      "evidence": [
+        "gutenberg:ebooks:39250:408.408.6-408.408.6:0a2a3271"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "[Sidenote: Œdipus consults the oracle.] These words, coupled with a few meaning glances hastily exchanged by the guests, excited Œdipus' suspicions, and made him question the",
+      "Something in her manner, however, left a lingering doubt in Œdipus' mind, and made him resolve to consult the oracle of Delphi, whose words he knew would reveal the exact truth.",
+      "He therefore went to this shrine; but, as usual, the oracle answered somewhat ambiguously, and merely warned him that fate had decreed he should kill his father, marry his mother"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-547831e3",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0408-a833d2",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "That I was only the supposed son",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:408.408.1-408.408.1:477d5713",
+        "gutenberg:ebooks:39250:408.408.2-408.408.2:aa73578c",
+        "gutenberg:ebooks:39250:408.408.3-408.408.3:418112e2"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 66,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

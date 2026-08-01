@@ -27,7 +27,35 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-hercules",
+      "normalizedId": "heracles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Eurystheus",
+      "entityType": "character",
+      "roleInEpisode": "antagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:314.314.1-314.314.1:3914e516"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "eurystheus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Iolaus",
+      "entityType": "character",
+      "roleInEpisode": "antagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:314.314.1-314.314.1:3914e516"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "iolaus",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +63,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "arrived",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -120,7 +148,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
+      "actorSourceName": "eurystheus",
       "sourceAction": "refused",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -141,7 +169,7 @@
     {
       "subject": "helios",
       "predicate": "opening_situation",
-      "object": "After a long and wearisome journey he at last arrived at the western coast of Africa, where, as a monument of his perilous expedition, he erected the famous \"Pillars of.",
+      "object": "After a long and wearisome journey he at last arrived at the western coast of Africa, where, as a monument of his perilous expedition, he erected the famous \"Pillars of Hercules,\"",
       "evidence": [
         "gutenberg:ebooks:22381:314.314.1-314.314.1:3914e516"
       ]
@@ -151,7 +179,7 @@
     {
       "subject": "helios",
       "predicate": "outcome",
-      "object": "Heracles had now executed his ten tasks, which had been accomplished in the space of eight years; but Eurystheus refused to include the slaying of the Hydra and the cleansing of.",
+      "object": "Heracles had now executed his ten tasks, which had been accomplished in the space of eight years; but Eurystheus refused to include the slaying of the Hydra and the cleansing of",
       "evidence": [
         "gutenberg:ebooks:22381:314.314.5-314.314.5:aa3009bd"
       ]
@@ -161,10 +189,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-d71bb3a9",
+      "reviewId": "review-c49b0d49",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0314-d4c8f3",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Echidna.",
       "suggestions": [
         "weak-or-literary-title"

@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 167,
+    "score": 168,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -12,9 +12,9 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 2,
+      "namedMythologicalEntities": 4,
       "meaningfulEvents": 8,
-      "actorEvents": 6,
+      "actorEvents": 3,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -23,10 +23,10 @@
   },
   "items": [
     {
-      "reviewId": "review-838d9fb4",
+      "reviewId": "review-81d9ddac",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0312-2cdc37",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Then with thick shades are lofty mountains crown'd.",
       "suggestions": [
         "weak-or-literary-title"

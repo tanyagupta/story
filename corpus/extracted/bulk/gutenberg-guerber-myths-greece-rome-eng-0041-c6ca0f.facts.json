@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-pluto",
+      "normalizedId": "hades",
       "normalizationStatus": "approved"
     }
   ],
@@ -94,7 +94,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "saved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -121,6 +121,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:41.41.4-41.41.4:1d34979b"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:41.41.5-41.41.5:8d794171"
         }
       ],
@@ -145,7 +148,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -179,7 +182,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "ceres",
+      "actorSourceName": null,
       "sourceAction": "aided",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -189,6 +192,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:41.41.7-41.41.7:f1c895a1"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:41.41.8-41.41.8:fbe5978d"
         }
       ],
@@ -196,7 +202,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": "zeus",
       "sourceAction": "gave",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -215,7 +221,7 @@
   ],
   "initialState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "opening_situation",
       "object": "Ignorant of the deception practiced upon him, Cronus then took leave, and the overjoyed mother clasped her rescued treasure to her breast.",
       "evidence": [
@@ -225,7 +231,7 @@
   ],
   "finalState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "outcome",
       "object": "Following the example of his predecessor, Jupiter gave his brothers and sisters a fair share of his new kingdom.",
       "evidence": [
@@ -237,12 +243,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-a5f67d85",
+      "reviewId": "review-35e6b73f",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0041-c6ca0f",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "That for the stone his child behind remain'd",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

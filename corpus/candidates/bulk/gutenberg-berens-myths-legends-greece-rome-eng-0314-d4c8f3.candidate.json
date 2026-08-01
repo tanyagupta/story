@@ -9,7 +9,7 @@
     "gutenberg:ebooks:22381:314.314.4-314.314.4:3c365a33",
     "gutenberg:ebooks:22381:314.314.5-314.314.5:aa3009bd"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,14 +24,16 @@
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-heracles-labors-0043e9",
   "characters": [
     "Helios",
-    "Hercules"
+    "Hercules",
+    "Eurystheus",
+    "Iolaus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 125,
+    "score": 141,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -41,7 +43,7 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 2,
+      "namedMythologicalEntities": 4,
       "meaningfulEvents": 6,
       "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 6,

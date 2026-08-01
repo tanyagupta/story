@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "born",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -59,7 +59,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "According to some mythologists, he was the son of Apollo; and, although born in Thessaly, he early in life came to Italy, where he founded a city on the Tiber, to which he gave.",
+      "object": "According to some mythologists, he was the son of Apollo; and, although born in Thessaly, he early in life came to Italy, where he founded a city on the Tiber, to which he gave",
       "evidence": [
         "gutenberg:ebooks:39250:322.322.1-322.322.1:957c8a52"
       ]
@@ -79,10 +79,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-1f48b854",
+      "reviewId": "review-c7f80116",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0322-796c87",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Greeks.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

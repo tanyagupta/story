@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-pluto",
+      "normalizedId": "hades",
       "normalizationStatus": "approved"
     }
   ],
@@ -63,7 +63,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "wandered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -135,7 +135,7 @@
     {
       "subject": "hades",
       "predicate": "opening_situation",
-      "object": "Plaintive, heartrending laments now replaced the joyous wedding strains; but even the charms of music failed to make life endurable, and Orpheus wandered off to Olympus, where he.",
+      "object": "Plaintive, heartrending laments now replaced the joyous wedding strains; but even the charms of music failed to make life endurable, and Orpheus wandered off to Olympus, where he",
       "evidence": [
         "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
       ]
@@ -145,7 +145,7 @@
     {
       "subject": "hades",
       "predicate": "outcome",
-      "object": "\"E'en Tantalus ceased from trying to sip The cup that flies from his arid lip; Ixion, too, the magic could feel, And, for a moment, blocked his wheel; Poor Sisyphus, doomed to.",
+      "object": "\"E'en Tantalus ceased from trying to sip The cup that flies from his arid lip; Ixion, too, the magic could feel, And, for a moment, blocked his wheel; Poor Sisyphus, doomed to",
       "evidence": [
         "gutenberg:ebooks:39250:117.117.4-117.117.4:a071a73e"
       ]
@@ -155,10 +155,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-0f394ab2",
+      "reviewId": "review-a48cc5fc",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0117-5d39c0",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Orpheus broken-hearted.",
       "suggestions": [
         "fewer-than-two-actor-events",

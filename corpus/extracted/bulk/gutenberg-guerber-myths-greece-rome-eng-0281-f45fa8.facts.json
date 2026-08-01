@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-proserpina",
+      "normalizedId": "persephone",
       "normalizationStatus": "approved"
     }
   ],
@@ -96,9 +96,9 @@
   ],
   "initialState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "opening_situation",
-      "object": "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a.",
+      "object": "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a",
       "evidence": [
         "gutenberg:ebooks:39250:281.281.1-281.281.1:6233db9c"
       ]
@@ -106,9 +106,9 @@
   ],
   "finalState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "outcome",
-      "object": "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a.",
+      "object": "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a",
       "evidence": [
         "gutenberg:ebooks:39250:281.281.4-281.281.4:bc122545"
       ]
@@ -118,10 +118,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-581a9b37",
+      "reviewId": "review-6487b029",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0281-f45fa8",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "CERES AND PROSERPINA.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

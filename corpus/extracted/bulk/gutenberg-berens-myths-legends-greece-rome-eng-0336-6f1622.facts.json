@@ -125,7 +125,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "odysseus",
+      "actorSourceName": null,
       "sourceAction": "concealed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -210,7 +210,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -241,7 +241,7 @@
     {
       "subject": "achilles",
       "predicate": "outcome",
-      "object": "Upon one of these foraging expeditions the city of Pedasus was sacked, and Agamemnon, as commander-in-chief, received as his share of the spoil the beautiful Chryseis, daughter.",
+      "object": "Upon one of these foraging expeditions the city of Pedasus was sacked, and Agamemnon, as commander-in-chief, received as his share of the spoil the beautiful Chryseis, daughter of",
       "evidence": [
         "gutenberg:ebooks:22381:336.336.36-336.336.36:462c4aa8"
       ]
@@ -251,12 +251,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-b9643026",
+      "reviewId": "review-1a3b5e19",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0336-6f1622",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Greeks and Trojans were fought.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

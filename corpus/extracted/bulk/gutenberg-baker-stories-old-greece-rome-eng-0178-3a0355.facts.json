@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
   ],
@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "made",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -55,25 +55,8 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
-      "sourceAction": "delivered",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
-    },
-    {
       "actorSourceName": null,
-      "sourceAction": "carried off",
+      "sourceAction": "delivered",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -91,9 +74,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "At Dodona was the oracle of Jupiter, called the \"Speaking Oak,\" where the responses were given by the trees whose rustling branches made sounds that were interpreted by the.",
+      "object": "At Dodona was the oracle of Jupiter, called the \"Speaking Oak,\" where the responses were given by the trees whose rustling branches made sounds that were interpreted by the",
       "evidence": [
         "gutenberg:ebooks:45489:178.178.1-178.178.1:37806a4f"
       ]
@@ -101,9 +84,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
-      "object": "Another account says that two priestesses were carried off from Thebes in Egypt by the Phœnicians, and set up oracles at Dodona and the Libyan",
+      "object": "The other dove flew to the temple of Jupiter Ammon, and delivered a similar command there.",
       "evidence": [
         "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
       ]
@@ -113,12 +96,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-d09dc0e9",
+      "reviewId": "review-013d7b09",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0178-3a0355",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "And wide beneath him all Olympus shakes.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

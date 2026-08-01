@@ -16,7 +16,7 @@
     "gutenberg:ebooks:39250:522.522.11-522.522.11:506d6c38",
     "gutenberg:ebooks:39250:522.522.12-522.522.12:ff874be8"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -38,24 +38,25 @@
     "Pygmalion",
     "Venus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 173,
+    "score": 158,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 7,
-      "actorEvents": 3,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

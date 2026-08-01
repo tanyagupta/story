@@ -19,30 +19,12 @@
   ],
   "relationships": [],
   "goals": [],
-  "events": [
-    {
-      "actorSourceName": null,
-      "sourceAction": "transformed",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
-    }
-  ],
+  "events": [],
   "initialState": [
     {
       "subject": "midas",
       "predicate": "opening_situation",
-      "object": "\"Whose powerful hands the bread no sooner hold, Than all its substance is transformed to gold; Up to his mouth he lifts the savory meat, Which turns to gold as he attempts to.",
+      "object": "XLIII",
       "evidence": [
         "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360"
       ]
@@ -52,7 +34,7 @@
     {
       "subject": "midas",
       "predicate": "outcome",
-      "object": "\"Whose powerful hands the bread no sooner hold, Than all its substance is transformed to gold; Up to his mouth he lifts the savory meat, Which turns to gold as he attempts to.",
+      "object": "XLIII",
       "evidence": [
         "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
       ]
@@ -62,14 +44,18 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-79b08c6e",
+      "reviewId": "review-af88af52",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0253-fe4b42",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "XLIII",
       "suggestions": [
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline",
         "weak-or-literary-title"
       ],
       "evidence": [

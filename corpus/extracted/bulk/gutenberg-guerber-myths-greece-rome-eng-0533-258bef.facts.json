@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-bacchus",
+      "normalizedId": "bacchus",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-diana",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     },
     {
@@ -108,7 +108,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "saved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -231,7 +231,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "Birth of, 22; flight of, 24; Jupiter's wife, 44; same as Hera, 51-54; jealousy of, 61, 62, 135-137, 171, 172, 174, 203, 216; Mars, son of, 138; Vulcan, son of, 144; Tityus.",
+      "object": "Birth of, 22; flight of, 24; Jupiter's wife, 44; same as Hera, 51-54; jealousy of, 61, 62, 135-137, 171, 172, 174, 203, 216; Mars, son of, 138; Vulcan, son of, 144; Tityus",
       "evidence": [
         "gutenberg:ebooks:39250:533.533.1-533.533.1:1c324c39"
       ]
@@ -251,10 +251,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-c7edd077",
+      "reviewId": "review-f7c8722f",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0533-258bef",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Jove.",
       "suggestions": [
         "fewer-than-two-actor-events",

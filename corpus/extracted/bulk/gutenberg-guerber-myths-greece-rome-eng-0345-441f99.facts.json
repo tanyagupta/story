@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-hercules",
+      "normalizedId": "heracles",
       "normalizationStatus": "approved"
     }
   ],
@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "bore",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -57,7 +57,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-hercules",
+      "subject": "heracles",
       "predicate": "opening_situation",
       "object": "The assembled force then attacked Hercules, who met their onslaught single-handed, defeated them, and finally bore away the prize he had risked so much to obtain.",
       "evidence": [
@@ -67,9 +67,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-hercules",
+      "subject": "heracles",
       "predicate": "outcome",
-      "object": "It was on his homeward journey from this expedition that he saved Hesione, Laomedon's daughter, from the jaws of the sea monster who was about to devour her, as he had devoured.",
+      "object": "It was on his homeward journey from this expedition that he saved Hesione, Laomedon's daughter, from the jaws of the sea monster who was about to devour her, as he had devoured",
       "evidence": [
         "gutenberg:ebooks:39250:345.345.3-345.345.3:8b288450"
       ]
@@ -79,10 +79,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-a60f82d5",
+      "reviewId": "review-4090beeb",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0345-441f99",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "In painted arms of radiant sheen",
       "suggestions": [
         "fewer-than-three-meaningful-events",

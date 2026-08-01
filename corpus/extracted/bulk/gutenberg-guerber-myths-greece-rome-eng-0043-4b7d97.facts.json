@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     },
     {
@@ -85,9 +85,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "In haste, therefore, he released the Cyclopes from Tartarus, where they had languished so long, stipulating that in exchange for their freedom they should supply him with.",
+      "object": "In haste, therefore, he released the Cyclopes from Tartarus, where they had languished so long, stipulating that in exchange for their freedom they should supply him with",
       "evidence": [
         "gutenberg:ebooks:39250:43.43.1-43.43.1:56b058ec"
       ]
@@ -95,9 +95,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
-      "object": "This new engine caused great terror and dismay in the ranks of the enemy, who, nevertheless, soon rallied, and struggled valiantly to overthrow the usurper and win back the.",
+      "object": "This new engine caused great terror and dismay in the ranks of the enemy, who, nevertheless, soon rallied, and struggled valiantly to overthrow the usurper and win back the",
       "evidence": [
         "gutenberg:ebooks:39250:43.43.9-43.43.9:0a5a4c16"
       ]
@@ -107,10 +107,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-c33a7759",
+      "reviewId": "review-5acd6441",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0043-4b7d97",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "With opposite oaths that they would have no Zeus",
       "suggestions": [
         "fewer-than-three-meaningful-events",

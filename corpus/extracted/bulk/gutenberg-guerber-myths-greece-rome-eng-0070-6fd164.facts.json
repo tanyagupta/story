@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,21 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-vulcan",
+      "normalizedId": "hephaestus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hebe",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hebe",
       "normalizationStatus": "approved"
     }
   ],
@@ -77,7 +91,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "seized",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -86,6 +100,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:70.70.2-70.70.2:3978e35b"
         }
@@ -111,7 +128,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "declared",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -145,7 +162,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "callisto",
+      "actorSourceName": null,
       "sourceAction": "discovered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -154,6 +171,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.6-70.70.6:5a2326ea"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:70.70.7-70.70.7:44796cbc"
         }
@@ -179,7 +199,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": "zeus",
       "sourceAction": "discovered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -196,7 +216,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "accomplished",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -205,6 +225,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.8-70.70.8:7d4510a7"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:70.70.9-70.70.9:46e148cd"
         }
@@ -217,7 +240,7 @@
     {
       "subject": "callisto",
       "predicate": "opening_situation",
-      "object": "Juno (Hera, Here), queen of heaven, and goddess of the atmosphere and of marriage, was the daughter of Cronus and Rhea, and consequently the sister of Jupiter; but, as soon as.",
+      "object": "[Sidenote: Juno's marriage.] Juno (Hera, Here), queen of heaven, and goddess of the atmosphere and of marriage, was the daughter of Cronus and Rhea, and consequently the sister of",
       "evidence": [
         "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
       ]
@@ -227,7 +250,7 @@
     {
       "subject": "callisto",
       "predicate": "outcome",
-      "object": "Juno, like her husband, had also her special attendant, Iris (the Rainbow), whom she frequently employed as messenger,--a task which this deity accomplished with as much celerity.",
+      "object": "[Sidenote: Juno's attendant.] Juno, like her husband, had also her special attendant, Iris (the Rainbow), whom she frequently employed as messenger,--a task which this deity",
       "evidence": [
         "gutenberg:ebooks:39250:70.70.12-70.70.12:3ef721e2"
       ]
@@ -237,12 +260,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-d54196a7",
+      "reviewId": "review-8d603138",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0070-6fd164",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "JUNO.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

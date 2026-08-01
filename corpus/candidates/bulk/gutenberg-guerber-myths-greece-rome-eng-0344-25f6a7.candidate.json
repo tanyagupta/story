@@ -15,7 +15,7 @@
     "gutenberg:ebooks:39250:344.344.10-344.344.10:e7fc5390",
     "gutenberg:ebooks:39250:344.344.11-344.344.11:bff2e12d"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -31,26 +31,29 @@
   "characters": [
     "Hercules",
     "Juno",
-    "Neptune"
+    "Neptune",
+    "Eurystheus",
+    "Minos"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 165,
+    "score": 166,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 3,
+      "namedMythologicalEntities": 5,
       "meaningfulEvents": 8,
-      "actorEvents": 4,
+      "actorEvents": 1,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

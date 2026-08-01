@@ -6,7 +6,7 @@
     "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b",
     "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,12 +23,12 @@
     "Ariadne",
     "Narcissus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 65,
+    "score": 60,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
@@ -42,7 +42,7 @@
     "components": {
       "namedMythologicalEntities": 2,
       "meaningfulEvents": 1,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

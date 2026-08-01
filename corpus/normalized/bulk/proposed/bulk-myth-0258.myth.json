@@ -1,0 +1,206 @@
+{
+  "mythId": "bulk-myth-0258",
+  "mythFamilyId": "jason-and-argonauts",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-jason-and-argonauts-81bf8b",
+  "title": "LXIV",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99",
+      "gutenberg:ebooks:45489:287.287.2-287.287.2:d183ba31"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "medea"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Medea",
+      "normalizedId": "medea",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Medea's sorceries were assisted by the prayers that she addressed to Hecate, a mysterious divinity who embodied the terrors of the darkness. She haunted cross roads and graveyards; and, being goddess of sorcery and witchcraft, wandered only by night and was seen only by dogs, whose barking told of her approach.",
+    "openingSituation": "Medea's sorceries were assisted by the prayers that she addressed to Hecate, a mysterious divinity who embodied the terrors of the darkness.",
+    "centralConflict": "She haunted cross roads and graveyards; and, being goddess of sorcery and witchcraft, wandered only by night and was seen only by dogs, whose barking told of her approach.",
+    "resolution": "She haunted cross roads and graveyards; and, being goddess of sorcery and witchcraft, wandered only by night and was seen only by dogs, whose barking told of her approach.",
+    "outcome": "She haunted cross roads and graveyards; and, being goddess of sorcery and witchcraft, wandered only by night and was seen only by dogs, whose barking told of her approach.",
+    "storyline": [
+      "Medea's sorceries were assisted by the prayers that she addressed to Hecate, a mysterious divinity who embodied the terrors of the darkness.",
+      "She haunted cross roads and graveyards; and, being goddess of sorcery and witchcraft, wandered only by night and was seen only by dogs, whose barking told of her approach."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99",
+        "gutenberg:ebooks:45489:287.287.2-287.287.2:d183ba31"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99",
+      "excerpt": "Medea's sorceries were assisted by the prayers that she addressed to Hecate, a mysterious divinity who embodied the terrors of the darkness.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:287.287.2-287.287.2:d183ba31",
+      "excerpt": "Translations of the Medea of Euripides are by Augusta Webster, William C. Lawton, and Wodhull.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "medea",
+      "predicate": "opening_situation",
+      "object": "Medea's sorceries were assisted by the prayers that she addressed to Hecate, a mysterious divinity who embodied the terrors of the darkness.",
+      "evidence": [
+        "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Medea's sorceries were assisted by the prayers that she addressed to Hecate, a mysterious divinity who embodied the terrors of the darkness.",
+      "sourceClause": "Medea's sorceries were assisted by the prayers that she addressed to Hecate, a mysterious divinity who embodied the terrors of the darkness.",
+      "actor": "medea",
+      "action": "assist",
+      "sourceAction": "assisted",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Medea's sorceries were assisted by the prayers that she addressed to Hecate, a mysterious divinity who embodied the terrors of the darkness.",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "She haunted cross roads and graveyards; and, being goddess of sorcery and witchcraft, wandered only by night and was seen only by dogs, whose barking told of her approach.",
+      "sourceClause": "She haunted cross roads and graveyards; and, being goddess of sorcery and witchcraft, wandered only by night and was seen only by dogs, whose barking told of her approach.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "wandered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "She haunted cross roads and graveyards; and, being goddess of sorcery and witchcraft, wandered only by night and was seen only by dogs, whose barking told of her approach.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "medea",
+      "predicate": "outcome",
+      "object": "She haunted cross roads and graveyards; and, being goddess of sorcery and witchcraft, wandered only by night and was seen only by dogs, whose barking told of her approach.",
+      "evidence": [
+        "gutenberg:ebooks:45489:287.287.2-287.287.2:d183ba31"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Medea's sorceries were assisted by the prayers that she addressed to Hecate, a mysterious divinity who embodied the terrors of the darkness.",
+      "She haunted cross roads and graveyards; and, being goddess of sorcery and witchcraft, wandered only by night and was seen only by dogs, whose barking told of her approach."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-f619eaed",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0287-6fe323",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "LXIV",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99",
+        "gutenberg:ebooks:45489:287.287.2-287.287.2:d183ba31"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 68,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 2,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

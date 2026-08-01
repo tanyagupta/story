@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-hercules",
+      "normalizedId": "heracles",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -91,7 +91,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "hades",
+      "actorSourceName": null,
       "sourceAction": "loved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -108,7 +108,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "hades",
+      "actorSourceName": null,
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -176,7 +176,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "hades",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -231,7 +231,7 @@
     {
       "subject": "hades",
       "predicate": "opening_situation",
-      "object": "This delightful and god-like existence lasted for hundreds of years, and when at length life on earth was ended, death laid his hand so gently upon them that they passed.",
+      "object": "This delightful and god-like existence lasted for hundreds of years, and when at length life on earth was ended, death laid his hand so gently upon them that they passed",
       "evidence": [
         "gutenberg:ebooks:22381:126.126.1-126.126.1:ccfbe4d3"
       ]
@@ -241,7 +241,7 @@
     {
       "subject": "hades",
       "predicate": "outcome",
-      "object": "The theory of Hesiod,[8] the oldest of all the Greek poets, was that the Titan Prometheus, the son of Iapetus, had formed man out of clay, and that Athene had breathed a soul.",
+      "object": "The theory of Hesiod,[8] the oldest of all the Greek poets, was that the Titan Prometheus, the son of Iapetus, had formed man out of clay, and that Athene had breathed a soul into",
       "evidence": [
         "gutenberg:ebooks:22381:126.126.8-126.126.8:5ec979bf"
       ]
@@ -251,12 +251,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-b6875688",
+      "reviewId": "review-85910d53",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0126-8b4c43",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Iron Ages.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

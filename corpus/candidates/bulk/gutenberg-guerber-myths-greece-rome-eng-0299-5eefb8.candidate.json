@@ -22,14 +22,16 @@
   "mythFamilyId": "illustration-a-nymph-kray",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-illustration-a-nymph-kray-a688e3",
   "characters": [
-    "Diana"
+    "Diana",
+    "Alpheus",
+    "Arethusa"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 77,
+    "score": 99,
     "passed": false,
     "reasons": [
       "Pre-extraction gates failed: not-narrative-episode"
@@ -38,8 +40,8 @@
       "not-narrative-episode"
     ],
     "components": {
-      "namedMythologicalEntities": 1,
-      "actionBearingSentences": 5,
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 6,
       "conflictSignals": 3,
       "paragraphCount": 4,
       "knownMythFamily": true

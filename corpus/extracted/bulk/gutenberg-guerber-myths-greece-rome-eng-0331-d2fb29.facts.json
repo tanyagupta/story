@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     }
   ],
@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -74,7 +74,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "opening_situation",
       "object": "He is said to have received his royal dignity from the fair hands of Juno, and he was therefore specially eager to obey all her behests.",
       "evidence": [
@@ -84,9 +84,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "outcome",
-      "object": "To prevent their causing serious disasters, he therefore ruled them with a very strict hand, kept them very closely confined in a great cave, and let them loose only one at a.",
+      "object": "To prevent their causing serious disasters, he therefore ruled them with a very strict hand, kept them very closely confined in a great cave, and let them loose only one at a",
       "evidence": [
         "gutenberg:ebooks:39250:331.331.6-331.331.6:d52b884a"
       ]
@@ -96,10 +96,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-fa760120",
+      "reviewId": "review-884e34eb",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0331-d2fb29",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "CHAPTER XVIII.",
       "suggestions": [
         "fewer-than-two-actor-events",

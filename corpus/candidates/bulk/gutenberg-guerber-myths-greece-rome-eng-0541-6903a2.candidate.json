@@ -24,7 +24,7 @@
     "gutenberg:ebooks:39250:541.541.19-541.541.19:fcd32750",
     "gutenberg:ebooks:39250:541.541.20-541.541.20:db4ab45b"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -49,26 +49,32 @@
     "Pegasus",
     "Poseidon",
     "Theseus",
-    "Ulysses"
+    "Ulysses",
+    "Athamas",
+    "Hebe",
+    "Helle",
+    "Minos",
+    "Phryxus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 145,
+    "score": 125,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 4,
-      "actorEvents": 4,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

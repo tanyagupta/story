@@ -7,7 +7,7 @@
     "gutenberg:ebooks:22381:255.255.2-255.255.2:ca6616f9",
     "gutenberg:ebooks:22381:255.255.3-255.255.3:40db7fa9"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,12 +23,12 @@
   "characters": [
     "Circe"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 68,
+    "score": 63,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
@@ -41,7 +41,7 @@
     "components": {
       "namedMythologicalEntities": 1,
       "meaningfulEvents": 2,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

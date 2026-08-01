@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "andromeda",
       "normalizationStatus": "approved"
     },
@@ -26,7 +26,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "atlas",
       "normalizationStatus": "approved"
     },
@@ -40,7 +40,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
@@ -54,8 +54,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-jupiter",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -68,7 +68,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "medusa",
       "normalizationStatus": "approved"
     },
@@ -82,7 +82,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "pegasus",
       "normalizationStatus": "approved"
     }
@@ -105,10 +105,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
+      "actorSourceName": "zeus",
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -122,10 +122,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
+      "actorSourceName": "acrisius",
       "sourceAction": "commanded",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -139,10 +139,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
+      "actorSourceName": "polydectes",
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -156,10 +156,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "hermes",
+      "actorSourceName": "perseus",
       "sourceAction": "arrived",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -173,7 +173,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -190,7 +190,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -207,10 +207,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "hermes",
+      "actorSourceName": null,
       "sourceAction": "found",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -224,7 +224,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
@@ -241,13 +241,30 @@
     {
       "subject": "andromeda",
       "predicate": "outcome",
-      "object": "Equipped with the magic helmet and wallet, and armed with a sickle, the gift of Hermes, he attached to his feet the winged sandals, and flew to the abode of the Gorgons, whom he.",
+      "object": "Equipped with the magic helmet and wallet, and armed with a sickle, the gift of Hermes, he attached to his feet the winged sandals, and flew to the abode of the Gorgons, whom he",
       "evidence": [
         "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-969c1a60",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0296-60c1ca",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "PERSEUS.",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+        "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+        "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -1,0 +1,188 @@
+{
+  "mythId": "bulk-myth-0283",
+  "mythFamilyId": "nyx",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-nyx-e8ae3e",
+  "title": "Nyx.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:200.200.1-200.200.1:9f8ba2bb",
+      "gutenberg:ebooks:22381:200.200.2-200.200.2:9d530ffc",
+      "gutenberg:ebooks:22381:200.200.3-200.200.3:c6dbde04",
+      "gutenberg:ebooks:22381:200.200.4-200.200.4:d260625c"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his",
+    "openingSituation": "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his",
+    "centralConflict": "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his",
+    "resolution": "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his",
+    "outcome": "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his",
+    "storyline": [
+      "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:200.200.1-200.200.1:9f8ba2bb",
+        "gutenberg:ebooks:22381:200.200.2-200.200.2:9d530ffc",
+        "gutenberg:ebooks:22381:200.200.3-200.200.3:c6dbde04"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:200.200.1-200.200.1:9f8ba2bb"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:200.200.1-200.200.1:9f8ba2bb"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:200.200.1-200.200.1:9f8ba2bb"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:200.200.1-200.200.1:9f8ba2bb"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:200.200.1-200.200.1:9f8ba2bb",
+      "excerpt": "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his brother Hypnus is universally loved and welcomed as their",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:200.200.2-200.200.2:9d530ffc",
+      "excerpt": "But though the ancients regarded Thanatos as a gloomy and mournful divinity, they did not represent him with any exterior repulsiveness.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:200.200.3-200.200.3:c6dbde04",
+      "excerpt": "Hypnus is sometimes depicted standing erect with closed eyes; at others he is in a recumbent position beside his brother Thanatos, and usually bears a poppy-stalk in his hand.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:200.200.4-200.200.4:d260625c",
+      "excerpt": "A most interesting description of the abode of Hypnus is given by Ovid in his Metamorphoses. He tells us how the god of Sleep dwelt in a mountain-cave near the realm of the Cimmerians, which the sun never pierced with his rays.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his",
+      "evidence": [
+        "gutenberg:ebooks:22381:200.200.1-200.200.1:9f8ba2bb"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his brother Hypnus is universally loved and welcomed as their kindest and most beneficent friend.",
+      "sourceClause": "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his brother Hypnus is universally loved and welcomed as their kindest and most beneficent friend.",
+      "actor": null,
+      "action": "love",
+      "sourceAction": "loved",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:200.200.1-200.200.1:9f8ba2bb"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his",
+      "evidence": [
+        "gutenberg:ebooks:22381:200.200.4-200.200.4:d260625c"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Their dwelling was in the realm of shades, and when they appear among mortals, Thanatos is feared and hated as the enemy of mankind, whose hard heart knows no pity, whilst his"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-6a6b73f4",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0200-fbf020",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Nyx.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:200.200.1-200.200.1:9f8ba2bb",
+        "gutenberg:ebooks:22381:200.200.2-200.200.2:9d530ffc",
+        "gutenberg:ebooks:22381:200.200.3-200.200.3:c6dbde04"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 44,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

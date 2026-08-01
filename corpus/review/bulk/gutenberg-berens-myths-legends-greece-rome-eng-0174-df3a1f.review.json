@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 106,
+    "score": 109,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -13,9 +13,9 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 3,
+      "namedMythologicalEntities": 4,
       "meaningfulEvents": 4,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -24,10 +24,10 @@
   },
   "items": [
     {
-      "reviewId": "review-da76541e",
+      "reviewId": "review-77cc41c3",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0174-df3a1f",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "THETIS.",
       "suggestions": [
         "fewer-than-two-actor-events",

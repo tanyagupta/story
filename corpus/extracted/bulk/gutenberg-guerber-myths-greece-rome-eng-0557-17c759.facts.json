@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,35 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Athamas",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athamas",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ceyx",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ceyx",
       "normalizationStatus": "approved"
     }
   ],
@@ -63,7 +91,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "cadmus",
+      "actorSourceName": null,
       "sourceAction": "founded",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -80,7 +108,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-neptune",
+      "actorSourceName": null,
       "sourceAction": "changed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -138,12 +166,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-6b2d684f",
+      "reviewId": "review-a7cf301a",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0557-17c759",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Thebes.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

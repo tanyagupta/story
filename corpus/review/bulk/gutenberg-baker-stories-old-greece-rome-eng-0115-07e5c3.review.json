@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 189,
+    "score": 179,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -14,7 +14,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 4,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -23,10 +23,10 @@
   },
   "items": [
     {
-      "reviewId": "review-753c8017",
+      "reviewId": "review-8f58b711",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0115-07e5c3",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "The trident--summoned all the hurricanes",
       "suggestions": [
         "weak-or-literary-title"

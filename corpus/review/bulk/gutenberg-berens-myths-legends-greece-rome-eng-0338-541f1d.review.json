@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 150,
+    "score": 142,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events",
@@ -12,10 +12,10 @@
       "fewer-than-two-actor-events"
     ],
     "components": {
-      "namedMythologicalEntities": 3,
-      "meaningfulEvents": 8,
-      "actorEvents": 1,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 7,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
@@ -23,10 +23,10 @@
   },
   "items": [
     {
-      "reviewId": "review-4b748848",
+      "reviewId": "review-9996fa7e",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0338-541f1d",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "RETURN OF THE GREEKS FROM TROY.",
       "suggestions": [
         "fewer-than-two-actor-events"

@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-cupid",
+      "normalizedId": "cupid",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-hercules",
+      "normalizedId": "heracles",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -142,7 +142,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "atlas",
+      "actorSourceName": null,
       "sourceAction": "created",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -203,6 +203,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:499.499.9-499.499.9:661ce2c9"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:499.499.10-499.499.10:81819cf4"
         }
       ],
@@ -231,7 +234,7 @@
     {
       "subject": "atlas",
       "predicate": "opening_situation",
-      "object": "These myths, comprising \"the entire intellectual stock of the age to which they belonged,\" existed as \"floating talk among the people\" long ere they passed into the literature of.",
+      "object": "These myths, comprising \"the entire intellectual stock of the age to which they belonged,\" existed as \"floating talk among the people\" long ere they passed into the literature of",
       "evidence": [
         "gutenberg:ebooks:39250:499.499.1-499.499.1:a9e0d25b"
       ]
@@ -241,7 +244,7 @@
     {
       "subject": "atlas",
       "predicate": "outcome",
-      "object": "They argue that this similarity exists, \"not because the people came from the same stock\" (which is the philologist's view), \"but because they passed through the same savage.",
+      "object": "They argue that this similarity exists, \"not because the people came from the same stock\" (which is the philologist's view), \"but because they passed through the same savage",
       "evidence": [
         "gutenberg:ebooks:39250:499.499.25-499.499.25:9a39f3dc"
       ]
@@ -251,10 +254,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-36a842ca",
+      "reviewId": "review-8eb1966a",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0499-1199b8",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "ANALYSIS OF MYTHS.",
       "suggestions": [
         "fewer-than-two-actor-events"

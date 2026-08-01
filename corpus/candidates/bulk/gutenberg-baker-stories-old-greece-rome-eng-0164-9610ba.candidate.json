@@ -13,7 +13,7 @@
     "gutenberg:ebooks:45489:164.164.8-164.164.8:23734988",
     "gutenberg:ebooks:45489:164.164.9-164.164.9:a0cafe78"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -33,14 +33,15 @@
     "Medea",
     "Minotaur",
     "Theseus",
-    "Vulcan"
+    "Vulcan",
+    "Minos"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 204,
+    "score": 179,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -52,7 +53,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 7,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

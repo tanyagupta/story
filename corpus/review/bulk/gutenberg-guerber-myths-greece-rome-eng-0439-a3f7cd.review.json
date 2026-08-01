@@ -1,20 +1,21 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 151,
+    "score": 131,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
       "namedMythologicalEntities": 4,
       "meaningfulEvents": 6,
-      "actorEvents": 4,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -23,12 +24,13 @@
   },
   "items": [
     {
-      "reviewId": "review-e8b4e01e",
+      "reviewId": "review-ad4bd9d6",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0439-a3f7cd",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "King of Sparta.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

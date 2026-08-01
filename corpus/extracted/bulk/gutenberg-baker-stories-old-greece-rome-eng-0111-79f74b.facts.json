@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
     {
@@ -176,7 +176,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "ceres",
+      "actorSourceName": null,
       "sourceAction": "deceived",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -193,7 +193,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "ceres",
+      "actorSourceName": null,
       "sourceAction": "gave",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -229,7 +229,7 @@
   ],
   "initialState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "opening_situation",
       "object": "Fearing for his life, he confided to his daughters what the oracle had foretold, and gave them each a dagger, bidding them slay their husbands.",
       "evidence": [
@@ -239,7 +239,7 @@
   ],
   "finalState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "outcome",
       "object": "The inhuman Tantalus was condemned to the torments of Tartarus, where he stands up to his chin in a clear stream.",
       "evidence": [
@@ -251,12 +251,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-841438c9",
+      "reviewId": "review-13d9250a",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0111-79f74b",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Tartarus.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

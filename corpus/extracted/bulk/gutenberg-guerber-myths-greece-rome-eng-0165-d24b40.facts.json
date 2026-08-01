@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -27,13 +27,33 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
   "goals": [],
   "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "sprang",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
     {
       "actorSourceName": null,
       "sourceAction": "born",
@@ -54,9 +74,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+      "object": "[Sidenote: Venus' birth.] Venus (Dione, Aphrodite, Cytherea), the goddess of beauty, love, laughter, and marriage, is said by some mythologists to be the daughter of Jupiter and",
       "evidence": [
         "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454"
       ]
@@ -64,7 +84,7 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
       "object": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
       "evidence": [
@@ -76,10 +96,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-7b805da1",
+      "reviewId": "review-d33fe8c2",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0165-d24b40",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "VENUS.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

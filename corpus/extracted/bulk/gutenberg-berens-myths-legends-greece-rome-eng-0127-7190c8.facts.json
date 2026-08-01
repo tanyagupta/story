@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "zeus",
+      "actorSourceName": null,
       "sourceAction": "chased",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -52,7 +52,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "zeus",
+      "actorSourceName": null,
       "sourceAction": "formed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -105,7 +105,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
       "object": "On the cloud-capped summit of Olympus was the palace of {28} Zeus and Hera, of burnished gold, chased silver, and gleaming ivory.",
       "evidence": [
@@ -115,7 +115,7 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
       "object": "The nose is large and finely formed, and the slightly-opened lips impart an air of sympathetic kindliness which invites confidence.",
       "evidence": [
@@ -127,12 +127,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-037a2aa5",
+      "reviewId": "review-73f7d0bd",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0127-7190c8",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "THIRD DYNASTY--OLYMPIAN DIVINITIES.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

@@ -7,7 +7,7 @@
     "gutenberg:ebooks:39250:466.466.2-466.466.2:f49d10a8",
     "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,12 +24,12 @@
     "Neptune",
     "Ulysses"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 65,
+    "score": 60,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
@@ -43,7 +43,7 @@
     "components": {
       "namedMythologicalEntities": 2,
       "meaningfulEvents": 1,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
   ],
@@ -69,7 +69,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": "zeus",
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -103,7 +103,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -120,7 +120,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "told",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -137,7 +137,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -154,7 +154,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": "zeus",
       "sourceAction": "knew",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -173,7 +173,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "opening_situation",
       "object": "When he had at last obtained a hearing, he told her who he was, calculating upon the effect which such a revelation must necessarily produce.",
       "evidence": [
@@ -183,9 +183,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "outcome",
-      "object": "Jupiter returned to Olympus, modified his costume as much as possible, dimmed his glory wherever he could, and chose the feeblest of all his bolts, for well he knew no mere.",
+      "object": "Jupiter returned to Olympus, modified his costume as much as possible, dimmed his glory wherever he could, and chose the feeblest of all his bolts, for well he knew no mere mortal",
       "evidence": [
         "gutenberg:ebooks:39250:262.262.15-262.262.15:9d1dd634"
       ]
@@ -195,10 +195,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-05736d14",
+      "reviewId": "review-b0d7f380",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0262-d27e31",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Harmonia.",
       "suggestions": [
         "weak-or-literary-title"

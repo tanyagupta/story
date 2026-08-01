@@ -1,0 +1,197 @@
+{
+  "mythId": "bulk-myth-0269",
+  "mythFamilyId": "anchises",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-anchises-5d4e9c",
+  "title": "Anchises.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:490.490.1-490.490.1:2a271332",
+      "gutenberg:ebooks:39250:490.490.2-490.490.2:2a2698af",
+      "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333",
+      "gutenberg:ebooks:39250:490.490.4-490.490.4:cdb0598a"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hera"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Juno",
+      "normalizedId": "hera",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:490.490.1-490.490.1:2a271332"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since",
+    "openingSituation": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since",
+    "centralConflict": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since",
+    "resolution": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since",
+    "outcome": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since",
+    "storyline": [
+      "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:490.490.1-490.490.1:2a271332",
+        "gutenberg:ebooks:39250:490.490.2-490.490.2:2a2698af",
+        "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:490.490.1-490.490.1:2a271332",
+      "excerpt": "\"There I lose my stay in every care, My sire Anchises!\"",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:490.490.2-490.490.2:2a2698af",
+      "excerpt": "Virgil (Conington's tr.).",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333",
+      "excerpt": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since they first sailed from Troy.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:490.490.4-490.490.4:cdb0598a",
+      "excerpt": "\"'O Æolus! since the Sire of all",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hera",
+      "predicate": "opening_situation",
+      "object": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since",
+      "evidence": [
+        "gutenberg:ebooks:39250:490.490.1-490.490.1:2a271332"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since they first sailed from Troy.",
+      "sourceClause": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since they first sailed from Troy.",
+      "actor": "hera",
+      "action": "travel",
+      "sourceAction": "sailed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "troy",
+      "result": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hera",
+      "predicate": "outcome",
+      "object": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since",
+      "evidence": [
+        "gutenberg:ebooks:39250:490.490.4-490.490.4:cdb0598a"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-8192260a",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0490-0d8876",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Anchises.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:490.490.1-490.490.1:2a271332",
+        "gutenberg:ebooks:39250:490.490.2-490.490.2:2a2698af",
+        "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 57,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

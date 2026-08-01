@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     }
   ],
@@ -38,7 +38,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
       "sourceAction": "warned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -55,7 +55,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -72,25 +72,8 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-ulysses",
-      "sourceAction": "caught",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
-    },
-    {
       "actorSourceName": null,
-      "sourceAction": "bound",
+      "sourceAction": "caught",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -108,7 +91,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-ulysses",
+      "subject": "ulysses",
       "predicate": "opening_situation",
       "object": "Suddenly a piercing cry was heard, as the monster seized six of the men and devoured them.",
       "evidence": [
@@ -118,9 +101,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-ulysses",
+      "subject": "ulysses",
       "predicate": "outcome",
-      "object": "All these sounds and sights could not, however, deter the sailors, who were bound to have a good feast, which they kept up for seven days, ere",
+      "object": "Led by Eurylochus, some of the men, during one of Ulysses' temporary absences, caught and slew some of the sun god's cattle.",
       "evidence": [
         "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848"
       ]
@@ -130,12 +113,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-de727b4f",
+      "reviewId": "review-7488d742",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0474-4533ce",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Scylla's den.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

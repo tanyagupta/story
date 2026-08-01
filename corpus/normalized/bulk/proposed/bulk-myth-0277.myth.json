@@ -1,0 +1,193 @@
+{
+  "mythId": "bulk-myth-0277",
+  "mythFamilyId": "uranus-and-gaea-coelus-and-terra",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-uranus-and-gaea-coelus-and-terra-0dd5a9",
+  "title": "URANUS AND GAEA. (COELUS AND TERRA.)",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6",
+      "gutenberg:ebooks:22381:114.114.2-114.114.2:2c1e077b"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The ancient Greeks had several different theories with regard to the origin of the world, but the generally accepted notion was that before this world came into existence, there These elements becoming at length consolidated (by what means does not appear), resolved themselves into two widely different substances, the lighter portion of which, soaring on",
+    "openingSituation": "The ancient Greeks had several different theories with regard to the origin of the world, but the generally accepted notion was that before this world came into existence, there",
+    "centralConflict": "These elements becoming at length consolidated (by what means does not appear), resolved themselves into two widely different substances, the lighter portion of which, soaring on",
+    "resolution": "These elements becoming at length consolidated (by what means does not appear), resolved themselves into two widely different substances, the lighter portion of which, soaring on",
+    "outcome": "These elements becoming at length consolidated (by what means does not appear), resolved themselves into two widely different substances, the lighter portion of which, soaring on",
+    "storyline": [
+      "The ancient Greeks had several different theories with regard to the origin of the world, but the generally accepted notion was that before this world came into existence, there",
+      "These elements becoming at length consolidated (by what means does not appear), resolved themselves into two widely different substances, the lighter portion of which, soaring on"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6",
+        "gutenberg:ebooks:22381:114.114.2-114.114.2:2c1e077b"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6",
+      "excerpt": "The ancient Greeks had several different theories with regard to the origin of the world, but the generally accepted notion was that before this world came into existence, there was in its place a confused mass of shapeless elements called",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:114.114.2-114.114.2:2c1e077b",
+      "excerpt": "Thus came into being the two first great primeval deities of the Greeks,",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The ancient Greeks had several different theories with regard to the origin of the world, but the generally accepted notion was that before this world came into existence, there",
+      "evidence": [
+        "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "The ancient Greeks had several different theories with regard to the origin of the world, but the generally accepted notion was that before this world came into existence, there was in its place a confused mass of shapeless elements called Chaos.",
+      "sourceClause": "The ancient Greeks had several different theories with regard to the origin of the world, but the generally accepted notion was that before this world came into existence, there was in its place a confused mass of shapeless elements called Chaos.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The ancient Greeks had several different theories with regard to the origin of the world, but the generally accepted notion was that before this world came into existence, there",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "These elements becoming at length consolidated (by what means does not appear), resolved themselves into two widely different substances, the lighter portion of which, soaring on high, formed the sky or firmament, and constituted itself into a vast, overarching vault, which protected the firm and solid mass beneath.",
+      "sourceClause": "These elements becoming at length consolidated (by what means does not appear), resolved themselves into two widely different substances, the lighter portion of which, soaring on high, formed the sky or firmament, and constituted itself into a vast, overarching vault, which protected the firm and solid mass beneath.",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "formed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "These elements becoming at length consolidated (by what means does not appear), resolved themselves into two widely different substances, the lighter portion of which, soaring on",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "These elements becoming at length consolidated (by what means does not appear), resolved themselves into two widely different substances, the lighter portion of which, soaring on",
+      "evidence": [
+        "gutenberg:ebooks:22381:114.114.2-114.114.2:2c1e077b"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The ancient Greeks had several different theories with regard to the origin of the world, but the generally accepted notion was that before this world came into existence, there",
+      "These elements becoming at length consolidated (by what means does not appear), resolved themselves into two widely different substances, the lighter portion of which, soaring on"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-b561253c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0114-60c586",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "URANUS AND GAEA. (COELUS AND TERRA.)",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6",
+        "gutenberg:ebooks:22381:114.114.2-114.114.2:2c1e077b"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 55,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

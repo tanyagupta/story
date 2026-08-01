@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 132,
+    "score": 138,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -12,9 +12,9 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 3,
+      "namedMythologicalEntities": 5,
       "meaningfulEvents": 5,
-      "actorEvents": 4,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -23,10 +23,10 @@
   },
   "items": [
     {
-      "reviewId": "review-081692fe",
+      "reviewId": "review-394ad859",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0367-8856a0",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Inhaling in thy milky-breathing breast",
       "suggestions": [
         "weak-or-literary-title"

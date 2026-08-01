@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "zeus",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -42,7 +42,7 @@
     {
       "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent.",
+      "object": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent",
       "evidence": [
         "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b"
       ]
@@ -52,7 +52,7 @@
     {
       "subject": "zeus",
       "predicate": "outcome",
-      "object": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent.",
+      "object": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent",
       "evidence": [
         "gutenberg:ebooks:22381:215.215.2-215.215.2:00a7ef5e"
       ]
@@ -62,10 +62,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-5b2edda3",
+      "reviewId": "review-4155c351",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0215-1424e7",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "GANYMEDES.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

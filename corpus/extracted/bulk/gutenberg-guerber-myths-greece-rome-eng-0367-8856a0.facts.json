@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -42,6 +42,34 @@
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
       "normalizedId": "perseus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Danae",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "danae",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Polydectes",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "polydectes",
       "normalizationStatus": "approved"
     }
   ],
@@ -58,6 +86,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.3-367.367.3:224c154b"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:367.367.4-367.367.4:6a96c118"
         }
@@ -83,7 +114,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "perseus",
+      "actorSourceName": null,
       "sourceAction": "declared",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -100,7 +131,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "medusa",
+      "actorSourceName": "athena",
       "sourceAction": "refused",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -117,7 +148,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-minerva",
+      "actorSourceName": null,
       "sourceAction": "changed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -138,7 +169,7 @@
     {
       "subject": "medusa",
       "predicate": "opening_situation",
-      "object": "Her piteous prayer was evidently heard, for, after much tossing, the cask was finally washed ashore on the Island of Seriphus, where Polydectes, the king, kindly received mother.",
+      "object": "[Sidenote: Danae at Seriphus.] Her piteous prayer was evidently heard, for, after much tossing, the cask was finally washed ashore on the Island of Seriphus, where Polydectes, the",
       "evidence": [
         "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6"
       ]
@@ -148,7 +179,7 @@
     {
       "subject": "medusa",
       "predicate": "outcome",
-      "object": "This presumptuous remark so incensed Minerva, that, to punish her for her vanity, she changed her beautiful curling locks into hissing, writhing serpents, and decreed that one.",
+      "object": "This presumptuous remark so incensed Minerva, that, to punish her for her vanity, she changed her beautiful curling locks into hissing, writhing serpents, and decreed that one",
       "evidence": [
         "gutenberg:ebooks:39250:367.367.9-367.367.9:c978525a"
       ]
@@ -158,10 +189,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-081692fe",
+      "reviewId": "review-394ad859",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0367-8856a0",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Inhaling in thy milky-breathing breast",
       "suggestions": [
         "weak-or-literary-title"

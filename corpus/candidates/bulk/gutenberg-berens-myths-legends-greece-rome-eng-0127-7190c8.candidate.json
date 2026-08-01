@@ -13,7 +13,7 @@
     "gutenberg:ebooks:22381:127.127.8-127.127.8:56120b92",
     "gutenberg:ebooks:22381:127.127.9-127.127.9:da9ad3d9"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -30,24 +30,25 @@
     "Jupiter",
     "Zeus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 103,
+    "score": 93,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
       "namedMythologicalEntities": 2,
       "meaningfulEvents": 4,
-      "actorEvents": 2,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

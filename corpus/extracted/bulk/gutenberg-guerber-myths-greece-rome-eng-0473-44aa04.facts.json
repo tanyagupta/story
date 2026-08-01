@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     }
   ],
@@ -50,30 +50,13 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "made",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:473.473.5-473.473.5:26e624ac"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "circe",
       "predicate": "opening_situation",
-      "object": "Glaucus faithfully did as she commanded; but when Scylla plunged into the water, her body, and not her feelings, changed, and she became a loathsome monster, a terror to gods and.",
+      "object": "Glaucus faithfully did as she commanded; but when Scylla plunged into the water, her body, and not her feelings, changed, and she became a loathsome monster, a terror to gods and",
       "evidence": [
         "gutenberg:ebooks:39250:473.473.1-473.473.1:56d3903e"
       ]
@@ -83,7 +66,7 @@
     {
       "subject": "circe",
       "predicate": "outcome",
-      "object": "The sound of the rushing waters whirling around Charybdis made all on board tremble with fear, and the pilot steered nearer still to dread",
+      "object": "Glaucus faithfully did as she commanded; but when Scylla plunged into the water, her body, and not her feelings, changed, and she became a loathsome monster, a terror to gods and",
       "evidence": [
         "gutenberg:ebooks:39250:473.473.5-473.473.5:26e624ac"
       ]
@@ -93,10 +76,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-bc7b9e56",
+      "reviewId": "review-a15b5040",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0473-44aa04",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "That he has passed by Scylla with a crew",
       "suggestions": [
         "fewer-than-three-meaningful-events",

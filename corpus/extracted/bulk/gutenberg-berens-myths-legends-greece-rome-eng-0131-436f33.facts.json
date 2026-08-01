@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "cadmus",
       "normalizationStatus": "approved"
     },
@@ -26,7 +26,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "callisto",
       "normalizationStatus": "approved"
     },
@@ -40,7 +40,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
@@ -54,7 +54,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "io",
       "normalizationStatus": "approved"
     },
@@ -68,7 +68,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "perseus",
       "normalizationStatus": "approved"
     },
@@ -82,7 +82,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
@@ -105,7 +105,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -122,10 +122,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "zeus",
+      "actorSourceName": null,
       "sourceAction": "deceived",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -139,10 +139,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "io",
+      "actorSourceName": null,
       "sourceAction": "found",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -156,7 +156,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": "hermes",
@@ -173,10 +173,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "io",
+      "actorSourceName": null,
       "sourceAction": "wandered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -190,7 +190,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -207,7 +207,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -224,14 +224,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "cadmus",
       "predicate": "opening_situation",
-      "object": "Semele, suspecting no treachery, followed the advice of her supposed nurse; and the next time Zeus came to her, she earnestly entreated him to grant the favour she was about to.",
+      "object": "Semele, suspecting no treachery, followed the advice of her supposed nurse; and the next time Zeus came to her, she earnestly entreated him to grant the favour she was about to",
       "evidence": [
         "gutenberg:ebooks:22381:131.131.1-131.131.1:2ebedf0c"
       ]
@@ -248,6 +248,23 @@
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-cd74fbbc",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0131-436f33",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Alcmene and Zeus.",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:131.131.1-131.131.1:2ebedf0c",
+        "gutenberg:ebooks:22381:131.131.2-131.131.2:7b077dbd",
+        "gutenberg:ebooks:22381:131.131.3-131.131.3:1ce0eb2f"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
     {
@@ -87,6 +87,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:500.500.1-500.500.1:cd87b368"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:500.500.2-500.500.2:49425f34"
         }
       ],
@@ -111,7 +114,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -121,6 +124,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:500.500.3-500.500.3:01204a6f"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:500.500.4-500.500.4:c1595228"
         }
       ],
@@ -128,7 +134,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "gave",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -137,6 +143,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:500.500.5-500.500.5:9e27ffa6"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:500.500.6-500.500.6:3cbb6f5f"
         }
@@ -149,7 +158,7 @@
     {
       "subject": "io",
       "predicate": "opening_situation",
-      "object": "Taking them in the order in which they are presented in this work, we find among the myths of the sky, Uranus, whose name, like that of the old Hindoo god Varuna, is derived from.",
+      "object": "[Sidenote: Uranus.] Taking them in the order in which they are presented in this work, we find among the myths of the sky, Uranus, whose name, like that of the old Hindoo god",
       "evidence": [
         "gutenberg:ebooks:39250:500.500.1-500.500.1:cd87b368"
       ]
@@ -159,7 +168,7 @@
     {
       "subject": "io",
       "predicate": "outcome",
-      "object": "The name of Hera (or Juno), the heavenly light, and therefore the complement and consort of the sky, is supposed to be derived from the Sanskrit _soar_ (\"the bright sky\") and.",
+      "object": "[Sidenote: Juno.] The name of Hera (or Juno), the heavenly light, and therefore the complement and consort of the sky, is supposed to be derived from the Sanskrit _soar_ (\"the",
       "evidence": [
         "gutenberg:ebooks:39250:500.500.8-500.500.8:19d412fb"
       ]
@@ -169,12 +178,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-d9533a41",
+      "reviewId": "review-054ad029",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0500-778a57",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "SKY MYTHS.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

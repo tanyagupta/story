@@ -1,12 +1,55 @@
 {
   "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0312-4147a7",
   "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
-  "entities": [],
+  "entities": [
+    {
+      "sourceName": "Alpheus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:312.312.1-312.312.1:1a4242d6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "alpheus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Argonauts",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:312.312.1-312.312.1:1a4242d6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Eurystheus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:312.312.1-312.312.1:1a4242d6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "eurystheus",
+      "normalizationStatus": "approved"
+    }
+  ],
   "relationships": [],
   "goals": [],
   "events": [
     {
-      "actorSourceName": null,
+      "actorSourceName": "eurystheus",
       "sourceAction": "commanded",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -93,7 +136,7 @@
   ],
   "initialState": [
     {
-      "subject": null,
+      "subject": "alpheus",
       "predicate": "opening_situation",
       "object": "CLEANSING THE STABLES OF AUGEAS.--After slaying the Erymantian boar Eurystheus commanded Heracles to cleanse in one day the stables of Augeas.",
       "evidence": [
@@ -103,9 +146,9 @@
   ],
   "finalState": [
     {
-      "subject": null,
+      "subject": "alpheus",
       "predicate": "outcome",
-      "object": "The shrill noise of these instruments was so intolerable to the birds that they rose into the air in terror, upon which he aimed at them with his arrows, destroying them in great.",
+      "object": "The shrill noise of these instruments was so intolerable to the birds that they rose into the air in terror, upon which he aimed at them with his arrows, destroying them in great",
       "evidence": [
         "gutenberg:ebooks:22381:312.312.7-312.312.7:991620c0"
       ]
@@ -115,13 +158,12 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-89551838",
+      "reviewId": "review-3b4070cf",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0312-4147a7",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Mycenae.",
       "suggestions": [
-        "no-mythological-characters",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],

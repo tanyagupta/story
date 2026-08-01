@@ -1,22 +1,23 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 66,
+    "score": 55,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events",
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
       "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
       "fewer-than-two-actor-events"
     ],
     "components": {
       "namedMythologicalEntities": 0,
-      "meaningfulEvents": 3,
+      "meaningfulEvents": 2,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
@@ -24,13 +25,14 @@
   },
   "items": [
     {
-      "reviewId": "review-81dc6e48",
+      "reviewId": "review-47ce8889",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0443-ab2fec",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Aulis.",
       "suggestions": [
         "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
       ],
       "evidence": [

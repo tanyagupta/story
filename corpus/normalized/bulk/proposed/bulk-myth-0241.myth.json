@@ -1,0 +1,191 @@
+{
+  "mythId": "bulk-myth-0241",
+  "mythFamilyId": "midas",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-midas-238688",
+  "title": "Swift.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2",
+      "gutenberg:ebooks:39250:111.111.2-111.111.2:ba01a8e7",
+      "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "midas"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Midas",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
+    "openingSituation": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
+    "centralConflict": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
+    "resolution": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
+    "outcome": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
+    "storyline": [
+      "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2",
+        "gutenberg:ebooks:39250:111.111.2-111.111.2:ba01a8e7",
+        "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2",
+      "excerpt": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was admitted, and bidden to fashion a huge wig, which would hide",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:111.111.2-111.111.2:ba01a8e7",
+      "excerpt": "But a secret is difficult to keep; and this one, of the king's long ears, preyed upon the poor barber's spirits, so that, incapable of enduring silence longer, he sallied out into a field, dug a deep hole, and shouted down into the bosom",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693",
+      "excerpt": "\"'King Midas wears (These eyes beheld them, these) such ass's ears!'\"",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "midas",
+      "predicate": "opening_situation",
+      "object": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
+      "evidence": [
+        "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was admitted, and bidden to fashion a huge wig, which would hide the deformity from the eyes of the king's subjects.",
+      "sourceClause": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was admitted, and bidden to fashion a huge wig, which would hide the deformity from the eyes of the king's subjects.",
+      "actor": null,
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": "midas",
+      "recipient": null,
+      "location": null,
+      "result": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "midas",
+      "predicate": "outcome",
+      "object": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
+      "evidence": [
+        "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-14c3e7cc",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0111-ce0c65",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Swift.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2",
+        "gutenberg:ebooks:39250:111.111.2-111.111.2:ba01a8e7",
+        "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 52,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

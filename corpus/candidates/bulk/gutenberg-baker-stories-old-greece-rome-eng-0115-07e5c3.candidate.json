@@ -19,7 +19,7 @@
     "gutenberg:ebooks:45489:115.115.14-115.115.14:f77a66b0",
     "gutenberg:ebooks:45489:115.115.15-115.115.15:265d244d"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -42,14 +42,15 @@
     "Jupiter",
     "Neptune",
     "Orpheus",
-    "Proserpina"
+    "Proserpina",
+    "Argonauts"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 189,
+    "score": 179,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -61,7 +62,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 4,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

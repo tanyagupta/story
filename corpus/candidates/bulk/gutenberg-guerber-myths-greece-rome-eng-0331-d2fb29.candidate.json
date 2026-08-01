@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:331.331.5-331.331.5:735945b0",
     "gutenberg:ebooks:39250:331.331.6-331.331.6:d52b884a"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,12 +26,12 @@
   "characters": [
     "Juno"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 79,
+    "score": 74,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -44,7 +44,7 @@
     "components": {
       "namedMythologicalEntities": 1,
       "meaningfulEvents": 3,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

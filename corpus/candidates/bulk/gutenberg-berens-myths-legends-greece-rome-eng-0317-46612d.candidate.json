@@ -26,7 +26,7 @@
     "gutenberg:ebooks:22381:317.317.21-317.317.21:3acb082f",
     "gutenberg:ebooks:22381:317.317.22-317.317.22:d6bc4e76"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -42,14 +42,19 @@
   "characters": [
     "Apollo",
     "Hermes",
-    "Zeus"
+    "Zeus",
+    "Ceyx",
+    "Eurystheus",
+    "Hebe",
+    "Hyllus",
+    "Iolaus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 145,
+    "score": 174,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -60,9 +65,9 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 3,
+      "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 0,
+      "actorEvents": 1,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

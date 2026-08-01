@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-hercules",
+      "normalizedId": "heracles",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -83,7 +83,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     }
   ],
@@ -108,7 +108,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "formed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -125,7 +125,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "europa",
+      "actorSourceName": null,
       "sourceAction": "slain",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -142,7 +142,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "circe",
+      "actorSourceName": null,
       "sourceAction": "changed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -183,12 +183,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-8d06d5bd",
+      "reviewId": "review-83989601",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0550-05f6cf",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Rome.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

@@ -1,0 +1,168 @@
+{
+  "mythId": "bulk-myth-0290",
+  "mythFamilyId": "on-olympus-shining-bastions",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-on-olympus-shining-bastions-0a71a0",
+  "title": "On Olympus' shining bastions",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028",
+      "gutenberg:ebooks:39250:49.49.2-49.49.2:1816f076"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+    "openingSituation": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+    "centralConflict": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+    "resolution": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+    "outcome": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+    "storyline": [
+      "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028",
+        "gutenberg:ebooks:39250:49.49.2-49.49.2:1816f076"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028",
+      "excerpt": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:49.49.2-49.49.2:1816f076",
+      "excerpt": "\"Beautiful is the tradition Of that flight through heavenly portals,",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+      "evidence": [
+        "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+      "sourceClause": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+      "actor": null,
+      "action": "reveal",
+      "sourceAction": "told",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+      "evidence": [
+        "gutenberg:ebooks:39250:49.49.2-49.49.2:1816f076"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-fd066728",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0049-b4d8fa",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "On Olympus' shining bastions",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028",
+        "gutenberg:ebooks:39250:49.49.2-49.49.2:1816f076"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 44,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

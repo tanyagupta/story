@@ -9,7 +9,7 @@
     "gutenberg:ebooks:22381:174.174.4-174.174.4:5102440b",
     "gutenberg:ebooks:22381:174.174.5-174.174.5:7894f591"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,14 +25,15 @@
   "characters": [
     "Achilles",
     "Poseidon",
-    "Zeus"
+    "Zeus",
+    "Ceyx"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 106,
+    "score": 109,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -43,9 +44,9 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 3,
+      "namedMythologicalEntities": 4,
       "meaningfulEvents": 4,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

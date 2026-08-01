@@ -12,7 +12,7 @@
     "gutenberg:ebooks:45489:142.142.7-142.142.7:dfb2a21b",
     "gutenberg:ebooks:45489:142.142.8-142.142.8:198bc34d"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -34,14 +34,15 @@
     "Mercury",
     "Minerva",
     "Pluto",
-    "Prometheus"
+    "Prometheus",
+    "Eurystheus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 194,
+    "score": 179,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -53,7 +54,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 5,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

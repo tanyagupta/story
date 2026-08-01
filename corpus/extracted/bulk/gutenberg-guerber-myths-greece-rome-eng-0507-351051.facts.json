@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-vulcan",
+      "normalizedId": "hephaestus",
       "normalizationStatus": "approved"
     }
   ],
@@ -68,9 +68,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "Learned men have therefore proved that the \"beneficent Titan, who stole fire from heaven and bestowed it upon mankind as the richest of boons,\" was originally nothing but the.",
+      "object": "Learned men have therefore proved that the \"beneficent Titan, who stole fire from heaven and bestowed it upon mankind as the richest of boons,\" was originally nothing but the",
       "evidence": [
         "gutenberg:ebooks:39250:507.507.1-507.507.1:774db575"
       ]
@@ -78,9 +78,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
-      "object": "Learned men have therefore proved that the \"beneficent Titan, who stole fire from heaven and bestowed it upon mankind as the richest of boons,\" was originally nothing but the.",
+      "object": "Learned men have therefore proved that the \"beneficent Titan, who stole fire from heaven and bestowed it upon mankind as the richest of boons,\" was originally nothing but the",
       "evidence": [
         "gutenberg:ebooks:39250:507.507.10-507.507.10:10423aa1"
       ]
@@ -90,10 +90,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-e79bdb00",
+      "reviewId": "review-5176a2a0",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0507-351051",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "FIRE MYTHS.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

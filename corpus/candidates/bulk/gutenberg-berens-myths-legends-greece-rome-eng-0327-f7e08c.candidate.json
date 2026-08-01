@@ -7,7 +7,7 @@
     "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97",
     "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,24 +25,25 @@
     "Eurydice",
     "Theseus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 111,
+    "score": 101,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
       "namedMythologicalEntities": 3,
       "meaningfulEvents": 4,
-      "actorEvents": 2,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

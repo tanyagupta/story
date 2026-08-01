@@ -66,7 +66,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "ariadne",
+      "actorSourceName": null,
       "sourceAction": "confined",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -83,7 +83,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "minotaur",
+      "actorSourceName": null,
       "sourceAction": "offered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -100,7 +100,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "ariadne",
+      "actorSourceName": null,
       "sourceAction": "revealed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -138,7 +138,7 @@
     {
       "subject": "ariadne",
       "predicate": "opening_situation",
-      "object": "Theseus, by right of his birth, claimed the precedence, and proffered a request to be the first victim,--a request which the king granted with a sardonic smile, ere he returned.",
+      "object": "Theseus, by right of his birth, claimed the precedence, and proffered a request to be the first victim,--a request which the king granted with a sardonic smile, ere he returned",
       "evidence": [
         "gutenberg:ebooks:39250:386.386.1-386.386.1:0c9a22a0"
       ]
@@ -158,10 +158,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-25573c52",
+      "reviewId": "review-988e1faf",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0386-c11b74",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Athenians.",
       "suggestions": [
         "weak-or-literary-title"

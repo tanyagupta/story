@@ -17,7 +17,7 @@
     "gutenberg:ebooks:22381:302.302.12-302.302.12:4cec3351",
     "gutenberg:ebooks:22381:302.302.13-302.302.13:da49e13c"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -28,8 +28,8 @@
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
   "candidateType": "narrative_episode",
-  "mythFamilyId": "story-of-the-golden-fleece",
-  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-story-of-the-golden-fleece-b78e7f",
+  "mythFamilyId": "golden-fleece",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-golden-fleece-b78e7f",
   "characters": [
     "Achilles",
     "Apollo",
@@ -39,14 +39,25 @@
     "Orpheus",
     "Poseidon",
     "Theseus",
-    "Zeus"
+    "Zeus",
+    "Aetes",
+    "Argos",
+    "Argonauts",
+    "Athamas",
+    "Chiron",
+    "Cyzicus",
+    "Helle",
+    "Hypsipyle",
+    "Ino",
+    "Nephele",
+    "Phryxus"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 179,
+    "score": 189,
     "passed": true,
     "reasons": [
       "No explicit relationship was extracted from the selected source wording."
@@ -55,7 +66,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 2,
+      "actorEvents": 4,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

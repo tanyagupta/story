@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     }
   ],
@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": "hera",
       "sourceAction": "sailed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -40,9 +40,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "opening_situation",
-      "object": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since.",
+      "object": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since",
       "evidence": [
         "gutenberg:ebooks:39250:490.490.1-490.490.1:2a271332"
       ]
@@ -50,9 +50,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "outcome",
-      "object": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since.",
+      "object": "Juno, in the mean while, had not been idle, and gloated over the dangers she had forced the unhappy Trojans to encounter during the seven years which had already elapsed since",
       "evidence": [
         "gutenberg:ebooks:39250:490.490.4-490.490.4:cdb0598a"
       ]
@@ -62,10 +62,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-b9782e18",
+      "reviewId": "review-8192260a",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0490-0d8876",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Anchises.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

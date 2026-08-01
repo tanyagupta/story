@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:557.557.7-557.557.7:a6cd3bfe",
     "gutenberg:ebooks:39250:557.557.8-557.557.8:96aa325f"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -29,26 +29,29 @@
     "Achilles",
     "Cadmus",
     "Ceres",
-    "Neptune"
+    "Neptune",
+    "Athamas",
+    "Ceyx"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 108,
+    "score": 114,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 4,
+      "namedMythologicalEntities": 6,
       "meaningfulEvents": 3,
-      "actorEvents": 2,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

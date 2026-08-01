@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "passed-automatic-gates",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 179,
+    "score": 189,
     "passed": true,
     "reasons": [
       "No explicit relationship was extracted from the selected source wording."
@@ -11,12 +11,29 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 2,
+      "actorEvents": 4,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
     }
   },
-  "items": []
+  "items": [
+    {
+      "reviewId": "review-1d419b78",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0302-4d9507",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "STORY OF THE GOLDEN FLEECE.",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+        "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01",
+        "gutenberg:ebooks:22381:302.302.3-302.302.3:8296fb5e"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -13,7 +13,7 @@
     "gutenberg:ebooks:45489:58.58.8-58.58.8:5b879d6a",
     "gutenberg:ebooks:45489:58.58.9-58.58.9:552a3235"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,29 +24,30 @@
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
   "candidateType": "narrative_episode",
-  "mythFamilyId": "prometheus",
-  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-prometheus-a70dda",
+  "mythFamilyId": "pandora",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-pandora-a70dda",
   "characters": [
     "Jupiter",
     "Mercury",
     "Pandora",
-    "Prometheus"
+    "Prometheus",
+    "Epimetheus"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 168,
+    "score": 171,
     "passed": true,
     "reasons": [
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [],
     "components": {
-      "namedMythologicalEntities": 4,
+      "namedMythologicalEntities": 5,
       "meaningfulEvents": 8,
-      "actorEvents": 3,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

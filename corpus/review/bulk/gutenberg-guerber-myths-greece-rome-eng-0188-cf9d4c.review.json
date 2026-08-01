@@ -1,38 +1,46 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 68,
+    "score": 30,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, no-object-target-recipient-location-or-outcome, no-central-conflict-or-change, no-outcome, no-storyline, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
       "fewer-than-three-meaningful-events",
       "fewer-than-two-actor-events",
+      "no-object-target-recipient-location-or-outcome",
+      "no-central-conflict-or-change",
+      "no-outcome",
+      "no-storyline",
       "weak-or-literary-title"
     ],
     "components": {
       "namedMythologicalEntities": 3,
-      "meaningfulEvents": 1,
+      "meaningfulEvents": 0,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
-      "hasCentralConflictOrChange": true,
-      "hasOutcome": true,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 0,
+      "hasCentralConflictOrChange": false,
+      "hasOutcome": false,
       "knownMythFamily": true
     }
   },
   "items": [
     {
-      "reviewId": "review-c183b008",
+      "reviewId": "review-947fc424",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0188-cf9d4c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Saxe.",
       "suggestions": [
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline",
         "weak-or-literary-title"
       ],
       "evidence": [

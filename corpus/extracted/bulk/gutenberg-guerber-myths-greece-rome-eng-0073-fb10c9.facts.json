@@ -1,0 +1,125 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0073-fb10c9",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Minerva",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athena",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Vulcan",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hephaestus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "sprang",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:73.73.2-73.73.2:50beb30f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in",
+      "evidence": [
+        "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in",
+      "evidence": [
+        "gutenberg:ebooks:39250:73.73.3-73.73.3:3640712d"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-2c95feff",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0073-fb10c9",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "MINERVA.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3",
+        "gutenberg:ebooks:39250:73.73.2-73.73.2:50beb30f",
+        "gutenberg:ebooks:39250:73.73.3-73.73.3:3640712d"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6",
     "gutenberg:ebooks:39250:52.52.4-52.52.4:8e66e4d9"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,14 +24,15 @@
   "characters": [
     "Mercury",
     "Pandora",
-    "Prometheus"
+    "Prometheus",
+    "Epimetheus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 84,
+    "score": 92,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
@@ -42,7 +43,7 @@
       "fewer-than-two-actor-events"
     ],
     "components": {
-      "namedMythologicalEntities": 3,
+      "namedMythologicalEntities": 4,
       "meaningfulEvents": 2,
       "actorEvents": 1,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 2,

@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-hercules",
+      "normalizedId": "heracles",
       "normalizationStatus": "approved"
     },
     {
@@ -125,7 +125,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "refused",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -176,7 +176,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": "heracles",
       "sourceAction": "killed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -193,7 +193,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "refused",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -210,7 +210,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": "heracles",
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -221,6 +221,9 @@
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:45489:115.115.5-115.115.5:545a4b7f"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:115.115.6-115.115.6:63c96c55"
         }
       ],
       "confidence": 0.7,
@@ -231,7 +234,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "Since the enamored god could never come near enough to plead his suit, he sent one of his dolphins to do the wooing; and this was so successful that the fair Nereid was persuaded.",
+      "object": "Since the enamored god could never come near enough to plead his suit, he sent one of his dolphins to do the wooing; and this was so successful that the fair Nereid was persuaded",
       "evidence": [
         "gutenberg:ebooks:45489:115.115.1-115.115.1:0ef832f4"
       ]
@@ -241,7 +244,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "So Hercules returned home, but he did not forget Laomedon's perfidy; and when later on he came again to Troy, he killed the king and took his children captive to Greece.[50]",
+      "object": "So Hercules returned home, but he did not forget Laomedon's perfidy; and when later on he came again to Troy, he killed the king and took his children captive to Greece.",
       "evidence": [
         "gutenberg:ebooks:45489:115.115.15-115.115.15:265d244d"
       ]
@@ -251,10 +254,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-753c8017",
+      "reviewId": "review-8f58b711",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0115-07e5c3",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "The trident--summoned all the hurricanes",
       "suggestions": [
         "weak-or-literary-title"

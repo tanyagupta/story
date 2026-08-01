@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
   ],
@@ -47,6 +47,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:253.253.4-253.253.4:02631958"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:253.253.5-253.253.5:062c6d69"
         }
@@ -91,7 +94,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
       "object": "This singular punishment inflicted upon Tantalus gave rise to the expression \"to tantalize.\"",
       "evidence": [
@@ -101,9 +104,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
-      "object": "\"With many a weary step, and many a groan, Up the high hill he heaves a huge round stone; The huge round stone, resulting with a bound, Thunders impetuous down, and smokes along.",
+      "object": "\"With many a weary step, and many a groan, Up the high hill he heaves a huge round stone; The huge round stone, resulting with a bound, Thunders impetuous down, and smokes along",
       "evidence": [
         "gutenberg:ebooks:39250:253.253.10-253.253.10:60305c56"
       ]
@@ -113,10 +116,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-a2357b4b",
+      "reviewId": "review-13ede82e",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0253-d7e92b",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Trees of all kinds delicious fruitage spread.",
       "suggestions": [
         "fewer-than-two-actor-events",

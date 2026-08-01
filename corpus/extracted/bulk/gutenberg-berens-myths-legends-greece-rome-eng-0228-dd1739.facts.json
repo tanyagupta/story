@@ -57,13 +57,27 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "zeus",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Arethusa",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:228.228.1-228.228.1:fc5994bd"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "arethusa",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
   "goals": [],
   "events": [
     {
-      "actorSourceName": "zeus",
+      "actorSourceName": null,
       "sourceAction": "presented",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -72,6 +86,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:228.228.1-228.228.1:fc5994bd"
+        },
         {
           "passageId": "gutenberg:ebooks:22381:228.228.2-228.228.2:22cdacfc"
         }
@@ -152,7 +169,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "They were appointed by Hera to act as guardians to a tree bearing golden apples, which had been presented to her by Gaea on the occasion of her marriage with Zeus.",
+      "object": "{163} They were appointed by Hera to act as guardians to a tree bearing golden apples, which had been presented to her by Gaea on the occasion of her marriage with Zeus.",
       "evidence": [
         "gutenberg:ebooks:22381:228.228.1-228.228.1:fc5994bd"
       ]
@@ -162,7 +179,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "They are inseparably connected with all that is good and beautiful in nature, and as the regular alternation of the seasons, like all her other operations, demands the most.",
+      "object": "They are inseparably connected with all that is good and beautiful in nature, and as the regular alternation of the seasons, like all her other operations, demands the most",
       "evidence": [
         "gutenberg:ebooks:22381:228.228.20-228.228.20:7ba9fd69"
       ]
@@ -172,10 +189,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-735bdd3a",
+      "reviewId": "review-71193743",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0228-dd1739",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "THE HESPERIDES.",
       "suggestions": [
         "fewer-than-two-actor-events"

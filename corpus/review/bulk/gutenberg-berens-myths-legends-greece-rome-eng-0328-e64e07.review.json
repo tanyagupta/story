@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 55,
+    "score": 44,
     "passed": false,
     "reasons": [
       "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
@@ -15,9 +15,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 0,
-      "meaningfulEvents": 2,
+      "meaningfulEvents": 1,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
@@ -25,10 +25,10 @@
   },
   "items": [
     {
-      "reviewId": "review-3ab1152c",
+      "reviewId": "review-fc2ee3ce",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0328-e64e07",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "THE EPIGONI.",
       "suggestions": [
         "no-mythological-characters",

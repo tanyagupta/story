@@ -1,20 +1,21 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 84,
+    "score": 74,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
       "namedMythologicalEntities": 1,
       "meaningfulEvents": 3,
-      "actorEvents": 2,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -23,12 +24,13 @@
   },
   "items": [
     {
-      "reviewId": "review-e53d0ff6",
+      "reviewId": "review-989acf4e",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0151-50f83b",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Meleager.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

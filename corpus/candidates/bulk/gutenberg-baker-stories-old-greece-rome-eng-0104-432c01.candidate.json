@@ -6,7 +6,7 @@
     "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2",
     "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,12 +26,12 @@
     "Venus",
     "Vulcan"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 164,
+    "score": 149,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -43,7 +43,7 @@
     "components": {
       "namedMythologicalEntities": 5,
       "meaningfulEvents": 6,
-      "actorEvents": 5,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

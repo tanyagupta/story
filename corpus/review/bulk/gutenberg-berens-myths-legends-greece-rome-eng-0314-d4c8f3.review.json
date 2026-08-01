@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 125,
+    "score": 141,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -12,7 +12,7 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 2,
+      "namedMythologicalEntities": 4,
       "meaningfulEvents": 6,
       "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
@@ -23,10 +23,10 @@
   },
   "items": [
     {
-      "reviewId": "review-d71bb3a9",
+      "reviewId": "review-c49b0d49",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0314-d4c8f3",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Echidna.",
       "suggestions": [
         "weak-or-literary-title"

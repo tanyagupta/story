@@ -6,7 +6,7 @@
     "gutenberg:ebooks:39250:524.524.1-524.524.1:19f069ba",
     "gutenberg:ebooks:39250:524.524.2-524.524.2:9b2d2951"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,12 +22,12 @@
   "characters": [
     "Callisto"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 57,
+    "score": 52,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
@@ -40,7 +40,7 @@
     "components": {
       "namedMythologicalEntities": 1,
       "meaningfulEvents": 1,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

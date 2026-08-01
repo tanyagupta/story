@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -83,7 +83,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     }
   ],
@@ -91,7 +91,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "ceres",
+      "actorSourceName": "hades",
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -100,6 +100,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:108.108.1-108.108.1:bfcd4c47"
+        },
         {
           "passageId": "gutenberg:ebooks:45489:108.108.2-108.108.2:4d6e9177"
         }
@@ -125,7 +128,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "refused",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -142,7 +145,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "atlas",
+      "actorSourceName": null,
       "sourceAction": "escaped",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -159,7 +162,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "found",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -176,7 +179,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "hades",
+      "actorSourceName": "poseidon",
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -231,7 +234,7 @@
     {
       "subject": "atlas",
       "predicate": "opening_situation",
-      "object": "In the beginning of the world, before the gods came to dwell in Olympus, all the universe was in the hands of the Titans; and among these the greatest was Saturn,--or.",
+      "object": "Pluto and the Underworld In the beginning of the world, before the gods came to dwell in Olympus, all the universe was in the hands of the Titans; and among these the greatest was",
       "evidence": [
         "gutenberg:ebooks:45489:108.108.1-108.108.1:bfcd4c47"
       ]
@@ -251,10 +254,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-0dbc0109",
+      "reviewId": "review-b562e9d5",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0108-83a850",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Chapter XVII",
       "suggestions": [
         "weak-or-literary-title"

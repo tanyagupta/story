@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 101,
+    "score": 85,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -14,9 +14,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 1,
-      "meaningfulEvents": 5,
-      "actorEvents": 1,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "meaningfulEvents": 4,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
@@ -24,10 +24,10 @@
   },
   "items": [
     {
-      "reviewId": "review-d8e1e8ac",
+      "reviewId": "review-15a465fe",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0109-46715d",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "By summer hid in green reeds' jointed cells",
       "suggestions": [
         "fewer-than-two-actor-events",

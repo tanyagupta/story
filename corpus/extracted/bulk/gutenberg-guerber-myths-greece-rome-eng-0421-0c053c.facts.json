@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-bacchus",
+      "normalizedId": "bacchus",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     }
   ],
@@ -137,7 +137,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-mercury",
+      "actorSourceName": null,
       "sourceAction": "told",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -154,7 +154,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-mercury",
+      "actorSourceName": null,
       "sourceAction": "turned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -173,7 +173,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "opening_situation",
       "object": "To please him, the fond mother plucked it and gave it to him.",
       "evidence": [
@@ -183,7 +183,7 @@
   ],
   "finalState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "outcome",
       "object": "Amused at the sight of this grotesque little divinity, Mercury carried him off to Olympus, where all the gods turned him into ridicule.",
       "evidence": [
@@ -195,12 +195,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-22ec6870",
+      "reviewId": "review-3101505f",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0421-0c053c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Whose verdant summit fragrant myrtles crown'd.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

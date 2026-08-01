@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 73,
+    "score": 79,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
@@ -15,9 +15,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 3,
-      "meaningfulEvents": 1,
-      "actorEvents": 1,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
@@ -25,10 +25,10 @@
   },
   "items": [
     {
-      "reviewId": "review-1afe2212",
+      "reviewId": "review-7b0fcdca",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0494-0562c4",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "If still thine ancient faithfulness",
       "suggestions": [
         "fewer-than-three-meaningful-events",

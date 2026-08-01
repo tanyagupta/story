@@ -1,0 +1,408 @@
+{
+  "mythId": "bulk-verified-0005",
+  "mythFamilyId": "daedalus-and-icarus",
+  "variantId": "gutenberg-berens-daedalus-icarus-verified",
+  "title": "Daedalus and Icarus",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+      "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7",
+      "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+      "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+    ]
+  },
+  "scope": "complete-source-section",
+  "entities": {
+    "characters": [
+      "daedalus",
+      "icarus",
+      "minos",
+      "cocalus"
+    ],
+    "locations": [
+      "crete",
+      "sicily"
+    ],
+    "objects": [
+      "wings",
+      "labyrinth"
+    ],
+    "creatures": [
+      "minotaur"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Daedalus",
+      "normalizedId": "daedalus",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Icarus",
+      "normalizedId": "icarus",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Minos",
+      "normalizedId": "minos",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Cocalus",
+      "normalizedId": "cocalus",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Minotaur",
+      "normalizedId": "minotaur",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "daedalus",
+      "sourceNames": [
+        "Daedalus"
+      ],
+      "role": "inventor and fugitive",
+      "reason": "Daedalus constructs the labyrinth, makes wings, and escapes Crete.",
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7",
+        "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+      ]
+    },
+    {
+      "entityId": "icarus",
+      "sourceNames": [
+        "Icarus"
+      ],
+      "role": "son",
+      "reason": "Icarus flies with Daedalus, ignores the warning, falls, and drowns.",
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+      ]
+    },
+    {
+      "entityId": "minos",
+      "sourceNames": [
+        "Minos"
+      ],
+      "role": "detaining king",
+      "reason": "Minos keeps Daedalus almost a prisoner and later seeks his surrender.",
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+        "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Daedalus serves Minos in Crete but becomes almost a prisoner. He makes wings for himself and Icarus; Icarus flies too near the sun, falls into the sea, and drowns, while Daedalus reaches Sicily.",
+    "openingSituation": "Daedalus is in Crete after escaping a death sentence at Athens.",
+    "centralConflict": "Minos keeps Daedalus almost a prisoner, so Daedalus resolves to escape.",
+    "resolution": "Daedalus makes wings for himself and Icarus and begins the flight from Crete.",
+    "outcome": "Icarus drowns after flying too near the sun, and Daedalus reaches Sicily.",
+    "storyline": [
+      "Daedalus escapes to Crete.",
+      "Minos keeps Daedalus nearly prisoner.",
+      "Daedalus makes wings for himself and Icarus.",
+      "Icarus flies too near the sun and drowns.",
+      "Daedalus reaches Sicily."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+        "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+        "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+        "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+      "excerpt": "But great as was his genius, still greater was his vanity, and he could brook no rival.",
+      "supports": [
+        "openingSituation"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+      "excerpt": "In the course of time the great artist became weary of his long exile, more especially as the king, under the guise of friendship, kept him almost a prisoner.",
+      "supports": [
+        "centralConflict",
+        "resolution",
+        "outcome"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f",
+      "excerpt": "After this sad event, Daedalus winged his flight to the island of Sicily, where he met with a kind welcome from {213} king Cocalus, for whom he constructed several important public works.",
+      "supports": [
+        "outcome"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "daedalus",
+      "predicate": "exiled_in",
+      "object": "crete",
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Daedalus made his escape to the island of Crete.",
+      "sourceClause": "Daedalus made his escape to the island of Crete.",
+      "actor": "daedalus",
+      "action": "escape",
+      "sourceAction": "made his escape",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "crete",
+      "result": "Daedalus made his escape to the island of Crete.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Daedalus constructed the labyrinth for Minos.",
+      "sourceClause": "Daedalus constructed the labyrinth for Minos.",
+      "actor": "daedalus",
+      "action": "create",
+      "sourceAction": "constructed",
+      "object": "labyrinth",
+      "target": null,
+      "recipient": null,
+      "location": "crete",
+      "result": "Daedalus constructed the labyrinth for Minos.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Daedalus contrived wings for himself and Icarus.",
+      "sourceClause": "Daedalus contrived wings for himself and Icarus.",
+      "actor": "daedalus",
+      "action": "create",
+      "sourceAction": "contrived",
+      "object": "wings",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Daedalus contrived wings for himself and Icarus.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "Icarus fell into the sea and was drowned.",
+      "sourceClause": "Icarus fell into the sea and was drowned.",
+      "actor": "icarus",
+      "action": "drown",
+      "sourceAction": "was drowned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Icarus fell into the sea and was drowned.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-005",
+      "sourceSentence": "Daedalus winged his flight to Sicily.",
+      "sourceClause": "Daedalus winged his flight to Sicily.",
+      "actor": "daedalus",
+      "action": "travel",
+      "sourceAction": "winged his flight",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "sicily",
+      "result": "Daedalus winged his flight to Sicily.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "daedalus",
+      "predicate": "lives_in",
+      "object": "sicily",
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Daedalus escapes to Crete.",
+      "Minos keeps Daedalus nearly prisoner.",
+      "Daedalus makes wings for himself and Icarus.",
+      "Icarus flies too near the sun and drowns.",
+      "Daedalus reaches Sicily."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "score": 100,
+    "passed": true,
+    "reasons": [
+      "Verified against the cited source passages by implementation review; not human scholarly approval."
+    ],
+    "failedGates": [],
+    "components": {
+      "sourceGroundedVerification": true
+    }
+  },
+  "verification": {
+    "method": "Codex source-grounded implementation review",
+    "sourcePassagesChecked": [
+      "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+      "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7",
+      "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+      "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+    ],
+    "knownLimitations": []
+  },
+  "reviewStatus": "verified_by_implementation_review"
+}

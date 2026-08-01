@@ -19,7 +19,7 @@
     "gutenberg:ebooks:22381:277.277.14-277.277.14:d33ecb3f",
     "gutenberg:ebooks:22381:277.277.15-277.277.15:c5a57c77"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -38,12 +38,12 @@
     "Dionysus",
     "Prometheus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 158,
+    "score": 153,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events",
@@ -55,7 +55,7 @@
     "components": {
       "namedMythologicalEntities": 4,
       "meaningfulEvents": 8,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

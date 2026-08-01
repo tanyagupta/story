@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-bacchus",
+      "normalizedId": "bacchus",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
   ],
@@ -66,7 +66,24 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-bacchus",
+      "actorSourceName": null,
+      "sourceAction": "sprang",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:264.264.3-264.264.3:c6696357"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
       "sourceAction": "escaped",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -76,6 +93,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:264.264.4-264.264.4:e18fc9fc"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:264.264.5-264.264.5:3816fb3a"
         }
       ],
@@ -83,7 +103,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": "zeus",
       "sourceAction": "loved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -119,7 +139,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "opening_situation",
       "object": "Thus dreadfully adorn'd, with horror bright, Th' illustrious god, descending from his height, Came rushing on her in a storm of light.\"",
       "evidence": [
@@ -129,7 +149,7 @@
   ],
   "finalState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "outcome",
       "object": "\"Semele of the flowing hair, Who died in Thunder's crashing flame, To deified existence came.\"",
       "evidence": [
@@ -141,12 +161,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-3f9d9d1c",
+      "reviewId": "review-405a99a3",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0264-2e9bfa",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "They call it thunder of a second-rate.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

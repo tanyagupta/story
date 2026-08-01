@@ -38,7 +38,7 @@
     "gutenberg:ebooks:39250:539.539.33-539.539.33:a929e9a5",
     "gutenberg:ebooks:39250:539.539.34-539.539.34:27007c79"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -78,26 +78,31 @@
     "Proserpina",
     "Ulysses",
     "Venus",
-    "Vulcan"
+    "Vulcan",
+    "Celeus",
+    "Eleusis",
+    "Minos",
+    "Triptolemus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 168,
+    "score": 158,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 7,
-      "actorEvents": 2,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

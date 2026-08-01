@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "circe",
+      "actorSourceName": null,
       "sourceAction": "changed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -59,7 +59,7 @@
     {
       "subject": "circe",
       "predicate": "opening_situation",
-      "object": "The sorceress Circe, infatuated by his beauty, endeavoured to secure his love, but he rejected her advances, and she, in revenge, changed him into a woodpecker, under which form.",
+      "object": "The sorceress Circe, infatuated by his beauty, endeavoured to secure his love, but he rejected her advances, and she, in revenge, changed him into a woodpecker, under which form",
       "evidence": [
         "gutenberg:ebooks:22381:255.255.1-255.255.1:e0d834a7"
       ]
@@ -79,10 +79,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-77a86df0",
+      "reviewId": "review-61bafe2d",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0255-7c4d73",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "PICUS.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

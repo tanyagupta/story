@@ -1,0 +1,231 @@
+{
+  "mythId": "bulk-myth-0228",
+  "mythFamilyId": "venus",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-venus-9adbb0",
+  "title": "VENUS.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
+      "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c",
+      "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "zeus",
+      "aphrodite"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454"
+        }
+      ]
+    },
+    {
+      "sourceName": "Venus",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "[Sidenote: Venus' birth.] Venus (Dione, Aphrodite, Cytherea), the goddess of beauty, love, laughter, and marriage, is said by some mythologists to be the daughter of Jupiter and The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+    "openingSituation": "[Sidenote: Venus' birth.] Venus (Dione, Aphrodite, Cytherea), the goddess of beauty, love, laughter, and marriage, is said by some mythologists to be the daughter of Jupiter and",
+    "centralConflict": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+    "resolution": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+    "outcome": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+    "storyline": [
+      "[Sidenote: Venus' birth.] Venus (Dione, Aphrodite, Cytherea), the goddess of beauty, love, laughter, and marriage, is said by some mythologists to be the daughter of Jupiter and",
+      "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\""
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
+        "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c",
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
+        "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
+      "excerpt": "[Sidenote: Venus' birth.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c",
+      "excerpt": "Venus (Dione, Aphrodite, Cytherea), the goddess of beauty, love, laughter, and marriage, is said by some mythologists to be the daughter of Jupiter and Dione, goddess of moisture: others report that she sprang from the foam of the sea.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a",
+      "excerpt": "\"Look, look, why shine Those floating bubbles with such light divine? They break, and from their mist a lily form Rises from out the wave, in beauty warm.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Venus' birth.] Venus (Dione, Aphrodite, Cytherea), the goddess of beauty, love, laughter, and marriage, is said by some mythologists to be the daughter of Jupiter and",
+      "evidence": [
+        "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "[Sidenote: Venus' birth.] Venus (Dione, Aphrodite, Cytherea), the goddess of beauty, love, laughter, and marriage, is said by some mythologists to be the daughter of Jupiter and Dione, goddess of moisture: others report that she sprang from the foam of the sea.",
+      "sourceClause": "[Sidenote: Venus' birth.] Venus (Dione, Aphrodite, Cytherea), the goddess of beauty, love, laughter, and marriage, is said by some mythologists to be the daughter of Jupiter and Dione, goddess of moisture: others report that she sprang from the foam of the sea.",
+      "actor": null,
+      "action": "leap",
+      "sourceAction": "sprang",
+      "object": null,
+      "target": "zeus",
+      "recipient": null,
+      "location": null,
+      "result": "[Sidenote: Venus' birth.] Venus (Dione, Aphrodite, Cytherea), the goddess of beauty, love, laughter, and marriage, is said by some mythologists to be the daughter of Jupiter and",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+      "sourceClause": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+      "actor": null,
+      "action": "birth",
+      "sourceAction": "born",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "[Sidenote: Venus' birth.] Venus (Dione, Aphrodite, Cytherea), the goddess of beauty, love, laughter, and marriage, is said by some mythologists to be the daughter of Jupiter and",
+      "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\""
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-d33fe8c2",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0165-d24b40",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "VENUS.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
+        "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c",
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 71,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

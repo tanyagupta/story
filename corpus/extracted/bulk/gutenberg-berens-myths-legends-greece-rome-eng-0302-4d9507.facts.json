@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "achilles",
       "normalizationStatus": "approved"
     },
@@ -26,7 +26,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "apollo",
       "normalizationStatus": "approved"
     },
@@ -40,7 +40,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "echo",
       "normalizationStatus": "approved"
     },
@@ -54,7 +54,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
@@ -68,7 +68,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "jason",
       "normalizationStatus": "approved"
     },
@@ -82,7 +82,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "orpheus",
       "normalizationStatus": "approved"
     }
@@ -91,8 +91,8 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": null,
-      "sourceAction": "married",
+      "actorSourceName": "athamas",
+      "sourceAction": "marry",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -105,7 +105,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -122,10 +122,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "hermes",
+      "actorSourceName": null,
       "sourceAction": "seized",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -139,11 +139,11 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
-      "sourceAction": "arrived",
+      "actorSourceName": "phryxus",
+      "sourceAction": "travel",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -156,10 +156,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
+      "actorSourceName": "phryxus",
       "sourceAction": "flight",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -173,7 +173,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -190,7 +190,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": "jason",
@@ -207,7 +207,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -224,7 +224,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
@@ -248,6 +248,23 @@
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-1d419b78",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0302-4d9507",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "STORY OF THE GOLDEN FLEECE.",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+        "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01",
+        "gutenberg:ebooks:22381:302.302.3-302.302.3:8296fb5e"
+      ],
+      "status": "open"
+    }
+  ]
 }

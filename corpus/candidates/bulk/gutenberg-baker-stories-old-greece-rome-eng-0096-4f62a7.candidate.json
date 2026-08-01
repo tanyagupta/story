@@ -20,7 +20,7 @@
     "gutenberg:ebooks:45489:96.96.15-96.96.15:f84b2daa",
     "gutenberg:ebooks:45489:96.96.16-96.96.16:65cf0c01"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -41,12 +41,12 @@
     "Narcissus",
     "Venus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 209,
+    "score": 199,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -58,7 +58,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 8,
+      "actorEvents": 6,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

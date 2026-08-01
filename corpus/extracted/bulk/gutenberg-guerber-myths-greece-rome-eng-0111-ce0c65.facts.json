@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "midas",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -42,7 +42,7 @@
     {
       "subject": "midas",
       "predicate": "opening_situation",
-      "object": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was.",
+      "object": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
       "evidence": [
         "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
       ]
@@ -52,7 +52,7 @@
     {
       "subject": "midas",
       "predicate": "outcome",
-      "object": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was.",
+      "object": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
       "evidence": [
         "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
       ]
@@ -62,10 +62,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-4172fb2c",
+      "reviewId": "review-14c3e7cc",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0111-ce0c65",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Swift.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

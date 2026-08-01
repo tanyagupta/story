@@ -13,36 +13,46 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Celeus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "celeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Triptolemus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "triptolemus",
       "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
   "goals": [],
-  "events": [
-    {
-      "actorSourceName": null,
-      "sourceAction": "offered",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
-    }
-  ],
+  "events": [],
   "initialState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "opening_situation",
-      "object": "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+      "object": "Orphic Hymn.",
       "evidence": [
         "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89"
       ]
@@ -50,9 +60,9 @@
   ],
   "finalState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "outcome",
-      "object": "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+      "object": "Orphic Hymn.",
       "evidence": [
         "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
       ]
@@ -62,14 +72,18 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-bdf12c26",
+      "reviewId": "review-27142a83",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0294-c01871",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Orphic Hymn.",
       "suggestions": [
         "fewer-than-three-meaningful-events",
-        "fewer-than-two-actor-events"
+        "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline"
       ],
       "evidence": [
         "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89",

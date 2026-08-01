@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     }
   ],
@@ -49,7 +49,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-neptune",
+      "actorSourceName": "poseidon",
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -66,7 +66,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-neptune",
+      "actorSourceName": null,
       "sourceAction": "carried off",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -100,7 +100,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "declared",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -134,7 +134,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -151,7 +151,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-neptune",
+      "actorSourceName": null,
       "sourceAction": "followed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -160,6 +160,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:234.234.7-234.234.7:31e4883f"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:234.234.8-234.234.8:86258e1a"
         }
@@ -172,7 +175,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "Neptune and Amphitrite in due time became the happy parents of several children, among whom the most celebrated is Triton, whose body was half man and half fish, and who gave his.",
+      "object": "Neptune and Amphitrite in due time became the happy parents of several children, among whom the most celebrated is Triton, whose body was half man and half fish, and who gave his",
       "evidence": [
         "gutenberg:ebooks:39250:234.234.1-234.234.1:651b78ad"
       ]
@@ -182,7 +185,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "All the Nereides, Tritons, and lesser sea divinities formed a part of Neptune and Amphitrite's train, and followed closely when they rode forth to survey their kingdom.",
+      "object": "[Sidenote: Neptune's attendants.] All the Nereides, Tritons, and lesser sea divinities formed a part of Neptune and Amphitrite's train, and followed closely when they rode forth",
       "evidence": [
         "gutenberg:ebooks:39250:234.234.11-234.234.11:053d775f"
       ]
@@ -192,12 +195,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-c286949f",
+      "reviewId": "review-e28b29b9",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0234-12043c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Neptune's wife.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

@@ -1,0 +1,202 @@
+{
+  "mythId": "bulk-myth-0262",
+  "mythFamilyId": "trojan-war",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-f68da6",
+  "title": "Wordsworth.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:446.446.1-446.446.1:73cecd8e",
+      "gutenberg:ebooks:39250:446.446.2-446.446.2:c8cfbfc0",
+      "gutenberg:ebooks:39250:446.446.3-446.446.3:da477942"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hades",
+      "hermes"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Hades",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:446.446.1-446.446.1:73cecd8e"
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:446.446.1-446.446.1:73cecd8e"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\"",
+    "openingSituation": "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\"",
+    "centralConflict": "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\"",
+    "resolution": "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\"",
+    "outcome": "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\"",
+    "storyline": [
+      "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\""
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:446.446.1-446.446.1:73cecd8e",
+        "gutenberg:ebooks:39250:446.446.2-446.446.2:c8cfbfc0",
+        "gutenberg:ebooks:39250:446.446.3-446.446.3:da477942"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:446.446.2-446.446.2:c8cfbfc0"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:446.446.2-446.446.2:c8cfbfc0"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:446.446.2-446.446.2:c8cfbfc0"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:446.446.2-446.446.2:c8cfbfc0"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:446.446.1-446.446.1:73cecd8e",
+      "excerpt": "With an inarticulate cry of joy, Laodamia beheld the beloved countenance of Protesilaus once more, and from his own lips heard the detailed account of his early death.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:446.446.2-446.446.2:c8cfbfc0",
+      "excerpt": "The same grave, it is said, was the resting place of this united pair, and kind-hearted nymphs planted elm trees over their remains.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:446.446.3-446.446.3:da477942",
+      "excerpt": "\"Upon the side Of Hellespont (such faith was entertained)",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hades",
+      "predicate": "opening_situation",
+      "object": "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:446.446.1-446.446.1:73cecd8e"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\"",
+      "sourceClause": "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\"",
+      "actor": null,
+      "action": "leap",
+      "sourceAction": "sprang",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "troy",
+      "result": "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\"",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:446.446.2-446.446.2:c8cfbfc0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hades",
+      "predicate": "outcome",
+      "object": "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:446.446.3-446.446.3:da477942"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "These trees grew \"until they were high enough to command a view of Troy, and then withered away, while fresh branches sprang from the roots.\""
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-f62e0b11",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0446-25f6a7",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:446.446.1-446.446.1:73cecd8e",
+        "gutenberg:ebooks:39250:446.446.2-446.446.2:c8cfbfc0",
+        "gutenberg:ebooks:39250:446.446.3-446.446.3:da477942"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

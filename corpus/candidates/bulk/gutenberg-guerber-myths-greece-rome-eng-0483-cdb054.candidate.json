@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374",
     "gutenberg:ebooks:39250:483.483.4-483.483.4:44b82681"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,12 +25,12 @@
     "Hector",
     "Venus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 76,
+    "score": 71,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
@@ -44,7 +44,7 @@
     "components": {
       "namedMythologicalEntities": 2,
       "meaningfulEvents": 2,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

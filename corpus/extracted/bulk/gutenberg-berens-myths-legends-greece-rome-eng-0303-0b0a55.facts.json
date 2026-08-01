@@ -108,7 +108,24 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "jason",
+      "actorSourceName": null,
+      "sourceAction": "steered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:303.303.2-303.303.2:56c72cc1"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
       "sourceAction": "fled",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -208,30 +225,13 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "become",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:22381:303.303.5-303.303.5:8a24fc1c"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "He at once realized the danger, and, attacking them with his arrows, succeeded in considerably thinning their numbers; then, assisted by the heroes, who at length came to his.",
+      "object": "He at once realized the danger, and, attacking them with his arrows, succeeded in considerably thinning their numbers; then, assisted by the heroes, who at length came to his aid",
       "evidence": [
         "gutenberg:ebooks:22381:303.303.1-303.303.1:e1f37167"
       ]
@@ -241,7 +241,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "The Argonauts continued their voyage without their companions; Heracles returned to Argos, whilst Polyphemus remained with the Mysians, where he founded a city and became its king.",
+      "object": "They at once set out in search of the missing youth, no traces of whom were to be found, and whilst they were engaged looking for him, the Argo set sail and left them behind.",
       "evidence": [
         "gutenberg:ebooks:22381:303.303.53-303.303.53:e04568c8"
       ]
@@ -251,10 +251,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-d15bd30f",
+      "reviewId": "review-c9021ed5",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0303-0b0a55",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Giants--monsters with six arms.",
       "suggestions": [
         "fewer-than-two-actor-events",

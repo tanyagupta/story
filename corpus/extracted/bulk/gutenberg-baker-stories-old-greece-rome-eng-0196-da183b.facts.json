@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
@@ -77,7 +77,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "born",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -94,7 +94,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "paris",
+      "actorSourceName": null,
       "sourceAction": "found",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -132,7 +132,7 @@
     {
       "subject": "atalanta",
       "predicate": "opening_situation",
-      "object": "According to the more ancient Greek conception, Venus was the daughter of Jupiter and Dione, goddess of moisture; but Hesiod says that she came from the foam of the sea, and was.",
+      "object": "According to the more ancient Greek conception, Venus was the daughter of Jupiter and Dione, goddess of moisture; but Hesiod says that she came from the foam of the sea, and was",
       "evidence": [
         "gutenberg:ebooks:45489:196.196.1-196.196.1:875dffc3"
       ]
@@ -152,12 +152,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-f95787ea",
+      "reviewId": "review-1488704d",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0196-da183b",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "XVIII",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

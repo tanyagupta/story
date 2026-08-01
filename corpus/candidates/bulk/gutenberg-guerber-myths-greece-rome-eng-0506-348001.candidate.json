@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:506.506.3-506.506.3:7129811f",
     "gutenberg:ebooks:39250:506.506.4-506.506.4:e5b6a66e"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,26 +25,30 @@
     "Apollo",
     "Diana",
     "Niobe",
-    "Pegasus"
+    "Pegasus",
+    "Helle",
+    "Nephele",
+    "Phryxus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 97,
+    "score": 103,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: fewer-than-three-meaningful-events",
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
-      "fewer-than-three-meaningful-events"
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
     ],
     "components": {
-      "namedMythologicalEntities": 4,
+      "namedMythologicalEntities": 6,
       "meaningfulEvents": 2,
-      "actorEvents": 2,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

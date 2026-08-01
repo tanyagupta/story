@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "antigone",
       "normalizationStatus": "approved"
     },
@@ -26,7 +26,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "cadmus",
       "normalizationStatus": "approved"
     },
@@ -40,7 +40,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "oedipus",
       "normalizationStatus": "approved"
     }
@@ -49,7 +49,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "cadmus",
+      "actorSourceName": null,
       "sourceAction": "married",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -63,7 +63,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -80,7 +80,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -97,7 +97,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -114,7 +114,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -131,7 +131,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -148,7 +148,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -165,10 +165,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "oedipus",
+      "actorSourceName": null,
       "sourceAction": "made",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -182,7 +182,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
@@ -206,6 +206,23 @@
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-55282215",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0324-fe0caf",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "OEDIPUS.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+        "gutenberg:ebooks:22381:324.324.2-324.324.2:ac3197eb",
+        "gutenberg:ebooks:22381:324.324.3-324.324.3:67ff147b"
+      ],
+      "status": "open"
+    }
+  ]
 }

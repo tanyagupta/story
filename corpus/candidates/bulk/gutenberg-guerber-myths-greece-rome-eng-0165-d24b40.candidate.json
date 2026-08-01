@@ -7,7 +7,7 @@
     "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c",
     "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,12 +24,12 @@
     "Jupiter",
     "Venus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 60,
+    "score": 71,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
@@ -42,9 +42,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 2,
-      "meaningfulEvents": 1,
+      "meaningfulEvents": 2,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

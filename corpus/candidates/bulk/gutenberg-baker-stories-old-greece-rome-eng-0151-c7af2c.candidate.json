@@ -10,7 +10,7 @@
     "gutenberg:ebooks:45489:151.151.5-151.151.5:afe64077",
     "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -29,12 +29,12 @@
     "Minerva",
     "Pegasus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 178,
+    "score": 163,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -46,7 +46,7 @@
     "components": {
       "namedMythologicalEntities": 4,
       "meaningfulEvents": 8,
-      "actorEvents": 5,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

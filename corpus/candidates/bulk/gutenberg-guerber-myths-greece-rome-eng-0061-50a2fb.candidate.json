@@ -9,7 +9,7 @@
     "gutenberg:ebooks:39250:61.61.4-61.61.4:90bf99df",
     "gutenberg:ebooks:39250:61.61.5-61.61.5:79f03266"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,14 +23,15 @@
   "mythFamilyId": "she-flies-and-waxes-every-hour",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-she-flies-and-waxes-every-hour-2f7bab",
   "characters": [
-    "Jupiter"
+    "Jupiter",
+    "Hebe"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 57,
+    "score": 60,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
@@ -41,9 +42,9 @@
       "fewer-than-two-actor-events"
     ],
     "components": {
-      "namedMythologicalEntities": 1,
+      "namedMythologicalEntities": 2,
       "meaningfulEvents": 1,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

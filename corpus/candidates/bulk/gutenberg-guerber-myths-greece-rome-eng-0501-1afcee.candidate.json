@@ -22,7 +22,7 @@
     "gutenberg:ebooks:39250:501.501.17-501.501.17:a5d1393c",
     "gutenberg:ebooks:39250:501.501.18-501.501.18:b24dca1c"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -47,25 +47,26 @@
     "Orpheus",
     "Ulysses"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 162,
+    "score": 141,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
       "namedMythologicalEntities": 6,
-      "meaningfulEvents": 6,
-      "actorEvents": 3,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "meaningfulEvents": 5,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

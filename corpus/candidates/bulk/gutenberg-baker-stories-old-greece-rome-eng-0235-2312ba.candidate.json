@@ -6,7 +6,7 @@
     "gutenberg:ebooks:45489:235.235.1-235.235.1:c3c03c60",
     "gutenberg:ebooks:45489:235.235.2-235.235.2:fb4a19ad"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -19,26 +19,28 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "and-gliding-and-springing",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-and-gliding-and-springing-a7831c",
-  "characters": [],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "characters": [
+    "Alpheus",
+    "Arethusa"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 55,
+    "score": 71,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
-      "no-mythological-characters",
       "fewer-than-three-meaningful-events",
       "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 0,
+      "namedMythologicalEntities": 2,
       "meaningfulEvents": 2,
       "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 2,

@@ -21,14 +21,15 @@
   "mythFamilyId": "catullus",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-catullus-ae8518",
   "characters": [
-    "Minotaur"
+    "Minotaur",
+    "Minos"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 34,
+    "score": 36,
     "passed": false,
     "reasons": [
       "Pre-extraction gates failed: not-narrative-episode"
@@ -37,8 +38,8 @@
       "not-narrative-episode"
     ],
     "components": {
-      "namedMythologicalEntities": 1,
-      "actionBearingSentences": 3,
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 2,
       "conflictSignals": 0,
       "paragraphCount": 3,
       "knownMythFamily": true

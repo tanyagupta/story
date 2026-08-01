@@ -45,6 +45,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:485.485.3-485.485.3:95fe1182"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:485.485.4-485.485.4:e19769db"
         }
       ],
@@ -69,7 +72,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "cassandra",
+      "actorSourceName": null,
       "sourceAction": "slain",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -103,7 +106,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "followed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -124,7 +127,7 @@
     {
       "subject": "achilles",
       "predicate": "opening_situation",
-      "object": "Awakened at last by the ever-increasing tumult without, Æneas seized his arms and hastened forth, attended by many of his fellow-citizens, to ascertain the cause of the great.",
+      "object": "[Sidenote: Æneas goes to save Priam.] Awakened at last by the ever-increasing tumult without, Æneas seized his arms and hastened forth, attended by many of his fellow-citizens, to",
       "evidence": [
         "gutenberg:ebooks:39250:485.485.1-485.485.1:5a6072ff"
       ]
@@ -134,7 +137,7 @@
     {
       "subject": "achilles",
       "predicate": "outcome",
-      "object": "Hecuba, his wife, was clinging to him, imploring him to remain, when suddenly Polites, their son, rushed into their presence, closely followed by Pyrrhus, or Neoptolemus, son of.",
+      "object": "Hecuba, his wife, was clinging to him, imploring him to remain, when suddenly Polites, their son, rushed into their presence, closely followed by Pyrrhus, or Neoptolemus, son of",
       "evidence": [
         "gutenberg:ebooks:39250:485.485.7-485.485.7:d9f541e3"
       ]
@@ -144,12 +147,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-6a5f9a6b",
+      "reviewId": "review-a73aadb9",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0485-7252dd",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "The gods of her domestic shrines",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

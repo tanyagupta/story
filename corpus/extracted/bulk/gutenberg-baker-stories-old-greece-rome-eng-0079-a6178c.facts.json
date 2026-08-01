@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-diana",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
   ],
@@ -49,7 +49,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-diana",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -100,7 +100,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-diana",
+      "actorSourceName": null,
       "sourceAction": "changed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -134,7 +134,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-diana",
+      "actorSourceName": null,
       "sourceAction": "offered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -151,7 +151,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-diana",
+      "actorSourceName": "artemis",
       "sourceAction": "knew",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -189,7 +189,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "One morning, as he rushed eagerly through the woods in pursuit of a deer, he came suddenly upon the seven Pleiades,--nymphs of Diana,--who were resting after a long and arduous.",
+      "object": "One morning, as he rushed eagerly through the woods in pursuit of a deer, he came suddenly upon the seven Pleiades,--nymphs of Diana,--who were resting after a long and arduous",
       "evidence": [
         "gutenberg:ebooks:45489:79.79.1-79.79.1:33c17aa4"
       ]
@@ -199,7 +199,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "When Apollo learned of his sister's affection for the young hunter, he was very angry, for Diana had refused the love of the gods, and had begged of Jupiter the right to live.",
+      "object": "When Apollo learned of his sister's affection for the young hunter, he was very angry, for Diana had refused the love of the gods, and had begged of Jupiter the right to live",
       "evidence": [
         "gutenberg:ebooks:45489:79.79.5-79.79.5:3be85e82"
       ]
@@ -209,10 +209,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-6900ff3a",
+      "reviewId": "review-56dbbb87",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0079-a6178c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "III",
       "suggestions": [
         "weak-or-literary-title"

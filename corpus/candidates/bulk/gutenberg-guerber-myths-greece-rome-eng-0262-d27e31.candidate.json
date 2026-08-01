@@ -19,7 +19,7 @@
     "gutenberg:ebooks:39250:262.262.14-262.262.14:b17dbba3",
     "gutenberg:ebooks:39250:262.262.15-262.262.15:9d1dd634"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -36,12 +36,12 @@
     "Juno",
     "Jupiter"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 162,
+    "score": 147,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -53,7 +53,7 @@
     "components": {
       "namedMythologicalEntities": 2,
       "meaningfulEvents": 8,
-      "actorEvents": 5,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

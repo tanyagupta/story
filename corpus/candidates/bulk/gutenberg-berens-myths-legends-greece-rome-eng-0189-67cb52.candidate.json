@@ -23,7 +23,7 @@
     "gutenberg:ebooks:22381:189.189.18-189.189.18:5e7e15f9",
     "gutenberg:ebooks:22381:189.189.19-189.189.19:574964a4"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -45,14 +45,16 @@
     "Persephone",
     "Pluto",
     "Poseidon",
-    "Zeus"
+    "Zeus",
+    "Argos",
+    "Minos"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 174,
+    "score": 169,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events",
@@ -64,7 +66,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

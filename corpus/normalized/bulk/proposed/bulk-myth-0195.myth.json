@@ -1,0 +1,263 @@
+{
+  "mythId": "bulk-myth-0195",
+  "mythFamilyId": "chapter-xviii",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-chapter-xviii-6dcb26",
+  "title": "CHAPTER XVIII.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:331.331.1-331.331.1:3aab2df0",
+      "gutenberg:ebooks:39250:331.331.2-331.331.2:2041036f",
+      "gutenberg:ebooks:39250:331.331.3-331.331.3:f4218859",
+      "gutenberg:ebooks:39250:331.331.4-331.331.4:80a5a36f",
+      "gutenberg:ebooks:39250:331.331.5-331.331.5:735945b0",
+      "gutenberg:ebooks:39250:331.331.6-331.331.6:d52b884a"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hera"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Juno",
+      "normalizedId": "hera",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:331.331.1-331.331.1:3aab2df0"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "He is said to have received his royal dignity from the fair hands of Juno, and he was therefore specially eager to obey all her behests. He is commonly reputed to have married Aurora, or Eos, who gave him six sons i.e.",
+    "openingSituation": "He is said to have received his royal dignity from the fair hands of Juno, and he was therefore specially eager to obey all her behests.",
+    "centralConflict": "To prevent their causing serious disasters, he therefore ruled them with a very strict hand, kept them very closely confined in a great cave, and let them loose only one at a",
+    "resolution": "To prevent their causing serious disasters, he therefore ruled them with a very strict hand, kept them very closely confined in a great cave, and let them loose only one at a",
+    "outcome": "To prevent their causing serious disasters, he therefore ruled them with a very strict hand, kept them very closely confined in a great cave, and let them loose only one at a",
+    "storyline": [
+      "He is said to have received his royal dignity from the fair hands of Juno, and he was therefore specially eager to obey all her behests.",
+      "He is commonly reputed to have married Aurora, or Eos, who gave him six sons i.e.",
+      "To prevent their causing serious disasters, he therefore ruled them with a very strict hand, kept them very closely confined in a great cave, and let them loose only one at a"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:331.331.1-331.331.1:3aab2df0",
+        "gutenberg:ebooks:39250:331.331.2-331.331.2:2041036f",
+        "gutenberg:ebooks:39250:331.331.3-331.331.3:f4218859"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:331.331.3-331.331.3:f4218859"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:331.331.5-331.331.5:735945b0"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:331.331.5-331.331.5:735945b0"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:331.331.5-331.331.5:735945b0"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:331.331.1-331.331.1:3aab2df0",
+      "excerpt": "ÆOLUS.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:331.331.2-331.331.2:2041036f",
+      "excerpt": "Not very far away from the quiet realm of Somnus and Mors, but on the surface of the earth, were the Æolian Islands, now known as the Lipari Islands, where Æolus, god of the storm and winds, governed a very unruly and turbulent population.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:331.331.3-331.331.3:f4218859",
+      "excerpt": "He is said to have received his royal dignity from the fair hands of Juno, and he was therefore specially eager to obey all her behests. He is commonly reputed to have married Aurora, or Eos, who gave him six sons i.e.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:331.331.4-331.331.4:80a5a36f",
+      "excerpt": "[Sidenote: Æolus' children.]",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:331.331.5-331.331.5:735945b0",
+      "excerpt": "Æolus' five elder sons were of a noisy, roving, mischievous, turbulent disposition, and peace and quiet were utterly impossible to them.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:331.331.6-331.331.6:d52b884a",
+      "excerpt": "\"Æolus in a cavern vast",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hera",
+      "predicate": "opening_situation",
+      "object": "He is said to have received his royal dignity from the fair hands of Juno, and he was therefore specially eager to obey all her behests.",
+      "evidence": [
+        "gutenberg:ebooks:39250:331.331.1-331.331.1:3aab2df0"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "He is said to have received his royal dignity from the fair hands of Juno, and he was therefore specially eager to obey all her behests.",
+      "sourceClause": "He is said to have received his royal dignity from the fair hands of Juno, and he was therefore specially eager to obey all her behests.",
+      "actor": null,
+      "action": "receive",
+      "sourceAction": "received",
+      "object": null,
+      "target": "hera",
+      "recipient": null,
+      "location": null,
+      "result": "He is said to have received his royal dignity from the fair hands of Juno, and he was therefore specially eager to obey all her behests.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:331.331.3-331.331.3:f4218859"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "He is commonly reputed to have married Aurora, or Eos, who gave him six sons i.e., Boreas, the north wind; Corus, the northwest wind; Aquilo, the west wind; Notus, the southwest wind; Eurus, the east wind; and lastly, Zephyrus, the gentle and lovable south wind, whose mission it was to announce to mortals the return of ever-welcome spring.",
+      "sourceClause": "He is commonly reputed to have married Aurora, or Eos, who gave him six sons i.e., Boreas, the north wind; Corus, the northwest wind; Aquilo, the west wind; Notus, the southwest wind; Eurus, the east wind; and lastly, Zephyrus, the gentle and lovable south wind, whose mission it was to announce to mortals the return of ever-welcome spring.",
+      "actor": null,
+      "action": "marry",
+      "sourceAction": "married",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He is commonly reputed to have married Aurora, or Eos, who gave him six sons i.e.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:331.331.3-331.331.3:f4218859"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "To prevent their causing serious disasters, he therefore ruled them with a very strict hand, kept them very closely confined in a great cave, and let them loose only one at a time, to stretch their limbs and take a little exercise.",
+      "sourceClause": "To prevent their causing serious disasters, he therefore ruled them with a very strict hand, kept them very closely confined in a great cave, and let them loose only one at a time, to stretch their limbs and take a little exercise.",
+      "actor": null,
+      "action": "imprison",
+      "sourceAction": "confined",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "To prevent their causing serious disasters, he therefore ruled them with a very strict hand, kept them very closely confined in a great cave, and let them loose only one at a",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:331.331.5-331.331.5:735945b0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hera",
+      "predicate": "outcome",
+      "object": "To prevent their causing serious disasters, he therefore ruled them with a very strict hand, kept them very closely confined in a great cave, and let them loose only one at a",
+      "evidence": [
+        "gutenberg:ebooks:39250:331.331.6-331.331.6:d52b884a"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "He is said to have received his royal dignity from the fair hands of Juno, and he was therefore specially eager to obey all her behests.",
+      "He is commonly reputed to have married Aurora, or Eos, who gave him six sons i.e.",
+      "To prevent their causing serious disasters, he therefore ruled them with a very strict hand, kept them very closely confined in a great cave, and let them loose only one at a"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-884e34eb",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0331-d2fb29",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "CHAPTER XVIII.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:331.331.1-331.331.1:3aab2df0",
+        "gutenberg:ebooks:39250:331.331.2-331.331.2:2041036f",
+        "gutenberg:ebooks:39250:331.331.3-331.331.3:f4218859"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 74,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -57,13 +57,27 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "medea",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Argonauts",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:157.157.1-157.157.1:3593b228"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
   "goals": [],
   "events": [
     {
-      "actorSourceName": "jason",
+      "actorSourceName": null,
       "sourceAction": "attacked",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -114,7 +128,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "jason",
+      "actorSourceName": null,
       "sourceAction": "advised",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -131,7 +145,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "jason",
+      "actorSourceName": null,
       "sourceAction": "reached",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -182,7 +196,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "jason",
+      "actorSourceName": null,
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -203,7 +217,7 @@
     {
       "subject": "cadmus",
       "predicate": "opening_situation",
-      "object": "Once, in the course of the voyage, Jason was attacked by a flock of brazen-feathered birds that showered their sharp metal plumage down on the Argonauts, and wounded some of them.",
+      "object": "Once, in the course of the voyage, Jason was attacked by a flock of brazen-feathered birds that showered their sharp metal plumage down on the Argonauts, and wounded some of them",
       "evidence": [
         "gutenberg:ebooks:45489:157.157.1-157.157.1:3593b228"
       ]
@@ -213,7 +227,7 @@
     {
       "subject": "cadmus",
       "predicate": "outcome",
-      "object": "This was certainly enough to daunt any hero, but Jason, relying on the help of Juno, agreed to the king's terms and went down to the seashore, where his ship lay, to consult the.",
+      "object": "This was certainly enough to daunt any hero, but Jason, relying on the help of Juno, agreed to the king's terms and went down to the seashore, where his ship lay, to consult the",
       "evidence": [
         "gutenberg:ebooks:45489:157.157.8-157.157.8:f5d7211b"
       ]
@@ -223,10 +237,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-2e5e4207",
+      "reviewId": "review-53fe7cfa",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0157-9a34a2",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Part II",
       "suggestions": [
         "weak-or-literary-title"

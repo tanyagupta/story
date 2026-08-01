@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -44,6 +44,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3"
         }
@@ -61,6 +64,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
         }
@@ -103,7 +109,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "slew",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -124,7 +130,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the walls of Troy.",
+      "object": "[Sidenote: The walls of Troy.] Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the",
       "evidence": [
         "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
       ]
@@ -144,12 +150,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-2a7db5de",
+      "reviewId": "review-bc6ba8b7",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0098-25f6a7",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Wordsworth.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

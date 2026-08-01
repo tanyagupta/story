@@ -10,7 +10,7 @@
     "gutenberg:ebooks:45489:138.138.5-138.138.5:56cbd352",
     "gutenberg:ebooks:45489:138.138.6-138.138.6:d25425da"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -29,26 +29,30 @@
     "Jupiter",
     "Minotaur",
     "Neptune",
-    "Theseus"
+    "Theseus",
+    "Alpheus",
+    "Eurystheus",
+    "Iolaus",
+    "Minos"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 194,
+    "score": 169,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
-      "weak-or-literary-title"
+      "fewer-than-two-actor-events"
     ],
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 5,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

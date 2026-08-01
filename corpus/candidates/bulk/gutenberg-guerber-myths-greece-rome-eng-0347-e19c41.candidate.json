@@ -33,14 +33,15 @@
     "Atlas",
     "Hercules",
     "Juno",
-    "Prometheus"
+    "Prometheus",
+    "Eurystheus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 171,
+    "score": 179,
     "passed": false,
     "reasons": [
       "Pre-extraction gates failed: not-narrative-episode"
@@ -49,7 +50,7 @@
       "not-narrative-episode"
     ],
     "components": {
-      "namedMythologicalEntities": 4,
+      "namedMythologicalEntities": 5,
       "actionBearingSentences": 12,
       "conflictSignals": 5,
       "paragraphCount": 12,

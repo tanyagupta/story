@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -80,7 +80,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "medusa",
+      "actorSourceName": null,
       "sourceAction": "told",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -97,7 +97,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "medusa",
+      "actorSourceName": "perseus",
       "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -114,7 +114,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-minerva",
+      "actorSourceName": "athena",
       "sourceAction": "gave",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -131,7 +131,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "medusa",
+      "actorSourceName": "perseus",
       "sourceAction": "turned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -148,7 +148,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-mercury",
+      "actorSourceName": null,
       "sourceAction": "recognized",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -186,7 +186,7 @@
     {
       "subject": "medusa",
       "predicate": "opening_situation",
-      "object": "In long thin locks, dreadful their faces were, Carved all about with wrinkles of despair; And as they sat they crooned a dreary song, Complaining that their lives should last so.",
+      "object": "In long thin locks, dreadful their faces were, Carved all about with wrinkles of despair; And as they sat they crooned a dreary song, Complaining that their lives should last so",
       "evidence": [
         "gutenberg:ebooks:45489:147.147.1-147.147.1:fad73a39"
       ]
@@ -196,7 +196,7 @@
     {
       "subject": "medusa",
       "predicate": "outcome",
-      "object": "Seeing Medusa's headless body on the sand, they set up such terrible cries that the noise re-echoed like thunder through the cavern, and as far away as Perseus had already flown,.",
+      "object": "Seeing Medusa's headless body on the sand, they set up such terrible cries that the noise re-echoed like thunder through the cavern, and as far away as Perseus had already flown",
       "evidence": [
         "gutenberg:ebooks:45489:147.147.5-147.147.5:1b83ba95"
       ]
@@ -206,10 +206,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-b00b68b7",
+      "reviewId": "review-7e757bd0",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0147-0292ba",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "While o'er their backs their straight white hair hung down",
       "suggestions": [
         "weak-or-literary-title"

@@ -33,30 +33,12 @@
   ],
   "relationships": [],
   "goals": [],
-  "events": [
-    {
-      "actorSourceName": "achilles",
-      "sourceAction": "received",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:448.448.3-448.448.3:a0586217"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
-    }
-  ],
+  "events": [],
   "initialState": [
     {
       "subject": "achilles",
       "predicate": "opening_situation",
-      "object": "The prisoners were, as usual, allotted to various chiefs, and Agamemnon received the priest's daughter as reward for his bravery, while Achilles triumphantly led to his tent the.",
+      "object": "Wordsworth.",
       "evidence": [
         "gutenberg:ebooks:39250:448.448.1-448.448.1:5b976939"
       ]
@@ -66,7 +48,7 @@
     {
       "subject": "achilles",
       "predicate": "outcome",
-      "object": "The prisoners were, as usual, allotted to various chiefs, and Agamemnon received the priest's daughter as reward for his bravery, while Achilles triumphantly led to his tent the.",
+      "object": "Wordsworth.",
       "evidence": [
         "gutenberg:ebooks:39250:448.448.3-448.448.3:a0586217"
       ]
@@ -76,14 +58,18 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-a564ad33",
+      "reviewId": "review-d405223b",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0448-25f6a7",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Wordsworth.",
       "suggestions": [
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline",
         "weak-or-literary-title"
       ],
       "evidence": [

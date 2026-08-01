@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-hercules",
+      "normalizedId": "heracles",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
   ],
@@ -49,7 +49,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "found",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -58,6 +58,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:265.265.2-265.265.2:ba32a770"
+        },
         {
           "passageId": "gutenberg:ebooks:45489:265.265.3-265.265.3:145cd1de"
         }
@@ -70,7 +73,7 @@
     {
       "subject": "hades",
       "predicate": "opening_situation",
-      "object": "The story of Hercules's accepting Arete (Virtue) as his guide--the \"Choice of Hercules\"--may be found in The Tatler, No.",
+      "object": "LI The story of Hercules's accepting Arete (Virtue) as his guide--the \"Choice of Hercules\"--may be found in The Tatler, No.",
       "evidence": [
         "gutenberg:ebooks:45489:265.265.1-265.265.1:f4c23f34"
       ]
@@ -80,7 +83,7 @@
     {
       "subject": "hades",
       "predicate": "outcome",
-      "object": "The story of Hercules's accepting Arete (Virtue) as his guide--the \"Choice of Hercules\"--may be found in The Tatler, No.",
+      "object": "LI The story of Hercules's accepting Arete (Virtue) as his guide--the \"Choice of Hercules\"--may be found in The Tatler, No.",
       "evidence": [
         "gutenberg:ebooks:45489:265.265.7-265.265.7:42a24c89"
       ]
@@ -90,10 +93,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-2661f770",
+      "reviewId": "review-d4775b64",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0265-db0447",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Floats up from those dim fields about the homes",
       "suggestions": [
         "fewer-than-three-meaningful-events",

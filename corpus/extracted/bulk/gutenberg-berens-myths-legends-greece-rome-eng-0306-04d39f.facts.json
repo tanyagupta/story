@@ -57,6 +57,20 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "zeus",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Eurystheus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:306.306.1-306.306.1:827c97de"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "eurystheus",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
@@ -114,7 +128,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": "hermes",
       "sourceAction": "gave",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -131,7 +145,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "perseus",
+      "actorSourceName": null,
       "sourceAction": "born",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -148,7 +162,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "perseus",
+      "actorSourceName": null,
       "sourceAction": "knew",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -165,7 +179,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "zeus",
+      "actorSourceName": null,
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -203,7 +217,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "Heracles took possession of a narrow defile through which the enemy were compelled to pass, and as they entered the pass the Thebans fell upon them, killed their king Erginus,.",
+      "object": "Heracles took possession of a narrow defile through which the enemy were compelled to pass, and as they entered the pass the Thebans fell upon them, killed their king Erginus, and",
       "evidence": [
         "gutenberg:ebooks:22381:306.306.1-306.306.1:827c97de"
       ]
@@ -213,7 +227,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "When, after his splendid victory over Erginus, the fame of Heracles spread throughout Greece, Eurystheus (who had become king of Mycenae), jealous of the reputation of the young.",
+      "object": "When, after his splendid victory over Erginus, the fame of Heracles spread throughout Greece, Eurystheus (who had become king of Mycenae), jealous of the reputation of the young",
       "evidence": [
         "gutenberg:ebooks:22381:306.306.4-306.306.4:ec6ac938"
       ]
@@ -223,12 +237,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-c4d8d581",
+      "reviewId": "review-764326d8",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0306-04d39f",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Minyans.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

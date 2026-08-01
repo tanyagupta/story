@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "theseus",
       "normalizationStatus": "approved"
     },
@@ -26,8 +26,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-vulcan",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hephaestus",
       "normalizationStatus": "approved"
     }
   ],
@@ -49,10 +49,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "theseus",
+      "actorSourceName": null,
       "sourceAction": "departed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -66,7 +66,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -83,7 +83,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -100,7 +100,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -117,7 +117,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -134,10 +134,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-vulcan",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -146,15 +146,18 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:379.379.4-379.379.4:a2aff017"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:379.379.5-379.379.5:7521655f"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "theseus",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -164,11 +167,14 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:379.379.6-379.379.6:c751b273"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:379.379.7-379.379.7:36544fe5"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
@@ -185,13 +191,30 @@
     {
       "subject": "theseus",
       "predicate": "outcome",
-      "object": "Theseus then disarmed his fallen foe, and, retaining the club for future use, continued his journey in peace, until he came to the Isthmus of Corinth, where two adventures.",
+      "object": "[Sidenote: Sinis.] Theseus then disarmed his fallen foe, and, retaining the club for future use, continued his journey in peace, until he came to the Isthmus of Corinth, where two",
       "evidence": [
         "gutenberg:ebooks:39250:379.379.15-379.379.15:ff0f31b8"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-f8b5538b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0379-98ac15",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THESEUS.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:379.379.1-379.379.1:a5aca4a7",
+        "gutenberg:ebooks:39250:379.379.2-379.379.2:cf15adad",
+        "gutenberg:ebooks:39250:379.379.3-379.379.3:b9ed3cea"
+      ],
+      "status": "open"
+    }
+  ]
 }

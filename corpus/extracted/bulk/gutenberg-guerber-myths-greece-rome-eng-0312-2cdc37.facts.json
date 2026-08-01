@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,35 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Eleusis",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:312.312.1-312.312.1:8885a9b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "eleusis",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Triptolemus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:312.312.1-312.312.1:8885a9b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "triptolemus",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +63,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "ceres",
+      "actorSourceName": "demeter",
       "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -52,7 +80,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "ceres",
+      "actorSourceName": "triptolemus",
       "sourceAction": "journeyed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -86,7 +114,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "ceres",
+      "actorSourceName": "demeter",
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -103,7 +131,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-neptune",
+      "actorSourceName": null,
       "sourceAction": "delivered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -137,7 +165,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "ceres",
+      "actorSourceName": null,
       "sourceAction": "offered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -147,6 +175,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:312.312.10-312.312.10:709ad748"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:312.312.11-312.312.11:1d47191a"
         }
       ],
@@ -154,7 +185,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "ceres",
+      "actorSourceName": null,
       "sourceAction": "changed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -173,9 +204,9 @@
   ],
   "initialState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "opening_situation",
-      "object": "To commemorate her long search for her daughter, Ceres returned to Eleusis, taught her former nursling, Triptolemus, the various secrets of agriculture, and gave him her chariot,.",
+      "object": "To commemorate her long search for her daughter, Ceres returned to Eleusis, taught her former nursling, Triptolemus, the various secrets of agriculture, and gave him her chariot",
       "evidence": [
         "gutenberg:ebooks:39250:312.312.1-312.312.1:8885a9b0"
       ]
@@ -183,7 +214,7 @@
   ],
   "finalState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "outcome",
       "object": "To punish the boy for his rudeness, Ceres flung the remainder of her gruel into his face, and changed him into a lizard.",
       "evidence": [
@@ -195,10 +226,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-838d9fb4",
+      "reviewId": "review-81d9ddac",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0312-2cdc37",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Then with thick shades are lofty mountains crown'd.",
       "suggestions": [
         "weak-or-literary-title"

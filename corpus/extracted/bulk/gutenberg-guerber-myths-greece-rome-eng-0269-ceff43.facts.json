@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-bacchus",
+      "normalizedId": "bacchus",
       "normalizationStatus": "approved"
     }
   ],
@@ -38,7 +38,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-bacchus",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -57,9 +57,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "opening_situation",
-      "object": "Their amusement was cut short, however, for the ship came to a sudden standstill; and, when they leaned over the sides to ascertain why their oars could no longer propel it.",
+      "object": "Their amusement was cut short, however, for the ship came to a sudden standstill; and, when they leaned over the sides to ascertain why their oars could no longer propel it",
       "evidence": [
         "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa"
       ]
@@ -67,9 +67,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "outcome",
-      "object": "Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of.",
+      "object": "Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of",
       "evidence": [
         "gutenberg:ebooks:39250:269.269.2-269.269.2:587e7db5"
       ]
@@ -79,10 +79,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-045d61bc",
+      "reviewId": "review-a31cb02b",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0269-ceff43",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Egypt.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

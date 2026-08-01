@@ -1,22 +1,42 @@
 {
   "reviewType": "semantic-quality",
-  "status": "passed-automatic-gates",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 114,
-    "passed": true,
+    "score": 93,
+    "passed": false,
     "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
       "No explicit relationship was extracted from the selected source wording."
     ],
-    "failedGates": [],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
     "components": {
       "namedMythologicalEntities": 2,
-      "meaningfulEvents": 5,
-      "actorEvents": 2,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "meaningfulEvents": 4,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
     }
   },
-  "items": []
+  "items": [
+    {
+      "reviewId": "review-a8024638",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0429-e9e3c4",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THE TROJAN WAR.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:429.429.1-429.429.1:1f3b66cd",
+        "gutenberg:ebooks:39250:429.429.2-429.429.2:15a4ed7e",
+        "gutenberg:ebooks:39250:429.429.3-429.429.3:79f03266"
+      ],
+      "status": "open"
+    }
+  ]
 }

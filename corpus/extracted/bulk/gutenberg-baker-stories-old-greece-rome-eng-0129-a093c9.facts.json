@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-vulcan",
+      "normalizedId": "hephaestus",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-vulcan",
+      "actorSourceName": "hephaestus",
       "sourceAction": "built",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -44,6 +44,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6"
+        },
         {
           "passageId": "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7"
         }
@@ -69,7 +72,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -88,9 +91,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the winds.",
+      "object": "Æolus Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the",
       "evidence": [
         "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6"
       ]
@@ -98,9 +101,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
-      "object": "Only once were they allowed to give free play to their boisterous feelings, and rush over the waters, making havoc everywhere, and this was when Jupiter sent a deluge upon the.",
+      "object": "Only once were they allowed to give free play to their boisterous feelings, and rush over the waters, making havoc everywhere, and this was when Jupiter sent a deluge upon the",
       "evidence": [
         "gutenberg:ebooks:45489:129.129.3-129.129.3:f6b4947b"
       ]
@@ -110,12 +113,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-d65a0031",
+      "reviewId": "review-dbc9f138",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0129-a093c9",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Minor Deities",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

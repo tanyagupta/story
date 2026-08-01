@@ -18,7 +18,7 @@
     "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
     "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -40,14 +40,20 @@
     "Pegasus",
     "Perseus",
     "Poseidon",
-    "Zeus"
+    "Zeus",
+    "Acrisius",
+    "Argos",
+    "Cepheus",
+    "Danae",
+    "Dictys",
+    "Polydectes"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 179,
+    "score": 189,
     "passed": true,
     "reasons": [
       "No explicit relationship was extracted from the selected source wording."
@@ -56,7 +62,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 2,
+      "actorEvents": 4,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

@@ -19,30 +19,12 @@
   ],
   "relationships": [],
   "goals": [],
-  "events": [
-    {
-      "actorSourceName": null,
-      "sourceAction": "loved",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:45489:186.186.4-186.186.4:ab7398dc"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
-    }
-  ],
+  "events": [],
   "initialState": [
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "\"The heart that has truly loved never forgets, But as truly loves on to the close;",
+      "object": "Hymn to Apollo JOHN KEATS",
       "evidence": [
         "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de"
       ]
@@ -52,7 +34,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "\"The heart that has truly loved never forgets, But as truly loves on to the close;",
+      "object": "Hymn to Apollo JOHN KEATS",
       "evidence": [
         "gutenberg:ebooks:45489:186.186.4-186.186.4:ab7398dc"
       ]
@@ -62,14 +44,18 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-6bad829f",
+      "reviewId": "review-647afde7",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0186-b1492f",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Hymn to Apollo JOHN KEATS",
       "suggestions": [
         "fewer-than-three-meaningful-events",
-        "fewer-than-two-actor-events"
+        "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline"
       ],
       "evidence": [
         "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de",

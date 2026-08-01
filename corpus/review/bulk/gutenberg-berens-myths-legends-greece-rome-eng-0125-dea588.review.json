@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 90,
+    "score": 85,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -15,7 +15,7 @@
     "components": {
       "namedMythologicalEntities": 1,
       "meaningfulEvents": 4,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -24,10 +24,10 @@
   },
   "items": [
     {
-      "reviewId": "review-df8ee511",
+      "reviewId": "review-2c225a41",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0125-dea588",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "THEORIES AS TO THE ORIGIN OF MAN.",
       "suggestions": [
         "fewer-than-two-actor-events",

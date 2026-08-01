@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "bellerophon",
+      "actorSourceName": null,
       "sourceAction": "killed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -73,7 +73,7 @@
     {
       "subject": "bellerophon",
       "predicate": "opening_situation",
-      "object": "This fall, which would doubtless have killed any one but a mythological hero, merely deprived Bellerophon of his eyesight; and ever after he groped his way disconsolately,.",
+      "object": "This fall, which would doubtless have killed any one but a mythological hero, merely deprived Bellerophon of his eyesight; and ever after he groped his way disconsolately",
       "evidence": [
         "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b"
       ]
@@ -83,7 +83,7 @@
     {
       "subject": "bellerophon",
       "predicate": "outcome",
-      "object": "Bellerophon, mounted upon Pegasus, winging his flight through the air or fighting the Chimæra, is a favorite subject in sculpture and painting, which has frequently been treated.",
+      "object": "Bellerophon, mounted upon Pegasus, winging his flight through the air or fighting the Chimæra, is a favorite subject in sculpture and painting, which has frequently been treated",
       "evidence": [
         "gutenberg:ebooks:39250:416.416.3-416.416.3:6a8d7dc1"
       ]
@@ -93,13 +93,14 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-7afcc3f5",
+      "reviewId": "review-71a66e65",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0416-25f6a7",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Wordsworth.",
       "suggestions": [
         "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

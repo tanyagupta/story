@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -83,7 +83,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     }
   ],
@@ -91,7 +91,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -125,7 +125,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "told",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -142,7 +142,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -159,7 +159,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "offered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -169,6 +169,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:449.449.11-449.449.11:5c2546f9"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:449.449.12-449.449.12:ac790f47"
         }
       ],
@@ -176,7 +179,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -186,6 +189,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:449.449.16-449.449.16:fc508f6a"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:449.449.17-449.449.17:605606b8"
         }
       ],
@@ -193,7 +199,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "hector",
+      "actorSourceName": null,
       "sourceAction": "battle",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -210,7 +216,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "helen",
+      "actorSourceName": null,
       "sourceAction": "loved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -221,6 +227,9 @@
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:449.449.18-449.449.18:9ff5f220"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:449.449.19-449.449.19:79f03266"
         }
       ],
       "confidence": 0.7,
@@ -241,7 +250,7 @@
     {
       "subject": "achilles",
       "predicate": "outcome",
-      "object": "He bids the Trojans and the Greeks lay down Their shining arms upon the teeming earth, And he and Menelaus, loved of Mars, Will strive in single combat, on the ground Between the.",
+      "object": "He bids the Trojans and the Greeks lay down Their shining arms upon the teeming earth, And he and Menelaus, loved of Mars, Will strive in single combat, on the ground Between the",
       "evidence": [
         "gutenberg:ebooks:39250:449.449.25-449.449.25:8e380dab"
       ]
@@ -251,12 +260,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-54af8837",
+      "reviewId": "review-678c3ca8",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0449-611e9e",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Briseis.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

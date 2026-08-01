@@ -176,7 +176,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "hades",
+      "actorSourceName": null,
       "sourceAction": "imprisoned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -231,7 +231,7 @@
     {
       "subject": "achilles",
       "predicate": "opening_situation",
-      "object": "He was the ruler of that subterranean region called Erebus, which was inhabited by the shades or spirits of the dead, and also by those dethroned and exiled deities who had been.",
+      "object": "He was the ruler of that subterranean region called Erebus, which was inhabited by the shades or spirits of the dead, and also by those dethroned and exiled deities who had been",
       "evidence": [
         "gutenberg:ebooks:22381:189.189.1-189.189.1:440c9133"
       ]
@@ -251,10 +251,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-253003db",
+      "reviewId": "review-cec6226b",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0189-67cb52",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "March.",
       "suggestions": [
         "fewer-than-two-actor-events"

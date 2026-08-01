@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "cassandra",
       "normalizationStatus": "approved"
     },
@@ -26,7 +26,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "hector",
       "normalizationStatus": "approved"
     },
@@ -40,7 +40,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "helen",
       "normalizationStatus": "approved"
     },
@@ -54,7 +54,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "paris",
       "normalizationStatus": "approved"
     },
@@ -68,7 +68,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
@@ -91,7 +91,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -108,7 +108,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -125,7 +125,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": "paris",
@@ -142,7 +142,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": "paris",
@@ -159,10 +159,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "cassandra",
+      "actorSourceName": null,
       "sourceAction": "defeated",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -176,7 +176,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -193,7 +193,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -210,14 +210,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "cassandra",
       "predicate": "opening_situation",
-      "object": "Anxious to prevent the fulfilment of the prophecy, Hecuba caused her new-born babe to be exposed on Mount Ida to perish; but being found by some kind-hearted shepherds, the child.",
+      "object": "Anxious to prevent the fulfilment of the prophecy, Hecuba caused her new-born babe to be exposed on Mount Ida to perish; but being found by some kind-hearted shepherds, the child",
       "evidence": [
         "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0"
       ]
@@ -227,13 +227,30 @@
     {
       "subject": "cassandra",
       "predicate": "outcome",
-      "object": "As we have already seen in the Legend of Heracles, that great hero conquered Troy, and after killing king Laomedon, carried away captive his beautiful daughter Hesione, whom he.",
+      "object": "As we have already seen in the Legend of Heracles, that great hero conquered Troy, and after killing king Laomedon, carried away captive his beautiful daughter Hesione, whom he",
       "evidence": [
         "gutenberg:ebooks:22381:333.333.10-333.333.10:a96158b3"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-976aa1dc",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0333-128246",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Trojan war.",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+        "gutenberg:ebooks:22381:333.333.2-333.333.2:228872b7",
+        "gutenberg:ebooks:22381:333.333.3-333.333.3:d354b666"
+      ],
+      "status": "open"
+    }
+  ]
 }

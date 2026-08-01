@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     }
   ],
@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-mercury",
+      "actorSourceName": "hermes",
       "sourceAction": "presented",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -40,9 +40,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-mercury",
+      "subject": "hermes",
       "predicate": "opening_situation",
-      "object": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity.",
+      "object": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity",
       "evidence": [
         "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6"
       ]
@@ -50,9 +50,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-mercury",
+      "subject": "hermes",
       "predicate": "outcome",
-      "object": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity.",
+      "object": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity",
       "evidence": [
         "gutenberg:ebooks:39250:210.210.2-210.210.2:6878d255"
       ]
@@ -62,10 +62,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-520049ea",
+      "reviewId": "review-9f6393a0",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0210-eceae8",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Goldsmith.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

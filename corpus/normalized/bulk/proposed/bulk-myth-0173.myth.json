@@ -1,0 +1,239 @@
+{
+  "mythId": "bulk-myth-0173",
+  "mythFamilyId": "and-wide-beneath-him-all-olympus-shakes",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-and-wide-beneath-him-all-olympus-shakes-a5650c",
+  "title": "And wide beneath him all Olympus shakes.",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:178.178.1-178.178.1:37806a4f",
+      "gutenberg:ebooks:45489:178.178.2-178.178.2:1a4bbc49",
+      "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "zeus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:178.178.1-178.178.1:37806a4f"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "At Dodona was the oracle of Jupiter, called the \"Speaking Oak,\" where the responses were given by the trees whose rustling branches made sounds that were interpreted by the The oracle was said to have been established at Dodona in the following manner: two black doves took their flight from Thebes in Egypt.",
+    "openingSituation": "At Dodona was the oracle of Jupiter, called the \"Speaking Oak,\" where the responses were given by the trees whose rustling branches made sounds that were interpreted by the",
+    "centralConflict": "The oracle was said to have been established at Dodona in the following manner: two black doves took their flight from Thebes in Egypt.",
+    "resolution": "The other dove flew to the temple of Jupiter Ammon, and delivered a similar command there.",
+    "outcome": "The other dove flew to the temple of Jupiter Ammon, and delivered a similar command there.",
+    "storyline": [
+      "At Dodona was the oracle of Jupiter, called the \"Speaking Oak,\" where the responses were given by the trees whose rustling branches made sounds that were interpreted by the",
+      "The oracle was said to have been established at Dodona in the following manner: two black doves took their flight from Thebes in Egypt.",
+      "The other dove flew to the temple of Jupiter Ammon, and delivered a similar command there."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:178.178.1-178.178.1:37806a4f",
+        "gutenberg:ebooks:45489:178.178.2-178.178.2:1a4bbc49",
+        "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:178.178.1-178.178.1:37806a4f",
+      "excerpt": "He spoke, and awful bends his sable brows, Shakes his ambrosial curls, and gives the nod, The stamp of fate and sanction of the god; High heaven with trembling the dread signal took, And all Olympus to the center shook.\"",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:178.178.2-178.178.2:1a4bbc49",
+      "excerpt": "--POPE'S TRANSLATION.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef",
+      "excerpt": "The principal temples of Jupiter were the Capitol at Rome, and the Temple of Jupiter Ammon in Libya.",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "At Dodona was the oracle of Jupiter, called the \"Speaking Oak,\" where the responses were given by the trees whose rustling branches made sounds that were interpreted by the",
+      "evidence": [
+        "gutenberg:ebooks:45489:178.178.1-178.178.1:37806a4f"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "At Dodona was the oracle of Jupiter, called the \"Speaking Oak,\" where the responses were given by the trees whose rustling branches made sounds that were interpreted by the priests.",
+      "sourceClause": "At Dodona was the oracle of Jupiter, called the \"Speaking Oak,\" where the responses were given by the trees whose rustling branches made sounds that were interpreted by the priests.",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": "zeus",
+      "recipient": null,
+      "location": null,
+      "result": "At Dodona was the oracle of Jupiter, called the \"Speaking Oak,\" where the responses were given by the trees whose rustling branches made sounds that were interpreted by the",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "The oracle was said to have been established at Dodona in the following manner: two black doves took their flight from Thebes in Egypt.",
+      "sourceClause": "The oracle was said to have been established at Dodona in the following manner: two black doves took their flight from Thebes in Egypt.",
+      "actor": null,
+      "action": "flee",
+      "sourceAction": "flight",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The oracle was said to have been established at Dodona in the following manner: two black doves took their flight from Thebes in Egypt.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "The other dove flew to the temple of Jupiter Ammon, and delivered a similar command there.",
+      "sourceClause": "The other dove flew to the temple of Jupiter Ammon, and delivered a similar command there.",
+      "actor": null,
+      "action": "rescue",
+      "sourceAction": "delivered",
+      "object": null,
+      "target": "zeus",
+      "recipient": null,
+      "location": null,
+      "result": "The other dove flew to the temple of Jupiter Ammon, and delivered a similar command there.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "The other dove flew to the temple of Jupiter Ammon, and delivered a similar command there.",
+      "evidence": [
+        "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "At Dodona was the oracle of Jupiter, called the \"Speaking Oak,\" where the responses were given by the trees whose rustling branches made sounds that were interpreted by the",
+      "The oracle was said to have been established at Dodona in the following manner: two black doves took their flight from Thebes in Egypt.",
+      "The other dove flew to the temple of Jupiter Ammon, and delivered a similar command there."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-013d7b09",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0178-3a0355",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "And wide beneath him all Olympus shakes.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:178.178.1-178.178.1:37806a4f",
+        "gutenberg:ebooks:45489:178.178.2-178.178.2:1a4bbc49",
+        "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 74,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

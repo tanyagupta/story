@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,21 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-vulcan",
+      "normalizedId": "hephaestus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hebe",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:101.101.1-101.101.1:ca73ab65"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hebe",
       "normalizationStatus": "approved"
     }
   ],
@@ -120,6 +134,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:101.101.4-101.101.4:e95267a3"
+        },
         {
           "passageId": "gutenberg:ebooks:45489:101.101.5-101.101.5:b0cebab4"
         }
@@ -237,10 +254,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-a2489233",
+      "reviewId": "review-dc0568c5",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0101-30b944",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Mars and Vulcan",
       "suggestions": [
         "fewer-than-two-actor-events"

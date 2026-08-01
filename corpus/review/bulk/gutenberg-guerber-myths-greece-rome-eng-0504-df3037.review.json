@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 89,
+    "score": 92,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
@@ -13,9 +13,9 @@
       "fewer-than-two-actor-events"
     ],
     "components": {
-      "namedMythologicalEntities": 5,
+      "namedMythologicalEntities": 6,
       "meaningfulEvents": 1,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -24,10 +24,10 @@
   },
   "items": [
     {
-      "reviewId": "review-087b6acd",
+      "reviewId": "review-62c5089d",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0504-df3037",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "EARTH MYTHS.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 194,
+    "score": 184,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -14,7 +14,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 5,
+      "actorEvents": 3,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -23,10 +23,10 @@
   },
   "items": [
     {
-      "reviewId": "review-d6a30711",
+      "reviewId": "review-3fc99110",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0154-9610ba",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Part I",
       "suggestions": [
         "weak-or-literary-title"

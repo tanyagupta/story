@@ -66,7 +66,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "eurydice",
+      "actorSourceName": null,
       "sourceAction": "reached",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -83,7 +83,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "theseus",
+      "actorSourceName": null,
       "sourceAction": "flight",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -141,12 +141,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-0e510a4a",
+      "reviewId": "review-c6b9c0a7",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0327-f7e08c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Polynices.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

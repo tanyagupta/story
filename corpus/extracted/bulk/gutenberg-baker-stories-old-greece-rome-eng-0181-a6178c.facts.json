@@ -35,7 +35,24 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
+      "sourceAction": "drowned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:181.181.6-181.181.6:33563e86"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
       "sourceAction": "built",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -44,6 +61,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:181.181.8-181.181.8:c9ee5681"
+        },
         {
           "passageId": "gutenberg:ebooks:45489:181.181.9-181.181.9:79d58579"
         }
@@ -73,7 +93,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "The city of Delphi, containing the famous oracle of Apollo, was built on the slopes of Mount Parnassus in Phocis.",
+      "object": "\"Who does not see in drowned Deucalion's name, When Earth her men, and Sea had lost her shore, Old Noah!\"",
       "evidence": [
         "gutenberg:ebooks:45489:181.181.1-181.181.1:944e313b"
       ]
@@ -93,13 +113,12 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-e4e0c368",
+      "reviewId": "review-42a87312",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0181-a6178c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "III",
       "suggestions": [
-        "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],

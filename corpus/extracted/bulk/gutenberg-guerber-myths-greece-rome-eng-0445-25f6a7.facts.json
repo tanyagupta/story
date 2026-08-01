@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     }
   ],
@@ -30,6 +30,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:445.445.1-445.445.1:b4771e74"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:445.445.2-445.445.2:27c9d87e"
         }
@@ -57,9 +60,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-mercury",
+      "subject": "hermes",
       "predicate": "opening_situation",
-      "object": "Protesilaus, a brave chief, seeing his comrades' irresolution, and animated by a spirit of self-sacrifice, sprang boldly ashore, and perished, slain by the enemy, as soon as his.",
+      "object": "[Sidenote: Protesilaus and Laodamia.] Protesilaus, a brave chief, seeing his comrades' irresolution, and animated by a spirit of self-sacrifice, sprang boldly ashore, and",
       "evidence": [
         "gutenberg:ebooks:39250:445.445.1-445.445.1:b4771e74"
       ]
@@ -67,9 +70,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-mercury",
+      "subject": "hermes",
       "predicate": "outcome",
-      "object": "When the tidings of his death reached his beloved wife, Laodamia, whom he had left in Thessaly, they well-nigh broke her heart; and in her despair she entreated the gods to let.",
+      "object": "When the tidings of his death reached his beloved wife, Laodamia, whom he had left in Thessaly, they well-nigh broke her heart; and in her despair she entreated the gods to let",
       "evidence": [
         "gutenberg:ebooks:39250:445.445.3-445.445.3:5e0b2a16"
       ]
@@ -79,10 +82,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-f66cc6ae",
+      "reviewId": "review-33703211",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0445-25f6a7",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Wordsworth.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

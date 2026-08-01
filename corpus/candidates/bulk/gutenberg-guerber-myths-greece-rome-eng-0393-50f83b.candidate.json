@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:393.393.3-393.393.3:9de3df75",
     "gutenberg:ebooks:39250:393.393.4-393.393.4:e39a2f85"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,14 +22,15 @@
   "mythFamilyId": "meleager",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-meleager-8b64d3",
   "characters": [
-    "Jason"
+    "Jason",
+    "Phryxus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 74,
+    "score": 98,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events",
@@ -39,10 +40,10 @@
       "fewer-than-two-actor-events"
     ],
     "components": {
-      "namedMythologicalEntities": 1,
-      "meaningfulEvents": 3,
-      "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 4,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

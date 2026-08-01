@@ -57,13 +57,27 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "zeus",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Eurystheus",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:315.315.1-315.315.1:95d7a2ab"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "eurystheus",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
   "goals": [],
   "events": [
     {
-      "actorSourceName": "zeus",
+      "actorSourceName": null,
       "sourceAction": "presented",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -148,7 +162,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "zeus",
+      "actorSourceName": null,
       "sourceAction": "reached",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -203,7 +217,7 @@
     {
       "subject": "atlas",
       "predicate": "opening_situation",
-      "object": "THE APPLES OF THE HESPERIDES.--The eleventh task imposed by Eurystheus was to bring him the golden apples of the Hesperides, which grew on a tree presented by Gaea to Hera, on.",
+      "object": "THE APPLES OF THE HESPERIDES.--The eleventh task imposed by Eurystheus was to bring him the golden apples of the Hesperides, which grew on a tree presented by Gaea to Hera, on the",
       "evidence": [
         "gutenberg:ebooks:22381:315.315.1-315.315.1:95d7a2ab"
       ]
@@ -213,7 +227,7 @@
     {
       "subject": "atlas",
       "predicate": "outcome",
-      "object": "Heracles found him asleep, and seizing the opportunity, held him so firmly in his powerful grasp that he could not possibly escape, so that notwithstanding his various.",
+      "object": "Heracles found him asleep, and seizing the opportunity, held him so firmly in his powerful grasp that he could not possibly escape, so that notwithstanding his various",
       "evidence": [
         "gutenberg:ebooks:22381:315.315.7-315.315.7:12c611ed"
       ]
@@ -223,12 +237,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-ef7f6c33",
+      "reviewId": "review-7e9db2b0",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0315-fb5bb7",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Heracles substituting two more labours in their place.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

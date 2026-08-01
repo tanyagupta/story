@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
@@ -63,7 +63,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "helen",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -72,6 +72,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:439.439.2-439.439.2:790d0b10"
         }
@@ -107,6 +110,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:439.439.5-439.439.5:eef53534"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:439.439.6-439.439.6:0b913001"
         }
       ],
@@ -114,7 +120,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "helen",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -131,7 +137,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "helen",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -148,7 +154,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
       "sourceAction": "turned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -169,7 +175,7 @@
     {
       "subject": "helen",
       "predicate": "opening_situation",
-      "object": "On his arrival at Sparta, in Lacedæmonia, Paris was received with graceful hospitality by Menelaus and Helen.",
+      "object": "[Sidenote: Abduction of Helen.] On his arrival at Sparta, in Lacedæmonia, Paris was received with graceful hospitality by Menelaus and Helen.",
       "evidence": [
         "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d"
       ]
@@ -179,7 +185,7 @@
     {
       "subject": "helen",
       "predicate": "outcome",
-      "object": "One day, therefore, when the king was plowing the seashore with an ox and horse harnessed together, and sowing this strange field with salt, Palamedes placed the babe Telemachus.",
+      "object": "One day, therefore, when the king was plowing the seashore with an ox and horse harnessed together, and sowing this strange field with salt, Palamedes placed the babe Telemachus",
       "evidence": [
         "gutenberg:ebooks:39250:439.439.8-439.439.8:922e20f2"
       ]
@@ -189,12 +195,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-e8b4e01e",
+      "reviewId": "review-ad4bd9d6",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0439-a3f7cd",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "King of Sparta.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

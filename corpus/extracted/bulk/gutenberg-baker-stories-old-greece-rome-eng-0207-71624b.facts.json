@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-cupid",
+      "normalizedId": "cupid",
       "normalizationStatus": "approved"
     },
     {
@@ -71,7 +71,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-cupid",
+      "subject": "cupid",
       "predicate": "opening_situation",
       "object": "The story is told in the Mahabharata, an ancient epic of India.",
       "evidence": [
@@ -81,9 +81,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-cupid",
+      "subject": "cupid",
       "predicate": "outcome",
-      "object": "Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three.",
+      "object": "Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three",
       "evidence": [
         "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959"
       ]
@@ -93,10 +93,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-a6d67b05",
+      "reviewId": "review-f852245d",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0207-71624b",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "XXII",
       "suggestions": [
         "fewer-than-three-meaningful-events",

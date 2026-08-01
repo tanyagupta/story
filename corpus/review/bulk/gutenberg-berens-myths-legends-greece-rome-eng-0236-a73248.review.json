@@ -1,22 +1,42 @@
 {
   "reviewType": "semantic-quality",
-  "status": "passed-automatic-gates",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 92,
-    "passed": true,
+    "score": 87,
+    "passed": false,
     "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
       "No explicit relationship was extracted from the selected source wording."
     ],
-    "failedGates": [],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
     "components": {
       "namedMythologicalEntities": 2,
       "meaningfulEvents": 3,
-      "actorEvents": 2,
+      "actorEvents": 1,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
     }
   },
-  "items": []
+  "items": [
+    {
+      "reviewId": "review-f7c8f33c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0236-a73248",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "NAPAEAE AND OREADES.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:236.236.1-236.236.1:bdc5125b",
+        "gutenberg:ebooks:22381:236.236.2-236.236.2:c86e464a",
+        "gutenberg:ebooks:22381:236.236.3-236.236.3:735e7e52"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -7,7 +7,7 @@
     "gutenberg:ebooks:39250:293.293.2-293.293.2:ea16d962",
     "gutenberg:ebooks:39250:293.293.3-293.293.3:bc476864"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,14 +22,15 @@
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-demeter-and-persephone-fec47e",
   "characters": [
     "Ceres",
-    "Proserpina"
+    "Proserpina",
+    "Eleusis"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 87,
+    "score": 90,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -40,9 +41,9 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 2,
+      "namedMythologicalEntities": 3,
       "meaningfulEvents": 3,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

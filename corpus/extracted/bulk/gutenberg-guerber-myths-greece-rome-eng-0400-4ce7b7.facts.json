@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "atalanta",
       "normalizationStatus": "approved"
     },
@@ -26,8 +26,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-diana",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     },
     {
@@ -40,7 +40,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "jason",
       "normalizationStatus": "approved"
     },
@@ -54,7 +54,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "theseus",
       "normalizationStatus": "approved"
     }
@@ -77,10 +77,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-diana",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -94,10 +94,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "atalanta",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -107,11 +107,14 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:400.400.4-400.400.4:4d48a9ec"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:400.400.5-400.400.5:0f1f6abd"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -128,10 +131,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "atalanta",
+      "actorSourceName": null,
       "sourceAction": "pursued",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -145,7 +148,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -162,10 +165,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "atalanta",
+      "actorSourceName": null,
       "sourceAction": "bestowed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -175,11 +178,14 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:400.400.7-400.400.7:2ac45975"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -196,7 +202,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
@@ -220,6 +226,23 @@
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-631340bc",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0400-4ce7b7",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THE CALYDONIAN HUNT.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:400.400.1-400.400.1:ec8d9a76",
+        "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+        "gutenberg:ebooks:39250:400.400.3-400.400.3:26c875d3"
+      ],
+      "status": "open"
+    }
+  ]
 }

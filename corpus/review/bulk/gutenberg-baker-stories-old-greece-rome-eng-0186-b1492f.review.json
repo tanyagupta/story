@@ -1,37 +1,45 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 52,
+    "score": 14,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, no-object-target-recipient-location-or-outcome, no-central-conflict-or-change, no-outcome, no-storyline",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
       "fewer-than-three-meaningful-events",
-      "fewer-than-two-actor-events"
+      "fewer-than-two-actor-events",
+      "no-object-target-recipient-location-or-outcome",
+      "no-central-conflict-or-change",
+      "no-outcome",
+      "no-storyline"
     ],
     "components": {
       "namedMythologicalEntities": 1,
-      "meaningfulEvents": 1,
+      "meaningfulEvents": 0,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
-      "hasCentralConflictOrChange": true,
-      "hasOutcome": true,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 0,
+      "hasCentralConflictOrChange": false,
+      "hasOutcome": false,
       "knownMythFamily": true
     }
   },
   "items": [
     {
-      "reviewId": "review-6bad829f",
+      "reviewId": "review-647afde7",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0186-b1492f",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Hymn to Apollo JOHN KEATS",
       "suggestions": [
         "fewer-than-three-meaningful-events",
-        "fewer-than-two-actor-events"
+        "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline"
       ],
       "evidence": [
         "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de",

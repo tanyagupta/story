@@ -11,7 +11,7 @@
     "gutenberg:ebooks:45489:146.146.6-146.146.6:afdd7c22",
     "gutenberg:ebooks:45489:146.146.7-146.146.7:ed2b0f8e"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -30,23 +30,28 @@
     "Mercury",
     "Minerva",
     "Perseus",
-    "Pluto"
+    "Pluto",
+    "Acrisius",
+    "Polydectes"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 189,
-    "passed": true,
+    "score": 174,
+    "passed": false,
     "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
       "No explicit relationship was extracted from the selected source wording."
     ],
-    "failedGates": [],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 4,
+      "actorEvents": 1,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

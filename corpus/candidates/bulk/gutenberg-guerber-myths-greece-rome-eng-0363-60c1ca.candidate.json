@@ -11,7 +11,7 @@
     "gutenberg:ebooks:39250:363.363.6-363.363.6:ff384870",
     "gutenberg:ebooks:39250:363.363.7-363.363.7:8b0100ac"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,14 +26,17 @@
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-perseus-and-medusa-ae1733",
   "characters": [
     "Jupiter",
-    "Perseus"
+    "Perseus",
+    "Acrisius",
+    "Argos",
+    "Danae"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 131,
+    "score": 150,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events",
@@ -43,9 +46,9 @@
       "fewer-than-two-actor-events"
     ],
     "components": {
-      "namedMythologicalEntities": 2,
+      "namedMythologicalEntities": 5,
       "meaningfulEvents": 7,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

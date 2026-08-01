@@ -1,0 +1,392 @@
+{
+  "mythId": "bulk-myth-0097",
+  "mythFamilyId": "dionysus-and-pirates",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-dionysus-and-pirates-da9c9b",
+  "title": "III",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+      "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "bacchus",
+      "hera",
+      "zeus",
+      "hermes",
+      "hephaestus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Bacchus",
+      "normalizedId": "bacchus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a"
+        }
+      ]
+    },
+    {
+      "sourceName": "Juno",
+      "normalizedId": "hera",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a"
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a"
+        }
+      ]
+    },
+    {
+      "sourceName": "Vulcan",
+      "normalizedId": "hephaestus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in Full of wrath at this defiance of his wishes, Jupiter kicked his son out of heaven; and as the distance of the fall was so great, it was a whole day and night before Vulcan Vulcan",
+    "openingSituation": "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in",
+    "centralConflict": "So in a moment proud Juno found herself securely caught, and no assistance that the gods could render her was of the least avail.",
+    "resolution": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought",
+    "outcome": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought",
+    "storyline": [
+      "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in",
+      "Full of wrath at this defiance of his wishes, Jupiter kicked his son out of heaven; and as the distance of the fall was so great, it was a whole day and night before Vulcan",
+      "Vulcan did not forget about his mother's heartless indifference; but none of the gods suspected him of harboring any revenge, until one day a beautiful golden throne arrived in",
+      "So in a moment proud Juno found herself securely caught, and no assistance that the gods could render her was of the least avail.",
+      "Then Jupiter sent Mercury to the grimy abode of Vulcan to beg politely that the god of fire would honor, with his presence, the feast that was that day to be held in Olympus; but",
+      "So Mercury returned alone to Olympus, and Jupiter was obliged to think of some other device for luring Vulcan from his forge."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+        "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+      "excerpt": "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in his own sooty workshop.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4",
+      "excerpt": "Vulcan did not forget about his mother's heartless indifference; but none of the gods suspected him of harboring any revenge, until one day a beautiful golden throne arrived in Olympus as a present to Juno from her son.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "bacchus",
+      "predicate": "opening_situation",
+      "object": "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in",
+      "evidence": [
+        "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in his own sooty workshop.",
+      "sourceClause": "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in his own sooty workshop.",
+      "actor": "hephaestus",
+      "action": "recognize",
+      "sourceAction": "knew",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "olympus",
+      "result": "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Full of wrath at this defiance of his wishes, Jupiter kicked his son out of heaven; and as the distance of the fall was so great, it was a whole day and night before Vulcan reached the earth.",
+      "sourceClause": "Full of wrath at this defiance of his wishes, Jupiter kicked his son out of heaven; and as the distance of the fall was so great, it was a whole day and night before Vulcan reached the earth.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "reached",
+      "object": null,
+      "target": "zeus",
+      "recipient": null,
+      "location": null,
+      "result": "Full of wrath at this defiance of his wishes, Jupiter kicked his son out of heaven; and as the distance of the fall was so great, it was a whole day and night before Vulcan",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Vulcan did not forget about his mother's heartless indifference; but none of the gods suspected him of harboring any revenge, until one day a beautiful golden throne arrived in Olympus as a present to Juno from her son.",
+      "sourceClause": "Vulcan did not forget about his mother's heartless indifference; but none of the gods suspected him of harboring any revenge, until one day a beautiful golden throne arrived in Olympus as a present to Juno from her son.",
+      "actor": "hephaestus",
+      "action": "travel",
+      "sourceAction": "arrived",
+      "object": null,
+      "target": "hera",
+      "recipient": null,
+      "location": "olympus",
+      "result": "Vulcan did not forget about his mother's heartless indifference; but none of the gods suspected him of harboring any revenge, until one day a beautiful golden throne arrived in",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "So in a moment proud Juno found herself securely caught, and no assistance that the gods could render her was of the least avail.",
+      "sourceClause": "So in a moment proud Juno found herself securely caught, and no assistance that the gods could render her was of the least avail.",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "caught",
+      "object": null,
+      "target": "hera",
+      "recipient": null,
+      "location": null,
+      "result": "So in a moment proud Juno found herself securely caught, and no assistance that the gods could render her was of the least avail.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "sourceSentence": "Then Jupiter sent Mercury to the grimy abode of Vulcan to beg politely that the god of fire would honor, with his presence, the feast that was that day to be held in Olympus; but Vulcan was not to be moved by any flattery, for he well knew why he was so much desired at this particular time.",
+      "sourceClause": "Then Jupiter sent Mercury to the grimy abode of Vulcan to beg politely that the god of fire would honor, with his presence, the feast that was that day to be held in Olympus; but Vulcan was not to be moved by any flattery, for he well knew why he was so much desired at this particular time.",
+      "actor": "zeus",
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": "hermes",
+      "recipient": null,
+      "location": "olympus",
+      "result": "Then Jupiter sent Mercury to the grimy abode of Vulcan to beg politely that the god of fire would honor, with his presence, the feast that was that day to be held in Olympus; but",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "sourceSentence": "So Mercury returned alone to Olympus, and Jupiter was obliged to think of some other device for luring Vulcan from his forge.",
+      "sourceClause": "So Mercury returned alone to Olympus, and Jupiter was obliged to think of some other device for luring Vulcan from his forge.",
+      "actor": "hermes",
+      "action": "return",
+      "sourceAction": "returned",
+      "object": null,
+      "target": "zeus",
+      "recipient": null,
+      "location": "olympus",
+      "result": "So Mercury returned alone to Olympus, and Jupiter was obliged to think of some other device for luring Vulcan from his forge.",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "sourceSentence": "This time he sent Bacchus, god of wine; and when the scowling deity of Etna saw Bacchus's jolly red face and heard his hearty laugh, he welcomed the jovial visitor and drank freely of the wine that Bacchus poured.",
+      "sourceClause": "This time he sent Bacchus, god of wine; and when the scowling deity of Etna saw Bacchus's jolly red face and heard his hearty laugh, he welcomed the jovial visitor and drank freely of the wine that Bacchus poured.",
+      "actor": null,
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": "bacchus",
+      "recipient": null,
+      "location": null,
+      "result": "This time he sent Bacchus, god of wine; and when the scowling deity of Etna saw Bacchus's jolly red face and heard his hearty laugh, he welcomed the jovial visitor and drank",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "sourceSentence": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought, until the sullen master of the forge was unable to tell what was happening, and allowed himself to be led unresistingly to Olympus.",
+      "sourceClause": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought, until the sullen master of the forge was unable to tell what was happening, and allowed himself to be led unresistingly to Olympus.",
+      "actor": null,
+      "action": "love",
+      "sourceAction": "loved",
+      "object": null,
+      "target": "hephaestus",
+      "recipient": null,
+      "location": "olympus",
+      "result": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "bacchus",
+      "predicate": "outcome",
+      "object": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought",
+      "evidence": [
+        "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in",
+      "Full of wrath at this defiance of his wishes, Jupiter kicked his son out of heaven; and as the distance of the fall was so great, it was a whole day and night before Vulcan",
+      "Vulcan did not forget about his mother's heartless indifference; but none of the gods suspected him of harboring any revenge, until one day a beautiful golden throne arrived in",
+      "So in a moment proud Juno found herself securely caught, and no assistance that the gods could render her was of the least avail.",
+      "Then Jupiter sent Mercury to the grimy abode of Vulcan to beg politely that the god of fire would honor, with his presence, the feast that was that day to be held in Olympus; but",
+      "So Mercury returned alone to Olympus, and Jupiter was obliged to think of some other device for luring Vulcan from his forge."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-81b8cd6b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0103-a6178c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "III",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+        "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 181,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 8,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

@@ -1,21 +1,23 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 111,
+    "score": 95,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 3,
-      "meaningfulEvents": 4,
-      "actorEvents": 2,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
@@ -23,12 +25,14 @@
   },
   "items": [
     {
-      "reviewId": "review-442c6c89",
+      "reviewId": "review-d41a426b",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0121-89da3c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Thus dreadfully adorned with horror bright",
       "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

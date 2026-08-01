@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-bacchus",
+      "normalizedId": "bacchus",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,35 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Athamas",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athamas",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ino",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ino",
       "normalizationStatus": "approved"
     }
   ],
@@ -66,40 +94,6 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-bacchus",
-      "sourceAction": "escaped",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:45489:121.121.3-121.121.3:1ec25be6"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": "roman-jupiter",
-      "sourceAction": "rescued",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:45489:121.121.4-121.121.4:ba6fa796"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
-    },
-    {
       "actorSourceName": null,
       "sourceAction": "escaped",
       "objectSourceName": null,
@@ -110,6 +104,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:45489:121.121.3-121.121.3:1ec25be6"
+        },
+        {
           "passageId": "gutenberg:ebooks:45489:121.121.4-121.121.4:ba6fa796"
         }
       ],
@@ -119,7 +116,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "opening_situation",
       "object": "The illustrous god, descending from his height, Came rushing on her in a storm of light.\"",
       "evidence": [
@@ -129,9 +126,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "outcome",
-      "object": "He did succeed in slaying Learchus, but Ino and her other son, Melicertes, escaped from his murderous fury, and afterwards became deities of the ocean.[56]",
+      "object": "The only person who escaped uninjured was the infant son of Jupiter and Semele, the golden-haired Bacchus.",
       "evidence": [
         "gutenberg:ebooks:45489:121.121.4-121.121.4:ba6fa796"
       ]
@@ -141,12 +138,14 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-442c6c89",
+      "reviewId": "review-d41a426b",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0121-89da3c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Thus dreadfully adorned with horror bright",
       "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

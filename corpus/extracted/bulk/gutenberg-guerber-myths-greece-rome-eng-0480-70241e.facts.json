@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": "ulysses",
       "sourceAction": "slain",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -46,13 +46,16 @@
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:480.480.1-480.480.1:252d5c9f"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:480.480.2-480.480.2:79f03266"
         }
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -86,7 +89,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "knew",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -107,7 +110,7 @@
     {
       "subject": "achilles",
       "predicate": "opening_situation",
-      "object": "Ulysses has returned; thy lord is here, Though late, and he has slain the arrogant crew Of suitors, who disgraced his house, and made His wealth a spoil, and dared insult his.",
+      "object": "Ulysses has returned; thy lord is here, Though late, and he has slain the arrogant crew Of suitors, who disgraced his house, and made His wealth a spoil, and dared insult his son.",
       "evidence": [
         "gutenberg:ebooks:39250:480.480.1-480.480.1:252d5c9f"
       ]
@@ -127,12 +130,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-71661cbf",
+      "reviewId": "review-a1afd803",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0480-70241e",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "With thine own eyes what thou hast pined for long.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

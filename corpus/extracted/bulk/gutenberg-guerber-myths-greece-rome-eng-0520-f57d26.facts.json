@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-bacchus",
+      "normalizedId": "bacchus",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-cupid",
+      "normalizedId": "cupid",
       "normalizationStatus": "approved"
     },
     {
@@ -83,7 +83,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-diana",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     }
   ],
@@ -108,7 +108,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-diana",
+      "actorSourceName": null,
       "sourceAction": "loved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -210,7 +210,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "circe",
+      "actorSourceName": null,
       "sourceAction": "escaped",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -251,12 +251,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-b406552b",
+      "reviewId": "review-5db8001d",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0520-f57d26",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "City in Greece visited by Ceres during her search for",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

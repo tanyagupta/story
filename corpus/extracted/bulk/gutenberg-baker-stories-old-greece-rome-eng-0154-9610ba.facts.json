@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-bacchus",
+      "normalizedId": "bacchus",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-hercules",
+      "normalizedId": "heracles",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -83,7 +83,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     }
   ],
@@ -108,7 +108,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "jason",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -125,7 +125,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
+      "actorSourceName": "chiron",
       "sourceAction": "reached",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -159,7 +159,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "jason",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -193,7 +193,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "jason",
+      "actorSourceName": null,
       "sourceAction": "turned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -229,9 +229,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "opening_situation",
-      "object": "The king's reign did not last long, however, for his wicked brother Pelias collected a band of armed warriors and made war upon Æson, who, after a feeble resistance, surrendered.",
+      "object": "The king's reign did not last long, however, for his wicked brother Pelias collected a band of armed warriors and made war upon Æson, who, after a feeble resistance, surrendered",
       "evidence": [
         "gutenberg:ebooks:45489:154.154.1-154.154.1:52478b65"
       ]
@@ -239,7 +239,7 @@
   ],
   "finalState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "outcome",
       "object": "Jason spoke gently to her, and offered to carry her across the river.",
       "evidence": [
@@ -251,10 +251,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-d6a30711",
+      "reviewId": "review-3fc99110",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0154-9610ba",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Part I",
       "suggestions": [
         "weak-or-literary-title"

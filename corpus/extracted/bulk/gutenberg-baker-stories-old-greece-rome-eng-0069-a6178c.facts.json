@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -52,7 +52,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "commanded",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -69,7 +69,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -86,7 +86,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "punished",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -120,7 +120,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "midas",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -165,6 +165,9 @@
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:45489:69.69.5-69.69.5:c5e897e2"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:69.69.6-69.69.6:152a8407"
         }
       ],
       "confidence": 0.7,
@@ -175,7 +178,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "Beside the king stood Pan, his favorite flute-player, who was no other than the famous sylvan god of shepherds; and as the wine went round and the king grew boastful of his.",
+      "object": "Beside the king stood Pan, his favorite flute-player, who was no other than the famous sylvan god of shepherds; and as the wine went round and the king grew boastful of his",
       "evidence": [
         "gutenberg:ebooks:45489:69.69.1-69.69.1:b4fd49c6"
       ]
@@ -185,7 +188,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "He went out into the fields, dug a deep hole, and putting his head down as far as he could he shouted:--",
+      "object": "He went out into the fields, dug a deep hole, and putting his head down as far as he could he shouted:-- \"King Midas has ass's ears, King Midas has ass's ears.\"",
       "evidence": [
         "gutenberg:ebooks:45489:69.69.8-69.69.8:2f4ab7a3"
       ]
@@ -195,12 +198,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-9c0bfb06",
+      "reviewId": "review-763e2462",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0069-a6178c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "III",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

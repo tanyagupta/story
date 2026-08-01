@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-hercules",
+      "normalizedId": "heracles",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -83,7 +83,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     }
   ],
@@ -91,7 +91,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "jason",
+      "actorSourceName": null,
       "sourceAction": "found",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -101,6 +101,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:395.395.3-395.395.3:22a496a3"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:395.395.4-395.395.4:7fcc7593"
         }
       ],
@@ -108,7 +111,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "completed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -125,7 +128,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "forbade",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -159,7 +162,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": "heracles",
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -210,7 +213,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
+      "actorSourceName": "argonauts",
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -219,6 +222,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.12-395.395.12:5e3fd7cf"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf"
         }
@@ -231,7 +237,7 @@
     {
       "subject": "cadmus",
       "predicate": "opening_situation",
-      "object": "Jason, having finished his figurehead, found that it too had the gift of speech, and that it would occasionally vouchsafe sage counsel in the direction of his affairs.",
+      "object": "[Sidenote: The Argo and crew.] Jason, having finished his figurehead, found that it too had the gift of speech, and that it would occasionally vouchsafe sage counsel in the",
       "evidence": [
         "gutenberg:ebooks:39250:395.395.1-395.395.1:84ee2aaf"
       ]
@@ -241,7 +247,7 @@
     {
       "subject": "cadmus",
       "predicate": "outcome",
-      "object": "Some time during the course of their journey the Argonauts came to the Symplegades,--floating rocks which continually crashed together, and ground to powder all objects caught.",
+      "object": "[Sidenote: The Symplegades.] Some time during the course of their journey the Argonauts came to the Symplegades,--floating rocks which continually crashed together, and ground to",
       "evidence": [
         "gutenberg:ebooks:39250:395.395.27-395.395.27:00e24090"
       ]
@@ -251,10 +257,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-472d5d9e",
+      "reviewId": "review-39b15296",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0395-77a155",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Orphic Argonautics.",
       "suggestions": [
         "weak-or-literary-title"

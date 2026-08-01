@@ -16,7 +16,27 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:30.30.2-30.30.2:c7b7ef27"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:30.30.3-30.30.3:9181238f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "sprang",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:30.30.4-30.30.4:2b7bac5b"
         }
       ],
       "confidence": 0.7,
@@ -118,22 +138,8 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:30.30.17-30.30.17:fad9794f"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "created",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
+          "passageId": "gutenberg:ebooks:39250:30.30.16-30.30.16:43858a6f"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:30.30.17-30.30.17:fad9794f"
         }
@@ -146,7 +152,7 @@
     {
       "subject": null,
       "predicate": "opening_situation",
-      "object": "Among all the nations scattered over the face of the earth, the Hebrews alone were instructed by God, who gave them not only a full account of the creation of the world and of.",
+      "object": "[Sidenote: Myths of creation.] Among all the nations scattered over the face of the earth, the Hebrews alone were instructed by God, who gave them not only a full account of the",
       "evidence": [
         "gutenberg:ebooks:39250:30.30.1-30.30.1:5cb71c13"
       ]
@@ -156,7 +162,7 @@
     {
       "subject": null,
       "predicate": "outcome",
-      "object": "By their combined efforts, Pontus (the Sea) and Gæa (Ge, Tellus, Terra), as the Earth was first called, were created.",
+      "object": "[Sidenote: Creation of Gæa and Uranus.] Space, illumined for the first time by their radiance, revealed itself in all its uncouthness.",
       "evidence": [
         "gutenberg:ebooks:39250:30.30.18-30.30.18:c6c8acd7"
       ]
@@ -166,10 +172,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-1d40171e",
+      "reviewId": "review-193386ea",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0030-2e1004",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "THE BEGINNING OF ALL THINGS.",
       "suggestions": [
         "no-mythological-characters",

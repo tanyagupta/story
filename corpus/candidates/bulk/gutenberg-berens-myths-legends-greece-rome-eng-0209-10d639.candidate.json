@@ -11,7 +11,7 @@
     "gutenberg:ebooks:22381:209.209.6-209.209.6:e511f781",
     "gutenberg:ebooks:22381:209.209.7-209.209.7:9f2603f6"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -29,12 +29,12 @@
     "Prometheus",
     "Psyche"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 128,
+    "score": 134,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -46,9 +46,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 3,
-      "meaningfulEvents": 6,
-      "actorEvents": 1,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "meaningfulEvents": 7,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

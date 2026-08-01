@@ -1,0 +1,249 @@
+{
+  "mythId": "bulk-myth-0179",
+  "mythFamilyId": "orpheus-and-eurydice",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-orpheus-and-eurydice-a5a2cd",
+  "title": "Saxe.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf",
+      "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4",
+      "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "eurydice",
+      "orpheus",
+      "hades",
+      "persephone"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Eurydice",
+      "normalizedId": "eurydice",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
+        }
+      ]
+    },
+    {
+      "sourceName": "Orpheus",
+      "normalizedId": "orpheus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pluto",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
+        }
+      ]
+    },
+    {
+      "sourceName": "Proserpina",
+      "normalizedId": "persephone",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond",
+    "openingSituation": "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern",
+    "centralConflict": "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond",
+    "resolution": "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond",
+    "outcome": "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond",
+    "storyline": [
+      "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern",
+      "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf",
+        "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4",
+        "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf",
+      "excerpt": "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern ruler sat in silence, his wife Proserpina beside him, and the",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4",
+      "excerpt": "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond husband's care.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32",
+      "excerpt": "\"Hell consented To hear the Poet's prayer: Stern Proserpine relented,",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "eurydice",
+      "predicate": "opening_situation",
+      "object": "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern",
+      "evidence": [
+        "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern ruler sat in silence, his wife Proserpina beside him, and the relentless Fates at his feet.",
+      "sourceClause": "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern ruler sat in silence, his wife Proserpina beside him, and the relentless Fates at his feet.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "wandered",
+      "object": null,
+      "target": "orpheus",
+      "recipient": null,
+      "location": null,
+      "result": "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond husband's care.",
+      "sourceClause": "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond husband's care.",
+      "actor": "orpheus",
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": "eurydice",
+      "recipient": null,
+      "location": null,
+      "result": "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "eurydice",
+      "predicate": "outcome",
+      "object": "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond",
+      "evidence": [
+        "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern",
+      "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-3b3ffe6a",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0118-cf9d4c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf",
+        "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4",
+        "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 92,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 2,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

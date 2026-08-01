@@ -20,13 +20,15 @@
   "candidateType": "biographical_material",
   "mythFamilyId": "byron",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-byron-26be17",
-  "characters": [],
+  "characters": [
+    "Helle"
+  ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 8,
+    "score": 16,
     "passed": false,
     "reasons": [
       "Pre-extraction gates failed: not-narrative-episode"
@@ -35,7 +37,7 @@
       "not-narrative-episode"
     ],
     "components": {
-      "namedMythologicalEntities": 0,
+      "namedMythologicalEntities": 1,
       "actionBearingSentences": 0,
       "conflictSignals": 0,
       "paragraphCount": 3,

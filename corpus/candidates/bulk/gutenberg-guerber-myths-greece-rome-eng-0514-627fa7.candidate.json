@@ -83,7 +83,7 @@
     "gutenberg:ebooks:39250:514.514.78-514.514.78:287c0e96",
     "gutenberg:ebooks:39250:514.514.79-514.514.79:86fb198f"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -121,14 +121,19 @@
     "Theseus",
     "Ulysses",
     "Venus",
-    "Vulcan"
+    "Vulcan",
+    "Argonauts",
+    "Chiron",
+    "Eleusis",
+    "Phryxus",
+    "Triptolemus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 174,
+    "score": 169,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events",
@@ -140,7 +145,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

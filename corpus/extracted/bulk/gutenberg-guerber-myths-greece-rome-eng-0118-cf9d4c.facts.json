@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-pluto",
+      "normalizedId": "hades",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-proserpina",
+      "normalizedId": "persephone",
       "normalizationStatus": "approved"
     }
   ],
@@ -63,7 +63,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "orpheus",
+      "actorSourceName": null,
       "sourceAction": "wandered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -80,7 +80,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "eurydice",
+      "actorSourceName": "orpheus",
       "sourceAction": "made",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -101,7 +101,7 @@
     {
       "subject": "eurydice",
       "predicate": "opening_situation",
-      "object": "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern.",
+      "object": "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern",
       "evidence": [
         "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
       ]
@@ -111,7 +111,7 @@
     {
       "subject": "eurydice",
       "predicate": "outcome",
-      "object": "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond.",
+      "object": "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond",
       "evidence": [
         "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32"
       ]
@@ -121,13 +121,14 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-5e065ca8",
+      "reviewId": "review-3b3ffe6a",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0118-cf9d4c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Saxe.",
       "suggestions": [
         "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

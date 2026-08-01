@@ -1,6 +1,6 @@
 {
   "reviewType": "semantic-quality",
-  "status": "passed-automatic-gates",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
     "score": 189,
     "passed": true,
@@ -18,5 +18,22 @@
       "knownMythFamily": true
     }
   },
-  "items": []
+  "items": [
+    {
+      "reviewId": "review-84b85af3",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0107-065542",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "The Story of Proserpina",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+        "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+        "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09"
+      ],
+      "status": "open"
+    }
+  ]
 }

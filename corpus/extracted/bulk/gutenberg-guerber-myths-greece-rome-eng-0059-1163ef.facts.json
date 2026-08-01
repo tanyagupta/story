@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "dared",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -54,9 +54,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule.",
+      "object": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
       "evidence": [
         "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db"
       ]
@@ -64,9 +64,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
-      "object": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule.",
+      "object": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
       "evidence": [
         "gutenberg:ebooks:39250:59.59.7-59.59.7:2135b819"
       ]
@@ -76,10 +76,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-815c47e8",
+      "reviewId": "review-f8bcaae9",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0059-1163ef",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "JUPITER.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

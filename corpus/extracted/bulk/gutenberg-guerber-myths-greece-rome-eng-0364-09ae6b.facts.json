@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -29,13 +29,41 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "perseus",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Acrisius",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "acrisius",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Danae",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "danae",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "offered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -52,7 +80,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
+      "actorSourceName": "acrisius",
       "sourceAction": "ordered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -71,9 +99,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most.",
+      "object": "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most",
       "evidence": [
         "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
       ]
@@ -81,9 +109,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
-      "object": "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with.",
+      "object": "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with",
       "evidence": [
         "gutenberg:ebooks:39250:364.364.5-364.364.5:e5348dea"
       ]
@@ -93,10 +121,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-dc302e26",
+      "reviewId": "review-a7f9ec36",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0364-09ae6b",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Shelley.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

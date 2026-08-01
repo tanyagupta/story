@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
@@ -49,7 +49,24 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "hades",
+      "actorSourceName": null,
+      "sourceAction": "drowned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:494.494.7-494.494.7:8a217df5"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
       "sourceAction": "reached",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -58,6 +75,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:494.494.8-494.494.8:619adfb8"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:494.494.9-494.494.9:0c69a281"
         }
@@ -70,7 +90,7 @@
     {
       "subject": "hades",
       "predicate": "opening_situation",
-      "object": "As for the fleet, it reached the Cumæan shore in safety; and Æneas hastened off to the Sibyl's cave, made known his wish to visit Hades, and entreated her to serve as his guide.",
+      "object": "That one was Æneas' pilot, Palinurus, who, falling asleep at the helm, fell overboard and was drowned.",
       "evidence": [
         "gutenberg:ebooks:39250:494.494.1-494.494.1:7445ffcb"
       ]
@@ -80,7 +100,7 @@
     {
       "subject": "hades",
       "predicate": "outcome",
-      "object": "As for the fleet, it reached the Cumæan shore in safety; and Æneas hastened off to the Sibyl's cave, made known his wish to visit Hades, and entreated her to serve as his guide.",
+      "object": "[Sidenote: The Cumæan Sibyl.] As for the fleet, it reached the Cumæan shore in safety; and Æneas hastened off to the Sibyl's cave, made known his wish to visit Hades, and",
       "evidence": [
         "gutenberg:ebooks:39250:494.494.11-494.494.11:2a2698af"
       ]
@@ -90,10 +110,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-1afe2212",
+      "reviewId": "review-7b0fcdca",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0494-0562c4",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "If still thine ancient faithfulness",
       "suggestions": [
         "fewer-than-three-meaningful-events",

@@ -9,7 +9,7 @@
     "gutenberg:ebooks:39250:517.517.4-517.517.4:f05cf97d",
     "gutenberg:ebooks:39250:517.517.5-517.517.5:a4ee6416"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,12 +26,12 @@
     "Mercury",
     "Minerva"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 76,
+    "score": 71,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
@@ -44,7 +44,7 @@
     "components": {
       "namedMythologicalEntities": 2,
       "meaningfulEvents": 2,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

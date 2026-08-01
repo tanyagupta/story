@@ -1,0 +1,264 @@
+{
+  "mythId": "bulk-myth-0154",
+  "mythFamilyId": "napaeae-and-oreades",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-napaeae-and-oreades-cb20d1",
+  "title": "NAPAEAE AND OREADES.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:236.236.1-236.236.1:bdc5125b",
+      "gutenberg:ebooks:22381:236.236.2-236.236.2:c86e464a",
+      "gutenberg:ebooks:22381:236.236.3-236.236.3:735e7e52",
+      "gutenberg:ebooks:22381:236.236.4-236.236.4:dfe45ec4",
+      "gutenberg:ebooks:22381:236.236.5-236.236.5:f5a7b11d"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "echo",
+      "narcissus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Echo",
+      "normalizedId": "echo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:236.236.1-236.236.1:bdc5125b"
+        }
+      ]
+    },
+    {
+      "sourceName": "Narcissus",
+      "normalizedId": "narcissus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:236.236.1-236.236.1:bdc5125b"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Wherever their wild hunt goes the shy Napaeae are represented as hiding behind the leaves, whilst their favourites, the fawns, kneel tremblingly beside them, looking up She became enamoured of a beautiful youth named Narcissus, son of the river-god Cephissus, who, however, failed to return her love, which so grieved her that she gradually pined Narcissus",
+    "openingSituation": "Wherever their wild hunt goes the shy Napaeae are represented as hiding behind the leaves, whilst their favourites, the fawns, kneel tremblingly beside them, looking up",
+    "centralConflict": "Wherever their wild hunt goes the shy Napaeae are represented as hiding behind the leaves, whilst their favourites, the fawns, kneel tremblingly beside them, looking up",
+    "resolution": "Narcissus himself {170} also met with an unhappy fate, for Aphrodite punished him by causing him to fall in love with his own image, which he beheld in a neighbouring fountain",
+    "outcome": "Narcissus himself {170} also met with an unhappy fate, for Aphrodite punished him by causing him to fall in love with his own image, which he beheld in a neighbouring fountain",
+    "storyline": [
+      "Wherever their wild hunt goes the shy Napaeae are represented as hiding behind the leaves, whilst their favourites, the fawns, kneel tremblingly beside them, looking up",
+      "She became enamoured of a beautiful youth named Narcissus, son of the river-god Cephissus, who, however, failed to return her love, which so grieved her that she gradually pined",
+      "Narcissus himself {170} also met with an unhappy fate, for Aphrodite punished him by causing him to fall in love with his own image, which he beheld in a neighbouring fountain"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:236.236.1-236.236.1:bdc5125b",
+        "gutenberg:ebooks:22381:236.236.2-236.236.2:c86e464a",
+        "gutenberg:ebooks:22381:236.236.3-236.236.3:735e7e52"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:236.236.2-236.236.2:c86e464a"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:236.236.2-236.236.2:c86e464a"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:236.236.3-236.236.3:735e7e52"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:236.236.3-236.236.3:735e7e52"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:236.236.1-236.236.1:bdc5125b",
+      "excerpt": "The Napaeae were the kind and gentle nymphs of the valleys and glens who appear in the train of Artemis.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:236.236.2-236.236.2:c86e464a",
+      "excerpt": "The OREADES, or mountain nymphs, who are the principal and constant companions of Artemis, are tall, graceful maidens, attired as huntresses.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:236.236.3-236.236.3:735e7e52",
+      "excerpt": "There is a myth connected with one of these mountain nymphs, the unfortunate Echo.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:236.236.4-236.236.4:dfe45ec4",
+      "excerpt": "The LIMONIADES, or meadow nymphs, resemble the Naiades, and are usually represented dancing hand in hand in a circle.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:236.236.5-236.236.5:f5a7b11d",
+      "excerpt": "The HYADES, who in appearance are somewhat similar to the Oceanides, are cloudy divinities, and, from the fact of their being invariably accompanied by rain, are represented as incessantly weeping.",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "echo",
+      "predicate": "opening_situation",
+      "object": "Wherever their wild hunt goes the shy Napaeae are represented as hiding behind the leaves, whilst their favourites, the fawns, kneel tremblingly beside them, looking up",
+      "evidence": [
+        "gutenberg:ebooks:22381:236.236.1-236.236.1:bdc5125b"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Wherever their wild hunt goes the shy Napaeae are represented as hiding behind the leaves, whilst their favourites, the fawns, kneel tremblingly beside them, looking up beseechingly for protection from the wild huntresses; and even the bold Satyrs dart away at their approach, and seek safety in flight.",
+      "sourceClause": "Wherever their wild hunt goes the shy Napaeae are represented as hiding behind the leaves, whilst their favourites, the fawns, kneel tremblingly beside them, looking up beseechingly for protection from the wild huntresses; and even the bold Satyrs dart away at their approach, and seek safety in flight.",
+      "actor": null,
+      "action": "flee",
+      "sourceAction": "flight",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Wherever their wild hunt goes the shy Napaeae are represented as hiding behind the leaves, whilst their favourites, the fawns, kneel tremblingly beside them, looking up",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:236.236.2-236.236.2:c86e464a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "She became enamoured of a beautiful youth named Narcissus, son of the river-god Cephissus, who, however, failed to return her love, which so grieved her that she gradually pined away, becoming a mere shadow of her former self, till, at length, nothing remained of her except her voice, which henceforth gave back, with unerring fidelity, every sound that was uttered in the hills and dales.",
+      "sourceClause": "She became enamoured of a beautiful youth named Narcissus, son of the river-god Cephissus, who, however, failed to return her love, which so grieved her that she gradually pined away, becoming a mere shadow of her former self, till, at length, nothing remained of her except her voice, which henceforth gave back, with unerring fidelity, every sound that was uttered in the hills and dales.",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": "narcissus",
+      "recipient": null,
+      "location": null,
+      "result": "She became enamoured of a beautiful youth named Narcissus, son of the river-god Cephissus, who, however, failed to return her love, which so grieved her that she gradually pined",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:236.236.3-236.236.3:735e7e52"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Narcissus himself {170} also met with an unhappy fate, for Aphrodite punished him by causing him to fall in love with his own image, which he beheld in a neighbouring fountain, whereupon, consumed with unrequited love, he wasted away, and was changed into the flower which bears his name.",
+      "sourceClause": "Narcissus himself {170} also met with an unhappy fate, for Aphrodite punished him by causing him to fall in love with his own image, which he beheld in a neighbouring fountain, whereupon, consumed with unrequited love, he wasted away, and was changed into the flower which bears his name.",
+      "actor": "narcissus",
+      "action": "transform",
+      "sourceAction": "changed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Narcissus himself {170} also met with an unhappy fate, for Aphrodite punished him by causing him to fall in love with his own image, which he beheld in a neighbouring fountain",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:236.236.3-236.236.3:735e7e52"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "echo",
+      "predicate": "outcome",
+      "object": "Narcissus himself {170} also met with an unhappy fate, for Aphrodite punished him by causing him to fall in love with his own image, which he beheld in a neighbouring fountain",
+      "evidence": [
+        "gutenberg:ebooks:22381:236.236.5-236.236.5:f5a7b11d"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Wherever their wild hunt goes the shy Napaeae are represented as hiding behind the leaves, whilst their favourites, the fawns, kneel tremblingly beside them, looking up",
+      "She became enamoured of a beautiful youth named Narcissus, son of the river-god Cephissus, who, however, failed to return her love, which so grieved her that she gradually pined",
+      "Narcissus himself {170} also met with an unhappy fate, for Aphrodite punished him by causing him to fall in love with his own image, which he beheld in a neighbouring fountain"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-f7c8f33c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0236-a73248",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "NAPAEAE AND OREADES.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:236.236.1-236.236.1:bdc5125b",
+        "gutenberg:ebooks:22381:236.236.2-236.236.2:c86e464a",
+        "gutenberg:ebooks:22381:236.236.3-236.236.3:735e7e52"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 87,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 3,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

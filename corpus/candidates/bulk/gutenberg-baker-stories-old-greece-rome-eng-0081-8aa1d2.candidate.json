@@ -8,7 +8,7 @@
     "gutenberg:ebooks:45489:81.81.3-81.81.3:23b7512a",
     "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,12 +25,12 @@
     "Apollo",
     "Diana"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 109,
+    "score": 104,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events",
@@ -42,7 +42,7 @@
     "components": {
       "namedMythologicalEntities": 2,
       "meaningfulEvents": 5,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

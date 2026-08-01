@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-diana",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     },
     {
@@ -57,13 +57,41 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "pegasus",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Helle",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:506.506.1-506.506.1:89e34445"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "helle",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Nephele",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:506.506.1-506.506.1:89e34445"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "nephele",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
   "goals": [],
   "events": [
     {
-      "actorSourceName": "pegasus",
+      "actorSourceName": null,
       "sourceAction": "made",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -73,6 +101,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:506.506.1-506.506.1:89e34445"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:506.506.2-506.506.2:d4ddb629"
         }
       ],
@@ -80,7 +111,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "slain",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -101,7 +132,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "The cloud myths, to which frequent allusion has already been made, comprise not only the cattle of the sun, the Centaurs, Nephele, Phryxus, Helle, and Pegasus, but as, \"in.",
+      "object": "[Sidenote: Charon.] The cloud myths, to which frequent allusion has already been made, comprise not only the cattle of the sun, the Centaurs, Nephele, Phryxus, Helle, and Pegasus",
       "evidence": [
         "gutenberg:ebooks:39250:506.506.1-506.506.1:89e34445"
       ]
@@ -121,13 +152,14 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-366450f0",
+      "reviewId": "review-0437b253",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0506-348001",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "CLOUD MYTHS.",
       "suggestions": [
-        "fewer-than-three-meaningful-events"
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
       ],
       "evidence": [
         "gutenberg:ebooks:39250:506.506.1-506.506.1:89e34445",

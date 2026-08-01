@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-bacchus",
+      "normalizedId": "bacchus",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-diana",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     },
     {
@@ -176,7 +176,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "turned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -193,7 +193,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "changed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -210,7 +210,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "helen",
+      "actorSourceName": null,
       "sourceAction": "married",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -251,12 +251,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-98b9de20",
+      "reviewId": "review-93b489ec",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0515-23e7a5",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Crete.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

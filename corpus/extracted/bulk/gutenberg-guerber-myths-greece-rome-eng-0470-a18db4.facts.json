@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     }
   ],
@@ -59,6 +59,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:470.470.3-470.470.3:661125c6"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:470.470.4-470.470.4:db0e7696"
         }
       ],
@@ -66,7 +69,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "circe",
+      "actorSourceName": null,
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -76,6 +79,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:470.470.6-470.470.6:ee52f67b"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:470.470.7-470.470.7:a683de00"
         }
       ],
@@ -83,7 +89,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "circe",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -134,7 +140,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "circe",
+      "actorSourceName": null,
       "sourceAction": "concealed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -155,7 +161,7 @@
     {
       "subject": "circe",
       "predicate": "opening_situation",
-      "object": "Sorrowfully now the Greeks embarked; but, instead of being hurried along by favorable winds, they were obliged to row against wind and waves, and only after many days came to the.",
+      "object": "[Sidenote: The Læstrygonians.] Sorrowfully now the Greeks embarked; but, instead of being hurried along by favorable winds, they were obliged to row against wind and waves, and",
       "evidence": [
         "gutenberg:ebooks:39250:470.470.1-470.470.1:cfc094b0"
       ]
@@ -175,12 +181,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-e156a315",
+      "reviewId": "review-f6d6a382",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0470-a18db4",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "That I receive or aid as he departs",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

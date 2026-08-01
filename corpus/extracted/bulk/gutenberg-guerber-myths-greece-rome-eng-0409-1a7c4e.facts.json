@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "wed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -116,6 +116,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:409.409.8-409.409.8:b067cfc0"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:409.409.9-409.409.9:dd916b35"
         }
       ],
@@ -171,7 +174,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "Œdipus then leisurely pursued his way until he came to the gates of Thebes, where he found the whole city in an uproar, \"because the king had been found lifeless by the roadside,.",
+      "object": "Œdipus then leisurely pursued his way until he came to the gates of Thebes, where he found the whole city in an uproar, \"because the king had been found lifeless by the roadside",
       "evidence": [
         "gutenberg:ebooks:39250:409.409.20-409.409.20:0855a6f8"
       ]
@@ -181,10 +184,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-fde7eec7",
+      "reviewId": "review-bbe26d1a",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0409-1a7c4e",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "But dreadful were the mis'ries it denounc'd",
       "suggestions": [
         "fewer-than-two-actor-events",

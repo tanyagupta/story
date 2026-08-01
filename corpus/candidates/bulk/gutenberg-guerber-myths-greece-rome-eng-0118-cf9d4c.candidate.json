@@ -7,7 +7,7 @@
     "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4",
     "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,25 +26,26 @@
     "Pluto",
     "Proserpina"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 97,
+    "score": 92,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: fewer-than-three-meaningful-events, weak-or-literary-title",
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
       "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
       "namedMythologicalEntities": 4,
       "meaningfulEvents": 2,
-      "actorEvents": 2,
+      "actorEvents": 1,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

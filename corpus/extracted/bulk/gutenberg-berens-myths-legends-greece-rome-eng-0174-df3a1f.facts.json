@@ -43,13 +43,27 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "zeus",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ceyx",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:174.174.1-174.174.1:03d2ec00"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ceyx",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
   "goals": [],
   "events": [
     {
-      "actorSourceName": "poseidon",
+      "actorSourceName": null,
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -121,7 +135,7 @@
     {
       "subject": "achilles",
       "predicate": "opening_situation",
-      "object": "Her grace and beauty were so remarkable that Zeus and Poseidon both sought an alliance with her; but, as it had been foretold that a son of hers would gain supremacy over his.",
+      "object": "Her grace and beauty were so remarkable that Zeus and Poseidon both sought an alliance with her; but, as it had been foretold that a son of hers would gain supremacy over his",
       "evidence": [
         "gutenberg:ebooks:22381:174.174.1-174.174.1:03d2ec00"
       ]
@@ -131,7 +145,7 @@
     {
       "subject": "achilles",
       "predicate": "outcome",
-      "object": "The early Greeks, with their extraordinary power of personifying all and every attribute of Nature, gave a distinct personality to those mighty wonders of the deep, which, in all.",
+      "object": "The early Greeks, with their extraordinary power of personifying all and every attribute of Nature, gave a distinct personality to those mighty wonders of the deep, which, in all",
       "evidence": [
         "gutenberg:ebooks:22381:174.174.5-174.174.5:7894f591"
       ]
@@ -141,10 +155,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-da76541e",
+      "reviewId": "review-77cc41c3",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0174-df3a1f",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "THETIS.",
       "suggestions": [
         "fewer-than-two-actor-events",

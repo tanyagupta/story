@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -83,7 +83,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     }
   ],
@@ -91,7 +91,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "io",
+      "actorSourceName": "zeus",
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -108,7 +108,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "io",
+      "actorSourceName": null,
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -125,7 +125,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-mercury",
+      "actorSourceName": "hermes",
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -159,7 +159,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "killed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -176,7 +176,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "changed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -193,7 +193,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "killed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -210,7 +210,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-mercury",
+      "actorSourceName": null,
       "sourceAction": "told",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -251,10 +251,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-d125025b",
+      "reviewId": "review-4a41a013",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0085-e86500",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "To bear him over ocean like the wind",
       "suggestions": [
         "weak-or-literary-title"

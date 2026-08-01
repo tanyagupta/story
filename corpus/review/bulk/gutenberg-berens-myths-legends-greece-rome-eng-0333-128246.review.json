@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "passed-automatic-gates",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 176,
+    "score": 171,
     "passed": true,
     "reasons": [
       "No explicit relationship was extracted from the selected source wording."
@@ -11,12 +11,29 @@
     "components": {
       "namedMythologicalEntities": 5,
       "meaningfulEvents": 8,
-      "actorEvents": 3,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
     }
   },
-  "items": []
+  "items": [
+    {
+      "reviewId": "review-976aa1dc",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0333-128246",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Trojan war.",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+        "gutenberg:ebooks:22381:333.333.2-333.333.2:228872b7",
+        "gutenberg:ebooks:22381:333.333.3-333.333.3:d354b666"
+      ],
+      "status": "open"
+    }
+  ]
 }

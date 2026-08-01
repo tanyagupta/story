@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-diana",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     },
     {
@@ -125,7 +125,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "gave birth",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -142,7 +142,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
+      "actorSourceName": "zeus",
       "sourceAction": "arrived",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -231,7 +231,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "She was gifted with wonderful beauty, and was tenderly loved by Zeus, but her lot was far from being a happy one, for Hera, being extremely jealous of her, persecuted her with.",
+      "object": "She was gifted with wonderful beauty, and was tenderly loved by Zeus, but her lot was far from being a happy one, for Hera, being extremely jealous of her, persecuted her with",
       "evidence": [
         "gutenberg:ebooks:22381:130.130.1-130.130.1:c6b3ba71"
       ]
@@ -251,10 +251,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-5a4e7a47",
+      "reviewId": "review-61625c1d",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0130-0732a0",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Agriculture.",
       "suggestions": [
         "fewer-than-two-actor-events",

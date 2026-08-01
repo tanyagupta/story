@@ -15,7 +15,7 @@
     "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e",
     "gutenberg:ebooks:39250:463.463.11-463.463.11:ef69efa7"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -32,21 +32,24 @@
     "Odysseus",
     "Ulysses"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 147,
-    "passed": true,
+    "score": 137,
+    "passed": false,
     "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
       "No explicit relationship was extracted from the selected source wording."
     ],
-    "failedGates": [],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
     "components": {
       "namedMythologicalEntities": 2,
       "meaningfulEvents": 8,
-      "actorEvents": 2,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

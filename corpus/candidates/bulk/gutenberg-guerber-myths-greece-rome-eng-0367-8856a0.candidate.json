@@ -13,7 +13,7 @@
     "gutenberg:ebooks:39250:367.367.8-367.367.8:aaaeeffc",
     "gutenberg:ebooks:39250:367.367.9-367.367.9:c978525a"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -29,14 +29,16 @@
   "characters": [
     "Medusa",
     "Minerva",
-    "Perseus"
+    "Perseus",
+    "Danae",
+    "Polydectes"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 132,
+    "score": 138,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -46,9 +48,9 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 3,
+      "namedMythologicalEntities": 5,
       "meaningfulEvents": 5,
-      "actorEvents": 4,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

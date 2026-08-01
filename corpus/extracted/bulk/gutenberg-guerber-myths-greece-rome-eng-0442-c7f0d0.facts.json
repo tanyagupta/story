@@ -27,7 +27,21 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Chiron",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:442.442.1-442.442.1:20c7769c"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "chiron",
       "normalizationStatus": "approved"
     }
   ],
@@ -52,7 +66,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -79,6 +93,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:442.442.3-442.442.3:2277a92c"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:442.442.4-442.442.4:b2c0cb4c"
         }
       ],
@@ -103,7 +120,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -154,7 +171,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -175,7 +192,7 @@
     {
       "subject": "achilles",
       "predicate": "opening_situation",
-      "object": "The troops were assembled, the vessels freighted; but before they departed, the chiefs considered it expedient to consult an oracle, to ascertain whether their expedition was.",
+      "object": "The troops were assembled, the vessels freighted; but before they departed, the chiefs considered it expedient to consult an oracle, to ascertain whether their expedition was",
       "evidence": [
         "gutenberg:ebooks:39250:442.442.1-442.442.1:20c7769c"
       ]
@@ -185,7 +202,7 @@
     {
       "subject": "achilles",
       "predicate": "outcome",
-      "object": "One messenger after another was dispatched to summon Achilles to join the fleet at Aulis, but one after another returned without having seen him, or being able to ascertain where.",
+      "object": "One messenger after another was dispatched to summon Achilles to join the fleet at Aulis, but one after another returned without having seen him, or being able to ascertain where",
       "evidence": [
         "gutenberg:ebooks:39250:442.442.12-442.442.12:9b299a39"
       ]
@@ -195,12 +212,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-7c66642b",
+      "reviewId": "review-768edc8d",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0442-c7f0d0",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "At Aulis the assembled army with unanimous consent elected",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

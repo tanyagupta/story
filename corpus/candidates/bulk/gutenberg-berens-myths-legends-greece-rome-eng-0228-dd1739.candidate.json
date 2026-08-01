@@ -24,7 +24,7 @@
     "gutenberg:ebooks:22381:228.228.19-228.228.19:185d4d96",
     "gutenberg:ebooks:22381:228.228.20-228.228.20:7ba9fd69"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -41,14 +41,15 @@
     "Apollo",
     "Atlas",
     "Dionysus",
-    "Zeus"
+    "Zeus",
+    "Arethusa"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 125,
+    "score": 128,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events",
@@ -58,9 +59,9 @@
       "fewer-than-two-actor-events"
     ],
     "components": {
-      "namedMythologicalEntities": 4,
+      "namedMythologicalEntities": 5,
       "meaningfulEvents": 5,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

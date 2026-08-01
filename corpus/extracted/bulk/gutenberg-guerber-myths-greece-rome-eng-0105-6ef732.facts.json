@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -31,6 +31,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:105.105.1-105.105.1:2315da65"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:105.105.2-105.105.2:22543ab4"
         }
       ],
@@ -38,7 +41,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "changed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -59,7 +62,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "A fair young maiden, named Clytie, watched Apollo's daily journey with strange persistency; and from the moment when he left his palace in the morning until he came to the far.",
+      "object": "[Sidenote: Clytie.] A fair young maiden, named Clytie, watched Apollo's daily journey with strange persistency; and from the moment when he left his palace in the morning until he",
       "evidence": [
         "gutenberg:ebooks:39250:105.105.1-105.105.1:2315da65"
       ]
@@ -79,13 +82,14 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-ffe5d002",
+      "reviewId": "review-0ea4187d",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0105-6ef732",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Owen Meredith.",
       "suggestions": [
         "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

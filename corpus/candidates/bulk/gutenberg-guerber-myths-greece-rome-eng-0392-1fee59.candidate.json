@@ -19,7 +19,7 @@
     "gutenberg:ebooks:39250:392.392.14-392.392.14:78a1d9c6",
     "gutenberg:ebooks:39250:392.392.15-392.392.15:d8d4cba3"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -35,21 +35,27 @@
   "characters": [
     "Jason",
     "Juno",
-    "Neptune"
+    "Neptune",
+    "Athamas",
+    "Chiron",
+    "Helle",
+    "Ino",
+    "Nephele",
+    "Phryxus"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 160,
+    "score": 184,
     "passed": true,
     "reasons": [
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [],
     "components": {
-      "namedMythologicalEntities": 3,
+      "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
       "actorEvents": 3,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,

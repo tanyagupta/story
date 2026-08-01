@@ -1,21 +1,20 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 55,
+    "score": 71,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
-      "no-mythological-characters",
       "fewer-than-three-meaningful-events",
       "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 0,
+      "namedMythologicalEntities": 2,
       "meaningfulEvents": 2,
       "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
@@ -26,13 +25,12 @@
   },
   "items": [
     {
-      "reviewId": "review-069a81a9",
+      "reviewId": "review-59ea20d9",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0235-2312ba",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "And gliding and springing",
       "suggestions": [
-        "no-mythological-characters",
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"

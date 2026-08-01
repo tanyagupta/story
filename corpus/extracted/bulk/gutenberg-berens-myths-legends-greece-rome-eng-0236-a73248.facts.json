@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "echo",
       "normalizationStatus": "approved"
     },
@@ -26,7 +26,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "narcissus",
       "normalizationStatus": "approved"
     }
@@ -49,10 +49,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "narcissus",
+      "actorSourceName": null,
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -66,7 +66,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": "narcissus",
@@ -83,14 +83,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "echo",
       "predicate": "opening_situation",
-      "object": "Wherever their wild hunt goes the shy Napaeae are represented as hiding behind the leaves, whilst their favourites, the fawns, kneel tremblingly beside them, looking up.",
+      "object": "Wherever their wild hunt goes the shy Napaeae are represented as hiding behind the leaves, whilst their favourites, the fawns, kneel tremblingly beside them, looking up",
       "evidence": [
         "gutenberg:ebooks:22381:236.236.1-236.236.1:bdc5125b"
       ]
@@ -100,13 +100,30 @@
     {
       "subject": "echo",
       "predicate": "outcome",
-      "object": "Narcissus himself {170} also met with an unhappy fate, for Aphrodite punished him by causing him to fall in love with his own image, which he beheld in a neighbouring fountain,.",
+      "object": "Narcissus himself {170} also met with an unhappy fate, for Aphrodite punished him by causing him to fall in love with his own image, which he beheld in a neighbouring fountain",
       "evidence": [
         "gutenberg:ebooks:22381:236.236.5-236.236.5:f5a7b11d"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-f7c8f33c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0236-a73248",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "NAPAEAE AND OREADES.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:236.236.1-236.236.1:bdc5125b",
+        "gutenberg:ebooks:22381:236.236.2-236.236.2:c86e464a",
+        "gutenberg:ebooks:22381:236.236.3-236.236.3:735e7e52"
+      ],
+      "status": "open"
+    }
+  ]
 }

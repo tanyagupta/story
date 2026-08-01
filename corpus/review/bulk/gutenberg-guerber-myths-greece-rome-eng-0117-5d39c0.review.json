@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 114,
+    "score": 109,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -15,7 +15,7 @@
     "components": {
       "namedMythologicalEntities": 4,
       "meaningfulEvents": 4,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -24,10 +24,10 @@
   },
   "items": [
     {
-      "reviewId": "review-0f394ab2",
+      "reviewId": "review-a48cc5fc",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0117-5d39c0",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Orpheus broken-hearted.",
       "suggestions": [
         "fewer-than-two-actor-events",

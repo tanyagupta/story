@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     },
     {
@@ -83,7 +83,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     }
   ],
@@ -108,7 +108,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -125,7 +125,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -142,7 +142,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "knew",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -176,7 +176,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
       "sourceAction": "gave",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -210,7 +210,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
       "sourceAction": "freed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -231,7 +231,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "Æolus wooed and married the dainty Aurora, goddess of the morning, who bore him his sons, _i.e._ Boreas, the north wind; Notus, the south wind; Eurus, the east wind; and.",
+      "object": "Æolus wooed and married the dainty Aurora, goddess of the morning, who bore him his sons, _i.e.",
       "evidence": [
         "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451"
       ]
@@ -241,7 +241,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "At last, exhausted by his long vigil, Ulysses fell asleep; and the sailors, believing that the bag contained treasure that King Æolus had generously given, untied the string and.",
+      "object": "At last, exhausted by his long vigil, Ulysses fell asleep; and the sailors, believing that the bag contained treasure that King Æolus had generously given, untied the string and",
       "evidence": [
         "gutenberg:ebooks:45489:132.132.11-132.132.11:17a4b9e9"
       ]
@@ -251,12 +251,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-b3969fa4",
+      "reviewId": "review-7727c96a",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0132-f78792",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Illi indignantes magno cum murmure montis",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

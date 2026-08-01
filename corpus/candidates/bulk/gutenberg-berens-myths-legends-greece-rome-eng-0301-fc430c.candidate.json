@@ -7,7 +7,7 @@
     "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009",
     "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,23 +22,30 @@
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-jason-and-argonauts-b417db",
   "characters": [
     "Jason",
-    "Poseidon"
+    "Poseidon",
+    "Argonauts",
+    "Chiron",
+    "Phryxus"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 114,
-    "passed": true,
+    "score": 128,
+    "passed": false,
     "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
-    "failedGates": [],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
     "components": {
-      "namedMythologicalEntities": 2,
+      "namedMythologicalEntities": 5,
       "meaningfulEvents": 5,
-      "actorEvents": 2,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

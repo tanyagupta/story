@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
   ],
@@ -50,23 +50,6 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": "helen",
-      "sourceAction": "bestowed",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:438.438.8-438.438.8:938347f1"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
@@ -83,7 +66,7 @@
     {
       "subject": "helen",
       "predicate": "outcome",
-      "object": "All agreed to this proposal, the oath was taken, and Helen, whose deliberations had come to an end, bestowed her hand upon Menelaus,",
+      "object": "The noblest, bravest, and best came to woo and hoped to win; but all were left in suspense, as the maiden did not show any preference, and refused to make known her choice.",
       "evidence": [
         "gutenberg:ebooks:39250:438.438.8-438.438.8:938347f1"
       ]
@@ -93,10 +76,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-0edda63d",
+      "reviewId": "review-8ee1545f",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0438-2cdd23",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "The baths of cool Eurotas limpid play'd.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

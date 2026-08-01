@@ -31,6 +31,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:488.488.3-488.488.3:6589ba03"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:488.488.4-488.488.4:a2b19bdf"
         }
       ],
@@ -73,6 +76,23 @@
     },
     {
       "actorSourceName": null,
+      "sourceAction": "sprang",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:488.488.8-488.488.8:00f54a75"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
       "sourceAction": "sailed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -93,7 +113,7 @@
     {
       "subject": "cassandra",
       "predicate": "opening_situation",
-      "object": "Although they had escaped from burning Troy and the swords of the Greeks, their trials had only just begun.",
+      "object": "[Sidenote: Arrival in Thrace.] Although they had escaped from burning Troy and the swords of the Greeks, their trials had only just begun.",
       "evidence": [
         "gutenberg:ebooks:39250:488.488.1-488.488.1:81464df4"
       ]
@@ -113,10 +133,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-9d1c178f",
+      "reviewId": "review-fb413212",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0488-c50279",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Troy.",
       "suggestions": [
         "fewer-than-two-actor-events"

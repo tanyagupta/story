@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "bellerophon",
       "normalizationStatus": "approved"
     }
@@ -35,7 +35,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -52,7 +52,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": "bellerophon",
@@ -69,7 +69,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
@@ -93,6 +93,23 @@
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-de78598d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0318-1f97c9",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "BELLEROPHON.",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420",
+        "gutenberg:ebooks:22381:318.318.2-318.318.2:15f887e5",
+        "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -12,7 +12,7 @@
     "gutenberg:ebooks:45489:157.157.7-157.157.7:2fac8908",
     "gutenberg:ebooks:45489:157.157.8-157.157.8:f5d7211b"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -29,14 +29,15 @@
     "Cadmus",
     "Jason",
     "Juno",
-    "Medea"
+    "Medea",
+    "Argonauts"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 183,
+    "score": 171,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -46,9 +47,9 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 4,
+      "namedMythologicalEntities": 5,
       "meaningfulEvents": 8,
-      "actorEvents": 6,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

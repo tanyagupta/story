@@ -43,13 +43,55 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "zeus",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ceyx",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:317.317.1-317.317.1:c5080a61"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ceyx",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Eurystheus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:317.317.1-317.317.1:c5080a61"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "eurystheus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hebe",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:317.317.1-317.317.1:c5080a61"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hebe",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
   "goals": [],
   "events": [
     {
-      "actorSourceName": null,
+      "actorSourceName": "eurystheus",
       "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -189,7 +231,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "When Eurystheus beheld Cerberus he stood aghast, and despairing of ever getting rid of his hated rival, he returned the hell-hound to the hero, who restored him to Aides, and.",
+      "object": "When Eurystheus beheld Cerberus he stood aghast, and despairing of ever getting rid of his hated rival, he returned the hell-hound to the hero, who restored him to Aides, and with",
       "evidence": [
         "gutenberg:ebooks:22381:317.317.1-317.317.1:c5080a61"
       ]
@@ -199,7 +241,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "The priestess, however, refused him a response on the ground of his having murdered Iphitus, whereupon the angry hero seized upon the tripod, which he carried off, declaring that.",
+      "object": "The priestess, however, refused him a response on the ground of his having murdered Iphitus, whereupon the angry hero seized upon the tripod, which he carried off, declaring that",
       "evidence": [
         "gutenberg:ebooks:22381:317.317.22-317.317.22:d6bc4e76"
       ]
@@ -209,10 +251,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-18655495",
+      "reviewId": "review-e13fc230",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0317-46612d",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Argolia.",
       "suggestions": [
         "fewer-than-two-actor-events",

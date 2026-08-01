@@ -1,20 +1,20 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 194,
+    "score": 169,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
-      "weak-or-literary-title"
+      "fewer-than-two-actor-events"
     ],
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 5,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -23,13 +23,13 @@
   },
   "items": [
     {
-      "reviewId": "review-78907ad2",
+      "reviewId": "review-faad4d53",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0138-757c2c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Eurystheus to report his success.",
       "suggestions": [
-        "weak-or-literary-title"
+        "fewer-than-two-actor-events"
       ],
       "evidence": [
         "gutenberg:ebooks:45489:138.138.1-138.138.1:a2002463",

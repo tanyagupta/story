@@ -8,7 +8,7 @@
     "gutenberg:ebooks:45489:186.186.3-186.186.3:b23c4967",
     "gutenberg:ebooks:45489:186.186.4-186.186.4:ab7398dc"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,28 +24,32 @@
   "characters": [
     "Apollo"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 52,
+    "score": 14,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, no-object-target-recipient-location-or-outcome, no-central-conflict-or-change, no-outcome, no-storyline",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
       "fewer-than-three-meaningful-events",
-      "fewer-than-two-actor-events"
+      "fewer-than-two-actor-events",
+      "no-object-target-recipient-location-or-outcome",
+      "no-central-conflict-or-change",
+      "no-outcome",
+      "no-storyline"
     ],
     "components": {
       "namedMythologicalEntities": 1,
-      "meaningfulEvents": 1,
+      "meaningfulEvents": 0,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
-      "hasCentralConflictOrChange": true,
-      "hasOutcome": true,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 0,
+      "hasCentralConflictOrChange": false,
+      "hasOutcome": false,
       "knownMythFamily": true
     }
   }

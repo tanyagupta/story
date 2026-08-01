@@ -12,8 +12,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-jupiter",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -26,7 +26,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "medusa",
       "normalizationStatus": "approved"
     },
@@ -40,8 +40,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-mercury",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
     {
@@ -54,8 +54,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-minerva",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -68,7 +68,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "perseus",
       "normalizationStatus": "approved"
     },
@@ -82,8 +82,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-pluto",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
       "normalizationStatus": "approved"
     }
   ],
@@ -105,7 +105,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -122,10 +122,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "imprisoned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -139,7 +139,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -156,10 +156,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "perseus",
+      "actorSourceName": null,
       "sourceAction": "told",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -173,10 +173,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": "zeus",
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -190,7 +190,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -207,10 +207,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "perseus",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -224,14 +224,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "When the wicked King Danaüs persuaded his daughters to kill their husbands on their wedding night, there was one, Hypermnestra, who refused to slay her lover, and by saving him.",
+      "object": "When the wicked King Danaüs persuaded his daughters to kill their husbands on their wedding night, there was one, Hypermnestra, who refused to slay her lover, and by saving him",
       "evidence": [
         "gutenberg:ebooks:45489:146.146.1-146.146.1:2e29cf8f"
       ]
@@ -239,15 +239,32 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
-      "object": "This ruler received them kindly, and allowed them to live at his court; and here the young Perseus grew up into manhood, learning all the games and sports that belonged to the.",
+      "object": "This ruler received them kindly, and allowed them to live at his court; and here the young Perseus grew up into manhood, learning all the games and sports that belonged to the",
       "evidence": [
         "gutenberg:ebooks:45489:146.146.7-146.146.7:ed2b0f8e"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a1555472",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0146-78eee7",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Perseus",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:146.146.1-146.146.1:2e29cf8f",
+        "gutenberg:ebooks:45489:146.146.2-146.146.2:76765a3c",
+        "gutenberg:ebooks:45489:146.146.3-146.146.3:1f0871ca"
+      ],
+      "status": "open"
+    }
+  ]
 }

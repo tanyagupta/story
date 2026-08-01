@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     }
   ],
@@ -48,6 +48,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:469.469.5-469.469.5:719f3ffc"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:469.469.6-469.469.6:b10376b4"
         }
       ],
@@ -55,7 +58,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
       "sourceAction": "reached",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -89,7 +92,24 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
+      "sourceAction": "sprang",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:469.469.8-469.469.8:645f091b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -108,9 +128,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-ulysses",
+      "subject": "ulysses",
       "predicate": "opening_situation",
-      "object": "With a cry of rage, Polyphemus then ran down to the shore, tore up some huge rocks, which he hurled in the direction whence the taunting voice came, and in his rage almost.",
+      "object": "With a cry of rage, Polyphemus then ran down to the shore, tore up some huge rocks, which he hurled in the direction whence the taunting voice came, and in his rage almost",
       "evidence": [
         "gutenberg:ebooks:39250:469.469.1-469.469.1:b9bc6195"
       ]
@@ -118,9 +138,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-ulysses",
+      "subject": "ulysses",
       "predicate": "outcome",
-      "object": "After untold suffering, the Greeks landed again upon the Æolian Isle, and Ulysses sought the king, to beseech his aid once more; but this time the god received him coldly, and.",
+      "object": "After untold suffering, the Greeks landed again upon the Æolian Isle, and Ulysses sought the king, to beseech his aid once more; but this time the god received him coldly, and",
       "evidence": [
         "gutenberg:ebooks:39250:469.469.10-469.469.10:fd7e1954"
       ]
@@ -130,12 +150,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-e647bd91",
+      "reviewId": "review-1c2a9ebb",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0469-69a8b4",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Amply have thy own guilty deeds returned",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

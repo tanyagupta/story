@@ -1,21 +1,22 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 106,
+    "score": 107,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
       "namedMythologicalEntities": 1,
-      "meaningfulEvents": 5,
-      "actorEvents": 2,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "meaningfulEvents": 6,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
@@ -23,12 +24,13 @@
   },
   "items": [
     {
-      "reviewId": "review-e647bd91",
+      "reviewId": "review-1c2a9ebb",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0469-69a8b4",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Amply have thy own guilty deeds returned",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

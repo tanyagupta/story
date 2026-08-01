@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9",
     "gutenberg:ebooks:39250:109.109.4-109.109.4:b4ccdf4f"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,12 +24,12 @@
   "characters": [
     "Apollo"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 101,
+    "score": 85,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -41,9 +41,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 1,
-      "meaningfulEvents": 5,
-      "actorEvents": 1,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "meaningfulEvents": 4,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

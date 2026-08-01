@@ -9,7 +9,7 @@
     "gutenberg:ebooks:45489:147.147.4-147.147.4:3fe5d2d0",
     "gutenberg:ebooks:45489:147.147.5-147.147.5:1b83ba95"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -28,12 +28,12 @@
     "Minerva",
     "Perseus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 172,
+    "score": 162,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -45,7 +45,7 @@
     "components": {
       "namedMythologicalEntities": 4,
       "meaningfulEvents": 7,
-      "actorEvents": 6,
+      "actorEvents": 4,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

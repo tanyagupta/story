@@ -14,7 +14,7 @@
     "gutenberg:ebooks:45489:154.154.9-154.154.9:f8a9cb1d",
     "gutenberg:ebooks:45489:154.154.10-154.154.10:d40c1f1f"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -35,14 +35,21 @@
     "Jupiter",
     "Neptune",
     "Orpheus",
-    "Theseus"
+    "Theseus",
+    "Argonauts",
+    "Athamas",
+    "Chiron",
+    "Helle",
+    "Ino",
+    "Nephele",
+    "Phryxus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 194,
+    "score": 184,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -54,7 +61,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 5,
+      "actorEvents": 3,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

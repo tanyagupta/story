@@ -13,7 +13,21 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Triptolemus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "triptolemus",
       "normalizationStatus": "approved"
     }
   ],
@@ -21,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "ceres",
+      "actorSourceName": "demeter",
       "sourceAction": "arrived",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -53,28 +67,11 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "stole",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "opening_situation",
       "object": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
       "evidence": [
@@ -84,9 +81,9 @@
   ],
   "finalState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "outcome",
-      "object": "The queen, Metaneira, who had thought it somewhat imprudent to leave the child thus alone with a stranger, now stole noiselessly into the apartment, and with a wild shriek rushed.",
+      "object": "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the",
       "evidence": [
         "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
       ]
@@ -96,13 +93,15 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-cd319c73",
+      "reviewId": "review-cf524a0f",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0295-c631e1",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Triptolemus.",
       "suggestions": [
-        "fewer-than-two-actor-events"
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
       ],
       "evidence": [
         "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",

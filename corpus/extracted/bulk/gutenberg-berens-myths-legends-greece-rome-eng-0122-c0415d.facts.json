@@ -38,7 +38,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "zeus",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -110,7 +110,7 @@
     {
       "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "The Romans, according to their custom of identifying their deities with those of the Greek gods whose attributes were similar to their own, declared Cronus to be identical with.",
+      "object": "The Romans, according to their custom of identifying their deities with those of the Greek gods whose attributes were similar to their own, declared Cronus to be identical with",
       "evidence": [
         "gutenberg:ebooks:22381:122.122.1-122.122.1:107c3eea"
       ]
@@ -120,7 +120,7 @@
     {
       "subject": "zeus",
       "predicate": "outcome",
-      "object": "Having discovered him[6] they gave full vent to their ecstatic delight by indulging in the most violent gesticulations, dancing, shouting, and, at the same time, wounding and.",
+      "object": "Having discovered him[6] they gave full vent to their ecstatic delight by indulging in the most violent gesticulations, dancing, shouting, and, at the same time, wounding and",
       "evidence": [
         "gutenberg:ebooks:22381:122.122.7-122.122.7:b49f38a0"
       ]
@@ -130,10 +130,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-53b3c5ca",
+      "reviewId": "review-724148cd",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0122-c0415d",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "SATURN.",
       "suggestions": [
         "fewer-than-two-actor-events"

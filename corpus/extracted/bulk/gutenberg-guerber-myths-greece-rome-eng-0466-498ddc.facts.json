@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -54,9 +54,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-neptune",
+      "subject": "poseidon",
       "predicate": "opening_situation",
-      "object": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with.",
+      "object": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with",
       "evidence": [
         "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2"
       ]
@@ -64,9 +64,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-neptune",
+      "subject": "poseidon",
       "predicate": "outcome",
-      "object": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with.",
+      "object": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with",
       "evidence": [
         "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
       ]
@@ -76,10 +76,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-cbbe190b",
+      "reviewId": "review-29499b0a",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0466-498ddc",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "For that one circular eye was broad infix'd",
       "suggestions": [
         "fewer-than-three-meaningful-events",

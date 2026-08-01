@@ -108,7 +108,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "loved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -251,10 +251,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-9fff25ac",
+      "reviewId": "review-bf2647e1",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0514-627fa7",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Brass Age.",
       "suggestions": [
         "fewer-than-two-actor-events"

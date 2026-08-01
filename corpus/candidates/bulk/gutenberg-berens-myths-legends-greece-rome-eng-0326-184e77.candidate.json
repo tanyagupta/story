@@ -13,7 +13,7 @@
     "gutenberg:ebooks:22381:326.326.8-326.326.8:4bad639f",
     "gutenberg:ebooks:22381:326.326.9-326.326.9:42fa648e"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -31,12 +31,12 @@
     "Arion",
     "Cadmus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 150,
+    "score": 145,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -49,7 +49,7 @@
     "components": {
       "namedMythologicalEntities": 3,
       "meaningfulEvents": 8,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

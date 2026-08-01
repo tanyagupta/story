@@ -12,7 +12,7 @@
     "gutenberg:ebooks:45489:98.98.7-98.98.7:5737e4d8",
     "gutenberg:ebooks:45489:98.98.8-98.98.8:e60e5031"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -36,12 +36,12 @@
     "Orpheus",
     "Pluto"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 194,
+    "score": 184,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -53,7 +53,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 5,
+      "actorEvents": 3,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

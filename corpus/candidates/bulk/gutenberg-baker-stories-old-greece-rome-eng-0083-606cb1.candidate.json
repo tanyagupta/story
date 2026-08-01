@@ -6,7 +6,7 @@
     "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65",
     "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,12 +23,12 @@
     "Jupiter",
     "Mercury"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 60,
+    "score": 71,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
@@ -41,9 +41,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 2,
-      "meaningfulEvents": 1,
+      "meaningfulEvents": 2,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

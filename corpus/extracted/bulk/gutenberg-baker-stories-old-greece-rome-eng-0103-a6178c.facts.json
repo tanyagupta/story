@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-bacchus",
+      "normalizedId": "bacchus",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-vulcan",
+      "normalizedId": "hephaestus",
       "normalizationStatus": "approved"
     }
   ],
@@ -77,7 +77,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-vulcan",
+      "actorSourceName": "hephaestus",
       "sourceAction": "knew",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -94,7 +94,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "reached",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -111,7 +111,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": "hephaestus",
       "sourceAction": "arrived",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -128,7 +128,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "caught",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -145,7 +145,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": "zeus",
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -162,7 +162,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": "hermes",
       "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -179,7 +179,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-bacchus",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -196,7 +196,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-vulcan",
+      "actorSourceName": null,
       "sourceAction": "loved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -215,9 +215,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "opening_situation",
-      "object": "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in.",
+      "object": "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in",
       "evidence": [
         "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a"
       ]
@@ -225,9 +225,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-bacchus",
+      "subject": "bacchus",
       "predicate": "outcome",
-      "object": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought,.",
+      "object": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought",
       "evidence": [
         "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
       ]
@@ -237,10 +237,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-b6451f5d",
+      "reviewId": "review-81b8cd6b",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0103-a6178c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "III",
       "suggestions": [
         "weak-or-literary-title"

@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "theseus",
       "normalizationStatus": "approved"
     },
@@ -26,8 +26,64 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Argos",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "argos",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Aristodemus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "aristodemus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Aristomachus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "aristomachus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Atreus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "atreus",
       "normalizationStatus": "approved"
     }
   ],
@@ -49,10 +105,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "theseus",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -66,7 +122,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -83,7 +139,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -100,11 +156,11 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "zeus",
-      "sourceAction": "battle",
+      "actorSourceName": "iolaus",
+      "sourceAction": "receive",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -117,7 +173,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -134,7 +190,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -151,10 +207,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "zeus",
+      "actorSourceName": null,
       "sourceAction": "defeated",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -168,14 +224,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "theseus",
       "predicate": "opening_situation",
-      "object": "After the apotheosis of Heracles, his children were so cruelly persecuted by Eurystheus, that they fled for protection to king Ceyx at Trachin, accompanied by the aged Iolaus,.",
+      "object": "After the apotheosis of Heracles, his children were so cruelly persecuted by Eurystheus, that they fled for protection to king Ceyx at Trachin, accompanied by the aged Iolaus, the",
       "evidence": [
         "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628"
       ]
@@ -185,13 +241,31 @@
     {
       "subject": "theseus",
       "predicate": "outcome",
-      "object": "After gratefully acknowledging the timely aid of the Athenians, Hyllus, accompanied by the faithful Iolaus and his brothers, took leave of king Demophoon, and proceeded to invade.",
+      "object": "After gratefully acknowledging the timely aid of the Athenians, Hyllus, accompanied by the faithful Iolaus and his brothers, took leave of king Demophoon, and proceeded to invade",
       "evidence": [
         "gutenberg:ebooks:22381:331.331.15-331.331.15:fdad853c"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-0303b175",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0331-7efaa5",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THE HERACLIDAE.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628",
+        "gutenberg:ebooks:22381:331.331.2-331.331.2:39926778",
+        "gutenberg:ebooks:22381:331.331.3-331.331.3:245b0c1b"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:386.386.7-386.386.7:9bd84878",
     "gutenberg:ebooks:39250:386.386.8-386.386.8:d13f8931"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -30,12 +30,12 @@
     "Minotaur",
     "Theseus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 137,
+    "score": 122,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -47,7 +47,7 @@
     "components": {
       "namedMythologicalEntities": 3,
       "meaningfulEvents": 5,
-      "actorEvents": 5,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

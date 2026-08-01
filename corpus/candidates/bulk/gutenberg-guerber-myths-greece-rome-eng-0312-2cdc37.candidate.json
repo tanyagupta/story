@@ -15,7 +15,7 @@
     "gutenberg:ebooks:39250:312.312.10-312.312.10:709ad748",
     "gutenberg:ebooks:39250:312.312.11-312.312.11:1d47191a"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -30,14 +30,16 @@
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-then-with-thick-shades-are-lofty-mountains-crownd-135f5c",
   "characters": [
     "Ceres",
-    "Neptune"
+    "Neptune",
+    "Eleusis",
+    "Triptolemus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 167,
+    "score": 168,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -47,9 +49,9 @@
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 2,
+      "namedMythologicalEntities": 4,
       "meaningfulEvents": 8,
-      "actorEvents": 6,
+      "actorEvents": 3,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "medusa",
       "normalizationStatus": "approved"
     },
@@ -26,7 +26,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "pegasus",
       "normalizationStatus": "approved"
     },
@@ -40,7 +40,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "perseus",
       "normalizationStatus": "approved"
     },
@@ -54,7 +54,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     }
@@ -90,7 +90,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -107,10 +107,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "poseidon",
+      "actorSourceName": null,
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -124,7 +124,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -141,7 +141,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -158,7 +158,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": "medusa",
@@ -175,7 +175,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -192,10 +192,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "perseus",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -209,14 +209,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "medusa",
       "predicate": "opening_situation",
-      "object": "They were frightful winged monsters, whose bodies were covered with scales; hissing, wriggling snakes clustered round their heads instead of hair; their hands were of brass;.",
+      "object": "They were frightful winged monsters, whose bodies were covered with scales; hissing, wriggling snakes clustered round their heads instead of hair; their hands were of brass; their",
       "evidence": [
         "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5"
       ]
@@ -226,13 +226,30 @@
     {
       "subject": "medusa",
       "predicate": "outcome",
-      "object": "With the curse of Athene upon her, she turned into stone whomsoever she gazed upon, till at last, after a life of nameless misery, deliverance came to her in the shape of death,.",
+      "object": "With the curse of Athene upon her, she turned into stone whomsoever she gazed upon, till at last, after a life of nameless misery, deliverance came to her in the shape of death",
       "evidence": [
         "gutenberg:ebooks:22381:202.202.7-202.202.7:391ec434"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-18bd3851",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0202-06fa20",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THE GORGONS.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5",
+        "gutenberg:ebooks:22381:202.202.2-202.202.2:10c71e57",
+        "gutenberg:ebooks:22381:202.202.3-202.202.3:7bb6f099"
+      ],
+      "status": "open"
+    }
+  ]
 }

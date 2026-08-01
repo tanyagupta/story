@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 85,
+    "score": 96,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events",
@@ -13,9 +13,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 1,
-      "meaningfulEvents": 4,
+      "meaningfulEvents": 5,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
@@ -23,10 +23,10 @@
   },
   "items": [
     {
-      "reviewId": "review-9d1c178f",
+      "reviewId": "review-fb413212",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0488-c50279",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Troy.",
       "suggestions": [
         "fewer-than-two-actor-events"

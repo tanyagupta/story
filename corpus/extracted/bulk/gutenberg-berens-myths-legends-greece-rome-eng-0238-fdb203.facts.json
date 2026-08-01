@@ -15,6 +15,20 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "zeus",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Argonauts",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:238.238.1-238.238.1:d32afc6e"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
@@ -110,7 +124,7 @@
     {
       "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "According to the oldest accounts, AEolus was a king of the AEolian Islands, to whom Zeus gave the command of the winds, which he kept shut up in a deep cave, and which he freed.",
+      "object": "According to the oldest accounts, AEolus was a king of the AEolian Islands, to whom Zeus gave the command of the winds, which he kept shut up in a deep cave, and which he freed at",
       "evidence": [
         "gutenberg:ebooks:22381:238.238.1-238.238.1:d32afc6e"
       ]
@@ -130,10 +144,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-9462b5b6",
+      "reviewId": "review-30dbe555",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0238-fdb203",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "THE WINDS.",
       "suggestions": [
         "fewer-than-two-actor-events"

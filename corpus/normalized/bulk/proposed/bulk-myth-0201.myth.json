@@ -1,0 +1,234 @@
+{
+  "mythId": "bulk-myth-0201",
+  "mythFamilyId": "jupiter",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-jupiter-fac532",
+  "title": "JUPITER.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db",
+      "gutenberg:ebooks:39250:59.59.2-59.59.2:410abc5e",
+      "gutenberg:ebooks:39250:59.59.3-59.59.3:7a92b8b8",
+      "gutenberg:ebooks:39250:59.59.4-59.59.4:dfb07710",
+      "gutenberg:ebooks:39250:59.59.5-59.59.5:e37647db",
+      "gutenberg:ebooks:39250:59.59.6-59.59.6:65a6b224",
+      "gutenberg:ebooks:39250:59.59.7-59.59.7:2135b819"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "zeus",
+      "zeus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db"
+        }
+      ]
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
+    "openingSituation": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
+    "centralConflict": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
+    "resolution": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
+    "outcome": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
+    "storyline": [
+      "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db",
+        "gutenberg:ebooks:39250:59.59.2-59.59.2:410abc5e",
+        "gutenberg:ebooks:39250:59.59.3-59.59.3:7a92b8b8"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:59.59.6-59.59.6:65a6b224"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:59.59.6-59.59.6:65a6b224"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:59.59.6-59.59.6:65a6b224"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:59.59.6-59.59.6:65a6b224"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db",
+      "excerpt": "[Sidenote: Jupiter's titles.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:59.59.2-59.59.2:410abc5e",
+      "excerpt": "Jupiter, Jove, or Zeus, king of the gods, supreme ruler of the universe, the special deity of mankind, the personification of the sky and of all the phenomena of the air, and the guardian of political order and peace, was the most",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:59.59.3-59.59.3:7a92b8b8",
+      "excerpt": "\"He, whose all-conscious eyes the world behold, The eternal Thunderer sat, enthroned in gold. High heaven the footstool of his feet he makes, And wide beneath him all Olympus shakes.\"",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:59.59.4-59.59.4:dfb07710",
+      "excerpt": "\"He spoke, and awful bends his sable brows, Shakes his ambrosial curls, and gives the nod, The stamp of fate and sanction of the god: High heaven with trembling the dread signal took, And all Olympus to the center shook.\"",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:59.59.5-59.59.5:e37647db",
+      "excerpt": "Homer (Pope's tr.).",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:59.59.6-59.59.6:65a6b224",
+      "excerpt": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule over all.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:59.59.7-59.59.7:2135b819",
+      "excerpt": "In common with all other Greek and Roman divinities, Jupiter, though immortal, was subject to pleasure, pain, grief, and anger, and a prey to all the passions which rule the hearts of men.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
+      "evidence": [
+        "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule over all.",
+      "sourceClause": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule over all.",
+      "actor": null,
+      "action": "challenge",
+      "sourceAction": "dared",
+      "object": null,
+      "target": "zeus",
+      "recipient": null,
+      "location": null,
+      "result": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:59.59.6-59.59.6:65a6b224"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
+      "evidence": [
+        "gutenberg:ebooks:39250:59.59.7-59.59.7:2135b819"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-f8bcaae9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0059-1163ef",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "JUPITER.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db",
+        "gutenberg:ebooks:39250:59.59.2-59.59.2:410abc5e",
+        "gutenberg:ebooks:39250:59.59.3-59.59.3:7a92b8b8"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

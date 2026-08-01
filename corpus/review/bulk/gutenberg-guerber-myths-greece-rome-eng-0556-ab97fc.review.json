@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 119,
+    "score": 114,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -15,7 +15,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 3,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -24,10 +24,10 @@
   },
   "items": [
     {
-      "reviewId": "review-cdd152d0",
+      "reviewId": "review-cf755244",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0556-ab97fc",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Styx.",
       "suggestions": [
         "fewer-than-two-actor-events",

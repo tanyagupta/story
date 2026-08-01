@@ -13,7 +13,7 @@
     "gutenberg:ebooks:39250:486.486.8-486.486.8:6d12b1d1",
     "gutenberg:ebooks:39250:486.486.9-486.486.9:b0710141"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -35,12 +35,12 @@
     "Paris",
     "Venus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 119,
+    "score": 114,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -53,7 +53,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 3,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

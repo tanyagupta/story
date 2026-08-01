@@ -1,0 +1,280 @@
+{
+  "mythId": "bulk-myth-0178",
+  "mythFamilyId": "theories-as-to-the-origin-of-man",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-theories-as-to-the-origin-of-man-101995",
+  "title": "THEORIES AS TO THE ORIGIN OF MAN.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:125.125.1-125.125.1:c53bed65",
+      "gutenberg:ebooks:22381:125.125.2-125.125.2:becda275",
+      "gutenberg:ebooks:22381:125.125.3-125.125.3:c764c45d",
+      "gutenberg:ebooks:22381:125.125.4-125.125.4:c3059d2c",
+      "gutenberg:ebooks:22381:125.125.5-125.125.5:aa1c2333"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "prometheus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Prometheus",
+      "normalizedId": "prometheus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:125.125.1-125.125.1:c53bed65"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "In the course of time these primitive human beings became tamed and civilized by the gods and heroes, who taught them to work in metals, to build houses, and other useful arts of But the human race became in the course of time so degenerate that the gods resolved to destroy all mankind by means of a flood; Deucalion {22} (son of Prometheus) and his wife By",
+    "openingSituation": "In the course of time these primitive human beings became tamed and civilized by the gods and heroes, who taught them to work in metals, to build houses, and other useful arts of",
+    "centralConflict": "But the human race became in the course of time so degenerate that the gods resolved to destroy all mankind by means of a flood; Deucalion {22} (son of Prometheus) and his wife",
+    "resolution": "From those thrown by Deucalion there sprang up men, and from those thrown by Pyrrha, women.",
+    "outcome": "From those thrown by Deucalion there sprang up men, and from those thrown by Pyrrha, women.",
+    "storyline": [
+      "In the course of time these primitive human beings became tamed and civilized by the gods and heroes, who taught them to work in metals, to build houses, and other useful arts of",
+      "But the human race became in the course of time so degenerate that the gods resolved to destroy all mankind by means of a flood; Deucalion {22} (son of Prometheus) and his wife",
+      "By the command of his father, Deucalion built a ship, in which he and his wife took refuge during the deluge, which lasted for nine days.",
+      "From those thrown by Deucalion there sprang up men, and from those thrown by Pyrrha, women."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:125.125.1-125.125.1:c53bed65",
+        "gutenberg:ebooks:22381:125.125.2-125.125.2:becda275",
+        "gutenberg:ebooks:22381:125.125.3-125.125.3:c764c45d"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:125.125.3-125.125.3:c764c45d"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:125.125.3-125.125.3:c764c45d"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:125.125.4-125.125.4:c3059d2c"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:125.125.4-125.125.4:c3059d2c"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:125.125.1-125.125.1:c53bed65",
+      "excerpt": "Just as there were several theories concerning the origin of the world, so there were various accounts of the creation of man.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:125.125.2-125.125.2:becda275",
+      "excerpt": "The first natural belief of the Greek people was that man had sprung from the earth.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:125.125.3-125.125.3:c764c45d",
+      "excerpt": "In the course of time these primitive human beings became tamed and civilized by the gods and heroes, who taught them to work in metals, to build houses, and other useful arts of civilization.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:125.125.4-125.125.4:c3059d2c",
+      "excerpt": "By the command of his father, Deucalion built a ship, in which he and his wife took refuge during the deluge, which lasted for nine days.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:125.125.5-125.125.5:aa1c2333",
+      "excerpt": "After the lapse of time the theory of Autochthony (from _autos_, self, and _chthon_, earth) was laid aside.",
+      "supports": [
+        "event-004"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "prometheus",
+      "predicate": "opening_situation",
+      "object": "In the course of time these primitive human beings became tamed and civilized by the gods and heroes, who taught them to work in metals, to build houses, and other useful arts of",
+      "evidence": [
+        "gutenberg:ebooks:22381:125.125.1-125.125.1:c53bed65"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "In the course of time these primitive human beings became tamed and civilized by the gods and heroes, who taught them to work in metals, to build houses, and other useful arts of civilization.",
+      "sourceClause": "In the course of time these primitive human beings became tamed and civilized by the gods and heroes, who taught them to work in metals, to build houses, and other useful arts of civilization.",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "In the course of time these primitive human beings became tamed and civilized by the gods and heroes, who taught them to work in metals, to build houses, and other useful arts of",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:125.125.3-125.125.3:c764c45d"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "But the human race became in the course of time so degenerate that the gods resolved to destroy all mankind by means of a flood; Deucalion {22} (son of Prometheus) and his wife Pyrrha, being, on account of their piety, the only mortals saved.",
+      "sourceClause": "But the human race became in the course of time so degenerate that the gods resolved to destroy all mankind by means of a flood; Deucalion {22} (son of Prometheus) and his wife Pyrrha, being, on account of their piety, the only mortals saved.",
+      "actor": null,
+      "action": "rescue",
+      "sourceAction": "saved",
+      "object": null,
+      "target": "prometheus",
+      "recipient": null,
+      "location": null,
+      "result": "But the human race became in the course of time so degenerate that the gods resolved to destroy all mankind by means of a flood; Deucalion {22} (son of Prometheus) and his wife",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:125.125.3-125.125.3:c764c45d"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "By the command of his father, Deucalion built a ship, in which he and his wife took refuge during the deluge, which lasted for nine days.",
+      "sourceClause": "By the command of his father, Deucalion built a ship, in which he and his wife took refuge during the deluge, which lasted for nine days.",
+      "actor": null,
+      "action": "found",
+      "sourceAction": "built",
+      "object": "ship",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "By the command of his father, Deucalion built a ship, in which he and his wife took refuge during the deluge, which lasted for nine days.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:125.125.4-125.125.4:c3059d2c"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "From those thrown by Deucalion there sprang up men, and from those thrown by Pyrrha, women.",
+      "sourceClause": "From those thrown by Deucalion there sprang up men, and from those thrown by Pyrrha, women.",
+      "actor": null,
+      "action": "leap",
+      "sourceAction": "sprang",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "From those thrown by Deucalion there sprang up men, and from those thrown by Pyrrha, women.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:125.125.4-125.125.4:c3059d2c"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "prometheus",
+      "predicate": "outcome",
+      "object": "From those thrown by Deucalion there sprang up men, and from those thrown by Pyrrha, women.",
+      "evidence": [
+        "gutenberg:ebooks:22381:125.125.5-125.125.5:aa1c2333"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "In the course of time these primitive human beings became tamed and civilized by the gods and heroes, who taught them to work in metals, to build houses, and other useful arts of",
+      "But the human race became in the course of time so degenerate that the gods resolved to destroy all mankind by means of a flood; Deucalion {22} (son of Prometheus) and his wife",
+      "By the command of his father, Deucalion built a ship, in which he and his wife took refuge during the deluge, which lasted for nine days.",
+      "From those thrown by Deucalion there sprang up men, and from those thrown by Pyrrha, women."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-2c225a41",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0125-dea588",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THEORIES AS TO THE ORIGIN OF MAN.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:125.125.1-125.125.1:c53bed65",
+        "gutenberg:ebooks:22381:125.125.2-125.125.2:becda275",
+        "gutenberg:ebooks:22381:125.125.3-125.125.3:c764c45d"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 85,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 4,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

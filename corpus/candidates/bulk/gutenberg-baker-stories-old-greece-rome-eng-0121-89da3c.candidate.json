@@ -8,7 +8,7 @@
     "gutenberg:ebooks:45489:121.121.3-121.121.3:1ec25be6",
     "gutenberg:ebooks:45489:121.121.4-121.121.4:ba6fa796"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,27 +24,31 @@
   "characters": [
     "Bacchus",
     "Juno",
-    "Jupiter"
+    "Jupiter",
+    "Athamas",
+    "Ino"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 111,
+    "score": 95,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: weak-or-literary-title",
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 3,
-      "meaningfulEvents": 4,
-      "actorEvents": 2,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

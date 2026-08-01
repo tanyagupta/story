@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -83,7 +83,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     }
   ],
@@ -101,6 +101,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:45489:63.63.1-63.63.1:ca73ab65"
+        },
+        {
           "passageId": "gutenberg:ebooks:45489:63.63.2-63.63.2:421949f9"
         }
       ],
@@ -108,7 +111,24 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
+      "sourceAction": "sprang",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:63.63.2-63.63.2:421949f9"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -125,7 +145,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-minerva",
+      "actorSourceName": null,
       "sourceAction": "born",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -135,6 +155,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:45489:63.63.2-63.63.2:421949f9"
+        },
+        {
           "passageId": "gutenberg:ebooks:45489:63.63.3-63.63.3:2c5897dd"
         }
       ],
@@ -142,7 +165,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "bore",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -159,7 +182,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-minerva",
+      "actorSourceName": null,
       "sourceAction": "battle",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -176,7 +199,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-minerva",
+      "actorSourceName": null,
       "sourceAction": "dared",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -208,30 +231,13 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "went",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:45489:63.63.6-63.63.6:f6d87b1b"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "Although the brown-winged spirits of evil were kept busy flying up and down the earth, their mischief-making never reached those immortal ones who dwelt above the cloud-wrapped.",
+      "object": "I Although the brown-winged spirits of evil were kept busy flying up and down the earth, their mischief-making never reached those immortal ones who dwelt above the cloud-wrapped",
       "evidence": [
         "gutenberg:ebooks:45489:63.63.1-63.63.1:ca73ab65"
       ]
@@ -241,7 +247,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "So she cast off her glittering armor and laid aside her long spear, and went down to earth in the disguise of an old woman.",
+      "object": "Now, however, when she learned that a mortal maiden had dared to claim superiority to a goddess, she grew very angry and determined to punish such presumption.",
       "evidence": [
         "gutenberg:ebooks:45489:63.63.13-63.63.13:43c8ad16"
       ]
@@ -251,12 +257,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-81e095b9",
+      "reviewId": "review-c4907651",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0063-e745c9",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Minerva",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

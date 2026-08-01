@@ -80,7 +80,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "midas",
+      "actorSourceName": null,
       "sourceAction": "caught",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -97,7 +97,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "loved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -107,6 +107,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
         }
       ],
@@ -114,7 +117,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "orpheus",
+      "actorSourceName": null,
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -125,23 +128,6 @@
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": "orpheus",
-      "sourceAction": "made",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:112.112.4-112.112.4:f272bbbb"
         }
       ],
       "confidence": 0.7,
@@ -162,7 +148,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "\"Orpheus with his lute made trees, And the mountain-tops, that freeze, Bow themselves when he did sing:",
+      "object": "This being the state of her feelings, she readily consented to their union, and became the proud mother of Orpheus, who inherited his parents' musical and poetical gifts.",
       "evidence": [
         "gutenberg:ebooks:39250:112.112.4-112.112.4:f272bbbb"
       ]
@@ -172,12 +158,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-0ec13479",
+      "reviewId": "review-4fbe983d",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0112-798efa",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Horace.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

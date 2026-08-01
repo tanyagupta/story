@@ -1,0 +1,168 @@
+{
+  "mythId": "bulk-myth-0291",
+  "mythFamilyId": "coronis-through-the-heart",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-coronis-through-the-heart-3a6b93",
+  "title": "Coronis through the heart.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e",
+      "gutenberg:ebooks:39250:88.88.2-88.88.2:176e8b5e"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to",
+    "openingSituation": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to",
+    "centralConflict": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to",
+    "resolution": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to",
+    "outcome": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to",
+    "storyline": [
+      "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e",
+        "gutenberg:ebooks:39250:88.88.2-88.88.2:176e8b5e"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e",
+      "excerpt": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to recall her to life.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:88.88.2-88.88.2:176e8b5e",
+      "excerpt": "\"The god of Physic Had no antidote; alack!",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to",
+      "evidence": [
+        "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to recall her to life.",
+      "sourceClause": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to recall her to life.",
+      "actor": null,
+      "action": "return",
+      "sourceAction": "returned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to",
+      "evidence": [
+        "gutenberg:ebooks:39250:88.88.2-88.88.2:176e8b5e"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-204b13bb",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0088-853965",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Coronis through the heart.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e",
+        "gutenberg:ebooks:39250:88.88.2-88.88.2:176e8b5e"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 44,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

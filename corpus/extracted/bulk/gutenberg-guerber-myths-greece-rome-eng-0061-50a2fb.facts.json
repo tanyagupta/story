@@ -13,7 +13,21 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hebe",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hebe",
       "normalizationStatus": "approved"
     }
   ],
@@ -21,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "journeyed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -40,9 +54,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with.",
+      "object": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
       "evidence": [
         "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359"
       ]
@@ -50,9 +64,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
-      "object": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with.",
+      "object": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
       "evidence": [
         "gutenberg:ebooks:39250:61.61.5-61.61.5:79f03266"
       ]
@@ -62,10 +76,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-d22984ec",
+      "reviewId": "review-afcc0d85",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0061-50a2fb",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "She flies and waxes every hour.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

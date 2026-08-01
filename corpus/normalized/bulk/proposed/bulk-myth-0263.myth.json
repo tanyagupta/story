@@ -1,0 +1,174 @@
+{
+  "mythId": "bulk-myth-0263",
+  "mythFamilyId": "trojan-war",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-08479e",
+  "title": "Wordsworth.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:448.448.1-448.448.1:5b976939",
+      "gutenberg:ebooks:39250:448.448.2-448.448.2:dc78d250",
+      "gutenberg:ebooks:39250:448.448.3-448.448.3:a0586217"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "achilles",
+      "apollo"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Achilles",
+      "normalizedId": "achilles",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:448.448.1-448.448.1:5b976939"
+        }
+      ]
+    },
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:448.448.1-448.448.1:5b976939"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "",
+    "openingSituation": "",
+    "centralConflict": "",
+    "resolution": "",
+    "outcome": "",
+    "storyline": [],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:448.448.1-448.448.1:5b976939",
+        "gutenberg:ebooks:39250:448.448.2-448.448.2:dc78d250",
+        "gutenberg:ebooks:39250:448.448.3-448.448.3:a0586217"
+      ],
+      "openingSituation": [],
+      "centralConflict": [],
+      "resolution": [],
+      "outcome": []
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:448.448.1-448.448.1:5b976939",
+      "excerpt": "Hostilities had now begun, and the war between the conflicting hosts was waged with equal courage and skill.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:448.448.2-448.448.2:dc78d250",
+      "excerpt": "[Sidenote: Chryseis and Briseis.]",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:448.448.3-448.448.3:a0586217",
+      "excerpt": "Among a number of captives taken in a skirmish by the Hellenic troops, were two beautiful maidens, Chryseis, daughter of Chryses, priest of Apollo, and Briseis.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "achilles",
+      "predicate": "opening_situation",
+      "object": "Wordsworth.",
+      "evidence": [
+        "gutenberg:ebooks:39250:448.448.1-448.448.1:5b976939"
+      ]
+    }
+  ],
+  "events": [],
+  "finalState": [
+    {
+      "subject": "achilles",
+      "predicate": "outcome",
+      "object": "Wordsworth.",
+      "evidence": [
+        "gutenberg:ebooks:39250:448.448.3-448.448.3:a0586217"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-d405223b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0448-25f6a7",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:448.448.1-448.448.1:5b976939",
+        "gutenberg:ebooks:39250:448.448.2-448.448.2:dc78d250",
+        "gutenberg:ebooks:39250:448.448.3-448.448.3:a0586217"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 22,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, no-object-target-recipient-location-or-outcome, no-central-conflict-or-change, no-outcome, no-storyline, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "no-object-target-recipient-location-or-outcome",
+      "no-central-conflict-or-change",
+      "no-outcome",
+      "no-storyline",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 0,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 0,
+      "hasCentralConflictOrChange": false,
+      "hasOutcome": false,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

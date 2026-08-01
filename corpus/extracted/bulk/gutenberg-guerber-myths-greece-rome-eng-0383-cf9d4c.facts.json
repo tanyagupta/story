@@ -49,7 +49,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "icarus",
+      "actorSourceName": null,
       "sourceAction": "flight",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -70,7 +70,7 @@
     {
       "subject": "icarus",
       "predicate": "opening_situation",
-      "object": "The heat, which seemed so grateful after his chilly flight, soon softened and melted the wax on his wings; and Icarus, no longer supported by the light feathers, sank down faster.",
+      "object": "The heat, which seemed so grateful after his chilly flight, soon softened and melted the wax on his wings; and Icarus, no longer supported by the light feathers, sank down faster",
       "evidence": [
         "gutenberg:ebooks:39250:383.383.1-383.383.1:850d8552"
       ]
@@ -80,7 +80,7 @@
     {
       "subject": "icarus",
       "predicate": "outcome",
-      "object": "The heat, which seemed so grateful after his chilly flight, soon softened and melted the wax on his wings; and Icarus, no longer supported by the light feathers, sank down faster.",
+      "object": "The heat, which seemed so grateful after his chilly flight, soon softened and melted the wax on his wings; and Icarus, no longer supported by the light feathers, sank down faster",
       "evidence": [
         "gutenberg:ebooks:39250:383.383.6-383.383.6:bc440560"
       ]
@@ -90,10 +90,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-4957547e",
+      "reviewId": "review-67b54ed3",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0383-cf9d4c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Saxe.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

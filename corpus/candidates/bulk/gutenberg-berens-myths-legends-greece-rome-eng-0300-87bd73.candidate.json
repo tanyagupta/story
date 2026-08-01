@@ -10,7 +10,7 @@
     "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f",
     "gutenberg:ebooks:22381:300.300.6-300.300.6:dc9830e7"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,24 +26,29 @@
   "characters": [
     "Daedalus",
     "Icarus",
-    "Minotaur"
+    "Minotaur",
+    "Cocalus",
+    "Minos"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 143,
-    "passed": true,
+    "score": 150,
+    "passed": false,
     "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
       "No explicit relationship was extracted from the selected source wording."
     ],
-    "failedGates": [],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
     "components": {
-      "namedMythologicalEntities": 3,
-      "meaningfulEvents": 6,
-      "actorEvents": 4,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 7,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

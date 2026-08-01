@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -83,7 +83,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-vulcan",
+      "normalizedId": "hephaestus",
       "normalizationStatus": "approved"
     }
   ],
@@ -136,13 +136,16 @@
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:453.453.4-453.453.4:f1ee50ef"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:453.453.5-453.453.5:79f03266"
         }
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "paris",
+      "actorSourceName": null,
       "sourceAction": "flight",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -152,6 +155,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:453.453.6-453.453.6:a3aa6f25"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:453.453.7-453.453.7:1096fb56"
         }
       ],
@@ -159,7 +165,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "flight",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -176,7 +182,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "born",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -210,7 +216,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "flight",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -219,6 +225,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:453.453.12-453.453.12:83c541c9"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:453.453.13-453.453.13:56678618"
         }
@@ -241,7 +250,7 @@
     {
       "subject": "achilles",
       "predicate": "outcome",
-      "object": "Patroclus, Achilles' intimate friend, then hastened to the hero's side to inform him of his comrades' flight, and implore him once more to rescue them from inevitable death.",
+      "object": "[Sidenote: Patroclus dons Achilles' armor.",
       "evidence": [
         "gutenberg:ebooks:39250:453.453.30-453.453.30:3db80569"
       ]
@@ -251,12 +260,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-c895652e",
+      "reviewId": "review-f9335ca9",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0453-290364",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Nor make thy child an orphan nor thy wife",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

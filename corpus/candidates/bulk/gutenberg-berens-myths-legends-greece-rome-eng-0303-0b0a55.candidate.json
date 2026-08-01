@@ -57,7 +57,7 @@
     "gutenberg:ebooks:22381:303.303.52-303.303.52:028cf29c",
     "gutenberg:ebooks:22381:303.303.53-303.303.53:e04568c8"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -80,14 +80,19 @@
     "Perseus",
     "Poseidon",
     "Prometheus",
-    "Zeus"
+    "Zeus",
+    "Aetes",
+    "Argos",
+    "Argonauts",
+    "Cyzicus",
+    "Phryxus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 174,
+    "score": 169,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -100,7 +105,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

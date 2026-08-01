@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -38,7 +38,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "slain",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -127,7 +127,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "In their joy they sent for the priests of Apollo, and bade them foretell the glorious deeds their heir would perform; but all their joy was turned to grief when told that the.",
+      "object": "In their joy they sent for the priests of Apollo, and bade them foretell the glorious deeds their heir would perform; but all their joy was turned to grief when told that the",
       "evidence": [
         "gutenberg:ebooks:39250:407.407.1-407.407.1:3d3c7070"
       ]
@@ -137,7 +137,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "The young prince grew up in total ignorance of the unfortunate circumstances under which he had made his first appearance at court, until one day at a banquet one of his.",
+      "object": "The young prince grew up in total ignorance of the unfortunate circumstances under which he had made his first appearance at court, until one day at a banquet one of his",
       "evidence": [
         "gutenberg:ebooks:39250:407.407.8-407.407.8:27a44c4b"
       ]
@@ -147,12 +147,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-26549bf9",
+      "reviewId": "review-75e30853",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0407-0c1fbd",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "CHAPTER XXIV.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

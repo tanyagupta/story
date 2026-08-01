@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-hercules",
+      "normalizedId": "heracles",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     },
     {
@@ -91,7 +91,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "caught",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -108,7 +108,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "turned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -159,7 +159,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-neptune",
+      "actorSourceName": null,
       "sourceAction": "made",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -176,7 +176,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "caught",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -193,7 +193,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "minotaur",
+      "actorSourceName": null,
       "sourceAction": "pursued",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -229,7 +229,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-hercules",
+      "subject": "heracles",
       "predicate": "opening_situation",
       "object": "These stables had not been cleaned for thirty years; and when Hercules caught one glimpse of the filth within them, he felt that this was too degrading a task for him to undertake.",
       "evidence": [
@@ -239,9 +239,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-hercules",
+      "subject": "heracles",
       "predicate": "outcome",
-      "object": "These splendid creatures the king fed on human flesh; and in order to get a sufficient supply of fresh meat, he decreed that all strangers who came into his kingdom should be.",
+      "object": "These splendid creatures the king fed on human flesh; and in order to get a sufficient supply of fresh meat, he decreed that all strangers who came into his kingdom should be",
       "evidence": [
         "gutenberg:ebooks:45489:138.138.6-138.138.6:d25425da"
       ]
@@ -251,13 +251,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-78907ad2",
+      "reviewId": "review-faad4d53",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0138-757c2c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Eurystheus to report his success.",
       "suggestions": [
-        "weak-or-literary-title"
+        "fewer-than-two-actor-events"
       ],
       "evidence": [
         "gutenberg:ebooks:45489:138.138.1-138.138.1:a2002463",

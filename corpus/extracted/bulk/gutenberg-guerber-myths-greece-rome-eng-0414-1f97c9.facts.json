@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "bellerophon",
       "normalizationStatus": "approved"
     },
@@ -26,8 +26,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-minerva",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -40,8 +40,22 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "pegasus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Argos",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "argos",
       "normalizationStatus": "approved"
     }
   ],
@@ -63,10 +77,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "bellerophon",
+      "actorSourceName": null,
       "sourceAction": "made",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -76,11 +90,14 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:414.414.2-414.414.2:2df4dd68"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -97,7 +114,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -114,10 +131,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "bellerophon",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -131,10 +148,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "bellerophon",
+      "actorSourceName": null,
       "sourceAction": "presented",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -148,7 +165,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -165,7 +182,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -182,14 +199,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "bellerophon",
       "predicate": "opening_situation",
-      "object": "His grief was, of course, intense; and the horror he felt for the place where the catastrophe had occurred, added to his fear lest he should incur judicial punishment for his.",
+      "object": "His grief was, of course, intense; and the horror he felt for the place where the catastrophe had occurred, added to his fear lest he should incur judicial punishment for his",
       "evidence": [
         "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3"
       ]
@@ -199,13 +216,30 @@
     {
       "subject": "bellerophon",
       "predicate": "outcome",
-      "object": "His principal motive in choosing this difficult task was, that, although many brave men had set forth to slay the monster, none had ever returned, for one and all had perished in.",
+      "object": "His principal motive in choosing this difficult task was, that, although many brave men had set forth to slay the monster, none had ever returned, for one and all had perished in",
       "evidence": [
         "gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-0af07125",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0414-1f97c9",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "BELLEROPHON.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3",
+        "gutenberg:ebooks:39250:414.414.2-414.414.2:2df4dd68",
+        "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a"
+      ],
+      "status": "open"
+    }
+  ]
 }

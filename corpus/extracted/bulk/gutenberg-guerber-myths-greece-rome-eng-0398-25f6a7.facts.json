@@ -52,7 +52,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "medea",
+      "actorSourceName": null,
       "sourceAction": "seized",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -69,7 +69,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "jason",
+      "actorSourceName": "medea",
       "sourceAction": "departed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -86,7 +86,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "jason",
+      "actorSourceName": null,
       "sourceAction": "wandered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -96,6 +96,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:398.398.4-398.398.4:7d560317"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:398.398.5-398.398.5:f42acdf9"
         }
       ],
@@ -103,7 +106,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "jason",
+      "actorSourceName": null,
       "sourceAction": "found",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -124,7 +127,7 @@
     {
       "subject": "jason",
       "predicate": "opening_situation",
-      "object": "The sorceress maliciously bade them cut their father's body into small pieces, and boil them in a caldron with certain herbs, declaring that, if the directions were carefully.",
+      "object": "The sorceress maliciously bade them cut their father's body into small pieces, and boil them in a caldron with certain herbs, declaring that, if the directions were carefully",
       "evidence": [
         "gutenberg:ebooks:39250:398.398.1-398.398.1:ca87af89"
       ]
@@ -134,7 +137,7 @@
     {
       "subject": "jason",
       "predicate": "outcome",
-      "object": "The Argonautic expedition is emblematic of the first long maritime voyage undertaken by the Greeks for commercial purposes; while the golden fleece which Jason brought back from.",
+      "object": "The Argonautic expedition is emblematic of the first long maritime voyage undertaken by the Greeks for commercial purposes; while the golden fleece which Jason brought back from",
       "evidence": [
         "gutenberg:ebooks:39250:398.398.6-398.398.6:01ca5dfc"
       ]
@@ -144,12 +147,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-f6e1ca69",
+      "reviewId": "review-fa3f3bc7",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0398-25f6a7",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Wordsworth.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

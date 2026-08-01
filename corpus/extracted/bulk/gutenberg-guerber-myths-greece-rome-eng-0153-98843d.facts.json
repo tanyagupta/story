@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-diana",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-diana",
+      "actorSourceName": null,
       "sourceAction": "loved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -50,30 +50,13 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "came",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:153.153.7-153.153.7:983b7ca9"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "roman-diana",
+      "subject": "artemis",
       "predicate": "opening_situation",
-      "object": "Every evening, as soon as the Sun had finished his course, Diana mounted her moon car, and drove her milk-white steeds across the heavens, watched over and loved by the countless.",
+      "object": "Every evening, as soon as the Sun had finished his course, Diana mounted her moon car, and drove her milk-white steeds across the heavens, watched over and loved by the countless",
       "evidence": [
         "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d"
       ]
@@ -81,9 +64,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-diana",
+      "subject": "artemis",
       "predicate": "outcome",
-      "object": "\"Then, as the full orb poised upon the peak, There came a lovely vision of a maid,",
+      "object": "Every evening, as soon as the Sun had finished his course, Diana mounted her moon car, and drove her milk-white steeds across the heavens, watched over and loved by the countless",
       "evidence": [
         "gutenberg:ebooks:39250:153.153.7-153.153.7:983b7ca9"
       ]
@@ -93,10 +76,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-084142b8",
+      "reviewId": "review-b968f77d",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0153-98843d",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Jupiter was forced to grant her request.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

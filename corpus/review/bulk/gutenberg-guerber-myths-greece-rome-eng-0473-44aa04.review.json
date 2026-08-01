@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 71,
+    "score": 60,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
@@ -15,9 +15,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 2,
-      "meaningfulEvents": 2,
+      "meaningfulEvents": 1,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
@@ -25,10 +25,10 @@
   },
   "items": [
     {
-      "reviewId": "review-bc7b9e56",
+      "reviewId": "review-a15b5040",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0473-44aa04",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "That he has passed by Scylla with a crew",
       "suggestions": [
         "fewer-than-three-meaningful-events",

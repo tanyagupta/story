@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-venus",
+      "actorSourceName": null,
       "sourceAction": "transformed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -62,6 +62,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:402.402.2-402.402.2:e47eba46"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:402.402.3-402.402.3:d3f095c3"
         }
       ],
@@ -73,7 +76,7 @@
     {
       "subject": "atalanta",
       "predicate": "opening_situation",
-      "object": "In his happiness at having won such a peerless bride, Hippomenes forgot to pay the promised thanks to Venus, for which offense he and his wife were severely punished by being.",
+      "object": "In his happiness at having won such a peerless bride, Hippomenes forgot to pay the promised thanks to Venus, for which offense he and his wife were severely punished by being",
       "evidence": [
         "gutenberg:ebooks:39250:402.402.1-402.402.1:dc93807c"
       ]
@@ -83,7 +86,7 @@
     {
       "subject": "atalanta",
       "predicate": "outcome",
-      "object": "The twin brothers Castor and Pollux, the Dioscuri, or Gemini, who had greatly distinguished themselves by their daring in the Calydonian Hunt, were made the deities of boxing,.",
+      "object": "[Sidenote: Castor and Pollux.] The twin brothers Castor and Pollux, the Dioscuri, or Gemini, who had greatly distinguished themselves by their daring in the Calydonian Hunt, were",
       "evidence": [
         "gutenberg:ebooks:39250:402.402.4-402.402.4:8ef82c79"
       ]
@@ -93,10 +96,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-061bb22c",
+      "reviewId": "review-818812bb",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0402-21583c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Moore.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

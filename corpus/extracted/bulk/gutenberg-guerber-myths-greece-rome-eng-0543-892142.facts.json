@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-diana",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     }
   ],
@@ -49,7 +49,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "slain",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -90,10 +90,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-c1366a1c",
+      "reviewId": "review-347ccec3",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0543-892142",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Nightmares.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

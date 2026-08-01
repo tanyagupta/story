@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "prometheus",
+      "actorSourceName": null,
       "sourceAction": "knew",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -88,9 +88,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-minerva",
+      "subject": "athena",
       "predicate": "opening_situation",
-      "object": "Fire alone, in his estimation, could effect this; but fire was the special possession and prerogative of the gods, and Prometheus knew they would never willingly share it with.",
+      "object": "Fire alone, in his estimation, could effect this; but fire was the special possession and prerogative of the gods, and Prometheus knew they would never willingly share it with",
       "evidence": [
         "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
       ]
@@ -98,9 +98,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-minerva",
+      "subject": "athena",
       "predicate": "outcome",
-      "object": "Arrived upon earth once more, he consigned the stolen treasure to the care of man, who immediately adapted it to various purposes, and eloquently expressed his gratitude to the.",
+      "object": "Arrived upon earth once more, he consigned the stolen treasure to the care of man, who immediately adapted it to various purposes, and eloquently expressed his gratitude to the",
       "evidence": [
         "gutenberg:ebooks:39250:48.48.4-48.48.4:ab8b6554"
       ]
@@ -110,10 +110,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-b883db05",
+      "reviewId": "review-53f6bec6",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0048-798efa",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Horace.",
       "suggestions": [
         "fewer-than-two-actor-events",

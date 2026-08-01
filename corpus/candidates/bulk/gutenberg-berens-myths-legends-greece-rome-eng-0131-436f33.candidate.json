@@ -11,7 +11,7 @@
     "gutenberg:ebooks:22381:131.131.6-131.131.6:445fb9e4",
     "gutenberg:ebooks:22381:131.131.7-131.131.7:bb0c455c"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -30,14 +30,16 @@
     "Hermes",
     "Io",
     "Perseus",
-    "Zeus"
+    "Zeus",
+    "Argos",
+    "Danae"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 194,
+    "score": 179,
     "passed": true,
     "reasons": [
       "No explicit relationship was extracted from the selected source wording."
@@ -46,7 +48,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 5,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

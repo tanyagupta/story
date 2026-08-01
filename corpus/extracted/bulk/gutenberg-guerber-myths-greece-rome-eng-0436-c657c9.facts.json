@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
@@ -63,7 +63,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-venus",
+      "actorSourceName": null,
       "sourceAction": "born",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -82,9 +82,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "opening_situation",
-      "object": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening.",
+      "object": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening",
       "evidence": [
         "gutenberg:ebooks:39250:436.436.1-436.436.1:8a4a508d"
       ]
@@ -92,9 +92,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "outcome",
-      "object": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening.",
+      "object": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening",
       "evidence": [
         "gutenberg:ebooks:39250:436.436.5-436.436.5:b1f2036e"
       ]
@@ -104,10 +104,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-83d1ae2a",
+      "reviewId": "review-cebc60dd",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0436-c657c9",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Cowper.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

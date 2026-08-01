@@ -1,0 +1,195 @@
+{
+  "mythId": "bulk-myth-0254",
+  "mythFamilyId": "then-only-he-departed",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-then-only-he-departed-0d6043",
+  "title": "Then only he departed.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0",
+      "gutenberg:ebooks:39250:179.179.2-179.179.2:b14b03ee"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Night came on; darkness stole over the earth; and Leander impatiently paced the sandy shore, and watched for the promised signal, which no sooner appeared, than he exultantly At times the huge billows towered above his head; but when he had escaped their threatening depths, and rose up on their foamy crests, he could catch a glimpse of the torch",
+    "openingSituation": "Night came on; darkness stole over the earth; and Leander impatiently paced the sandy shore, and watched for the promised signal, which no sooner appeared, than he exultantly",
+    "centralConflict": "At times the huge billows towered above his head; but when he had escaped their threatening depths, and rose up on their foamy crests, he could catch a glimpse of the torch",
+    "resolution": "At times the huge billows towered above his head; but when he had escaped their threatening depths, and rose up on their foamy crests, he could catch a glimpse of the torch",
+    "outcome": "At times the huge billows towered above his head; but when he had escaped their threatening depths, and rose up on their foamy crests, he could catch a glimpse of the torch",
+    "storyline": [
+      "Night came on; darkness stole over the earth; and Leander impatiently paced the sandy shore, and watched for the promised signal, which no sooner appeared, than he exultantly",
+      "At times the huge billows towered above his head; but when he had escaped their threatening depths, and rose up on their foamy crests, he could catch a glimpse of the torch"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0",
+        "gutenberg:ebooks:39250:179.179.2-179.179.2:b14b03ee"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0",
+      "excerpt": "Night came on; darkness stole over the earth; and Leander impatiently paced the sandy shore, and watched for the promised signal, which no sooner appeared, than he exultantly plunged into the dark waves, and parted them with lusty strokes",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:179.179.2-179.179.2:b14b03ee",
+      "excerpt": "\"Leander had no fear--he cleft the wave-- What is the peril fond hearts will not brave!\"",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Night came on; darkness stole over the earth; and Leander impatiently paced the sandy shore, and watched for the promised signal, which no sooner appeared, than he exultantly",
+      "evidence": [
+        "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Night came on; darkness stole over the earth; and Leander impatiently paced the sandy shore, and watched for the promised signal, which no sooner appeared, than he exultantly plunged into the dark waves, and parted them with lusty strokes, as he hastened across the deep to join his beloved.",
+      "sourceClause": "Night came on; darkness stole over the earth; and Leander impatiently paced the sandy shore, and watched for the promised signal, which no sooner appeared, than he exultantly plunged into the dark waves, and parted them with lusty strokes, as he hastened across the deep to join his beloved.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Night came on; darkness stole over the earth; and Leander impatiently paced the sandy shore, and watched for the promised signal, which no sooner appeared, than he exultantly",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "At times the huge billows towered above his head; but when he had escaped their threatening depths, and rose up on their foamy crests, he could catch a glimpse of the torch burning brightly, and pictured to himself the shy, sweet blushes which would dye Hero's cheek as he clasped her to his passionate heart.",
+      "sourceClause": "At times the huge billows towered above his head; but when he had escaped their threatening depths, and rose up on their foamy crests, he could catch a glimpse of the torch burning brightly, and pictured to himself the shy, sweet blushes which would dye Hero's cheek as he clasped her to his passionate heart.",
+      "actor": null,
+      "action": "flee",
+      "sourceAction": "escaped",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "At times the huge billows towered above his head; but when he had escaped their threatening depths, and rose up on their foamy crests, he could catch a glimpse of the torch",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "At times the huge billows towered above his head; but when he had escaped their threatening depths, and rose up on their foamy crests, he could catch a glimpse of the torch",
+      "evidence": [
+        "gutenberg:ebooks:39250:179.179.2-179.179.2:b14b03ee"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Night came on; darkness stole over the earth; and Leander impatiently paced the sandy shore, and watched for the promised signal, which no sooner appeared, than he exultantly",
+      "At times the huge billows towered above his head; but when he had escaped their threatening depths, and rose up on their foamy crests, he could catch a glimpse of the torch"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-cec55e89",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0179-f3ff78",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Then only he departed.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0",
+        "gutenberg:ebooks:39250:179.179.2-179.179.2:b14b03ee"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 55,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

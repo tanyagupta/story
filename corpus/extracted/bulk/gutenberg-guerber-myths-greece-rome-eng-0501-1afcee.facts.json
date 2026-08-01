@@ -91,7 +91,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "cadmus",
+      "actorSourceName": null,
       "sourceAction": "born",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -142,7 +142,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "europa",
+      "actorSourceName": null,
       "sourceAction": "slain",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -152,6 +152,15 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:501.501.11-501.501.11:5f1e5b68"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:501.501.12-501.501.12:037898d6"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:501.501.13-501.501.13:84d0d0a1"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:501.501.14-501.501.14:1edcb1d6"
         }
       ],
@@ -159,7 +168,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "eurydice",
+      "actorSourceName": "orpheus",
       "sourceAction": "turned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -174,30 +183,13 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "told",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:501.501.18-501.501.18:b24dca1c"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "The first sun myth mentioned in the course of this work is the story of Europa, in which Europa is \"the broad spreading light,\" born in Phœnicia (the \"purple land of morn\"), the.",
+      "object": "The first sun myth mentioned in the course of this work is the story of Europa, in which Europa is \"the broad spreading light,\" born in Phœnicia (the \"purple land of morn\"), the",
       "evidence": [
         "gutenberg:ebooks:39250:501.501.1-501.501.1:544794d8"
       ]
@@ -207,7 +199,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "We are told that the venturesome young charioteer, by usurping his father's place, causes incalculable mischief, and, in punishment for his mismanagement of the solar steeds (the.",
+      "object": "Orpheus is also sometimes considered as the sun, plunging into an abyss of darkness, in hopes of overtaking the vanishing dawn, Eurydice; and as the light (Eurydice) reappears",
       "evidence": [
         "gutenberg:ebooks:39250:501.501.18-501.501.18:b24dca1c"
       ]
@@ -217,12 +209,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-226bb9c8",
+      "reviewId": "review-92071d13",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0501-1afcee",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "SUN AND DAWN MYTHS.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

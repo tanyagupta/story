@@ -13,7 +13,21 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-proserpina",
+      "normalizedId": "persephone",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ceyx",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:330.330.1-330.330.1:6b70ffd0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ceyx",
       "normalizationStatus": "approved"
     }
   ],
@@ -159,7 +173,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-proserpina",
+      "subject": "persephone",
       "predicate": "opening_situation",
       "object": "With promises that never are made good; But those which pass the doors of polished horn, And are beheld of men, are ever true.\"",
       "evidence": [
@@ -169,9 +183,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-proserpina",
+      "subject": "persephone",
       "predicate": "outcome",
-      "object": "His hollow eyes were fixed upon the sands of time; and when they had run out, he knew some life was about to end, and sallied forth, scythe in hand, to mow down his prey with.",
+      "object": "His hollow eyes were fixed upon the sands of time; and when they had run out, he knew some life was about to end, and sallied forth, scythe in hand, to mow down his prey with",
       "evidence": [
         "gutenberg:ebooks:39250:330.330.14-330.330.14:21bb00dd"
       ]
@@ -181,10 +195,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-57406d63",
+      "reviewId": "review-38e535d5",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0330-42b034",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "That come through the carved ivory deceive",
       "suggestions": [
         "fewer-than-two-actor-events",

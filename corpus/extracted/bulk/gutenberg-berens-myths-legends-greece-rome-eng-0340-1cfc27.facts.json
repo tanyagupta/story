@@ -69,7 +69,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "odysseus",
+      "actorSourceName": null,
       "sourceAction": "discovered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -86,7 +86,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "odysseus",
+      "actorSourceName": null,
       "sourceAction": "revealed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -175,7 +175,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "When next morning the vessel arrived in the harbour of Ithaca the sailors, concluding that so unusually profound a slumber must be sent by the gods, conveyed him on shore without.",
+      "object": "When next morning the vessel arrived in the harbour of Ithaca the sailors, concluding that so unusually profound a slumber must be sent by the gods, conveyed him on shore without",
       "evidence": [
         "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147"
       ]
@@ -185,7 +185,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "It chanced that the following morning Telemachus returned from his long and fruitless search for his father, and going first to the hut of Eumaeus, heard from him the story of.",
+      "object": "It chanced that the following morning Telemachus returned from his long and fruitless search for his father, and going first to the hut of Eumaeus, heard from him the story of the",
       "evidence": [
         "gutenberg:ebooks:22381:340.340.15-340.340.15:83b02322"
       ]
@@ -195,12 +195,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-09cc0419",
+      "reviewId": "review-c05a0dd0",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0340-1cfc27",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Ithaca.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

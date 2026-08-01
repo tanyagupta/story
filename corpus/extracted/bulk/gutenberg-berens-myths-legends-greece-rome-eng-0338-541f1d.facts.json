@@ -43,6 +43,20 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "poseidon",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Argos",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.1-338.338.1:e252c4e0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "argos",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
@@ -100,7 +114,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "cassandra",
+      "actorSourceName": null,
       "sourceAction": "received",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -144,6 +158,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6"
+        },
+        {
           "passageId": "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f"
         }
       ],
@@ -166,30 +183,13 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "sent",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:22381:338.338.7-338.338.7:1fea6d1d"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "cassandra",
       "predicate": "opening_situation",
-      "object": "During the sacking of the city of Troy the Greeks, in the hour of victory, committed many acts of desecration and cruelty, which called down upon them the wrath of the {305}.",
+      "object": "During the sacking of the city of Troy the Greeks, in the hour of victory, committed many acts of desecration and cruelty, which called down upon them the wrath of the {305} gods",
       "evidence": [
         "gutenberg:ebooks:22381:338.338.1-338.338.1:e252c4e0"
       ]
@@ -199,7 +199,7 @@
     {
       "subject": "cassandra",
       "predicate": "outcome",
-      "object": "In order to disarm suspicion he had taken the precaution to despatch a messenger to Clytemnestra, purporting to be sent by king Strophius, to announce to her the untimely death.",
+      "object": "He fled for refuge to his uncle Strophius, king of Phocis, who educated him with his own son Pylades, and an ardent friendship sprung up between the youths, which, from its",
       "evidence": [
         "gutenberg:ebooks:22381:338.338.7-338.338.7:1fea6d1d"
       ]
@@ -209,10 +209,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-4b748848",
+      "reviewId": "review-9996fa7e",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0338-541f1d",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "RETURN OF THE GREEKS FROM TROY.",
       "suggestions": [
         "fewer-than-two-actor-events"

@@ -1,0 +1,395 @@
+{
+  "mythId": "bulk-myth-0104",
+  "mythFamilyId": "trojan-war",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-87c2b0",
+  "title": "King of Sparta.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d",
+      "gutenberg:ebooks:39250:439.439.2-439.439.2:790d0b10",
+      "gutenberg:ebooks:39250:439.439.3-439.439.3:e921ccf5",
+      "gutenberg:ebooks:39250:439.439.4-439.439.4:16417bf5",
+      "gutenberg:ebooks:39250:439.439.5-439.439.5:eef53534",
+      "gutenberg:ebooks:39250:439.439.6-439.439.6:0b913001",
+      "gutenberg:ebooks:39250:439.439.7-439.439.7:c9a4588d",
+      "gutenberg:ebooks:39250:439.439.8-439.439.8:922e20f2"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "helen",
+      "paris",
+      "ulysses",
+      "aphrodite"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Helen",
+      "normalizedId": "helen",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d"
+        }
+      ]
+    },
+    {
+      "sourceName": "Paris",
+      "normalizedId": "paris",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d"
+        }
+      ]
+    },
+    {
+      "sourceName": "Ulysses",
+      "normalizedId": "ulysses",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d"
+        }
+      ]
+    },
+    {
+      "sourceName": "Venus",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "[Sidenote: Abduction of Helen.] On his arrival at Sparta, in Lacedæmonia, Paris was received with graceful hospitality by Menelaus and Helen. He had not sojourned there many days, however, before the king was called away from home, and departed, confiding to his wife the care of entertaining his princely guest. [Sidenote: Preparations for war.",
+    "openingSituation": "[Sidenote: Abduction of Helen.] On his arrival at Sparta, in Lacedæmonia, Paris was received with graceful hospitality by Menelaus and Helen.",
+    "centralConflict": "[Sidenote: Preparations for war.] Menelaus, on his return from Crete, discovered his guest's treachery, and swore never to rest satisfied until he had recovered his truant wife",
+    "resolution": "One day, therefore, when the king was plowing the seashore with an ox and horse harnessed together, and sowing this strange field with salt, Palamedes placed the babe Telemachus",
+    "outcome": "One day, therefore, when the king was plowing the seashore with an ox and horse harnessed together, and sowing this strange field with salt, Palamedes placed the babe Telemachus",
+    "storyline": [
+      "[Sidenote: Abduction of Helen.] On his arrival at Sparta, in Lacedæmonia, Paris was received with graceful hospitality by Menelaus and Helen.",
+      "He had not sojourned there many days, however, before the king was called away from home, and departed, confiding to his wife the care of entertaining his princely guest.",
+      "[Sidenote: Preparations for war.] Menelaus, on his return from Crete, discovered his guest's treachery, and swore never to rest satisfied until he had recovered his truant wife",
+      "Messengers were sent in haste in every direction, to summon Helen's former suitors to keep their oath, and join Menelaus at Aulis with men and weapons.",
+      "All came promptly at his call except Ulysses, King of Ithaca, who, to console himself for Helen's refusal of his suit, had married her cousin, Penelope, and had now no dearer wish",
+      "One day, therefore, when the king was plowing the seashore with an ox and horse harnessed together, and sowing this strange field with salt, Palamedes placed the babe Telemachus"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d",
+        "gutenberg:ebooks:39250:439.439.2-439.439.2:790d0b10",
+        "gutenberg:ebooks:39250:439.439.3-439.439.3:e921ccf5"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d",
+        "gutenberg:ebooks:39250:439.439.2-439.439.2:790d0b10"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:439.439.5-439.439.5:eef53534",
+        "gutenberg:ebooks:39250:439.439.6-439.439.6:0b913001"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:439.439.8-439.439.8:922e20f2"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:439.439.8-439.439.8:922e20f2"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d",
+      "excerpt": "[Sidenote: Abduction of Helen.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:439.439.2-439.439.2:790d0b10",
+      "excerpt": "On his arrival at Sparta, in Lacedæmonia, Paris was received with graceful hospitality by Menelaus and Helen.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:439.439.3-439.439.3:e921ccf5",
+      "excerpt": "\"Then from her husband's stranger-sheltering home He tempted Helen o'er the ocean foam.\"",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:439.439.4-439.439.4:16417bf5",
+      "excerpt": "Coluthus (Elton's tr.).",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:439.439.5-439.439.5:eef53534",
+      "excerpt": "[Sidenote: Preparations for war.]",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:439.439.6-439.439.6:0b913001",
+      "excerpt": "Menelaus, on his return from Crete, discovered his guest's treachery, and swore never to rest satisfied until he had recovered his truant wife, and punished her seducer.",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:439.439.7-439.439.7:c9a4588d",
+      "excerpt": "[Sidenote: Ulysses feigns madness.]",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:439.439.8-439.439.8:922e20f2",
+      "excerpt": "In the presence of the messenger Palamedes, Ulysses feigned insanity, hoping thereby to elude the tedious journey to Troy; but the messenger was not so easily duped, and cleverly determined to ascertain the truth by stratagem.",
+      "supports": [
+        "event-006"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "helen",
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Abduction of Helen.] On his arrival at Sparta, in Lacedæmonia, Paris was received with graceful hospitality by Menelaus and Helen.",
+      "evidence": [
+        "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "[Sidenote: Abduction of Helen.] On his arrival at Sparta, in Lacedæmonia, Paris was received with graceful hospitality by Menelaus and Helen.",
+      "sourceClause": "[Sidenote: Abduction of Helen.] On his arrival at Sparta, in Lacedæmonia, Paris was received with graceful hospitality by Menelaus and Helen.",
+      "actor": null,
+      "action": "receive",
+      "sourceAction": "received",
+      "object": null,
+      "target": "helen",
+      "recipient": null,
+      "location": null,
+      "result": "[Sidenote: Abduction of Helen.] On his arrival at Sparta, in Lacedæmonia, Paris was received with graceful hospitality by Menelaus and Helen.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.2-439.439.2:790d0b10"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "He had not sojourned there many days, however, before the king was called away from home, and departed, confiding to his wife the care of entertaining his princely guest.",
+      "sourceClause": "He had not sojourned there many days, however, before the king was called away from home, and departed, confiding to his wife the care of entertaining his princely guest.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "departed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He had not sojourned there many days, however, before the king was called away from home, and departed, confiding to his wife the care of entertaining his princely guest.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.2-439.439.2:790d0b10"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "[Sidenote: Preparations for war.] Menelaus, on his return from Crete, discovered his guest's treachery, and swore never to rest satisfied until he had recovered his truant wife, and punished her seducer.",
+      "sourceClause": "[Sidenote: Preparations for war.] Menelaus, on his return from Crete, discovered his guest's treachery, and swore never to rest satisfied until he had recovered his truant wife, and punished her seducer.",
+      "actor": null,
+      "action": "punish",
+      "sourceAction": "punished",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "crete",
+      "result": "[Sidenote: Preparations for war.] Menelaus, on his return from Crete, discovered his guest's treachery, and swore never to rest satisfied until he had recovered his truant wife",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.5-439.439.5:eef53534"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.6-439.439.6:0b913001"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "Messengers were sent in haste in every direction, to summon Helen's former suitors to keep their oath, and join Menelaus at Aulis with men and weapons.",
+      "sourceClause": "Messengers were sent in haste in every direction, to summon Helen's former suitors to keep their oath, and join Menelaus at Aulis with men and weapons.",
+      "actor": null,
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": "helen",
+      "recipient": null,
+      "location": null,
+      "result": "Messengers were sent in haste in every direction, to summon Helen's former suitors to keep their oath, and join Menelaus at Aulis with men and weapons.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.6-439.439.6:0b913001"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "sourceSentence": "All came promptly at his call except Ulysses, King of Ithaca, who, to console himself for Helen's refusal of his suit, had married her cousin, Penelope, and had now no dearer wish than to linger by her side and admire his infant son, Telemachus.",
+      "sourceClause": "All came promptly at his call except Ulysses, King of Ithaca, who, to console himself for Helen's refusal of his suit, had married her cousin, Penelope, and had now no dearer wish than to linger by her side and admire his infant son, Telemachus.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": "helen",
+      "recipient": null,
+      "location": null,
+      "result": "All came promptly at his call except Ulysses, King of Ithaca, who, to console himself for Helen's refusal of his suit, had married her cousin, Penelope, and had now no dearer wish",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.6-439.439.6:0b913001"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "sourceSentence": "One day, therefore, when the king was plowing the seashore with an ox and horse harnessed together, and sowing this strange field with salt, Palamedes placed the babe Telemachus in the furrow, directly in front of the plow, and marked how skillfully Ulysses turned his ill-assorted team aside to avoid harming his heir.",
+      "sourceClause": "One day, therefore, when the king was plowing the seashore with an ox and horse harnessed together, and sowing this strange field with salt, Palamedes placed the babe Telemachus in the furrow, directly in front of the plow, and marked how skillfully Ulysses turned his ill-assorted team aside to avoid harming his heir.",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "turned",
+      "object": null,
+      "target": "ulysses",
+      "recipient": null,
+      "location": null,
+      "result": "One day, therefore, when the king was plowing the seashore with an ox and horse harnessed together, and sowing this strange field with salt, Palamedes placed the babe Telemachus",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:439.439.8-439.439.8:922e20f2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "helen",
+      "predicate": "outcome",
+      "object": "One day, therefore, when the king was plowing the seashore with an ox and horse harnessed together, and sowing this strange field with salt, Palamedes placed the babe Telemachus",
+      "evidence": [
+        "gutenberg:ebooks:39250:439.439.8-439.439.8:922e20f2"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "[Sidenote: Abduction of Helen.] On his arrival at Sparta, in Lacedæmonia, Paris was received with graceful hospitality by Menelaus and Helen.",
+      "He had not sojourned there many days, however, before the king was called away from home, and departed, confiding to his wife the care of entertaining his princely guest.",
+      "[Sidenote: Preparations for war.] Menelaus, on his return from Crete, discovered his guest's treachery, and swore never to rest satisfied until he had recovered his truant wife",
+      "Messengers were sent in haste in every direction, to summon Helen's former suitors to keep their oath, and join Menelaus at Aulis with men and weapons.",
+      "All came promptly at his call except Ulysses, King of Ithaca, who, to console himself for Helen's refusal of his suit, had married her cousin, Penelope, and had now no dearer wish",
+      "One day, therefore, when the king was plowing the seashore with an ox and horse harnessed together, and sowing this strange field with salt, Palamedes placed the babe Telemachus"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-ad4bd9d6",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0439-a3f7cd",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "King of Sparta.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d",
+        "gutenberg:ebooks:39250:439.439.2-439.439.2:790d0b10",
+        "gutenberg:ebooks:39250:439.439.3-439.439.3:e921ccf5"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 131,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 6,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

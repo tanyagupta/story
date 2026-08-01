@@ -6,7 +6,7 @@
     "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89",
     "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -20,30 +20,36 @@
   "mythFamilyId": "orphic-hymn",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-orphic-hymn-a311af",
   "characters": [
-    "Ceres"
+    "Ceres",
+    "Celeus",
+    "Triptolemus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 52,
+    "score": 30,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, no-object-target-recipient-location-or-outcome, no-central-conflict-or-change, no-outcome, no-storyline",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
       "fewer-than-three-meaningful-events",
-      "fewer-than-two-actor-events"
+      "fewer-than-two-actor-events",
+      "no-object-target-recipient-location-or-outcome",
+      "no-central-conflict-or-change",
+      "no-outcome",
+      "no-storyline"
     ],
     "components": {
-      "namedMythologicalEntities": 1,
-      "meaningfulEvents": 1,
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 0,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
-      "hasCentralConflictOrChange": true,
-      "hasOutcome": true,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 0,
+      "hasCentralConflictOrChange": false,
+      "hasOutcome": false,
       "knownMythFamily": true
     }
   }

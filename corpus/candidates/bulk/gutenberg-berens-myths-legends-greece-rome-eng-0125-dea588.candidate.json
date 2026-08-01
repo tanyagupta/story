@@ -9,7 +9,7 @@
     "gutenberg:ebooks:22381:125.125.4-125.125.4:c3059d2c",
     "gutenberg:ebooks:22381:125.125.5-125.125.5:aa1c2333"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,12 +25,12 @@
   "characters": [
     "Prometheus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 90,
+    "score": 85,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -43,7 +43,7 @@
     "components": {
       "namedMythologicalEntities": 1,
       "meaningfulEvents": 4,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

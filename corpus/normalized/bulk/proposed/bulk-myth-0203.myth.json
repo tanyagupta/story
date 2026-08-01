@@ -1,0 +1,258 @@
+{
+  "mythId": "bulk-myth-0203",
+  "mythFamilyId": "prometheus",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-prometheus-564943",
+  "title": "Horace.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed",
+      "gutenberg:ebooks:39250:48.48.2-48.48.2:bd007584",
+      "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0",
+      "gutenberg:ebooks:39250:48.48.4-48.48.4:ab8b6554"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "athena",
+      "prometheus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Minerva",
+      "normalizedId": "athena",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
+        }
+      ]
+    },
+    {
+      "sourceName": "Prometheus",
+      "normalizedId": "prometheus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Fire alone, in his estimation, could effect this; but fire was the special possession and prerogative of the gods, and Prometheus knew they would never willingly share it with One dark night, therefore, he set out for Olympus, entered unperceived into the gods' abode, seized a lighted brand, hid it in his bosom, and departed unseen, exulting in the Arrived",
+    "openingSituation": "Fire alone, in his estimation, could effect this; but fire was the special possession and prerogative of the gods, and Prometheus knew they would never willingly share it with",
+    "centralConflict": "One dark night, therefore, he set out for Olympus, entered unperceived into the gods' abode, seized a lighted brand, hid it in his bosom, and departed unseen, exulting in the",
+    "resolution": "Arrived upon earth once more, he consigned the stolen treasure to the care of man, who immediately adapted it to various purposes, and eloquently expressed his gratitude to the",
+    "outcome": "Arrived upon earth once more, he consigned the stolen treasure to the care of man, who immediately adapted it to various purposes, and eloquently expressed his gratitude to the",
+    "storyline": [
+      "Fire alone, in his estimation, could effect this; but fire was the special possession and prerogative of the gods, and Prometheus knew they would never willingly share it with",
+      "One dark night, therefore, he set out for Olympus, entered unperceived into the gods' abode, seized a lighted brand, hid it in his bosom, and departed unseen, exulting in the",
+      "Arrived upon earth once more, he consigned the stolen treasure to the care of man, who immediately adapted it to various purposes, and eloquently expressed his gratitude to the"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed",
+        "gutenberg:ebooks:39250:48.48.2-48.48.2:bd007584",
+        "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:48.48.2-48.48.2:bd007584"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed",
+      "excerpt": "They first molded an image similar in form to the gods; bade Eros breathe into its nostrils the spirit of life, and Minerva (Pallas) endow it with a soul; whereupon man lived, and moved, and viewed his new domain.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:48.48.2-48.48.2:bd007584",
+      "excerpt": "Justly proud of his handiwork, Prometheus observed man, and longed to bestow upon him some great power, unshared by any other creature of mortal birth, which would raise him far above all other living beings, and bring him nearer to the",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0",
+      "excerpt": "One dark night, therefore, he set out for Olympus, entered unperceived into the gods' abode, seized a lighted brand, hid it in his bosom, and departed unseen, exulting in the success of his enterprise.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:48.48.4-48.48.4:ab8b6554",
+      "excerpt": "\"Of Prometheus, how undaunted",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "athena",
+      "predicate": "opening_situation",
+      "object": "Fire alone, in his estimation, could effect this; but fire was the special possession and prerogative of the gods, and Prometheus knew they would never willingly share it with",
+      "evidence": [
+        "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Fire alone, in his estimation, could effect this; but fire was the special possession and prerogative of the gods, and Prometheus knew they would never willingly share it with man, and that, should any one obtain it by stealth, they would never forgive the thief.",
+      "sourceClause": "Fire alone, in his estimation, could effect this; but fire was the special possession and prerogative of the gods, and Prometheus knew they would never willingly share it with man, and that, should any one obtain it by stealth, they would never forgive the thief.",
+      "actor": null,
+      "action": "recognize",
+      "sourceAction": "knew",
+      "object": null,
+      "target": "prometheus",
+      "recipient": null,
+      "location": null,
+      "result": "Fire alone, in his estimation, could effect this; but fire was the special possession and prerogative of the gods, and Prometheus knew they would never willingly share it with",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:48.48.2-48.48.2:bd007584"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "One dark night, therefore, he set out for Olympus, entered unperceived into the gods' abode, seized a lighted brand, hid it in his bosom, and departed unseen, exulting in the success of his enterprise.",
+      "sourceClause": "One dark night, therefore, he set out for Olympus, entered unperceived into the gods' abode, seized a lighted brand, hid it in his bosom, and departed unseen, exulting in the success of his enterprise.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "departed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "olympus",
+      "result": "One dark night, therefore, he set out for Olympus, entered unperceived into the gods' abode, seized a lighted brand, hid it in his bosom, and departed unseen, exulting in the",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Arrived upon earth once more, he consigned the stolen treasure to the care of man, who immediately adapted it to various purposes, and eloquently expressed his gratitude to the benevolent deity who had risked his own life to obtain it for him.",
+      "sourceClause": "Arrived upon earth once more, he consigned the stolen treasure to the care of man, who immediately adapted it to various purposes, and eloquently expressed his gratitude to the benevolent deity who had risked his own life to obtain it for him.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "arrived",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Arrived upon earth once more, he consigned the stolen treasure to the care of man, who immediately adapted it to various purposes, and eloquently expressed his gratitude to the",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "athena",
+      "predicate": "outcome",
+      "object": "Arrived upon earth once more, he consigned the stolen treasure to the care of man, who immediately adapted it to various purposes, and eloquently expressed his gratitude to the",
+      "evidence": [
+        "gutenberg:ebooks:39250:48.48.4-48.48.4:ab8b6554"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Fire alone, in his estimation, could effect this; but fire was the special possession and prerogative of the gods, and Prometheus knew they would never willingly share it with",
+      "One dark night, therefore, he set out for Olympus, entered unperceived into the gods' abode, seized a lighted brand, hid it in his bosom, and departed unseen, exulting in the",
+      "Arrived upon earth once more, he consigned the stolen treasure to the care of man, who immediately adapted it to various purposes, and eloquently expressed his gratitude to the"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-53f6bec6",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0048-798efa",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Horace.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed",
+        "gutenberg:ebooks:39250:48.48.2-48.48.2:bd007584",
+        "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 82,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

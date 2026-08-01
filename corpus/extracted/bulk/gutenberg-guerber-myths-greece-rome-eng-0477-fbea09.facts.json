@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     }
   ],
@@ -30,6 +30,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:477.477.3-477.477.3:2b25f847"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:477.477.4-477.477.4:03d7433a"
         }
@@ -65,6 +68,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:477.477.8-477.477.8:1ba2088d"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:477.477.9-477.477.9:8dc01326"
         }
       ],
@@ -74,9 +80,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-ulysses",
+      "subject": "ulysses",
       "predicate": "opening_situation",
-      "object": "Penelope, hearing that a stranger was within her gates, sent for him, to inquire whether he knew aught of her husband.",
+      "object": "[Sidenote: Penelope's web.] Penelope, hearing that a stranger was within her gates, sent for him, to inquire whether he knew aught of her husband.",
       "evidence": [
         "gutenberg:ebooks:39250:477.477.1-477.477.1:4f5de995"
       ]
@@ -84,9 +90,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-ulysses",
+      "subject": "ulysses",
       "predicate": "outcome",
-      "object": "At last the subterfuge was discovered, and the unfortunate Penelope was forced to finish her work; but ere it was quite done, she found another expedient to postpone her choice.",
+      "object": "[Sidenote: Ulysses' bow.] At last the subterfuge was discovered, and the unfortunate Penelope was forced to finish her work; but ere it was quite done, she found another expedient",
       "evidence": [
         "gutenberg:ebooks:39250:477.477.10-477.477.10:1436eed3"
       ]
@@ -96,10 +102,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-1feb2a94",
+      "reviewId": "review-ed05d08b",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0477-fbea09",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Came suddenly as soon as he had seen",
       "suggestions": [
         "fewer-than-two-actor-events",

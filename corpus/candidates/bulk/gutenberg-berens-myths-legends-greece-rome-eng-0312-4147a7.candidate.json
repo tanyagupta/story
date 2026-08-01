@@ -11,7 +11,7 @@
     "gutenberg:ebooks:22381:312.312.6-312.312.6:eb9ae74e",
     "gutenberg:ebooks:22381:312.312.7-312.312.7:991620c0"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,27 +24,30 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-heracles-labors-234094",
-  "characters": [],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "characters": [
+    "Alpheus",
+    "Argonauts",
+    "Eurystheus"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 88,
+    "score": 117,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events, weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
-      "no-mythological-characters",
       "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 0,
+      "namedMythologicalEntities": 3,
       "meaningfulEvents": 5,
-      "actorEvents": 0,
+      "actorEvents": 1,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

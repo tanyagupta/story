@@ -1,8 +1,8 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 55,
+    "score": 44,
     "passed": false,
     "reasons": [
       "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
@@ -15,9 +15,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 0,
-      "meaningfulEvents": 2,
+      "meaningfulEvents": 1,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
@@ -25,10 +25,10 @@
   },
   "items": [
     {
-      "reviewId": "review-6f5fab15",
+      "reviewId": "review-fd066728",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0049-b4d8fa",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "On Olympus' shining bastions",
       "suggestions": [
         "no-mythological-characters",

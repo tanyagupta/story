@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-mercury",
+      "normalizedId": "hermes",
       "normalizationStatus": "approved"
     },
     {
@@ -43,13 +43,27 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "prometheus",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Epimetheus",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "epimetheus",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-mercury",
+      "actorSourceName": null,
       "sourceAction": "cautioned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -66,7 +80,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
+      "actorSourceName": "epimetheus",
       "sourceAction": "accepted",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -85,9 +99,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-mercury",
+      "subject": "hermes",
       "predicate": "opening_situation",
-      "object": "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and.",
+      "object": "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and",
       "evidence": [
         "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
       ]
@@ -95,9 +109,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-mercury",
+      "subject": "hermes",
       "predicate": "outcome",
-      "object": "Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!\" and accepted her.",
+      "object": "Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!",
       "evidence": [
         "gutenberg:ebooks:39250:52.52.4-52.52.4:8e66e4d9"
       ]
@@ -107,10 +121,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-9010d8e3",
+      "reviewId": "review-3cb6dc5d",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0052-50c580",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Saturnian Jove.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

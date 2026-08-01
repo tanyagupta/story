@@ -12,8 +12,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-juno",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -26,8 +26,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-jupiter",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -40,8 +40,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-minerva",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -54,7 +54,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "paris",
       "normalizationStatus": "approved"
     },
@@ -68,8 +68,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-venus",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
@@ -91,10 +91,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": "zeus",
       "sourceAction": "gave",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -108,7 +108,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -125,7 +125,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -142,10 +142,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "arrived",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -159,7 +159,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -176,7 +176,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -193,10 +193,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": "hera",
       "sourceAction": "gave",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -210,14 +210,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "opening_situation",
-      "object": "Before he arranged for the marriage, the ruler of Olympus first consulted the Fates to see whether any misfortune was likely to attend his nuptials; and the three sisters who.",
+      "object": "Before he arranged for the marriage, the ruler of Olympus first consulted the Fates to see whether any misfortune was likely to attend his nuptials; and the three sisters who spin",
       "evidence": [
         "gutenberg:ebooks:45489:175.175.1-175.175.1:f7708a76"
       ]
@@ -225,15 +225,32 @@
   ],
   "finalState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "outcome",
-      "object": "Juno contended that her power and majesty gave her the best right to the prize; Minerva claimed that the beauty of wisdom surpassed all other charms; while laughter-loving Venus.",
+      "object": "Juno contended that her power and majesty gave her the best right to the prize; Minerva claimed that the beauty of wisdom surpassed all other charms; while laughter-loving Venus",
       "evidence": [
         "gutenberg:ebooks:45489:175.175.7-175.175.7:dd2f49f1"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-82c27513",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0175-5977ff",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "The Apple of Discord",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:175.175.1-175.175.1:f7708a76",
+        "gutenberg:ebooks:45489:175.175.2-175.175.2:864e89b6",
+        "gutenberg:ebooks:45489:175.175.3-175.175.3:df33c925"
+      ],
+      "status": "open"
+    }
+  ]
 }

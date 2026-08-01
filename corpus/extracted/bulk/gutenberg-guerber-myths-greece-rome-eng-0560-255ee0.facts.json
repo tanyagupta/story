@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -108,7 +108,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": null,
       "sourceAction": "saved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -142,7 +142,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "made",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -159,7 +159,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "psyche",
+      "actorSourceName": null,
       "sourceAction": "saved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -178,7 +178,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "opening_situation",
       "object": "Husband of Gæa, created by her, 15, 17, 18; significance, 385.",
       "evidence": [
@@ -188,7 +188,7 @@
   ],
   "finalState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "outcome",
       "object": "God of the south wind; son of Æolus and Aurora, 213; Hyacinthus slain by, 67; Venus conducted by, 105; Psyche saved by, 122, 128; Flora, wife of, 301.",
       "evidence": [
@@ -200,12 +200,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-010f8999",
+      "reviewId": "review-29cd660a",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0560-255ee0",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Tyre.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

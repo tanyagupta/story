@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-hercules",
+      "normalizedId": "heracles",
       "normalizationStatus": "approved"
     }
   ],
@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "departed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -38,7 +38,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -74,9 +74,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-hercules",
+      "subject": "heracles",
       "predicate": "opening_situation",
-      "object": "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any.",
+      "object": "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any",
       "evidence": [
         "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283"
       ]
@@ -84,9 +84,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-hercules",
+      "subject": "heracles",
       "predicate": "outcome",
-      "object": "While he was thus considering, a Centaur by the name of Nessus came to his assistance, and proposed to carry the fair young bride to the other shore in complete safety, if she.",
+      "object": "While he was thus considering, a Centaur by the name of Nessus came to his assistance, and proposed to carry the fair young bride to the other shore in complete safety, if she",
       "evidence": [
         "gutenberg:ebooks:39250:353.353.6-353.353.6:af411814"
       ]
@@ -96,12 +96,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-a27fb8fa",
+      "reviewId": "review-c86ae260",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0353-abb683",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Deep was the animated strife",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

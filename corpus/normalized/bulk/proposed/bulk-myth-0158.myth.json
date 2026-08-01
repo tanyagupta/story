@@ -1,0 +1,254 @@
+{
+  "mythId": "bulk-myth-0158",
+  "mythFamilyId": "minor-deities",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-minor-deities-db5aad",
+  "title": "Minor Deities",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6",
+      "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7",
+      "gutenberg:ebooks:45489:129.129.3-129.129.3:f6b4947b"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "zeus",
+      "hephaestus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6"
+        }
+      ]
+    },
+    {
+      "sourceName": "Vulcan",
+      "normalizedId": "hephaestus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Æolus Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the He never allowed them to roam at will, but held them securely bound in a great cave, and let them loose one at a time when they needed exercise or when the gods demanded their Only",
+    "openingSituation": "Æolus Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the",
+    "centralConflict": "He never allowed them to roam at will, but held them securely bound in a great cave, and let them loose one at a time when they needed exercise or when the gods demanded their",
+    "resolution": "Only once were they allowed to give free play to their boisterous feelings, and rush over the waters, making havoc everywhere, and this was when Jupiter sent a deluge upon the",
+    "outcome": "Only once were they allowed to give free play to their boisterous feelings, and rush over the waters, making havoc everywhere, and this was when Jupiter sent a deluge upon the",
+    "storyline": [
+      "Æolus Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the",
+      "He never allowed them to roam at will, but held them securely bound in a great cave, and let them loose one at a time when they needed exercise or when the gods demanded their",
+      "Only once were they allowed to give free play to their boisterous feelings, and rush over the waters, making havoc everywhere, and this was when Jupiter sent a deluge upon the"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6",
+        "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7",
+        "gutenberg:ebooks:45489:129.129.3-129.129.3:f6b4947b"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6",
+        "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6",
+      "excerpt": "I. Æolus",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7",
+      "excerpt": "Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the winds and storms, kept his turbulent children.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:129.129.3-129.129.3:f6b4947b",
+      "excerpt": "\"Hic vasto rex Æolus antro",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "Æolus Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the",
+      "evidence": [
+        "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Æolus Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the winds and storms, kept his turbulent children.",
+      "sourceClause": "Æolus Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the winds and storms, kept his turbulent children.",
+      "actor": "hephaestus",
+      "action": "found",
+      "sourceAction": "built",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Æolus Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "He never allowed them to roam at will, but held them securely bound in a great cave, and let them loose one at a time when they needed exercise or when the gods demanded their release.",
+      "sourceClause": "He never allowed them to roam at will, but held them securely bound in a great cave, and let them loose one at a time when they needed exercise or when the gods demanded their release.",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "bound",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He never allowed them to roam at will, but held them securely bound in a great cave, and let them loose one at a time when they needed exercise or when the gods demanded their",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Only once were they allowed to give free play to their boisterous feelings, and rush over the waters, making havoc everywhere, and this was when Jupiter sent a deluge upon the impious earth.",
+      "sourceClause": "Only once were they allowed to give free play to their boisterous feelings, and rush over the waters, making havoc everywhere, and this was when Jupiter sent a deluge upon the impious earth.",
+      "actor": null,
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": "zeus",
+      "recipient": null,
+      "location": null,
+      "result": "Only once were they allowed to give free play to their boisterous feelings, and rush over the waters, making havoc everywhere, and this was when Jupiter sent a deluge upon the",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Only once were they allowed to give free play to their boisterous feelings, and rush over the waters, making havoc everywhere, and this was when Jupiter sent a deluge upon the",
+      "evidence": [
+        "gutenberg:ebooks:45489:129.129.3-129.129.3:f6b4947b"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Æolus Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the",
+      "He never allowed them to roam at will, but held them securely bound in a great cave, and let them loose one at a time when they needed exercise or when the gods demanded their",
+      "Only once were they allowed to give free play to their boisterous feelings, and rush over the waters, making havoc everywhere, and this was when Jupiter sent a deluge upon the"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-dbc9f138",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0129-a093c9",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Minor Deities",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6",
+        "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7",
+        "gutenberg:ebooks:45489:129.129.3-129.129.3:f6b4947b"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 87,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 3,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

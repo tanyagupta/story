@@ -1,0 +1,255 @@
+{
+  "mythId": "bulk-myth-0157",
+  "mythFamilyId": "saturnian-jove",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-saturnian-jove-bc01e5",
+  "title": "Saturnian Jove.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe",
+      "gutenberg:ebooks:39250:52.52.2-52.52.2:f49d10a8",
+      "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6",
+      "gutenberg:ebooks:39250:52.52.4-52.52.4:8e66e4d9"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hermes",
+      "pandora",
+      "prometheus",
+      "epimetheus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pandora",
+      "normalizedId": "pandora",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ]
+    },
+    {
+      "sourceName": "Prometheus",
+      "normalizedId": "prometheus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ]
+    },
+    {
+      "sourceName": "Epimetheus",
+      "normalizedId": "epimetheus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!",
+    "openingSituation": "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and",
+    "centralConflict": "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and",
+    "resolution": "Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!",
+    "outcome": "Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!",
+    "storyline": [
+      "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and",
+      "Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe",
+        "gutenberg:ebooks:39250:52.52.2-52.52.2:f49d10a8",
+        "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe",
+      "excerpt": "\"But now when the fair mischief, seeming-good, His hand had perfected, he led her forth Exulting in her grac'd attire, the gift Of Pallas, in the midst of gods and men.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:52.52.2-52.52.2:f49d10a8",
+      "excerpt": "Hesiod (Elton's tr.).",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6",
+      "excerpt": "Their united efforts were crowned with the utmost success. Nothing was lacking, except a name for the peerless creature; and the gods, after due consideration, decreed she should be called Pandora.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:52.52.4-52.52.4:8e66e4d9",
+      "excerpt": "The first days of their union were spent in blissful wanderings, hand in hand, under the cool forest shade; in weaving garlands of fragrant flowers; and in refreshing themselves with the luscious fruit, which hung so temptingly within",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hermes",
+      "predicate": "opening_situation",
+      "object": "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and",
+      "evidence": [
+        "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and cautioned his brother Epimetheus to follow his example.",
+      "sourceClause": "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and cautioned his brother Epimetheus to follow his example.",
+      "actor": null,
+      "action": "warn",
+      "sourceAction": "cautioned",
+      "object": null,
+      "target": "hermes",
+      "recipient": null,
+      "location": null,
+      "result": "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!\" and accepted her most joyfully.",
+      "sourceClause": "Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!\" and accepted her most joyfully.",
+      "actor": "epimetheus",
+      "action": "receive",
+      "sourceAction": "accepted",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hermes",
+      "predicate": "outcome",
+      "object": "Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!",
+      "evidence": [
+        "gutenberg:ebooks:39250:52.52.4-52.52.4:8e66e4d9"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and",
+      "Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-3cb6dc5d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0052-50c580",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Saturnian Jove.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe",
+        "gutenberg:ebooks:39250:52.52.2-52.52.2:f49d10a8",
+        "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 92,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 2,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

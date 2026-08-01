@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-bacchus",
+      "normalizedId": "bacchus",
       "normalizationStatus": "approved"
     },
     {
@@ -125,7 +125,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "adonis",
+      "actorSourceName": null,
       "sourceAction": "delivered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -193,7 +193,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "bellerophon",
+      "actorSourceName": null,
       "sourceAction": "punished",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -224,7 +224,7 @@
     {
       "subject": "adonis",
       "predicate": "outcome",
-      "object": "Same as Athene, goddess of wisdom; daughter of Jupiter, 55-60; man given soul by, 27; flute of, 73; Vulcan wooes, 147; contest of Neptune and, 152; Medusa punished by, 242;.",
+      "object": "Same as Athene, goddess of wisdom; daughter of Jupiter, 55-60; man given soul by, 27; flute of, 73; Vulcan wooes, 147; contest of Neptune and, 152; Medusa punished by, 242",
       "evidence": [
         "gutenberg:ebooks:39250:539.539.34-539.539.34:27007c79"
       ]
@@ -234,12 +234,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-7d9aa4cf",
+      "reviewId": "review-451cb875",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0539-20a495",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Mars.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

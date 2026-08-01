@@ -33,24 +33,10 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "sent",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
+          "passageId": "gutenberg:ebooks:39250:443.443.4-443.443.4:03e576d0"
+        },
         {
-          "passageId": "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
+          "passageId": "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215"
         }
       ],
       "confidence": 0.7,
@@ -71,7 +57,7 @@
     {
       "subject": null,
       "predicate": "outcome",
-      "object": "Many other propitiatory methods were tried; but as they all proved ineffective, Agamemnon, urged by his companions, sent for his daughter, feigning that he wished to celebrate.",
+      "object": "[Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given",
       "evidence": [
         "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
       ]
@@ -81,13 +67,14 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-81dc6e48",
+      "reviewId": "review-47ce8889",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0443-ab2fec",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Aulis.",
       "suggestions": [
         "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
       ],
       "evidence": [

@@ -21,30 +21,13 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "accepted",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:22381:328.328.3-328.328.3:4a46d832"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": null,
       "predicate": "opening_situation",
-      "object": "Ten years after these events the sons of the slain heroes, who were called Epigoni, or descendants, resolved to avenge the death of their fathers, and with this object entered.",
+      "object": "Ten years after these events the sons of the slain heroes, who were called Epigoni, or descendants, resolved to avenge the death of their fathers, and with this object entered",
       "evidence": [
         "gutenberg:ebooks:22381:328.328.1-328.328.1:acd3ff32"
       ]
@@ -54,7 +37,7 @@
     {
       "subject": null,
       "predicate": "outcome",
-      "object": "Yielding therefore to her wily representations he accepted the command of the troops, and at the head of a large and powerful army advanced upon",
+      "object": "Ten years after these events the sons of the slain heroes, who were called Epigoni, or descendants, resolved to avenge the death of their fathers, and with this object entered",
       "evidence": [
         "gutenberg:ebooks:22381:328.328.3-328.328.3:4a46d832"
       ]
@@ -64,10 +47,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-3ab1152c",
+      "reviewId": "review-fc2ee3ce",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0328-e64e07",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "THE EPIGONI.",
       "suggestions": [
         "no-mythological-characters",

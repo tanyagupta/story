@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,21 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-proserpina",
+      "normalizedId": "persephone",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Eleusis",
+      "entityType": "character",
+      "roleInEpisode": "helper",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:293.293.1-293.293.1:928e0f8b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "eleusis",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +49,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "ceres",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -88,7 +102,7 @@
   ],
   "initialState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "opening_situation",
       "object": "Night came, and Ceres, kindling a torch at the volcanic fires of Mount Ætna, continued her search.",
       "evidence": [
@@ -98,7 +112,7 @@
   ],
   "finalState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "outcome",
       "object": "\"Long was thine anxious search For lovely Proserpine, nor didst thou break Thy mournful fast, till the far-fam'd Eleusis Received thee wandering.\"",
       "evidence": [
@@ -110,10 +124,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-0c736721",
+      "reviewId": "review-ac635086",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0293-a2645d",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Ingelow.",
       "suggestions": [
         "fewer-than-two-actor-events",

@@ -15,6 +15,20 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "oedipus",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Argos",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:325.325.1-325.325.1:05c7fe69"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "argos",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
@@ -121,23 +135,6 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "concealed",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:22381:325.325.4-325.325.4:97b49943"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
@@ -154,7 +151,7 @@
     {
       "subject": "oedipus",
       "predicate": "outcome",
-      "object": "But Adrastus, seconded by Polynices and Tydeus, was obstinately bent on the achievement of his purpose, and Amphiaraus, in order to escape from their importunities, concealed.",
+      "object": "As he foresaw a disastrous termination to the enterprise, and knew that not one of the heroes, save Adrastus himself, would return alive, he earnestly dissuaded the king from",
       "evidence": [
         "gutenberg:ebooks:22381:325.325.4-325.325.4:97b49943"
       ]
@@ -164,10 +161,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-36e8cc60",
+      "reviewId": "review-4e32b1e5",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0325-4c8f01",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "THE SEVEN AGAINST THEBES.",
       "suggestions": [
         "fewer-than-two-actor-events"

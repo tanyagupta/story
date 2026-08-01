@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "ceres",
+      "normalizedId": "demeter",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-pluto",
+      "normalizedId": "hades",
       "normalizationStatus": "approved"
     }
   ],
@@ -215,9 +215,9 @@
   ],
   "initialState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "opening_situation",
-      "object": "These two then succeeded to the throne, and by their combined efforts, together with the help of their own child Eros (Amor or Love) created Pontus (the Sea) and Gæa (the Earth),.",
+      "object": "These two then succeeded to the throne, and by their combined efforts, together with the help of their own child Eros (Amor or Love) created Pontus (the Sea) and Gæa (the Earth)",
       "evidence": [
         "gutenberg:ebooks:45489:225.225.1-225.225.1:63bd729e"
       ]
@@ -225,7 +225,7 @@
   ],
   "finalState": [
     {
-      "subject": "ceres",
+      "subject": "demeter",
       "predicate": "outcome",
       "object": "Meanwhile old Uranus had told Saturn, when the latter wrested from him his throne, that he himself would one day be dethroned by his children.",
       "evidence": [
@@ -237,10 +237,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-5a56caec",
+      "reviewId": "review-3a6fcc03",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0225-904831",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "XXXI",
       "suggestions": [
         "fewer-than-two-actor-events",

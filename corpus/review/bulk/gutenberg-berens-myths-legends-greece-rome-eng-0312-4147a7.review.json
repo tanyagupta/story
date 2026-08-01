@@ -1,22 +1,21 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 88,
+    "score": 117,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events, weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
-      "no-mythological-characters",
       "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 0,
+      "namedMythologicalEntities": 3,
       "meaningfulEvents": 5,
-      "actorEvents": 0,
+      "actorEvents": 1,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
@@ -25,13 +24,12 @@
   },
   "items": [
     {
-      "reviewId": "review-89551838",
+      "reviewId": "review-3b4070cf",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0312-4147a7",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Mycenae.",
       "suggestions": [
-        "no-mythological-characters",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],

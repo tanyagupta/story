@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-venus",
+      "actorSourceName": null,
       "sourceAction": "declared",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -74,9 +74,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-venus",
+      "subject": "aphrodite",
       "predicate": "opening_situation",
-      "object": "An undying passion was thus simultaneously kindled in both young hearts; and, thanks to Venus' assistance, Leander managed to exchange a few words with Hero, declared his love,.",
+      "object": "An undying passion was thus simultaneously kindled in both young hearts; and, thanks to Venus' assistance, Leander managed to exchange a few words with Hero, declared his love",
       "evidence": [
         "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c"
       ]
@@ -84,9 +84,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-venus",
+      "subject": "aphrodite",
       "predicate": "outcome",
-      "object": "Then, afraid lest some one should notice that she was talking to a stranger, she bade him depart; but he refused to go until he had learned where she lived, and proposed to swim.",
+      "object": "Then, afraid lest some one should notice that she was talking to a stranger, she bade him depart; but he refused to go until he had learned where she lived, and proposed to swim",
       "evidence": [
         "gutenberg:ebooks:39250:177.177.3-177.177.3:92480a38"
       ]
@@ -96,10 +96,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-21632ed9",
+      "reviewId": "review-9c970201",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0177-9c3293",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Edwin Arnold.",
       "suggestions": [
         "fewer-than-two-actor-events"

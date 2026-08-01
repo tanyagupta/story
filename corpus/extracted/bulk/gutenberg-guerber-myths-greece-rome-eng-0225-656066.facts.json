@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-cupid",
+      "normalizedId": "cupid",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-vulcan",
+      "normalizedId": "hephaestus",
       "normalizationStatus": "approved"
     }
   ],
@@ -77,7 +77,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-minerva",
+      "actorSourceName": null,
       "sourceAction": "wooed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -94,7 +94,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -111,7 +111,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-vulcan",
+      "actorSourceName": null,
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -128,7 +128,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-vulcan",
+      "actorSourceName": "hephaestus",
       "sourceAction": "married",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -145,7 +145,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-vulcan",
+      "actorSourceName": "hephaestus",
       "sourceAction": "recognized",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -164,7 +164,7 @@
   ],
   "initialState": [
     {
-      "subject": "roman-cupid",
+      "subject": "cupid",
       "predicate": "opening_situation",
       "object": "He first wooed Minerva, who, having sworn never to marry, contemptuously dismissed his suit.",
       "evidence": [
@@ -174,7 +174,7 @@
   ],
   "finalState": [
     {
-      "subject": "roman-cupid",
+      "subject": "cupid",
       "predicate": "outcome",
       "object": "Vulcan was worshiped by all blacksmiths and artisans, who recognized him as their special patron, and venerated him accordingly.",
       "evidence": [
@@ -186,10 +186,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-36dd63e3",
+      "reviewId": "review-2e37b85e",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0225-656066",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Cupid's love-inspiring darts.",
       "suggestions": [
         "weak-or-literary-title"

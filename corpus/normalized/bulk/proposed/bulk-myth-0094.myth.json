@@ -1,0 +1,379 @@
+{
+  "mythId": "bulk-myth-0094",
+  "mythFamilyId": "iii",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-iii-799569",
+  "title": "III",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2",
+      "gutenberg:ebooks:45489:116.116.2-116.116.2:406a4dc5",
+      "gutenberg:ebooks:45489:116.116.3-116.116.3:427a0c2f",
+      "gutenberg:ebooks:45489:116.116.4-116.116.4:af3f1826"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "circe",
+      "poseidon"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Circe",
+      "normalizedId": "circe",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+        }
+      ]
+    },
+    {
+      "sourceName": "Neptune",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "One of the many sea-gods who ruled under Neptune was Glaucus, who was once a poor fisherman, and earned his living by selling the fish that he caught each day. As he stood watching them, the fish suddenly leaped up from the ground; and having flopped back into the water, swam away.",
+    "openingSituation": "One of the many sea-gods who ruled under Neptune was Glaucus, who was once a poor fisherman, and earned his living by selling the fish that he caught each day.",
+    "centralConflict": "One of the many sea-gods who ruled under Neptune was Glaucus, who was once a poor fisherman, and earned his living by selling the fish that he caught each day.",
+    "resolution": "He told her how he had suffered a sea change, and now occupied the lofty position of a god.",
+    "outcome": "He told her how he had suffered a sea change, and now occupied the lofty position of a god.",
+    "storyline": [
+      "One of the many sea-gods who ruled under Neptune was Glaucus, who was once a poor fisherman, and earned his living by selling the fish that he caught each day.",
+      "As he stood watching them, the fish suddenly leaped up from the ground; and having flopped back into the water, swam away.",
+      "Curious to see whether it was the grass that gave them this extraordinary power, Glaucus chewed a bit of it himself, and immediately he felt an irresistible desire to plunge into",
+      "Fearlessly he dived beneath the waves, and soon found no difficulty in keeping under water, for the ocean seemed now to be his native element.",
+      "He saw his beard turning a lovely sea-green; and he found that his hair, grown suddenly long and green, was trailing out behind him.",
+      "His arms were azure-colored, and his legs became a fish's tail; but he felt no regrets over losing his human form, and stayed contentedly in the ocean."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2",
+        "gutenberg:ebooks:45489:116.116.2-116.116.2:406a4dc5",
+        "gutenberg:ebooks:45489:116.116.3-116.116.3:427a0c2f"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:116.116.2-116.116.2:406a4dc5"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:116.116.2-116.116.2:406a4dc5"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2",
+      "excerpt": "One of the many sea-gods who ruled under Neptune was Glaucus, who was once a poor fisherman, and earned his living by selling the fish that he caught each day.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:116.116.2-116.116.2:406a4dc5",
+      "excerpt": "As Glaucus was swimming one day near the shore, he saw a beautiful maiden named Scylla; and fell so much in love with her that he forgot he was half fish, and begged her to be his wife.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:116.116.3-116.116.3:427a0c2f",
+      "excerpt": "Seeing that she could not gain his affections, Circe determined that at least no one else should enjoy his love; so she refused to make the potion, and sent Glaucus angrily away.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:116.116.4-116.116.4:af3f1826",
+      "excerpt": "\"There Scylla dwells, And fills the air with fearful yells; her voice The cry of whelps just littered, but herself",
+      "supports": [
+        "event-004"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "circe",
+      "predicate": "opening_situation",
+      "object": "One of the many sea-gods who ruled under Neptune was Glaucus, who was once a poor fisherman, and earned his living by selling the fish that he caught each day.",
+      "evidence": [
+        "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "One of the many sea-gods who ruled under Neptune was Glaucus, who was once a poor fisherman, and earned his living by selling the fish that he caught each day.",
+      "sourceClause": "One of the many sea-gods who ruled under Neptune was Glaucus, who was once a poor fisherman, and earned his living by selling the fish that he caught each day.",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "caught",
+      "object": null,
+      "target": "poseidon",
+      "recipient": null,
+      "location": null,
+      "result": "One of the many sea-gods who ruled under Neptune was Glaucus, who was once a poor fisherman, and earned his living by selling the fish that he caught each day.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "As he stood watching them, the fish suddenly leaped up from the ground; and having flopped back into the water, swam away.",
+      "sourceClause": "As he stood watching them, the fish suddenly leaped up from the ground; and having flopped back into the water, swam away.",
+      "actor": null,
+      "action": "leap",
+      "sourceAction": "leaped",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "As he stood watching them, the fish suddenly leaped up from the ground; and having flopped back into the water, swam away.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Curious to see whether it was the grass that gave them this extraordinary power, Glaucus chewed a bit of it himself, and immediately he felt an irresistible desire to plunge into the sea.",
+      "sourceClause": "Curious to see whether it was the grass that gave them this extraordinary power, Glaucus chewed a bit of it himself, and immediately he felt an irresistible desire to plunge into the sea.",
+      "actor": null,
+      "action": "give",
+      "sourceAction": "gave",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Curious to see whether it was the grass that gave them this extraordinary power, Glaucus chewed a bit of it himself, and immediately he felt an irresistible desire to plunge into",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "Fearlessly he dived beneath the waves, and soon found no difficulty in keeping under water, for the ocean seemed now to be his native element.",
+      "sourceClause": "Fearlessly he dived beneath the waves, and soon found no difficulty in keeping under water, for the ocean seemed now to be his native element.",
+      "actor": null,
+      "action": "discover",
+      "sourceAction": "found",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Fearlessly he dived beneath the waves, and soon found no difficulty in keeping under water, for the ocean seemed now to be his native element.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "sourceSentence": "He saw his beard turning a lovely sea-green; and he found that his hair, grown suddenly long and green, was trailing out behind him.",
+      "sourceClause": "He saw his beard turning a lovely sea-green; and he found that his hair, grown suddenly long and green, was trailing out behind him.",
+      "actor": null,
+      "action": "discover",
+      "sourceAction": "found",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He saw his beard turning a lovely sea-green; and he found that his hair, grown suddenly long and green, was trailing out behind him.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "sourceSentence": "His arms were azure-colored, and his legs became a fish's tail; but he felt no regrets over losing his human form, and stayed contentedly in the ocean.",
+      "sourceClause": "His arms were azure-colored, and his legs became a fish's tail; but he felt no regrets over losing his human form, and stayed contentedly in the ocean.",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "His arms were azure-colored, and his legs became a fish's tail; but he felt no regrets over losing his human form, and stayed contentedly in the ocean.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "sourceSentence": "In time Neptune made him one of the lesser gods, and took him into the friendly fraternity of the sea.",
+      "sourceClause": "In time Neptune made him one of the lesser gods, and took him into the friendly fraternity of the sea.",
+      "actor": "poseidon",
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "In time Neptune made him one of the lesser gods, and took him into the friendly fraternity of the sea.",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "sourceSentence": "He told her how he had suffered a sea change, and now occupied the lofty position of a god.",
+      "sourceClause": "He told her how he had suffered a sea change, and now occupied the lofty position of a god.",
+      "actor": null,
+      "action": "reveal",
+      "sourceAction": "told",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He told her how he had suffered a sea change, and now occupied the lofty position of a god.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:116.116.2-116.116.2:406a4dc5"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "circe",
+      "predicate": "outcome",
+      "object": "He told her how he had suffered a sea change, and now occupied the lofty position of a god.",
+      "evidence": [
+        "gutenberg:ebooks:45489:116.116.4-116.116.4:af3f1826"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "One of the many sea-gods who ruled under Neptune was Glaucus, who was once a poor fisherman, and earned his living by selling the fish that he caught each day.",
+      "As he stood watching them, the fish suddenly leaped up from the ground; and having flopped back into the water, swam away.",
+      "Curious to see whether it was the grass that gave them this extraordinary power, Glaucus chewed a bit of it himself, and immediately he felt an irresistible desire to plunge into",
+      "Fearlessly he dived beneath the waves, and soon found no difficulty in keeping under water, for the ocean seemed now to be his native element.",
+      "He saw his beard turning a lovely sea-green; and he found that his hair, grown suddenly long and green, was trailing out behind him.",
+      "His arms were azure-colored, and his legs became a fish's tail; but he felt no regrets over losing his human form, and stayed contentedly in the ocean."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-46ca9ee3",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0116-a6178c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "III",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2",
+        "gutenberg:ebooks:45489:116.116.2-116.116.2:406a4dc5",
+        "gutenberg:ebooks:45489:116.116.3-116.116.3:427a0c2f"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 142,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

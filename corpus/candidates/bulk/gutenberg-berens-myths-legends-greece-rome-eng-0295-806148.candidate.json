@@ -13,7 +13,7 @@
     "gutenberg:ebooks:22381:295.295.8-295.295.8:20caac56",
     "gutenberg:ebooks:22381:295.295.9-295.295.9:317b0fa8"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -30,23 +30,24 @@
     "Apollo",
     "Cadmus",
     "Europa",
-    "Zeus"
+    "Zeus",
+    "Ino"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 183,
+    "score": 176,
     "passed": true,
     "reasons": [
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [],
     "components": {
-      "namedMythologicalEntities": 4,
+      "namedMythologicalEntities": 5,
       "meaningfulEvents": 8,
-      "actorEvents": 6,
+      "actorEvents": 3,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

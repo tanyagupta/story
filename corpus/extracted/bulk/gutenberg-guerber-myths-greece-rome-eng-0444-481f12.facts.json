@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-diana",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-diana",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -56,7 +56,7 @@
     {
       "subject": "achilles",
       "predicate": "opening_situation",
-      "object": "Iphigenia came to her father secretly delighted at being the chosen bride of such a hero; but, instead of being led to the hymeneal altar, she was dragged to the place of.",
+      "object": "Iphigenia came to her father secretly delighted at being the chosen bride of such a hero; but, instead of being led to the hymeneal altar, she was dragged to the place of",
       "evidence": [
         "gutenberg:ebooks:39250:444.444.1-444.444.1:55f236cc"
       ]
@@ -66,7 +66,7 @@
     {
       "subject": "achilles",
       "predicate": "outcome",
-      "object": "Iphigenia came to her father secretly delighted at being the chosen bride of such a hero; but, instead of being led to the hymeneal altar, she was dragged to the place of.",
+      "object": "Iphigenia came to her father secretly delighted at being the chosen bride of such a hero; but, instead of being led to the hymeneal altar, she was dragged to the place of",
       "evidence": [
         "gutenberg:ebooks:39250:444.444.6-444.444.6:4feb1059"
       ]
@@ -76,10 +76,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-e6812cb8",
+      "reviewId": "review-5331fd6f",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0444-481f12",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Achilles before his departure.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

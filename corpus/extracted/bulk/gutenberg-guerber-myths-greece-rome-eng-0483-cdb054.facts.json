@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "hector",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -73,7 +73,7 @@
     {
       "subject": "hector",
       "predicate": "opening_situation",
-      "object": "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him.",
+      "object": "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him",
       "evidence": [
         "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30"
       ]
@@ -93,10 +93,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-1d34f2c2",
+      "reviewId": "review-1fc2d837",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0483-cdb054",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "CHAPTER XXIX.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

@@ -14,7 +14,7 @@
     "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f",
     "gutenberg:ebooks:22381:333.333.10-333.333.10:a96158b3"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -34,12 +34,12 @@
     "Paris",
     "Zeus"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 176,
+    "score": 171,
     "passed": true,
     "reasons": [
       "No explicit relationship was extracted from the selected source wording."
@@ -48,7 +48,7 @@
     "components": {
       "namedMythologicalEntities": 5,
       "meaningfulEvents": 8,
-      "actorEvents": 3,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

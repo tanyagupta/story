@@ -1,20 +1,19 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 66,
+    "score": 74,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events, weak-or-literary-title",
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
-      "no-mythological-characters",
       "fewer-than-two-actor-events",
       "weak-or-literary-title"
     ],
     "components": {
-      "namedMythologicalEntities": 0,
+      "namedMythologicalEntities": 1,
       "meaningfulEvents": 3,
       "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
@@ -25,13 +24,12 @@
   },
   "items": [
     {
-      "reviewId": "review-9319ba80",
+      "reviewId": "review-b58eb430",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0308-ba0e00",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Eurystheus.",
       "suggestions": [
-        "no-mythological-characters",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],

@@ -1,0 +1,438 @@
+{
+  "mythId": "bulk-verified-0001",
+  "mythFamilyId": "demeter-and-persephone",
+  "variantId": "gutenberg-baker-demeter-and-persephone-verified",
+  "title": "The Story of Proserpina",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+      "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+      "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09",
+      "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+      "gutenberg:ebooks:45489:107.107.7-107.107.7:ced8cd57",
+      "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e",
+      "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+      "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+    ]
+  },
+  "scope": "complete-source-section",
+  "entities": {
+    "characters": [
+      "zeus",
+      "hades",
+      "persephone",
+      "demeter",
+      "hermes",
+      "triptolemus"
+    ],
+    "locations": [
+      "sicily",
+      "hades",
+      "eleusis"
+    ],
+    "objects": [
+      "pomegranate-seeds",
+      "girdle"
+    ],
+    "creatures": [
+      "giants"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pluto",
+      "normalizedId": "hades",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
+        }
+      ]
+    },
+    {
+      "sourceName": "Proserpina",
+      "normalizedId": "persephone",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+        }
+      ]
+    },
+    {
+      "sourceName": "Ceres",
+      "normalizedId": "demeter",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "hermes",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "persephone",
+      "sourceNames": [
+        "Proserpina"
+      ],
+      "role": "captured participant",
+      "reason": "Pluto seizes her, Ceres searches for her, and Jupiter's compromise determines where she lives.",
+      "evidence": [
+        "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+        "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
+      ]
+    },
+    {
+      "entityId": "demeter",
+      "sourceNames": [
+        "Ceres"
+      ],
+      "role": "searching mother",
+      "reason": "Ceres searches for Proserpina and withholds care from the earth while mourning.",
+      "evidence": [
+        "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+        "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e"
+      ]
+    },
+    {
+      "entityId": "hades",
+      "sourceNames": [
+        "Pluto"
+      ],
+      "role": "captor",
+      "reason": "Pluto explicitly seizes Proserpina and takes her into Hades.",
+      "evidence": [
+        "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+        "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "demeter",
+      "relationship": "parent_of",
+      "target": "persephone",
+      "sourceWording": "her daughter",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "source": "hades",
+      "relationship": "spouse_of",
+      "target": "persephone",
+      "sourceWording": "his wife",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Pluto seizes Proserpina in Sicily and takes her into Hades. Ceres searches for her daughter and neglects the earth until Jupiter arranges a compromise that returns Proserpina for part of each year.",
+    "openingSituation": "Jupiter has imprisoned the warring giants under Mount Etna, and Pluto leaves Hades to inspect the earth for cracks.",
+    "centralConflict": "Pluto abducts Proserpina by force, leaving Ceres to search for her missing daughter.",
+    "resolution": "Jupiter compromises with Pluto after Proserpina has eaten pomegranate seeds in Hades.",
+    "outcome": "Proserpina spends part of her time with Ceres and part with Pluto, and Ceres restores fertility to the earth when Proserpina returns.",
+    "storyline": [
+      "Jupiter imprisons the giants under Mount Etna.",
+      "Pluto sees Proserpina gathering flowers and seizes her.",
+      "Ceres searches for Proserpina and learns she is in Hades.",
+      "Famine forces Jupiter to intervene.",
+      "Jupiter arranges Proserpina's divided return."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+        "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e",
+        "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+        "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+        "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+      "excerpt": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when the giants got restless and turned over and over underground (thus causing",
+      "supports": [
+        "openingSituation"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+      "excerpt": "Pluto had often tried to gain a wife by gentle means, but no one would consent to share his grewsome home; so, knowing that this maiden he desired would never listen to soft words of love, he determined to take her by force.",
+      "supports": [
+        "centralConflict",
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+      "excerpt": "When sickness and death followed hard upon the famine, Jupiter saw that he must save the sorely-stricken land, so he promised the goddess that her daughter should be restored to her if she had eaten nothing during all her sojourn in Pluto's realm.",
+      "supports": [
+        "resolution",
+        "outcome"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "imprisoned",
+      "object": "giants",
+      "evidence": [
+        "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Jupiter imprisoned some of the warring giants under Mount Etna in Sicily.",
+      "sourceClause": "Jupiter imprisoned some of the warring giants under Mount Etna in Sicily.",
+      "actor": "zeus",
+      "action": "imprison",
+      "sourceAction": "imprisoned",
+      "object": null,
+      "target": "giants",
+      "recipient": null,
+      "location": "sicily",
+      "result": "Jupiter imprisoned some of the warring giants under Mount Etna in Sicily.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Pluto had seized Proserpina in his strong arms.",
+      "sourceClause": "Pluto had seized Proserpina in his strong arms.",
+      "actor": "hades",
+      "action": "capture",
+      "sourceAction": "seized",
+      "object": null,
+      "target": "persephone",
+      "recipient": null,
+      "location": null,
+      "result": "Pluto had seized Proserpina in his strong arms.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Ceres began her search for Proserpina.",
+      "sourceClause": "Ceres began her search for Proserpina.",
+      "actor": "demeter",
+      "action": "travel",
+      "sourceAction": "wandered",
+      "object": null,
+      "target": "persephone",
+      "recipient": null,
+      "location": null,
+      "result": "Ceres began her search for Proserpina.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "Ceres discovered the girdle that Proserpina had dropped.",
+      "sourceClause": "Ceres discovered the girdle that Proserpina had dropped.",
+      "actor": "demeter",
+      "action": "discover",
+      "sourceAction": "discovered",
+      "object": "girdle",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Ceres discovered the girdle that Proserpina had dropped.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.7-107.107.7:ced8cd57"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-005",
+      "sourceSentence": "Jupiter made a compromise with Pluto whereby Proserpina was to spend half her time with her mother and the rest with her husband.",
+      "sourceClause": "Jupiter made a compromise with Pluto whereby Proserpina was to spend half her time with her mother and the rest with her husband.",
+      "actor": "zeus",
+      "action": "command",
+      "sourceAction": "made a compromise",
+      "object": null,
+      "target": "hades",
+      "recipient": null,
+      "location": null,
+      "result": "Jupiter made a compromise with Pluto whereby Proserpina was to spend half her time with her mother and the rest with her husband.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "persephone",
+      "predicate": "divides_time_between",
+      "object": "demeter-and-hades",
+      "evidence": [
+        "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+        "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Jupiter imprisons the giants under Mount Etna.",
+      "Pluto sees Proserpina gathering flowers and seizes her.",
+      "Ceres searches for Proserpina and learns she is in Hades.",
+      "Famine forces Jupiter to intervene.",
+      "Jupiter arranges Proserpina's divided return."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "score": 100,
+    "passed": true,
+    "reasons": [
+      "Verified against the cited source passages by implementation review; not human scholarly approval."
+    ],
+    "failedGates": [],
+    "components": {
+      "sourceGroundedVerification": true
+    }
+  },
+  "verification": {
+    "method": "Codex source-grounded implementation review",
+    "sourcePassagesChecked": [
+      "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+      "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+      "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09",
+      "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+      "gutenberg:ebooks:45489:107.107.7-107.107.7:ced8cd57",
+      "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e",
+      "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+      "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+    ],
+    "knownLimitations": []
+  },
+  "reviewStatus": "verified_by_implementation_review"
+}

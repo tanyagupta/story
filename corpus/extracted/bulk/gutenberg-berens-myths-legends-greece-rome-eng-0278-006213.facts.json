@@ -21,7 +21,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "delivered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -38,7 +38,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -137,7 +137,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "In addition to the manifestation of the will of the gods by means of oracles, the Greeks also believed that certain men, called soothsayers, were gifted with the power of.",
+      "object": "In addition to the manifestation of the will of the gods by means of oracles, the Greeks also believed that certain men, called soothsayers, were gifted with the power of",
       "evidence": [
         "gutenberg:ebooks:22381:278.278.6-278.278.6:2f621c84"
       ]
@@ -147,12 +147,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-51d9b37f",
+      "reviewId": "review-f1a5c0e1",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0278-006213",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "ORACLES.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

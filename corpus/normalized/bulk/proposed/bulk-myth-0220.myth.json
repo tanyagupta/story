@@ -1,0 +1,206 @@
+{
+  "mythId": "bulk-myth-0220",
+  "mythFamilyId": "lxvi",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-lxvi-b35bad",
+  "title": "LXVI",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:289.289.1-289.289.1:29adf08d",
+      "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "athena"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Minerva",
+      "normalizedId": "athena",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:289.289.1-289.289.1:29adf08d"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that Dædalus Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name.",
+    "openingSituation": "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that Dædalus",
+    "centralConflict": "Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name.",
+    "resolution": "Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name.",
+    "outcome": "Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name.",
+    "storyline": [
+      "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that Dædalus",
+      "Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:289.289.1-289.289.1:29adf08d",
+        "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:289.289.1-289.289.1:29adf08d",
+      "excerpt": "Dædalus shared with Æolus the honor of inventing sails for the ships hitherto propelled by oars.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce",
+      "excerpt": "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that Dædalus grew to hate him.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "athena",
+      "predicate": "opening_situation",
+      "object": "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that Dædalus",
+      "evidence": [
+        "gutenberg:ebooks:45489:289.289.1-289.289.1:29adf08d"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that Dædalus grew to hate him.",
+      "sourceClause": "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that Dædalus grew to hate him.",
+      "actor": null,
+      "action": "give",
+      "sourceAction": "gave",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that Dædalus",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name.",
+      "sourceClause": "Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name.",
+      "actor": null,
+      "action": "defeat",
+      "sourceAction": "killed",
+      "object": null,
+      "target": "athena",
+      "recipient": null,
+      "location": null,
+      "result": "Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "athena",
+      "predicate": "outcome",
+      "object": "Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name.",
+      "evidence": [
+        "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that Dædalus",
+      "Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-ab0b0dad",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0289-c920bd",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "LXVI",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:289.289.1-289.289.1:29adf08d",
+        "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 63,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

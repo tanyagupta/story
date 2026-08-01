@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:553.553.7-553.553.7:b2ff612d",
     "gutenberg:ebooks:39250:553.553.8-553.553.8:2a19837a"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -29,12 +29,12 @@
     "Niobe",
     "Theseus"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 87,
+    "score": 82,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events",
@@ -46,7 +46,7 @@
     "components": {
       "namedMythologicalEntities": 2,
       "meaningfulEvents": 3,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

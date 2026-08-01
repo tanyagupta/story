@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -28,6 +28,48 @@
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
       "normalizedId": "perseus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Acrisius",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.1-363.363.1:6f094fbe"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "acrisius",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Argos",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.1-363.363.1:6f094fbe"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "argos",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Danae",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.1-363.363.1:6f094fbe"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "danae",
       "normalizationStatus": "approved"
     }
   ],
@@ -44,6 +86,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.1-363.363.1:6f094fbe"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c"
         }
@@ -86,7 +131,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "concealed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -156,9 +201,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "opening_situation",
-      "object": "The life of Acrisius, King of Argos, had been a burden to him ever since the unfortunate day when an oracle had predicted that he would be killed by his grandson.",
+      "object": "[Sidenote: Acrisius and Danae.] The life of Acrisius, King of Argos, had been a burden to him ever since the unfortunate day when an oracle had predicted that he would be killed",
       "evidence": [
         "gutenberg:ebooks:39250:363.363.1-363.363.1:6f094fbe"
       ]
@@ -166,7 +211,7 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
+      "subject": "zeus",
       "predicate": "outcome",
       "object": "\"Danae, in a brazen tower Where no love was, loved a shower.\"",
       "evidence": [
@@ -178,10 +223,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-d259f415",
+      "reviewId": "review-386c73cd",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0363-60c1ca",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "PERSEUS.",
       "suggestions": [
         "fewer-than-two-actor-events"

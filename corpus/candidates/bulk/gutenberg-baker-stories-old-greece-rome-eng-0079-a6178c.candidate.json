@@ -9,7 +9,7 @@
     "gutenberg:ebooks:45489:79.79.4-79.79.4:f8f3fb9d",
     "gutenberg:ebooks:45489:79.79.5-79.79.5:3be85e82"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -27,12 +27,12 @@
     "Diana",
     "Jupiter"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 170,
+    "score": 155,
     "passed": false,
     "reasons": [
       "Failed semantic gates: weak-or-literary-title",
@@ -44,7 +44,7 @@
     "components": {
       "namedMythologicalEntities": 3,
       "meaningfulEvents": 8,
-      "actorEvents": 5,
+      "actorEvents": 2,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,

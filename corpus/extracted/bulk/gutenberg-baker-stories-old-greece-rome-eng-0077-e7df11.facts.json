@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-diana",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     },
     {
@@ -83,7 +83,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": "niobe",
       "sourceAction": "ordered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -117,7 +117,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "commanded",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -134,7 +134,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "slew",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -151,7 +151,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-diana",
+      "actorSourceName": null,
       "sourceAction": "went",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -168,7 +168,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "niobe",
+      "actorSourceName": null,
       "sourceAction": "found",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -209,12 +209,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-e8fb58ad",
+      "reviewId": "review-82a8d4cd",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0077-e7df11",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Diana",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

@@ -12,8 +12,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-hercules",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "heracles",
       "normalizationStatus": "approved"
     },
     {
@@ -26,8 +26,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-juno",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -40,8 +40,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-jupiter",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
   ],
@@ -63,7 +63,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -80,10 +80,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": "hera",
       "sourceAction": "reached",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -93,14 +93,17 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:339.339.4-339.339.4:d96f060e"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-hercules",
+      "actorSourceName": null,
       "sourceAction": "caught",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -114,14 +117,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "roman-hercules",
+      "subject": "heracles",
       "predicate": "opening_situation",
-      "object": "\"Unto this thy son it shall be given, With his broad heart to win his way to heaven; Twelve labors shall he work; and all accurst And brutal things o'erthrow, brute men the.",
+      "object": "\"Unto this thy son it shall be given, With his broad heart to win his way to heaven; Twelve labors shall he work; and all accurst And brutal things o'erthrow, brute men the worst",
       "evidence": [
         "gutenberg:ebooks:39250:339.339.1-339.339.1:896736a0"
       ]
@@ -129,15 +132,32 @@
   ],
   "finalState": [
     {
-      "subject": "roman-hercules",
+      "subject": "heracles",
       "predicate": "outcome",
-      "object": "The monsters crept along noiselessly, entered the palace unseen, twined themselves around the cradle, and were about to crush the child to death in their folds, when, to the.",
+      "object": "The monsters crept along noiselessly, entered the palace unseen, twined themselves around the cradle, and were about to crush the child to death in their folds, when, to the utter",
       "evidence": [
         "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-6731925c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0339-f2479d",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "HERCULES.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:339.339.1-339.339.1:896736a0",
+        "gutenberg:ebooks:39250:339.339.2-339.339.2:d6f117fb",
+        "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -1,22 +1,23 @@
 {
   "reviewType": "semantic-quality",
-  "status": "requires-review",
+  "status": "requires-source-grounded-review",
   "semanticQuality": {
-    "score": 66,
+    "score": 55,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events",
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
       "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
       "fewer-than-two-actor-events"
     ],
     "components": {
       "namedMythologicalEntities": 0,
-      "meaningfulEvents": 3,
+      "meaningfulEvents": 2,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true
@@ -24,13 +25,14 @@
   },
   "items": [
     {
-      "reviewId": "review-58b6ad77",
+      "reviewId": "review-b561253c",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0114-60c586",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "URANUS AND GAEA. (COELUS AND TERRA.)",
       "suggestions": [
         "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
       ],
       "evidence": [

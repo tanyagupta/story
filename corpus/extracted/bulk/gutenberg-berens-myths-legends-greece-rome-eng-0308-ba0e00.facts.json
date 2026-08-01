@@ -1,7 +1,22 @@
 {
   "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0308-ba0e00",
   "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
-  "entities": [],
+  "entities": [
+    {
+      "sourceName": "Eurystheus",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:308.308.1-308.308.1:69a36a17"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "eurystheus",
+      "normalizationStatus": "approved"
+    }
+  ],
   "relationships": [],
   "goals": [],
   "events": [
@@ -59,9 +74,9 @@
   ],
   "initialState": [
     {
-      "subject": null,
+      "subject": "eurystheus",
       "predicate": "opening_situation",
-      "object": "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to.",
+      "object": "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to the",
       "evidence": [
         "gutenberg:ebooks:22381:308.308.1-308.308.1:69a36a17"
       ]
@@ -69,9 +84,9 @@
   ],
   "finalState": [
     {
-      "subject": null,
+      "subject": "eurystheus",
       "predicate": "outcome",
-      "object": "Thus attired, he so alarmed Eurystheus by appearing suddenly before him, that the king concealed himself in his palace, and henceforth forbade Heracles to enter his presence, but.",
+      "object": "Thus attired, he so alarmed Eurystheus by appearing suddenly before him, that the king concealed himself in his palace, and henceforth forbade Heracles to enter his presence, but",
       "evidence": [
         "gutenberg:ebooks:22381:308.308.3-308.308.3:62a2b819"
       ]
@@ -81,13 +96,12 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-9319ba80",
+      "reviewId": "review-b58eb430",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0308-ba0e00",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Eurystheus.",
       "suggestions": [
-        "no-mythological-characters",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],

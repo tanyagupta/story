@@ -9,7 +9,7 @@
     "gutenberg:ebooks:39250:473.473.4-473.473.4:2d2ff9b2",
     "gutenberg:ebooks:39250:473.473.5-473.473.5:26e624ac"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,12 +26,12 @@
     "Circe",
     "Ulysses"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 71,
+    "score": 60,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
@@ -44,9 +44,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 2,
-      "meaningfulEvents": 2,
+      "meaningfulEvents": 1,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-cupid",
+      "normalizedId": "cupid",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-neptune",
+      "normalizedId": "poseidon",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
@@ -73,6 +73,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:492.492.3-492.492.3:654f5918"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:492.492.4-492.492.4:1922e3dc"
         }
       ],
@@ -80,7 +83,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-neptune",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -114,7 +117,24 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "pygmalion",
+      "actorSourceName": null,
+      "sourceAction": "steered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:492.492.7-492.492.7:70a235a5"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
       "sourceAction": "knew",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -148,7 +168,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-venus",
+      "actorSourceName": null,
       "sourceAction": "advised",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -157,6 +177,9 @@
       "causedBy": [],
       "causes": [],
       "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:492.492.11-492.492.11:435571b2"
+        },
         {
           "passageId": "gutenberg:ebooks:39250:492.492.12-492.492.12:2c1c29f9"
         }
@@ -180,30 +203,13 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "reached",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:492.492.13-492.492.13:cd8db520"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "roman-cupid",
+      "subject": "cupid",
       "predicate": "opening_situation",
-      "object": "This request was immediately granted.",
+      "object": "[Sidenote: The tempest.] This request was immediately granted.",
       "evidence": [
         "gutenberg:ebooks:39250:492.492.1-492.492.1:cca14f74"
       ]
@@ -211,9 +217,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-cupid",
+      "subject": "cupid",
       "predicate": "outcome",
-      "object": "These men spoke to the queen of their renowned chief, whose fame had already reached her ear; and she gladly promised to send out a search party to discover him, and aid him if.",
+      "object": "Their attention was first attracted by the festive appearance of the people assembled together, and by the beauty of the queen, giving audience to some of their companions, who",
       "evidence": [
         "gutenberg:ebooks:39250:492.492.17-492.492.17:67483a8d"
       ]
@@ -223,12 +229,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-8446d26f",
+      "reviewId": "review-a728adeb",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0492-e48f74",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Transporting Troy to Italy",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

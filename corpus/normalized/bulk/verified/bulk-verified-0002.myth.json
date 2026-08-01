@@ -1,0 +1,410 @@
+{
+  "mythId": "bulk-verified-0002",
+  "mythFamilyId": "golden-fleece",
+  "variantId": "gutenberg-berens-golden-fleece-opening-verified",
+  "title": "Phryxus, Helle, and the Golden Fleece",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+      "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+    ]
+  },
+  "scope": "coherent-subepisode",
+  "entities": {
+    "characters": [
+      "athamas",
+      "nephele",
+      "helle",
+      "phryxus",
+      "ino",
+      "hermes",
+      "aetes",
+      "zeus"
+    ],
+    "locations": [
+      "boeotia",
+      "colchis"
+    ],
+    "objects": [
+      "golden-fleece",
+      "winged-ram"
+    ],
+    "creatures": [
+      "dragon"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Athamas",
+      "normalizedId": "athamas",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+        }
+      ]
+    },
+    {
+      "sourceName": "Nephele",
+      "normalizedId": "nephele",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+        }
+      ]
+    },
+    {
+      "sourceName": "Helle",
+      "normalizedId": "helle",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+        }
+      ]
+    },
+    {
+      "sourceName": "Phryxus",
+      "normalizedId": "phryxus",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+        }
+      ]
+    },
+    {
+      "sourceName": "Ino",
+      "normalizedId": "ino",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hermes",
+      "normalizedId": "hermes",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+        }
+      ]
+    },
+    {
+      "sourceName": "Aetes",
+      "normalizedId": "aetes",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+        }
+      ]
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_implementation_review",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "phryxus",
+      "sourceNames": [
+        "Phryxus"
+      ],
+      "role": "fugitive child",
+      "reason": "Phryxus escapes on the ram and arrives safely at Colchis.",
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+        "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+      ]
+    },
+    {
+      "entityId": "helle",
+      "sourceNames": [
+        "Helle"
+      ],
+      "role": "fugitive child",
+      "reason": "Helle escapes with Phryxus but falls into the sea and drowns.",
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+      ]
+    },
+    {
+      "entityId": "nephele",
+      "sourceNames": [
+        "Nephele"
+      ],
+      "role": "protector",
+      "reason": "Nephele saves the children from Ino's designs by placing them on the ram.",
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Athamas marries Nephele, and their children Helle and Phryxus are endangered by Ino. Nephele saves the children on a golden-fleeced ram; Helle falls into the sea, while Phryxus reaches Colchis and gives the fleece to Aetes.",
+    "openingSituation": "Athamas has married Nephele, and their children are Helle and Phryxus.",
+    "centralConflict": "Ino hates her stepchildren and plans their destruction.",
+    "resolution": "Nephele removes the children from the palace on a winged ram with a fleece of gold.",
+    "outcome": "Helle drowns, but Phryxus arrives at Colchis and presents the fleece to Aetes.",
+    "storyline": [
+      "Athamas marries Nephele.",
+      "Ino plots against Helle and Phryxus.",
+      "Nephele sends the children away on the golden ram.",
+      "Helle falls into the sea.",
+      "Phryxus arrives at Colchis and gives the fleece to Aetes."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+        "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+        "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+      "excerpt": "Athamas, king of Boeotia, had married Nephele, a cloud-nymph, and their children were Helle and Phryxus.",
+      "supports": [
+        "openingSituation",
+        "centralConflict",
+        "resolution"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01",
+      "excerpt": "Phryxus arrived safely at Colchis, where he was hospitably received by king Aetes, who gave him one of his daughters in marriage.",
+      "supports": [
+        "outcome"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "athamas",
+      "predicate": "spouse_of",
+      "object": "nephele",
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Athamas, king of Boeotia, had married Nephele.",
+      "sourceClause": "Athamas, king of Boeotia, had married Nephele.",
+      "actor": "athamas",
+      "action": "marry",
+      "sourceAction": "had married",
+      "object": null,
+      "target": "nephele",
+      "recipient": null,
+      "location": "boeotia",
+      "result": "Athamas, king of Boeotia, had married Nephele.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Ino hated her step-children and planned their destruction.",
+      "sourceClause": "Ino hated her step-children and planned their destruction.",
+      "actor": "ino",
+      "action": "destroy",
+      "sourceAction": "planned their destruction",
+      "object": null,
+      "target": "helle-and-phryxus",
+      "recipient": null,
+      "location": null,
+      "result": "Ino hated her step-children and planned their destruction.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Nephele got the children out of the palace and placed them on the winged ram.",
+      "sourceClause": "Nephele got the children out of the palace and placed them on the winged ram.",
+      "actor": "nephele",
+      "action": "rescue",
+      "sourceAction": "getting the children out",
+      "object": "winged-ram",
+      "target": "helle-and-phryxus",
+      "recipient": null,
+      "location": null,
+      "result": "Nephele got the children out of the palace and placed them on the winged ram.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "Helle fell into the sea and was drowned.",
+      "sourceClause": "Helle fell into the sea and was drowned.",
+      "actor": "helle",
+      "action": "drown",
+      "sourceAction": "was drowned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "hellespont",
+      "result": "Helle fell into the sea and was drowned.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    },
+    {
+      "eventId": "event-005",
+      "sourceSentence": "Phryxus arrived safely at Colchis.",
+      "sourceClause": "Phryxus arrived safely at Colchis.",
+      "actor": "phryxus",
+      "action": "travel",
+      "sourceAction": "arrived",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "colchis",
+      "result": "Phryxus arrived safely at Colchis.",
+      "actorResolutionConfidence": 1,
+      "confidence": 0.95,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+        }
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "golden-fleece",
+      "predicate": "kept_at",
+      "object": "colchis",
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Athamas marries Nephele.",
+      "Ino plots against Helle and Phryxus.",
+      "Nephele sends the children away on the golden ram.",
+      "Helle falls into the sea.",
+      "Phryxus arrives at Colchis and gives the fleece to Aetes."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_implementation_review"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "score": 100,
+    "passed": true,
+    "reasons": [
+      "Verified against the cited source passages by implementation review; not human scholarly approval."
+    ],
+    "failedGates": [],
+    "components": {
+      "sourceGroundedVerification": true
+    }
+  },
+  "verification": {
+    "method": "Codex source-grounded implementation review",
+    "sourcePassagesChecked": [
+      "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+      "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+    ],
+    "knownLimitations": [
+      "This verified seed covers the opening Phryxus and Helle episode, not the whole Argonautic cycle."
+    ]
+  },
+  "reviewStatus": "verified_by_implementation_review"
+}

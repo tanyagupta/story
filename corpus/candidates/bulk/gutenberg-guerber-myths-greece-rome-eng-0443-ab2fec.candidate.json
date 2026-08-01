@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215",
     "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,26 +24,27 @@
   "mythFamilyId": "aulis",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-aulis-c4c4bc",
   "characters": [],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 66,
+    "score": 55,
     "passed": false,
     "reasons": [
-      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events",
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
       "No explicit relationship was extracted from the selected source wording."
     ],
     "failedGates": [
       "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
       "fewer-than-two-actor-events"
     ],
     "components": {
       "namedMythologicalEntities": 0,
-      "meaningfulEvents": 3,
+      "meaningfulEvents": 2,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

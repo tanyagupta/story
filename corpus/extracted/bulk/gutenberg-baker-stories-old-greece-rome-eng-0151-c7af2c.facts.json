@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -115,6 +115,23 @@
     },
     {
       "actorSourceName": "bellerophon",
+      "sourceAction": "sprang",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
       "sourceAction": "bound",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -131,7 +148,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "bellerophon",
+      "actorSourceName": null,
       "sourceAction": "turned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -148,7 +165,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "bellerophon",
+      "actorSourceName": null,
       "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -180,30 +197,13 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": "bellerophon",
-      "sourceAction": "found",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "bellerophon",
       "predicate": "opening_situation",
-      "object": "At last the young hero grew so discouraged that he decided to return to the court of Iobates; but on the very morning that he was intending to leave Pirene, he chanced to wake.",
+      "object": "At last the young hero grew so discouraged that he decided to return to the court of Iobates; but on the very morning that he was intending to leave Pirene, he chanced to wake",
       "evidence": [
         "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf"
       ]
@@ -213,7 +213,7 @@
     {
       "subject": "bellerophon",
       "predicate": "outcome",
-      "object": "As Bellerophon descended nearer to the earth, the delicate nostrils of his horse dilated at the first contact with the foul smoke, and he found it hard to persuade Pegasus to fly.",
+      "object": "Happy to find the conflict over, the young hero turned the head of his white-winged steed toward the mountain-region where the dread Chimæra dwelt.",
       "evidence": [
         "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
       ]
@@ -223,10 +223,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-8a3f58ac",
+      "reviewId": "review-6f3e8b35",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0151-c7af2c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Pegasus and his silvery wings.",
       "suggestions": [
         "weak-or-literary-title"

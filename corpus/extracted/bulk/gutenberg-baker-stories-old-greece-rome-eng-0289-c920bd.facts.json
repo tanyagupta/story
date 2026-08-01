@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     }
   ],
@@ -38,7 +38,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-minerva",
+      "actorSourceName": null,
       "sourceAction": "killed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -57,9 +57,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-minerva",
+      "subject": "athena",
       "predicate": "opening_situation",
-      "object": "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that.",
+      "object": "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that Dædalus",
       "evidence": [
         "gutenberg:ebooks:45489:289.289.1-289.289.1:29adf08d"
       ]
@@ -67,7 +67,7 @@
   ],
   "finalState": [
     {
-      "subject": "roman-minerva",
+      "subject": "athena",
       "predicate": "outcome",
       "object": "Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name.",
       "evidence": [
@@ -79,10 +79,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-35c4ac87",
+      "reviewId": "review-ab0b0dad",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0289-c920bd",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "LXVI",
       "suggestions": [
         "fewer-than-three-meaningful-events",

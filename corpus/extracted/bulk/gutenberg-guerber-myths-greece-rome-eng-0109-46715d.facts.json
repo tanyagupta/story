@@ -55,7 +55,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "bestowed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -87,30 +87,13 @@
       ],
       "confidence": 0.7,
       "reviewStatus": "awaiting_review"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "vanquished",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:109.109.4-109.109.4:b4ccdf4f"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "To wait imprisoned for the south wind's spells, From out his reedy flute the player drew, And as the music clearer, louder grew, Wild creatures from their winter nooks and dells,.",
+      "object": "To wait imprisoned for the south wind's spells, From out his reedy flute the player drew, And as the music clearer, louder grew, Wild creatures from their winter nooks and dells",
       "evidence": [
         "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17"
       ]
@@ -120,7 +103,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "\"And, when now the westering sun Touch'd the hills, the strife was done, And the attentive Muses said: 'Marsyas, thou art vanquished!'\"",
+      "object": "The god seized his golden lyre, and poured forth impassioned strains.",
       "evidence": [
         "gutenberg:ebooks:39250:109.109.4-109.109.4:b4ccdf4f"
       ]
@@ -130,10 +113,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-d8e1e8ac",
+      "reviewId": "review-15a465fe",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0109-46715d",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "By summer hid in green reeds' jointed cells",
       "suggestions": [
         "fewer-than-two-actor-events",

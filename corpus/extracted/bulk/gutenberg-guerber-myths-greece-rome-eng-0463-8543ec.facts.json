@@ -12,7 +12,7 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "odysseus",
       "normalizationStatus": "approved"
     },
@@ -26,8 +26,8 @@
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-ulysses",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -45,11 +45,14 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:463.463.2-463.463.2:e6fc8f4c"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -66,7 +69,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -83,7 +86,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -100,7 +103,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -117,7 +120,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -134,10 +137,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
       "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -151,7 +154,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -168,14 +171,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "odysseus",
       "predicate": "opening_situation",
-      "object": "After leaving Troy in ruins, Ulysses embarked with his men and spoils, and, favored by a good wind, soon came within sight of Ismarus, the home of the worthy and wealthy Ciconians.",
+      "object": "[Sidenote: Siege of Ismarus.] After leaving Troy in ruins, Ulysses embarked with his men and spoils, and, favored by a good wind, soon came within sight of Ismarus, the home of",
       "evidence": [
         "gutenberg:ebooks:39250:463.463.1-463.463.1:c661f780"
       ]
@@ -185,13 +188,30 @@
     {
       "subject": "odysseus",
       "predicate": "outcome",
-      "object": "These received the strangers hospitably, and made them partake of the lotus blossoms; but no sooner had the three men done so, than all recollection of their waiting companions.",
+      "object": "These received the strangers hospitably, and made them partake of the lotus blossoms; but no sooner had the three men done so, than all recollection of their waiting companions or",
       "evidence": [
         "gutenberg:ebooks:39250:463.463.11-463.463.11:ef69efa7"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-57dc5d79",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0463-8543ec",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "ADVENTURES OF ULYSSES.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:463.463.1-463.463.1:c661f780",
+        "gutenberg:ebooks:39250:463.463.2-463.463.2:e6fc8f4c",
+        "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7"
+      ],
+      "status": "open"
+    }
+  ]
 }

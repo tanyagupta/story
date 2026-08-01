@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-ulysses",
+      "normalizedId": "ulysses",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-ulysses",
+      "actorSourceName": null,
       "sourceAction": "seized",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -45,6 +45,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:479.479.3-479.479.3:beab0dd5"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:479.479.4-479.479.4:b19d2f55"
         }
       ],
@@ -52,7 +55,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-minerva",
+      "actorSourceName": null,
       "sourceAction": "slew",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -71,9 +74,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-minerva",
+      "subject": "athena",
       "predicate": "opening_situation",
-      "object": "The suitors all vainly strove to bend the mighty bow, which was then seized by the disguised Ulysses, while the youths laughed aloud in scorn, until Telemachus bade them let the.",
+      "object": "[Sidenote: Death of the suitors.] The suitors all vainly strove to bend the mighty bow, which was then seized by the disguised Ulysses, while the youths laughed aloud in scorn",
       "evidence": [
         "gutenberg:ebooks:39250:479.479.1-479.479.1:4687e2ca"
       ]
@@ -81,7 +84,7 @@
   ],
   "finalState": [
     {
-      "subject": "roman-minerva",
+      "subject": "athena",
       "predicate": "outcome",
       "object": "A scene of wild commotion ensued, in which Ulysses, Telemachus, Eumæus, and Minerva disguised as Mentor, opposed and slew all the wooers.",
       "evidence": [
@@ -93,13 +96,14 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-a72b5714",
+      "reviewId": "review-002017d5",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0479-f34471",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Whoe'er among you he may be whose hand",
       "suggestions": [
         "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

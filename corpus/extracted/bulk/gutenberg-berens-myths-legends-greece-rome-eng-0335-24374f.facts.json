@@ -71,13 +71,27 @@
       "reviewStatus": "awaiting_review",
       "normalizedId": "zeus",
       "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Argos",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:335.335.1-335.335.1:f7d57266"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "argos",
+      "normalizationStatus": "approved"
     }
   ],
   "relationships": [],
   "goals": [],
   "events": [
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "revealed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -111,7 +125,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "odysseus",
+      "actorSourceName": null,
       "sourceAction": "offered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -128,7 +142,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "seized",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -145,7 +159,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "helen",
+      "actorSourceName": null,
       "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -179,7 +193,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "zeus",
+      "actorSourceName": null,
       "sourceAction": "turned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -196,7 +210,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "achilles",
+      "actorSourceName": null,
       "sourceAction": "bound",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -217,7 +231,7 @@
     {
       "subject": "achilles",
       "predicate": "opening_situation",
-      "object": "Now that the presence of Achilles was required, owing to an oracular prediction that Troy could not be taken without him, Menelaus consulted Calchas the soothsayer, who revealed.",
+      "object": "Now that the presence of Achilles was required, owing to an oracular prediction that Troy could not be taken without him, Menelaus consulted Calchas the soothsayer, who revealed",
       "evidence": [
         "gutenberg:ebooks:22381:335.335.1-335.335.1:f7d57266"
       ]
@@ -227,7 +241,7 @@
     {
       "subject": "achilles",
       "predicate": "outcome",
-      "object": "Patroclus, who fought valiantly by the side of his kinsman, was also wounded in this battle; but Achilles, who was a pupil of Chiron, carefully bound up the wound, which he.",
+      "object": "Patroclus, who fought valiantly by the side of his kinsman, was also wounded in this battle; but Achilles, who was a pupil of Chiron, carefully bound up the wound, which he",
       "evidence": [
         "gutenberg:ebooks:22381:335.335.14-335.335.14:1f47f4e4"
       ]
@@ -237,12 +251,13 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-dc8d754d",
+      "reviewId": "review-bf5ffabe",
       "recordType": "candidate",
       "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0335-24374f",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Menelaus experience any difficulty.",
       "suggestions": [
+        "fewer-than-two-actor-events",
         "weak-or-literary-title"
       ],
       "evidence": [

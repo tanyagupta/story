@@ -6,7 +6,7 @@
     "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028",
     "gutenberg:ebooks:39250:49.49.2-49.49.2:1816f076"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -20,12 +20,12 @@
   "mythFamilyId": "on-olympus-shining-bastions",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-on-olympus-shining-bastions-0a71a0",
   "characters": [],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 55,
+    "score": 44,
     "passed": false,
     "reasons": [
       "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
@@ -38,9 +38,9 @@
     ],
     "components": {
       "namedMythologicalEntities": 0,
-      "meaningfulEvents": 2,
+      "meaningfulEvents": 1,
       "actorEvents": 0,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

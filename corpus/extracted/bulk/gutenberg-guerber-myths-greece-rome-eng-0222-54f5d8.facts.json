@@ -13,7 +13,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-juno",
+      "normalizedId": "hera",
       "normalizationStatus": "approved"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-vulcan",
+      "normalizedId": "hephaestus",
       "normalizationStatus": "approved"
     }
   ],
@@ -49,7 +49,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-juno",
+      "actorSourceName": "zeus",
       "sourceAction": "bound",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -68,9 +68,9 @@
   ],
   "initialState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "opening_situation",
-      "object": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+      "object": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this",
       "evidence": [
         "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d"
       ]
@@ -78,9 +78,9 @@
   ],
   "finalState": [
     {
-      "subject": "roman-juno",
+      "subject": "hera",
       "predicate": "outcome",
-      "object": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+      "object": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this",
       "evidence": [
         "gutenberg:ebooks:39250:222.222.4-222.222.4:c77466df"
       ]
@@ -90,10 +90,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-0eeabca4",
+      "reviewId": "review-21e67cd7",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0222-54f5d8",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "VULCAN.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

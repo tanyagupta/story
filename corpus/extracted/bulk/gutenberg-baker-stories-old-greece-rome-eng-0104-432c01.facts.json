@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-cupid",
+      "normalizedId": "cupid",
       "normalizationStatus": "approved"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-jupiter",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-venus",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     },
     {
@@ -69,7 +69,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-vulcan",
+      "normalizedId": "hephaestus",
       "normalizationStatus": "approved"
     }
   ],
@@ -77,7 +77,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-vulcan",
+      "actorSourceName": "hephaestus",
       "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -111,7 +111,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-vulcan",
+      "actorSourceName": null,
       "sourceAction": "made",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -128,7 +128,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "battle",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -145,7 +145,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
+      "actorSourceName": null,
       "sourceAction": "made",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -162,7 +162,7 @@
       "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": "zeus",
       "sourceAction": "wed",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -193,7 +193,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was.",
+      "object": "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was",
       "evidence": [
         "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
       ]
@@ -203,10 +203,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-785691ad",
+      "reviewId": "review-832b0fbb",
       "recordType": "candidate",
       "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0104-432c01",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Jupiter's favor.",
       "suggestions": [
         "weak-or-literary-title"

@@ -11,7 +11,7 @@
     "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f",
     "gutenberg:ebooks:22381:338.338.7-338.338.7:1fea6d1d"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -27,14 +27,15 @@
   "characters": [
     "Cassandra",
     "Helen",
-    "Poseidon"
+    "Poseidon",
+    "Argos"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 150,
+    "score": 142,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events",
@@ -44,10 +45,10 @@
       "fewer-than-two-actor-events"
     ],
     "components": {
-      "namedMythologicalEntities": 3,
-      "meaningfulEvents": 8,
-      "actorEvents": 1,
-      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 7,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
       "knownMythFamily": true

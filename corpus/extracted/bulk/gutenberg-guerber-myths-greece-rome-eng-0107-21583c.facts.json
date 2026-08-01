@@ -27,7 +27,7 @@
       ],
       "confidence": 0.72,
       "reviewStatus": "awaiting_review",
-      "normalizedId": "roman-minerva",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     }
   ],
@@ -45,6 +45,9 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe"
+        },
+        {
           "passageId": "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87"
         }
       ],
@@ -56,7 +59,7 @@
     {
       "subject": "apollo",
       "predicate": "opening_situation",
-      "object": "A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly held his breath to listen.",
+      "object": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
       "evidence": [
         "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe"
       ]
@@ -66,7 +69,7 @@
     {
       "subject": "apollo",
       "predicate": "outcome",
-      "object": "A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly held his breath to listen.",
+      "object": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
       "evidence": [
         "gutenberg:ebooks:39250:107.107.3-107.107.3:06f669c7"
       ]
@@ -76,10 +79,10 @@
   "reviewStatus": "awaiting_review",
   "review": [
     {
-      "reviewId": "review-56317ed9",
+      "reviewId": "review-76f19870",
       "recordType": "candidate",
       "recordId": "gutenberg-guerber-myths-greece-rome-eng-0107-21583c",
-      "issueType": "semantic-quality-gates-failed",
+      "issueType": "requires-source-grounded-review",
       "sourceValue": "Moore.",
       "suggestions": [
         "fewer-than-three-meaningful-events",

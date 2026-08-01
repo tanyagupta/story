@@ -47,7 +47,7 @@
     "gutenberg:ebooks:39250:533.533.42-533.533.42:347b9544",
     "gutenberg:ebooks:39250:533.533.43-533.533.43:588b8fad"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -80,14 +80,18 @@
     "Prometheus",
     "Ulysses",
     "Venus",
-    "Vulcan"
+    "Vulcan",
+    "Athamas",
+    "Danae",
+    "Hebe",
+    "Ino"
   ],
-  "processingStatus": "rejected-poor-quality",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
   "qualityFlags": [],
   "semanticQuality": {
-    "score": 174,
+    "score": 169,
     "passed": false,
     "reasons": [
       "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
@@ -100,7 +104,7 @@
     "components": {
       "namedMythologicalEntities": 6,
       "meaningfulEvents": 8,
-      "actorEvents": 1,
+      "actorEvents": 0,
       "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
       "hasCentralConflictOrChange": true,
       "hasOutcome": true,
