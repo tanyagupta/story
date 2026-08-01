@@ -1,0 +1,23 @@
+{
+  "$id": "entity.schema.json",
+  "type": "object",
+  "required": ["entities"],
+  "properties": {
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "preferredName", "aliases", "entityType", "tradition"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "preferredName": { "type": "string" },
+          "greekName": { "type": ["string", "null"] },
+          "aliases": { "type": "array", "items": { "type": "string" } },
+          "entityType": { "type": "string" },
+          "tradition": { "type": "string" },
+          "links": { "type": "array" }
+        }
+      }
+    }
+  }
+}

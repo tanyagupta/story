@@ -1,0 +1,74 @@
+{
+  "mythId": "myth-fixture-0001",
+  "mythFamilyId": "fixture-myth-episode",
+  "variantId": "fixture-prose-source-variant",
+  "title": "Fixture Myth Episode",
+  "source": {
+    "sourceId": "fixture-prose-source",
+    "passages": [
+      "urn:cts:fixture:prose:1.1-1.1:c7f92a2c",
+      "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "zeus",
+      "apollo",
+      "hermes"
+    ],
+    "locations": [
+      "mount-olympus"
+    ],
+    "objects": [
+      "thunderbolt"
+    ],
+    "creatures": []
+  },
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "apollo",
+      "action": "take",
+      "sourceAction": "takes",
+      "object": "thunderbolt",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "hermes",
+      "action": "warn",
+      "sourceAction": "warns",
+      "object": "thunderbolt",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

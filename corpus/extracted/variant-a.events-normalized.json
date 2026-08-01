@@ -1,0 +1,134 @@
+{
+  "candidateId": "variant-a-candidate",
+  "entities": [
+    {
+      "sourceName": "Hermes",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hera",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hera",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "golden apple",
+      "entityType": "object",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "golden-apple",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Zeus",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hermes",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Olympus",
+      "entityType": "place",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "mount-olympus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "hermes",
+      "action": "steal",
+      "sourceAction": "steals",
+      "object": "golden-apple",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "zeus",
+      "action": "warn",
+      "sourceAction": "warns",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [],
+  "finalState": [],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": []
+}

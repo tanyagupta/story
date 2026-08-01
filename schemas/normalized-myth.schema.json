@@ -1,0 +1,63 @@
+{
+  "$id": "normalized-myth.schema.json",
+  "type": "object",
+  "required": ["mythId", "mythFamilyId", "variantId", "title", "source", "entities", "events", "interpretation", "reviewStatus"],
+  "properties": {
+    "mythId": { "type": "string" },
+    "mythFamilyId": { "type": "string" },
+    "variantId": { "type": "string" },
+    "title": { "type": "string" },
+    "source": {
+      "type": "object",
+      "required": ["sourceId", "passages"],
+      "properties": {
+        "sourceId": { "type": "string" },
+        "passages": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+      }
+    },
+    "entities": {
+      "type": "object",
+      "required": ["characters", "locations", "objects", "creatures"],
+      "properties": {
+        "characters": { "type": "array", "items": { "type": "string" } },
+        "locations": { "type": "array", "items": { "type": "string" } },
+        "objects": { "type": "array", "items": { "type": "string" } },
+        "creatures": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "initialState": { "type": "array" },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["eventId", "sourceAction", "evidence", "reviewStatus"],
+        "properties": {
+          "eventId": { "type": "string" },
+          "actor": { "type": ["string", "null"] },
+          "action": { "type": ["string", "null"] },
+          "sourceAction": { "type": "string" },
+          "object": { "type": ["string", "null"] },
+          "target": { "type": ["string", "null"] },
+          "recipient": { "type": ["string", "null"] },
+          "location": { "type": ["string", "null"] },
+          "causedBy": { "type": "array", "items": { "type": "string" } },
+          "causes": { "type": "array", "items": { "type": "string" } },
+          "evidence": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["passageId"], "properties": { "passageId": { "type": "string" } } } },
+          "reviewStatus": { "type": "string" }
+        }
+      }
+    },
+    "finalState": { "type": "array" },
+    "interpretation": {
+      "type": "object",
+      "required": ["themes", "storyline"],
+      "properties": {
+        "themes": { "type": "array" },
+        "storyline": { "type": ["string", "null"] }
+      }
+    },
+    "variantLinks": { "type": "array" },
+    "normalizationWarnings": { "type": "array" },
+    "reviewStatus": { "enum": ["draft", "awaiting_review", "approved", "rejected"] }
+  }
+}

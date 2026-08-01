@@ -1,0 +1,132 @@
+{
+  "candidateId": "variant-b-candidate",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.1-1.1:dd2d4c6b"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hera",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.1-1.1:dd2d4c6b"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hera",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "golden apple",
+      "entityType": "object",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.1-1.1:dd2d4c6b"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "golden-apple",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Apollo",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.2-1.2:0075133c"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hermes",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.2-1.2:0075133c"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Olympus",
+      "entityType": "place",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.2-1.2:0075133c"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "mount-olympus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "Apollo",
+      "sourceAction": "takes",
+      "objectSourceName": "golden apple",
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.1-1.1:dd2d4c6b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "Hermes",
+      "sourceAction": "helps",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.2-1.2:0075133c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [],
+  "finalState": [],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": []
+}

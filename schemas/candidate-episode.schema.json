@@ -1,0 +1,13 @@
+{
+  "$id": "candidate-episode.schema.json",
+  "type": "object",
+  "required": ["candidateId", "sourceId", "title", "passages", "status", "notes"],
+  "properties": {
+    "candidateId": { "type": "string" },
+    "sourceId": { "type": "string" },
+    "title": { "type": "string" },
+    "passages": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "status": { "enum": ["awaiting_extraction", "extracting", "extracted", "approved", "rejected"] },
+    "notes": { "type": "array" }
+  }
+}

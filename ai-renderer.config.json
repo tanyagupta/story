@@ -1,0 +1,19 @@
+{
+  "renderer": "ai",
+  "storyboard": "storyboard-zeus.json",
+  "ai": {
+    "provider": "mock",
+    "fallbackProvider": "mock",
+    "runwayProvider": "runway",
+    "model": "gen4.5",
+    "ratio": "1280:720",
+    "aspectRatio": "16:9",
+    "fps": 15,
+    "style": "stylized toon Greek mythology explainer with readable human faces, expressive gestures, cinematic motion, clean cel-shaded animation",
+    "outputDir": "output/ai-renderer",
+    "previewOutput": "output/ai-zeus-preview.mp4",
+    "renderOutput": "output/ai-zeus-video.mp4",
+    "timeoutMs": 720000,
+    "pollMs": 5000
+  }
+}

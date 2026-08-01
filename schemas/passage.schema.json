@@ -1,0 +1,41 @@
+{
+  "$id": "passage.schema.json",
+  "type": "object",
+  "required": ["sourceId", "passages", "warnings"],
+  "properties": {
+    "sourceId": { "type": "string" },
+    "generatedAt": { "type": "string" },
+    "passages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["passageId", "sourceId", "citation", "language", "text", "sequence", "sourcePointers"],
+        "properties": {
+          "passageId": { "type": "string", "minLength": 1 },
+          "sourceId": { "type": "string" },
+          "citation": {
+            "type": "object",
+            "required": ["start", "end"],
+            "properties": {
+              "book": { "type": ["string", "null"] },
+              "start": { "type": "string" },
+              "end": { "type": "string" }
+            }
+          },
+          "language": { "type": "string" },
+          "text": { "type": "string", "minLength": 1 },
+          "sequence": { "type": "integer", "minimum": 1 },
+          "sourcePointers": {
+            "type": "object",
+            "required": ["elementPath"],
+            "properties": {
+              "xmlId": { "type": ["string", "null"] },
+              "elementPath": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "warnings": { "type": "array" }
+  }
+}

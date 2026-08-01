@@ -1,0 +1,55 @@
+{
+  "mythId": "myth-fixture-0002",
+  "mythFamilyId": "fixture-myth-episode",
+  "variantId": "fixture-verse-source-variant",
+  "title": "Fixture Myth Episode",
+  "source": {
+    "sourceId": "fixture-verse-source",
+    "passages": [
+      "urn:cts:fixture:verse:1.1-1.1:6751d222",
+      "urn:cts:fixture:verse:1.2-1.2:3962a909"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "zeus",
+      "hermes"
+    ],
+    "locations": [
+      "mount-olympus"
+    ],
+    "objects": [
+      "thunderbolt"
+    ],
+    "creatures": []
+  },
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "hermes",
+      "action": "travel",
+      "sourceAction": "goes",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:verse:1.2-1.2:3962a909"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

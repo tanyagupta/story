@@ -34,6 +34,9 @@ npm run human:face:v2
 Render the Zeus Blender storyboard:
 
 ```bash
+npm run preview
+npm run render
+npm run verify
 npm run zeus:preview
 npm run zeus:render
 ```
@@ -48,6 +51,82 @@ mux H.264/AAC MP4 with FFmpeg, verify the media, and write:
 output/zeus-story-speech-preview-v2.mp4
 output/zeus-story-speech-v2.mp4
 ```
+
+## Experimental AI Renderer
+
+Blender remains the existing production renderer. This change adds an
+experimental AI renderer alongside it and does not replace or modify the Blender
+rendering flow. The AI backend sits behind a renderer/provider interface:
+
+```text
+Storyboard JSON -> scene objects -> PromptBuilder -> AiProvider -> FFmpeg editor
+```
+
+The AI path reads `ai-renderer.config.json`, converts the Zeus storyboard into
+scene objects, builds one prompt per scene, renders scene clips through a
+provider, concatenates those clips, and reuses the existing local Zeus
+speech/music/effects/subtitle pipeline for the final MP4.
+
+Runway credentials are read from the environment with `dotenv`:
+
+```bash
+cp .env.example .env
+# then edit .env and set RUNWAY_API_KEY
+```
+
+The default provider in `ai-renderer.config.json` is `mock` so the commands
+below are deterministic and do not spend cloud credits. Set `ai.provider` to
+`runway` when you want to use Runway. In Runway mode, the runner first validates
+`RUNWAY_API_KEY` with an authenticated `GET /v1/organization` request, reports
+the HTTP status and any API error, submits real text-to-video scene jobs, polls
+until completion, downloads the clips, and feeds them into the shared FFmpeg
+pipeline. If Runway authentication or generation fails, Runway mode stops with a
+clear blocker instead of switching to `mock`.
+
+Use `mock` directly when you want to test the AI architecture, prompt building,
+FFmpeg edit pass, subtitles, audio, and verification without cloud credentials.
+
+```bash
+npm run ai:preview
+npm run ai:render
+npm run ai:verify
+npm run ai:preview -- --provider runway
+```
+
+Those commands write:
+
+```text
+output/ai-zeus-preview.mp4
+output/ai-zeus-video.mp4
+output/ai-renderer/preview-report.json
+output/ai-renderer/render-report.json
+```
+
+Provider status:
+
+```text
+runway  implemented, requires RUNWAY_API_KEY
+mock    implemented, deterministic local FFmpeg clips
+veo     placeholder stub
+kling   placeholder stub
+luma    placeholder stub
+```
+
+## Standalone Myth Corpus Pipeline
+
+This repository also includes a separate Greek mythology corpus-processing
+layer. It converts local licensed or public-domain TEI fixtures into traceable
+passages, candidate episodes, extracted facts, normalized entities/events, and
+validated myth JSON records. It does not generate stories, scene plans,
+storyboards, images, audio, or videos, and it is not wired into the renderer.
+
+```bash
+npm run corpus:run
+npm run test:corpus
+```
+
+See `docs/corpus-pipeline.md` for manifests, licensing requirements, review
+queues, validation, and variant-preservation details.
 
 The runner uses `blender` from `PATH` when available, otherwise it uses:
 
@@ -113,9 +192,9 @@ npm run demo:assets
 ## Render Your Own Storyboard
 
 ```bash
-npm run render -- path/to/storyboard.json
-npm run render -- path/to/storyboard.json --preview
-npm run render -- path/to/storyboard.json --out output/custom.mp4
+npm run storyboard:render -- path/to/storyboard.json
+npm run storyboard:render -- path/to/storyboard.json --preview
+npm run storyboard:render -- path/to/storyboard.json --out output/custom.mp4
 ```
 
 Default output paths are deterministic:

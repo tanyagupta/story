@@ -1,0 +1,88 @@
+{
+  "candidateId": "verse-candidate",
+  "entities": [
+    {
+      "sourceName": "Ζεύς",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:verse:1.1-1.1:6751d222"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "κεραυνός",
+      "entityType": "object",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:verse:1.1-1.1:6751d222"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "thunderbolt",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ἑρμῆς",
+      "entityType": "deity",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:verse:1.2-1.2:3962a909"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ὄλυμπος",
+      "entityType": "place",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:verse:1.2-1.2:3962a909"
+        }
+      ],
+      "confidence": 0.75,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "mount-olympus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "hermes",
+      "action": "travel",
+      "sourceAction": "goes",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:verse:1.2-1.2:3962a909"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [],
+  "finalState": [],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": []
+}
