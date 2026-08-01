@@ -17,22 +17,27 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "verified_by_implementation_review"
+      "reviewStatus": "verified_by_source_audit"
     }
   ],
   "normalizationWarnings": [],
   "semanticQuality": {
-    "score": 100,
     "passed": true,
-    "reasons": [
-      "Exact source text validated against cited Project Gutenberg passages."
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
     ],
-    "failedGates": [],
-    "components": {
-      "sourceGroundedVerification": true
-    }
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
   },
-  "reviewStatus": "verified_by_implementation_review",
+  "reviewStatus": "verified_by_source_audit",
   "title": "The Heraclidae",
   "mythFamilyId": "heraclidae",
   "variantId": "gutenberg-berens-heraclidae-verified",
@@ -420,7 +425,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "After the apotheosis of Heracles, his children were so cruelly persecuted by Eurystheus, that they fled for protection to king Ceyx at Trachin, accompanied by the aged Iolaus, the nephew and life-long friend of their father, who constituted himself their guide and protector.",
       "normalizedStatement": "Eurystheus persecuted the children of Heracles.",
       "evidence": [
@@ -442,7 +447,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "After the apotheosis of Heracles, his children were so cruelly persecuted by Eurystheus, that they fled for protection to king Ceyx at Trachin, accompanied by the aged Iolaus, the nephew and life-long friend of their father, who constituted himself their guide and protector.",
       "normalizedStatement": "The children of Heracles fled to Ceyx for protection.",
       "evidence": [
@@ -464,7 +469,7 @@
       "location": "athens",
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "When the Athenians had made all necessary preparations to repel the invaders, an oracle announced that the {281} sacrifice of a maiden of noble birth was necessary to ensure to them victory; whereupon Macaria, the beautiful daughter of Heracles and Deianira, magnanimously offered herself as a sacrifice, and, surrounded by the noblest matrons and maidens of Athens, voluntarily devoted herself to death.",
       "normalizedStatement": "Macaria offered herself as a sacrifice.",
       "evidence": [
@@ -486,7 +491,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "While these events were transpiring in Athens, Hyllus, the eldest son of Heracles and Deianira, had advanced with a large army to the assistance of his brothers, and having sent a messenger to the king announcing his arrival, Demophoon, with his army, joined his forces.",
       "normalizedStatement": "Hyllus advanced with an army to assist his brothers.",
       "evidence": [
@@ -508,7 +513,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "In the thick of the battle which ensued, Iolaus, following a sudden impulse, borrowed the chariot of Hyllus, and earnestly entreated Zeus and Hebe to restore to him, for this one day only, the vigour and strength of his youth.",
       "normalizedStatement": "Iolaus borrowed Hyllus' chariot.",
       "evidence": [
@@ -530,7 +535,7 @@
       "location": "peloponnesus",
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "They obtained possession of the Peloponnesus, which was divided among them by lot.",
       "normalizedStatement": "The descendants of Heracles obtained the Peloponnesus.",
       "evidence": [

@@ -91,7 +91,7 @@ function bulkMyths() {
 }
 
 function verifiedMyth(title) {
-  const found = bulkMyths().find((myth) => myth.reviewStatus === "verified_by_implementation_review" && myth.title === title);
+  const found = bulkMyths().find((myth) => myth.reviewStatus === "verified_by_source_audit" && myth.title === title);
   assert.ok(found, `Missing verified myth ${title}`);
   return found;
 }
@@ -482,7 +482,7 @@ test("bulk inventory meets candidate and production targets", () => {
   assert.strictEqual(summary.fullyNormalizedRecords, summary.narrativeCandidates);
   assert.strictEqual(summary.approvedRecords, 0);
   assert.strictEqual(summary.humanApprovedRecords, 0);
-  assert.ok(summary.verifiedByImplementationReview >= 5);
+  assert.strictEqual(summary.verifiedBySourceAudit, 6);
   assert.strictEqual(summary.machineProposedRecords, summary.narrativeCandidates);
   assert.ok(summary.recordsAwaitingReview > 0);
   assert.ok(inventory.entries.some((entry) => entry.candidateType === "non_story_material"));
@@ -514,9 +514,9 @@ test("bulk semantic gates prevent placeholder approvals", () => {
   runBulkSources();
   const myths = bulkMyths();
   const proposed = myths.filter((myth) => myth.reviewStatus === "awaiting_review");
-  const verified = myths.filter((myth) => myth.reviewStatus === "verified_by_implementation_review");
+  const verified = myths.filter((myth) => myth.reviewStatus === "verified_by_source_audit");
   assert.ok(proposed.length >= 100);
-  assert.ok(verified.length >= 5);
+  assert.strictEqual(verified.length, 6);
   assert.strictEqual(myths.filter((myth) => myth.reviewStatus === "approved").length, 0);
   verified.forEach((myth) => {
     assert.ok(myth.entities.characters.length > 0);
@@ -529,6 +529,9 @@ test("bulk semantic gates prevent placeholder approvals", () => {
     assert.ok(myth.evidenceSummary && myth.evidenceSummary.length > 0);
     assert.ok(!(myth.initialState || []).some((state) => state.subject === "source-section"));
     assert.strictEqual(myth.semanticQuality.passed, true);
+    assert.strictEqual(myth.semanticQuality.verificationLevel, "source_audited");
+    assert.ok(!Object.prototype.hasOwnProperty.call(myth.semanticQuality, "score"));
+    assert.ok((myth.semanticQuality.limitations || []).some((item) => /not human scholarly approval/i.test(item)));
     assertNoSentenceFragments(myth);
   });
 });
@@ -537,10 +540,14 @@ test("bulk non-story and weak narrative candidates are not approved", () => {
   runBulkSources();
   const approvedCatalog = readJson(path.join(root, "corpus/catalog/approved-myths.json"));
   const verifiedCatalog = readJson(path.join(root, "corpus/catalog/verified-myths.json"));
+  const proposedCatalog = readJson(path.join(root, "corpus/catalog/proposed-myths.json"));
   const rejectedCatalog = readJson(path.join(root, "corpus/catalog/rejected-candidates.json"));
   const awaiting = readJson(path.join(root, "corpus/catalog/myths-awaiting-review.json"));
   assert.strictEqual(approvedCatalog.entries.length, 0);
-  assert.ok(verifiedCatalog.entries.length >= 5);
+  assert.strictEqual(verifiedCatalog.entries.length, 6);
+  assert.ok(verifiedCatalog.entries.every((entry) => entry.reviewStatus === "verified_by_source_audit"));
+  assert.ok(verifiedCatalog.entries.every((entry) => entry.file.startsWith("corpus/normalized/bulk/verified/") && fs.existsSync(path.join(root, entry.file))));
+  assert.ok(proposedCatalog.entries.every((entry) => entry.file.startsWith("corpus/normalized/bulk/proposed/") && fs.existsSync(path.join(root, entry.file))));
   assert.ok(!approvedCatalog.entries.some((entry) => entry.title === "Pindar."));
   assert.ok(rejectedCatalog.entries.some((entry) => entry.title === "Pindar." && entry.processingStatus === "rejected-non-story"));
   assert.ok(awaiting.entries.length > 0);
@@ -557,7 +564,6 @@ test("bulk semantic report and review workflow are populated", () => {
   const review = readJson(path.join(root, "corpus/review/bulk", sampleReview));
   assert.strictEqual(semantic.approvedRecords, 0);
   assert.strictEqual(semantic.verifiedBySourceAudit, 6);
-  assert.ok(semantic.verifiedByImplementationReview >= 5);
   assert.ok(semantic.awaitingReview > 0);
   assert.ok(Object.keys(semantic.failedQualityGates).length > 0);
   assert.strictEqual(structureCheck.reviewType, "automated-structure-check");
@@ -574,7 +580,10 @@ test("bulk semantic report and review workflow are populated", () => {
     "boundaryFailures",
     "crossFieldConsistencyFailures",
     "eventReferenceFailures",
-    "relationshipFailures"
+    "relationshipFailures",
+    "statusConsistencyFailures",
+    "misleadingScoreFailures",
+    "duplicateOutputFailures"
   ].forEach((field) => assert.strictEqual(audit[field].length, 0, field));
   assert.ok(review.reviewType);
   assert.ok(review.semanticQuality);
@@ -582,9 +591,13 @@ test("bulk semantic report and review workflow are populated", () => {
 
 test("bulk runner removes stale generated normalized files", () => {
   const stale = path.join(root, "corpus/normalized/bulk/stale-placeholder.myth.json");
+  const staleDuplicate = path.join(root, "corpus/normalized/bulk/bulk-myth-0001.myth.json");
   writeJson(stale, { stale: true });
+  writeJson(staleDuplicate, { stale: true });
   runBulkSources();
   assert.ok(!fs.existsSync(stale));
+  assert.ok(!fs.existsSync(staleDuplicate));
+  assert.strictEqual(fs.readdirSync(path.join(root, "corpus/normalized/bulk")).filter((file) => /^bulk-myth-.*\.myth\.json$/.test(file)).length, 0);
 });
 
 test("bulk semantic reports are portable and deterministic", () => {
@@ -679,7 +692,7 @@ test("bulk verified records use exact sourceText and targeted entity evidence", 
       passageDocs[passage.passageId] = passage.text;
     });
   });
-  bulkMyths().filter((myth) => myth.reviewStatus === "verified_by_implementation_review").forEach((myth) => {
+  bulkMyths().filter((myth) => myth.reviewStatus === "verified_by_source_audit").forEach((myth) => {
     myth.events.forEach((event) => {
       assert.ok(event.sourceText);
       assert.ok(event.normalizedStatement);

@@ -243,13 +243,13 @@ total candidate sections: 917
 valid narrative candidates: 291
 non-story candidates: 626
 machine-proposed records: 291
-verified by Codex source-grounded implementation review: 6
+source-audited records: 6
 approved by human review: 0
 records awaiting review: 291
 open review items: probable duplicate and ambiguous family review queues
 ```
 
-The verified seed records currently cover: The Story of Proserpina; Phryxus, Helle, and the Golden Fleece; The Heraclidae; Perseus and Medusa; Daedalus and Icarus; and The Story of Pandora. These records include `verification.method = "Codex source-grounded implementation review"` and should not be described as human scholarly approval.
+The verified seed records currently cover: The Story of Proserpina; Phryxus, Helle, and the Golden Fleece; The Heraclidae; Perseus and Medusa; Daedalus and Icarus; and The Story of Pandora. These records use `reviewStatus = "verified_by_source_audit"` and include `verification.method = "Codex source-grounded implementation review"`. Source-audited means the record's claims and structured fields were checked against the cited source passages. Source-audited does not mean human scholarly approval.
 
 Verified records are built from `src/corpus/bulk/verified-records.js` and validated by `src/corpus/bulk/evidence-validator.js`. Each verified event separates exact source wording from normalized interpretation:
 
@@ -261,6 +261,8 @@ Verified records are built from `src/corpus/bulk/verified-records.js` and valida
 ```
 
 `sourceText` must occur verbatim in the cited passage. Entity evidence must cite a passage where the source name appears, or it must include an explicit coreference note. Evidence excerpts must be complete source sentences and every `supports` entry must include an evidence type and rationale. The audit report at `corpus/review/source-text-audit-report.json` fails the run if exact source text, sentence completeness, entity evidence, relationship endpoints, event references, alias normalization, boundary status, or substantive verification notes are invalid.
+
+Numeric semantic certainty scores are not used for verified records. Verified records keep a pass/fail provenance checklist under `semanticQuality`, including `verificationLevel = "source_audited"`, the checks passed, failed checks, and limitations. Proposed machine records may still contain extraction confidence or ranking values; those values are triage signals, not correctness claims.
 
 The normalized proposed records are deterministic automatic records. They preserve source provenance, candidate boundaries, evidence references, source-derived entity mappings, proposed narrative summaries, source excerpts, and ordered proposed events. The batch runner does not synthesize a canonical narrative across books; overlapping retellings are grouped by myth family and kept as distinct source variants.
 
@@ -292,7 +294,9 @@ corpus/review/codex-source-verification.json
 corpus/review/open-review-items.json
 ```
 
-`corpus/catalog/approved-myths.json` is intentionally empty until a human review workflow exists. Proposed machine records are listed in `corpus/catalog/proposed-myths.json` and `corpus/catalog/myths-awaiting-review.json`. Verified seed records are listed in `corpus/catalog/verified-myths.json`. Rejected non-story candidates are listed in `corpus/catalog/rejected-candidates.json`.
+The final normalized bulk directory has two committed record sets: `corpus/normalized/bulk/proposed/` for machine-proposed records awaiting review, and `corpus/normalized/bulk/verified/` for source-audited seed records. Top-level `corpus/normalized/bulk/bulk-myth-*.myth.json` files are stale duplicate outputs from earlier pipeline versions and are removed by the runner. `corpus/catalog/approved-myths.json` is intentionally empty until a human review workflow exists. Proposed machine records are listed in `corpus/catalog/proposed-myths.json` and `corpus/catalog/myths-awaiting-review.json`. Verified seed records are listed in `corpus/catalog/verified-myths.json`. Rejected non-story candidates are listed in `corpus/catalog/rejected-candidates.json`.
+
+Committed generated outputs include raw-source manifests, derived TEI, passages, candidates, extracted facts, proposed normalized records, source-audited verified records, catalogs, and review reports. They are retained for reproducibility, source traceability, review workflow, catalog browsing, and verified-record evidence checks. They are deterministic and can be regenerated with `npm run corpus:bulk`.
 
 To audit a verified record manually, open the record in `corpus/normalized/bulk/verified/`, then inspect each `sourceText` against the passage IDs in `corpus/passages/`. Check that scope describes omitted passages, that event actors are grammatical or explicitly resolved, that relationship endpoints are registered entities/objects/places, and that narrative fields cite evidence that actually supports the claim.
 
@@ -303,7 +307,7 @@ find corpus/normalized/bulk -name '*.myth.json' -print0 |
   xargs -0 jq -s '{
     total_records: length,
     human_approved: ([.[] | select(.reviewStatus == "approved")] | length),
-    verified_by_implementation_review: ([.[] | select(.reviewStatus == "verified_by_implementation_review")] | length),
+    verified_by_source_audit: ([.[] | select(.reviewStatus == "verified_by_source_audit")] | length),
     awaiting_review: ([.[] | select(.reviewStatus == "awaiting_review")] | length),
     fragment_like_summaries: ([.[] | select(((.narrative.synopsis // "") | test("(and|when|to|of|the)\\\\.$|,\\\\.$"; "i")))] | length)
   }'

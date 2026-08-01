@@ -16,22 +16,27 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "verified_by_implementation_review"
+      "reviewStatus": "verified_by_source_audit"
     }
   ],
   "normalizationWarnings": [],
   "semanticQuality": {
-    "score": 100,
     "passed": true,
-    "reasons": [
-      "Exact source text validated against cited Project Gutenberg passages."
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
     ],
-    "failedGates": [],
-    "components": {
-      "sourceGroundedVerification": true
-    }
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
   },
-  "reviewStatus": "verified_by_implementation_review",
+  "reviewStatus": "verified_by_source_audit",
   "title": "Phryxus, Helle, and the Golden Fleece",
   "mythFamilyId": "golden-fleece",
   "variantId": "gutenberg-berens-golden-fleece-opening-verified",
@@ -361,7 +366,7 @@
       "location": "boeotia",
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Athamas, king of Boeotia, had married Nephele, a cloud-nymph, and their children were Helle and Phryxus.",
       "normalizedStatement": "Athamas married Nephele.",
       "evidence": [
@@ -383,7 +388,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "The restless and wandering nature of Nephele, however, soon wearied her husband, who, being a mortal, had little sympathy with his ethereal consort; so he divorced her, and married the beautiful but wicked Ino (sister of Semele), who hated her step-children, and even planned their destruction.",
       "normalizedStatement": "Ino planned the destruction of Helle and Phryxus.",
       "evidence": [
@@ -405,7 +410,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "She then placed them both on the back of a winged ram, with a fleece of pure gold, which had been given to her by Hermes; and on this wonderful animal brother and sister rode through the air over land and sea; but on the way Helle, becoming seized with giddiness, fell into the sea (called after her the Hellespont) and was drowned.",
       "normalizedStatement": "Nephele placed Helle and Phryxus on the golden ram.",
       "evidence": [
@@ -427,7 +432,7 @@
       "location": "hellespont",
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "She then placed them both on the back of a winged ram, with a fleece of pure gold, which had been given to her by Hermes; and on this wonderful animal brother and sister rode through the air over land and sea; but on the way Helle, becoming seized with giddiness, fell into the sea (called after her the Hellespont) and was drowned.",
       "normalizedStatement": "Helle fell into the sea and drowned.",
       "evidence": [
@@ -449,7 +454,7 @@
       "location": "colchis",
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Phryxus arrived safely at Colchis, where he was hospitably received by king Aetes, who gave him one of his daughters in marriage.",
       "normalizedStatement": "Phryxus arrived at Colchis.",
       "evidence": [
@@ -471,7 +476,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "In gratitude to Zeus for the protection accorded him during his flight, Phryxus sacrificed to him the golden ram, whilst the fleece he presented to Aetes, who nailed it up in the Grove of Ares, and dedicated it to the god of War.",
       "normalizedStatement": "Phryxus presented the fleece to Aetes.",
       "evidence": [

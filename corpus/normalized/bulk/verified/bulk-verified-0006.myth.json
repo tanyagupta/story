@@ -16,22 +16,27 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "verified_by_implementation_review"
+      "reviewStatus": "verified_by_source_audit"
     }
   ],
   "normalizationWarnings": [],
   "semanticQuality": {
-    "score": 100,
     "passed": true,
-    "reasons": [
-      "Exact source text validated against cited Project Gutenberg passages."
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
     ],
-    "failedGates": [],
-    "components": {
-      "sourceGroundedVerification": true
-    }
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
   },
-  "reviewStatus": "verified_by_implementation_review",
+  "reviewStatus": "verified_by_source_audit",
   "title": "The Story of Pandora",
   "mythFamilyId": "pandora",
   "variantId": "gutenberg-guerber-pandora-verified",
@@ -283,7 +288,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Mercury, with a sigh of relief, placed the box in one corner, and then departed, refusing all hospitable offers of rest and refreshment.",
       "normalizedStatement": "Mercury placed the box with Pandora and Epimetheus.",
       "evidence": [
@@ -305,7 +310,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Precipitately, therefore, she raised the lid to have one little peep before he came in.",
       "normalizedStatement": "Pandora opened the box.",
       "evidence": [
@@ -327,7 +332,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Now, Jupiter had malignantly crammed into this box all the diseases, sorrows, vices, and crimes that afflict poor humanity; and the box was no sooner opened, than all these ills flew out, in the guise of horrid little brown-winged creatures, closely resembling moths.",
       "normalizedStatement": "Evils flew out of the opened box.",
       "evidence": [
@@ -349,7 +354,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "It was well for Pandora that she opened the box a second time, for the gods, with a sudden impulse of compassion, had concealed among the evil spirits one kindly creature, Hope, whose mission was to heal the wounds inflicted by her fellow-prisoners.",
       "normalizedStatement": "The gods had placed Hope among the evils.",
       "evidence": [
@@ -371,7 +376,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Lightly fluttering hither and thither on her snowy pinions, Hope touched the punctured places on Pandora's and Epimetheus' creamy skin, and relieved their suffering, then quickly flew out of the open window, to perform the same gentle office for the other victims, and cheer their downcast spirits.",
       "normalizedStatement": "Hope healed Pandora and Epimetheus.",
       "evidence": [

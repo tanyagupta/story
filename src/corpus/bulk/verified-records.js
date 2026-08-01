@@ -55,7 +55,7 @@ function event(id, data) {
     location: null,
     causedBy: [],
     causes: [],
-    reviewStatus: "verified_by_implementation_review"
+    reviewStatus: "verified_by_source_audit"
   }, data);
   if (!eventData.sourceAction) eventData.sourceAction = eventData.action;
   return eventData;
@@ -80,16 +80,23 @@ function makeRecord(index, definition) {
   return Object.assign({
     mythId: `bulk-verified-${String(index + 1).padStart(4, "0")}`,
     interpretation: { themes: [], storyline: definition.narrative.storyline },
-    variantLinks: [{ type: "source-variant", sourceIds: [definition.source.sourceId], reviewStatus: "verified_by_implementation_review" }],
+    variantLinks: [{ type: "source-variant", sourceIds: [definition.source.sourceId], reviewStatus: "verified_by_source_audit" }],
     normalizationWarnings: [],
     semanticQuality: {
-      score: 100,
       passed: true,
-      reasons: ["Exact source text validated against cited Project Gutenberg passages."],
-      failedGates: [],
-      components: { sourceGroundedVerification: true }
+      verificationLevel: "source_audited",
+      checksPassed: [
+        "exact_source_text",
+        "entity_evidence",
+        "event_references",
+        "relationship_references",
+        "narrative_boundary",
+        "cross_field_consistency"
+      ],
+      failedChecks: [],
+      limitations: ["Implementation source audit, not human scholarly approval."]
     },
-    reviewStatus: "verified_by_implementation_review"
+    reviewStatus: "verified_by_source_audit"
   }, definition);
 }
 

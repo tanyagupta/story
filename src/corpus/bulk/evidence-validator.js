@@ -92,7 +92,10 @@ function validateVerifiedRecords(records, passageMap) {
     boundaryFailures: [],
     crossFieldConsistencyFailures: [],
     eventReferenceFailures: [],
-    relationshipFailures: []
+    relationshipFailures: [],
+    statusConsistencyFailures: [],
+    misleadingScoreFailures: [],
+    duplicateOutputFailures: []
   };
   const aliasGroups = [
     ["hades", "pluto", "roman-pluto"],
@@ -109,8 +112,22 @@ function validateVerifiedRecords(records, passageMap) {
       .concat(record.entities.locations || [])
       .concat(record.entities.objects || [])
       .concat(record.entities.creatures || []));
+    if (record.reviewStatus !== "verified_by_source_audit") {
+      report.statusConsistencyFailures.push({ mythId: record.mythId, field: "reviewStatus", value: record.reviewStatus });
+    }
+    (record.variantLinks || []).forEach((link, index) => {
+      if (link.reviewStatus && link.reviewStatus !== "verified_by_source_audit") {
+        report.statusConsistencyFailures.push({ mythId: record.mythId, field: `variantLinks.${index}.reviewStatus`, value: link.reviewStatus });
+      }
+    });
     if (record.reviewStatus === "approved") {
       report.crossFieldConsistencyFailures.push({ mythId: record.mythId, issue: "verified-record-marked-approved" });
+    }
+    if (record.semanticQuality && Object.prototype.hasOwnProperty.call(record.semanticQuality, "score")) {
+      report.misleadingScoreFailures.push({ mythId: record.mythId, field: "semanticQuality.score" });
+    }
+    if (!record.semanticQuality || record.semanticQuality.passed !== true || record.semanticQuality.verificationLevel !== "source_audited") {
+      report.crossFieldConsistencyFailures.push({ mythId: record.mythId, issue: "invalid-source-audit-semantic-quality" });
     }
     if (!record.scope || !Array.isArray(record.scope.includedPassages)) {
       report.boundaryFailures.push({ mythId: record.mythId, issue: "missing-structured-scope" });
@@ -165,10 +182,21 @@ function validateVerifiedRecords(records, passageMap) {
         if (event[field] && !registry.has(event[field])) report.eventReferenceFailures.push({ mythId: record.mythId, eventId: event.eventId, field, value: event[field] });
       });
       if (!event.sourceText || !event.normalizedStatement) report.eventReferenceFailures.push({ mythId: record.mythId, eventId: event.eventId, issue: "missing-sourceText-or-normalizedStatement" });
+      if (event.reviewStatus !== "verified_by_source_audit") {
+        report.statusConsistencyFailures.push({ mythId: record.mythId, eventId: event.eventId, field: "events.reviewStatus", value: event.reviewStatus });
+      }
     });
     (record.relationships || []).forEach((relationship) => {
       if (!registry.has(relationship.source) || !registry.has(relationship.target)) {
         report.relationshipFailures.push({ mythId: record.mythId, relationship: relationship.relationship, source: relationship.source, target: relationship.target });
+      }
+      if (relationship.reviewStatus !== "verified_by_source_audit") {
+        report.statusConsistencyFailures.push({ mythId: record.mythId, relationship: relationship.relationship, field: "relationships.reviewStatus", value: relationship.reviewStatus });
+      }
+    });
+    (record.entityMappings || []).forEach((mapping) => {
+      if (mapping.normalizationStatus !== "verified_by_source_audit") {
+        report.statusConsistencyFailures.push({ mythId: record.mythId, entity: mapping.normalizedId, field: "entityMappings.normalizationStatus", value: mapping.normalizationStatus });
       }
     });
     if (!record.verification || record.verification.status !== "verified_by_source_audit") {
@@ -188,7 +216,10 @@ function validateVerifiedRecords(records, passageMap) {
     "boundaryFailures",
     "crossFieldConsistencyFailures",
     "eventReferenceFailures",
-    "relationshipFailures"
+    "relationshipFailures",
+    "statusConsistencyFailures",
+    "misleadingScoreFailures",
+    "duplicateOutputFailures"
   ].every((field) => report[field].length === 0);
   return report;
 }

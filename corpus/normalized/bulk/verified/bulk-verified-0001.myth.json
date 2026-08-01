@@ -16,22 +16,27 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "verified_by_implementation_review"
+      "reviewStatus": "verified_by_source_audit"
     }
   ],
   "normalizationWarnings": [],
   "semanticQuality": {
-    "score": 100,
     "passed": true,
-    "reasons": [
-      "Exact source text validated against cited Project Gutenberg passages."
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
     ],
-    "failedGates": [],
-    "components": {
-      "sourceGroundedVerification": true
-    }
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
   },
-  "reviewStatus": "verified_by_implementation_review",
+  "reviewStatus": "verified_by_source_audit",
   "title": "The Story of Proserpina",
   "mythFamilyId": "demeter-and-persephone",
   "variantId": "gutenberg-baker-demeter-and-persephone-verified",
@@ -294,7 +299,7 @@
       "location": "sicily",
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when the giants got restless and turned over and over underground (thus causing earthquakes), they would some day make such a large crack in the earth that daylight would be let into Hades.",
       "normalizedStatement": "Jupiter imprisoned the giants under Mount Etna.",
       "evidence": [
@@ -317,7 +322,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "In a moment Pluto had seized her in his strong arms; and, trampling all her violets under his ruthless feet, he sprang into the chariot and urged his horses to their full speed, hoping to reach Hades before the maiden's cries brought Ceres to the rescue.",
       "normalizedStatement": "Pluto seized Proserpina.",
       "evidence": [
@@ -340,7 +345,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Just what had become of Proserpina no one could tell her; so the distracted mother began her search, not knowing whether she might at any moment come upon her daughter's body mangled by the chariot wheels.",
       "normalizedStatement": "Ceres began searching for Proserpina.",
       "evidence": [
@@ -363,7 +368,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Chancing to be near the river Cyane, she went down to the water's edge to drink, and happily discovered the girdle that Proserpina had dropped there in her flight.",
       "normalizedStatement": "Ceres discovered Proserpina's girdle.",
       "evidence": [
@@ -385,7 +390,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Dismayed at this unexpected downfall of her hopes, Ceres was about to shut herself up again in the cave, when Jupiter, in behalf of the suffering earth, made a compromise with Pluto whereby Proserpina was to spend half her time with her mother in the land of sunshine and flowers, and the rest with her husband in cold and cheerless Hades.",
       "normalizedStatement": "Jupiter arranged Proserpina's divided return.",
       "evidence": [

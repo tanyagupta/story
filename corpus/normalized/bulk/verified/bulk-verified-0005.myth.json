@@ -17,22 +17,27 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "verified_by_implementation_review"
+      "reviewStatus": "verified_by_source_audit"
     }
   ],
   "normalizationWarnings": [],
   "semanticQuality": {
-    "score": 100,
     "passed": true,
-    "reasons": [
-      "Exact source text validated against cited Project Gutenberg passages."
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
     ],
-    "failedGates": [],
-    "components": {
-      "sourceGroundedVerification": true
-    }
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
   },
-  "reviewStatus": "verified_by_implementation_review",
+  "reviewStatus": "verified_by_source_audit",
   "title": "Daedalus and Icarus",
   "mythFamilyId": "daedalus-and-icarus",
   "variantId": "gutenberg-berens-daedalus-icarus-verified",
@@ -273,7 +278,7 @@
       "location": "crete",
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "The murder being discovered, Daedalus was summoned before the court of the Areopagus and condemned to death; but he made his escape to the island of Crete, where he was received by king Minos in a manner worthy of his great reputation.",
       "normalizedStatement": "Daedalus escaped to Crete.",
       "evidence": [
@@ -295,7 +300,7 @@
       "location": "crete",
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Daedalus constructed for the king the world-renowned labyrinth, which was an immense building, full of intricate passages, intersecting each other in such a manner, that even Daedalus himself is said, upon one occasion, to have nearly lost his way in it; and it was in this building the king placed the Minotaur, a monster with the head and shoulders of a bull and the body of a man.",
       "normalizedStatement": "Daedalus constructed the labyrinth for Minos.",
       "evidence": [
@@ -317,7 +322,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "He therefore resolved to make his escape, and for this purpose ingeniously contrived wings for himself and his young son Icarus, whom he diligently trained how to use them.",
       "normalizedStatement": "Daedalus made wings for himself and Icarus.",
       "evidence": [
@@ -339,7 +344,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "The consequence was that the wax, by means of which his wings were attached, melted, and he fell into the sea and was drowned.",
       "normalizedStatement": "Icarus fell and drowned.",
       "evidence": [
@@ -361,7 +366,7 @@
       "location": "sicily",
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "After this sad event, Daedalus winged his flight to the island of Sicily, where he met with a kind welcome from {213} king Cocalus, for whom he constructed several important public works.",
       "normalizedStatement": "Daedalus flew to Sicily.",
       "evidence": [

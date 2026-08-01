@@ -1040,7 +1040,6 @@ function semanticQualityReport(candidates, productionRecords, verifiedRecords, p
     narrativeCandidates: candidates.filter((candidate) => candidate.candidateType === "narrative_episode").length,
     approvedRecords: approvedRecordIds.length,
     humanApprovedRecords: approvedRecordIds.length,
-    verifiedByImplementationReview: verifiedRecordIds.length,
     verifiedBySourceAudit: verifiedRecordIds.length,
     awaitingReview: recordsRequiringReview.length,
     rejectedNonStory: candidates.filter((candidate) => candidate.processingStatus === "rejected-non-story").length,
@@ -1191,7 +1190,7 @@ function validateBulk(outputs, candidates, productionRecords, verifiedRecords, d
     }
   });
   verifiedRecords.forEach((myth) => {
-    if (myth.reviewStatus !== "verified_by_implementation_review") errors.push({ type: "invalid-verified-status", file: myth.mythId, message: myth.reviewStatus });
+    if (myth.reviewStatus !== "verified_by_source_audit") errors.push({ type: "invalid-verified-status", file: myth.mythId, message: myth.reviewStatus });
     myth.events.forEach((event) => {
       if (!event.evidence || !event.evidence.length) errors.push({ type: "missing-evidence", file: myth.mythId, message: event.eventId });
       if (likelySentenceFragment(event.sourceText || event.result || event.sourceSentence)) errors.push({ type: "sentence-fragment", file: myth.mythId, message: event.eventId });
@@ -1367,7 +1366,7 @@ runCli(async (args) => {
     fullyNormalizedRecords: productionRecords.length,
     approvedRecords: 0,
     humanApprovedRecords: 0,
-    verifiedByImplementationReview: verifiedRecords.length,
+    verifiedBySourceAudit: verifiedRecords.length,
     machineProposedRecords: productionRecords.length,
     recordsAwaitingReview: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
     rejectedPoorQualityRecords: 0,

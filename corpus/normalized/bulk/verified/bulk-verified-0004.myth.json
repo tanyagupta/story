@@ -16,22 +16,27 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "verified_by_implementation_review"
+      "reviewStatus": "verified_by_source_audit"
     }
   ],
   "normalizationWarnings": [],
   "semanticQuality": {
-    "score": 100,
     "passed": true,
-    "reasons": [
-      "Exact source text validated against cited Project Gutenberg passages."
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
     ],
-    "failedGates": [],
-    "components": {
-      "sourceGroundedVerification": true
-    }
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
   },
-  "reviewStatus": "verified_by_implementation_review",
+  "reviewStatus": "verified_by_source_audit",
   "title": "Perseus and Medusa",
   "mythFamilyId": "perseus-and-medusa",
   "variantId": "gutenberg-berens-perseus-medusa-verified",
@@ -285,7 +290,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Perseus started on his expedition, and, guided by Hermes and Pallas-Athene, arrived, after a long journey, in the far-off region, on the borders of Oceanus, where dwelt the Graeae, daughters of Phorcys and Ceto.",
       "normalizedStatement": "Perseus started the expedition.",
       "evidence": [
@@ -307,7 +312,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Then, guided by Pallas-Athene, he cut off the head of the Medusa, which he placed in his wallet.",
       "normalizedStatement": "Perseus cut off Medusa's head.",
       "evidence": [
@@ -330,7 +335,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "On being informed of the meaning of this tragic scene, Perseus proposed to Cepheus to slay the dragon, on condition that the lovely victim should become his bride.",
       "normalizedStatement": "Perseus proposed to slay the dragon for Andromeda's release.",
       "evidence": [
@@ -352,7 +357,7 @@
       "location": null,
       "causedBy": [],
       "causes": [],
-      "reviewStatus": "verified_by_implementation_review",
+      "reviewStatus": "verified_by_source_audit",
       "sourceText": "Lashing his tail furiously from side to side, he leaped forward to seize his victim; but the gallant hero, watching his opportunity, suddenly darted down, and producing the head of the Medusa from his wallet, held it before the eyes of the dragon, whose hideous body became gradually transformed into a huge black rock, which remained for ever a silent witness of the miraculous deliverance of Andromeda.",
       "normalizedStatement": "Perseus used Medusa's head to transform the dragon.",
       "evidence": [
