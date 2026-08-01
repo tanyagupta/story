@@ -342,5 +342,23 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.65,
+  "failedGates": [
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "cupid",
+    "zeus",
+    "aphrodite",
+    "hephaestus"
+  ],
+  "uncertainEvents": [
+    "event-002",
+    "event-003",
+    "event-004",
+    "event-005"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

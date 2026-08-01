@@ -210,5 +210,18 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.315,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "heracles"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

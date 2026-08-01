@@ -310,5 +310,23 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.515,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "achilles",
+    "bellerophon",
+    "demeter",
+    "artemis",
+    "hermes",
+    "midas"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "requires-boundary-review",
   "reviewStatus": "awaiting_review"
 }

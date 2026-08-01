@@ -282,5 +282,22 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.505,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "antigone",
+    "eurydice",
+    "theseus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

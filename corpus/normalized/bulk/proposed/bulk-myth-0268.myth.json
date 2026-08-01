@@ -195,5 +195,18 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.26,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "ulysses"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

@@ -213,5 +213,20 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.355,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "cupid",
+    "psyche"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

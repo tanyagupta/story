@@ -412,5 +412,27 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.65,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "demeter",
+    "artemis",
+    "midas",
+    "athena",
+    "poseidon"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004",
+    "event-005",
+    "event-006"
+  ],
+  "boundaryStatus": "requires-boundary-review",
   "reviewStatus": "awaiting_review"
 }

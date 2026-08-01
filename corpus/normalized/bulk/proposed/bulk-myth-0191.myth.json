@@ -217,5 +217,18 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.365,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "hera",
+    "zeus",
+    "hephaestus"
+  ],
+  "uncertainEvents": [],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

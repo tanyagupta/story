@@ -340,5 +340,24 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.57,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "helen",
+    "hera",
+    "zeus",
+    "athena",
+    "poseidon",
+    "paris"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003"
+  ],
+  "boundaryStatus": "requires-boundary-review",
   "reviewStatus": "awaiting_review"
 }

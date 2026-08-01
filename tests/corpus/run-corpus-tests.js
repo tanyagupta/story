@@ -520,7 +520,7 @@ test("bulk semantic gates prevent placeholder approvals", () => {
   assert.strictEqual(myths.filter((myth) => myth.reviewStatus === "approved").length, 0);
   verified.forEach((myth) => {
     assert.ok(myth.entities.characters.length > 0);
-    assert.ok(myth.events.every((event) => event.actor && event.actorResolutionConfidence === 1));
+    assert.ok(myth.events.every((event) => event.actor && event.confidence >= 0.85));
     assert.ok(myth.narrative.synopsis);
     assert.ok(myth.narrative.openingSituation);
     assert.ok(myth.narrative.centralConflict);
@@ -552,16 +552,30 @@ test("bulk semantic report and review workflow are populated", () => {
   const semantic = readJson(path.join(root, "corpus/review/semantic-quality-report.json"));
   const structureCheck = readJson(path.join(root, "corpus/review/automated-structure-check.json"));
   const verification = readJson(path.join(root, "corpus/review/codex-source-verification.json"));
+  const audit = readJson(path.join(root, "corpus/review/source-text-audit-report.json"));
   const sampleReview = fs.readdirSync(path.join(root, "corpus/review/bulk")).find((file) => file.endsWith(".review.json"));
   const review = readJson(path.join(root, "corpus/review/bulk", sampleReview));
   assert.strictEqual(semantic.approvedRecords, 0);
+  assert.strictEqual(semantic.verifiedBySourceAudit, 6);
   assert.ok(semantic.verifiedByImplementationReview >= 5);
   assert.ok(semantic.awaitingReview > 0);
   assert.ok(Object.keys(semantic.failedQualityGates).length > 0);
   assert.strictEqual(structureCheck.reviewType, "automated-structure-check");
   assert.ok(structureCheck.note.includes("not a semantic review"));
   assert.strictEqual(verification.reviewType, "Codex source-grounded implementation review");
-  assert.ok(verification.checkedRecords.every((entry) => entry.entityAssessment && entry.eventAssessment && entry.boundaryAssessment));
+  assert.ok(verification.checkedRecords.every((entry) => entry.passagesRead.length && entry.claimsChecked.length && entry.correctionsMade.length));
+  assert.strictEqual(audit.valid, true);
+  [
+    "exactSourceTextFailures",
+    "truncatedExcerptFailures",
+    "entityEvidenceFailures",
+    "unsupportedSupportsFailures",
+    "aliasDuplicationFailures",
+    "boundaryFailures",
+    "crossFieldConsistencyFailures",
+    "eventReferenceFailures",
+    "relationshipFailures"
+  ].forEach((field) => assert.strictEqual(audit[field].length, 0, field));
   assert.ok(review.reviewType);
   assert.ok(review.semanticQuality);
 });
@@ -583,7 +597,8 @@ test("bulk semantic reports are portable and deterministic", () => {
     "corpus/catalog/myths-awaiting-review.json",
     "corpus/catalog/rejected-candidates.json",
     "corpus/review/automated-structure-check.json",
-    "corpus/review/codex-source-verification.json"
+    "corpus/review/codex-source-verification.json",
+    "corpus/review/source-text-audit-report.json"
   ].map((file) => path.join(root, file));
   const before = files.map(hashFile);
   runBulkSources();
@@ -605,8 +620,11 @@ test("bulk verified Proserpina corrects aliases, actors, and outcome", () => {
   assert.ok(/abducts|seizes|abduction/i.test(myth.narrative.centralConflict));
   assert.ok(!/Ceres wandering/i.test(myth.narrative.outcome));
   assert.ok(myth.events.some((event) => event.actor === "hades" && event.action === "capture" && event.target === "persephone"));
+  assert.ok(myth.events.some((event) => event.actor === "hades" && event.sourceText.includes("Pluto had seized her") && event.normalizedStatement.includes("Proserpina")));
   assert.ok(!myth.events.some((event) => event.actor === "demeter" && event.target === "hades"));
   assert.ok(myth.events.some((event) => event.actor === "zeus" && event.action === "imprison" && event.target === "giants"));
+  assert.ok(!myth.entities.characters.includes("pluto"));
+  assert.strictEqual(myth.scope.type, "partial-section");
 });
 
 test("bulk verified Golden Fleece opening keeps participants and boundary accurate", () => {
@@ -616,7 +634,9 @@ test("bulk verified Golden Fleece opening keeps participants and boundary accura
   assert.notStrictEqual(myth.initialState[0].subject, "achilles");
   assert.ok(!myth.events.some((event) => event.actor === "hermes" && event.action === "capture"));
   assert.ok(myth.events.some((event) => event.actor === "phryxus" && event.action === "travel" && event.location === "colchis"));
-  assert.strictEqual(myth.scope, "coherent-subepisode");
+  assert.ok(myth.events.some((event) => event.actor === "ino" && event.normalizedStatement.includes("Helle and Phryxus")));
+  assert.ok(myth.events.some((event) => event.actor === "nephele" && event.action === "rescue"));
+  assert.strictEqual(myth.scope.type, "coherent-subepisode");
   assert.ok(!/join Jason/i.test(myth.narrative.outcome));
 });
 
@@ -637,8 +657,48 @@ test("bulk proposed extraction records actor resolution confidence and family ru
   const heraclidae = proposed.find((myth) => myth.title === "THE HERACLIDAE.");
   assert.ok(heraclidae);
   assert.strictEqual(heraclidae.mythFamilyId, "heraclidae");
+  assert.ok(proposed.every((myth) => myth.reviewStatus === "awaiting_review"));
+  assert.ok(proposed.every((myth) => typeof myth.confidence === "number"));
+  assert.ok(proposed.every((myth) => Array.isArray(myth.failedGates)));
+  assert.ok(proposed.every((myth) => Array.isArray(myth.uncertainEntities)));
+  assert.ok(proposed.every((myth) => Array.isArray(myth.uncertainEvents)));
+  assert.ok(proposed.every((myth) => myth.boundaryStatus));
   assert.ok(proposed.every((myth) => myth.events.every((event) => typeof event.actorResolutionConfidence === "number")));
   assert.ok(proposed.some((myth) => myth.events.some((event) => event.actorResolutionConfidence === 0)));
+});
+
+test("bulk verified records use exact sourceText and targeted entity evidence", () => {
+  runBulkSources();
+  const passageDocs = {};
+  [
+    "corpus/passages/gutenberg-guerber-myths-greece-rome-eng.passages.json",
+    "corpus/passages/gutenberg-berens-myths-legends-greece-rome-eng.passages.json",
+    "corpus/passages/gutenberg-baker-stories-old-greece-rome-eng.passages.json"
+  ].forEach((file) => {
+    readJson(path.join(root, file)).passages.forEach((passage) => {
+      passageDocs[passage.passageId] = passage.text;
+    });
+  });
+  bulkMyths().filter((myth) => myth.reviewStatus === "verified_by_implementation_review").forEach((myth) => {
+    myth.events.forEach((event) => {
+      assert.ok(event.sourceText);
+      assert.ok(event.normalizedStatement);
+      event.evidence.forEach((item) => assert.ok(passageDocs[item.passageId].includes(event.sourceText), `${myth.title} ${event.eventId}`));
+      assert.ok(!event.sourceSentence);
+      assert.ok(!event.sourceClause);
+    });
+    myth.evidenceSummary.forEach((item) => {
+      assert.ok(passageDocs[item.passageId].includes(item.sourceText));
+      assert.ok(/[.!?]"?$/.test(item.sourceText));
+      assert.ok(item.supports.every((support) => support.evidenceType && support.rationale));
+    });
+    myth.entityMappings.forEach((mapping) => {
+      mapping.evidence.forEach((item) => {
+        assert.ok(passageDocs[item.passageId].includes(item.sourceText));
+        assert.ok(item.sourceText.includes(mapping.sourceName) || item.coreferenceNote);
+      });
+    });
+  });
 });
 
 fs.rmSync(tempRoot, { recursive: true, force: true });

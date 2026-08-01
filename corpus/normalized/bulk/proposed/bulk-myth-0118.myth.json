@@ -359,5 +359,22 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.65,
+  "failedGates": [
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "cupid",
+    "zeus",
+    "athena",
+    "aphrodite",
+    "hephaestus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

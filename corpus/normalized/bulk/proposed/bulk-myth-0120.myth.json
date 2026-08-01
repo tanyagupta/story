@@ -330,5 +330,24 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.57,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "achilles",
+    "cadmus",
+    "demeter",
+    "poseidon",
+    "athamas",
+    "ceyx"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

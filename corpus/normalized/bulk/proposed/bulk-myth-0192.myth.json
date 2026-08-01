@@ -291,5 +291,20 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.41,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "pandora"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003"
+  ],
+  "boundaryStatus": "requires-boundary-review",
   "reviewStatus": "awaiting_review"
 }

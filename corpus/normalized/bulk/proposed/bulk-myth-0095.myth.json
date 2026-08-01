@@ -408,5 +408,27 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.65,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "hermes",
+    "perseus",
+    "zeus",
+    "eurystheus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-005",
+    "event-006",
+    "event-007",
+    "event-008"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

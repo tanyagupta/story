@@ -295,5 +295,20 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.49,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "niobe"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-004"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

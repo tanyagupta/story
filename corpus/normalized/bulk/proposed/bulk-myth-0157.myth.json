@@ -251,5 +251,20 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.46,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "hermes",
+    "pandora",
+    "prometheus",
+    "epimetheus"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

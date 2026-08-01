@@ -356,5 +356,24 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.585,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "io",
+    "hera",
+    "zeus",
+    "hermes",
+    "zeus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

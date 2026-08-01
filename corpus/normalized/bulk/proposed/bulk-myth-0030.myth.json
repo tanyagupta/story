@@ -441,5 +441,27 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.65,
+  "failedGates": [
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "zeus",
+    "medusa",
+    "hermes",
+    "athena",
+    "perseus",
+    "hades"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004",
+    "event-005",
+    "event-007",
+    "event-008"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

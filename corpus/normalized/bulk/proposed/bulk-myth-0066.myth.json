@@ -449,5 +449,27 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.65,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "heracles",
+    "hera",
+    "poseidon",
+    "eurystheus",
+    "minos"
+  ],
+  "uncertainEvents": [
+    "event-002",
+    "event-003",
+    "event-004",
+    "event-005",
+    "event-006",
+    "event-007",
+    "event-008"
+  ],
+  "boundaryStatus": "requires-boundary-review",
   "reviewStatus": "awaiting_review"
 }

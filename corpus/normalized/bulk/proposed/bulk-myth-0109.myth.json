@@ -329,5 +329,25 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.64,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "jason",
+    "poseidon",
+    "argonauts",
+    "chiron",
+    "phryxus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004",
+    "event-005"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

@@ -13,7 +13,7 @@
             "Proserpina"
           ],
           "role": "captured participant",
-          "reason": "Pluto seizes her, Ceres searches for her, and Jupiter's compromise determines where she lives.",
+          "reason": "She is seized by Pluto and becomes the subject of Ceres' search and Jupiter's compromise.",
           "evidence": [
             "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
             "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
@@ -25,7 +25,7 @@
             "Ceres"
           ],
           "role": "searching mother",
-          "reason": "Ceres searches for Proserpina and withholds care from the earth while mourning.",
+          "reason": "She searches for Proserpina and neglects the earth while mourning.",
           "evidence": [
             "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
             "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e"
@@ -37,14 +37,13 @@
             "Pluto"
           ],
           "role": "captor",
-          "reason": "Pluto explicitly seizes Proserpina and takes her into Hades.",
+          "reason": "The source says Pluto seizes Proserpina and takes her below.",
           "evidence": [
-            "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
-            "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09"
+            "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816"
           ]
         }
       ],
-      "synopsis": "Pluto seizes Proserpina in Sicily and takes her into Hades. Ceres searches for her daughter and neglects the earth until Jupiter arranges a compromise that returns Proserpina for part of each year.",
+      "synopsis": "Pluto seizes Proserpina in Sicily and carries her into Hades. Ceres searches for her daughter and neglects the earth until famine moves Jupiter to arrange a compromise that divides Proserpina's time between her mother and Pluto.",
       "eventCount": 5,
       "reviewStatus": "verified_by_implementation_review",
       "file": "corpus/normalized/bulk/verified/bulk-verified-0001.myth.json"
@@ -60,8 +59,8 @@
           "sourceNames": [
             "Phryxus"
           ],
-          "role": "fugitive child",
-          "reason": "Phryxus escapes on the ram and arrives safely at Colchis.",
+          "role": "surviving child",
+          "reason": "He rides the ram and reaches Colchis.",
           "evidence": [
             "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
             "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
@@ -72,8 +71,8 @@
           "sourceNames": [
             "Helle"
           ],
-          "role": "fugitive child",
-          "reason": "Helle escapes with Phryxus but falls into the sea and drowns.",
+          "role": "endangered child",
+          "reason": "She flees with Phryxus but falls into the sea and drowns.",
           "evidence": [
             "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
           ]
@@ -83,15 +82,26 @@
           "sourceNames": [
             "Nephele"
           ],
-          "role": "protector",
-          "reason": "Nephele saves the children from Ino's designs by placing them on the ram.",
+          "role": "rescuer",
+          "reason": "She gets the children out of the palace and places them on the ram.",
+          "evidence": [
+            "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
+          ]
+        },
+        {
+          "entityId": "ino",
+          "sourceNames": [
+            "Ino"
+          ],
+          "role": "threat",
+          "reason": "She hates her stepchildren and plans their destruction.",
           "evidence": [
             "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f"
           ]
         }
       ],
-      "synopsis": "Athamas marries Nephele, and their children Helle and Phryxus are endangered by Ino. Nephele saves the children on a golden-fleeced ram; Helle falls into the sea, while Phryxus reaches Colchis and gives the fleece to Aetes.",
-      "eventCount": 5,
+      "synopsis": "Ino plots against Helle and Phryxus, the children of Athamas and Nephele. Nephele rescues them on a golden-fleeced ram; Helle falls into the sea and drowns, while Phryxus reaches Colchis and gives the fleece to Aetes.",
+      "eventCount": 6,
       "reviewStatus": "verified_by_implementation_review",
       "file": "corpus/normalized/bulk/verified/bulk-verified-0002.myth.json"
     },
@@ -108,7 +118,7 @@
             "children of Heracles"
           ],
           "role": "persecuted descendants",
-          "reason": "They flee Eurystheus, seek refuge, fight for their inheritance, and eventually obtain the Peloponnesus.",
+          "reason": "They flee Eurystheus, seek refuge, and later obtain the Peloponnesus.",
           "evidence": [
             "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628",
             "gutenberg:ebooks:22381:331.331.15-331.331.15:fdad853c"
@@ -120,7 +130,7 @@
             "Eurystheus"
           ],
           "role": "persecutor",
-          "reason": "Eurystheus persecutes Heracles' children and demands their surrender.",
+          "reason": "He persecutes Heracles' children and demands their surrender.",
           "evidence": [
             "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628"
           ]
@@ -131,15 +141,27 @@
             "Iolaus"
           ],
           "role": "protector",
-          "reason": "Iolaus guides the Heraclidae and borrows Hyllus' chariot in battle.",
+          "reason": "He guides the Heraclidae and borrows Hyllus' chariot in battle.",
           "evidence": [
             "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628",
             "gutenberg:ebooks:22381:331.331.4-331.331.4:0fdbe390"
           ]
+        },
+        {
+          "entityId": "hyllus",
+          "sourceNames": [
+            "Hyllus"
+          ],
+          "role": "claimant",
+          "reason": "He arrives with an army and later claims the paternal inheritance.",
+          "evidence": [
+            "gutenberg:ebooks:22381:331.331.3-331.331.3:245b0c1b",
+            "gutenberg:ebooks:22381:331.331.8-331.331.8:560cd77e"
+          ]
         }
       ],
-      "synopsis": "Eurystheus persecutes the children of Heracles, who flee with Iolaus and seek refuge at Athens. Macaria sacrifices herself, Hyllus arrives with an army, and Iolaus borrows Hyllus' chariot in the battle before the Heraclidae eventually gain the Peloponnesus.",
-      "eventCount": 5,
+      "synopsis": "Eurystheus persecutes the children of Heracles, who flee with Iolaus and seek refuge at Athens. Macaria sacrifices herself, Hyllus arrives with an army, and Iolaus borrows Hyllus' chariot in battle; the wider section later ends with the Heraclidae obtaining the Peloponnesus.",
+      "eventCount": 6,
       "reviewStatus": "verified_by_implementation_review",
       "file": "corpus/normalized/bulk/verified/bulk-verified-0003.myth.json"
     },
@@ -155,7 +177,7 @@
             "Perseus"
           ],
           "role": "hero",
-          "reason": "Perseus undertakes the expedition, slays Medusa, and rescues Andromeda.",
+          "reason": "He undertakes the Medusa expedition and rescues Andromeda.",
           "evidence": [
             "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
             "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7",
@@ -167,8 +189,8 @@
           "sourceNames": [
             "Medusa"
           ],
-          "role": "target",
-          "reason": "The slaying of Medusa is the deed selected for Perseus.",
+          "role": "quest target",
+          "reason": "The selected deed is the slaying of Medusa.",
           "evidence": [
             "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
             "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7"
@@ -180,14 +202,14 @@
             "Andromeda"
           ],
           "role": "rescued participant",
-          "reason": "Perseus releases Andromeda from the sea monster.",
+          "reason": "Perseus uses Medusa's head to deliver Andromeda.",
           "evidence": [
             "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
             "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65"
           ]
         }
       ],
-      "synopsis": "Perseus undertakes the slaying of Medusa, receives guidance and magical equipment, cuts off Medusa's head, and later uses it to save Andromeda from the sea monster.",
+      "synopsis": "Perseus undertakes the Medusa expedition with divine guidance, cuts off Medusa's head, and later uses it to deliver Andromeda from the sea monster.",
       "eventCount": 4,
       "reviewStatus": "verified_by_implementation_review",
       "file": "corpus/normalized/bulk/verified/bulk-verified-0004.myth.json"
@@ -204,7 +226,7 @@
             "Daedalus"
           ],
           "role": "inventor and fugitive",
-          "reason": "Daedalus constructs the labyrinth, makes wings, and escapes Crete.",
+          "reason": "He constructs the labyrinth, makes wings, and escapes Crete.",
           "evidence": [
             "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7",
             "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
@@ -216,7 +238,7 @@
             "Icarus"
           ],
           "role": "son",
-          "reason": "Icarus flies with Daedalus, ignores the warning, falls, and drowns.",
+          "reason": "He flies with Daedalus, ignores the warning, falls, and drowns.",
           "evidence": [
             "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
           ]
@@ -227,14 +249,14 @@
             "Minos"
           ],
           "role": "detaining king",
-          "reason": "Minos keeps Daedalus almost a prisoner and later seeks his surrender.",
+          "reason": "He keeps Daedalus almost a prisoner and later demands his surrender.",
           "evidence": [
             "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
             "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
           ]
         }
       ],
-      "synopsis": "Daedalus serves Minos in Crete but becomes almost a prisoner. He makes wings for himself and Icarus; Icarus flies too near the sun, falls into the sea, and drowns, while Daedalus reaches Sicily.",
+      "synopsis": "Daedalus reaches Crete and serves Minos, who later keeps him almost a prisoner. Daedalus makes wings for himself and Icarus; Icarus flies too near the sun and drowns, while Daedalus reaches Sicily.",
       "eventCount": 5,
       "reviewStatus": "verified_by_implementation_review",
       "file": "corpus/normalized/bulk/verified/bulk-verified-0005.myth.json"
@@ -251,9 +273,8 @@
             "Pandora"
           ],
           "role": "opener of the box",
-          "reason": "Pandora receives the box, opens it, and later releases Hope.",
+          "reason": "She opens the box and later releases Hope.",
           "evidence": [
-            "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
             "gutenberg:ebooks:39250:53.53.5-53.53.5:603cf055",
             "gutenberg:ebooks:39250:53.53.9-53.53.9:88c95c92"
           ]
@@ -264,7 +285,7 @@
             "Epimetheus"
           ],
           "role": "affected companion",
-          "reason": "Epimetheus permits the box to be stored and is stung by the released evils.",
+          "reason": "He receives the box with Pandora and is harmed by the released evils.",
           "evidence": [
             "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
             "gutenberg:ebooks:39250:53.53.6-53.53.6:b6b1fdda",
@@ -284,7 +305,7 @@
           ]
         }
       ],
-      "synopsis": "Mercury brings a mysterious box to Pandora and Epimetheus. Pandora opens it, releasing evils that afflict humanity, but Hope remains and is later released to heal and comfort.",
+      "synopsis": "Mercury leaves a mysterious box with Pandora and Epimetheus. Pandora opens it, releasing the evils Jupiter had placed there, but Hope remains and is later released to heal and comfort.",
       "eventCount": 5,
       "reviewStatus": "verified_by_implementation_review",
       "file": "corpus/normalized/bulk/verified/bulk-verified-0006.myth.json"

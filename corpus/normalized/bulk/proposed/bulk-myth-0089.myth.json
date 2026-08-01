@@ -345,5 +345,24 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.57,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "atalanta",
+    "heracles",
+    "io",
+    "poseidon",
+    "prometheus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003"
+  ],
+  "boundaryStatus": "requires-boundary-review",
   "reviewStatus": "awaiting_review"
 }

@@ -362,5 +362,25 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.625,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "achilles",
+    "circe",
+    "europa",
+    "heracles",
+    "zeus",
+    "poseidon"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004"
+  ],
+  "boundaryStatus": "requires-boundary-review",
   "reviewStatus": "awaiting_review"
 }

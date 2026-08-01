@@ -270,5 +270,23 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.475,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "bacchus",
+    "hera",
+    "zeus",
+    "athamas",
+    "ino"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

@@ -383,5 +383,24 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.64,
+  "failedGates": [
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "atlas",
+    "dionysus",
+    "zeus",
+    "arethusa"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004",
+    "event-005"
+  ],
+  "boundaryStatus": "requires-boundary-review",
   "reviewStatus": "awaiting_review"
 }

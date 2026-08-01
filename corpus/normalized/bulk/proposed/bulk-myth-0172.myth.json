@@ -249,5 +249,19 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.34,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "zeus",
+    "prometheus",
+    "hephaestus"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "requires-boundary-review",
   "reviewStatus": "awaiting_review"
 }

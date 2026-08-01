@@ -171,5 +171,22 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.15,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "no-object-target-recipient-location-or-outcome",
+    "no-central-conflict-or-change",
+    "no-outcome",
+    "no-storyline",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "echo",
+    "narcissus",
+    "aphrodite"
+  ],
+  "uncertainEvents": [],
+  "boundaryStatus": "machine-proposed-section-boundary",
   "reviewStatus": "awaiting_review"
 }

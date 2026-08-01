@@ -333,5 +333,20 @@
       "knownMythFamily": true
     }
   },
+  "confidence": 0.48,
+  "failedGates": [
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "cassandra"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004",
+    "event-005"
+  ],
+  "boundaryStatus": "requires-boundary-review",
   "reviewStatus": "awaiting_review"
 }
