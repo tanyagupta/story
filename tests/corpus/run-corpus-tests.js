@@ -14,7 +14,9 @@ const {
   validateCorpus,
   sha256File,
   writeJson,
-  readJson
+  readJson,
+  portablePath,
+  portableReportValue
 } = require("../../src/corpus/corpus-core");
 
 const root = path.resolve(__dirname, "../..");
@@ -60,6 +62,10 @@ function runOne(name) {
 
 function hashFile(file) {
   return crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex");
+}
+
+function stringify(value) {
+  return JSON.stringify(value, null, 2);
 }
 
 function runRealSources() {
@@ -236,6 +242,53 @@ test("validates schemas and detects duplicate myth IDs", () => {
   assert.ok(report.errors.some((error) => error.type === "duplicate-myth-id"));
 });
 
+test("validation report paths are deterministic and portable", () => {
+  const files = runOne("prose");
+  const facts = readJson(files.facts);
+  facts.events[0].evidence = [];
+  const badFacts = path.join(files.dir, "bad.facts.json");
+  writeJson(badFacts, facts);
+  const report = validateCorpus({ schemaDir: path.join(root, "schemas"), extracted: [badFacts] });
+  const serialized = stringify(report);
+  assert.ok(!serialized.includes(root));
+  assert.ok(!serialized.includes("/Users/"));
+  assert.ok(!serialized.includes("/workspaces/"));
+  assert.ok(!/[A-Za-z]:\\/.test(serialized));
+  report.errors.forEach((error) => {
+    assert.ok(!error.file.includes("\\"));
+  });
+});
+
+test("portable report conversion is stable across checkout roots", () => {
+  const macReport = {
+    warnings: [
+      {
+        type: "ambiguous-normalization",
+        file: "/Users/tanyagupta/story/corpus/normalized/homeric-hymn-7-dionysus.myth.json",
+        sourcePath: "/Users/tanyagupta/story/corpus/review/homeric-hymn-7-dionysus.review.json",
+        details: [{ file: "/Users/tanyagupta/story/corpus/passages/example.passages.json", path: "/events/0/evidence" }]
+      }
+    ]
+  };
+  const codespacesReport = {
+    warnings: [
+      {
+        type: "ambiguous-normalization",
+        file: "/workspaces/story/corpus/normalized/homeric-hymn-7-dionysus.myth.json",
+        sourcePath: "/workspaces/story/corpus/review/homeric-hymn-7-dionysus.review.json",
+        details: [{ file: "/workspaces/story/corpus/passages/example.passages.json", path: "/events/0/evidence" }]
+      }
+    ]
+  };
+  const portableMac = portableReportValue(macReport, "/Users/tanyagupta/story");
+  const portableCodespaces = portableReportValue(codespacesReport, "/workspaces/story");
+  assert.deepStrictEqual(portableMac, portableCodespaces);
+  assert.strictEqual(portableMac.warnings[0].file, "corpus/normalized/homeric-hymn-7-dionysus.myth.json");
+  assert.strictEqual(portableMac.warnings[0].sourcePath, "corpus/review/homeric-hymn-7-dionysus.review.json");
+  assert.strictEqual(portableMac.warnings[0].details[0].path, "/events/0/evidence");
+  assert.strictEqual(portablePath("C:\\workspaces\\story\\corpus\\review\\report.json", "C:\\workspaces\\story"), "corpus/review/report.json");
+});
+
 test("runs an end-to-end fixture pipeline with valid report", () => {
   const files = runOne("prose");
   const report = validateCorpus({
@@ -349,6 +402,21 @@ test("complete real-source runner succeeds offline and is deterministic", () => 
   const after = files.map(hashFile);
   assert.deepStrictEqual(before, after);
   assert.strictEqual(readJson(path.join(root, "corpus/review/real-sources.validation-report.json")).valid, true);
+});
+
+test("real-source validation reports use portable paths without changing warning counts", () => {
+  runRealSources();
+  const report = readJson(path.join(root, "corpus/review/real-sources.validation-report.json"));
+  const serialized = stringify(report);
+  assert.ok(!serialized.includes(root));
+  assert.ok(!serialized.includes("/Users/"));
+  assert.ok(!serialized.includes("/workspaces/"));
+  assert.ok(!/[A-Za-z]:\\/.test(serialized));
+  assert.strictEqual(report.warnings.length, 1);
+  assert.ok(report.warnings.some((warning) => warning.file === "corpus/normalized/homeric-hymn-7-dionysus.myth.json"));
+  report.errors.concat(report.warnings).forEach((item) => {
+    if (item.file) assert.ok(!item.file.includes("\\"));
+  });
 });
 
 test("bulk Project Gutenberg runner preserves raw sources and excludes boilerplate", () => {

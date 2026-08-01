@@ -57,6 +57,80 @@ function stableHash(value, length) {
   return crypto.createHash("sha1").update(value).digest("hex").slice(0, length || 10);
 }
 
+function isUrl(value) {
+  return /^[a-z][a-z0-9+.-]*:\/\//i.test(String(value || ""));
+}
+
+function looksLikeFilePath(value) {
+  const text = String(value || "");
+  return /[\\/]/.test(text) || /^[A-Za-z]:[\\/]/.test(text) || /^\.\.?($|[\\/])/.test(text);
+}
+
+function stripKnownRepoPath(normalized) {
+  const anchors = [
+    "corpus/",
+    "schemas/",
+    "src/",
+    "tests/",
+    "docs/",
+    "package.json",
+    "package-lock.json"
+  ];
+  for (const anchor of anchors) {
+    if (normalized === anchor.replace(/\/$/, "")) return normalized;
+    if (normalized.startsWith(anchor)) return normalized;
+    const index = normalized.indexOf(`/${anchor}`);
+    if (index >= 0) return normalized.slice(index + 1);
+  }
+  return null;
+}
+
+function portablePath(file, root) {
+  if (typeof file !== "string" || !file) return file;
+  if (isUrl(file) || !looksLikeFilePath(file)) return file;
+
+  const reportRoot = path.resolve(root || process.cwd());
+  const normalizedRoot = reportRoot.replace(/\\/g, "/").replace(/\/+$/, "");
+  const normalizedFile = file.replace(/\\/g, "/");
+  const lowerRoot = normalizedRoot.toLowerCase();
+  const lowerFile = normalizedFile.toLowerCase();
+
+  if (lowerFile === lowerRoot) return ".";
+  if (lowerFile.startsWith(`${lowerRoot}/`)) {
+    return normalizedFile.slice(normalizedRoot.length + 1);
+  }
+
+  const known = stripKnownRepoPath(normalizedFile);
+  if (known) return known;
+
+  if (path.isAbsolute(file)) {
+    const relative = path.relative(reportRoot, file).replace(/\\/g, "/");
+    const relativeKnown = stripKnownRepoPath(relative);
+    if (relativeKnown) return relativeKnown;
+    if (!relative.startsWith("../") && relative !== "..") return relative;
+    return path.basename(file);
+  }
+
+  return normalizedFile.replace(/^\.\//, "");
+}
+
+function portableReportValue(value, root) {
+  if (Array.isArray(value)) return value.map((item) => portableReportValue(item, root));
+  if (!value || typeof value !== "object") return value;
+  return Object.fromEntries(Object.entries(value).map(([key, entry]) => {
+    const shouldPortable =
+      typeof entry === "string" &&
+      looksLikeFilePath(entry) &&
+      (/^[A-Za-z]:[\\/]/.test(entry) ||
+        /^\/(Users|workspaces|home)\//.test(entry) ||
+        stripKnownRepoPath(entry.replace(/\\/g, "/")));
+    if (shouldPortable) {
+      return [key, portablePath(entry, root)];
+    }
+    return [key, portableReportValue(entry, root)];
+  }));
+}
+
 function asArray(value) {
   if (value === undefined || value === null) return [];
   return Array.isArray(value) ? value : [value];
@@ -603,10 +677,16 @@ function uniqueReviewItems(items) {
 
 function validateCorpus(opts) {
   const schemaDir = opts.schemaDir || path.resolve(process.cwd(), "schemas");
+  const reportRoot = opts.reportRoot || process.cwd();
   const report = { valid: true, errors: [], warnings: [] };
   function addError(type, file, message, details) {
     report.valid = false;
-    report.errors.push({ type, file, message, details: details || null });
+    report.errors.push({
+      type,
+      file: portablePath(file, reportRoot),
+      message,
+      details: details ? portableReportValue(details, reportRoot) : null
+    });
   }
   function validateFile(file, schemaName) {
     try {
@@ -703,7 +783,11 @@ function validateCorpus(opts) {
     });
     asArray(myth.normalizationWarnings).forEach((item) => {
       if (item.issueType === "unresolved-person-name" || item.issueType === "unsupported-action" || item.issueType === "ambiguous-normalization") {
-        report.warnings.push({ type: item.issueType, file, message: `${item.sourceValue || item.recordId} remains open for review` });
+        report.warnings.push({
+          type: item.issueType,
+          file: portablePath(file, reportRoot),
+          message: `${item.sourceValue || item.recordId} remains open for review`
+        });
       }
     });
     if (!RECORD_REVIEW_STATUSES.has(myth.reviewStatus)) addError("invalid-review-status", file, `Invalid review status ${myth.reviewStatus}`);
@@ -732,6 +816,8 @@ module.exports = {
   buildMythRecord,
   validateCorpus,
   validateWithSchema,
+  portablePath,
+  portableReportValue,
   reviewItem,
   uniqueReviewItems
 };
