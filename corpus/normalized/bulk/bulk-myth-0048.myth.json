@@ -1,0 +1,112 @@
+{
+  "mythId": "bulk-myth-0048",
+  "mythFamilyId": "edwin-arnold",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-edwin-arnold-d1304a",
+  "title": "Edwin Arnold.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985",
+      "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "source-section",
+      "predicate": "is introduced in",
+      "object": "Edwin Arnold.",
+      "evidence": [
+        "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "went",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "had",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "source-section",
+      "predicate": "is last attested in selected candidate",
+      "object": "Edwin Arnold.",
+      "evidence": [
+        "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

@@ -1,0 +1,128 @@
+{
+  "mythId": "bulk-myth-0031",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-d34372",
+  "title": "Addison.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:135.135.1-135.135.1:c09c3a37",
+      "gutenberg:ebooks:39250:135.135.2-135.135.2:97b9cfe2",
+      "gutenberg:ebooks:39250:135.135.3-135.135.3:9c826a15",
+      "gutenberg:ebooks:39250:135.135.4-135.135.4:ab7d4fe3",
+      "gutenberg:ebooks:39250:135.135.5-135.135.5:7ae9f873"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:135.135.1-135.135.1:c09c3a37"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "is introduced in",
+      "object": "Addison.",
+      "evidence": [
+        "gutenberg:ebooks:39250:135.135.1-135.135.1:c09c3a37"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "apollo",
+      "action": "describe",
+      "sourceAction": "had",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:135.135.1-135.135.1:c09c3a37"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "had",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:135.135.2-135.135.2:97b9cfe2"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "were",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:135.135.3-135.135.3:9c826a15"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "is last attested in selected candidate",
+      "object": "Addison.",
+      "evidence": [
+        "gutenberg:ebooks:39250:135.135.5-135.135.5:7ae9f873"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

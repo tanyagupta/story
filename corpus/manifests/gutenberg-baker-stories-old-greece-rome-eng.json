@@ -1,0 +1,41 @@
+{
+  "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "repository": "Project Gutenberg",
+  "commit": "Project Gutenberg eBook #45489; release 2014-04-25; last updated 2024-10-24",
+  "file": "https://www.gutenberg.org/ebooks/45489.txt.utf-8",
+  "canonicalIdentifier": "gutenberg:ebooks:45489",
+  "language": "eng",
+  "author": "Emilie K. Baker",
+  "work": "Stories of Old Greece and Rome",
+  "edition": "Project Gutenberg UTF-8 plain-text edition of Stories of Old Greece and Rome",
+  "translator": null,
+  "publicationDate": "1913",
+  "license": "Project Gutenberg License; public-domain basis in the United States",
+  "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+  "retrievedAt": "2026-08-01T00:00:00Z",
+  "sourceType": "public-domain-retelling",
+  "downloadFormat": "text/plain; charset=utf-8",
+  "projectGutenbergEbook": "45489",
+  "releaseDate": "2014-04-25",
+  "updatedDate": "2024-10-24",
+  "publicationDateNotes": null,
+  "transformationNotes": "Raw source is preserved unchanged. Project Gutenberg boilerplate is excluded only from the derived TEI used for passage extraction.",
+  "licensingNotes": "Project Gutenberg identifies this ebook as public domain for use in the United States under the Project Gutenberg License. Users outside the United States should check local law.",
+  "rawSource": {
+    "path": "corpus/sources/raw/gutenberg/baker-stories-old-greece-rome-45489.txt",
+    "checksumAlgorithm": "sha256",
+    "checksum": "9cbaa08dbd6d5a568c304f189df926d50728d0f70741c60fd952f1d540238a73"
+  },
+  "derivedSource": {
+    "path": "corpus/sources/derived/gutenberg-baker-stories-old-greece-rome-eng.tei.xml",
+    "checksumAlgorithm": "sha256",
+    "checksum": "a48e431133c3dfc08b72ad0e703a406b9f3499e474ff60fc5c57cc0643a4c8dd",
+    "conversionVersion": "bulk-gutenberg-tei-v1",
+    "deterministicRules": [
+      "Project Gutenberg boilerplate between START and END markers is excluded from derived body.",
+      "Heading-like source lines create TEI div boundaries.",
+      "Non-heading contiguous text lines form TEI paragraph elements.",
+      "Original wording is preserved; line wrapping may be normalized inside paragraph elements."
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "mythId": "bulk-myth-0018",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-29a75e",
+  "title": "Wordsworth.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+      "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3",
+      "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4",
+      "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "roman-neptune"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Neptune",
+      "normalizedId": "roman-neptune",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "is introduced in",
+      "object": "Wordsworth.",
+      "evidence": [
+        "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "apollo",
+      "action": "travel",
+      "sourceAction": "went",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "apollo",
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "is last attested in selected candidate",
+      "object": "Wordsworth.",
+      "evidence": [
+        "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

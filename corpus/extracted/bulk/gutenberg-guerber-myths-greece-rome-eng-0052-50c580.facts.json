@@ -1,0 +1,126 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0052-50c580",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Mercury",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Pandora",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "pandora",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Prometheus",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "prometheus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "had",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.2-52.52.2:f49d10a8"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "were",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-mercury",
+      "predicate": "is introduced in",
+      "object": "Saturnian Jove.",
+      "evidence": [
+        "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-mercury",
+      "predicate": "is last attested in selected candidate",
+      "object": "Saturnian Jove.",
+      "evidence": [
+        "gutenberg:ebooks:39250:52.52.4-52.52.4:8e66e4d9"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

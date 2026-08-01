@@ -1,0 +1,83 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0030-2e1004",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:30.30.1-30.30.1:5cb71c13"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "gave",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:30.30.2-30.30.2:c7b7ef27"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "were",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:30.30.3-30.30.3:9181238f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "source-section",
+      "predicate": "is introduced in",
+      "object": "THE BEGINNING OF ALL THINGS.",
+      "evidence": [
+        "gutenberg:ebooks:39250:30.30.1-30.30.1:5cb71c13"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "source-section",
+      "predicate": "is last attested in selected candidate",
+      "object": "THE BEGINNING OF ALL THINGS.",
+      "evidence": [
+        "gutenberg:ebooks:39250:30.30.18-30.30.18:c6c8acd7"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

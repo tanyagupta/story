@@ -1,0 +1,142 @@
+{
+  "mythId": "bulk-myth-0050",
+  "mythFamilyId": "keats",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-keats-b2e234",
+  "title": "Keats.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:190.190.1-190.190.1:6d9c81f6",
+      "gutenberg:ebooks:39250:190.190.2-190.190.2:45ac956e",
+      "gutenberg:ebooks:39250:190.190.3-190.190.3:f4d7d8d7",
+      "gutenberg:ebooks:39250:190.190.4-190.190.4:9f0ea985",
+      "gutenberg:ebooks:39250:190.190.5-190.190.5:33c4c844",
+      "gutenberg:ebooks:39250:190.190.6-190.190.6:5b453410",
+      "gutenberg:ebooks:39250:190.190.7-190.190.7:b9483f51",
+      "gutenberg:ebooks:39250:190.190.8-190.190.8:73a59706"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "echo",
+      "narcissus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Echo",
+      "normalizedId": "echo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:190.190.1-190.190.1:6d9c81f6"
+        }
+      ]
+    },
+    {
+      "sourceName": "Narcissus",
+      "normalizedId": "narcissus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:190.190.1-190.190.1:6d9c81f6"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "echo",
+      "predicate": "is introduced in",
+      "object": "Keats.",
+      "evidence": [
+        "gutenberg:ebooks:39250:190.190.1-190.190.1:6d9c81f6"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:190.190.1-190.190.1:6d9c81f6"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:190.190.2-190.190.2:45ac956e"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "caught",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:190.190.3-190.190.3:f4d7d8d7"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "echo",
+      "predicate": "is last attested in selected candidate",
+      "object": "Keats.",
+      "evidence": [
+        "gutenberg:ebooks:39250:190.190.8-190.190.8:73a59706"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

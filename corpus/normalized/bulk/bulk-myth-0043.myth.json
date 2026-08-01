@@ -1,0 +1,167 @@
+{
+  "mythId": "bulk-myth-0043",
+  "mythFamilyId": "eros-and-psyche",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-eros-and-psyche-16370d",
+  "title": "Longfellow.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4",
+      "gutenberg:ebooks:39250:173.173.2-173.173.2:d1126815",
+      "gutenberg:ebooks:39250:173.173.3-173.173.3:d3f7de8b",
+      "gutenberg:ebooks:39250:173.173.4-173.173.4:cedd185a",
+      "gutenberg:ebooks:39250:173.173.5-173.173.5:404ba683",
+      "gutenberg:ebooks:39250:173.173.6-173.173.6:1904eee4",
+      "gutenberg:ebooks:39250:173.173.7-173.173.7:e2590a3a",
+      "gutenberg:ebooks:39250:173.173.8-173.173.8:85757acd",
+      "gutenberg:ebooks:39250:173.173.9-173.173.9:bda94eb7",
+      "gutenberg:ebooks:39250:173.173.10-173.173.10:748c278f",
+      "gutenberg:ebooks:39250:173.173.11-173.173.11:09abb10c"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "adonis",
+      "cadmus",
+      "roman-cupid",
+      "roman-venus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Adonis",
+      "normalizedId": "adonis",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+        }
+      ]
+    },
+    {
+      "sourceName": "Cadmus",
+      "normalizedId": "cadmus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+        }
+      ]
+    },
+    {
+      "sourceName": "Cupid",
+      "normalizedId": "roman-cupid",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+        }
+      ]
+    },
+    {
+      "sourceName": "Venus",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "adonis",
+      "predicate": "is introduced in",
+      "object": "Longfellow.",
+      "evidence": [
+        "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "roman-venus",
+      "action": "describe",
+      "sourceAction": "were",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "cadmus",
+      "action": "love",
+      "sourceAction": "married",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.2-173.173.2:d1126815"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.3-173.173.3:d3f7de8b"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "adonis",
+      "predicate": "is last attested in selected candidate",
+      "object": "Longfellow.",
+      "evidence": [
+        "gutenberg:ebooks:39250:173.173.11-173.173.11:09abb10c"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

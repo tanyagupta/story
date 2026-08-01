@@ -1,0 +1,141 @@
+{
+  "mythId": "bulk-myth-0036",
+  "mythFamilyId": "jupiter-was-forced-to-grant-her-request",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-jupiter-was-forced-to-grant-her-request-aa5fbb",
+  "title": "Jupiter was forced to grant her request.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d",
+      "gutenberg:ebooks:39250:153.153.2-153.153.2:a3a5e4eb",
+      "gutenberg:ebooks:39250:153.153.3-153.153.3:93385692",
+      "gutenberg:ebooks:39250:153.153.4-153.153.4:6ff44240",
+      "gutenberg:ebooks:39250:153.153.5-153.153.5:377aaa26",
+      "gutenberg:ebooks:39250:153.153.6-153.153.6:41d0e9c2",
+      "gutenberg:ebooks:39250:153.153.7-153.153.7:983b7ca9"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-diana",
+      "roman-jupiter"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Diana",
+      "normalizedId": "roman-diana",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "roman-diana",
+      "predicate": "is introduced in",
+      "object": "Jupiter was forced to grant her request.",
+      "evidence": [
+        "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "roman-diana",
+      "action": "love",
+      "sourceAction": "loved",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:153.153.2-153.153.2:a3a5e4eb"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "was",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:153.153.3-153.153.3:93385692"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-diana",
+      "predicate": "is last attested in selected candidate",
+      "object": "Jupiter was forced to grant her request.",
+      "evidence": [
+        "gutenberg:ebooks:39250:153.153.7-153.153.7:983b7ca9"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

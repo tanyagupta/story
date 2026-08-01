@@ -1,0 +1,140 @@
+{
+  "mythId": "bulk-myth-0037",
+  "mythFamilyId": "keats",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-keats-d51822",
+  "title": "Keats.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:157.157.1-157.157.1:a11f511e",
+      "gutenberg:ebooks:39250:157.157.2-157.157.2:5d509523",
+      "gutenberg:ebooks:39250:157.157.3-157.157.3:c8602e37",
+      "gutenberg:ebooks:39250:157.157.4-157.157.4:3e2b3a4c",
+      "gutenberg:ebooks:39250:157.157.5-157.157.5:9b3f4fa7",
+      "gutenberg:ebooks:39250:157.157.6-157.157.6:e7a3754f"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "atlas",
+      "roman-diana"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Atlas",
+      "normalizedId": "atlas",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:157.157.1-157.157.1:a11f511e"
+        }
+      ]
+    },
+    {
+      "sourceName": "Diana",
+      "normalizedId": "roman-diana",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:157.157.1-157.157.1:a11f511e"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "atlas",
+      "predicate": "is introduced in",
+      "object": "Keats.",
+      "evidence": [
+        "gutenberg:ebooks:39250:157.157.1-157.157.1:a11f511e"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "roman-diana",
+      "action": "love",
+      "sourceAction": "loved",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:157.157.1-157.157.1:a11f511e"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:157.157.2-157.157.2:5d509523"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "atlas",
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:157.157.3-157.157.3:c8602e37"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "atlas",
+      "predicate": "is last attested in selected candidate",
+      "object": "Keats.",
+      "evidence": [
+        "gutenberg:ebooks:39250:157.157.6-157.157.6:e7a3754f"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

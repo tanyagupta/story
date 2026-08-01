@@ -1,0 +1,140 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0173-2a639d",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Adonis",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "adonis",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Cadmus",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "cadmus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Cupid",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-cupid",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Venus",
+      "entityType": "character",
+      "roleInEpisode": "mentioned",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "approved",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-venus",
+      "sourceAction": "were",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": "cadmus",
+      "sourceAction": "married",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.2-173.173.2:d1126815"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "is described",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:173.173.3-173.173.3:d3f7de8b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "approved"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "adonis",
+      "predicate": "is introduced in",
+      "object": "Longfellow.",
+      "evidence": [
+        "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "adonis",
+      "predicate": "is last attested in selected candidate",
+      "object": "Longfellow.",
+      "evidence": [
+        "gutenberg:ebooks:39250:173.173.11-173.173.11:09abb10c"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "approved",
+  "review": []
+}

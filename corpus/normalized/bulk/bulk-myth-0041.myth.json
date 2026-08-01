@@ -1,0 +1,136 @@
+{
+  "mythId": "bulk-myth-0041",
+  "mythFamilyId": "spenser",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-spenser-ebf025",
+  "title": "Spenser.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8",
+      "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-jupiter",
+      "roman-venus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+        }
+      ]
+    },
+    {
+      "sourceName": "Venus",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "roman-jupiter",
+      "predicate": "is introduced in",
+      "object": "Spenser.",
+      "evidence": [
+        "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "roman-jupiter",
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "roman-venus",
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-jupiter",
+      "predicate": "is last attested in selected candidate",
+      "object": "Spenser.",
+      "evidence": [
+        "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

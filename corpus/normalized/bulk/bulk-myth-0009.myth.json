@@ -1,0 +1,149 @@
+{
+  "mythId": "bulk-myth-0009",
+  "mythFamilyId": "saturnian-jove",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-saturnian-jove-bc01e5",
+  "title": "Saturnian Jove.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe",
+      "gutenberg:ebooks:39250:52.52.2-52.52.2:f49d10a8",
+      "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6",
+      "gutenberg:ebooks:39250:52.52.4-52.52.4:8e66e4d9"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-mercury",
+      "pandora",
+      "prometheus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pandora",
+      "normalizedId": "pandora",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ]
+    },
+    {
+      "sourceName": "Prometheus",
+      "normalizedId": "prometheus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "roman-mercury",
+      "predicate": "is introduced in",
+      "object": "Saturnian Jove.",
+      "evidence": [
+        "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "had",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.2-52.52.2:f49d10a8"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "were",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-mercury",
+      "predicate": "is last attested in selected candidate",
+      "object": "Saturnian Jove.",
+      "evidence": [
+        "gutenberg:ebooks:39250:52.52.4-52.52.4:8e66e4d9"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}

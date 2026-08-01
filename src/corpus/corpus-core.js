@@ -194,9 +194,11 @@ function passageId(manifest, citation, sequence, text) {
 function extractPassages(opts) {
   const manifest = readJson(opts.manifest);
   validateManifest(manifest);
-  if (manifest.rawSource && manifest.rawSource.checksum) {
+  const sourceRelativePath = path.relative(process.cwd(), opts.source);
+  const checksumSource = manifest.derivedSource && manifest.derivedSource.path === sourceRelativePath ? manifest.derivedSource : manifest.rawSource;
+  if (checksumSource && checksumSource.checksum) {
     const current = sha256File(opts.source);
-    if (current !== manifest.rawSource.checksum) {
+    if (current !== checksumSource.checksum) {
       throw new Error(`Raw source checksum changed for ${manifest.sourceId}`);
     }
   }

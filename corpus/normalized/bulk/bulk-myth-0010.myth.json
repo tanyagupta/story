@@ -1,0 +1,181 @@
+{
+  "mythId": "bulk-myth-0010",
+  "mythFamilyId": "trojan-war",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-a6113e",
+  "title": "But this fair goddess awkwardly tripped and fell on a solemn",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2",
+      "gutenberg:ebooks:39250:63.63.2-63.63.2:8726faa2",
+      "gutenberg:ebooks:39250:63.63.3-63.63.3:a1191dca",
+      "gutenberg:ebooks:39250:63.63.4-63.63.4:79f03266",
+      "gutenberg:ebooks:39250:63.63.5-63.63.5:af9d9775",
+      "gutenberg:ebooks:39250:63.63.6-63.63.6:5ddd6c95",
+      "gutenberg:ebooks:39250:63.63.7-63.63.7:3ba3b72d",
+      "gutenberg:ebooks:39250:63.63.8-63.63.8:2e58a7ef",
+      "gutenberg:ebooks:39250:63.63.9-63.63.9:ce5705fa",
+      "gutenberg:ebooks:39250:63.63.10-63.63.10:01315c12",
+      "gutenberg:ebooks:39250:63.63.11-63.63.11:2bed67b7",
+      "gutenberg:ebooks:39250:63.63.12-63.63.12:434c6d61",
+      "gutenberg:ebooks:39250:63.63.13-63.63.13:c8def909",
+      "gutenberg:ebooks:39250:63.63.14-63.63.14:73d4a66e"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "europa",
+      "ganymede",
+      "roman-juno",
+      "roman-jupiter",
+      "roman-mercury"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Europa",
+      "normalizedId": "europa",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
+        }
+      ]
+    },
+    {
+      "sourceName": "Ganymede",
+      "normalizedId": "ganymede",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
+        }
+      ]
+    },
+    {
+      "sourceName": "Juno",
+      "normalizedId": "roman-juno",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "initialState": [
+    {
+      "subject": "europa",
+      "predicate": "is introduced in",
+      "object": "But this fair goddess awkwardly tripped and fell on a solemn",
+      "evidence": [
+        "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "was",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "was",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.2-63.63.2:8726faa2"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "describe",
+      "sourceAction": "is described",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.3-63.63.3:a1191dca"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "europa",
+      "predicate": "is last attested in selected candidate",
+      "object": "But this fair goddess awkwardly tripped and fell on a solemn",
+      "evidence": [
+        "gutenberg:ebooks:39250:63.63.14-63.63.14:73d4a66e"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": null
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [],
+  "reviewStatus": "approved"
+}
