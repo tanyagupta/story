@@ -275,11 +275,11 @@ test("real Hymn 23 candidate, facts, and normalized record are valid", () => {
 test("real narrative source has complete candidate and evidence-backed facts", () => {
   runRealSources();
   const greek = readJson(path.join(root, "corpus/passages/perseus-homeric-hymn-7-dionysus-grc.passages.json"));
-  const english = readJson(path.join(root, "corpus/passages/perseus-homeric-hymn-7-dionysus-eng.passages.json"));
+  const english = readJson(path.join(root, "corpus/passages/gutenberg-homeric-hymn-7-dionysus-eng-derived.passages.json"));
   const candidate = readJson(path.join(root, "corpus/candidates/homeric-hymn-7-dionysus.candidate.json"));
   const facts = readJson(path.join(root, "corpus/extracted/homeric-hymn-7-dionysus.facts.json"));
   assert.strictEqual(greek.passages.length, 59);
-  assert.strictEqual(english.passages.length, 12);
+  assert.strictEqual(english.passages.length, 6);
   assert.strictEqual(candidate.passages.length, greek.passages.length);
   assert.ok(facts.entities.length > 0);
   assert.ok(facts.events.length > 0);
@@ -290,14 +290,29 @@ test("real narrative source has complete candidate and evidence-backed facts", (
 test("Greek and English real-source witnesses remain separate with translation provenance", () => {
   runRealSources();
   const greek = readJson(path.join(root, "corpus/manifests/perseus-homeric-hymn-7-dionysus-grc.json"));
-  const english = readJson(path.join(root, "corpus/manifests/perseus-homeric-hymn-7-dionysus-eng.json"));
+  const english = readJson(path.join(root, "corpus/manifests/gutenberg-homeric-hymn-7-dionysus-eng-derived.json"));
+  const compilation = readJson(path.join(root, "corpus/manifests/gutenberg-hesiod-homeric-hymns-homerica-eng.json"));
   const myth = readJson(path.join(root, "corpus/normalized/homeric-hymn-7-dionysus.myth.json"));
   assert.strictEqual(greek.language, "grc");
   assert.strictEqual(english.language, "eng");
   assert.strictEqual(english.translator, "Hugh G. Evelyn-White");
   assert.strictEqual(english.publicationDate, "1914");
+  assert.strictEqual(english.derivedTei, true);
+  assert.strictEqual(english.originalSource.sourceId, compilation.sourceId);
+  assert.strictEqual(compilation.rawSource.path, "corpus/sources/raw/gutenberg-hesiod-homeric-hymns-homerica-348.txt");
   assert.notStrictEqual(greek.sourceId, english.sourceId);
   assert.deepStrictEqual(myth.source.witnessSourceIds, [greek.sourceId, english.sourceId]);
+});
+
+test("derived Gutenberg TEI preserves selected source text", () => {
+  runRealSources();
+  const original = fs.readFileSync(path.join(root, "corpus/sources/raw/gutenberg-hesiod-homeric-hymns-homerica-348.txt"), "utf8");
+  const derived = fs.readFileSync(path.join(root, "corpus/sources/raw/gutenberg-homeric-hymn-7-dionysus-eng-derived.tei.xml"), "utf8");
+  const passage = readJson(path.join(root, "corpus/passages/gutenberg-homeric-hymn-7-dionysus-eng-derived.passages.json")).passages[0];
+  const phrase = "I will tell of Dionysus, the son of glorious Semele";
+  assert.ok(original.includes(phrase));
+  assert.ok(derived.includes(phrase));
+  assert.ok(passage.text.includes(phrase));
 });
 
 test("real-source review queue preserves ambiguous and uncertain items", () => {
@@ -320,6 +335,7 @@ test("complete real-source runner succeeds offline and is deterministic", () => 
   const files = [
     "corpus/passages/perseus-homeric-hymn-23-zeus-grc.passages.json",
     "corpus/passages/perseus-homeric-hymn-7-dionysus-grc.passages.json",
+    "corpus/passages/gutenberg-homeric-hymn-7-dionysus-eng-derived.passages.json",
     "corpus/extracted/homeric-hymn-7-dionysus.facts.json",
     "corpus/normalized/homeric-hymn-7-dionysus.myth.json",
     "corpus/review/real-sources.validation-report.json"

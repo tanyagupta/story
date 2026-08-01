@@ -18,16 +18,23 @@ const { resolveIf, printResult, runCli } = require("./cli");
 
 const REAL_SOURCES = [
   {
+    sourceId: "gutenberg-hesiod-homeric-hymns-homerica-eng",
+    manifest: "corpus/manifests/gutenberg-hesiod-homeric-hymns-homerica-eng.json",
+    raw: "corpus/sources/raw/gutenberg-hesiod-homeric-hymns-homerica-348.txt",
+    passages: null,
+    extractPassages: false
+  },
+  {
     sourceId: "perseus-homeric-hymn-23-zeus-grc",
     manifest: "corpus/manifests/perseus-homeric-hymn-23-zeus-grc.json",
     raw: "corpus/sources/raw/perseus-homeric-hymn-23-zeus-grc.xml",
     passages: "corpus/passages/perseus-homeric-hymn-23-zeus-grc.passages.json"
   },
   {
-    sourceId: "perseus-homeric-hymn-23-zeus-eng",
-    manifest: "corpus/manifests/perseus-homeric-hymn-23-zeus-eng.json",
-    raw: "corpus/sources/raw/perseus-homeric-hymn-23-zeus-eng.xml",
-    passages: "corpus/passages/perseus-homeric-hymn-23-zeus-eng.passages.json"
+    sourceId: "gutenberg-homeric-hymn-23-zeus-eng-derived",
+    manifest: "corpus/manifests/gutenberg-homeric-hymn-23-zeus-eng-derived.json",
+    raw: "corpus/sources/raw/gutenberg-homeric-hymn-23-zeus-eng-derived.tei.xml",
+    passages: "corpus/passages/gutenberg-homeric-hymn-23-zeus-eng-derived.passages.json"
   },
   {
     sourceId: "perseus-homeric-hymn-7-dionysus-grc",
@@ -36,10 +43,10 @@ const REAL_SOURCES = [
     passages: "corpus/passages/perseus-homeric-hymn-7-dionysus-grc.passages.json"
   },
   {
-    sourceId: "perseus-homeric-hymn-7-dionysus-eng",
-    manifest: "corpus/manifests/perseus-homeric-hymn-7-dionysus-eng.json",
-    raw: "corpus/sources/raw/perseus-homeric-hymn-7-dionysus-eng.xml",
-    passages: "corpus/passages/perseus-homeric-hymn-7-dionysus-eng.passages.json"
+    sourceId: "gutenberg-homeric-hymn-7-dionysus-eng-derived",
+    manifest: "corpus/manifests/gutenberg-homeric-hymn-7-dionysus-eng-derived.json",
+    raw: "corpus/sources/raw/gutenberg-homeric-hymn-7-dionysus-eng-derived.tei.xml",
+    passages: "corpus/passages/gutenberg-homeric-hymn-7-dionysus-eng-derived.passages.json"
   }
 ];
 
@@ -52,7 +59,7 @@ const REAL_RECORDS = [
     mythFamilyId: "hymn-to-zeus",
     variantId: "perseus-homeric-hymn-23-zeus-variant",
     greekSourceId: "perseus-homeric-hymn-23-zeus-grc",
-    englishSourceId: "perseus-homeric-hymn-23-zeus-eng",
+    englishSourceId: "gutenberg-homeric-hymn-23-zeus-eng-derived",
     facts: buildZeusFacts
   },
   {
@@ -63,7 +70,7 @@ const REAL_RECORDS = [
     mythFamilyId: "dionysus-and-the-pirates",
     variantId: "perseus-homeric-hymn-7-dionysus-variant",
     greekSourceId: "perseus-homeric-hymn-7-dionysus-grc",
-    englishSourceId: "perseus-homeric-hymn-7-dionysus-eng",
+    englishSourceId: "gutenberg-homeric-hymn-7-dionysus-eng-derived",
     facts: buildDionysusFacts
   }
 ];
@@ -123,7 +130,7 @@ function state(subject, predicate, object, ev) {
 function buildZeusFacts(record, greekDoc, englishDoc) {
   const line1 = evidence(greekDoc, englishDoc, "1", "1");
   const line2 = evidence(greekDoc, englishDoc, "2", "1");
-  const line4 = evidence(greekDoc, englishDoc, "4", "1");
+  const line4 = evidence(greekDoc, englishDoc, "4", "2");
   return {
     candidateId: record.candidateId,
     extractionSourceId: record.englishSourceId,
@@ -165,24 +172,24 @@ function buildZeusFacts(record, greekDoc, englishDoc) {
 
 function buildDionysusFacts(record, greekDoc, englishDoc) {
   const e1 = evidence(greekDoc, englishDoc, "1", "1");
-  const e5 = evidence(greekDoc, englishDoc, "6", "5");
-  const e10 = evidence(greekDoc, englishDoc, "10", "10");
-  const e12 = evidence(greekDoc, englishDoc, "12", "10");
-  const e15 = evidence(greekDoc, englishDoc, "15", "15");
-  const e20 = evidence(greekDoc, englishDoc, "20", "20");
-  const e25 = evidence(greekDoc, englishDoc, "25", "25");
-  const e30 = evidence(greekDoc, englishDoc, "32", "30");
-  const e35 = evidence(greekDoc, englishDoc, "35", "35");
-  const e40 = evidence(greekDoc, englishDoc, "40", "40");
-  const e45 = evidence(greekDoc, englishDoc, "44", "40");
-  const e46 = evidence(greekDoc, englishDoc, "46", "45");
-  const e50 = evidence(greekDoc, englishDoc, "50", "45");
-  const e51 = evidence(greekDoc, englishDoc, "51", "50");
-  const e52 = evidence(greekDoc, englishDoc, "52", "50");
-  const e53 = evidence(greekDoc, englishDoc, "53", "50");
-  const e54 = evidence(greekDoc, englishDoc, "54", "50");
-  const e55 = evidence(greekDoc, englishDoc, "55", "55");
-  const e56 = evidence(greekDoc, englishDoc, "56", "55");
+  const e5 = evidence(greekDoc, englishDoc, "6", "1");
+  const e10 = evidence(greekDoc, englishDoc, "10", "1");
+  const e12 = evidence(greekDoc, englishDoc, "12", "1");
+  const e15 = evidence(greekDoc, englishDoc, "15", "1");
+  const e20 = evidence(greekDoc, englishDoc, "20", "2");
+  const e25 = evidence(greekDoc, englishDoc, "25", "3");
+  const e30 = evidence(greekDoc, englishDoc, "32", "4");
+  const e35 = evidence(greekDoc, englishDoc, "35", "4");
+  const e40 = evidence(greekDoc, englishDoc, "40", "4");
+  const e45 = evidence(greekDoc, englishDoc, "44", "4");
+  const e46 = evidence(greekDoc, englishDoc, "46", "4");
+  const e50 = evidence(greekDoc, englishDoc, "50", "4");
+  const e51 = evidence(greekDoc, englishDoc, "51", "4");
+  const e52 = evidence(greekDoc, englishDoc, "52", "4");
+  const e53 = evidence(greekDoc, englishDoc, "53", "4");
+  const e54 = evidence(greekDoc, englishDoc, "54", "4");
+  const e55 = evidence(greekDoc, englishDoc, "55", "5");
+  const e56 = evidence(greekDoc, englishDoc, "56", "5");
   return {
     candidateId: record.candidateId,
     extractionSourceId: record.englishSourceId,
@@ -303,11 +310,12 @@ runCli(async (args) => {
   sourceConfigs.forEach((source) => {
     const manifest = resolveIf(source.manifest);
     const raw = resolveIf(source.raw);
-    const passages = resolveIf(source.passages);
     ingestSource({ manifest, source: raw, out: manifest, dryRun: args["dry-run"] });
+    files.manifests.push(manifest);
+    if (source.extractPassages === false) return;
+    const passages = resolveIf(source.passages);
     const passageDoc = extractPassages({ manifest, source: raw, out: passages, dryRun: args["dry-run"] });
     passageDocs[source.sourceId] = passageDoc;
-    files.manifests.push(manifest);
     files.passages.push(passages);
     passageCount += passageDoc.passages.length;
     warningCount += passageDoc.warnings.length;

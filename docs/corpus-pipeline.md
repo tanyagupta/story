@@ -57,7 +57,7 @@ npm run test:corpus
 
 Derived approved records are not overwritten by stage commands unless `--force` is provided. Commands support explicit input and output paths and do not require network access. `npm run corpus:run` rebuilds the local fixture outputs under `corpus/`.
 
-`npm run corpus:real` rebuilds the committed real-source corpus outputs from local files only. It processes the selected Homeric Hymn witnesses, verifies or records checksums, extracts passages, writes candidates, emits evidence-backed facts, normalizes entities/events, writes review queues, and creates validation reports. It accepts an optional selector:
+`npm run corpus:real` rebuilds the committed real-source corpus outputs from local files only. It processes the selected Homeric Hymn witnesses, verifies or records checksums, extracts passages from TEI witnesses, writes candidates, emits evidence-backed facts, normalizes entities/events, writes review queues, and creates validation reports. It accepts an optional selector:
 
 ```bash
 npm run corpus:real -- --source-id perseus-homeric-hymn-7-dionysus
@@ -95,25 +95,34 @@ Action normalization uses `corpus/normalized/action-vocabulary.json`. Source wor
 
 ## Real Sources
 
-The first real sources are short Homeric Hymns from `PerseusDL/canonical-greekLit` at commit `91595f89e15b4d3000cd93efcf8990720c8be2b9`.
+The first real Greek sources are short Homeric Hymns from `PerseusDL/canonical-greekLit` at commit `91595f89e15b4d3000cd93efcf8990720c8be2b9`.
+
+The English semantic witness layer uses Project Gutenberg eBook #348, *Hesiod, The Homeric Hymns, and Homerica*, translated by Hugh G. Evelyn-White. The original downloaded UTF-8 text file is retained unchanged at `corpus/sources/raw/gutenberg-hesiod-homeric-hymns-homerica-348.txt`. Because the corpus extractor currently expects TEI, two small derived TEI wrappers are kept beside the original source file:
+
+```text
+corpus/sources/raw/gutenberg-homeric-hymn-23-zeus-eng-derived.tei.xml
+corpus/sources/raw/gutenberg-homeric-hymn-7-dionysus-eng-derived.tei.xml
+```
+
+These wrappers are structural conversions for passage extraction only. They preserve the selected Project Gutenberg section text and record the unchanged source compilation in their manifests. The downloaded source states a Project Gutenberg License/public-domain basis for use in the United States; users outside the United States should check local law. The manifests preserve that licensing note rather than treating it as a silent repository-wide assumption.
 
 Current witnesses:
 
 ```text
 Hymn 23 to Zeus
   Greek edition: data/tlg0013/tlg023/tlg0013.tlg023.perseus-grc2.xml
-  English translation: data/tlg0013/tlg023/tlg0013.tlg023.perseus-eng2.xml
+  English translation: Project Gutenberg eBook #348 section XXIII, derived TEI wrapper
 
 Hymn 7 to Dionysus
   Greek edition: data/tlg0013/tlg007/tlg0013.tlg007.perseus-grc2.xml
-  English translation: data/tlg0013/tlg007/tlg0013.tlg007.perseus-eng2.xml
+  English translation: Project Gutenberg eBook #348 section VII, derived TEI wrapper
 ```
 
 Hymn 7 to Dionysus was selected as the narrative source because it is short, self-contained, and has identifiable characters, objects, transformations, and a complete beginning-to-ending action sequence involving Dionysus, pirates, the helmsman, the ship, divine signs, and the sailors' transformation into dolphins.
 
-The TEI headers identify the 1914 Evelyn-White edition/translation in *Hesiod, the Homeric Hymns and Homerica*. The repository license file is CC-BY-SA-4.0. The manifests also preserve the uncertainty that the selected TEI files do not contain a per-file license statement and that Perseus materials can vary by component.
+The Greek TEI headers identify the 1914 Evelyn-White edition in *Hesiod, the Homeric Hymns and Homerica*. The Perseus repository license file is CC-BY-SA-4.0. The manifests preserve the uncertainty that the selected Greek TEI files do not contain a per-file license statement and that Perseus materials can vary by component.
 
-Greek editions and English translations are separate source records. The English witnesses are used for deterministic semantic fact extraction where appropriate, while the Greek witnesses remain the original-language source for candidate boundaries and parallel evidence. The pipeline does not claim verified line-by-line equivalence beyond the cited passage evidence stored in the generated facts.
+Greek editions, the unchanged Project Gutenberg English compilation, and the derived English TEI wrappers are separate source records. The English witnesses are used for deterministic semantic fact extraction where appropriate, while the Greek witnesses remain the original-language source for candidate boundaries and parallel evidence. The pipeline does not claim verified line-by-line equivalence beyond the cited passage evidence stored in the generated facts.
 
 Candidate boundaries:
 
