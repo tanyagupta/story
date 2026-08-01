@@ -5,28 +5,28 @@
     {
       "sourceName": "Apollo",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "monster",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "apollo",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Neptune",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "monster",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-neptune",
       "normalizationStatus": "approved"
     }
@@ -45,32 +45,15 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
           "passageId": "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
-      "sourceAction": "is described",
+      "actorSourceName": null,
+      "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -79,18 +62,69 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4"
+          "passageId": "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "delivered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "born",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "apollo",
+      "sourceAction": "slew",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "apollo",
-      "predicate": "is introduced in",
-      "object": "Wordsworth.",
+      "predicate": "opening_situation",
+      "object": "Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the walls of Troy.",
       "evidence": [
         "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
       ]
@@ -99,14 +133,31 @@
   "finalState": [
     {
       "subject": "apollo",
-      "predicate": "is last attested in selected candidate",
-      "object": "Wordsworth.",
+      "predicate": "outcome",
+      "object": "None had dared approach the monster; but Apollo fearlessly drew near, and slew him with his golden shafts.",
       "evidence": [
         "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-2a7db5de",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0098-25f6a7",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+        "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3",
+        "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4"
+      ],
+      "status": "open"
+    }
+  ]
 }

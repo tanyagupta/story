@@ -11,7 +11,7 @@
     "gutenberg:ebooks:22381:131.131.6-131.131.6:445fb9e4",
     "gutenberg:ebooks:22381:131.131.7-131.131.7:bb0c455c"
   ],
-  "status": "awaiting_extraction",
+  "status": "approved",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -29,10 +29,28 @@
     "Callisto",
     "Hermes",
     "Io",
+    "Perseus",
     "Zeus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "approved",
+  "reviewStatus": "approved",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 194,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 5,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

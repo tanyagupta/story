@@ -23,11 +23,30 @@
   "mythFamilyId": "victoria",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-victoria-c6d88b",
   "characters": [
+    "Hades",
     "Hermes",
-    "Mercury"
+    "Mercury",
+    "Zeus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 76,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 4,
+      "conflictSignals": 1,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

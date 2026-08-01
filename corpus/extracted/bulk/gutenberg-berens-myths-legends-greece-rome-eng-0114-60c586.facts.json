@@ -1,0 +1,100 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0114-60c586",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "formed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:114.114.2-114.114.2:2c1e077b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The ancient Greeks had several different theories with regard to the origin of the world, but the generally accepted notion was that before this world came into existence, there.",
+      "evidence": [
+        "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Thus came into being the two first great primeval deities of the Greeks,",
+      "evidence": [
+        "gutenberg:ebooks:22381:114.114.2-114.114.2:2c1e077b"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-58b6ad77",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0114-60c586",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "URANUS AND GAEA. (COELUS AND TERRA.)",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:114.114.1-114.114.1:8f8f15c6",
+        "gutenberg:ebooks:22381:114.114.2-114.114.2:2c1e077b"
+      ],
+      "status": "open"
+    }
+  ]
+}

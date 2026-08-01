@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 100,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 3,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-7826ef45",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0555-47ab5e",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Sphinx.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:555.555.1-555.555.1:c71c4155",
+        "gutenberg:ebooks:39250:555.555.2-555.555.2:69394a71",
+        "gutenberg:ebooks:39250:555.555.3-555.555.3:ddbfc3a1"
+      ],
+      "status": "open"
+    }
+  ]
+}

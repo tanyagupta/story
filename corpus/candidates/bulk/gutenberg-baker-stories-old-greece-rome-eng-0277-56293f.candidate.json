@@ -10,7 +10,7 @@
     "gutenberg:ebooks:45489:277.277.5-277.277.5:355536a5",
     "gutenberg:ebooks:45489:277.277.6-277.277.6:7c990d61"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,10 +25,32 @@
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-bellerophon-and-pegasus-1fee11",
   "characters": [
     "Andromeda",
-    "Bellerophon"
+    "Bellerophon",
+    "Pegasus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 73,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 1,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -17,7 +17,7 @@
     "gutenberg:ebooks:22381:302.302.12-302.302.12:4cec3351",
     "gutenberg:ebooks:22381:302.302.13-302.302.13:da49e13c"
   ],
-  "status": "awaiting_extraction",
+  "status": "approved",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -31,11 +31,35 @@
   "mythFamilyId": "story-of-the-golden-fleece",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-story-of-the-golden-fleece-b78e7f",
   "characters": [
+    "Achilles",
+    "Apollo",
+    "Echo",
     "Hermes",
+    "Jason",
+    "Orpheus",
+    "Poseidon",
+    "Theseus",
     "Zeus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "approved",
+  "reviewStatus": "approved",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 179,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

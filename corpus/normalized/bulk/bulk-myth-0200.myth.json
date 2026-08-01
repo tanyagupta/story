@@ -1,0 +1,225 @@
+{
+  "mythId": "bulk-myth-0200",
+  "mythFamilyId": "triptolemus",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-triptolemus-9b5700",
+  "title": "Triptolemus.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
+      "gutenberg:ebooks:39250:295.295.2-295.295.2:230516c3",
+      "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "ceres"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Ceres",
+      "normalizedId": "ceres",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Ceres are involved in Triptolemus.. Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care. Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the. The.",
+    "openingSituation": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+    "centralConflict": "The queen, Metaneira, who had thought it somewhat imprudent to leave the child thus alone with a stranger, now stole noiselessly into the apartment, and with a wild shriek rushed.",
+    "resolution": "The queen, Metaneira, who had thought it somewhat imprudent to leave the child thus alone with a stranger, now stole noiselessly into the apartment, and with a wild shriek rushed.",
+    "outcome": "The queen, Metaneira, who had thought it somewhat imprudent to leave the child thus alone with a stranger, now stole noiselessly into the apartment, and with a wild shriek rushed.",
+    "storyline": [
+      "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the.",
+      "The queen, Metaneira, who had thought it somewhat imprudent to leave the child thus alone with a stranger, now stole noiselessly into the apartment, and with a wild shriek rushed."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
+        "gutenberg:ebooks:39250:295.295.2-295.295.2:230516c3",
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
+      "excerpt": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care. Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:295.295.2-295.295.2:230516c3",
+      "excerpt": "In the night, while Ceres sat alone with her charge, it occurred to her that she might confer a still greater blessing upon him, that of immortality: so she anointed his limbs with nectar, murmured a powerful charm, and placed him upon.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988",
+      "excerpt": "The queen, Metaneira, who had thought it somewhat imprudent to leave the child thus alone with a stranger, now stole noiselessly into the apartment, and with a wild shriek rushed to the fire and snatched her child out of the flames,.",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "ceres",
+      "predicate": "opening_situation",
+      "object": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "evidence": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "ceres",
+      "action": "travel",
+      "sourceAction": "arrived",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "steal",
+      "sourceAction": "stole",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The queen, Metaneira, who had thought it somewhat imprudent to leave the child thus alone with a stranger, now stole noiselessly into the apartment, and with a wild shriek rushed.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "ceres",
+      "predicate": "outcome",
+      "object": "The queen, Metaneira, who had thought it somewhat imprudent to leave the child thus alone with a stranger, now stole noiselessly into the apartment, and with a wild shriek rushed.",
+      "evidence": [
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the.",
+      "The queen, Metaneira, who had thought it somewhat imprudent to leave the child thus alone with a stranger, now stole noiselessly into the apartment, and with a wild shriek rushed."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-cd319c73",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0295-c631e1",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Triptolemus.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
+        "gutenberg:ebooks:39250:295.295.2-295.295.2:230516c3",
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 79,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 3,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

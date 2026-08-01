@@ -1,0 +1,81 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0524-3abe26",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Callisto",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:524.524.1-524.524.1:19f069ba"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "callisto",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "callisto",
+      "sourceAction": "formed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:524.524.1-524.524.1:19f069ba"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "callisto",
+      "predicate": "opening_situation",
+      "object": "Constellation formed by Callisto, 52.",
+      "evidence": [
+        "gutenberg:ebooks:39250:524.524.1-524.524.1:19f069ba"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "callisto",
+      "predicate": "outcome",
+      "object": "Constellation formed by Callisto, 52.",
+      "evidence": [
+        "gutenberg:ebooks:39250:524.524.2-524.524.2:9b2d2951"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-c2e83e6a",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0524-3abe26",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Great Bear.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:524.524.1-524.524.1:19f069ba",
+        "gutenberg:ebooks:39250:524.524.2-524.524.2:9b2d2951"
+      ],
+      "status": "open"
+    }
+  ]
+}

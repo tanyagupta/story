@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:190.190.7-190.190.7:b9483f51",
     "gutenberg:ebooks:39250:190.190.8-190.190.8:73a59706"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,12 +22,32 @@
   "workingTitle": "Keats.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "keats",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-keats-b2e234",
-  "characters": [],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "characters": [
+    "Echo",
+    "Narcissus"
+  ],
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 73,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 4,
+      "conflictSignals": 2,
+      "paragraphCount": 8,
+      "knownMythFamily": true
+    }
+  }
 }

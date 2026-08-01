@@ -1,0 +1,186 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0486-b79f75",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Helen",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:486.486.1-486.486.1:a9c5151b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "helen",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Juno",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:486.486.1-486.486.1:a9c5151b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-juno",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:486.486.1-486.486.1:a9c5151b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Minerva",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:486.486.1-486.486.1:a9c5151b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-minerva",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Neptune",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:486.486.1-486.486.1:a9c5151b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-neptune",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Paris",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:486.486.1-486.486.1:a9c5151b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "paris",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "arrived",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:486.486.3-486.486.3:08b2d1ef"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "helen",
+      "sourceAction": "married",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:486.486.5-486.486.5:199df37c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "refused",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:486.486.8-486.486.8:6d12b1d1"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "helen",
+      "predicate": "opening_situation",
+      "object": "Æneas, who arrived just too late to hinder this frightful catastrophe, now suddenly remembered that a similar fate awaited his aged father Anchises, his wife Creusa, and little.",
+      "evidence": [
+        "gutenberg:ebooks:39250:486.486.1-486.486.1:a9c5151b"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "helen",
+      "predicate": "outcome",
+      "object": "Æneas rushed home and bade his father prepare to leave Troy; but Anchises obstinately refused to leave his post, until he saw a bright flame hover for a moment above his.",
+      "evidence": [
+        "gutenberg:ebooks:39250:486.486.9-486.486.9:b0710141"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-b84c5277",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0486-b79f75",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Who once o'er land and peoples proud",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:486.486.1-486.486.1:a9c5151b",
+        "gutenberg:ebooks:39250:486.486.2-486.486.2:2a2698af",
+        "gutenberg:ebooks:39250:486.486.3-486.486.3:08b2d1ef"
+      ],
+      "status": "open"
+    }
+  ]
+}

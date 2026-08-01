@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:557.557.7-557.557.7:a6cd3bfe",
     "gutenberg:ebooks:39250:557.557.8-557.557.8:96aa325f"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,10 +26,33 @@
   "mythFamilyId": "cadmus",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-cadmus-defe07",
   "characters": [
-    "Cadmus"
+    "Achilles",
+    "Cadmus",
+    "Ceres",
+    "Neptune"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 108,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 3,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

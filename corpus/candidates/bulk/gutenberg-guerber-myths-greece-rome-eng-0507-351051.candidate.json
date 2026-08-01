@@ -14,7 +14,7 @@
     "gutenberg:ebooks:39250:507.507.9-507.507.9:c820bf60",
     "gutenberg:ebooks:39250:507.507.10-507.507.10:10423aa1"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -28,10 +28,33 @@
   "mythFamilyId": "fire-myths",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-fire-myths-4dd5ae",
   "characters": [
-    "Jupiter"
+    "Jupiter",
+    "Prometheus",
+    "Vulcan"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 68,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -23,15 +23,35 @@
   "workingTitle": "THIRD DYNASTY--OLYMPIAN DIVINITIES.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "deity_profile",
+  "candidateType": "narrative_episode",
   "mythFamilyId": "third-dynasty-olympian-divinities",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-third-dynasty-olympian-divinities-39cbd0",
   "characters": [
     "Jupiter",
     "Zeus"
   ],
-  "processingStatus": "rejected-non-story",
-  "reviewStatus": "dismissed",
+  "processingStatus": "rejected-poor-quality",
+  "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 103,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 4,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

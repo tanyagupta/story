@@ -5,42 +5,42 @@
     {
       "sourceName": "Mercury",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-mercury",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Pandora",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "participant",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "pandora",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Prometheus",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "participant",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "prometheus",
       "normalizationStatus": "approved"
     }
@@ -49,42 +49,8 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": null,
-      "sourceAction": "had",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:52.52.2-52.52.2:f49d10a8"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "were",
+      "actorSourceName": "roman-mercury",
+      "sourceAction": "cautioned",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -97,14 +63,31 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "accepted",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "roman-mercury",
-      "predicate": "is introduced in",
-      "object": "Saturnian Jove.",
+      "predicate": "opening_situation",
+      "object": "They then bade Mercury take her to Prometheus as a gift from heaven; but he, knowing only too well that nothing good would come to him from the gods, refused to accept her, and.",
       "evidence": [
         "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe"
       ]
@@ -113,14 +96,32 @@
   "finalState": [
     {
       "subject": "roman-mercury",
-      "predicate": "is last attested in selected candidate",
-      "object": "Saturnian Jove.",
+      "predicate": "outcome",
+      "object": "Unfortunately Epimetheus was of a confiding disposition, and when he beheld the maiden he exclaimed, \"Surely so beautiful and gentle a being can bring no evil!\" and accepted her.",
       "evidence": [
         "gutenberg:ebooks:39250:52.52.4-52.52.4:8e66e4d9"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-9010d8e3",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0052-50c580",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Saturnian Jove.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:52.52.1-52.52.1:e384a5fe",
+        "gutenberg:ebooks:39250:52.52.2-52.52.2:f49d10a8",
+        "gutenberg:ebooks:39250:52.52.3-52.52.3:79a362a6"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -1,0 +1,157 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0557-17c759",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Achilles",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "achilles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Cadmus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "cadmus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ceres",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ceres",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Neptune",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-neptune",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "cadmus",
+      "sourceAction": "founded",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-neptune",
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:557.557.3-557.557.3:9ceec5e0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "loved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:557.557.8-557.557.8:96aa325f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "achilles",
+      "predicate": "opening_situation",
+      "object": "Capital of Bœotia; founded by Cadmus, 47, 48; Amphion, king of, 80-82; Athamas, king of, 174; Pentheus, king of, 181; Œdipus, king of, 280-290.",
+      "evidence": [
+        "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "achilles",
+      "predicate": "outcome",
+      "object": "Babylonian maiden loved by Pyramus, 117, 118.",
+      "evidence": [
+        "gutenberg:ebooks:39250:557.557.8-557.557.8:96aa325f"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-6b2d684f",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0557-17c759",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Thebes.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848",
+        "gutenberg:ebooks:39250:557.557.2-557.557.2:acc17ed2",
+        "gutenberg:ebooks:39250:557.557.3-557.557.3:9ceec5e0"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:559.559.5-559.559.5:ebc08acb",
     "gutenberg:ebooks:39250:559.559.6-559.559.6:d55e3a00"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,9 +23,33 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-88665f",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Helen",
+    "Jupiter"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 65,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

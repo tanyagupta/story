@@ -15,7 +15,7 @@
   "workingTitle": "The Ivory Gate MORTIMER COLLINS",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "non_story_material",
+  "candidateType": "ambiguous",
   "mythFamilyId": "ceyx-and-alcyone",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-ceyx-and-alcyone-781ea4",
   "characters": [
@@ -26,5 +26,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 86,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 7,
+      "conflictSignals": 3,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

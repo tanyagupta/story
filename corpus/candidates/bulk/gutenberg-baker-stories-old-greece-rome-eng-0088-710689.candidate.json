@@ -14,7 +14,7 @@
     "gutenberg:ebooks:45489:88.88.9-88.88.9:14586f68",
     "gutenberg:ebooks:45489:88.88.10-88.88.10:347bc1a8"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -28,13 +28,41 @@
   "mythFamilyId": "venus",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-venus-bcf117",
   "characters": [
+    "Adonis",
+    "Apollo",
     "Callisto",
+    "Europa",
+    "Hades",
+    "Helen",
     "Juno",
     "Jupiter",
-    "Venus"
+    "Mercury",
+    "Pluto",
+    "Venus",
+    "Vulcan"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 189,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

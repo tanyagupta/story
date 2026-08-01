@@ -1,3 +1,46 @@
 {
-  "items": []
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 76,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-e8829c4d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0093-497081",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "The leech that wrought such healing hurled",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:93.93.1-93.93.1:92599cd3",
+        "gutenberg:ebooks:39250:93.93.2-93.93.2:2a2698af",
+        "gutenberg:ebooks:39250:93.93.3-93.93.3:0ec0530b"
+      ],
+      "status": "open"
+    }
+  ]
 }

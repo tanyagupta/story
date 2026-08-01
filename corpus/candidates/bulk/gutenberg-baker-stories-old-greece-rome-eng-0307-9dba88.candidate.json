@@ -128,9 +128,31 @@
   "candidateType": "non_story_material",
   "mythFamilyId": "footnotes",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-footnotes-b941b6",
-  "characters": [],
+  "characters": [
+    "Atlas",
+    "Hercules",
+    "Mercury",
+    "Theseus"
+  ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 186,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 3,
+      "conflictSignals": 2,
+      "paragraphCount": 111,
+      "knownMythFamily": true
+    }
+  }
 }

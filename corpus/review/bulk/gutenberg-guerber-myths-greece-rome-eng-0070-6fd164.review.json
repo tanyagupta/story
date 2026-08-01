@@ -1,3 +1,42 @@
 {
-  "items": []
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 186,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 8,
+      "actorEvents": 5,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-d54196a7",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0070-6fd164",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "JUNO.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4",
+        "gutenberg:ebooks:39250:70.70.2-70.70.2:3978e35b",
+        "gutenberg:ebooks:39250:70.70.3-70.70.3:629ffe27"
+      ],
+      "status": "open"
+    }
+  ]
 }

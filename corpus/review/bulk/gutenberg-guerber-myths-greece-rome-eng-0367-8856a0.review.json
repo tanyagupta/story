@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 132,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 5,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-081692fe",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0367-8856a0",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Inhaling in thy milky-breathing breast",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6",
+        "gutenberg:ebooks:39250:367.367.2-367.367.2:54eb21d3",
+        "gutenberg:ebooks:39250:367.367.3-367.367.3:224c154b"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "mythId": "bulk-myth-0166",
+  "mythFamilyId": "bellerophon-and-pegasus",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-bellerophon-and-pegasus-0cb80f",
+  "title": "Wordsworth.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b",
+      "gutenberg:ebooks:39250:416.416.2-416.416.2:6cd2a8a9",
+      "gutenberg:ebooks:39250:416.416.3-416.416.3:6a8d7dc1"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "bellerophon",
+      "pegasus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Bellerophon",
+      "normalizedId": "bellerophon",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pegasus",
+      "normalizedId": "pegasus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Bellerophon, Pegasus are involved in Wordsworth.. This fall, which would doubtless have killed any one but a mythological hero, merely deprived Bellerophon of his eyesight; and ever after he groped his way disconsolately,. Bellerophon, mounted upon Pegasus, winging his flight through the air or fighting the Chimæra, is a favorite subject in sculpture and.",
+    "openingSituation": "This fall, which would doubtless have killed any one but a mythological hero, merely deprived Bellerophon of his eyesight; and ever after he groped his way disconsolately,.",
+    "centralConflict": "This fall, which would doubtless have killed any one but a mythological hero, merely deprived Bellerophon of his eyesight; and ever after he groped his way disconsolately,.",
+    "resolution": "Bellerophon, mounted upon Pegasus, winging his flight through the air or fighting the Chimæra, is a favorite subject in sculpture and painting, which has frequently been treated.",
+    "outcome": "Bellerophon, mounted upon Pegasus, winging his flight through the air or fighting the Chimæra, is a favorite subject in sculpture and painting, which has frequently been treated.",
+    "storyline": [
+      "This fall, which would doubtless have killed any one but a mythological hero, merely deprived Bellerophon of his eyesight; and ever after he groped his way disconsolately,.",
+      "Bellerophon, mounted upon Pegasus, winging his flight through the air or fighting the Chimæra, is a favorite subject in sculpture and painting, which has frequently been treated."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b",
+        "gutenberg:ebooks:39250:416.416.2-416.416.2:6cd2a8a9",
+        "gutenberg:ebooks:39250:416.416.3-416.416.3:6a8d7dc1"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:416.416.2-416.416.2:6cd2a8a9"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:416.416.2-416.416.2:6cd2a8a9"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b",
+      "excerpt": "This fall, which would doubtless have killed any one but a mythological hero, merely deprived Bellerophon of his eyesight; and ever after he groped his way disconsolately, thinking of the happy days when he rode along the paths of air,.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:416.416.2-416.416.2:6cd2a8a9",
+      "excerpt": "Bellerophon, mounted upon Pegasus, winging his flight through the air or fighting the Chimæra, is a favorite subject in sculpture and painting, which has frequently been treated by ancient artists, a few of whose most noted works are.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:416.416.3-416.416.3:6a8d7dc1",
+      "excerpt": "This story, like many others, is merely a sun myth, in which Bellerophon, the orb of day, rides across the sky on Pegasus, the fleecy white clouds, and slays Chimæra, the dread monster of darkness, which he alone can overcome. Driven from.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "bellerophon",
+      "predicate": "opening_situation",
+      "object": "This fall, which would doubtless have killed any one but a mythological hero, merely deprived Bellerophon of his eyesight; and ever after he groped his way disconsolately,.",
+      "evidence": [
+        "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "bellerophon",
+      "action": "defeat",
+      "sourceAction": "killed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "This fall, which would doubtless have killed any one but a mythological hero, merely deprived Bellerophon of his eyesight; and ever after he groped his way disconsolately,.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "bellerophon",
+      "action": "flee",
+      "sourceAction": "flight",
+      "object": null,
+      "target": "pegasus",
+      "recipient": null,
+      "location": null,
+      "result": "Bellerophon, mounted upon Pegasus, winging his flight through the air or fighting the Chimæra, is a favorite subject in sculpture and painting, which has frequently been treated.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:416.416.2-416.416.2:6cd2a8a9"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "bellerophon",
+      "predicate": "outcome",
+      "object": "Bellerophon, mounted upon Pegasus, winging his flight through the air or fighting the Chimæra, is a favorite subject in sculpture and painting, which has frequently been treated.",
+      "evidence": [
+        "gutenberg:ebooks:39250:416.416.3-416.416.3:6a8d7dc1"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "This fall, which would doubtless have killed any one but a mythological hero, merely deprived Bellerophon of his eyesight; and ever after he groped his way disconsolately,.",
+      "Bellerophon, mounted upon Pegasus, winging his flight through the air or fighting the Chimæra, is a favorite subject in sculpture and painting, which has frequently been treated."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-7afcc3f5",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0416-25f6a7",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b",
+        "gutenberg:ebooks:39250:416.416.2-416.416.2:6cd2a8a9",
+        "gutenberg:ebooks:39250:416.416.3-416.416.3:6a8d7dc1"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 81,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 2,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

@@ -1,0 +1,110 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0241-cf9d4c",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Hades",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Pluto",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-pluto",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Proserpina",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-proserpina",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "hades",
+      "sourceAction": "condemned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hades",
+      "predicate": "opening_situation",
+      "object": "One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades.",
+      "evidence": [
+        "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hades",
+      "predicate": "outcome",
+      "object": "One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades.",
+      "evidence": [
+        "gutenberg:ebooks:39250:241.241.2-241.241.2:2e3f6d06"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-2585e441",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0241-cf9d4c",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337",
+        "gutenberg:ebooks:39250:241.241.2-241.241.2:2e3f6d06"
+      ],
+      "status": "open"
+    }
+  ]
+}

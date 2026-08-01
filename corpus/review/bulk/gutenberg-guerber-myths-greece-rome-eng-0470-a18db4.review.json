@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 143,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 6,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-e156a315",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0470-a18db4",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "That I receive or aid as he departs",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:470.470.1-470.470.1:cfc094b0",
+        "gutenberg:ebooks:39250:470.470.2-470.470.2:79f03266",
+        "gutenberg:ebooks:39250:470.470.3-470.470.3:661125c6"
+      ],
+      "status": "open"
+    }
+  ]
+}

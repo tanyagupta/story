@@ -1,0 +1,83 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0272-e1e93f",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Midas",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:272.272.1-272.272.1:3c355d75"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:272.272.4-272.272.4:a9ee78db"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "midas",
+      "predicate": "opening_situation",
+      "object": "Here, too, however, a new revelation awaited him; for cloth, plate, and cup turned to gold, as did the food and drink as soon as they met his eager lips.",
+      "evidence": [
+        "gutenberg:ebooks:39250:272.272.1-272.272.1:3c355d75"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "midas",
+      "predicate": "outcome",
+      "object": "Here, too, however, a new revelation awaited him; for cloth, plate, and cup turned to gold, as did the food and drink as soon as they met his eager lips.",
+      "evidence": [
+        "gutenberg:ebooks:39250:272.272.5-272.272.5:2553a79e"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-37120034",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0272-e1e93f",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Fill'd with a bending tuft of golden ears.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:272.272.1-272.272.1:3c355d75",
+        "gutenberg:ebooks:39250:272.272.2-272.272.2:5ff97374",
+        "gutenberg:ebooks:39250:272.272.3-272.272.3:26cdae02"
+      ],
+      "status": "open"
+    }
+  ]
+}

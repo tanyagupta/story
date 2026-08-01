@@ -29,7 +29,7 @@
     "gutenberg:ebooks:39250:499.499.24-499.499.24:c74a4184",
     "gutenberg:ebooks:39250:499.499.25-499.499.25:9a39f3dc"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -42,9 +42,37 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "analysis-of-myths",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-analysis-of-myths-ac95b5",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Atlas",
+    "Cupid",
+    "Hercules",
+    "Jupiter",
+    "Prometheus",
+    "Psyche",
+    "Zeus"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 174,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

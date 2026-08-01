@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:104.104.5-104.104.5:2e036f89",
     "gutenberg:ebooks:39250:104.104.6-104.104.6:40358324"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,9 +23,32 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "moore",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-moore-1b7ce5",
-  "characters": [],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "characters": [
+    "Apollo",
+    "Helios"
+  ],
+  "processingStatus": "rejected-poor-quality",
+  "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 93,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 4,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

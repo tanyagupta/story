@@ -1,0 +1,81 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0210-eceae8",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Mercury",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-mercury",
+      "sourceAction": "presented",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-mercury",
+      "predicate": "opening_situation",
+      "object": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity.",
+      "evidence": [
+        "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-mercury",
+      "predicate": "outcome",
+      "object": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity.",
+      "evidence": [
+        "gutenberg:ebooks:39250:210.210.2-210.210.2:6878d255"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-520049ea",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0210-eceae8",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Goldsmith.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6",
+        "gutenberg:ebooks:39250:210.210.2-210.210.2:6878d255"
+      ],
+      "status": "open"
+    }
+  ]
+}

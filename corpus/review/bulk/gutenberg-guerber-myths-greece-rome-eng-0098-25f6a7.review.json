@@ -1,3 +1,42 @@
 {
-  "items": []
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 114,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 5,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-2a7db5de",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0098-25f6a7",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+        "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3",
+        "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4"
+      ],
+      "status": "open"
+    }
+  ]
 }

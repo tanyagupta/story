@@ -1,0 +1,96 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0559-c50279",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Helen",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:559.559.1-559.559.1:9e997339"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "helen",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:559.559.1-559.559.1:9e997339"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-jupiter",
+      "sourceAction": "sent",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:559.559.6-559.559.6:d55e3a00"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "helen",
+      "predicate": "opening_situation",
+      "object": "Same as Typhon; monster sent to dethrone Jupiter, 23, 24.",
+      "evidence": [
+        "gutenberg:ebooks:39250:559.559.1-559.559.1:9e997339"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "helen",
+      "predicate": "outcome",
+      "object": "Same as Typhon; monster sent to dethrone Jupiter, 23, 24.",
+      "evidence": [
+        "gutenberg:ebooks:39250:559.559.6-559.559.6:d55e3a00"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-e2ac4280",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0559-c50279",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Troy.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:559.559.1-559.559.1:9e997339",
+        "gutenberg:ebooks:39250:559.559.2-559.559.2:7792cc60",
+        "gutenberg:ebooks:39250:559.559.3-559.559.3:659637ab"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0398-25f6a7",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Jason",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:398.398.1-398.398.1:ca87af89"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "jason",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Medea",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:398.398.1-398.398.1:ca87af89"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "medea",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "slew",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:398.398.2-398.398.2:1c55aadb"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "medea",
+      "sourceAction": "seized",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:398.398.3-398.398.3:a9b7e14a"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "jason",
+      "sourceAction": "departed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:398.398.3-398.398.3:a9b7e14a"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "jason",
+      "sourceAction": "wandered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:398.398.5-398.398.5:f42acdf9"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "jason",
+      "sourceAction": "found",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:398.398.6-398.398.6:01ca5dfc"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "jason",
+      "predicate": "opening_situation",
+      "object": "The sorceress maliciously bade them cut their father's body into small pieces, and boil them in a caldron with certain herbs, declaring that, if the directions were carefully.",
+      "evidence": [
+        "gutenberg:ebooks:39250:398.398.1-398.398.1:ca87af89"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "jason",
+      "predicate": "outcome",
+      "object": "The Argonautic expedition is emblematic of the first long maritime voyage undertaken by the Greeks for commercial purposes; while the golden fleece which Jason brought back from.",
+      "evidence": [
+        "gutenberg:ebooks:39250:398.398.6-398.398.6:01ca5dfc"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-f6e1ca69",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0398-25f6a7",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:398.398.1-398.398.1:ca87af89",
+        "gutenberg:ebooks:39250:398.398.2-398.398.2:1c55aadb",
+        "gutenberg:ebooks:39250:398.398.3-398.398.3:a9b7e14a"
+      ],
+      "status": "open"
+    }
+  ]
+}

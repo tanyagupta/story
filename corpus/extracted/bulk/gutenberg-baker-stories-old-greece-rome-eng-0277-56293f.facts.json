@@ -1,0 +1,110 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0277-56293f",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Andromeda",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:277.277.1-277.277.1:29db6e2c"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "andromeda",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Bellerophon",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:277.277.1-277.277.1:29db6e2c"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "bellerophon",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Pegasus",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:277.277.1-277.277.1:29db6e2c"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "pegasus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "bellerophon",
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:277.277.2-277.277.2:1b3f3ef5"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "andromeda",
+      "predicate": "opening_situation",
+      "object": "From the incident of Bellerophon's bearing to Iobates the letters that contained his own death-warrant, came the expression \"Bellerophontic letters.\" This is used to describe any.",
+      "evidence": [
+        "gutenberg:ebooks:45489:277.277.1-277.277.1:29db6e2c"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "andromeda",
+      "predicate": "outcome",
+      "object": "From the incident of Bellerophon's bearing to Iobates the letters that contained his own death-warrant, came the expression \"Bellerophontic letters.\" This is used to describe any.",
+      "evidence": [
+        "gutenberg:ebooks:45489:277.277.6-277.277.6:7c990d61"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-744628c5",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0277-56293f",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Andromeda CHARLES KINGSLEY",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:277.277.1-277.277.1:29db6e2c",
+        "gutenberg:ebooks:45489:277.277.2-277.277.2:1b3f3ef5",
+        "gutenberg:ebooks:45489:277.277.3-277.277.3:bf9ddbf0"
+      ],
+      "status": "open"
+    }
+  ]
+}

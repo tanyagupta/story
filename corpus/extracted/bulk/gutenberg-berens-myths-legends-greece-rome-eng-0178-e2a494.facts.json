@@ -1,0 +1,99 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0178-e2a494",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Zeus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:178.178.1-178.178.1:fb2e98aa"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "zeus",
+      "sourceAction": "loved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:178.178.3-178.178.3:dbb3b87c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "battle",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:178.178.5-178.178.5:2e0d3f99"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "Ares, the son of Zeus and Hera, was the god of war, who gloried in strife for its own sake; he loved the tumult and havoc of the battlefield, and delighted in slaughter and.",
+      "evidence": [
+        "gutenberg:ebooks:22381:178.178.1-178.178.1:fb2e98aa"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Thus she assists the divine hero Diomedes at the siege of Troy, to overcome Ares in battle, and so well does he profit by her timely aid, that he succeeds in wounding the.",
+      "evidence": [
+        "gutenberg:ebooks:22381:178.178.7-178.178.7:4f145a5f"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-8131bf94",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0178-e2a494",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "THE SIRENS.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:178.178.1-178.178.1:fb2e98aa",
+        "gutenberg:ebooks:22381:178.178.2-178.178.2:3ec9cfa4",
+        "gutenberg:ebooks:22381:178.178.3-178.178.3:dbb3b87c"
+      ],
+      "status": "open"
+    }
+  ]
+}

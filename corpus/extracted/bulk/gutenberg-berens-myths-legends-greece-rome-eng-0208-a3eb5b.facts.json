@@ -1,0 +1,99 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0208-a3eb5b",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Zeus",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:208.208.1-208.208.1:18895345"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "seized",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "wandered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "Having instigated Hera to deprive Heracles of his birthright, her father seized her by the hair of her head, and hurled her from Olympus, forbidding her, under the most solemn.",
+      "evidence": [
+        "gutenberg:ebooks:22381:208.208.1-208.208.1:18895345"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Henceforth she wandered among mankind, sowing dissension, working mischief, and luring men to all actions inimical to their welfare and happiness.",
+      "evidence": [
+        "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-5960e8c3",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0208-a3eb5b",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "ATE.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:208.208.1-208.208.1:18895345",
+        "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+      ],
+      "status": "open"
+    }
+  ]
+}

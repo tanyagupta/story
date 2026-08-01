@@ -1,0 +1,84 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0049-b4d8fa",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "told",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "flight",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:49.49.2-49.49.2:1816f076"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "His audacious foot he planted, Myths are told and songs are chanted, Full of promptings and suggestions.",
+      "evidence": [
+        "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "\"Beautiful is the tradition Of that flight through heavenly portals,",
+      "evidence": [
+        "gutenberg:ebooks:39250:49.49.2-49.49.2:1816f076"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-6f5fab15",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0049-b4d8fa",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "On Olympus' shining bastions",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028",
+        "gutenberg:ebooks:39250:49.49.2-49.49.2:1816f076"
+      ],
+      "status": "open"
+    }
+  ]
+}

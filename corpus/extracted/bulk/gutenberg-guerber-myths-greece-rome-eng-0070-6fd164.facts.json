@@ -5,70 +5,70 @@
     {
       "sourceName": "Callisto",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "callisto",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Juno",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-juno",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Jupiter",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-jupiter",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Mercury",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-mercury",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Vulcan",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-vulcan",
       "normalizationStatus": "approved"
     }
@@ -87,15 +87,15 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
+          "passageId": "gutenberg:ebooks:39250:70.70.2-70.70.2:3978e35b"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-juno",
-      "sourceAction": "is described",
+      "actorSourceName": null,
+      "sourceAction": "found",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -108,11 +108,11 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
-      "sourceAction": "was",
+      "actorSourceName": "roman-juno",
+      "sourceAction": "declared",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -121,18 +121,103 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:70.70.3-70.70.3:629ffe27"
+          "passageId": "gutenberg:ebooks:39250:70.70.2-70.70.2:3978e35b"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "punished",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.5-70.70.5:d7151947"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "callisto",
+      "sourceAction": "discovered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.7-70.70.7:44796cbc"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.7-70.70.7:44796cbc"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-jupiter",
+      "sourceAction": "discovered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.7-70.70.7:44796cbc"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-juno",
+      "sourceAction": "accomplished",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:70.70.9-70.70.9:46e148cd"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "callisto",
-      "predicate": "is introduced in",
-      "object": "JUNO.",
+      "predicate": "opening_situation",
+      "object": "Juno (Hera, Here), queen of heaven, and goddess of the atmosphere and of marriage, was the daughter of Cronus and Rhea, and consequently the sister of Jupiter; but, as soon as.",
       "evidence": [
         "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4"
       ]
@@ -141,14 +226,31 @@
   "finalState": [
     {
       "subject": "callisto",
-      "predicate": "is last attested in selected candidate",
-      "object": "JUNO.",
+      "predicate": "outcome",
+      "object": "Juno, like her husband, had also her special attendant, Iris (the Rainbow), whom she frequently employed as messenger,--a task which this deity accomplished with as much celerity.",
       "evidence": [
         "gutenberg:ebooks:39250:70.70.12-70.70.12:3ef721e2"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-d54196a7",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0070-6fd164",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "JUNO.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:70.70.1-70.70.1:236b79d4",
+        "gutenberg:ebooks:39250:70.70.2-70.70.2:3978e35b",
+        "gutenberg:ebooks:39250:70.70.3-70.70.3:629ffe27"
+      ],
+      "status": "open"
+    }
+  ]
 }

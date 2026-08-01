@@ -25,7 +25,7 @@
     "gutenberg:ebooks:39250:497.497.20-497.497.20:4de6f693",
     "gutenberg:ebooks:39250:497.497.21-497.497.21:2bf08481"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -35,15 +35,34 @@
   "workingTitle": "Virgil.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "virgil",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-virgil-7e6b14",
   "characters": [
+    "Juno",
+    "Jupiter",
     "Venus",
     "Vulcan"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 222,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 14,
+      "conflictSignals": 8,
+      "paragraphCount": 21,
+      "knownMythFamily": true
+    }
+  }
 }

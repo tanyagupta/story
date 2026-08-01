@@ -1,0 +1,99 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0445-25f6a7",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Mercury",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:445.445.1-445.445.1:b4771e74"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "slain",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:445.445.2-445.445.2:27c9d87e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "reached",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:445.445.2-445.445.2:27c9d87e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-mercury",
+      "predicate": "opening_situation",
+      "object": "Protesilaus, a brave chief, seeing his comrades' irresolution, and animated by a spirit of self-sacrifice, sprang boldly ashore, and perished, slain by the enemy, as soon as his.",
+      "evidence": [
+        "gutenberg:ebooks:39250:445.445.1-445.445.1:b4771e74"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-mercury",
+      "predicate": "outcome",
+      "object": "When the tidings of his death reached his beloved wife, Laodamia, whom he had left in Thessaly, they well-nigh broke her heart; and in her despair she entreated the gods to let.",
+      "evidence": [
+        "gutenberg:ebooks:39250:445.445.3-445.445.3:5e0b2a16"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-f66cc6ae",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0445-25f6a7",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:445.445.1-445.445.1:b4771e74",
+        "gutenberg:ebooks:39250:445.445.2-445.445.2:27c9d87e",
+        "gutenberg:ebooks:39250:445.445.3-445.445.3:5e0b2a16"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0479-f34471",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Minerva",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:479.479.1-479.479.1:4687e2ca"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-minerva",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ulysses",
+      "entityType": "character",
+      "roleInEpisode": "antagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:479.479.1-479.479.1:4687e2ca"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-ulysses",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-ulysses",
+      "sourceAction": "seized",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:479.479.4-479.479.4:b19d2f55"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-minerva",
+      "sourceAction": "slew",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:479.479.5-479.479.5:ceea0d5e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-minerva",
+      "predicate": "opening_situation",
+      "object": "The suitors all vainly strove to bend the mighty bow, which was then seized by the disguised Ulysses, while the youths laughed aloud in scorn, until Telemachus bade them let the.",
+      "evidence": [
+        "gutenberg:ebooks:39250:479.479.1-479.479.1:4687e2ca"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-minerva",
+      "predicate": "outcome",
+      "object": "A scene of wild commotion ensued, in which Ulysses, Telemachus, Eumæus, and Minerva disguised as Mentor, opposed and slew all the wooers.",
+      "evidence": [
+        "gutenberg:ebooks:39250:479.479.6-479.479.6:32242204"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a72b5714",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0479-f34471",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Whoe'er among you he may be whose hand",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:479.479.1-479.479.1:4687e2ca",
+        "gutenberg:ebooks:39250:479.479.2-479.479.2:79f03266",
+        "gutenberg:ebooks:39250:479.479.3-479.479.3:beab0dd5"
+      ],
+      "status": "open"
+    }
+  ]
+}

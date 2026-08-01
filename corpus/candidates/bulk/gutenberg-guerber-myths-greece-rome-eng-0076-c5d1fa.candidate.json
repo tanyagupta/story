@@ -18,7 +18,7 @@
     "gutenberg:ebooks:39250:76.76.13-76.76.13:48b8b737",
     "gutenberg:ebooks:39250:76.76.14-76.76.14:977cdcef"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -28,14 +28,35 @@
   "workingTitle": "Pope.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "pope",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-pope-559a17",
   "characters": [
-    "Minerva"
+    "Arachne",
+    "Europa",
+    "Jupiter",
+    "Minerva",
+    "Neptune"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 161,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 12,
+      "conflictSignals": 3,
+      "paragraphCount": 14,
+      "knownMythFamily": true
+    }
+  }
 }

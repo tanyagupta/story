@@ -20,7 +20,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -33,15 +33,15 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+          "passageId": "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
-      "sourceAction": "had",
+      "sourceAction": "made",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -54,14 +54,31 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "struggled",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "source-section",
-      "predicate": "is introduced in",
-      "object": "Edwin Arnold.",
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "All day long Hero had hoped that her lover would renounce his nightly journey; but still, when evening came, she lighted her torch to serve as beacon, should he risk all to keep.",
       "evidence": [
         "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985"
       ]
@@ -69,15 +86,32 @@
   ],
   "finalState": [
     {
-      "subject": "source-section",
-      "predicate": "is last attested in selected candidate",
-      "object": "Edwin Arnold.",
+      "subject": null,
+      "predicate": "outcome",
+      "object": "But this time his prayers were unheard, drowned in the fury of the storm; yet he struggled on a while longer, with Hero's name on his lips.",
       "evidence": [
         "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-6a684095",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0182-9c3293",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Edwin Arnold.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985",
+        "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:508.508.7-508.508.7:78b98139",
     "gutenberg:ebooks:39250:508.508.8-508.508.8:0056f660"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,16 +22,35 @@
   "workingTitle": "WIND MYTHS.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "wind-myths",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-wind-myths-c20748",
   "characters": [
     "Hermes",
+    "Juno",
     "Jupiter",
-    "Mercury"
+    "Mercury",
+    "Neptune"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 103,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 5,
+      "conflictSignals": 2,
+      "paragraphCount": 8,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -34,10 +34,28 @@
   "mythFamilyId": "mars",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-mars-574929",
   "characters": [
-    "Jupiter"
+    "Jupiter",
+    "Zeus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 181,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 14,
+      "conflictSignals": 6,
+      "paragraphCount": 16,
+      "knownMythFamily": true
+    }
+  }
 }

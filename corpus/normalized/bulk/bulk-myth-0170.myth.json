@@ -1,0 +1,237 @@
+{
+  "mythId": "bulk-myth-0170",
+  "mythFamilyId": "demeter-and-persephone",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-demeter-and-persephone-0a978f",
+  "title": "CERES AND PROSERPINA.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:281.281.1-281.281.1:6233db9c",
+      "gutenberg:ebooks:39250:281.281.2-281.281.2:38b27b1f",
+      "gutenberg:ebooks:39250:281.281.3-281.281.3:27a2d1c4",
+      "gutenberg:ebooks:39250:281.281.4-281.281.4:bc122545"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "ceres",
+      "demeter",
+      "roman-jupiter",
+      "persephone",
+      "roman-proserpina"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Ceres",
+      "normalizedId": "ceres",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:281.281.1-281.281.1:6233db9c"
+        }
+      ]
+    },
+    {
+      "sourceName": "Demeter",
+      "normalizedId": "demeter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:281.281.1-281.281.1:6233db9c"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:281.281.1-281.281.1:6233db9c"
+        }
+      ]
+    },
+    {
+      "sourceName": "Persephone",
+      "normalizedId": "persephone",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:281.281.1-281.281.1:6233db9c"
+        }
+      ]
+    },
+    {
+      "sourceName": "Proserpina",
+      "normalizedId": "roman-proserpina",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:281.281.1-281.281.1:6233db9c"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Ceres, Demeter, Jupiter are involved in CERES AND PROSERPINA.. Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a.",
+    "openingSituation": "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a.",
+    "centralConflict": "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a.",
+    "resolution": "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a.",
+    "outcome": "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a.",
+    "storyline": [
+      "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:281.281.1-281.281.1:6233db9c",
+        "gutenberg:ebooks:39250:281.281.2-281.281.2:38b27b1f",
+        "gutenberg:ebooks:39250:281.281.3-281.281.3:27a2d1c4"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:281.281.2-281.281.2:38b27b1f"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:281.281.2-281.281.2:38b27b1f"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:281.281.2-281.281.2:38b27b1f"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:281.281.2-281.281.2:38b27b1f"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:281.281.1-281.281.1:6233db9c",
+      "excerpt": "[Sidenote: Ceres and Proserpina.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:281.281.2-281.281.2:38b27b1f",
+      "excerpt": "Ceres (Demeter), daughter of Cronus and Rhea, and one of Jupiter's numerous consorts, was goddess of agriculture and civilization. Her manifold cares were shared by her daughter, Proserpina (Cora, Pherephatta, Persephone), the goddess of.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:281.281.3-281.281.3:27a2d1c4",
+      "excerpt": "One day, weary of labor, Proserpina called these fair playmates to join her and spend a merry day gathering flowers.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:281.281.4-281.281.4:bc122545",
+      "excerpt": "\"And one fair morn-- Not all the ages blot it--on the side Of Ætna we were straying. There was then Summer nor winter, springtide nor the time Of harvest, but the soft unfailing sun Shone always, and the sowing time was one With reaping.\"",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "ceres",
+      "predicate": "opening_situation",
+      "object": "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a.",
+      "evidence": [
+        "gutenberg:ebooks:39250:281.281.1-281.281.1:6233db9c"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "wandered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:281.281.2-281.281.2:38b27b1f"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "ceres",
+      "predicate": "outcome",
+      "object": "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a.",
+      "evidence": [
+        "gutenberg:ebooks:39250:281.281.4-281.281.4:bc122545"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Whenever her duties permitted, this fair young goddess hastened off to the Island of Sicily, her favorite place of resort, where she wandered about all day long, attended by a."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-581a9b37",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0281-f45fa8",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "CERES AND PROSERPINA.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:281.281.1-281.281.1:6233db9c",
+        "gutenberg:ebooks:39250:281.281.2-281.281.2:38b27b1f",
+        "gutenberg:ebooks:39250:281.281.3-281.281.3:27a2d1c4"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 84,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

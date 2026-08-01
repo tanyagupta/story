@@ -16,7 +16,7 @@
     "gutenberg:ebooks:39250:522.522.11-522.522.11:506d6c38",
     "gutenberg:ebooks:39250:522.522.12-522.522.12:ff874be8"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -30,11 +30,36 @@
   "mythFamilyId": "prometheus",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-prometheus-75d5b9",
   "characters": [
+    "Hercules",
+    "Jason",
     "Jupiter",
-    "Prometheus"
+    "Medea",
+    "Prometheus",
+    "Pygmalion",
+    "Venus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 173,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 7,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

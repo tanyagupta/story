@@ -26,11 +26,33 @@
   "mythFamilyId": "seasons",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-seasons-6e0b00",
   "characters": [
+    "Bacchus",
+    "Cadmus",
+    "Diana",
     "Jupiter",
-    "Pluto"
+    "Perseus",
+    "Pluto",
+    "Vulcan"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 69,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 7,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 8,
+      "knownMythFamily": true
+    }
+  }
 }

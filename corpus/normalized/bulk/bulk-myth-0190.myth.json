@@ -1,0 +1,199 @@
+{
+  "mythId": "bulk-myth-0190",
+  "mythFamilyId": "demeter-and-persephone",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-demeter-and-persephone-2ced6a",
+  "title": "Saxe.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337",
+      "gutenberg:ebooks:39250:241.241.2-241.241.2:2e3f6d06"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hades",
+      "roman-pluto",
+      "roman-proserpina"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Hades",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pluto",
+      "normalizedId": "roman-pluto",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+        }
+      ]
+    },
+    {
+      "sourceName": "Proserpina",
+      "normalizedId": "roman-proserpina",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Hades, Pluto, Proserpina are involved in Saxe.. One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades.",
+    "openingSituation": "One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades.",
+    "centralConflict": "One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades.",
+    "resolution": "One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades.",
+    "outcome": "One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades.",
+    "storyline": [
+      "One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337",
+        "gutenberg:ebooks:39250:241.241.2-241.241.2:2e3f6d06"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337",
+      "excerpt": "From thence a long subterranean passage, through which shadowy spirits glided incessantly, led to the throne room, where Pluto and Proserpina sat in state, clad in their sable robes. From the foot of this throne flowed the rivers which.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:241.241.2-241.241.2:2e3f6d06",
+      "excerpt": "\"Cocytus, named of lamentation loud Heard on the rueful stream.\"",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hades",
+      "predicate": "opening_situation",
+      "object": "One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades.",
+      "evidence": [
+        "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "hades",
+      "action": "punish",
+      "sourceAction": "condemned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "underworld",
+      "result": "One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hades",
+      "predicate": "outcome",
+      "object": "One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades.",
+      "evidence": [
+        "gutenberg:ebooks:39250:241.241.2-241.241.2:2e3f6d06"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "One, the Cocytus, rolled salt waves, composed of naught but the tears flowing continually from the eyes of the criminals condemned to hard labor in Tartarus, the portion of Hades."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-2585e441",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0241-cf9d4c",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337",
+        "gutenberg:ebooks:39250:241.241.2-241.241.2:2e3f6d06"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 73,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 1,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

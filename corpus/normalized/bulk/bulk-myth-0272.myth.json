@@ -1,0 +1,177 @@
+{
+  "mythId": "bulk-myth-0272",
+  "mythFamilyId": "demeter-and-persephone",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-demeter-and-persephone-059149",
+  "title": "PLUTUS.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b",
+      "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "demeter"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Demeter",
+      "normalizedId": "demeter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Demeter are involved in PLUTUS.. Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity.",
+    "openingSituation": "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity.",
+    "centralConflict": "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity.",
+    "resolution": "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity.",
+    "outcome": "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity.",
+    "storyline": [
+      "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b",
+        "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b",
+      "excerpt": "Plutus, the son of Demeter and a mortal called Iasion, was the god of wealth, and is represented as being lame when he makes his appearance, and winged when he takes his departure. He was supposed to be both blind and foolish, because he.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b",
+      "excerpt": "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "demeter",
+      "predicate": "opening_situation",
+      "object": "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity.",
+      "evidence": [
+        "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "demeter",
+      "predicate": "outcome",
+      "object": "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity.",
+      "evidence": [
+        "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-a5ab42b5",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0193-3eea89",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "PLUTUS.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b",
+        "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 52,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

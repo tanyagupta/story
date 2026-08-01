@@ -1,0 +1,81 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0294-c01871",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Ceres",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ceres",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "ceres",
+      "predicate": "opening_situation",
+      "object": "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+      "evidence": [
+        "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "ceres",
+      "predicate": "outcome",
+      "object": "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+      "evidence": [
+        "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-bdf12c26",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0294-c01871",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Orphic Hymn.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89",
+        "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+      ],
+      "status": "open"
+    }
+  ]
+}

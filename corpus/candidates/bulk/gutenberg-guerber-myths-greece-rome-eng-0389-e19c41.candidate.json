@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:389.389.7-389.389.7:0e2fa0c6",
     "gutenberg:ebooks:39250:389.389.8-389.389.8:6d68b7a4"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,16 +22,38 @@
   "workingTitle": "Catullus.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "theseus-and-minotaur",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-theseus-and-minotaur-bce159",
   "characters": [
+    "Hades",
+    "Helen",
     "Hercules",
     "Hippolytus",
+    "Jupiter",
+    "Pluto",
+    "Proserpina",
     "Theseus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 175,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 8,
+      "actionBearingSentences": 8,
+      "conflictSignals": 5,
+      "paragraphCount": 8,
+      "knownMythFamily": true
+    }
+  }
 }

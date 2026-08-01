@@ -30,10 +30,29 @@
   "mythFamilyId": "illustration",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-illustration-0e9ff7",
   "characters": [
+    "Apollo",
+    "Dionysus",
     "Hermes"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 103,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 7,
+      "conflictSignals": 2,
+      "paragraphCount": 12,
+      "knownMythFamily": true
+    }
+  }
 }

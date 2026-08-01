@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 117,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 6,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-51d9b37f",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0278-006213",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "ORACLES.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:278.278.1-278.278.1:b233903b",
+        "gutenberg:ebooks:22381:278.278.2-278.278.2:2d772bdf",
+        "gutenberg:ebooks:22381:278.278.3-278.278.3:dae380d0"
+      ],
+      "status": "open"
+    }
+  ]
+}

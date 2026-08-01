@@ -11,7 +11,7 @@
     "gutenberg:ebooks:45489:146.146.6-146.146.6:afdd7c22",
     "gutenberg:ebooks:45489:146.146.7-146.146.7:ed2b0f8e"
   ],
-  "status": "awaiting_extraction",
+  "status": "approved",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,10 +26,31 @@
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-perseus-and-medusa-905447",
   "characters": [
     "Jupiter",
-    "Perseus"
+    "Medusa",
+    "Mercury",
+    "Minerva",
+    "Perseus",
+    "Pluto"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "approved",
+  "reviewStatus": "approved",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 189,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

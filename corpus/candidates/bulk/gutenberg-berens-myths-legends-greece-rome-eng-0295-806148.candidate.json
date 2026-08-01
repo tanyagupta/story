@@ -13,7 +13,7 @@
     "gutenberg:ebooks:22381:295.295.8-295.295.8:20caac56",
     "gutenberg:ebooks:22381:295.295.9-295.295.9:317b0fa8"
   ],
-  "status": "awaiting_extraction",
+  "status": "approved",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -27,12 +27,30 @@
   "mythFamilyId": "europa",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-europa-c7b85a",
   "characters": [
+    "Apollo",
     "Cadmus",
     "Europa",
     "Zeus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "approved",
+  "reviewStatus": "approved",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 183,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 6,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

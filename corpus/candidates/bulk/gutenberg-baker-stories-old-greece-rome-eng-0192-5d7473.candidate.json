@@ -15,7 +15,7 @@
   "workingTitle": "XIII",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "non_story_material",
+  "candidateType": "ambiguous",
   "mythFamilyId": "odysseus-cyclops",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-odysseus-cyclops-b18ef5",
   "characters": [
@@ -26,5 +26,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 52,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 3,
+      "conflictSignals": 2,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

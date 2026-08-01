@@ -1,0 +1,114 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0483-cdb054",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Hector",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hector",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Venus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "hector",
+      "sourceAction": "sent",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "born",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:483.483.4-483.483.4:44b82681"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hector",
+      "predicate": "opening_situation",
+      "object": "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him.",
+      "evidence": [
+        "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hector",
+      "predicate": "outcome",
+      "object": "\"'Ah, goddess-born,' he warns me, 'fly!",
+      "evidence": [
+        "gutenberg:ebooks:39250:483.483.4-483.483.4:44b82681"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-1d34f2c2",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0483-cdb054",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "CHAPTER XXIX.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30",
+        "gutenberg:ebooks:39250:483.483.2-483.483.2:a9133f04",
+        "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374"
+      ],
+      "status": "open"
+    }
+  ]
+}

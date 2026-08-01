@@ -97,7 +97,7 @@
     "gutenberg:ebooks:39250:513.513.92-513.513.92:a6c5b81a",
     "gutenberg:ebooks:39250:513.513.93-513.513.93:ff3678ec"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -110,9 +110,66 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-1c7f6f",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Achilles",
+    "Apollo",
+    "Ariadne",
+    "Bacchus",
+    "Bellerophon",
+    "Cadmus",
+    "Callisto",
+    "Cassandra",
+    "Ceres",
+    "Cupid",
+    "Diana",
+    "Dionysus",
+    "Europa",
+    "Eurydice",
+    "Hades",
+    "Hector",
+    "Helios",
+    "Hercules",
+    "Io",
+    "Jason",
+    "Juno",
+    "Jupiter",
+    "Mercury",
+    "Minerva",
+    "Neptune",
+    "Niobe",
+    "Orpheus",
+    "Pegasus",
+    "Perseus",
+    "Pluto",
+    "Proserpina",
+    "Theseus",
+    "Ulysses",
+    "Venus",
+    "Vulcan"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

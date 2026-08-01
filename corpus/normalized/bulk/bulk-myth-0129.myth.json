@@ -1,0 +1,315 @@
+{
+  "mythId": "bulk-myth-0129",
+  "mythFamilyId": "the-seven-against-thebes",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-the-seven-against-thebes-0cfd53",
+  "title": "THE SEVEN AGAINST THEBES.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:325.325.1-325.325.1:05c7fe69",
+      "gutenberg:ebooks:22381:325.325.2-325.325.2:5410771b",
+      "gutenberg:ebooks:22381:325.325.3-325.325.3:1d6af1ec",
+      "gutenberg:ebooks:22381:325.325.4-325.325.4:97b49943"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "oedipus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Oedipus",
+      "normalizedId": "oedipus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:325.325.1-325.325.1:05c7fe69"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Oedipus are involved in THE SEVEN AGAINST THEBES.. But Eteocles, being an ambitious prince, soon seized the reins of government himself, and expelled his brother from the throne. Polynices now repaired to Argos, where he arrived in the dead of night. Having accidentally killed a relative in the chase, Tydeus was also a fugitive; but being mistaken by.",
+    "openingSituation": "But Eteocles, being an ambitious prince, soon seized the reins of government himself, and expelled his brother from the throne.",
+    "centralConflict": "But Eteocles, being an ambitious prince, soon seized the reins of government himself, and expelled his brother from the throne.",
+    "resolution": "But Adrastus, seconded by Polynices and Tydeus, was obstinately bent on the achievement of his purpose, and Amphiaraus, in order to escape from their importunities, concealed.",
+    "outcome": "But Adrastus, seconded by Polynices and Tydeus, was obstinately bent on the achievement of his purpose, and Amphiaraus, in order to escape from their importunities, concealed.",
+    "storyline": [
+      "But Eteocles, being an ambitious prince, soon seized the reins of government himself, and expelled his brother from the throne.",
+      "Polynices now repaired to Argos, where he arrived in the dead of night.",
+      "Having accidentally killed a relative in the chase, Tydeus was also a fugitive; but being mistaken by Polynices in the darkness for an enemy, a quarrel ensued, which might have.",
+      "The former bore this insignia in honour of the renowned hero Heracles, the latter in memory of the famous Calydonian boar-hunt.",
+      "Hailing with delight what he regarded as an auspicious solution of the mysterious prophecy, he invited the strangers into his palace; and when he heard their history, and had.",
+      "As he foresaw a disastrous termination to the enterprise, and knew that not one of the heroes, save Adrastus himself, would return alive, he earnestly dissuaded the king from."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:325.325.1-325.325.1:05c7fe69",
+        "gutenberg:ebooks:22381:325.325.2-325.325.2:5410771b",
+        "gutenberg:ebooks:22381:325.325.3-325.325.3:1d6af1ec"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:325.325.1-325.325.1:05c7fe69"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:325.325.1-325.325.1:05c7fe69"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:325.325.4-325.325.4:97b49943"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:325.325.4-325.325.4:97b49943"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:325.325.1-325.325.1:05c7fe69",
+      "excerpt": "After the voluntary abdication of Oedipus, his two sons, Eteocles and Polynices, took possession of the crown and reigned over the city of Thebes. But Eteocles, being an ambitious prince, soon seized the reins of government himself, and.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:325.325.2-325.325.2:5410771b",
+      "excerpt": "Polynices now repaired to Argos, where he arrived in the dead of night. Outside the gates of the royal palace he encountered Tydeus, the son of Oeneus, king of Calydon. Having accidentally killed a relative in the chase, Tydeus was also a.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:325.325.3-325.325.3:1d6af1ec",
+      "excerpt": "By the light of the torches borne by his attendants Adrastus observed, to his surprise, that on the shield of Polynices a lion was depicted, and on that of Tydeus a boar. The former bore this insignia in honour of the renowned hero.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:325.325.4-325.325.4:97b49943",
+      "excerpt": "The first care of Adrastus was to aid Polynices in regaining possession of his lawful share in the government of Thebes. He accordingly invited the most powerful chiefs in his kingdom to join in the expedition, {273} all of whom readily.",
+      "supports": [
+        "event-004"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "oedipus",
+      "predicate": "opening_situation",
+      "object": "But Eteocles, being an ambitious prince, soon seized the reins of government himself, and expelled his brother from the throne.",
+      "evidence": [
+        "gutenberg:ebooks:22381:325.325.1-325.325.1:05c7fe69"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "seized",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "But Eteocles, being an ambitious prince, soon seized the reins of government himself, and expelled his brother from the throne.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:325.325.1-325.325.1:05c7fe69"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "arrived",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Polynices now repaired to Argos, where he arrived in the dead of night.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:325.325.2-325.325.2:5410771b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "defeat",
+      "sourceAction": "killed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Having accidentally killed a relative in the chase, Tydeus was also a fugitive; but being mistaken by Polynices in the darkness for an enemy, a quarrel ensued, which might have.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:325.325.2-325.325.2:5410771b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": null,
+      "action": "birth",
+      "sourceAction": "bore",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The former bore this insignia in honour of the renowned hero Heracles, the latter in memory of the famous Calydonian boar-hunt.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:325.325.3-325.325.3:1d6af1ec"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": null,
+      "action": "give",
+      "sourceAction": "bestowed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Hailing with delight what he regarded as an auspicious solution of the mysterious prophecy, he invited the strangers into his palace; and when he heard their history, and had.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:325.325.3-325.325.3:1d6af1ec"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "actor": null,
+      "action": "recognize",
+      "sourceAction": "knew",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "As he foresaw a disastrous termination to the enterprise, and knew that not one of the heroes, save Adrastus himself, would return alive, he earnestly dissuaded the king from.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:325.325.4-325.325.4:97b49943"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "actor": null,
+      "action": "hide",
+      "sourceAction": "concealed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "But Adrastus, seconded by Polynices and Tydeus, was obstinately bent on the achievement of his purpose, and Amphiaraus, in order to escape from their importunities, concealed.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:325.325.4-325.325.4:97b49943"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "oedipus",
+      "predicate": "outcome",
+      "object": "But Adrastus, seconded by Polynices and Tydeus, was obstinately bent on the achievement of his purpose, and Amphiaraus, in order to escape from their importunities, concealed.",
+      "evidence": [
+        "gutenberg:ebooks:22381:325.325.4-325.325.4:97b49943"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "But Eteocles, being an ambitious prince, soon seized the reins of government himself, and expelled his brother from the throne.",
+      "Polynices now repaired to Argos, where he arrived in the dead of night.",
+      "Having accidentally killed a relative in the chase, Tydeus was also a fugitive; but being mistaken by Polynices in the darkness for an enemy, a quarrel ensued, which might have.",
+      "The former bore this insignia in honour of the renowned hero Heracles, the latter in memory of the famous Calydonian boar-hunt.",
+      "Hailing with delight what he regarded as an auspicious solution of the mysterious prophecy, he invited the strangers into his palace; and when he heard their history, and had.",
+      "As he foresaw a disastrous termination to the enterprise, and knew that not one of the heroes, save Adrastus himself, would return alive, he earnestly dissuaded the king from."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-36e8cc60",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0325-4c8f01",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "THE SEVEN AGAINST THEBES.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:325.325.1-325.325.1:05c7fe69",
+        "gutenberg:ebooks:22381:325.325.2-325.325.2:5410771b",
+        "gutenberg:ebooks:22381:325.325.3-325.325.3:1d6af1ec"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 118,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 7,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

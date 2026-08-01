@@ -1,0 +1,221 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0104-432c01",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Cupid",
+      "entityType": "character",
+      "roleInEpisode": "helper",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-cupid",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "helper",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Venus",
+      "entityType": "character",
+      "roleInEpisode": "helper",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Vulcan",
+      "entityType": "character",
+      "roleInEpisode": "helper",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-vulcan",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-vulcan",
+      "sourceAction": "returned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "bore",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-vulcan",
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-jupiter",
+      "sourceAction": "battle",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "apollo",
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-jupiter",
+      "sourceAction": "wed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Though Vulcan grudgingly complied with these requests, he would not consent to live in Olympus, but returned to his workshop in Mount Etna.",
+      "evidence": [
+        "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was.",
+      "evidence": [
+        "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-785691ad",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0104-432c01",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Jupiter's favor.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2",
+        "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+      ],
+      "status": "open"
+    }
+  ]
+}

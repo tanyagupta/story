@@ -1,3 +1,42 @@
 {
-  "items": []
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 186,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 8,
+      "actorEvents": 5,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-ef7dd1fe",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0063-63c58b",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "But this fair goddess awkwardly tripped and fell on a solemn",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2",
+        "gutenberg:ebooks:39250:63.63.2-63.63.2:8726faa2",
+        "gutenberg:ebooks:39250:63.63.3-63.63.3:a1191dca"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -1,0 +1,198 @@
+{
+  "mythId": "bulk-myth-0212",
+  "mythFamilyId": "saxe",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-saxe-b1ce7e",
+  "title": "Saxe.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:90.90.1-90.90.1:93eac728",
+      "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801",
+      "gutenberg:ebooks:39250:90.90.3-90.90.3:521d48aa"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hades",
+      "roman-pluto"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Hades",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:90.90.1-90.90.1:93eac728"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pluto",
+      "normalizedId": "roman-pluto",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:90.90.1-90.90.1:93eac728"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Hades, Pluto are involved in Saxe.. \"Then he turned upon the Raven, 'Wanton babbler!",
+    "openingSituation": "\"Then he turned upon the Raven, 'Wanton babbler!",
+    "centralConflict": "\"Then he turned upon the Raven, 'Wanton babbler!",
+    "resolution": "\"Then he turned upon the Raven, 'Wanton babbler!",
+    "outcome": "\"Then he turned upon the Raven, 'Wanton babbler!",
+    "storyline": [
+      "\"Then he turned upon the Raven, 'Wanton babbler!"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:90.90.1-90.90.1:93eac728",
+        "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801",
+        "gutenberg:ebooks:39250:90.90.3-90.90.3:521d48aa"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:90.90.1-90.90.1:93eac728",
+      "excerpt": "Bending over the lifeless body of his beloved one, he bewailed his fatal haste, and cursed the bird which had brought him the unwelcome tidings of her faithlessness.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801",
+      "excerpt": "\"Then he turned upon the Raven, 'Wanton babbler! see thy fate! Messenger of mine no longer, Go to Hades with thy prate!",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:90.90.3-90.90.3:521d48aa",
+      "excerpt": "\"'Weary Pluto with thy tattle! Hither, monster, come not back;",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hades",
+      "predicate": "opening_situation",
+      "object": "\"Then he turned upon the Raven, 'Wanton babbler!",
+      "evidence": [
+        "gutenberg:ebooks:39250:90.90.1-90.90.1:93eac728"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "turned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "\"Then he turned upon the Raven, 'Wanton babbler!",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hades",
+      "predicate": "outcome",
+      "object": "\"Then he turned upon the Raven, 'Wanton babbler!",
+      "evidence": [
+        "gutenberg:ebooks:39250:90.90.3-90.90.3:521d48aa"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "\"Then he turned upon the Raven, 'Wanton babbler!"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-4e16b1e9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0090-cf9d4c",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:90.90.1-90.90.1:93eac728",
+        "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801",
+        "gutenberg:ebooks:39250:90.90.3-90.90.3:521d48aa"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

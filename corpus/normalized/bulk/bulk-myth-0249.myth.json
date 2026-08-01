@@ -1,0 +1,198 @@
+{
+  "mythId": "bulk-myth-0249",
+  "mythFamilyId": "venus",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-venus-9adbb0",
+  "title": "VENUS.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
+      "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c",
+      "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-jupiter",
+      "roman-venus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454"
+        }
+      ]
+    },
+    {
+      "sourceName": "Venus",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Jupiter, Venus are involved in VENUS.. The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+    "openingSituation": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+    "centralConflict": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+    "resolution": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+    "outcome": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+    "storyline": [
+      "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\""
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
+        "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c",
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
+      "excerpt": "[Sidenote: Venus' birth.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c",
+      "excerpt": "Venus (Dione, Aphrodite, Cytherea), the goddess of beauty, love, laughter, and marriage, is said by some mythologists to be the daughter of Jupiter and Dione, goddess of moisture: others report that she sprang from the foam of the sea.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a",
+      "excerpt": "\"Look, look, why shine Those floating bubbles with such light divine? They break, and from their mist a lily form Rises from out the wave, in beauty warm. The wave is by the blue-veined feet scarce press'd, Her silky ringlets float about.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-jupiter",
+      "predicate": "opening_situation",
+      "object": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "birth",
+      "sourceAction": "born",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-jupiter",
+      "predicate": "outcome",
+      "object": "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The Beautiful is born; and sea and earth May well revere the hour of that mysterious birth.\""
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-7b805da1",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0165-d24b40",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "VENUS.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
+        "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c",
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

@@ -1,0 +1,193 @@
+{
+  "mythId": "bulk-myth-0267",
+  "mythFamilyId": "somnus-and-mors",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-somnus-and-mors-5190cf",
+  "title": "SOMNUS AND MORS.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:327.327.1-327.327.1:b1636d00",
+      "gutenberg:ebooks:39250:327.327.2-327.327.2:2812dcbf",
+      "gutenberg:ebooks:39250:327.327.3-327.327.3:081ab05d",
+      "gutenberg:ebooks:39250:327.327.4-327.327.4:fdf1b3d1"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-pluto"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Pluto",
+      "normalizedId": "roman-pluto",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:327.327.1-327.327.1:b1636d00"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Pluto are involved in SOMNUS AND MORS.. After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a remote and quiet valley.",
+    "openingSituation": "After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a remote and quiet valley.",
+    "centralConflict": "After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a remote and quiet valley.",
+    "resolution": "After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a remote and quiet valley.",
+    "outcome": "After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a remote and quiet valley.",
+    "storyline": [
+      "After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a remote and quiet valley."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:327.327.1-327.327.1:b1636d00",
+        "gutenberg:ebooks:39250:327.327.2-327.327.2:2812dcbf",
+        "gutenberg:ebooks:39250:327.327.3-327.327.3:081ab05d"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:327.327.2-327.327.2:2812dcbf"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:327.327.2-327.327.2:2812dcbf"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:327.327.2-327.327.2:2812dcbf"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:327.327.2-327.327.2:2812dcbf"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:327.327.1-327.327.1:b1636d00",
+      "excerpt": "[Sidenote: Cave of sleep.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:327.327.2-327.327.2:2812dcbf",
+      "excerpt": "After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a remote and quiet valley. This cave was the dwelling of Somnus (or Hupnos), god of.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:327.327.3-327.327.3:081ab05d",
+      "excerpt": "[Sidenote: Somnus and Morpheus.]",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:327.327.4-327.327.4:fdf1b3d1",
+      "excerpt": "The cave was divided into chambers, each one darker and more silent than the one which preceded it. In one of the inner rooms, which was all draped with sable curtains, stood a downy couch, upon which reclined the monarch of sleep. His.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-pluto",
+      "predicate": "opening_situation",
+      "object": "After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a remote and quiet valley.",
+      "evidence": [
+        "gutenberg:ebooks:39250:327.327.1-327.327.1:b1636d00"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "roman-pluto",
+      "action": "travel",
+      "sourceAction": "reached",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a remote and quiet valley.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:327.327.2-327.327.2:2812dcbf"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-pluto",
+      "predicate": "outcome",
+      "object": "After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a remote and quiet valley.",
+      "evidence": [
+        "gutenberg:ebooks:39250:327.327.4-327.327.4:fdf1b3d1"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a remote and quiet valley."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-dab6c611",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0327-13ba3a",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "SOMNUS AND MORS.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:327.327.1-327.327.1:b1636d00",
+        "gutenberg:ebooks:39250:327.327.2-327.327.2:2812dcbf",
+        "gutenberg:ebooks:39250:327.327.3-327.327.3:081ab05d"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 57,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

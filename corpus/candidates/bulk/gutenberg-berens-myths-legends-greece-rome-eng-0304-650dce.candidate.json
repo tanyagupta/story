@@ -19,7 +19,7 @@
     "gutenberg:ebooks:22381:304.304.14-304.304.14:a6e6d80b",
     "gutenberg:ebooks:22381:304.304.15-304.304.15:f8ffa967"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -33,11 +33,34 @@
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-trojan-war-fa39c5",
   "characters": [
+    "Apollo",
+    "Hercules",
+    "Perseus",
     "Poseidon",
     "Zeus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 176,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 8,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

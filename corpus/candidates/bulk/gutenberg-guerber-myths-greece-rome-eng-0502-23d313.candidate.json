@@ -59,7 +59,7 @@
     "gutenberg:ebooks:39250:502.502.54-502.502.54:3d75b948",
     "gutenberg:ebooks:39250:502.502.55-502.502.55:6bce01c8"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -73,12 +73,61 @@
   "mythFamilyId": "jupiter",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-jupiter-2a9605",
   "characters": [
+    "Achilles",
+    "Adonis",
+    "Andromeda",
+    "Antigone",
+    "Apollo",
+    "Ariadne",
+    "Atalanta",
+    "Bellerophon",
+    "Cadmus",
+    "Circe",
+    "Daphne",
+    "Diana",
+    "Europa",
+    "Eurydice",
+    "Helen",
     "Helios",
+    "Hercules",
+    "Jason",
+    "Juno",
     "Jupiter",
+    "Medea",
+    "Medusa",
+    "Minerva",
+    "Minotaur",
+    "Paris",
+    "Pegasus",
+    "Perseus",
+    "Theseus",
+    "Ulysses",
+    "Venus",
     "Zeus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 174,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

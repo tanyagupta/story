@@ -1,0 +1,217 @@
+{
+  "mythId": "bulk-myth-0186",
+  "mythFamilyId": "vulcan",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-vulcan-6468e4",
+  "title": "VULCAN.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d",
+      "gutenberg:ebooks:39250:222.222.2-222.222.2:44f1b5f9",
+      "gutenberg:ebooks:39250:222.222.3-222.222.3:fc5d5201",
+      "gutenberg:ebooks:39250:222.222.4-222.222.4:c77466df"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-juno",
+      "roman-jupiter",
+      "roman-vulcan"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Juno",
+      "normalizedId": "roman-juno",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d"
+        }
+      ]
+    },
+    {
+      "sourceName": "Vulcan",
+      "normalizedId": "roman-vulcan",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Juno, Jupiter, Vulcan are involved in VULCAN.. On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+    "openingSituation": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+    "centralConflict": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+    "resolution": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+    "outcome": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+    "storyline": [
+      "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d",
+        "gutenberg:ebooks:39250:222.222.2-222.222.2:44f1b5f9",
+        "gutenberg:ebooks:39250:222.222.3-222.222.3:fc5d5201"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:222.222.2-222.222.2:44f1b5f9"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:222.222.2-222.222.2:44f1b5f9"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:222.222.2-222.222.2:44f1b5f9"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:222.222.2-222.222.2:44f1b5f9"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d",
+      "excerpt": "[Sidenote: Vulcan's fall.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:222.222.2-222.222.2:44f1b5f9",
+      "excerpt": "Vulcan, or Hephæstus, son of Jupiter and Juno, god of fire and the forge, seldom joined the general council of the gods. His aversion to Olympus was of old standing. He had once been tenderly attached to his mother, had lavished upon her.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:222.222.3-222.222.3:fc5d5201",
+      "excerpt": "The intervening space between heaven and earth was so great, that Vulcan's fall lasted during one whole day and night, ere he finally touched the summit of Mount Mosychlus, in the Island of Lemnos.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:222.222.4-222.222.4:c77466df",
+      "excerpt": "\"From morn To noon he fell, from noon to dewy eve, A summer's day; and with the setting sun Dropt from the zenith like a falling star, On Lemnos th' Ægean isle.\"",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-juno",
+      "predicate": "opening_situation",
+      "object": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+      "evidence": [
+        "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "roman-juno",
+      "action": "capture",
+      "sourceAction": "bound",
+      "object": null,
+      "target": "roman-jupiter",
+      "recipient": null,
+      "location": null,
+      "result": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:222.222.2-222.222.2:44f1b5f9"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-juno",
+      "predicate": "outcome",
+      "object": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+      "evidence": [
+        "gutenberg:ebooks:39250:222.222.4-222.222.4:c77466df"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-0eeabca4",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0222-54f5d8",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "VULCAN.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d",
+        "gutenberg:ebooks:39250:222.222.2-222.222.2:44f1b5f9",
+        "gutenberg:ebooks:39250:222.222.3-222.222.3:fc5d5201"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 73,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 1,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

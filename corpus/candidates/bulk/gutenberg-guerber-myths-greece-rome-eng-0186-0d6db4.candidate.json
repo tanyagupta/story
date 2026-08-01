@@ -19,7 +19,7 @@
     "gutenberg:ebooks:39250:186.186.14-186.186.14:4fe6391e",
     "gutenberg:ebooks:39250:186.186.15-186.186.15:299ef79f"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -32,9 +32,33 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "the-lonely-hope-of-sestos-daughter",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-the-lonely-hope-of-sestos-daughter-190998",
-  "characters": [],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "characters": [
+    "Echo",
+    "Narcissus",
+    "Venus"
+  ],
+  "processingStatus": "rejected-poor-quality",
+  "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 150,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

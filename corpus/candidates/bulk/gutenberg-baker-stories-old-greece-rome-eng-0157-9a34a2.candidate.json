@@ -12,7 +12,7 @@
     "gutenberg:ebooks:45489:157.157.7-157.157.7:2fac8908",
     "gutenberg:ebooks:45489:157.157.8-157.157.8:f5d7211b"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,10 +26,33 @@
   "mythFamilyId": "jason-and-argonauts",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-jason-and-argonauts-2f12a4",
   "characters": [
-    "Jason"
+    "Cadmus",
+    "Jason",
+    "Juno",
+    "Medea"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 183,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 6,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

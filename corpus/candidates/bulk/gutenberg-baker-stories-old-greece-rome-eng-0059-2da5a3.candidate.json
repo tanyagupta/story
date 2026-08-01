@@ -27,10 +27,28 @@
   "mythFamilyId": "pandora",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-pandora-8018be",
   "characters": [
+    "Jupiter",
     "Pandora"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 114,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 9,
+      "conflictSignals": 3,
+      "paragraphCount": 9,
+      "knownMythFamily": true
+    }
+  }
 }

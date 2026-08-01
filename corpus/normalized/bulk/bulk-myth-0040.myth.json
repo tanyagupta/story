@@ -1,22 +1,29 @@
 {
   "mythId": "bulk-myth-0040",
-  "mythFamilyId": "lewis-morris",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-lewis-morris-a6d27b",
-  "title": "Lewis Morris.",
+  "mythFamilyId": "orpheus-and-eurydice",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-orpheus-and-eurydice-b5181c",
+  "title": "Chapter XIV",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:161.161.1-161.161.1:8520510a",
-      "gutenberg:ebooks:39250:161.161.2-161.161.2:b63df615",
-      "gutenberg:ebooks:39250:161.161.3-161.161.3:0d9095bb",
-      "gutenberg:ebooks:39250:161.161.4-161.161.4:6d57d6c3",
-      "gutenberg:ebooks:39250:161.161.5-161.161.5:548b1d26",
-      "gutenberg:ebooks:39250:161.161.6-161.161.6:707aa458"
+      "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a",
+      "gutenberg:ebooks:45489:98.98.2-98.98.2:a62183e0",
+      "gutenberg:ebooks:45489:98.98.3-98.98.3:ef3f41e3",
+      "gutenberg:ebooks:45489:98.98.4-98.98.4:a24cdaa0",
+      "gutenberg:ebooks:45489:98.98.5-98.98.5:ad6d3441",
+      "gutenberg:ebooks:45489:98.98.6-98.98.6:eb244fa5",
+      "gutenberg:ebooks:45489:98.98.7-98.98.7:5737e4d8",
+      "gutenberg:ebooks:45489:98.98.8-98.98.8:e60e5031"
     ]
   },
   "entities": {
     "characters": [
-      "roman-diana"
+      "apollo",
+      "arion",
+      "eurydice",
+      "hades",
+      "roman-jupiter",
+      "roman-mercury"
     ],
     "locations": [],
     "objects": [],
@@ -24,106 +31,391 @@
   },
   "entityMappings": [
     {
-      "sourceName": "Diana",
-      "normalizedId": "roman-diana",
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:161.161.1-161.161.1:8520510a"
+          "passageId": "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a"
+        }
+      ]
+    },
+    {
+      "sourceName": "Arion",
+      "normalizedId": "arion",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a"
+        }
+      ]
+    },
+    {
+      "sourceName": "Eurydice",
+      "normalizedId": "eurydice",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hades",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a"
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a"
         }
       ]
     }
   ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Apollo, Arion, Eurydice are involved in Chapter XIV. The deeds of the immortal gods were told and sung at every fireside in Greece; and among these hero-tales there was none more popular than the story of how Apollo built for. Immediately the stones rose from the ground and moved rhythmically into their places in the wall, which soon rose strong and.",
+    "openingSituation": "The deeds of the immortal gods were told and sung at every fireside in Greece; and among these hero-tales there was none more popular than the story of how Apollo built for.",
+    "centralConflict": "Feeling sure that there was some magic in the music, the pirates hastened to throw the player and his lyre into the sea without waiting to bind him; but Arion did not drown as.",
+    "resolution": "When Hymen, god of marriage, came with his torch to bless the nuptial feast, the light that should have burned clear and pure began to smoke ominously, as if predicting future.",
+    "outcome": "When Hymen, god of marriage, came with his torch to bless the nuptial feast, the light that should have burned clear and pure began to smoke ominously, as if predicting future.",
+    "storyline": [
+      "The deeds of the immortal gods were told and sung at every fireside in Greece; and among these hero-tales there was none more popular than the story of how Apollo built for.",
+      "Immediately the stones rose from the ground and moved rhythmically into their places in the wall, which soon rose strong and high--a firmer defense than any that could be built.",
+      "Arion calmly accepted his fate, but begged the brutal crew to allow him to play once upon his lyre before going to his death.",
+      "Feeling sure that there was some magic in the music, the pirates hastened to throw the player and his lyre into the sea without waiting to bind him; but Arion did not drown as.",
+      "The most famous of all musicians, except the one who played in the shining halls of Olympus, was Orpheus, son of Apollo and of the muse Calliope.[29] When he was a mere child,.",
+      "When Orpheus sought in marriage the golden-haired Eurydice, there were other suitors for her hand, but though they brought rich gifts, gathered out of many lands, they could not."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a",
+        "gutenberg:ebooks:45489:98.98.2-98.98.2:a62183e0",
+        "gutenberg:ebooks:45489:98.98.3-98.98.3:ef3f41e3"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:98.98.2-98.98.2:a62183e0"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:98.98.3-98.98.3:ef3f41e3"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:98.98.5-98.98.5:ad6d3441"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:98.98.5-98.98.5:ad6d3441"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a",
+      "excerpt": "The Story of Orpheus and Eurydice",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:98.98.2-98.98.2:a62183e0",
+      "excerpt": "The deeds of the immortal gods were told and sung at every fireside in Greece; and among these hero-tales there was none more popular than the story of how Apollo built for Neptune the famous wall of Troy. Many musicians would have been.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:98.98.3-98.98.3:ef3f41e3",
+      "excerpt": "Another famous musician was Arion, who won not only praise for his great skill in playing, but also much wealth. Whenever a contest was held in which a prize of money was given, Arion was usually a competitor; and, as his music was really.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:98.98.4-98.98.4:a24cdaa0",
+      "excerpt": "The most famous of all musicians, except the one who played in the shining halls of Olympus, was Orpheus, son of Apollo and of the muse Calliope.[29] When he was a mere child, his father gave him a lyre and taught him to play upon it; but.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:98.98.5-98.98.5:ad6d3441",
+      "excerpt": "When Orpheus sought in marriage the golden-haired Eurydice, there were other suitors for her hand, but though they brought rich gifts, gathered out of many lands, they could not win the maiden's love, and she turned from them to bestow.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:98.98.6-98.98.6:eb244fa5",
+      "excerpt": "This evil omen was fulfilled all too soon, for one day when Eurydice was walking in the meadow, she met the youth Aristæus, who was so charmed with her beauty that he insisted upon staying beside her to pour his ardent speeches into her.",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:98.98.7-98.98.7:5737e4d8",
+      "excerpt": "It was a steep and perilous journey to the kingdom of the dead, and the road was one that no mortal foot had ever trod; but through his love for Eurydice Orpheus forgot the dangers of the way, and when he spoke her name, the terrors of.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:98.98.8-98.98.8:e60e5031",
+      "excerpt": "When Orpheus came before the throne of Pluto, that relentless monarch repulsed him angrily as he attempted to plead his cause, and commanded him to depart. Then the son of Apollo began to play upon his lyre, and through his music he told.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
   "initialState": [
     {
-      "subject": "roman-diana",
-      "predicate": "is introduced in",
-      "object": "Lewis Morris.",
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "The deeds of the immortal gods were told and sung at every fireside in Greece; and among these hero-tales there was none more popular than the story of how Apollo built for.",
       "evidence": [
-        "gutenberg:ebooks:39250:161.161.1-161.161.1:8520510a"
+        "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a"
       ]
     }
   ],
   "events": [
     {
       "eventId": "event-001",
-      "actor": null,
-      "action": "describe",
-      "sourceAction": "is described",
+      "actor": "apollo",
+      "action": "reveal",
+      "sourceAction": "told",
       "object": null,
       "target": null,
       "recipient": null,
-      "location": null,
+      "location": "troy",
+      "result": "The deeds of the immortal gods were told and sung at every fireside in Greece; and among these hero-tales there was none more popular than the story of how Apollo built for.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:161.161.1-161.161.1:8520510a"
+          "passageId": "gutenberg:ebooks:45489:98.98.2-98.98.2:a62183e0"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-002",
-      "actor": "roman-diana",
+      "actor": null,
+      "action": "found",
+      "sourceAction": "built",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Immediately the stones rose from the ground and moved rhythmically into their places in the wall, which soon rose strong and high--a firmer defense than any that could be built.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:98.98.2-98.98.2:a62183e0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "arion",
+      "action": "receive",
+      "sourceAction": "accepted",
+      "object": "lyre",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Arion calmly accepted his fate, but begged the brutal crew to allow him to play once upon his lyre before going to his death.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:98.98.3-98.98.3:ef3f41e3"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": "arion",
+      "action": "capture",
+      "sourceAction": "caught",
+      "object": "lyre",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Feeling sure that there was some magic in the music, the pirates hastened to throw the player and his lyre into the sea without waiting to bind him; but Arion did not drown as.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:98.98.3-98.98.3:ef3f41e3"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": "apollo",
+      "action": "give",
+      "sourceAction": "gave",
+      "object": "lyre",
+      "target": null,
+      "recipient": null,
+      "location": "olympus",
+      "result": "The most famous of all musicians, except the one who played in the shining halls of Olympus, was Orpheus, son of Apollo and of the muse Calliope.[29] When he was a mere child,.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:98.98.4-98.98.4:a24cdaa0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "actor": "eurydice",
       "action": "transform",
       "sourceAction": "turned",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "When Orpheus sought in marriage the golden-haired Eurydice, there were other suitors for her hand, but though they brought rich gifts, gathered out of many lands, they could not.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:161.161.2-161.161.2:b63df615"
+          "passageId": "gutenberg:ebooks:45489:98.98.5-98.98.5:ad6d3441"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "eventId": "event-003",
-      "actor": "roman-diana",
-      "action": "capture",
-      "sourceAction": "caught",
+      "eventId": "event-007",
+      "actor": null,
+      "action": "marry",
+      "sourceAction": "married",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "On the wedding day there was the usual mirth and feasting, but one event occurred that cast a gloom over the happiness of the newly-married pair.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:161.161.3-161.161.3:0d9095bb"
+          "passageId": "gutenberg:ebooks:45489:98.98.5-98.98.5:ad6d3441"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "When Hymen, god of marriage, came with his torch to bless the nuptial feast, the light that should have burned clear and pure began to smoke ominously, as if predicting future.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:98.98.5-98.98.5:ad6d3441"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
     }
   ],
   "finalState": [
     {
-      "subject": "roman-diana",
-      "predicate": "is last attested in selected candidate",
-      "object": "Lewis Morris.",
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "When Hymen, god of marriage, came with his torch to bless the nuptial feast, the light that should have burned clear and pure began to smoke ominously, as if predicting future.",
       "evidence": [
-        "gutenberg:ebooks:39250:161.161.6-161.161.6:707aa458"
+        "gutenberg:ebooks:45489:98.98.8-98.98.8:e60e5031"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "The deeds of the immortal gods were told and sung at every fireside in Greece; and among these hero-tales there was none more popular than the story of how Apollo built for.",
+      "Immediately the stones rose from the ground and moved rhythmically into their places in the wall, which soon rose strong and high--a firmer defense than any that could be built.",
+      "Arion calmly accepted his fate, but begged the brutal crew to allow him to play once upon his lyre before going to his death.",
+      "Feeling sure that there was some magic in the music, the pirates hastened to throw the player and his lyre into the sea without waiting to bind him; but Arion did not drown as.",
+      "The most famous of all musicians, except the one who played in the shining halls of Olympus, was Orpheus, son of Apollo and of the muse Calliope.[29] When he was a mere child,.",
+      "When Orpheus sought in marriage the golden-haired Eurydice, there were other suitors for her hand, but though they brought rich gifts, gathered out of many lands, they could not."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-baker-stories-old-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
-  "normalizationWarnings": [],
-  "reviewStatus": "approved"
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-a3a06726",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0098-dc6cc8",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Chapter XIV",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a",
+        "gutenberg:ebooks:45489:98.98.2-98.98.2:a62183e0",
+        "gutenberg:ebooks:45489:98.98.3-98.98.3:ef3f41e3"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 194,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 5,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
 }

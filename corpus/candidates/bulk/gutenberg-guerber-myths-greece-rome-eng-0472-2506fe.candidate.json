@@ -27,10 +27,28 @@
   "mythFamilyId": "illustration-siren-acropolis-museum-athens",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-illustration-siren-acropolis-museum-athens-e1b708",
   "characters": [
-    "Circe"
+    "Circe",
+    "Ulysses"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 96,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 6,
+      "conflictSignals": 3,
+      "paragraphCount": 9,
+      "knownMythFamily": true
+    }
+  }
 }

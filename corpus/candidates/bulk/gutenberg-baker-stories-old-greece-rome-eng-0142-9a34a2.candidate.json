@@ -12,7 +12,7 @@
     "gutenberg:ebooks:45489:142.142.7-142.142.7:dfb2a21b",
     "gutenberg:ebooks:45489:142.142.8-142.142.8:198bc34d"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,12 +26,38 @@
   "mythFamilyId": "prometheus",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-prometheus-66f896",
   "characters": [
+    "Alcestis",
     "Atlas",
+    "Hades",
     "Hercules",
+    "Jupiter",
+    "Mercury",
+    "Minerva",
+    "Pluto",
     "Prometheus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 194,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 5,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

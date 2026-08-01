@@ -1,0 +1,99 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0289-c920bd",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Minerva",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:289.289.1-289.289.1:29adf08d"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-minerva",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "gave",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-minerva",
+      "sourceAction": "killed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-minerva",
+      "predicate": "opening_situation",
+      "object": "Dædalus could never bear the idea of a rival; and when his nephew Perdix was apprenticed to him, the lad gave such promise of excelling his teacher in mechanical arts that.",
+      "evidence": [
+        "gutenberg:ebooks:45489:289.289.1-289.289.1:29adf08d"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-minerva",
+      "predicate": "outcome",
+      "object": "Then Dædalus, envious of his nephew's skill, pushed him off a tower and killed him; but Minerva, pitying the boy, changed him into a partridge, which bears his name.",
+      "evidence": [
+        "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-35c4ac87",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0289-c920bd",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "LXVI",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:289.289.1-289.289.1:29adf08d",
+        "gutenberg:ebooks:45489:289.289.2-289.289.2:f76356ce"
+      ],
+      "status": "open"
+    }
+  ]
+}

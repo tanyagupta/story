@@ -1,0 +1,188 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0500-778a57",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Io",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:500.500.1-500.500.1:cd87b368"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "io",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Juno",
+      "entityType": "character",
+      "roleInEpisode": "helper",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:500.500.1-500.500.1:cd87b368"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-juno",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "helper",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:500.500.1-500.500.1:cd87b368"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Mercury",
+      "entityType": "character",
+      "roleInEpisode": "helper",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:500.500.1-500.500.1:cd87b368"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Zeus",
+      "entityType": "character",
+      "roleInEpisode": "helper",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:500.500.1-500.500.1:cd87b368"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "presented",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:500.500.2-500.500.2:49425f34"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "told",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:500.500.2-500.500.2:49425f34"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-jupiter",
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:500.500.4-500.500.4:c1595228"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-juno",
+      "sourceAction": "gave",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:500.500.6-500.500.6:3cbb6f5f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "io",
+      "predicate": "opening_situation",
+      "object": "Taking them in the order in which they are presented in this work, we find among the myths of the sky, Uranus, whose name, like that of the old Hindoo god Varuna, is derived from.",
+      "evidence": [
+        "gutenberg:ebooks:39250:500.500.1-500.500.1:cd87b368"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "io",
+      "predicate": "outcome",
+      "object": "The name of Hera (or Juno), the heavenly light, and therefore the complement and consort of the sky, is supposed to be derived from the Sanskrit _soar_ (\"the bright sky\") and.",
+      "evidence": [
+        "gutenberg:ebooks:39250:500.500.8-500.500.8:19d412fb"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-d9533a41",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0500-778a57",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "SKY MYTHS.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:500.500.1-500.500.1:cd87b368",
+        "gutenberg:ebooks:39250:500.500.2-500.500.2:49425f34",
+        "gutenberg:ebooks:39250:500.500.3-500.500.3:01204a6f"
+      ],
+      "status": "open"
+    }
+  ]
+}

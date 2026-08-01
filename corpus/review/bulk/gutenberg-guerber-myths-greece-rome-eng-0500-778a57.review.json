@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 127,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 4,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-d9533a41",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0500-778a57",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "SKY MYTHS.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:500.500.1-500.500.1:cd87b368",
+        "gutenberg:ebooks:39250:500.500.2-500.500.2:49425f34",
+        "gutenberg:ebooks:39250:500.500.3-500.500.3:01204a6f"
+      ],
+      "status": "open"
+    }
+  ]
+}

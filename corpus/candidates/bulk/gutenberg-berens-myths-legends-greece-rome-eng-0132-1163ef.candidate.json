@@ -29,11 +29,31 @@
   "mythFamilyId": "jupiter",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-jupiter-be70c9",
   "characters": [
+    "Hermes",
+    "Juno",
     "Jupiter",
+    "Paris",
     "Zeus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 136,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 10,
+      "conflictSignals": 2,
+      "paragraphCount": 11,
+      "knownMythFamily": true
+    }
+  }
 }

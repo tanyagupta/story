@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 111,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 5,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-de727b4f",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0474-4533ce",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Scylla's den.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604",
+        "gutenberg:ebooks:39250:474.474.2-474.474.2:3ea3c7f4",
+        "gutenberg:ebooks:39250:474.474.3-474.474.3:af1ba93e"
+      ],
+      "status": "open"
+    }
+  ]
+}

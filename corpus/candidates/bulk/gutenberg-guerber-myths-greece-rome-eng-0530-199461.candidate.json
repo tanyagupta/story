@@ -16,7 +16,7 @@
     "gutenberg:ebooks:39250:530.530.11-530.530.11:e825e496",
     "gutenberg:ebooks:39250:530.530.12-530.530.12:80054d94"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -31,13 +31,40 @@
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-orpheus-and-eurydice-72abd3",
   "characters": [
     "Adonis",
+    "Bellerophon",
     "Cadmus",
+    "Diana",
+    "Hercules",
+    "Io",
+    "Jason",
+    "Juno",
+    "Jupiter",
     "Orpheus",
     "Pluto",
     "Proserpina"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 140,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 4,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

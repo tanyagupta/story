@@ -1,0 +1,277 @@
+{
+  "mythId": "bulk-myth-0119",
+  "mythFamilyId": "by-summer-hid-in-green-reeds-jointed-cells",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-by-summer-hid-in-green-reeds-jointed-cells-85b483",
+  "title": "By summer hid in green reeds' jointed cells",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17",
+      "gutenberg:ebooks:39250:109.109.2-109.109.2:adbd7a53",
+      "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9",
+      "gutenberg:ebooks:39250:109.109.4-109.109.4:b4ccdf4f"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Apollo are involved in By summer hid in green reeds' jointed cells. To wait imprisoned for the south wind's spells, From out his reedy flute the player drew, And as the music clearer, louder grew, Wild creatures from their winter nooks and dells,. With instant joyous trust, they flocked around His feet who such a sudden summer made, His eyes, more kind.",
+    "openingSituation": "To wait imprisoned for the south wind's spells, From out his reedy flute the player drew, And as the music clearer, louder grew, Wild creatures from their winter nooks and dells,.",
+    "centralConflict": "To wait imprisoned for the south wind's spells, From out his reedy flute the player drew, And as the music clearer, louder grew, Wild creatures from their winter nooks and dells,.",
+    "resolution": "\"And, when now the westering sun Touch'd the hills, the strife was done, And the attentive Muses said: 'Marsyas, thou art vanquished!'\"",
+    "outcome": "\"And, when now the westering sun Touch'd the hills, the strife was done, And the attentive Muses said: 'Marsyas, thou art vanquished!'\"",
+    "storyline": [
+      "To wait imprisoned for the south wind's spells, From out his reedy flute the player drew, And as the music clearer, louder grew, Wild creatures from their winter nooks and dells,.",
+      "With instant joyous trust, they flocked around His feet who such a sudden summer made, His eyes, more kind than men's, enthralled and bound Them there.\"",
+      "The Muses bestowed much deserved praise, and then bade Apollo surpass his rival if he could.",
+      "The god seized his golden lyre, and poured forth impassioned strains.",
+      "\"And, when now the westering sun Touch'd the hills, the strife was done, And the attentive Muses said: 'Marsyas, thou art vanquished!'\""
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17",
+        "gutenberg:ebooks:39250:109.109.2-109.109.2:adbd7a53",
+        "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:109.109.4-109.109.4:b4ccdf4f"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:109.109.4-109.109.4:b4ccdf4f"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17",
+      "excerpt": "To wait imprisoned for the south wind's spells, From out his reedy flute the player drew, And as the music clearer, louder grew, Wild creatures from their winter nooks and dells, Sweet furry things with eyes like starry wells, Crept.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:109.109.2-109.109.2:adbd7a53",
+      "excerpt": "H. H.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9",
+      "excerpt": "The Muses bestowed much deserved praise, and then bade Apollo surpass his rival if he could. No second command was necessary. The god seized his golden lyre, and poured forth impassioned strains. Before pronouncing their decision, the.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:109.109.4-109.109.4:b4ccdf4f",
+      "excerpt": "\"And, when now the westering sun Touch'd the hills, the strife was done, And the attentive Muses said: 'Marsyas, thou art vanquished!'\"",
+      "supports": [
+        "event-004"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "To wait imprisoned for the south wind's spells, From out his reedy flute the player drew, And as the music clearer, louder grew, Wild creatures from their winter nooks and dells,.",
+      "evidence": [
+        "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "imprison",
+      "sourceAction": "imprisoned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "To wait imprisoned for the south wind's spells, From out his reedy flute the player drew, And as the music clearer, louder grew, Wild creatures from their winter nooks and dells,.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "bound",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "With instant joyous trust, they flocked around His feet who such a sudden summer made, His eyes, more kind than men's, enthralled and bound Them there.\"",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "apollo",
+      "action": "give",
+      "sourceAction": "bestowed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The Muses bestowed much deserved praise, and then bade Apollo surpass his rival if he could.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "seized",
+      "object": "lyre",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The god seized his golden lyre, and poured forth impassioned strains.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": null,
+      "action": "defeat",
+      "sourceAction": "vanquished",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "\"And, when now the westering sun Touch'd the hills, the strife was done, And the attentive Muses said: 'Marsyas, thou art vanquished!'\"",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:109.109.4-109.109.4:b4ccdf4f"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "\"And, when now the westering sun Touch'd the hills, the strife was done, And the attentive Muses said: 'Marsyas, thou art vanquished!'\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:109.109.4-109.109.4:b4ccdf4f"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "To wait imprisoned for the south wind's spells, From out his reedy flute the player drew, And as the music clearer, louder grew, Wild creatures from their winter nooks and dells,.",
+      "With instant joyous trust, they flocked around His feet who such a sudden summer made, His eyes, more kind than men's, enthralled and bound Them there.\"",
+      "The Muses bestowed much deserved praise, and then bade Apollo surpass his rival if he could.",
+      "The god seized his golden lyre, and poured forth impassioned strains.",
+      "\"And, when now the westering sun Touch'd the hills, the strife was done, And the attentive Muses said: 'Marsyas, thou art vanquished!'\""
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-d8e1e8ac",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0109-46715d",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "By summer hid in green reeds' jointed cells",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17",
+        "gutenberg:ebooks:39250:109.109.2-109.109.2:adbd7a53",
+        "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 101,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 5,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

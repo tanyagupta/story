@@ -23,7 +23,7 @@
     "gutenberg:ebooks:39250:211.211.18-211.211.18:b49431f8",
     "gutenberg:ebooks:39250:211.211.19-211.211.19:83b4d818"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -33,15 +33,34 @@
   "workingTitle": "Keats.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "keats",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-keats-880f28",
   "characters": [
     "Io",
+    "Juno",
+    "Jupiter",
     "Mercury"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 178,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 12,
+      "conflictSignals": 5,
+      "paragraphCount": 19,
+      "knownMythFamily": true
+    }
+  }
 }

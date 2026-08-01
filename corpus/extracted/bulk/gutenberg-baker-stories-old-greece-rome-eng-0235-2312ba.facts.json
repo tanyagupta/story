@@ -1,0 +1,85 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0235-2312ba",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "went",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:235.235.1-235.235.1:c3c03c60"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:235.235.2-235.235.2:fb4a19ad"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "She went ever singing, In murmurs as soft as sleep; The earth seemed to love her, And Heaven smiled above her, As she lingered toward the deep.\"",
+      "evidence": [
+        "gutenberg:ebooks:45489:235.235.1-235.235.1:c3c03c60"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "It was said that the Sicilian fountain Arethusa was the same stream that, after passing under the sea, came up again in Sicily.",
+      "evidence": [
+        "gutenberg:ebooks:45489:235.235.2-235.235.2:fb4a19ad"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-069a81a9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0235-2312ba",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "And gliding and springing",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:235.235.1-235.235.1:c3c03c60",
+        "gutenberg:ebooks:45489:235.235.2-235.235.2:fb4a19ad"
+      ],
+      "status": "open"
+    }
+  ]
+}

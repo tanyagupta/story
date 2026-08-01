@@ -1,0 +1,132 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0488-c50279",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Cassandra",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:488.488.1-488.488.1:81464df4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "cassandra",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "escaped",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:488.488.4-488.488.4:a2b19bdf"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "sent",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:488.488.5-488.488.5:eb7160e9"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:488.488.7-488.488.7:841e9f8d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "sailed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:488.488.10-488.488.10:beef6851"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "cassandra",
+      "predicate": "opening_situation",
+      "object": "Although they had escaped from burning Troy and the swords of the Greeks, their trials had only just begun.",
+      "evidence": [
+        "gutenberg:ebooks:39250:488.488.1-488.488.1:81464df4"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "cassandra",
+      "predicate": "outcome",
+      "object": "Thither they sailed, and hoped to settle; but a terrible pestilence came upon them, and decimated their already sparse ranks.",
+      "evidence": [
+        "gutenberg:ebooks:39250:488.488.13-488.488.13:e807bca1"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-9d1c178f",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0488-c50279",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Troy.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:488.488.1-488.488.1:81464df4",
+        "gutenberg:ebooks:39250:488.488.2-488.488.2:2a2698af",
+        "gutenberg:ebooks:39250:488.488.3-488.488.3:6589ba03"
+      ],
+      "status": "open"
+    }
+  ]
+}

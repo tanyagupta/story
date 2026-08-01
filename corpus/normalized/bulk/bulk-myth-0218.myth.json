@@ -1,0 +1,238 @@
+{
+  "mythId": "bulk-myth-0218",
+  "mythFamilyId": "aulis",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-aulis-c4c4bc",
+  "title": "Aulis.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+      "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+      "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b",
+      "gutenberg:ebooks:39250:443.443.4-443.443.4:03e576d0",
+      "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215",
+      "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The selected source participants are involved in Aulis.. The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels. Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the.",
+    "openingSituation": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+    "centralConflict": "Many other propitiatory methods were tried; but as they all proved ineffective, Agamemnon, urged by his companions, sent for his daughter, feigning that he wished to celebrate.",
+    "resolution": "Many other propitiatory methods were tried; but as they all proved ineffective, Agamemnon, urged by his companions, sent for his daughter, feigning that he wished to celebrate.",
+    "outcome": "Many other propitiatory methods were tried; but as they all proved ineffective, Agamemnon, urged by his companions, sent for his daughter, feigning that he wished to celebrate.",
+    "storyline": [
+      "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given purported that no favorable wind.",
+      "Many other propitiatory methods were tried; but as they all proved ineffective, Agamemnon, urged by his companions, sent for his daughter, feigning that he wished to celebrate."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+        "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+        "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+      "excerpt": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+      "excerpt": "\"The troops Collected and imbodied, here we sit Inactive, and from Aulis wish to sail In vain.\"",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b",
+      "excerpt": "Euripides (Potter's tr.).",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.4-443.443.4:03e576d0",
+      "excerpt": "[Sidenote: Sacrifice of Iphigenia.]",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215",
+      "excerpt": "Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given purported that no favorable wind would blow until Iphigenia, daughter of Agamemnon, was offered.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37",
+      "excerpt": "Many other propitiatory methods were tried; but as they all proved ineffective, Agamemnon, urged by his companions, sent for his daughter, feigning that he wished to celebrate her nuptials with",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "sacrifice",
+      "sourceAction": "offered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given purported that no favorable wind.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Many other propitiatory methods were tried; but as they all proved ineffective, Agamemnon, urged by his companions, sent for his daughter, feigning that he wished to celebrate.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Many other propitiatory methods were tried; but as they all proved ineffective, Agamemnon, urged by his companions, sent for his daughter, feigning that he wished to celebrate.",
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given purported that no favorable wind.",
+      "Many other propitiatory methods were tried; but as they all proved ineffective, Agamemnon, urged by his companions, sent for his daughter, feigning that he wished to celebrate."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-81dc6e48",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0443-ab2fec",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Aulis.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+        "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+        "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 66,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

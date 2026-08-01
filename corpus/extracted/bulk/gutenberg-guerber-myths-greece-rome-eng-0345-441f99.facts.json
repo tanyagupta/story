@@ -1,0 +1,99 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0345-441f99",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Hercules",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:345.345.1-345.345.1:f3a704fd"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-hercules",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-hercules",
+      "sourceAction": "bore",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:345.345.3-345.345.3:8b288450"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "saved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:345.345.3-345.345.3:8b288450"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-hercules",
+      "predicate": "opening_situation",
+      "object": "The assembled force then attacked Hercules, who met their onslaught single-handed, defeated them, and finally bore away the prize he had risked so much to obtain.",
+      "evidence": [
+        "gutenberg:ebooks:39250:345.345.1-345.345.1:f3a704fd"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-hercules",
+      "predicate": "outcome",
+      "object": "It was on his homeward journey from this expedition that he saved Hesione, Laomedon's daughter, from the jaws of the sea monster who was about to devour her, as he had devoured.",
+      "evidence": [
+        "gutenberg:ebooks:39250:345.345.3-345.345.3:8b288450"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a60f82d5",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0345-441f99",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "In painted arms of radiant sheen",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:345.345.1-345.345.1:f3a704fd",
+        "gutenberg:ebooks:39250:345.345.2-345.345.2:2a2698af",
+        "gutenberg:ebooks:39250:345.345.3-345.345.3:8b288450"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0175-ac315e",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "married",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:175.175.2-175.175.2:5af1075d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "formed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:175.175.2-175.175.2:5af1075d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Thaumas married the lovely Electra (whose name signifies the sparkling light produced by electricity), daughter of Oceanus.",
+      "evidence": [
+        "gutenberg:ebooks:22381:175.175.1-175.175.1:c6ded272"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Her amber-coloured hair was of such rare beauty that none of her fair-haired sisters could compare with her, and when she wept, her tears, being too precious to be lost, formed.",
+      "evidence": [
+        "gutenberg:ebooks:22381:175.175.3-175.175.3:099caea5"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-ab942c7b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0175-ac315e",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Pontus.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:175.175.1-175.175.1:c6ded272",
+        "gutenberg:ebooks:22381:175.175.2-175.175.2:5af1075d",
+        "gutenberg:ebooks:22381:175.175.3-175.175.3:099caea5"
+      ],
+      "status": "open"
+    }
+  ]
+}

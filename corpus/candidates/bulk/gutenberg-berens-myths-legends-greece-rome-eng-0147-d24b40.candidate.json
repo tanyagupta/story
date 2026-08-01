@@ -30,11 +30,33 @@
   "mythFamilyId": "venus",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-venus-5d6260",
   "characters": [
+    "Circe",
+    "Demeter",
     "Helios",
-    "Venus"
+    "Io",
+    "Phaethon",
+    "Venus",
+    "Zeus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 249,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 7,
+      "actionBearingSentences": 16,
+      "conflictSignals": 8,
+      "paragraphCount": 12,
+      "knownMythFamily": true
+    }
+  }
 }

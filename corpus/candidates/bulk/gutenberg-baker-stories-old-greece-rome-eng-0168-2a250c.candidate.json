@@ -23,6 +23,7 @@
   "characters": [
     "Hades",
     "Helen",
+    "Hercules",
     "Jupiter",
     "Pluto",
     "Proserpina",
@@ -31,5 +32,22 @@
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 120,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 7,
+      "actionBearingSentences": 6,
+      "conflictSignals": 2,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

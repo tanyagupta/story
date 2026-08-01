@@ -23,11 +23,30 @@
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-dd18c2",
   "characters": [
+    "Ceres",
     "Helen",
-    "Io"
+    "Io",
+    "Proserpina"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 42,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

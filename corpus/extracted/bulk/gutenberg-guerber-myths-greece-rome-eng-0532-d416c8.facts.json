@@ -1,0 +1,101 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0532-d416c8",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "bound",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:532.532.2-532.532.2:318eb94f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "founded",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:532.532.3-532.532.3:4e436cdc"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "captured",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:532.532.6-532.532.6:760f6e4e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Criminal in Tartarus; bound to wheel of fire, 77, 169, 260; significance, 389.",
+      "evidence": [
+        "gutenberg:ebooks:39250:532.532.1-532.532.1:3cf764ba"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Son of Æson; captured the golden fleece, 263-274; significance, 392, 393.",
+      "evidence": [
+        "gutenberg:ebooks:39250:532.532.7-532.532.7:5f960442"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-affe698c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0532-d416c8",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Ivory Gate.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:532.532.1-532.532.1:3cf764ba",
+        "gutenberg:ebooks:39250:532.532.2-532.532.2:318eb94f",
+        "gutenberg:ebooks:39250:532.532.3-532.532.3:4e436cdc"
+      ],
+      "status": "open"
+    }
+  ]
+}

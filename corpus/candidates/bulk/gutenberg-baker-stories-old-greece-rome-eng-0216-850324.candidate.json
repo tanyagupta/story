@@ -7,7 +7,7 @@
     "gutenberg:ebooks:45489:216.216.2-216.216.2:85aa7952",
     "gutenberg:ebooks:45489:216.216.3-216.216.3:80730bcd"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -17,15 +17,32 @@
   "workingTitle": "Lyra.",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "orpheus-and-eurydice",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-orpheus-and-eurydice-8d3f91",
   "characters": [
     "Eurydice",
     "Orpheus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 78,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 4,
+      "conflictSignals": 3,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -1,0 +1,111 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0543-892142",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Diana",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-diana",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ulysses",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-ulysses",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "apollo",
+      "sourceAction": "slain",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398.",
+      "evidence": [
+        "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398.",
+      "evidence": [
+        "gutenberg:ebooks:39250:543.543.5-543.543.5:587c237a"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-c1366a1c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0543-892142",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Nightmares.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9",
+        "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667",
+        "gutenberg:ebooks:39250:543.543.3-543.543.3:2f66d8c4"
+      ],
+      "status": "open"
+    }
+  ]
+}

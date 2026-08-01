@@ -15,7 +15,7 @@
   "workingTitle": "Hippocrene.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "non_story_material",
+  "candidateType": "ambiguous",
   "mythFamilyId": "bellerophon-and-pegasus",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-bellerophon-and-pegasus-4467ca",
   "characters": [
@@ -27,5 +27,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 44,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 2,
+      "conflictSignals": 1,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

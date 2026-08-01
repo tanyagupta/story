@@ -16,7 +16,7 @@
     "gutenberg:ebooks:39250:252.252.11-252.252.11:517b31bc",
     "gutenberg:ebooks:39250:252.252.12-252.252.12:666d1a6a"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,12 +26,33 @@
   "workingTitle": "Pope.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "pope",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-pope-1e5161",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Ceres",
+    "Hades",
+    "Niobe"
+  ],
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 177,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 11,
+      "conflictSignals": 7,
+      "paragraphCount": 12,
+      "knownMythFamily": true
+    }
+  }
 }

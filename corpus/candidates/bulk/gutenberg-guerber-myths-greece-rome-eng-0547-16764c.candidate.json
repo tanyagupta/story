@@ -19,7 +19,7 @@
     "gutenberg:ebooks:39250:547.547.14-547.547.14:f49183bb",
     "gutenberg:ebooks:39250:547.547.15-547.547.15:d27c4bd4"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -33,10 +33,36 @@
   "mythFamilyId": "ops",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-ops-a69390",
   "characters": [
-    "Ceres"
+    "Apollo",
+    "Ceres",
+    "Diana",
+    "Midas",
+    "Minerva",
+    "Neptune",
+    "Ulysses"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 162,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 6,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

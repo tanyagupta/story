@@ -1,0 +1,377 @@
+{
+  "mythId": "bulk-myth-0098",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-apollo-and-daphne-1706f5",
+  "title": "III",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:69.69.1-69.69.1:b4fd49c6",
+      "gutenberg:ebooks:45489:69.69.2-69.69.2:361c2de5",
+      "gutenberg:ebooks:45489:69.69.3-69.69.3:3db49214",
+      "gutenberg:ebooks:45489:69.69.4-69.69.4:9455e3be",
+      "gutenberg:ebooks:45489:69.69.5-69.69.5:c5e897e2",
+      "gutenberg:ebooks:45489:69.69.6-69.69.6:152a8407",
+      "gutenberg:ebooks:45489:69.69.7-69.69.7:d3413e37",
+      "gutenberg:ebooks:45489:69.69.8-69.69.8:2f4ab7a3"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "midas"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:69.69.1-69.69.1:b4fd49c6"
+        }
+      ]
+    },
+    {
+      "sourceName": "Midas",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:69.69.1-69.69.1:b4fd49c6"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Apollo, Midas are involved in III. Beside the king stood Pan, his favorite flute-player, who was no other than the famous sylvan god of shepherds; and as the wine went round and the king grew boastful of his. Though Pan was himself a deity, he had no desire to challenge Apollo, and looked fearfully at the sun-god's angry frown; but the king, drunk with.",
+    "openingSituation": "Beside the king stood Pan, his favorite flute-player, who was no other than the famous sylvan god of shepherds; and as the wine went round and the king grew boastful of his.",
+    "centralConflict": "Though Pan was himself a deity, he had no desire to challenge Apollo, and looked fearfully at the sun-god's angry frown; but the king, drunk with pride, commanded him to play,.",
+    "resolution": "He went out into the fields, dug a deep hole, and putting his head down as far as he could he shouted:--",
+    "outcome": "He went out into the fields, dug a deep hole, and putting his head down as far as he could he shouted:--",
+    "storyline": [
+      "Beside the king stood Pan, his favorite flute-player, who was no other than the famous sylvan god of shepherds; and as the wine went round and the king grew boastful of his.",
+      "Though Pan was himself a deity, he had no desire to challenge Apollo, and looked fearfully at the sun-god's angry frown; but the king, drunk with pride, commanded him to play,.",
+      "One story tells that to prove further the superiority of Apollo's playing the company went to the old mountain-god Tmolus, and let him make the final decision.",
+      "Angered at this unfair decision, Apollo left the banquet-hall, but not before he had assured Midas that the injustice would be punished.",
+      "These words came true in a most unexpected way, for when the king looked into his mirror the next morning, he found a pair of large fuzzy ass's ears growing in the place of his.",
+      "Horrified at his absurd appearance, Midas did not dare show himself to his people; but sent in haste for a barber, and bade him make a wig large enough to cover the monstrous ears."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:69.69.1-69.69.1:b4fd49c6",
+        "gutenberg:ebooks:45489:69.69.2-69.69.2:361c2de5",
+        "gutenberg:ebooks:45489:69.69.3-69.69.3:3db49214"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:69.69.2-69.69.2:361c2de5"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:69.69.3-69.69.3:3db49214"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:69.69.5-69.69.5:c5e897e2"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:69.69.5-69.69.5:c5e897e2"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:69.69.1-69.69.1:b4fd49c6",
+      "excerpt": "When the news of Marsyas's dreadful fate spread abroad, people were careful for many years not to anger any of the deities by presuming to rival them; but in time the memory of that tragic event faded away, and the horror of it was.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:69.69.2-69.69.2:361c2de5",
+      "excerpt": "In the halls of King Midas was the noise of great mirth and feasting, and the sound of music filled the spacious room where the king and his court sat at the banquet-table. Beside the king stood Pan, his favorite flute-player, who was no.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:69.69.3-69.69.3:3db49214",
+      "excerpt": "To the surprise and dismay of all, the god of music suddenly stood before them, beautiful as the dawn and glowing with divine wrath. Though Pan was himself a deity, he had no desire to challenge Apollo, and looked fearfully at the.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:69.69.4-69.69.4:9455e3be",
+      "excerpt": "These words came true in a most unexpected way, for when the king looked into his mirror the next morning, he found a pair of large fuzzy ass's ears growing in the place of his own natural ones. Horrified at his absurd appearance, Midas.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:69.69.5-69.69.5:c5e897e2",
+      "excerpt": "One day he thought of a happy solution of his difficulty and one that broke his long seal of silence without endangering his life. He went out into the fields, dug a deep hole, and putting his head down as far as he could he shouted:--",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:69.69.6-69.69.6:152a8407",
+      "excerpt": "\"King Midas has ass's ears, King Midas has ass's ears.\"",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:69.69.7-69.69.7:d3413e37",
+      "excerpt": "Then he went home again, much happier for having told some one of his secret, even though it was only Mother Earth. But the truth once told did not stay hidden even in the earth; for in time the hole was filled again and reeds grew over.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:69.69.8-69.69.8:2f4ab7a3",
+      "excerpt": "It was not long before all the people in the countryside had gathered to hear the strange whispering of the reeds, and then the secret could be kept no longer. But though every one knew the truth King Midas continued to wear his wig, and.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Beside the king stood Pan, his favorite flute-player, who was no other than the famous sylvan god of shepherds; and as the wine went round and the king grew boastful of his.",
+      "evidence": [
+        "gutenberg:ebooks:45489:69.69.1-69.69.1:b4fd49c6"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "apollo",
+      "action": "travel",
+      "sourceAction": "went",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Beside the king stood Pan, his favorite flute-player, who was no other than the famous sylvan god of shepherds; and as the wine went round and the king grew boastful of his.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:69.69.2-69.69.2:361c2de5"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "apollo",
+      "action": "command",
+      "sourceAction": "commanded",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Though Pan was himself a deity, he had no desire to challenge Apollo, and looked fearfully at the sun-god's angry frown; but the king, drunk with pride, commanded him to play,.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:69.69.3-69.69.3:3db49214"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "apollo",
+      "action": "travel",
+      "sourceAction": "went",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "One story tells that to prove further the superiority of Apollo's playing the company went to the old mountain-god Tmolus, and let him make the final decision.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:69.69.3-69.69.3:3db49214"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": "apollo",
+      "action": "punish",
+      "sourceAction": "punished",
+      "object": null,
+      "target": "midas",
+      "recipient": null,
+      "location": null,
+      "result": "Angered at this unfair decision, Apollo left the banquet-hall, but not before he had assured Midas that the injustice would be punished.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:69.69.3-69.69.3:3db49214"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "These words came true in a most unexpected way, for when the king looked into his mirror the next morning, he found a pair of large fuzzy ass's ears growing in the place of his.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:69.69.4-69.69.4:9455e3be"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "actor": "midas",
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Horrified at his absurd appearance, Midas did not dare show himself to his people; but sent in haste for a barber, and bade him make a wig large enough to cover the monstrous ears.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:69.69.4-69.69.4:9455e3be"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "actor": null,
+      "action": "discover",
+      "sourceAction": "found",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "For some time the secret was safely kept; but the poor barber found life unbearable, since he lived in constant fear of letting out the truth about the king's ears in spite of.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:69.69.4-69.69.4:9455e3be"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "went",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He went out into the fields, dug a deep hole, and putting his head down as far as he could he shouted:--",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:69.69.5-69.69.5:c5e897e2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "He went out into the fields, dug a deep hole, and putting his head down as far as he could he shouted:--",
+      "evidence": [
+        "gutenberg:ebooks:45489:69.69.8-69.69.8:2f4ab7a3"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Beside the king stood Pan, his favorite flute-player, who was no other than the famous sylvan god of shepherds; and as the wine went round and the king grew boastful of his.",
+      "Though Pan was himself a deity, he had no desire to challenge Apollo, and looked fearfully at the sun-god's angry frown; but the king, drunk with pride, commanded him to play,.",
+      "One story tells that to prove further the superiority of Apollo's playing the company went to the old mountain-god Tmolus, and let him make the final decision.",
+      "Angered at this unfair decision, Apollo left the banquet-hall, but not before he had assured Midas that the injustice would be punished.",
+      "These words came true in a most unexpected way, for when the king looked into his mirror the next morning, he found a pair of large fuzzy ass's ears growing in the place of his.",
+      "Horrified at his absurd appearance, Midas did not dare show himself to his people; but sent in haste for a barber, and bade him make a wig large enough to cover the monstrous ears."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-9c0bfb06",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0069-a6178c",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "III",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:69.69.1-69.69.1:b4fd49c6",
+        "gutenberg:ebooks:45489:69.69.2-69.69.2:361c2de5",
+        "gutenberg:ebooks:45489:69.69.3-69.69.3:3db49214"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 162,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 8,
+      "actorEvents": 5,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

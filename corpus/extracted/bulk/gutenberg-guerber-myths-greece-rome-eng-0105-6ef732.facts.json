@@ -5,14 +5,14 @@
     {
       "sourceName": "Apollo",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:105.105.1-105.105.1:2315da65"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "apollo",
       "normalizationStatus": "approved"
     }
@@ -31,11 +31,11 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:105.105.1-105.105.1:2315da65"
+          "passageId": "gutenberg:ebooks:39250:105.105.2-105.105.2:22543ab4"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": "apollo",
@@ -52,31 +52,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:105.105.3-105.105.3:6b567f2e"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "apollo",
-      "predicate": "is introduced in",
-      "object": "Owen Meredith.",
+      "predicate": "opening_situation",
+      "object": "A fair young maiden, named Clytie, watched Apollo's daily journey with strange persistency; and from the moment when he left his palace in the morning until he came to the far.",
       "evidence": [
         "gutenberg:ebooks:39250:105.105.1-105.105.1:2315da65"
       ]
@@ -85,14 +68,32 @@
   "finalState": [
     {
       "subject": "apollo",
-      "predicate": "is last attested in selected candidate",
-      "object": "Owen Meredith.",
+      "predicate": "outcome",
+      "object": "But, in spite of all this fervor, she never won favor in Apollo's eyes, and languished until the gods, in pity, changed her into a sunflower.",
       "evidence": [
         "gutenberg:ebooks:39250:105.105.4-105.105.4:567b9023"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-ffe5d002",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0105-6ef732",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Owen Meredith.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:105.105.1-105.105.1:2315da65",
+        "gutenberg:ebooks:39250:105.105.2-105.105.2:22543ab4",
+        "gutenberg:ebooks:39250:105.105.3-105.105.3:6b567f2e"
+      ],
+      "status": "open"
+    }
+  ]
 }

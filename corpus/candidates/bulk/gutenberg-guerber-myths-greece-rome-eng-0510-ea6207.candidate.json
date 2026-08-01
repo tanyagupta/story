@@ -142,32 +142,70 @@
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-perseus-and-medusa-008b0e",
   "characters": [
     "Achilles",
+    "Andromeda",
+    "Antigone",
     "Apollo",
+    "Ariadne",
     "Atlas",
     "Bacchus",
     "Bellerophon",
     "Cadmus",
+    "Cassandra",
+    "Ceres",
+    "Circe",
     "Cupid",
+    "Daphne",
+    "Diana",
+    "Europa",
+    "Eurydice",
     "Hector",
+    "Helen",
     "Hercules",
     "Hippolytus",
+    "Io",
     "Jason",
+    "Juno",
     "Jupiter",
+    "Medea",
+    "Medusa",
     "Mercury",
+    "Minerva",
     "Neptune",
+    "Niobe",
     "Orpheus",
+    "Pandora",
     "Paris",
     "Pegasus",
     "Perseus",
     "Pluto",
     "Prometheus",
+    "Proserpina",
+    "Psyche",
     "Pygmalion",
     "Theseus",
     "Ulysses",
+    "Venus",
     "Vulcan"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 578,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 45,
+      "actionBearingSentences": 15,
+      "conflictSignals": 0,
+      "paragraphCount": 123,
+      "knownMythFamily": true
+    }
+  }
 }

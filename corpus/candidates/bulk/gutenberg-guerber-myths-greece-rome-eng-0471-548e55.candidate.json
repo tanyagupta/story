@@ -34,10 +34,30 @@
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-odysseus-cyclops-681785",
   "characters": [
     "Circe",
+    "Hades",
+    "Mercury",
+    "Pluto",
     "Ulysses"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 170,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 10,
+      "conflictSignals": 5,
+      "paragraphCount": 15,
+      "knownMythFamily": true
+    }
+  }
 }

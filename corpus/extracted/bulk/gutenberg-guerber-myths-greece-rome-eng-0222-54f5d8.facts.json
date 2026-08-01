@@ -1,0 +1,111 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0222-54f5d8",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Juno",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-juno",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Vulcan",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-vulcan",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-juno",
+      "sourceAction": "bound",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:222.222.2-222.222.2:44f1b5f9"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-juno",
+      "predicate": "opening_situation",
+      "object": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+      "evidence": [
+        "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-juno",
+      "predicate": "outcome",
+      "object": "On one occasion, intending to punish Juno for one of her usual fits of jealousy, Jupiter hung her out of heaven, fast bound by a golden chain; and Vulcan, perceiving her in this.",
+      "evidence": [
+        "gutenberg:ebooks:39250:222.222.4-222.222.4:c77466df"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-0eeabca4",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0222-54f5d8",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "VULCAN.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:222.222.1-222.222.1:36a7241d",
+        "gutenberg:ebooks:39250:222.222.2-222.222.2:44f1b5f9",
+        "gutenberg:ebooks:39250:222.222.3-222.222.3:fc5d5201"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0464-3c46c0",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Ulysses",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:464.464.1-464.464.1:f4264405"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-ulysses",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "bore",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:464.464.4-464.464.4:67446fd3"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-ulysses",
+      "predicate": "opening_situation",
+      "object": "\"Branches they bore of that enchanted stem, Laden with flower and fruit, whereof they gave To each, but whoso did receive of them, And taste, to him the gushing of the wave Far,.",
+      "evidence": [
+        "gutenberg:ebooks:39250:464.464.1-464.464.1:f4264405"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-ulysses",
+      "predicate": "outcome",
+      "object": "\"Branches they bore of that enchanted stem, Laden with flower and fruit, whereof they gave To each, but whoso did receive of them, And taste, to him the gushing of the wave Far,.",
+      "evidence": [
+        "gutenberg:ebooks:39250:464.464.4-464.464.4:67446fd3"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-587c8622",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0464-3c46c0",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "And then my messengers desired to dwell",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:464.464.1-464.464.1:f4264405",
+        "gutenberg:ebooks:39250:464.464.2-464.464.2:79f03266",
+        "gutenberg:ebooks:39250:464.464.3-464.464.3:80137933"
+      ],
+      "status": "open"
+    }
+  ]
+}

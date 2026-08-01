@@ -23,6 +23,7 @@
   "characters": [
     "Cupid",
     "Hades",
+    "Jupiter",
     "Pluto",
     "Proserpina",
     "Psyche",
@@ -31,5 +32,22 @@
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 160,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 7,
+      "actionBearingSentences": 11,
+      "conflictSignals": 3,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

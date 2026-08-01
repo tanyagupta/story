@@ -1,0 +1,22 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "passed-automatic-gates",
+  "semanticQuality": {
+    "score": 143,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 6,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": []
+}

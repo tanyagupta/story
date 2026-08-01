@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:331.331.5-331.331.5:735945b0",
     "gutenberg:ebooks:39250:331.331.6-331.331.6:d52b884a"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,9 +23,32 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "chapter-xviii",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-chapter-xviii-6dcb26",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Juno"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 79,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 3,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

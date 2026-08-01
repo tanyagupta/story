@@ -18,7 +18,7 @@
     "gutenberg:ebooks:39250:330.330.13-330.330.13:0d60509a",
     "gutenberg:ebooks:39250:330.330.14-330.330.14:21bb00dd"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -31,9 +31,32 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "that-come-through-the-carved-ivory-deceive",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-that-come-through-the-carved-ivory-deceive-52de80",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Proserpina"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 129,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

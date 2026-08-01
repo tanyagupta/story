@@ -11,7 +11,7 @@
     "gutenberg:ebooks:39250:377.377.6-377.377.6:ee43edc6",
     "gutenberg:ebooks:39250:377.377.7-377.377.7:e6740791"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -21,15 +21,34 @@
   "workingTitle": "Lewis Morris.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "perseus-and-medusa",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-perseus-and-medusa-1c427a",
   "characters": [
     "Andromeda",
+    "Medusa",
+    "Minerva",
     "Perseus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 132,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 8,
+      "conflictSignals": 4,
+      "paragraphCount": 7,
+      "knownMythFamily": true
+    }
+  }
 }

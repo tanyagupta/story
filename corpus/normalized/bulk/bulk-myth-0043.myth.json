@@ -1,30 +1,28 @@
 {
   "mythId": "bulk-myth-0043",
-  "mythFamilyId": "eros-and-psyche",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-eros-and-psyche-16370d",
-  "title": "Longfellow.",
+  "mythFamilyId": "europa",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-europa-c7b85a",
+  "title": "CADMUS.",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4",
-      "gutenberg:ebooks:39250:173.173.2-173.173.2:d1126815",
-      "gutenberg:ebooks:39250:173.173.3-173.173.3:d3f7de8b",
-      "gutenberg:ebooks:39250:173.173.4-173.173.4:cedd185a",
-      "gutenberg:ebooks:39250:173.173.5-173.173.5:404ba683",
-      "gutenberg:ebooks:39250:173.173.6-173.173.6:1904eee4",
-      "gutenberg:ebooks:39250:173.173.7-173.173.7:e2590a3a",
-      "gutenberg:ebooks:39250:173.173.8-173.173.8:85757acd",
-      "gutenberg:ebooks:39250:173.173.9-173.173.9:bda94eb7",
-      "gutenberg:ebooks:39250:173.173.10-173.173.10:748c278f",
-      "gutenberg:ebooks:39250:173.173.11-173.173.11:09abb10c"
+      "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09",
+      "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+      "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81",
+      "gutenberg:ebooks:22381:295.295.4-295.295.4:172a3df3",
+      "gutenberg:ebooks:22381:295.295.5-295.295.5:484f6684",
+      "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a",
+      "gutenberg:ebooks:22381:295.295.7-295.295.7:a7fd704c",
+      "gutenberg:ebooks:22381:295.295.8-295.295.8:20caac56",
+      "gutenberg:ebooks:22381:295.295.9-295.295.9:317b0fa8"
     ]
   },
   "entities": {
     "characters": [
-      "adonis",
+      "apollo",
       "cadmus",
-      "roman-cupid",
-      "roman-venus"
+      "europa",
+      "zeus"
     ],
     "locations": [],
     "objects": [],
@@ -32,12 +30,12 @@
   },
   "entityMappings": [
     {
-      "sourceName": "Adonis",
-      "normalizedId": "adonis",
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+          "passageId": "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09"
         }
       ]
     },
@@ -47,93 +45,284 @@
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+          "passageId": "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09"
         }
       ]
     },
     {
-      "sourceName": "Cupid",
-      "normalizedId": "roman-cupid",
+      "sourceName": "Europa",
+      "normalizedId": "europa",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+          "passageId": "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09"
         }
       ]
     },
     {
-      "sourceName": "Venus",
-      "normalizedId": "roman-venus",
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+          "passageId": "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09"
         }
       ]
     }
   ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Apollo, Cadmus, Europa are involved in CADMUS.. For many years Cadmus pursued his search through various countries, but without success. Not daring to return home without her, he consulted the oracle of Apollo at Delphi; and the reply was that he must desist from his task, and take upon himself a new duty, _i.e._. Scarcely had Cadmus left the sacred fane,.",
+    "openingSituation": "For many years Cadmus pursued his search through various countries, but without success.",
+    "centralConflict": "For many years Cadmus pursued his search through various countries, but without success.",
+    "resolution": "He obeyed; and out of the furrows there arose a band of armed men, who at once commenced to fight with each other, until all except five were killed.",
+    "outcome": "He obeyed; and out of the furrows there arose a band of armed men, who at once commenced to fight with each other, until all except five were killed.",
+    "storyline": [
+      "For many years Cadmus pursued his search through various countries, but without success.",
+      "Not daring to return home without her, he consulted the oracle of Apollo at Delphi; and the reply was that he must desist from his task, and take upon himself a new duty, _i.e._.",
+      "Scarcely had Cadmus left the sacred fane, when he observed a heifer who bore no marks of servitude on her neck, walking slowly in front of him.",
+      "He followed the animal for a considerable distance, until at length, on the site where Thebes afterwards stood, she looked towards heaven and, gently lowing, lay down in the long.",
+      "Grateful for this mark of divine favour, Cadmus resolved to offer up the animal as a sacrifice, and accordingly sent his followers to fetch water for the libation from a.",
+      "This spring, which was sacred to Ares, was situated in a wood, and guarded by a fierce dragon, who, at the approach of the retainers of Cadmus, suddenly pounced upon them and."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09",
+        "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+        "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09",
+      "excerpt": "The following is the legendary account of the founding of Thebes:--",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+      "excerpt": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81",
+      "excerpt": "For many years Cadmus pursued his search through various countries, but without success. Not daring to return home without her, he consulted the oracle of Apollo at Delphi; and the reply was that he must desist from his task, and take.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:295.295.4-295.295.4:172a3df3",
+      "excerpt": "Scarcely had Cadmus left the sacred fane, when he observed a heifer who bore no marks of servitude on her neck, walking slowly in front of him. He followed the animal for a considerable distance, until at length, on the site where Thebes.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:295.295.5-295.295.5:484f6684",
+      "excerpt": "After waiting some time for the return of his servants {204} Cadmus grew impatient, and hastily arming himself with his lance and spear, set out to seek them. On reaching the spot, the mangled remains of his unfortunate followers met his.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a",
+      "excerpt": "While Cadmus stood surveying his vanquished foe Pallas-Athene appeared to him, and commanded him to sow the teeth of the dead dragon in the ground. He obeyed; and out of the furrows there arose a band of armed men, who at once commenced.",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:295.295.7-295.295.7:a7fd704c",
+      "excerpt": "Ares was furious with rage when he discovered that Cadmus had slain his dragon, and would have killed him had not Zeus interfered, and induced him to mitigate his punishment to that of servitude for the term of eight years. At the end of.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:295.295.8-295.295.8:20caac56",
+      "excerpt": "The children of Cadmus and Harmonia were one son, {205} Polydorus, and four daughters, Autonoe, Ino, Semele, and Agave.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
   "initialState": [
     {
-      "subject": "adonis",
-      "predicate": "is introduced in",
-      "object": "Longfellow.",
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "For many years Cadmus pursued his search through various countries, but without success.",
       "evidence": [
-        "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+        "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09"
       ]
     }
   ],
   "events": [
     {
       "eventId": "event-001",
-      "actor": "roman-venus",
-      "action": "describe",
-      "sourceAction": "were",
+      "actor": "cadmus",
+      "action": "pursue",
+      "sourceAction": "pursued",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "For many years Cadmus pursued his search through various countries, but without success.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:173.173.1-173.173.1:288c94b4"
+          "passageId": "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81"
         }
       ],
       "reviewStatus": "approved"
     },
     {
       "eventId": "event-002",
-      "actor": "cadmus",
-      "action": "love",
-      "sourceAction": "married",
+      "actor": "apollo",
+      "action": "found",
+      "sourceAction": "built",
       "object": null,
       "target": null,
       "recipient": null,
-      "location": null,
+      "location": "delphi",
+      "result": "Not daring to return home without her, he consulted the oracle of Apollo at Delphi; and the reply was that he must desist from his task, and take upon himself a new duty, _i.e._.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:173.173.2-173.173.2:d1126815"
+          "passageId": "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81"
         }
       ],
       "reviewStatus": "approved"
     },
     {
       "eventId": "event-003",
-      "actor": null,
-      "action": "describe",
-      "sourceAction": "is described",
+      "actor": "cadmus",
+      "action": "birth",
+      "sourceAction": "bore",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Scarcely had Cadmus left the sacred fane, when he observed a heifer who bore no marks of servitude on her neck, walking slowly in front of him.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:173.173.3-173.173.3:d3f7de8b"
+          "passageId": "gutenberg:ebooks:22381:295.295.4-295.295.4:172a3df3"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-004",
+      "actor": null,
+      "action": "pursue",
+      "sourceAction": "followed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He followed the animal for a considerable distance, until at length, on the site where Thebes afterwards stood, she looked towards heaven and, gently lowing, lay down in the long.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.4-295.295.4:172a3df3"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-005",
+      "actor": "cadmus",
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Grateful for this mark of divine favour, Cadmus resolved to offer up the animal as a sacrifice, and accordingly sent his followers to fetch water for the libation from a.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.4-295.295.4:172a3df3"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-006",
+      "actor": "cadmus",
+      "action": "defeat",
+      "sourceAction": "killed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "This spring, which was sacred to Ares, was situated in a wood, and guarded by a fierce dragon, who, at the approach of the retainers of Cadmus, suddenly pounced upon them and.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.4-295.295.4:172a3df3"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-007",
+      "actor": "cadmus",
+      "action": "command",
+      "sourceAction": "commanded",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "While Cadmus stood surveying his vanquished foe Pallas-Athene appeared to him, and commanded him to sow the teeth of the dead dragon in the ground.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-008",
+      "actor": null,
+      "action": "defeat",
+      "sourceAction": "killed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He obeyed; and out of the furrows there arose a band of armed men, who at once commenced to fight with each other, until all except five were killed.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a"
         }
       ],
       "reviewStatus": "approved"
@@ -141,27 +330,51 @@
   ],
   "finalState": [
     {
-      "subject": "adonis",
-      "predicate": "is last attested in selected candidate",
-      "object": "Longfellow.",
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "He obeyed; and out of the furrows there arose a band of armed men, who at once commenced to fight with each other, until all except five were killed.",
       "evidence": [
-        "gutenberg:ebooks:39250:173.173.11-173.173.11:09abb10c"
+        "gutenberg:ebooks:22381:295.295.9-295.295.9:317b0fa8"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "For many years Cadmus pursued his search through various countries, but without success.",
+      "Not daring to return home without her, he consulted the oracle of Apollo at Delphi; and the reply was that he must desist from his task, and take upon himself a new duty, _i.e._.",
+      "Scarcely had Cadmus left the sacred fane, when he observed a heifer who bore no marks of servitude on her neck, walking slowly in front of him.",
+      "He followed the animal for a considerable distance, until at length, on the site where Thebes afterwards stood, she looked towards heaven and, gently lowing, lay down in the long.",
+      "Grateful for this mark of divine favour, Cadmus resolved to offer up the animal as a sacrifice, and accordingly sent his followers to fetch water for the libation from a.",
+      "This spring, which was sacred to Ares, was situated in a wood, and guarded by a fierce dragon, who, at the approach of the retainers of Cadmus, suddenly pounced upon them and."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
   "normalizationWarnings": [],
+  "semanticQuality": {
+    "score": 183,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 6,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
   "reviewStatus": "approved"
 }

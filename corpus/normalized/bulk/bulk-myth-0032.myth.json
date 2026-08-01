@@ -1,21 +1,32 @@
 {
   "mythId": "bulk-myth-0032",
-  "mythFamilyId": "worsley",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-worsley-c1c5c0",
-  "title": "Worsley.",
+  "mythFamilyId": "odysseus-cyclops",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-odysseus-cyclops-8ed18d",
+  "title": "Ithaca.",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd",
-      "gutenberg:ebooks:39250:137.137.2-137.137.2:719193d5",
-      "gutenberg:ebooks:39250:137.137.3-137.137.3:80eda73e",
-      "gutenberg:ebooks:39250:137.137.4-137.137.4:1af30029"
+      "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147",
+      "gutenberg:ebooks:22381:340.340.2-340.340.2:4821d1dd",
+      "gutenberg:ebooks:22381:340.340.3-340.340.3:62d1507a",
+      "gutenberg:ebooks:22381:340.340.4-340.340.4:f700b548",
+      "gutenberg:ebooks:22381:340.340.5-340.340.5:b98776a7",
+      "gutenberg:ebooks:22381:340.340.6-340.340.6:c34c2b39",
+      "gutenberg:ebooks:22381:340.340.7-340.340.7:c8be8140",
+      "gutenberg:ebooks:22381:340.340.8-340.340.8:e3555e97",
+      "gutenberg:ebooks:22381:340.340.9-340.340.9:772cc9ad",
+      "gutenberg:ebooks:22381:340.340.10-340.340.10:fd7b880f",
+      "gutenberg:ebooks:22381:340.340.11-340.340.11:00b94a19",
+      "gutenberg:ebooks:22381:340.340.12-340.340.12:676a920d",
+      "gutenberg:ebooks:22381:340.340.13-340.340.13:4f57bf9e",
+      "gutenberg:ebooks:22381:340.340.14-340.340.14:06ff0166",
+      "gutenberg:ebooks:22381:340.340.15-340.340.15:83b02322"
     ]
   },
   "entities": {
     "characters": [
       "apollo",
-      "roman-jupiter"
+      "odysseus"
     ],
     "locations": [],
     "objects": [],
@@ -28,29 +39,122 @@
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
+          "passageId": "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147"
         }
       ]
     },
     {
-      "sourceName": "Jupiter",
-      "normalizedId": "roman-jupiter",
+      "sourceName": "Odysseus",
+      "normalizedId": "odysseus",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
+          "passageId": "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147"
         }
       ]
     }
   ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Apollo, Odysseus are involved in Ithaca.. When next morning the vessel arrived in the harbour of Ithaca the sailors, concluding that so unusually profound a slumber must be sent by the gods, conveyed him on shore without. When Odysseus awoke he knew not where he was, for his ever-watchful protectress Pallas-Athene had enveloped him in a thick cloud in.",
+    "openingSituation": "When next morning the vessel arrived in the harbour of Ithaca the sailors, concluding that so unusually profound a slumber must be sent by the gods, conveyed him on shore without.",
+    "centralConflict": "When Odysseus awoke he knew not where he was, for his ever-watchful protectress Pallas-Athene had enveloped him in a thick cloud in order to conceal him from view.",
+    "resolution": "It chanced that the following morning Telemachus returned from his long and fruitless search for his father, and going first to the hut of Eumaeus, heard from him the story of.",
+    "outcome": "It chanced that the following morning Telemachus returned from his long and fruitless search for his father, and going first to the hut of Eumaeus, heard from him the story of.",
+    "storyline": [
+      "When next morning the vessel arrived in the harbour of Ithaca the sailors, concluding that so unusually profound a slumber must be sent by the gods, conveyed him on shore without.",
+      "When Odysseus awoke he knew not where he was, for his ever-watchful protectress Pallas-Athene had enveloped him in a thick cloud in order to conceal him from view.",
+      "Just as Odysseus had set foot in Ithaca the angry suitors had discovered her stratagem, and had become in consequence more clamorous than ever.",
+      "The goddess, who had meanwhile revealed her identity to Odysseus, now assisted him to conceal in a neighbouring cave the valuable gifts of the Phaeacian king.",
+      "In order to prevent his being recognized she caused him to assume the form of an aged mendicant.",
+      "His limbs became decrepid, his brown locks vanished, his eyes grew dim and bleared, and the regal robes given to him by king Alcinous were replaced by a tattered garb of dingy."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147",
+        "gutenberg:ebooks:22381:340.340.2-340.340.2:4821d1dd",
+        "gutenberg:ebooks:22381:340.340.3-340.340.3:62d1507a"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:340.340.2-340.340.2:4821d1dd"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:340.340.6-340.340.6:c34c2b39"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:340.340.6-340.340.6:c34c2b39"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147",
+      "excerpt": "ARRIVAL AT ITHACA.--The voyage was a short and prosperous one. By the direction of king Alcinous rich furs had been laid on deck for the comfort of his guest, on which the hero, leaving the guidance of the ship to the Phaeacian sailors,.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:340.340.2-340.340.2:4821d1dd",
+      "excerpt": "When Odysseus awoke he knew not where he was, for his ever-watchful protectress Pallas-Athene had enveloped him in a thick cloud in order to conceal him from view. She now appeared to him in the disguise of a shepherd, and informed him.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:340.340.3-340.340.3:62d1507a",
+      "excerpt": "The goddess, who had meanwhile revealed her identity to Odysseus, now assisted him to conceal in a neighbouring cave the valuable gifts of the Phaeacian king. Then seating herself beside him she consulted with him as to the best means of.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:340.340.4-340.340.4:f700b548",
+      "excerpt": "In order to prevent his being recognized she caused him to assume the form of an aged mendicant. His limbs became decrepid, his brown locks vanished, his eyes grew dim and bleared, and the regal robes given to him by king Alcinous were.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:340.340.5-340.340.5:b98776a7",
+      "excerpt": "Eumaeus received the old beggar hospitably, kindly ministered to his wants, and even confided to him his distress at the long continued absence of his beloved old master, and his regrets at being compelled by the unruly invaders of his.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:340.340.6-340.340.6:c34c2b39",
+      "excerpt": "It chanced that the following morning Telemachus returned from his long and fruitless search for his father, and going first to the hut of Eumaeus, heard from him the story of the seeming beggar whom he promised to befriend. Athene now.",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:340.340.7-340.340.7:c8be8140",
+      "excerpt": "Odysseus charged Telemachus to keep his return a secret, and concerted with him a plan whereby they might rid themselves of the detested suitors. In order to carry it into effect Telemachus was to induce his mother to promise her hand to.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:340.340.8-340.340.8:e3555e97",
+      "excerpt": "When Odysseus entered his ancestral halls he was mocked and reviled by the riotous suitors, and Antinous, the most shameless of them all, ridiculed his abject appearance, and insolently bade him depart; but Penelope hearing of their cruel.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
   "initialState": [
     {
       "subject": "apollo",
-      "predicate": "is introduced in",
-      "object": "Worsley.",
+      "predicate": "opening_situation",
+      "object": "When next morning the vessel arrived in the harbour of Ithaca the sailors, concluding that so unusually profound a slumber must be sent by the gods, conveyed him on shore without.",
       "evidence": [
-        "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
+        "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147"
       ]
     }
   ],
@@ -58,81 +162,223 @@
     {
       "eventId": "event-001",
       "actor": null,
-      "action": "transform",
-      "sourceAction": "transformed",
+      "action": "travel",
+      "sourceAction": "arrived",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "When next morning the vessel arrived in the harbour of Ithaca the sailors, concluding that so unusually profound a slumber must be sent by the gods, conveyed him on shore without.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
+          "passageId": "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-002",
-      "actor": null,
-      "action": "assist",
-      "sourceAction": "gave",
+      "actor": "odysseus",
+      "action": "recognize",
+      "sourceAction": "knew",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "When Odysseus awoke he knew not where he was, for his ever-watchful protectress Pallas-Athene had enveloped him in a thick cloud in order to conceal him from view.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:137.137.2-137.137.2:719193d5"
+          "passageId": "gutenberg:ebooks:22381:340.340.2-340.340.2:4821d1dd"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-003",
-      "actor": null,
-      "action": "transform",
-      "sourceAction": "changed",
+      "actor": "odysseus",
+      "action": "discover",
+      "sourceAction": "discovered",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Just as Odysseus had set foot in Ithaca the angry suitors had discovered her stratagem, and had become in consequence more clamorous than ever.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:137.137.3-137.137.3:80eda73e"
+          "passageId": "gutenberg:ebooks:22381:340.340.2-340.340.2:4821d1dd"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": "odysseus",
+      "action": "reveal",
+      "sourceAction": "revealed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The goddess, who had meanwhile revealed her identity to Odysseus, now assisted him to conceal in a neighbouring cave the valuable gifts of the Phaeacian king.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:340.340.3-340.340.3:62d1507a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": null,
+      "action": "recognize",
+      "sourceAction": "recognized",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "In order to prevent his being recognized she caused him to assume the form of an aged mendicant.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:340.340.4-340.340.4:f700b548"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "His limbs became decrepid, his brown locks vanished, his eyes grew dim and bleared, and the regal robes given to him by king Alcinous were replaced by a tattered garb of dingy.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:340.340.4-340.340.4:f700b548"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "actor": null,
+      "action": "receive",
+      "sourceAction": "received",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Eumaeus received the old beggar hospitably, kindly ministered to his wants, and even confided to him his distress at the long continued absence of his beloved old master, and his.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:340.340.5-340.340.5:b98776a7"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "actor": null,
+      "action": "return",
+      "sourceAction": "returned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "It chanced that the following morning Telemachus returned from his long and fruitless search for his father, and going first to the hut of Eumaeus, heard from him the story of.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:340.340.6-340.340.6:c34c2b39"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
     }
   ],
   "finalState": [
     {
       "subject": "apollo",
-      "predicate": "is last attested in selected candidate",
-      "object": "Worsley.",
+      "predicate": "outcome",
+      "object": "It chanced that the following morning Telemachus returned from his long and fruitless search for his father, and going first to the hut of Eumaeus, heard from him the story of.",
       "evidence": [
-        "gutenberg:ebooks:39250:137.137.4-137.137.4:1af30029"
+        "gutenberg:ebooks:22381:340.340.15-340.340.15:83b02322"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "When next morning the vessel arrived in the harbour of Ithaca the sailors, concluding that so unusually profound a slumber must be sent by the gods, conveyed him on shore without.",
+      "When Odysseus awoke he knew not where he was, for his ever-watchful protectress Pallas-Athene had enveloped him in a thick cloud in order to conceal him from view.",
+      "Just as Odysseus had set foot in Ithaca the angry suitors had discovered her stratagem, and had become in consequence more clamorous than ever.",
+      "The goddess, who had meanwhile revealed her identity to Odysseus, now assisted him to conceal in a neighbouring cave the valuable gifts of the Phaeacian king.",
+      "In order to prevent his being recognized she caused him to assume the form of an aged mendicant.",
+      "His limbs became decrepid, his brown locks vanished, his eyes grew dim and bleared, and the regal robes given to him by king Alcinous were replaced by a tattered garb of dingy."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
-  "normalizationWarnings": [],
-  "reviewStatus": "approved"
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-09cc0419",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0340-1cfc27",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Ithaca.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147",
+        "gutenberg:ebooks:22381:340.340.2-340.340.2:4821d1dd",
+        "gutenberg:ebooks:22381:340.340.3-340.340.3:62d1507a"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 152,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 8,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
 }

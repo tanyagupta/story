@@ -24,6 +24,7 @@
   "mythFamilyId": "apollo-and-daphne",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-apollo-and-daphne-86e52d",
   "characters": [
+    "Achilles",
     "Apollo",
     "Diana",
     "Jupiter"
@@ -31,5 +32,22 @@
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 193,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 15,
+      "conflictSignals": 6,
+      "paragraphCount": 6,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -88,9 +88,65 @@
   "candidateType": "non_story_material",
   "mythFamilyId": "page",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-page-6dddee",
-  "characters": [],
+  "characters": [
+    "Achilles",
+    "Andromeda",
+    "Antigone",
+    "Apollo",
+    "Ariadne",
+    "Atalanta",
+    "Bacchus",
+    "Ceres",
+    "Circe",
+    "Cupid",
+    "Daphne",
+    "Diana",
+    "Europa",
+    "Eurydice",
+    "Ganymede",
+    "Hector",
+    "Helen",
+    "Hercules",
+    "Icarus",
+    "Jason",
+    "Juno",
+    "Medea",
+    "Mercury",
+    "Minerva",
+    "Neptune",
+    "Niobe",
+    "Orpheus",
+    "Pandora",
+    "Paris",
+    "Perseus",
+    "Prometheus",
+    "Proserpina",
+    "Psyche",
+    "Theseus",
+    "Ulysses",
+    "Venus",
+    "Vulcan",
+    "Zeus"
+  ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 380,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 38,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 71,
+      "knownMythFamily": true
+    }
+  }
 }

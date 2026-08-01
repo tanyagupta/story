@@ -19,7 +19,7 @@
     "gutenberg:ebooks:22381:340.340.14-340.340.14:06ff0166",
     "gutenberg:ebooks:22381:340.340.15-340.340.15:83b02322"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -33,10 +33,31 @@
   "mythFamilyId": "odysseus-cyclops",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-odysseus-cyclops-8ed18d",
   "characters": [
+    "Apollo",
     "Odysseus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 152,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 8,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -1,0 +1,198 @@
+{
+  "mythId": "bulk-myth-0280",
+  "mythFamilyId": "moore",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-moore-c86c00",
+  "title": "Moore.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:38.38.1-38.38.1:3e4c48b5",
+      "gutenberg:ebooks:39250:38.38.2-38.38.2:665056df",
+      "gutenberg:ebooks:39250:38.38.3-38.38.3:1c7b9969",
+      "gutenberg:ebooks:39250:38.38.4-38.38.4:6d33b2ac",
+      "gutenberg:ebooks:39250:38.38.5-38.38.5:884d5292",
+      "gutenberg:ebooks:39250:38.38.6-38.38.6:da976c52"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The selected source participants are involved in Moore.. And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had.",
+    "openingSituation": "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had.",
+    "centralConflict": "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had.",
+    "resolution": "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had.",
+    "outcome": "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had.",
+    "storyline": [
+      "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:38.38.1-38.38.1:3e4c48b5",
+        "gutenberg:ebooks:39250:38.38.2-38.38.2:665056df",
+        "gutenberg:ebooks:39250:38.38.3-38.38.3:1c7b9969"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:38.38.3-38.38.3:1c7b9969"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:38.38.3-38.38.3:1c7b9969"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:38.38.3-38.38.3:1c7b9969"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:38.38.3-38.38.3:1c7b9969"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:38.38.1-38.38.1:3e4c48b5",
+      "excerpt": "[Sidenote: The Ethiopians and the Isles of the Blest.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:38.38.2-38.38.2:665056df",
+      "excerpt": "South of Greece, also near the great river Oceanus, dwelt another nation, just as happy and virtuous as the Hyperboreans,--the Ethiopians. They, too, often enjoyed the company of the gods, who shared their innocent pleasures with great.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:38.38.3-38.38.3:1c7b9969",
+      "excerpt": "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had thus found favor in the sight of the gods, were transported.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:38.38.4-38.38.4:6d33b2ac",
+      "excerpt": "\"The Isles of the Blest, they say, The Isles of the Blest, Are peaceful and happy, by night and by day, Far away in the glorious west.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:38.38.5-38.38.5:884d5292",
+      "excerpt": "\"They need not the moon in that land of delight, They need not the pale, pale star; The sun is bright, by day and night, Where the souls of the blessed are.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:38.38.6-38.38.6:da976c52",
+      "excerpt": "\"They till not the ground, they plow not the wave, They labor not, never! oh, never! Not a tear do they shed, not a sigh do they heave, They are happy, for ever and ever!\"",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had.",
+      "evidence": [
+        "gutenberg:ebooks:39250:38.38.1-38.38.1:3e4c48b5"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "discover",
+      "sourceAction": "found",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:38.38.3-38.38.3:1c7b9969"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had.",
+      "evidence": [
+        "gutenberg:ebooks:39250:38.38.6-38.38.6:da976c52"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-2e3910cb",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0038-21583c",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Moore.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:38.38.1-38.38.1:3e4c48b5",
+        "gutenberg:ebooks:39250:38.38.2-38.38.2:665056df",
+        "gutenberg:ebooks:39250:38.38.3-38.38.3:1c7b9969"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 44,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

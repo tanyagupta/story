@@ -5,56 +5,56 @@
     {
       "sourceName": "Alcestis",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:93.93.1-93.93.1:92599cd3"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "alcestis",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Apollo",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:93.93.1-93.93.1:92599cd3"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "apollo",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Jupiter",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:93.93.1-93.93.1:92599cd3"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-jupiter",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Pluto",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:93.93.1-93.93.1:92599cd3"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-pluto",
       "normalizationStatus": "approved"
     }
@@ -63,25 +63,8 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-pluto",
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:93.93.1-93.93.1:92599cd3"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
       "actorSourceName": null,
-      "sourceAction": "was",
+      "sourceAction": "gave",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -90,35 +73,18 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:93.93.2-93.93.2:2a2698af"
+          "passageId": "gutenberg:ebooks:39250:93.93.5-93.93.5:0f506462"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": "alcestis",
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:93.93.3-93.93.3:0ec0530b"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "alcestis",
-      "predicate": "is introduced in",
-      "object": "The leech that wrought such healing hurled",
+      "predicate": "opening_situation",
+      "object": "His dulcet tones soon won the admiration of his companions, and even that of the king, who listened to his songs with pleasure, and to reward him gave him the position of head.",
       "evidence": [
         "gutenberg:ebooks:39250:93.93.1-93.93.1:92599cd3"
       ]
@@ -127,14 +93,33 @@
   "finalState": [
     {
       "subject": "alcestis",
-      "predicate": "is last attested in selected candidate",
-      "object": "The leech that wrought such healing hurled",
+      "predicate": "outcome",
+      "object": "His dulcet tones soon won the admiration of his companions, and even that of the king, who listened to his songs with pleasure, and to reward him gave him the position of head.",
       "evidence": [
         "gutenberg:ebooks:39250:93.93.6-93.93.6:d1390f90"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-e8829c4d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0093-497081",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "The leech that wrought such healing hurled",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:93.93.1-93.93.1:92599cd3",
+        "gutenberg:ebooks:39250:93.93.2-93.93.2:2a2698af",
+        "gutenberg:ebooks:39250:93.93.3-93.93.3:0ec0530b"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -1,0 +1,111 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0494-0562c4",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Hades",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:494.494.1-494.494.1:7445ffcb"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Neptune",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:494.494.1-494.494.1:7445ffcb"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-neptune",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Venus",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:494.494.1-494.494.1:7445ffcb"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "hades",
+      "sourceAction": "reached",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:494.494.9-494.494.9:0c69a281"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hades",
+      "predicate": "opening_situation",
+      "object": "As for the fleet, it reached the Cumæan shore in safety; and Æneas hastened off to the Sibyl's cave, made known his wish to visit Hades, and entreated her to serve as his guide.",
+      "evidence": [
+        "gutenberg:ebooks:39250:494.494.1-494.494.1:7445ffcb"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hades",
+      "predicate": "outcome",
+      "object": "As for the fleet, it reached the Cumæan shore in safety; and Æneas hastened off to the Sibyl's cave, made known his wish to visit Hades, and entreated her to serve as his guide.",
+      "evidence": [
+        "gutenberg:ebooks:39250:494.494.11-494.494.11:2a2698af"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-1afe2212",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0494-0562c4",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "If still thine ancient faithfulness",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:494.494.1-494.494.1:7445ffcb",
+        "gutenberg:ebooks:39250:494.494.2-494.494.2:2a2698af",
+        "gutenberg:ebooks:39250:494.494.3-494.494.3:f848b2f7"
+      ],
+      "status": "open"
+    }
+  ]
+}

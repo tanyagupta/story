@@ -10,7 +10,7 @@
     "gutenberg:ebooks:45489:151.151.5-151.151.5:afe64077",
     "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,11 +25,32 @@
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-bellerophon-and-pegasus-591980",
   "characters": [
     "Bellerophon",
+    "Jupiter",
     "Minerva",
     "Pegasus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 178,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 5,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

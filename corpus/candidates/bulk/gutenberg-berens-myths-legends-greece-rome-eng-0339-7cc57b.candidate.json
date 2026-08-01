@@ -69,10 +69,37 @@
   "mythFamilyId": "apollo-and-daphne",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-apollo-and-daphne-751c5d",
   "characters": [
-    "Apollo"
+    "Achilles",
+    "Apollo",
+    "Atlas",
+    "Circe",
+    "Hades",
+    "Helen",
+    "Helios",
+    "Hermes",
+    "Odysseus",
+    "Poseidon",
+    "Zeus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 924,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 11,
+      "actionBearingSentences": 75,
+      "conflictSignals": 33,
+      "paragraphCount": 51,
+      "knownMythFamily": true
+    }
+  }
 }

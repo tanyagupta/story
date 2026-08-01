@@ -17,7 +17,7 @@
     "gutenberg:ebooks:39250:349.349.12-349.349.12:c4e9c0c5",
     "gutenberg:ebooks:39250:349.349.13-349.349.13:72f7055e"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -31,11 +31,34 @@
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-heracles-labors-b9a152",
   "characters": [
+    "Alcestis",
     "Hades",
-    "Hercules"
+    "Hercules",
+    "Jupiter",
+    "Pluto"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 186,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 8,
+      "actorEvents": 5,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -24,7 +24,7 @@
     "gutenberg:ebooks:22381:228.228.19-228.228.19:185d4d96",
     "gutenberg:ebooks:22381:228.228.20-228.228.20:7ba9fd69"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -38,11 +38,33 @@
   "mythFamilyId": "the-hesperides",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-the-hesperides-762ea5",
   "characters": [
+    "Apollo",
     "Atlas",
+    "Dionysus",
     "Zeus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 125,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 5,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

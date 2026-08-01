@@ -9,7 +9,7 @@
     "gutenberg:ebooks:45489:182.182.4-182.182.4:b5312856",
     "gutenberg:ebooks:45489:182.182.5-182.182.5:3d080720"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -19,14 +19,34 @@
   "workingTitle": "Apollo--were interpreted by the priests.",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "apollo-and-daphne",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-apollo-and-daphne-e519ec",
   "characters": [
-    "Apollo"
+    "Apollo",
+    "Minerva",
+    "Theseus",
+    "Ulysses"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 70,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 3,
+      "conflictSignals": 1,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

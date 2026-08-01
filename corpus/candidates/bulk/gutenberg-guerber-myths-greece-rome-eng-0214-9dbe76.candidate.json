@@ -15,7 +15,7 @@
   "workingTitle": "The pallid shades with fearless brow descended",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "non_story_material",
+  "candidateType": "ambiguous",
   "mythFamilyId": "the-pallid-shades-with-fearless-brow-descended",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-the-pallid-shades-with-fearless-brow-descended-b08ad8",
   "characters": [
@@ -26,5 +26,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 14,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

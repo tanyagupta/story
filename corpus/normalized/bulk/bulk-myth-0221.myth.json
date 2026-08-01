@@ -1,0 +1,206 @@
+{
+  "mythId": "bulk-myth-0221",
+  "mythFamilyId": "picus",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-picus-3a83d0",
+  "title": "PICUS.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:255.255.1-255.255.1:e0d834a7",
+      "gutenberg:ebooks:22381:255.255.2-255.255.2:ca6616f9",
+      "gutenberg:ebooks:22381:255.255.3-255.255.3:40db7fa9"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "circe"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Circe",
+      "normalizedId": "circe",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:255.255.1-255.255.1:e0d834a7"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Circe are involved in PICUS.. The sorceress Circe, infatuated by his beauty, endeavoured to secure his love, but he rejected her advances, and she, in revenge, changed him into a woodpecker, under which form. Picus is represented as a youth, with a woodpecker perched upon his head, which bird became henceforth regarded as possessed of the power of prophecy.",
+    "openingSituation": "The sorceress Circe, infatuated by his beauty, endeavoured to secure his love, but he rejected her advances, and she, in revenge, changed him into a woodpecker, under which form.",
+    "centralConflict": "The sorceress Circe, infatuated by his beauty, endeavoured to secure his love, but he rejected her advances, and she, in revenge, changed him into a woodpecker, under which form.",
+    "resolution": "Picus is represented as a youth, with a woodpecker perched upon his head, which bird became henceforth regarded as possessed of the power of prophecy.",
+    "outcome": "Picus is represented as a youth, with a woodpecker perched upon his head, which bird became henceforth regarded as possessed of the power of prophecy.",
+    "storyline": [
+      "The sorceress Circe, infatuated by his beauty, endeavoured to secure his love, but he rejected her advances, and she, in revenge, changed him into a woodpecker, under which form.",
+      "Picus is represented as a youth, with a woodpecker perched upon his head, which bird became henceforth regarded as possessed of the power of prophecy."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:255.255.1-255.255.1:e0d834a7",
+        "gutenberg:ebooks:22381:255.255.2-255.255.2:ca6616f9",
+        "gutenberg:ebooks:22381:255.255.3-255.255.3:40db7fa9"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:255.255.2-255.255.2:ca6616f9"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:255.255.2-255.255.2:ca6616f9"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:255.255.3-255.255.3:40db7fa9"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:255.255.3-255.255.3:40db7fa9"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:255.255.1-255.255.1:e0d834a7",
+      "excerpt": "Picus, the son of Saturn and father of Faunus, was a woodland divinity, gifted with prophetic powers.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:255.255.2-255.255.2:ca6616f9",
+      "excerpt": "An ancient myth relates that Picus was a beautiful youth, united to a nymph called Canens. The sorceress Circe, infatuated by his beauty, endeavoured to secure his love, but he rejected her advances, and she, in revenge, changed him into.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:255.255.3-255.255.3:40db7fa9",
+      "excerpt": "Picus is represented as a youth, with a woodpecker perched upon his head, which bird became henceforth regarded as possessed of the power of prophecy.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "circe",
+      "predicate": "opening_situation",
+      "object": "The sorceress Circe, infatuated by his beauty, endeavoured to secure his love, but he rejected her advances, and she, in revenge, changed him into a woodpecker, under which form.",
+      "evidence": [
+        "gutenberg:ebooks:22381:255.255.1-255.255.1:e0d834a7"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "circe",
+      "action": "transform",
+      "sourceAction": "changed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The sorceress Circe, infatuated by his beauty, endeavoured to secure his love, but he rejected her advances, and she, in revenge, changed him into a woodpecker, under which form.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:255.255.2-255.255.2:ca6616f9"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Picus is represented as a youth, with a woodpecker perched upon his head, which bird became henceforth regarded as possessed of the power of prophecy.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:255.255.3-255.255.3:40db7fa9"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "circe",
+      "predicate": "outcome",
+      "object": "Picus is represented as a youth, with a woodpecker perched upon his head, which bird became henceforth regarded as possessed of the power of prophecy.",
+      "evidence": [
+        "gutenberg:ebooks:22381:255.255.3-255.255.3:40db7fa9"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The sorceress Circe, infatuated by his beauty, endeavoured to secure his love, but he rejected her advances, and she, in revenge, changed him into a woodpecker, under which form.",
+      "Picus is represented as a youth, with a woodpecker perched upon his head, which bird became henceforth regarded as possessed of the power of prophecy."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-77a86df0",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0255-7c4d73",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "PICUS.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:255.255.1-255.255.1:e0d834a7",
+        "gutenberg:ebooks:22381:255.255.2-255.255.2:ca6616f9",
+        "gutenberg:ebooks:22381:255.255.3-255.255.3:40db7fa9"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 68,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 2,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

@@ -1,0 +1,97 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0090-cf9d4c",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Hades",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:90.90.1-90.90.1:93eac728"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Pluto",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:90.90.1-90.90.1:93eac728"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-pluto",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hades",
+      "predicate": "opening_situation",
+      "object": "\"Then he turned upon the Raven, 'Wanton babbler!",
+      "evidence": [
+        "gutenberg:ebooks:39250:90.90.1-90.90.1:93eac728"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hades",
+      "predicate": "outcome",
+      "object": "\"Then he turned upon the Raven, 'Wanton babbler!",
+      "evidence": [
+        "gutenberg:ebooks:39250:90.90.3-90.90.3:521d48aa"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-4e16b1e9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0090-cf9d4c",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:90.90.1-90.90.1:93eac728",
+        "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801",
+        "gutenberg:ebooks:39250:90.90.3-90.90.3:521d48aa"
+      ],
+      "status": "open"
+    }
+  ]
+}

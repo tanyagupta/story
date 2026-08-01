@@ -1,0 +1,82 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0193-3eea89",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Demeter",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "demeter",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "demeter",
+      "predicate": "opening_situation",
+      "object": "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity.",
+      "evidence": [
+        "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "demeter",
+      "predicate": "outcome",
+      "object": "Plutus was believed to have his abode in the bowels of the earth, which was probably the reason why, in later times, Aides became confounded with this divinity.",
+      "evidence": [
+        "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a5ab42b5",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0193-3eea89",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "PLUTUS.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b",
+        "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+      ],
+      "status": "open"
+    }
+  ]
+}

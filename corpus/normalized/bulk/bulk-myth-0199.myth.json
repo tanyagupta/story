@@ -1,0 +1,225 @@
+{
+  "mythId": "bulk-myth-0199",
+  "mythFamilyId": "edwin-arnold",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-edwin-arnold-418dcc",
+  "title": "Edwin Arnold.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c",
+      "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584",
+      "gutenberg:ebooks:39250:177.177.3-177.177.3:92480a38"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-venus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Venus",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Venus are involved in Edwin Arnold.. An undying passion was thus simultaneously kindled in both young hearts; and, thanks to Venus' assistance, Leander managed to exchange a few words with Hero, declared his love,. The maiden listened to his pleading with mingled joy and terror, for she knew her parents would never consent to their union. Then, afraid lest.",
+    "openingSituation": "An undying passion was thus simultaneously kindled in both young hearts; and, thanks to Venus' assistance, Leander managed to exchange a few words with Hero, declared his love,.",
+    "centralConflict": "Then, afraid lest some one should notice that she was talking to a stranger, she bade him depart; but he refused to go until he had learned where she lived, and proposed to swim.",
+    "resolution": "Then, afraid lest some one should notice that she was talking to a stranger, she bade him depart; but he refused to go until he had learned where she lived, and proposed to swim.",
+    "outcome": "Then, afraid lest some one should notice that she was talking to a stranger, she bade him depart; but he refused to go until he had learned where she lived, and proposed to swim.",
+    "storyline": [
+      "An undying passion was thus simultaneously kindled in both young hearts; and, thanks to Venus' assistance, Leander managed to exchange a few words with Hero, declared his love,.",
+      "The maiden listened to his pleading with mingled joy and terror, for she knew her parents would never consent to their union.",
+      "Then, afraid lest some one should notice that she was talking to a stranger, she bade him depart; but he refused to go until he had learned where she lived, and proposed to swim."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c",
+        "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584",
+        "gutenberg:ebooks:39250:177.177.3-177.177.3:92480a38"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c",
+      "excerpt": "An undying passion was thus simultaneously kindled in both young hearts; and, thanks to Venus' assistance, Leander managed to exchange a few words with Hero, declared his love, implored her to view his suit kindly, and, above all, to.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584",
+      "excerpt": "The maiden listened to his pleading with mingled joy and terror, for she knew her parents would never consent to their union. Then, afraid lest some one should notice that she was talking to a stranger, she bade him depart; but he refused.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:177.177.3-177.177.3:92480a38",
+      "excerpt": "\"'Sweet! for thy love,' he cried, 'the sea I'd cleave, Though foam were fire, and waves with flame did heave, I fear not billows if they bear to thee; Nor tremble at the hissing of the sea! And I will come--oh! let me come--each night,.",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-venus",
+      "predicate": "opening_situation",
+      "object": "An undying passion was thus simultaneously kindled in both young hearts; and, thanks to Venus' assistance, Leander managed to exchange a few words with Hero, declared his love,.",
+      "evidence": [
+        "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "roman-venus",
+      "action": "reveal",
+      "sourceAction": "declared",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "An undying passion was thus simultaneously kindled in both young hearts; and, thanks to Venus' assistance, Leander managed to exchange a few words with Hero, declared his love,.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "recognize",
+      "sourceAction": "knew",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The maiden listened to his pleading with mingled joy and terror, for she knew her parents would never consent to their union.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "refuse",
+      "sourceAction": "refused",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Then, afraid lest some one should notice that she was talking to a stranger, she bade him depart; but he refused to go until he had learned where she lived, and proposed to swim.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-venus",
+      "predicate": "outcome",
+      "object": "Then, afraid lest some one should notice that she was talking to a stranger, she bade him depart; but he refused to go until he had learned where she lived, and proposed to swim.",
+      "evidence": [
+        "gutenberg:ebooks:39250:177.177.3-177.177.3:92480a38"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "An undying passion was thus simultaneously kindled in both young hearts; and, thanks to Venus' assistance, Leander managed to exchange a few words with Hero, declared his love,.",
+      "The maiden listened to his pleading with mingled joy and terror, for she knew her parents would never consent to their union.",
+      "Then, afraid lest some one should notice that she was talking to a stranger, she bade him depart; but he refused to go until he had learned where she lived, and proposed to swim."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-21632ed9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0177-9c3293",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Edwin Arnold.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c",
+        "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584",
+        "gutenberg:ebooks:39250:177.177.3-177.177.3:92480a38"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 79,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 3,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

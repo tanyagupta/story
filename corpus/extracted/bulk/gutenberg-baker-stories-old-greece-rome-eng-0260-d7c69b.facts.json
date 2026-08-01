@@ -1,0 +1,69 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0260-d7c69b",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:260.260.2-260.260.2:25286849"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "\"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+      "evidence": [
+        "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "\"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+      "evidence": [
+        "gutenberg:ebooks:45489:260.260.4-260.260.4:96d00d26"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-72a4a90d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0260-d7c69b",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "XLVI",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d",
+        "gutenberg:ebooks:45489:260.260.2-260.260.2:25286849",
+        "gutenberg:ebooks:45489:260.260.3-260.260.3:7308ff3e"
+      ],
+      "status": "open"
+    }
+  ]
+}

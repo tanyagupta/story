@@ -19,7 +19,7 @@
     "gutenberg:ebooks:22381:331.331.14-331.331.14:2d21a07f",
     "gutenberg:ebooks:22381:331.331.15-331.331.15:fdad853c"
   ],
-  "status": "awaiting_extraction",
+  "status": "approved",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -33,10 +33,28 @@
   "mythFamilyId": "theseus-and-minotaur",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-theseus-and-minotaur-3c3532",
   "characters": [
-    "Theseus"
+    "Theseus",
+    "Zeus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "approved",
+  "reviewStatus": "approved",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 152,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 8,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

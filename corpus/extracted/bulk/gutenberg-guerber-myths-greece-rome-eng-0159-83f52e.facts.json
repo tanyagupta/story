@@ -20,7 +20,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -33,11 +33,11 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:159.159.2-159.159.2:644ca529"
+          "passageId": "gutenberg:ebooks:39250:159.159.1-159.159.1:c86f4e20"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -50,18 +50,35 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:159.159.3-159.159.3:9ceea39c"
+          "passageId": "gutenberg:ebooks:39250:159.159.2-159.159.2:644ca529"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "reached",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:159.159.2-159.159.2:644ca529"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "source-section",
-      "predicate": "is introduced in",
-      "object": "Hemans.",
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Orion, like a fickle youth, was soon consoled for their disappearance, and loved Merope, daughter of Œnopion, King of Chios, who consented to their union on condition that his.",
       "evidence": [
         "gutenberg:ebooks:39250:159.159.1-159.159.1:c86f4e20"
       ]
@@ -69,15 +86,33 @@
   ],
   "finalState": [
     {
-      "subject": "source-section",
-      "predicate": "is last attested in selected candidate",
-      "object": "Hemans.",
+      "subject": null,
+      "predicate": "outcome",
+      "object": "At last he reached the Cyclopes' cave, and one of them took pity on him, and led him to the Sun, from whose radiance he borrowed a store of light,--",
       "evidence": [
         "gutenberg:ebooks:39250:159.159.3-159.159.3:9ceea39c"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-90304741",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0159-83f52e",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Hemans.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:159.159.1-159.159.1:c86f4e20",
+        "gutenberg:ebooks:39250:159.159.2-159.159.2:644ca529",
+        "gutenberg:ebooks:39250:159.159.3-159.159.3:9ceea39c"
+      ],
+      "status": "open"
+    }
+  ]
 }

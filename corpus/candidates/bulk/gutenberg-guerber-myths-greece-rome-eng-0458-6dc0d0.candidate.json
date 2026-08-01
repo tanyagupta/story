@@ -16,7 +16,7 @@
     "gutenberg:ebooks:39250:458.458.11-458.458.11:f88e1ae1",
     "gutenberg:ebooks:39250:458.458.12-458.458.12:88d47db7"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,15 +26,32 @@
   "workingTitle": "Tennyson.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-acc19b",
   "characters": [
     "Minerva",
     "Ulysses"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 67,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 4,
+      "conflictSignals": 1,
+      "paragraphCount": 12,
+      "knownMythFamily": true
+    }
+  }
 }

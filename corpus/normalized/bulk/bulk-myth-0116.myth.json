@@ -1,0 +1,291 @@
+{
+  "mythId": "bulk-myth-0116",
+  "mythFamilyId": "scyllas-den",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-scyllas-den-d09d9f",
+  "title": "Scylla's den.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604",
+      "gutenberg:ebooks:39250:474.474.2-474.474.2:3ea3c7f4",
+      "gutenberg:ebooks:39250:474.474.3-474.474.3:af1ba93e",
+      "gutenberg:ebooks:39250:474.474.4-474.474.4:d592d2ca",
+      "gutenberg:ebooks:39250:474.474.5-474.474.5:dec5c2c2",
+      "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-ulysses"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Ulysses",
+      "normalizedId": "roman-ulysses",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Ulysses are involved in Scylla's den.. Suddenly a piercing cry was heard, as the monster seized six of the men and devoured them. The men wished to land here to rest; but Ulysses reminded them that Tiresias, the blind seer, had warned them to avoid it, lest by slaying any of the sacred animals they should. The men, however, worn out with the toil of many.",
+    "openingSituation": "Suddenly a piercing cry was heard, as the monster seized six of the men and devoured them.",
+    "centralConflict": "Suddenly a piercing cry was heard, as the monster seized six of the men and devoured them.",
+    "resolution": "All these sounds and sights could not, however, deter the sailors, who were bound to have a good feast, which they kept up for seven days, ere",
+    "outcome": "All these sounds and sights could not, however, deter the sailors, who were bound to have a good feast, which they kept up for seven days, ere",
+    "storyline": [
+      "Suddenly a piercing cry was heard, as the monster seized six of the men and devoured them.",
+      "The men wished to land here to rest; but Ulysses reminded them that Tiresias, the blind seer, had warned them to avoid it, lest by slaying any of the sacred animals they should.",
+      "The men, however, worn out with the toil of many days' rowing, entreated so piteously to be allowed to rest, voluntarily pledging themselves to be content with their own.",
+      "Led by Eurylochus, some of the men, during one of Ulysses' temporary absences, caught and slew some of the sun god's cattle.",
+      "All these sounds and sights could not, however, deter the sailors, who were bound to have a good feast, which they kept up for seven days, ere"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604",
+        "gutenberg:ebooks:39250:474.474.2-474.474.2:3ea3c7f4",
+        "gutenberg:ebooks:39250:474.474.3-474.474.3:af1ba93e"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604",
+      "excerpt": "Suddenly a piercing cry was heard, as the monster seized six of the men and devoured them. The rest passed on unharmed; but since then, in speaking of conflicting dangers, it has been customary to use the expression, \"falling from.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:474.474.2-474.474.2:3ea3c7f4",
+      "excerpt": "[Sidenote: Cattle of the sun.]",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:474.474.3-474.474.3:af1ba93e",
+      "excerpt": "Only too glad to effect an escape at any price, the Greeks again rowed on until they sighted Trinacria, the island of the sun, where Phaetusa and Lampetia watched over the sun god's sacred herds. The men wished to land here to rest; but.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:474.474.4-474.474.4:d592d2ca",
+      "excerpt": "The men, however, worn out with the toil of many days' rowing, entreated so piteously to be allowed to rest, voluntarily pledging themselves to be content with their own provisions and not to slay a single animal, that Ulysses reluctantly.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:474.474.5-474.474.5:dec5c2c2",
+      "excerpt": "After they had duly rested, they were still detained by unfavorable winds, until all their provisions were exhausted, and the few birds and fishes they managed to secure no longer sufficed to still the pangs of hunger.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848",
+      "excerpt": "Led by Eurylochus, some of the men, during one of Ulysses' temporary absences, caught and slew some of the sun god's cattle. To the general amazement and terror, the meat lowed while roasting on the spit, and the empty skins moved and.",
+      "supports": [
+        "event-005"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-ulysses",
+      "predicate": "opening_situation",
+      "object": "Suddenly a piercing cry was heard, as the monster seized six of the men and devoured them.",
+      "evidence": [
+        "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "seized",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Suddenly a piercing cry was heard, as the monster seized six of the men and devoured them.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "roman-ulysses",
+      "action": "warn",
+      "sourceAction": "warned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The men wished to land here to rest; but Ulysses reminded them that Tiresias, the blind seer, had warned them to avoid it, lest by slaying any of the sacred animals they should.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:474.474.3-474.474.3:af1ba93e"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "roman-ulysses",
+      "action": "travel",
+      "sourceAction": "went",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The men, however, worn out with the toil of many days' rowing, entreated so piteously to be allowed to rest, voluntarily pledging themselves to be content with their own.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:474.474.4-474.474.4:d592d2ca"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": "roman-ulysses",
+      "action": "capture",
+      "sourceAction": "caught",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Led by Eurylochus, some of the men, during one of Ulysses' temporary absences, caught and slew some of the sun god's cattle.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "bound",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "All these sounds and sights could not, however, deter the sailors, who were bound to have a good feast, which they kept up for seven days, ere",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-ulysses",
+      "predicate": "outcome",
+      "object": "All these sounds and sights could not, however, deter the sailors, who were bound to have a good feast, which they kept up for seven days, ere",
+      "evidence": [
+        "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Suddenly a piercing cry was heard, as the monster seized six of the men and devoured them.",
+      "The men wished to land here to rest; but Ulysses reminded them that Tiresias, the blind seer, had warned them to avoid it, lest by slaying any of the sacred animals they should.",
+      "The men, however, worn out with the toil of many days' rowing, entreated so piteously to be allowed to rest, voluntarily pledging themselves to be content with their own.",
+      "Led by Eurylochus, some of the men, during one of Ulysses' temporary absences, caught and slew some of the sun god's cattle.",
+      "All these sounds and sights could not, however, deter the sailors, who were bound to have a good feast, which they kept up for seven days, ere"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-de727b4f",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0474-4533ce",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Scylla's den.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604",
+        "gutenberg:ebooks:39250:474.474.2-474.474.2:3ea3c7f4",
+        "gutenberg:ebooks:39250:474.474.3-474.474.3:af1ba93e"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 111,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 5,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

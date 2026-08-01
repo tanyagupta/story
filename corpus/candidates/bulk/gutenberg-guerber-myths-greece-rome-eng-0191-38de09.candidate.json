@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:191.191.3-191.191.3:a98930a1",
     "gutenberg:ebooks:39250:191.191.4-191.191.4:4f34568e"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -18,15 +18,32 @@
   "workingTitle": "Keats.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "pygmalion",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-pygmalion-319e9a",
   "characters": [
     "Pygmalion",
     "Venus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 69,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 4,
+      "conflictSignals": 2,
+      "paragraphCount": 4,
+      "knownMythFamily": true
+    }
+  }
 }

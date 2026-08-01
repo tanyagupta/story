@@ -1,0 +1,188 @@
+{
+  "mythId": "bulk-myth-0252",
+  "mythFamilyId": "mercury",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-mercury-d1d250",
+  "title": "Mercury",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65",
+      "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-jupiter",
+      "roman-mercury"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65"
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Jupiter, Mercury are involved in Mercury. Thus it was that the first lyre was made.",
+    "openingSituation": "Thus it was that the first lyre was made.",
+    "centralConflict": "Thus it was that the first lyre was made.",
+    "resolution": "Thus it was that the first lyre was made.",
+    "outcome": "Thus it was that the first lyre was made.",
+    "storyline": [
+      "Thus it was that the first lyre was made."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65",
+        "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65",
+      "excerpt": "I",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167",
+      "excerpt": "Mercury was the son of Jupiter and Maia, goddess of the plains, and from the day of his birth he was a most remarkable infant, even for a god. When scarcely a day old, he sprang from his mother's arms, and ran some distance off to where a.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-jupiter",
+      "predicate": "opening_situation",
+      "object": "Thus it was that the first lyre was made.",
+      "evidence": [
+        "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": "lyre",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Thus it was that the first lyre was made.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-jupiter",
+      "predicate": "outcome",
+      "object": "Thus it was that the first lyre was made.",
+      "evidence": [
+        "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Thus it was that the first lyre was made."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-4d059370",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0083-606cb1",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Mercury",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65",
+        "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

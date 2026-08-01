@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:474.474.5-474.474.5:dec5c2c2",
     "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,9 +23,31 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "scyllas-den",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-scyllas-den-d09d9f",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Ulysses"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 111,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 5,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

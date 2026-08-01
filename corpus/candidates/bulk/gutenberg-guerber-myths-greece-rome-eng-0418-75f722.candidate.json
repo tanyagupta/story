@@ -18,12 +18,29 @@
   "workingTitle": "MINOR DIVINITIES.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "deity_profile",
+  "candidateType": "biographical_material",
   "mythFamilyId": "minor-divinities",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-minor-divinities-9dd202",
   "characters": [],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 9,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 4,
+      "knownMythFamily": true
+    }
+  }
 }

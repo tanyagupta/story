@@ -1,0 +1,96 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0372-bf1336",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Atlas",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:372.372.1-372.372.1:80c3d880"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "atlas",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hercules",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:372.372.1-372.372.1:80c3d880"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-hercules",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "atlas",
+      "sourceAction": "caught",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "atlas",
+      "predicate": "opening_situation",
+      "object": "Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long.",
+      "evidence": [
+        "gutenberg:ebooks:39250:372.372.1-372.372.1:80c3d880"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "atlas",
+      "predicate": "outcome",
+      "object": "Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long.",
+      "evidence": [
+        "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-2cc7612d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0372-bf1336",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Sprang a scourging race from thee--",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:372.372.1-372.372.1:80c3d880",
+        "gutenberg:ebooks:39250:372.372.2-372.372.2:4061372b",
+        "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+      ],
+      "status": "open"
+    }
+  ]
+}

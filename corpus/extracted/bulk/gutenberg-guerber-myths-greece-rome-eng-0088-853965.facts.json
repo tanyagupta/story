@@ -7,7 +7,7 @@
   "events": [
     {
       "actorSourceName": null,
-      "sourceAction": "was",
+      "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -20,31 +20,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "had",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:88.88.2-88.88.2:176e8b5e"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "source-section",
-      "predicate": "is introduced in",
-      "object": "Coronis through the heart.",
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to.",
       "evidence": [
         "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e"
       ]
@@ -52,15 +35,33 @@
   ],
   "finalState": [
     {
-      "subject": "source-section",
-      "predicate": "is last attested in selected candidate",
-      "object": "Coronis through the heart.",
+      "subject": null,
+      "predicate": "outcome",
+      "object": "The deed was no sooner accomplished, than all his love returned with tenfold power; and, hastening to Coronis' side, he vainly tried all his remedies (he was god of medicine) to.",
       "evidence": [
         "gutenberg:ebooks:39250:88.88.2-88.88.2:176e8b5e"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-f6e54acf",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0088-853965",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Coronis through the heart.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:88.88.1-88.88.1:0a062f7e",
+        "gutenberg:ebooks:39250:88.88.2-88.88.2:176e8b5e"
+      ],
+      "status": "open"
+    }
+  ]
 }

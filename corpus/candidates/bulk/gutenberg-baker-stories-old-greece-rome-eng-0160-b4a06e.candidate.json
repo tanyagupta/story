@@ -13,7 +13,7 @@
     "gutenberg:ebooks:45489:160.160.8-160.160.8:b343690a",
     "gutenberg:ebooks:45489:160.160.9-160.160.9:df3946cb"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,17 +23,36 @@
   "workingTitle": "The Calydonian Hunt",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "theseus-and-minotaur",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-theseus-and-minotaur-a1f36a",
   "characters": [
     "Achilles",
+    "Atalanta",
     "Diana",
     "Jason",
-    "Theseus"
+    "Theseus",
+    "Venus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 432,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "actionBearingSentences": 30,
+      "conflictSignals": 19,
+      "paragraphCount": 9,
+      "knownMythFamily": true
+    }
+  }
 }

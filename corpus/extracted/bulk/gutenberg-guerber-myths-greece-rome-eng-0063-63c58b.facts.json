@@ -5,70 +5,70 @@
     {
       "sourceName": "Europa",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "europa",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Ganymede",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "ganymede",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Juno",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-juno",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Jupiter",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-jupiter",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Mercury",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-mercury",
       "normalizationStatus": "approved"
     }
@@ -78,24 +78,7 @@
   "events": [
     {
       "actorSourceName": null,
-      "sourceAction": "was",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "was",
+      "sourceAction": "flight",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -108,11 +91,11 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": null,
-      "sourceAction": "is described",
+      "actorSourceName": "ganymede",
+      "sourceAction": "caught",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -125,14 +108,116 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-jupiter",
+      "sourceAction": "revealed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.7-63.63.7:3ba3b72d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.8-63.63.8:2e58a7ef"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-jupiter",
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.8-63.63.8:2e58a7ef"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "bound",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.11-63.63.11:2bed67b7"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-juno",
+      "sourceAction": "married",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.12-63.63.12:434c6d61"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "europa",
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:63.63.13-63.63.13:c8def909"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "europa",
-      "predicate": "is introduced in",
-      "object": "But this fair goddess awkwardly tripped and fell on a solemn",
+      "predicate": "opening_situation",
+      "object": "To facilitate his search, he assumed the form of an eagle, and winged his flight over the earth.",
       "evidence": [
         "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2"
       ]
@@ -141,14 +226,31 @@
   "finalState": [
     {
       "subject": "europa",
-      "predicate": "is last attested in selected candidate",
-      "object": "But this fair goddess awkwardly tripped and fell on a solemn",
+      "predicate": "outcome",
+      "object": "To win Europa, the fair daughter of Agenor, for instance, he became a bull.",
       "evidence": [
         "gutenberg:ebooks:39250:63.63.14-63.63.14:73d4a66e"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-ef7dd1fe",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0063-63c58b",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "But this fair goddess awkwardly tripped and fell on a solemn",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:63.63.1-63.63.1:ba1981a2",
+        "gutenberg:ebooks:39250:63.63.2-63.63.2:8726faa2",
+        "gutenberg:ebooks:39250:63.63.3-63.63.3:a1191dca"
+      ],
+      "status": "open"
+    }
+  ]
 }

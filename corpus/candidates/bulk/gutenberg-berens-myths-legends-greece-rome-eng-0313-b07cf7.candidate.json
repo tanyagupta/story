@@ -18,7 +18,7 @@
     "gutenberg:ebooks:22381:313.313.13-313.313.13:067c61e7",
     "gutenberg:ebooks:22381:313.313.14-313.313.14:80f987ee"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -32,11 +32,34 @@
   "mythFamilyId": "theseus-and-minotaur",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-theseus-and-minotaur-79f3a5",
   "characters": [
+    "Apollo",
+    "Ganymede",
     "Poseidon",
-    "Theseus"
+    "Theseus",
+    "Zeus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 171,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 8,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

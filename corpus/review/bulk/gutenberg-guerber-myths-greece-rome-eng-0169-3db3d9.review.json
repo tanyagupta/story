@@ -1,3 +1,41 @@
 {
-  "items": []
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 81,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 2,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-53075596",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0169-3db3d9",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Spenser.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8",
+        "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+      ],
+      "status": "open"
+    }
+  ]
 }

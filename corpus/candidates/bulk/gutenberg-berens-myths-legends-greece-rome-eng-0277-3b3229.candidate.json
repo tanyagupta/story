@@ -19,7 +19,7 @@
     "gutenberg:ebooks:22381:277.277.14-277.277.14:d33ecb3f",
     "gutenberg:ebooks:22381:277.277.15-277.277.15:c5a57c77"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -32,9 +32,34 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "sacrifices",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-sacrifices-023395",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Apollo",
+    "Demeter",
+    "Dionysus",
+    "Prometheus"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 158,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

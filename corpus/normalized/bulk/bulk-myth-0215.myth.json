@@ -1,0 +1,196 @@
+{
+  "mythId": "bulk-myth-0215",
+  "mythFamilyId": "horace",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-horace-a1fd3f",
+  "title": "Horace.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544",
+      "gutenberg:ebooks:39250:403.403.2-403.403.2:54ab6dc1",
+      "gutenberg:ebooks:39250:403.403.3-403.403.3:b5d925b4"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hades",
+      "roman-jupiter"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Hades",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Hades, Jupiter are involved in Horace.. One of these twins, Castor, was a mortal, and in a combat with the sons of Aphareus was slain.",
+    "openingSituation": "One of these twins, Castor, was a mortal, and in a combat with the sons of Aphareus was slain.",
+    "centralConflict": "One of these twins, Castor, was a mortal, and in a combat with the sons of Aphareus was slain.",
+    "resolution": "One of these twins, Castor, was a mortal, and in a combat with the sons of Aphareus was slain.",
+    "outcome": "One of these twins, Castor, was a mortal, and in a combat with the sons of Aphareus was slain.",
+    "storyline": [
+      "One of these twins, Castor, was a mortal, and in a combat with the sons of Aphareus was slain."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544",
+        "gutenberg:ebooks:39250:403.403.2-403.403.2:54ab6dc1",
+        "gutenberg:ebooks:39250:403.403.3-403.403.3:b5d925b4"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544",
+      "excerpt": "One of these twins, Castor, was a mortal, and in a combat with the sons of Aphareus was slain. Pollux, who was immortal, then implored Jupiter to allow him to die also, that he might not be parted from his brother,--a proof of brotherly.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:403.403.2-403.403.2:54ab6dc1",
+      "excerpt": "Later on, satisfied that even this sacrifice was none too great for their fraternal love, he translated them both to the skies, where they form a bright constellation, one of the signs of the zodiac. Castor and Pollux are generally.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:403.403.3-403.403.3:b5d925b4",
+      "excerpt": "\"So like they were, no mortal Might one from other know: White as snow their armor was: Their steeds were white as snow.\"",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hades",
+      "predicate": "opening_situation",
+      "object": "One of these twins, Castor, was a mortal, and in a combat with the sons of Aphareus was slain.",
+      "evidence": [
+        "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "kill",
+      "sourceAction": "slain",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "One of these twins, Castor, was a mortal, and in a combat with the sons of Aphareus was slain.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hades",
+      "predicate": "outcome",
+      "object": "One of these twins, Castor, was a mortal, and in a combat with the sons of Aphareus was slain.",
+      "evidence": [
+        "gutenberg:ebooks:39250:403.403.3-403.403.3:b5d925b4"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "One of these twins, Castor, was a mortal, and in a combat with the sons of Aphareus was slain."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-260e1f6e",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0403-798efa",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Horace.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:403.403.1-403.403.1:b60fa544",
+        "gutenberg:ebooks:39250:403.403.2-403.403.2:54ab6dc1",
+        "gutenberg:ebooks:39250:403.403.3-403.403.3:b5d925b4"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

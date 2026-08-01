@@ -1,0 +1,97 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0466-498ddc",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Neptune",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-neptune",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ulysses",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-ulysses",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-ulysses",
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-neptune",
+      "predicate": "opening_situation",
+      "object": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with.",
+      "evidence": [
+        "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-neptune",
+      "predicate": "outcome",
+      "object": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with.",
+      "evidence": [
+        "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-cbbe190b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0466-498ddc",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "For that one circular eye was broad infix'd",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2",
+        "gutenberg:ebooks:39250:466.466.2-466.466.2:f49d10a8",
+        "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+      ],
+      "status": "open"
+    }
+  ]
+}

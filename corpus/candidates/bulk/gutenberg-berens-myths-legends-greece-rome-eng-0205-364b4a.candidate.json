@@ -27,9 +27,28 @@
   "candidateType": "non_story_material",
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-trojan-war-a0bd08",
-  "characters": [],
+  "characters": [
+    "Oedipus"
+  ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 73,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 5,
+      "conflictSignals": 2,
+      "paragraphCount": 10,
+      "knownMythFamily": true
+    }
+  }
 }

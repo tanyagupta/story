@@ -1,0 +1,225 @@
+{
+  "mythId": "bulk-myth-0184",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-aeed2e",
+  "title": "Nightmares.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9",
+      "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667",
+      "gutenberg:ebooks:39250:543.543.3-543.543.3:2f66d8c4",
+      "gutenberg:ebooks:39250:543.543.4-543.543.4:afbaf6f0",
+      "gutenberg:ebooks:39250:543.543.5-543.543.5:587c237a"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "roman-diana",
+      "roman-ulysses"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9"
+        }
+      ]
+    },
+    {
+      "sourceName": "Diana",
+      "normalizedId": "roman-diana",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9"
+        }
+      ]
+    },
+    {
+      "sourceName": "Ulysses",
+      "normalizedId": "roman-ulysses",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Apollo, Diana, Ulysses are involved in Nightmares.. Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398.",
+    "openingSituation": "Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398.",
+    "centralConflict": "Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398.",
+    "resolution": "Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398.",
+    "outcome": "Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398.",
+    "storyline": [
+      "Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9",
+        "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667",
+        "gutenberg:ebooks:39250:543.543.3-543.543.3:2f66d8c4"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9",
+      "excerpt": "Attendants of Somnus, crouching in his cave, 210.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667",
+      "excerpt": "Ni´o-be. Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:543.543.3-543.543.3:2f66d8c4",
+      "excerpt": "Ni´sus. Youth who accompanies Euryalus to summon Æneas back to camp, 374.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:543.543.4-543.543.4:afbaf6f0",
+      "excerpt": "No´man. Name assumed by Ulysses to mislead Polyphemus, 343, 344.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:543.543.5-543.543.5:587c237a",
+      "excerpt": "No´tus or Auster. Southwest wind; son of Æolus and Aurora, 213-215.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398.",
+      "evidence": [
+        "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "apollo",
+      "action": "kill",
+      "sourceAction": "slain",
+      "object": null,
+      "target": "roman-diana",
+      "recipient": null,
+      "location": null,
+      "result": "Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398.",
+      "evidence": [
+        "gutenberg:ebooks:39250:543.543.5-543.543.5:587c237a"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Daughter of Tantalus, whose children are slain by Apollo and Diana, 93-96, 167; significance, 398."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-c1366a1c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0543-892142",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Nightmares.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9",
+        "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667",
+        "gutenberg:ebooks:39250:543.543.3-543.543.3:2f66d8c4"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 73,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 1,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

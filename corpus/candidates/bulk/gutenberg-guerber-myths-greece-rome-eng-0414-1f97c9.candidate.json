@@ -17,7 +17,7 @@
     "gutenberg:ebooks:39250:414.414.12-414.414.12:c3cea32a",
     "gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710"
   ],
-  "status": "awaiting_extraction",
+  "status": "approved",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -31,10 +31,29 @@
   "mythFamilyId": "bellerophon-and-pegasus",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-bellerophon-and-pegasus-e0d677",
   "characters": [
-    "Bellerophon"
+    "Bellerophon",
+    "Minerva",
+    "Pegasus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "approved",
+  "reviewStatus": "approved",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 160,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 8,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

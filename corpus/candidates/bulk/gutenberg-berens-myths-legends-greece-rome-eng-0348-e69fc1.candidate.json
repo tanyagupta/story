@@ -34,9 +34,31 @@
   "candidateType": "non_story_material",
   "mythFamilyId": "notes",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-notes-f0b166",
-  "characters": [],
+  "characters": [
+    "Demeter",
+    "Poseidon",
+    "Prometheus",
+    "Zeus"
+  ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 1,
+      "conflictSignals": 0,
+      "paragraphCount": 17,
+      "knownMythFamily": true
+    }
+  }
 }

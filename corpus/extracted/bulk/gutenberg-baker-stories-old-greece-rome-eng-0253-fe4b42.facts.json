@@ -1,0 +1,83 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0253-fe4b42",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Midas",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "transformed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "midas",
+      "predicate": "opening_situation",
+      "object": "\"Whose powerful hands the bread no sooner hold, Than all its substance is transformed to gold; Up to his mouth he lifts the savory meat, Which turns to gold as he attempts to.",
+      "evidence": [
+        "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "midas",
+      "predicate": "outcome",
+      "object": "\"Whose powerful hands the bread no sooner hold, Than all its substance is transformed to gold; Up to his mouth he lifts the savory meat, Which turns to gold as he attempts to.",
+      "evidence": [
+        "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-79b08c6e",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0253-fe4b42",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "XLIII",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360",
+        "gutenberg:ebooks:45489:253.253.2-253.253.2:1a8d1a43",
+        "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
+      ],
+      "status": "open"
+    }
+  ]
+}

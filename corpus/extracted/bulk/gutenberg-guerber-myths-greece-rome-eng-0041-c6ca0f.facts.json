@@ -5,70 +5,70 @@
     {
       "sourceName": "Ceres",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:41.41.1-41.41.1:f7ec550d"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "ceres",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Juno",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "helper",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:41.41.1-41.41.1:f7ec550d"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-juno",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Jupiter",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "helper",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:41.41.1-41.41.1:f7ec550d"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-jupiter",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Neptune",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "helper",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:41.41.1-41.41.1:f7ec550d"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-neptune",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Pluto",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "helper",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:41.41.1-41.41.1:f7ec550d"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "roman-pluto",
       "normalizationStatus": "approved"
     }
@@ -76,23 +76,6 @@
   "relationships": [],
   "goals": [],
   "events": [
-    {
-      "actorSourceName": null,
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:41.41.1-41.41.1:f7ec550d"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
     {
       "actorSourceName": null,
       "sourceAction": "rescued",
@@ -104,11 +87,11 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:41.41.2-41.41.2:f49d10a8"
+          "passageId": "gutenberg:ebooks:39250:41.41.3-41.41.3:d83c53b3"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": "roman-jupiter",
@@ -125,14 +108,116 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "bore",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:41.41.5-41.41.5:8d794171"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "fulfilled",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:41.41.5-41.41.5:8d794171"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-jupiter",
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:41.41.6-41.41.6:bc577a9e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "attacked",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:41.41.6-41.41.6:bc577a9e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "ceres",
+      "sourceAction": "aided",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:41.41.8-41.41.8:fbe5978d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-jupiter",
+      "sourceAction": "gave",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:41.41.9-41.41.9:b3626c42"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "ceres",
-      "predicate": "is introduced in",
-      "object": "That for the stone his child behind remain'd",
+      "predicate": "opening_situation",
+      "object": "Ignorant of the deception practiced upon him, Cronus then took leave, and the overjoyed mother clasped her rescued treasure to her breast.",
       "evidence": [
         "gutenberg:ebooks:39250:41.41.1-41.41.1:f7ec550d"
       ]
@@ -141,14 +226,31 @@
   "finalState": [
     {
       "subject": "ceres",
-      "predicate": "is last attested in selected candidate",
-      "object": "That for the stone his child behind remain'd",
+      "predicate": "outcome",
+      "object": "Following the example of his predecessor, Jupiter gave his brothers and sisters a fair share of his new kingdom.",
       "evidence": [
         "gutenberg:ebooks:39250:41.41.10-41.41.10:b1f90c99"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a5f67d85",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0041-c6ca0f",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "That for the stone his child behind remain'd",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:41.41.1-41.41.1:f7ec550d",
+        "gutenberg:ebooks:39250:41.41.2-41.41.2:f49d10a8",
+        "gutenberg:ebooks:39250:41.41.3-41.41.3:d83c53b3"
+      ],
+      "status": "open"
+    }
+  ]
 }

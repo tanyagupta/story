@@ -14,7 +14,7 @@
     "gutenberg:ebooks:39250:259.259.9-259.259.9:82ff32da",
     "gutenberg:ebooks:39250:259.259.10-259.259.10:37f21e9f"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -27,9 +27,33 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "a-ravnous-vulture-in-his-open-side",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-a-ravnous-vulture-in-his-open-side-de4feb",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Juno",
+    "Jupiter"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 109,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 5,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

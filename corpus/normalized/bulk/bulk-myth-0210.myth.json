@@ -1,0 +1,225 @@
+{
+  "mythId": "bulk-myth-0210",
+  "mythFamilyId": "edwin-arnold",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-edwin-arnold-d1304a",
+  "title": "Edwin Arnold.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985",
+      "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The selected source participants are involved in Edwin Arnold.. All day long Hero had hoped that her lover would renounce his nightly journey; but still, when evening came, she lighted her torch to serve as beacon, should he risk all to keep. The wind blew so fiercely, that the torch wavered and flickered, and nearly went out, although Hero protected its.",
+    "openingSituation": "All day long Hero had hoped that her lover would renounce his nightly journey; but still, when evening came, she lighted her torch to serve as beacon, should he risk all to keep.",
+    "centralConflict": "But this time his prayers were unheard, drowned in the fury of the storm; yet he struggled on a while longer, with Hero's name on his lips.",
+    "resolution": "But this time his prayers were unheard, drowned in the fury of the storm; yet he struggled on a while longer, with Hero's name on his lips.",
+    "outcome": "But this time his prayers were unheard, drowned in the fury of the storm; yet he struggled on a while longer, with Hero's name on his lips.",
+    "storyline": [
+      "All day long Hero had hoped that her lover would renounce his nightly journey; but still, when evening came, she lighted her torch to serve as beacon, should he risk all to keep.",
+      "The wind blew so fiercely, that the torch wavered and flickered, and nearly went out, although Hero protected its feeble flame by standing over it with outstretched robes.",
+      "At sight of the wonted signal, Leander, who had already once been beaten back by the waves, made a second attempt to cross the strait, calling upon the gods to lend him their aid.",
+      "But this time his prayers were unheard, drowned in the fury of the storm; yet he struggled on a while longer, with Hero's name on his lips."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985",
+        "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985",
+      "excerpt": "All day long Hero had hoped that her lover would renounce his nightly journey; but still, when evening came, she lighted her torch to serve as beacon, should he risk all to keep his word. The wind blew so fiercely, that the torch wavered.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6",
+      "excerpt": "At sight of the wonted signal, Leander, who had already once been beaten back by the waves, made a second attempt to cross the strait, calling upon the gods to lend him their aid. But this time his prayers were unheard, drowned in the.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "All day long Hero had hoped that her lover would renounce his nightly journey; but still, when evening came, she lighted her torch to serve as beacon, should he risk all to keep.",
+      "evidence": [
+        "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "All day long Hero had hoped that her lover would renounce his nightly journey; but still, when evening came, she lighted her torch to serve as beacon, should he risk all to keep.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "went",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The wind blew so fiercely, that the torch wavered and flickered, and nearly went out, although Hero protected its feeble flame by standing over it with outstretched robes.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "At sight of the wonted signal, Leander, who had already once been beaten back by the waves, made a second attempt to cross the strait, calling upon the gods to lend him their aid.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": null,
+      "action": "fight",
+      "sourceAction": "struggled",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "But this time his prayers were unheard, drowned in the fury of the storm; yet he struggled on a while longer, with Hero's name on his lips.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "But this time his prayers were unheard, drowned in the fury of the storm; yet he struggled on a while longer, with Hero's name on his lips.",
+      "evidence": [
+        "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "All day long Hero had hoped that her lover would renounce his nightly journey; but still, when evening came, she lighted her torch to serve as beacon, should he risk all to keep.",
+      "The wind blew so fiercely, that the torch wavered and flickered, and nearly went out, although Hero protected its feeble flame by standing over it with outstretched robes.",
+      "At sight of the wonted signal, Leander, who had already once been beaten back by the waves, made a second attempt to cross the strait, calling upon the gods to lend him their aid.",
+      "But this time his prayers were unheard, drowned in the fury of the storm; yet he struggled on a while longer, with Hero's name on his lips."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-6a684095",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0182-9c3293",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Edwin Arnold.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985",
+        "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 77,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 4,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

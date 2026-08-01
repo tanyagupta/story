@@ -1,25 +1,25 @@
 {
   "mythId": "bulk-myth-0050",
-  "mythFamilyId": "keats",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-keats-b2e234",
-  "title": "Keats.",
+  "mythFamilyId": "bellerophon-and-pegasus",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-bellerophon-and-pegasus-591980",
+  "title": "Pegasus and his silvery wings.",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:190.190.1-190.190.1:6d9c81f6",
-      "gutenberg:ebooks:39250:190.190.2-190.190.2:45ac956e",
-      "gutenberg:ebooks:39250:190.190.3-190.190.3:f4d7d8d7",
-      "gutenberg:ebooks:39250:190.190.4-190.190.4:9f0ea985",
-      "gutenberg:ebooks:39250:190.190.5-190.190.5:33c4c844",
-      "gutenberg:ebooks:39250:190.190.6-190.190.6:5b453410",
-      "gutenberg:ebooks:39250:190.190.7-190.190.7:b9483f51",
-      "gutenberg:ebooks:39250:190.190.8-190.190.8:73a59706"
+      "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf",
+      "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+      "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1",
+      "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84",
+      "gutenberg:ebooks:45489:151.151.5-151.151.5:afe64077",
+      "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
     ]
   },
   "entities": {
     "characters": [
-      "echo",
-      "narcissus"
+      "bellerophon",
+      "roman-jupiter",
+      "roman-minerva",
+      "pegasus"
     ],
     "locations": [],
     "objects": [],
@@ -27,34 +27,133 @@
   },
   "entityMappings": [
     {
-      "sourceName": "Echo",
-      "normalizedId": "echo",
+      "sourceName": "Bellerophon",
+      "normalizedId": "bellerophon",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:190.190.1-190.190.1:6d9c81f6"
+          "passageId": "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf"
         }
       ]
     },
     {
-      "sourceName": "Narcissus",
-      "normalizedId": "narcissus",
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:190.190.1-190.190.1:6d9c81f6"
+          "passageId": "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf"
+        }
+      ]
+    },
+    {
+      "sourceName": "Minerva",
+      "normalizedId": "roman-minerva",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pegasus",
+      "normalizedId": "pegasus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf"
         }
       ]
     }
   ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Bellerophon, Jupiter, Minerva are involved in Pegasus and his silvery wings.. At last the young hero grew so discouraged that he decided to return to the court of Iobates; but on the very morning that he was intending to leave Pirene, he chanced to wake. Nearer and nearer it came, sweeping the air in great wide circles, and at last it alighted beside the.",
+    "openingSituation": "At last the young hero grew so discouraged that he decided to return to the court of Iobates; but on the very morning that he was intending to leave Pirene, he chanced to wake.",
+    "centralConflict": "When he felt the touch of Bellerophon's knees on his broad flanks, he made a tremendous bound into the air, and before the youthful rider could realize what had happened, he.",
+    "resolution": "As Bellerophon descended nearer to the earth, the delicate nostrils of his horse dilated at the first contact with the foul smoke, and he found it hard to persuade Pegasus to fly.",
+    "outcome": "As Bellerophon descended nearer to the earth, the delicate nostrils of his horse dilated at the first contact with the foul smoke, and he found it hard to persuade Pegasus to fly.",
+    "storyline": [
+      "At last the young hero grew so discouraged that he decided to return to the court of Iobates; but on the very morning that he was intending to leave Pirene, he chanced to wake.",
+      "Nearer and nearer it came, sweeping the air in great wide circles, and at last it alighted beside the fountain.",
+      "Then Pegasus daintily cropped a few clover blossoms, shook his long white mane, and began to run up and down over the meadows, capering madly like a colt just set free in the.",
+      "When he felt the touch of Bellerophon's knees on his broad flanks, he made a tremendous bound into the air, and before the youthful rider could realize what had happened, he.",
+      "He bounded forward with a sudden jerk, reared, turned over and over in the air, until half the time Bellerophon was riding with his head downward; but in spite of all his.",
+      "All at once Bellerophon saw his chance to slip the golden bridle between the maddened horse's teeth, and suddenly Pegasus became as gentle and tractable as if he had always."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf",
+        "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+        "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf",
+      "excerpt": "At last the young hero grew so discouraged that he decided to return to the court of Iobates; but on the very morning that he was intending to leave Pirene, he chanced to wake just at dawn, and, leaning over the fountain to bathe his.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+      "excerpt": "Then Bellerophon crept noiselessly out of his hiding place, and while the unsuspicious Pegasus was drinking the cool water and his eyes were no longer watchful, the youth boldly sprang upon his back and took firm hold of the thick mane,.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1",
+      "excerpt": "Happy to find the conflict over, the young hero turned the head of his white-winged steed toward the mountain-region where the dread Chimæra dwelt. It was a wild and rocky part of the country that Bellerophon looked down upon, and he saw.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84",
+      "excerpt": "Then the smoke poured out of the cave more thickly than before; and if Pegasus had not carried him quickly away from the poisonous fumes, Bellerophon would have been suffocated long before he was able to get near enough to deal the.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:151.151.5-151.151.5:afe64077",
+      "excerpt": "Then Bellerophon sped back to the court of Iobates and announced that the Chimæra was dead. The king was glad to hear that the monster could no longer devastate his land, but he was sorry to see Bellerophon returning unhurt and.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476",
+      "excerpt": "For several years Bellerophon lived happily in Lycia; but his many victories with Pegasus had made him presumptuous, and he felt that his true place was with the immortals. So one day he mounted his winged steed and flew far above the.",
+      "supports": [
+        "event-006"
+      ]
+    }
+  ],
   "initialState": [
     {
-      "subject": "echo",
-      "predicate": "is introduced in",
-      "object": "Keats.",
+      "subject": "bellerophon",
+      "predicate": "opening_situation",
+      "object": "At last the young hero grew so discouraged that he decided to return to the court of Iobates; but on the very morning that he was intending to leave Pirene, he chanced to wake.",
       "evidence": [
-        "gutenberg:ebooks:39250:190.190.1-190.190.1:6d9c81f6"
+        "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf"
       ]
     }
   ],
@@ -62,81 +161,223 @@
     {
       "eventId": "event-001",
       "actor": null,
-      "action": "describe",
-      "sourceAction": "is described",
+      "action": "create",
+      "sourceAction": "made",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "At last the young hero grew so discouraged that he decided to return to the court of Iobates; but on the very morning that he was intending to leave Pirene, he chanced to wake.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:190.190.1-190.190.1:6d9c81f6"
+          "passageId": "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-002",
       "actor": null,
-      "action": "describe",
-      "sourceAction": "is described",
+      "action": "travel",
+      "sourceAction": "came",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Nearer and nearer it came, sweeping the air in great wide circles, and at last it alighted beside the fountain.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:190.190.2-190.190.2:45ac956e"
+          "passageId": "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-003",
-      "actor": null,
-      "action": "capture",
-      "sourceAction": "caught",
+      "actor": "pegasus",
+      "action": "release",
+      "sourceAction": "set free",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Then Pegasus daintily cropped a few clover blossoms, shook his long white mane, and began to run up and down over the meadows, capering madly like a colt just set free in the.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:190.190.3-190.190.3:f4d7d8d7"
+          "passageId": "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": "bellerophon",
+      "action": "capture",
+      "sourceAction": "bound",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "When he felt the touch of Bellerophon's knees on his broad flanks, he made a tremendous bound into the air, and before the youthful rider could realize what had happened, he.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": "bellerophon",
+      "action": "transform",
+      "sourceAction": "turned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He bounded forward with a sudden jerk, reared, turned over and over in the air, until half the time Bellerophon was riding with his head downward; but in spite of all his.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "actor": "bellerophon",
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": "pegasus",
+      "recipient": null,
+      "location": null,
+      "result": "All at once Bellerophon saw his chance to slip the golden bridle between the maddened horse's teeth, and suddenly Pegasus became as gentle and tractable as if he had always.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "turned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Happy to find the conflict over, the young hero turned the head of his white-winged steed toward the mountain-region where the dread Chimæra dwelt.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "actor": "bellerophon",
+      "action": "discover",
+      "sourceAction": "found",
+      "object": null,
+      "target": "pegasus",
+      "recipient": null,
+      "location": null,
+      "result": "As Bellerophon descended nearer to the earth, the delicate nostrils of his horse dilated at the first contact with the foul smoke, and he found it hard to persuade Pegasus to fly.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
     }
   ],
   "finalState": [
     {
-      "subject": "echo",
-      "predicate": "is last attested in selected candidate",
-      "object": "Keats.",
+      "subject": "bellerophon",
+      "predicate": "outcome",
+      "object": "As Bellerophon descended nearer to the earth, the delicate nostrils of his horse dilated at the first contact with the foul smoke, and he found it hard to persuade Pegasus to fly.",
       "evidence": [
-        "gutenberg:ebooks:39250:190.190.8-190.190.8:73a59706"
+        "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "At last the young hero grew so discouraged that he decided to return to the court of Iobates; but on the very morning that he was intending to leave Pirene, he chanced to wake.",
+      "Nearer and nearer it came, sweeping the air in great wide circles, and at last it alighted beside the fountain.",
+      "Then Pegasus daintily cropped a few clover blossoms, shook his long white mane, and began to run up and down over the meadows, capering madly like a colt just set free in the.",
+      "When he felt the touch of Bellerophon's knees on his broad flanks, he made a tremendous bound into the air, and before the youthful rider could realize what had happened, he.",
+      "He bounded forward with a sudden jerk, reared, turned over and over in the air, until half the time Bellerophon was riding with his head downward; but in spite of all his.",
+      "All at once Bellerophon saw his chance to slip the golden bridle between the maddened horse's teeth, and suddenly Pegasus became as gentle and tractable as if he had always."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-baker-stories-old-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
-  "normalizationWarnings": [],
-  "reviewStatus": "approved"
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-8a3f58ac",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0151-c7af2c",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Pegasus and his silvery wings.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf",
+        "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+        "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 178,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 5,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
 }

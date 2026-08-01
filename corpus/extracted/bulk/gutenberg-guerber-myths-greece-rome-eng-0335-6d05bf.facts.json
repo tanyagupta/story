@@ -1,0 +1,85 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0335-6d05bf",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "returned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:335.335.3-335.335.3:f8940886"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "sent",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:335.335.4-335.335.4:352db75e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Although very unruly indeed, the winds always obeyed their father's voice, and at his command, however reluctant, returned to their gloomy prison, where they expended their.",
+      "evidence": [
+        "gutenberg:ebooks:39250:335.335.1-335.335.1:80d236a6"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "According to his own mood, or in conformity with the gods' request, Æolus either sent the gentler winds to play among the flowers, or, recalling them, let the fiercest of all his.",
+      "evidence": [
+        "gutenberg:ebooks:39250:335.335.5-335.335.5:5b7d62ec"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-e9cbb294",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0335-6d05bf",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Chafe blustering round their prison door",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:335.335.1-335.335.1:80d236a6",
+        "gutenberg:ebooks:39250:335.335.2-335.335.2:2a2698af",
+        "gutenberg:ebooks:39250:335.335.3-335.335.3:f8940886"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-review",
+  "semanticQuality": {
+    "score": 168,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 7,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-7d9aa4cf",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0539-20a495",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Mars.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:539.539.1-539.539.1:426ce2c9",
+        "gutenberg:ebooks:39250:539.539.2-539.539.2:7a2df40b",
+        "gutenberg:ebooks:39250:539.539.3-539.539.3:dff78da3"
+      ],
+      "status": "open"
+    }
+  ]
+}

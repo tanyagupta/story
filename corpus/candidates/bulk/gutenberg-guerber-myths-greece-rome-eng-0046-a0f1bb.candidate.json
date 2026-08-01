@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:46.46.7-46.46.7:e8c3c7e3",
     "gutenberg:ebooks:39250:46.46.8-46.46.8:5c234a07"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,14 +22,35 @@
   "workingTitle": "Addison.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "addison",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-addison-2c48c0",
   "characters": [
-    "Jupiter"
+    "Atlas",
+    "Jupiter",
+    "Neptune",
+    "Pluto",
+    "Prometheus"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 99,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 6,
+      "conflictSignals": 1,
+      "paragraphCount": 8,
+      "knownMythFamily": true
+    }
+  }
 }

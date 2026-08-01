@@ -21,12 +21,32 @@
   "workingTitle": "Longfellow.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "ritual_description",
+  "candidateType": "biographical_material",
   "mythFamilyId": "longfellow",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-longfellow-f58484",
-  "characters": [],
+  "characters": [
+    "Mercury",
+    "Venus"
+  ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 40,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 2,
+      "conflictSignals": 0,
+      "paragraphCount": 7,
+      "knownMythFamily": true
+    }
+  }
 }

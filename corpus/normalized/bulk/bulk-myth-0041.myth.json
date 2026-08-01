@@ -1,19 +1,27 @@
 {
   "mythId": "bulk-myth-0041",
-  "mythFamilyId": "spenser",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-spenser-ebf025",
-  "title": "Spenser.",
+  "mythFamilyId": "alcmaeon-and-the-necklace",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-alcmaeon-and-the-necklace-f807d9",
+  "title": "ALCMAEON AND THE NECKLACE.",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8",
-      "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+      "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c",
+      "gutenberg:ebooks:22381:330.330.2-330.330.2:24a54dd5",
+      "gutenberg:ebooks:22381:330.330.3-330.330.3:bcd86bdc",
+      "gutenberg:ebooks:22381:330.330.4-330.330.4:d4a43b24",
+      "gutenberg:ebooks:22381:330.330.5-330.330.5:32dcfb33",
+      "gutenberg:ebooks:22381:330.330.6-330.330.6:e4c2d363",
+      "gutenberg:ebooks:22381:330.330.7-330.330.7:3f00a61f",
+      "gutenberg:ebooks:22381:330.330.8-330.330.8:9e33d1a6",
+      "gutenberg:ebooks:22381:330.330.9-330.330.9:4a265311",
+      "gutenberg:ebooks:22381:330.330.10-330.330.10:583f88a3"
     ]
   },
   "entities": {
     "characters": [
-      "roman-jupiter",
-      "roman-venus"
+      "apollo",
+      "zeus"
     ],
     "locations": [],
     "objects": [],
@@ -21,116 +29,351 @@
   },
   "entityMappings": [
     {
-      "sourceName": "Jupiter",
-      "normalizedId": "roman-jupiter",
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+          "passageId": "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c"
         }
       ]
     },
     {
-      "sourceName": "Venus",
-      "normalizedId": "roman-venus",
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+          "passageId": "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c"
         }
       ]
     }
   ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Apollo, Zeus are involved in ALCMAEON AND THE NECKLACE.. When Alcmaeon returned from his expedition against the Thebans he determined to fulfil the last injunction of his father Amphiaraus, who had desired him to be revenged on his. But the gods, who could not suffer so unnatural a crime to go unpunished, afflicted him with madness, and sent one of the.",
+    "openingSituation": "When Alcmaeon returned from his expedition against the Thebans he determined to fulfil the last injunction of his father Amphiaraus, who had desired him to be revenged on his.",
+    "centralConflict": "But the gods, who could not suffer so unnatural a crime to go unpunished, afflicted him with madness, and sent one of the Furies to pursue him unceasingly.",
+    "resolution": "Here he took up his abode; and in this haven of rest he was at length freed from his sufferings, and finally purified of his crime by the river-god Achelous.",
+    "outcome": "Here he took up his abode; and in this haven of rest he was at length freed from his sufferings, and finally purified of his crime by the river-god Achelous.",
+    "storyline": [
+      "When Alcmaeon returned from his expedition against the Thebans he determined to fulfil the last injunction of his father Amphiaraus, who had desired him to be revenged on his.",
+      "But the gods, who could not suffer so unnatural a crime to go unpunished, afflicted him with madness, and sent one of the Furies to pursue him unceasingly.",
+      "In this unhappy condition he wandered about from place to place, until at last having reached Psophis in Arcadia, Phegeus, king of the country, not only purified him of his.",
+      "Though now released from his mental affliction, the curse which hung over him was not entirely removed, and on his account the country of his adoption was visited with a severe.",
+      "On consulting the oracle of Delphi he was informed that any land which offered him shelter would be cursed by the gods, and that the malediction would continue to follow him till.",
+      "Bereft of hope, and resolved no longer to cast the shadow of his dark fate over those he loved, Alcmaeon took a tender leave of his wife and little son, and became once more an."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c",
+        "gutenberg:ebooks:22381:330.330.2-330.330.2:24a54dd5",
+        "gutenberg:ebooks:22381:330.330.3-330.330.3:bcd86bdc"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:330.330.2-330.330.2:24a54dd5"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:330.330.4-330.330.4:d4a43b24"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:330.330.4-330.330.4:d4a43b24"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c",
+      "excerpt": "When Alcmaeon returned from his expedition against the Thebans he determined to fulfil the last injunction of his father Amphiaraus, who had desired him to be revenged on his mother Eriphyle for her perfidy in accepting a bribe to betray.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:330.330.2-330.330.2:24a54dd5",
+      "excerpt": "But the gods, who could not suffer so unnatural a crime to go unpunished, afflicted him with madness, and sent one of the Furies to pursue him unceasingly. In this unhappy condition he wandered about from place to place, until at last.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:330.330.3-330.330.3:bcd86bdc",
+      "excerpt": "Though now released from his mental affliction, the curse which hung over him was not entirely removed, and on his account the country of his adoption was visited with a severe drought. On consulting the oracle of Delphi he was informed.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:330.330.4-330.330.4:d4a43b24",
+      "excerpt": "Arrived after a long and painful pilgrimage at the river Achelous, he discovered, to his unspeakable joy, a beautiful and fertile island, which had but lately emerged from beneath the water. Here he took up his abode; and in this haven of.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:330.330.5-330.330.5:32dcfb33",
+      "excerpt": "For many years Alcmaeon and Calirrhoe lived happily together, and two sons were born to them. But {279} unfortunately for the peace of her husband, the daughter of Achelous had heard of the celebrated necklace and veil of Harmonia, and.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:330.330.6-330.330.6:e4c2d363",
+      "excerpt": "Now the necklace and veil were in the safe-keeping of Arsinoe; but as Alcmaeon had carefully concealed the fact of his former marriage from his young wife, he informed her, when no longer able to combat her importunities, that he had.",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:330.330.7-330.330.7:3f00a61f",
+      "excerpt": "But the fatal necklace and veil were doomed to bring ruin and disaster to all who possessed them. During his sojourn at the court of king Phegeus, one of the servants who had accompanied Alcmaeon betrayed the secret of his union with the.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:330.330.8-330.330.8:9e33d1a6",
+      "excerpt": "When Arsinoe, who still loved her faithless husband, heard of the murder, she bitterly reproached her brothers for the crime which they had perpetrated, at which they were so incensed, that they placed her in a chest, and conveyed her to.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
-      "predicate": "is introduced in",
-      "object": "Spenser.",
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "When Alcmaeon returned from his expedition against the Thebans he determined to fulfil the last injunction of his father Amphiaraus, who had desired him to be revenged on his.",
       "evidence": [
-        "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+        "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c"
       ]
     }
   ],
   "events": [
     {
       "eventId": "event-001",
-      "actor": "roman-jupiter",
-      "action": "describe",
-      "sourceAction": "is described",
+      "actor": null,
+      "action": "return",
+      "sourceAction": "returned",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "When Alcmaeon returned from his expedition against the Thebans he determined to fulfil the last injunction of his father Amphiaraus, who had desired him to be revenged on his.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
+          "passageId": "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-002",
-      "actor": "roman-venus",
+      "actor": null,
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "But the gods, who could not suffer so unnatural a crime to go unpunished, afflicted him with madness, and sent one of the Furies to pursue him unceasingly.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:330.330.2-330.330.2:24a54dd5"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "wandered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "In this unhappy condition he wandered about from place to place, until at last having reached Psophis in Arcadia, Phegeus, king of the country, not only purified him of his.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:330.330.2-330.330.2:24a54dd5"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": null,
+      "action": "release",
+      "sourceAction": "released",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Though now released from his mental affliction, the curse which hung over him was not entirely removed, and on his account the country of his adoption was visited with a severe.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:330.330.3-330.330.3:bcd86bdc"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": null,
       "action": "travel",
       "sourceAction": "came",
       "object": null,
       "target": null,
       "recipient": null,
-      "location": null,
+      "location": "delphi",
+      "result": "On consulting the oracle of Delphi he was informed that any land which offered him shelter would be cursed by the gods, and that the malediction would continue to follow him till.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+          "passageId": "gutenberg:ebooks:22381:330.330.3-330.330.3:bcd86bdc"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "eventId": "event-003",
+      "eventId": "event-006",
       "actor": null,
-      "action": "describe",
-      "sourceAction": "is described",
+      "action": "become",
+      "sourceAction": "become",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Bereft of hope, and resolved no longer to cast the shadow of his dark fate over those he loved, Alcmaeon took a tender leave of his wife and little son, and became once more an.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+          "passageId": "gutenberg:ebooks:22381:330.330.3-330.330.3:bcd86bdc"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "arrived",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Arrived after a long and painful pilgrimage at the river Achelous, he discovered, to his unspeakable joy, a beautiful and fertile island, which had but lately emerged from.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:330.330.4-330.330.4:d4a43b24"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "actor": null,
+      "action": "release",
+      "sourceAction": "freed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Here he took up his abode; and in this haven of rest he was at length freed from his sufferings, and finally purified of his crime by the river-god Achelous.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:330.330.4-330.330.4:d4a43b24"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
     }
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
-      "predicate": "is last attested in selected candidate",
-      "object": "Spenser.",
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "Here he took up his abode; and in this haven of rest he was at length freed from his sufferings, and finally purified of his crime by the river-god Achelous.",
       "evidence": [
-        "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+        "gutenberg:ebooks:22381:330.330.10-330.330.10:583f88a3"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "When Alcmaeon returned from his expedition against the Thebans he determined to fulfil the last injunction of his father Amphiaraus, who had desired him to be revenged on his.",
+      "But the gods, who could not suffer so unnatural a crime to go unpunished, afflicted him with madness, and sent one of the Furies to pursue him unceasingly.",
+      "In this unhappy condition he wandered about from place to place, until at last having reached Psophis in Arcadia, Phegeus, king of the country, not only purified him of his.",
+      "Though now released from his mental affliction, the curse which hung over him was not entirely removed, and on his account the country of his adoption was visited with a severe.",
+      "On consulting the oracle of Delphi he was informed that any land which offered him shelter would be cursed by the gods, and that the malediction would continue to follow him till.",
+      "Bereft of hope, and resolved no longer to cast the shadow of his dark fate over those he loved, Alcmaeon took a tender leave of his wife and little son, and became once more an."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
-  "normalizationWarnings": [],
-  "reviewStatus": "approved"
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-1cf5adb8",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0330-c18acf",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "ALCMAEON AND THE NECKLACE.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c",
+        "gutenberg:ebooks:22381:330.330.2-330.330.2:24a54dd5",
+        "gutenberg:ebooks:22381:330.330.3-330.330.3:bcd86bdc"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 137,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
 }

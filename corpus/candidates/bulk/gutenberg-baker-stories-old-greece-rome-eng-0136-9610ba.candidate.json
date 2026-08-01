@@ -15,7 +15,7 @@
   "workingTitle": "Part I",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "non_story_material",
+  "candidateType": "biographical_material",
   "mythFamilyId": "perseus-and-medusa",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-perseus-and-medusa-0ac123",
   "characters": [
@@ -32,5 +32,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 96,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 7,
+      "actionBearingSentences": 4,
+      "conflictSignals": 1,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

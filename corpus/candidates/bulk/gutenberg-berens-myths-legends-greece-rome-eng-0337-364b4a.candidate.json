@@ -29,11 +29,32 @@
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-trojan-war-d26360",
   "characters": [
+    "Aeneas",
+    "Cassandra",
+    "Hector",
+    "Helen",
     "Odysseus",
     "Zeus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 224,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "actionBearingSentences": 15,
+      "conflictSignals": 7,
+      "paragraphCount": 11,
+      "knownMythFamily": true
+    }
+  }
 }

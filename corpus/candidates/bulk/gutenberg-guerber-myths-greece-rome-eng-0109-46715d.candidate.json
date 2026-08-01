@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9",
     "gutenberg:ebooks:39250:109.109.4-109.109.4:b4ccdf4f"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -21,9 +21,32 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "by-summer-hid-in-green-reeds-jointed-cells",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-by-summer-hid-in-green-reeds-jointed-cells-85b483",
-  "characters": [],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "characters": [
+    "Apollo"
+  ],
+  "processingStatus": "rejected-poor-quality",
+  "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 101,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 5,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

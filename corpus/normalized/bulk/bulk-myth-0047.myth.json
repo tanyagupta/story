@@ -1,31 +1,200 @@
 {
   "mythId": "bulk-myth-0047",
-  "mythFamilyId": "hunt",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-hunt-6fbeee",
-  "title": "Hunt.",
+  "mythFamilyId": "illi-indignantes-magno-cum-murmure-montis",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-illi-indignantes-magno-cum-murmure-montis-35f0f4",
+  "title": "Illi indignantes magno cum murmure montis",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:181.181.1-181.181.1:139bdc3a",
-      "gutenberg:ebooks:39250:181.181.2-181.181.2:cab419d9",
-      "gutenberg:ebooks:39250:181.181.3-181.181.3:f0d957ba"
+      "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451",
+      "gutenberg:ebooks:45489:132.132.2-132.132.2:06969dd7",
+      "gutenberg:ebooks:45489:132.132.3-132.132.3:c1d0c0c2",
+      "gutenberg:ebooks:45489:132.132.4-132.132.4:add1dee0",
+      "gutenberg:ebooks:45489:132.132.5-132.132.5:3ed9ca48",
+      "gutenberg:ebooks:45489:132.132.6-132.132.6:34ce8228",
+      "gutenberg:ebooks:45489:132.132.7-132.132.7:e153c677",
+      "gutenberg:ebooks:45489:132.132.8-132.132.8:3d792fd7",
+      "gutenberg:ebooks:45489:132.132.9-132.132.9:c29f3d04",
+      "gutenberg:ebooks:45489:132.132.10-132.132.10:8451e67b",
+      "gutenberg:ebooks:45489:132.132.11-132.132.11:17a4b9e9"
     ]
   },
   "entities": {
-    "characters": [],
+    "characters": [
+      "apollo",
+      "roman-juno",
+      "roman-jupiter",
+      "roman-mercury",
+      "roman-neptune",
+      "roman-ulysses"
+    ],
     "locations": [],
     "objects": [],
     "creatures": []
   },
-  "entityMappings": [],
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451"
+        }
+      ]
+    },
+    {
+      "sourceName": "Juno",
+      "normalizedId": "roman-juno",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451"
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451"
+        }
+      ]
+    },
+    {
+      "sourceName": "Neptune",
+      "normalizedId": "roman-neptune",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451"
+        }
+      ]
+    },
+    {
+      "sourceName": "Ulysses",
+      "normalizedId": "roman-ulysses",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451"
+        }
+      ]
+    }
+  ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Apollo, Juno, Jupiter are involved in Illi indignantes magno cum murmure montis. Æolus wooed and married the dainty Aurora, goddess of the morning, who bore him his sons, _i.e._ Boreas, the north wind; Notus, the south wind; Eurus, the east wind; and. Sometimes when the stately Juno sought his assistance, he let the winds sweep over the calm sea until the.",
+    "openingSituation": "Æolus wooed and married the dainty Aurora, goddess of the morning, who bore him his sons, _i.e._ Boreas, the north wind; Notus, the south wind; Eurus, the east wind; and.",
+    "centralConflict": "Here the wanderer was hospitably entertained by Æolus, and when he set sail again, the kindly god sent the west wind to blow the ships gently over the sea, while he shut up the.",
+    "resolution": "At last, exhausted by his long vigil, Ulysses fell asleep; and the sailors, believing that the bag contained treasure that King Æolus had generously given, untied the string and.",
+    "outcome": "At last, exhausted by his long vigil, Ulysses fell asleep; and the sailors, believing that the bag contained treasure that King Æolus had generously given, untied the string and.",
+    "storyline": [
+      "Æolus wooed and married the dainty Aurora, goddess of the morning, who bore him his sons, _i.e._ Boreas, the north wind; Notus, the south wind; Eurus, the east wind; and.",
+      "Sometimes when the stately Juno sought his assistance, he let the winds sweep over the calm sea until the waves rose mountain high, for he was reputed to have received his royal.",
+      "Once, at her request, he let loose the fiercest winds to destroy the ships of Æneas--that unfortunate hero who was always being pursued by \"cruel Juno's unrelenting hate.\" The.",
+      "As he himself had given no commands for such a storm, he knew it was the never-ending hatred of Juno for the Trojans that had brought about the disaster.",
+      "Here the wanderer was hospitably entertained by Æolus, and when he set sail again, the kindly god sent the west wind to blow the ships gently over the sea, while he shut up the.",
+      "This bag he gave to Ulysses, \"the sagacious,\" and bade him keep it closed until the journey was over."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451",
+        "gutenberg:ebooks:45489:132.132.2-132.132.2:06969dd7",
+        "gutenberg:ebooks:45489:132.132.3-132.132.3:c1d0c0c2"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:132.132.3-132.132.3:c1d0c0c2"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:132.132.4-132.132.4:add1dee0"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:132.132.4-132.132.4:add1dee0"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:132.132.4-132.132.4:add1dee0"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451",
+      "excerpt": "Circum claustra fremunt; celsa sedet Æolus arce, Sceptratenens, mollitque animos et temperatiras; Ni faciat, maria ac terras cælumque profundum Quippe ferant rapidi secum verrantque per auras.\"[67]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:132.132.2-132.132.2:06969dd7",
+      "excerpt": "--VIRGIL, _Æneid_, Book I, line 52.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:132.132.3-132.132.3:c1d0c0c2",
+      "excerpt": "Æolus wooed and married the dainty Aurora, goddess of the morning, who bore him his sons, _i.e._ Boreas, the north wind; Notus, the south wind; Eurus, the east wind; and Zephyrus, the soft and gentle west wind. Sometimes Aurora sought the.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:132.132.4-132.132.4:add1dee0",
+      "excerpt": "Quite differently did Æolus treat another famous hero, Ulysses, whose ships, on the long homeward journey, touched at the Lipari Islands. Here the wanderer was hospitably entertained by Æolus, and when he set sail again, the kindly god.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:132.132.5-132.132.5:3ed9ca48",
+      "excerpt": "The Athenians built a temple to Æolus, which is still extant, and is generally known as the Tower of the Winds, or the Temple of Æolus. The structure is hexagonal, and on each side there is a flying figure of one of the winds. Notus (or.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:132.132.6-132.132.6:34ce8228",
+      "excerpt": "II. Janus",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:132.132.7-132.132.7:e153c677",
+      "excerpt": "Janus,[69]--god of the past, present, and future; of gates and entrances; of war and peace,--was said to be the son of Apollo; but as he is a Roman god, and entirely unknown to Greek mythology, his ancestry is a matter of doubt. He.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:132.132.8-132.132.8:3d792fd7",
+      "excerpt": "At Rome Numa Pompilius is said to have dedicated to Janus the covered passage--erroneously called a temple--that stood close by the Forum. This was kept open in times of war and closed in times of peace; but such was the belligerent.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
   "initialState": [
     {
-      "subject": "source-section",
-      "predicate": "is introduced in",
-      "object": "Hunt.",
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Æolus wooed and married the dainty Aurora, goddess of the morning, who bore him his sons, _i.e._ Boreas, the north wind; Notus, the south wind; Eurus, the east wind; and.",
       "evidence": [
-        "gutenberg:ebooks:39250:181.181.1-181.181.1:139bdc3a"
+        "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451"
       ]
     }
   ],
@@ -33,81 +202,223 @@
     {
       "eventId": "event-001",
       "actor": null,
+      "action": "birth",
+      "sourceAction": "bore",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Æolus wooed and married the dainty Aurora, goddess of the morning, who bore him his sons, _i.e._ Boreas, the north wind; Notus, the south wind; Eurus, the east wind; and.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:132.132.3-132.132.3:c1d0c0c2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": "roman-juno",
+      "action": "receive",
+      "sourceAction": "received",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Sometimes when the stately Juno sought his assistance, he let the winds sweep over the calm sea until the waves rose mountain high, for he was reputed to have received his royal.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:132.132.3-132.132.3:c1d0c0c2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "actor": "roman-juno",
       "action": "travel",
       "sourceAction": "went",
       "object": null,
       "target": null,
       "recipient": null,
-      "location": null,
+      "location": "troy",
+      "result": "Once, at her request, he let loose the fiercest winds to destroy the ships of Æneas--that unfortunate hero who was always being pursued by \"cruel Juno's unrelenting hate.\" The.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:181.181.1-181.181.1:139bdc3a"
+          "passageId": "gutenberg:ebooks:45489:132.132.3-132.132.3:c1d0c0c2"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "eventId": "event-002",
-      "actor": null,
-      "action": "describe",
-      "sourceAction": "is described",
+      "eventId": "event-004",
+      "actor": "roman-juno",
+      "action": "recognize",
+      "sourceAction": "knew",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "As he himself had given no commands for such a storm, he knew it was the never-ending hatred of Juno for the Trojans that had brought about the disaster.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:181.181.2-181.181.2:cab419d9"
+          "passageId": "gutenberg:ebooks:45489:132.132.3-132.132.3:c1d0c0c2"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "eventId": "event-003",
+      "eventId": "event-005",
       "actor": null,
-      "action": "travel",
-      "sourceAction": "came",
+      "action": "imprison",
+      "sourceAction": "shut up",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Here the wanderer was hospitably entertained by Æolus, and when he set sail again, the kindly god sent the west wind to blow the ships gently over the sea, while he shut up the.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:181.181.3-181.181.3:f0d957ba"
+          "passageId": "gutenberg:ebooks:45489:132.132.4-132.132.4:add1dee0"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "actor": "roman-ulysses",
+      "action": "give",
+      "sourceAction": "gave",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "This bag he gave to Ulysses, \"the sagacious,\" and bade him keep it closed until the journey was over.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:132.132.4-132.132.4:add1dee0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "actor": null,
+      "action": "birth",
+      "sourceAction": "bore",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "For nine days and nights the hero stood at the helm watching, while the west wind bore the ships along without the help of oars.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:132.132.4-132.132.4:add1dee0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "actor": "roman-ulysses",
+      "action": "release",
+      "sourceAction": "freed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "At last, exhausted by his long vigil, Ulysses fell asleep; and the sailors, believing that the bag contained treasure that King Æolus had generously given, untied the string and.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:132.132.4-132.132.4:add1dee0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
     }
   ],
   "finalState": [
     {
-      "subject": "source-section",
-      "predicate": "is last attested in selected candidate",
-      "object": "Hunt.",
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "At last, exhausted by his long vigil, Ulysses fell asleep; and the sailors, believing that the bag contained treasure that King Æolus had generously given, untied the string and.",
       "evidence": [
-        "gutenberg:ebooks:39250:181.181.3-181.181.3:f0d957ba"
+        "gutenberg:ebooks:45489:132.132.11-132.132.11:17a4b9e9"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "Æolus wooed and married the dainty Aurora, goddess of the morning, who bore him his sons, _i.e._ Boreas, the north wind; Notus, the south wind; Eurus, the east wind; and.",
+      "Sometimes when the stately Juno sought his assistance, he let the winds sweep over the calm sea until the waves rose mountain high, for he was reputed to have received his royal.",
+      "Once, at her request, he let loose the fiercest winds to destroy the ships of Æneas--that unfortunate hero who was always being pursued by \"cruel Juno's unrelenting hate.\" The.",
+      "As he himself had given no commands for such a storm, he knew it was the never-ending hatred of Juno for the Trojans that had brought about the disaster.",
+      "Here the wanderer was hospitably entertained by Æolus, and when he set sail again, the kindly god sent the west wind to blow the ships gently over the sea, while he shut up the.",
+      "This bag he gave to Ulysses, \"the sagacious,\" and bade him keep it closed until the journey was over."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-baker-stories-old-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
-  "normalizationWarnings": [],
-  "reviewStatus": "approved"
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-b3969fa4",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0132-f78792",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Illi indignantes magno cum murmure montis",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:132.132.1-132.132.1:95c94451",
+        "gutenberg:ebooks:45489:132.132.2-132.132.2:06969dd7",
+        "gutenberg:ebooks:45489:132.132.3-132.132.3:c1d0c0c2"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 194,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 5,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
 }

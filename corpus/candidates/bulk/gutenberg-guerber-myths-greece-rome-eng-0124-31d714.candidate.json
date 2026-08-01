@@ -16,7 +16,7 @@
   "workingTitle": "Milton.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "deity_profile",
+  "candidateType": "biographical_material",
   "mythFamilyId": "orpheus-and-eurydice",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-orpheus-and-eurydice-487da4",
   "characters": [
@@ -26,5 +26,22 @@
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 39,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 1,
+      "conflictSignals": 1,
+      "paragraphCount": 2,
+      "knownMythFamily": true
+    }
+  }
 }

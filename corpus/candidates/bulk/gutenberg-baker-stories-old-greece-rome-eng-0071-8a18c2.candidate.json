@@ -9,7 +9,7 @@
     "gutenberg:ebooks:45489:71.71.4-71.71.4:e95267a3",
     "gutenberg:ebooks:45489:71.71.5-71.71.5:9877f25c"
   ],
-  "status": "awaiting_extraction",
+  "status": "approved",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,10 +24,28 @@
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-apollo-and-daphne-7d0fb6",
   "characters": [
     "Apollo",
+    "Daphne",
     "Jupiter"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "approved",
+  "reviewStatus": "approved",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 149,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 7,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

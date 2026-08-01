@@ -1,0 +1,114 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0203-a0433f",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Medusa",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:203.203.1-203.203.1:a827e3cf"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "medusa",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Perseus",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:203.203.1-203.203.1:a827e3cf"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "perseus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:203.203.2-203.203.2:73e89613"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "medusa",
+      "sourceAction": "received",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:203.203.3-203.203.3:ad04c1cc"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "medusa",
+      "predicate": "opening_situation",
+      "object": "In later times, however, they came to be regarded as misshapen females, decrepid, and hideously ugly, having only one eye, one tooth, and one gray wig between them, which they.",
+      "evidence": [
+        "gutenberg:ebooks:22381:203.203.1-203.203.1:a827e3cf"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "medusa",
+      "predicate": "outcome",
+      "object": "When Perseus entered upon his expedition to slay the Medusa, he repaired to the abode of the Graeae, in the far {146} west, to inquire the way to the Gorgons, and on their.",
+      "evidence": [
+        "gutenberg:ebooks:22381:203.203.3-203.203.3:ad04c1cc"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-7b22485c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0203-a0433f",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "GRAEAE.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:203.203.1-203.203.1:a827e3cf",
+        "gutenberg:ebooks:22381:203.203.2-203.203.2:73e89613",
+        "gutenberg:ebooks:22381:203.203.3-203.203.3:ad04c1cc"
+      ],
+      "status": "open"
+    }
+  ]
+}

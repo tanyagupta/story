@@ -1,0 +1,115 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0353-abb683",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Hercules",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-hercules",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "roman-hercules",
+      "sourceAction": "departed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-hercules",
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:353.353.5-353.353.5:f1e680f3"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-hercules",
+      "predicate": "opening_situation",
+      "object": "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any.",
+      "evidence": [
+        "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-hercules",
+      "predicate": "outcome",
+      "object": "While he was thus considering, a Centaur by the name of Nessus came to his assistance, and proposed to carry the fair young bride to the other shore in complete safety, if she.",
+      "evidence": [
+        "gutenberg:ebooks:39250:353.353.6-353.353.6:af411814"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a27fb8fa",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0353-abb683",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Deep was the animated strife",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283",
+        "gutenberg:ebooks:39250:353.353.2-353.353.2:aa73578c",
+        "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b"
+      ],
+      "status": "open"
+    }
+  ]
+}

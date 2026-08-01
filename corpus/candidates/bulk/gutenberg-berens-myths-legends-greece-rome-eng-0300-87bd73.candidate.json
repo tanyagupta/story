@@ -10,7 +10,7 @@
     "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f",
     "gutenberg:ebooks:22381:300.300.6-300.300.6:dc9830e7"
   ],
-  "status": "awaiting_extraction",
+  "status": "approved",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,10 +25,28 @@
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-daedalus-and-icarus-d97202",
   "characters": [
     "Daedalus",
-    "Icarus"
+    "Icarus",
+    "Minotaur"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "approved",
+  "reviewStatus": "approved",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 143,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 6,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

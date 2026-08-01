@@ -1,0 +1,110 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0188-cf9d4c",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Echo",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "echo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Narcissus",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "narcissus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Venus",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-venus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "found",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:188.188.2-188.188.2:0f357168"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "echo",
+      "predicate": "opening_situation",
+      "object": "\"In some delicious ramble, he had found A little space, with boughs all woven round; And in the midst of all, a clearer pool",
+      "evidence": [
+        "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "echo",
+      "predicate": "outcome",
+      "object": "\"In some delicious ramble, he had found A little space, with boughs all woven round; And in the midst of all, a clearer pool",
+      "evidence": [
+        "gutenberg:ebooks:39250:188.188.2-188.188.2:0f357168"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-c183b008",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0188-cf9d4c",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab",
+        "gutenberg:ebooks:39250:188.188.2-188.188.2:0f357168"
+      ],
+      "status": "open"
+    }
+  ]
+}

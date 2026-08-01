@@ -24,7 +24,7 @@
     "gutenberg:ebooks:39250:541.541.19-541.541.19:fcd32750",
     "gutenberg:ebooks:39250:541.541.20-541.541.20:db4ab45b"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -38,10 +38,41 @@
   "mythFamilyId": "myths",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-myths-a06c74",
   "characters": [
-    "Neptune"
+    "Achilles",
+    "Bacchus",
+    "Echo",
+    "Ganymede",
+    "Hercules",
+    "Hippolytus",
+    "Jupiter",
+    "Neptune",
+    "Pegasus",
+    "Poseidon",
+    "Theseus",
+    "Ulysses"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 145,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 4,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

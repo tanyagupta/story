@@ -3,6 +3,11 @@
   "errors": [],
   "warnings": [
     {
+      "type": "approved-target-not-met",
+      "file": "corpus/catalog/approved-myths.json",
+      "message": "Fewer than 50 records passed semantic approval gates"
+    },
+    {
       "type": "probable-duplicate",
       "file": "corpus/catalog/duplicate-and-variant-report.json",
       "message": "apollo-and-daphne"
@@ -25,12 +30,22 @@
     {
       "type": "probable-duplicate",
       "file": "corpus/catalog/duplicate-and-variant-report.json",
+      "message": "daedalus-and-icarus"
+    },
+    {
+      "type": "probable-duplicate",
+      "file": "corpus/catalog/duplicate-and-variant-report.json",
       "message": "demeter-and-persephone"
     },
     {
       "type": "probable-duplicate",
       "file": "corpus/catalog/duplicate-and-variant-report.json",
       "message": "dionysus-and-pirates"
+    },
+    {
+      "type": "probable-duplicate",
+      "file": "corpus/catalog/duplicate-and-variant-report.json",
+      "message": "edwin-arnold"
     },
     {
       "type": "probable-duplicate",
@@ -60,17 +75,22 @@
     {
       "type": "probable-duplicate",
       "file": "corpus/catalog/duplicate-and-variant-report.json",
-      "message": "keats"
-    },
-    {
-      "type": "probable-duplicate",
-      "file": "corpus/catalog/duplicate-and-variant-report.json",
-      "message": "lewis-morris"
+      "message": "jupiter"
     },
     {
       "type": "probable-duplicate",
       "file": "corpus/catalog/duplicate-and-variant-report.json",
       "message": "midas"
+    },
+    {
+      "type": "probable-duplicate",
+      "file": "corpus/catalog/duplicate-and-variant-report.json",
+      "message": "moore"
+    },
+    {
+      "type": "probable-duplicate",
+      "file": "corpus/catalog/duplicate-and-variant-report.json",
+      "message": "narcissus-and-echo"
     },
     {
       "type": "probable-duplicate",
@@ -95,22 +115,17 @@
     {
       "type": "probable-duplicate",
       "file": "corpus/catalog/duplicate-and-variant-report.json",
-      "message": "pope"
-    },
-    {
-      "type": "probable-duplicate",
-      "file": "corpus/catalog/duplicate-and-variant-report.json",
       "message": "prometheus"
     },
     {
       "type": "probable-duplicate",
       "file": "corpus/catalog/duplicate-and-variant-report.json",
-      "message": "pygmalion"
+      "message": "spenser"
     },
     {
       "type": "probable-duplicate",
       "file": "corpus/catalog/duplicate-and-variant-report.json",
-      "message": "spenser"
+      "message": "that-come-through-the-carved-ivory-deceive"
     },
     {
       "type": "probable-duplicate",
@@ -126,6 +141,11 @@
       "type": "probable-duplicate",
       "file": "corpus/catalog/duplicate-and-variant-report.json",
       "message": "trojan-war"
+    },
+    {
+      "type": "probable-duplicate",
+      "file": "corpus/catalog/duplicate-and-variant-report.json",
+      "message": "venus"
     },
     {
       "type": "probable-duplicate",
@@ -150,12 +170,22 @@
     {
       "type": "probable-duplicate",
       "file": "corpus/review/open-review-items.json",
+      "message": "daedalus-and-icarus"
+    },
+    {
+      "type": "probable-duplicate",
+      "file": "corpus/review/open-review-items.json",
       "message": "demeter-and-persephone"
     },
     {
       "type": "probable-duplicate",
       "file": "corpus/review/open-review-items.json",
       "message": "dionysus-and-pirates"
+    },
+    {
+      "type": "probable-duplicate",
+      "file": "corpus/review/open-review-items.json",
+      "message": "edwin-arnold"
     },
     {
       "type": "probable-duplicate",
@@ -185,17 +215,22 @@
     {
       "type": "probable-duplicate",
       "file": "corpus/review/open-review-items.json",
-      "message": "keats"
-    },
-    {
-      "type": "probable-duplicate",
-      "file": "corpus/review/open-review-items.json",
-      "message": "lewis-morris"
+      "message": "jupiter"
     },
     {
       "type": "probable-duplicate",
       "file": "corpus/review/open-review-items.json",
       "message": "midas"
+    },
+    {
+      "type": "probable-duplicate",
+      "file": "corpus/review/open-review-items.json",
+      "message": "moore"
+    },
+    {
+      "type": "probable-duplicate",
+      "file": "corpus/review/open-review-items.json",
+      "message": "narcissus-and-echo"
     },
     {
       "type": "probable-duplicate",
@@ -220,17 +255,7 @@
     {
       "type": "probable-duplicate",
       "file": "corpus/review/open-review-items.json",
-      "message": "pope"
-    },
-    {
-      "type": "probable-duplicate",
-      "file": "corpus/review/open-review-items.json",
       "message": "prometheus"
-    },
-    {
-      "type": "probable-duplicate",
-      "file": "corpus/review/open-review-items.json",
-      "message": "pygmalion"
     },
     {
       "type": "probable-duplicate",
@@ -240,17 +265,12 @@
     {
       "type": "probable-duplicate",
       "file": "corpus/review/open-review-items.json",
+      "message": "that-come-through-the-carved-ivory-deceive"
+    },
+    {
+      "type": "probable-duplicate",
+      "file": "corpus/review/open-review-items.json",
       "message": "that-he-has-passed-by-scylla-with-a-crew"
-    },
-    {
-      "type": "probable-duplicate",
-      "file": "corpus/review/open-review-items.json",
-      "message": "theseus-and-minotaur"
-    },
-    {
-      "type": "probable-duplicate",
-      "file": "corpus/review/open-review-items.json",
-      "message": "trojan-war"
     }
   ]
 }

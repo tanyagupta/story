@@ -13,7 +13,7 @@
     "gutenberg:ebooks:39250:367.367.8-367.367.8:aaaeeffc",
     "gutenberg:ebooks:39250:367.367.9-367.367.9:c978525a"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,9 +26,33 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "inhaling-in-thy-milky-breathing-breast",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-inhaling-in-thy-milky-breathing-breast-161aa5",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Medusa",
+    "Minerva",
+    "Perseus"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 132,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 5,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

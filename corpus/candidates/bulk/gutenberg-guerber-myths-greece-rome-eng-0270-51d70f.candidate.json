@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:270.270.7-270.270.7:ab75759c",
     "gutenberg:ebooks:39250:270.270.8-270.270.8:e9573e26"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,14 +22,32 @@
   "workingTitle": "Martinez de la Rosa.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "midas",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-midas-8e4b1d",
   "characters": [
+    "Bacchus",
     "Midas"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 95,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 6,
+      "conflictSignals": 3,
+      "paragraphCount": 8,
+      "knownMythFamily": true
+    }
+  }
 }

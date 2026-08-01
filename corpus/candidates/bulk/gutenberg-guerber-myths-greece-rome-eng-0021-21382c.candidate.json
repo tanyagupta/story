@@ -48,10 +48,45 @@
   "mythFamilyId": "list-of-illustrations-10",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-list-of-illustrations-10-ce3efd",
   "characters": [
-    "Jupiter"
+    "Apollo",
+    "Bacchus",
+    "Bellerophon",
+    "Ceres",
+    "Diana",
+    "Hercules",
+    "Jason",
+    "Juno",
+    "Jupiter",
+    "Mercury",
+    "Minerva",
+    "Neptune",
+    "Perseus",
+    "Pluto",
+    "Proserpina",
+    "Theseus",
+    "Ulysses",
+    "Venus",
+    "Vulcan"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 187,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 19,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 30,
+      "knownMythFamily": true
+    }
+  }
 }

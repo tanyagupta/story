@@ -17,7 +17,7 @@
     "gutenberg:ebooks:39250:192.192.12-192.192.12:adc8f558",
     "gutenberg:ebooks:39250:192.192.13-192.192.13:d86d5569"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -27,16 +27,34 @@
   "workingTitle": "Schiller.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "pygmalion",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-pygmalion-75e3cb",
   "characters": [
     "Cupid",
     "Psyche",
-    "Pygmalion"
+    "Pygmalion",
+    "Venus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 134,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 9,
+      "conflictSignals": 3,
+      "paragraphCount": 13,
+      "knownMythFamily": true
+    }
+  }
 }

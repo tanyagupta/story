@@ -1,0 +1,196 @@
+{
+  "mythId": "bulk-myth-0214",
+  "mythFamilyId": "sprang-a-scourging-race-from-thee",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-sprang-a-scourging-race-from-thee-21f2ce",
+  "title": "Sprang a scourging race from thee--",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:372.372.1-372.372.1:80c3d880",
+      "gutenberg:ebooks:39250:372.372.2-372.372.2:4061372b",
+      "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "atlas",
+      "roman-hercules"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Atlas",
+      "normalizedId": "atlas",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:372.372.1-372.372.1:80c3d880"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hercules",
+      "normalizedId": "roman-hercules",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:372.372.1-372.372.1:80c3d880"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Atlas, Hercules are involved in Sprang a scourging race from thee--. Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long.",
+    "openingSituation": "Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long.",
+    "centralConflict": "Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long.",
+    "resolution": "Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long.",
+    "outcome": "Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long.",
+    "storyline": [
+      "Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:372.372.1-372.372.1:80c3d880",
+        "gutenberg:ebooks:39250:372.372.2-372.372.2:4061372b",
+        "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:372.372.1-372.372.1:80c3d880",
+      "excerpt": "Fell types of artful mystery.\"",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:372.372.2-372.372.2:4061372b",
+      "excerpt": "Mrs. St. John.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105",
+      "excerpt": "The return journey was long and wearisome, and on his way the hero had many adventures. Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "atlas",
+      "predicate": "opening_situation",
+      "object": "Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long.",
+      "evidence": [
+        "gutenberg:ebooks:39250:372.372.1-372.372.1:80c3d880"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "atlas",
+      "action": "capture",
+      "sourceAction": "caught",
+      "object": null,
+      "target": "roman-hercules",
+      "recipient": null,
+      "location": null,
+      "result": "Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "atlas",
+      "predicate": "outcome",
+      "object": "Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long.",
+      "evidence": [
+        "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Once, when flying high above a mountainous country, he caught a glimpse of Atlas, his pale face turned up to the heavens, whose weight he had patiently borne for many a long."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-2cc7612d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0372-bf1336",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Sprang a scourging race from thee--",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:372.372.1-372.372.1:80c3d880",
+        "gutenberg:ebooks:39250:372.372.2-372.372.2:4061372b",
+        "gutenberg:ebooks:39250:372.372.3-372.372.3:66316105"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 65,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

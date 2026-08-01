@@ -8,7 +8,7 @@
     "gutenberg:ebooks:22381:306.306.3-306.306.3:519c91d0",
     "gutenberg:ebooks:22381:306.306.4-306.306.4:ec6ac938"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,10 +23,32 @@
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-apollo-and-daphne-e95eb0",
   "characters": [
     "Apollo",
-    "Hermes"
+    "Hermes",
+    "Perseus",
+    "Zeus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 173,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

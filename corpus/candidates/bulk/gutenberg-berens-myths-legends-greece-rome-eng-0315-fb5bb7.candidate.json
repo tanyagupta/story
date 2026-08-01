@@ -11,7 +11,7 @@
     "gutenberg:ebooks:22381:315.315.6-315.315.6:ba65ece0",
     "gutenberg:ebooks:22381:315.315.7-315.315.7:12c611ed"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,11 +25,33 @@
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-heracles-labors-ccd5c6",
   "characters": [
+    "Atlas",
     "Poseidon",
+    "Prometheus",
     "Zeus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 163,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

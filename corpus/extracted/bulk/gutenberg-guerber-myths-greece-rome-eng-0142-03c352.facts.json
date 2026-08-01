@@ -7,24 +7,7 @@
   "events": [
     {
       "actorSourceName": null,
-      "sourceAction": "loved",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:142.142.1-142.142.1:4d838697"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "became",
+      "sourceAction": "married",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -37,7 +20,24 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:142.142.2-142.142.2:77561bac"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -50,18 +50,18 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:142.142.3-142.142.3:5ca47f6e"
+          "passageId": "gutenberg:ebooks:39250:142.142.2-142.142.2:77561bac"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "source-section",
-      "predicate": "is introduced in",
-      "object": "Somerville.",
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "This dainty goddess loved and married Tithonus, Prince of Troy, and won from the gods the boon of everlasting life to confer upon him.",
       "evidence": [
         "gutenberg:ebooks:39250:142.142.1-142.142.1:4d838697"
       ]
@@ -69,15 +69,34 @@
   ],
   "finalState": [
     {
-      "subject": "source-section",
-      "predicate": "is last attested in selected candidate",
-      "object": "Somerville.",
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Knowing he would never die, and wishing to rid herself of his burdensome presence, she changed him into a grasshopper.",
       "evidence": [
         "gutenberg:ebooks:39250:142.142.4-142.142.4:b915b247"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-200f21aa",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0142-03c352",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Somerville.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:142.142.1-142.142.1:4d838697",
+        "gutenberg:ebooks:39250:142.142.2-142.142.2:77561bac",
+        "gutenberg:ebooks:39250:142.142.3-142.142.3:5ca47f6e"
+      ],
+      "status": "open"
+    }
+  ]
 }

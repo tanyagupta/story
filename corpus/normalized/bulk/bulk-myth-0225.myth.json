@@ -1,0 +1,198 @@
+{
+  "mythId": "bulk-myth-0225",
+  "mythFamilyId": "heracles-labors",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-heracles-labors-ce47c3",
+  "title": "ATE.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:208.208.1-208.208.1:18895345",
+      "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "zeus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:208.208.1-208.208.1:18895345"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Zeus are involved in ATE.. Having instigated Hera to deprive Heracles of his birthright, her father seized her by the hair of her head, and hurled her from Olympus, forbidding her, under the most solemn. Henceforth she wandered among mankind, sowing dissension, working mischief, and luring men to all actions inimical to their welfare and happiness.",
+    "openingSituation": "Having instigated Hera to deprive Heracles of his birthright, her father seized her by the hair of her head, and hurled her from Olympus, forbidding her, under the most solemn.",
+    "centralConflict": "Having instigated Hera to deprive Heracles of his birthright, her father seized her by the hair of her head, and hurled her from Olympus, forbidding her, under the most solemn.",
+    "resolution": "Henceforth she wandered among mankind, sowing dissension, working mischief, and luring men to all actions inimical to their welfare and happiness.",
+    "outcome": "Henceforth she wandered among mankind, sowing dissension, working mischief, and luring men to all actions inimical to their welfare and happiness.",
+    "storyline": [
+      "Having instigated Hera to deprive Heracles of his birthright, her father seized her by the hair of her head, and hurled her from Olympus, forbidding her, under the most solemn.",
+      "Henceforth she wandered among mankind, sowing dissension, working mischief, and luring men to all actions inimical to their welfare and happiness."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:208.208.1-208.208.1:18895345",
+        "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:208.208.1-208.208.1:18895345",
+      "excerpt": "Ate, the daughter of Zeus and Eris, was a divinity who delighted in evil.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58",
+      "excerpt": "Having instigated Hera to deprive Heracles of his birthright, her father seized her by the hair of her head, and hurled her from Olympus, forbidding her, under the most solemn imprecations, ever to return. Henceforth she wandered among.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "Having instigated Hera to deprive Heracles of his birthright, her father seized her by the hair of her head, and hurled her from Olympus, forbidding her, under the most solemn.",
+      "evidence": [
+        "gutenberg:ebooks:22381:208.208.1-208.208.1:18895345"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "seized",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "olympus",
+      "result": "Having instigated Hera to deprive Heracles of his birthright, her father seized her by the hair of her head, and hurled her from Olympus, forbidding her, under the most solemn.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "wandered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Henceforth she wandered among mankind, sowing dissension, working mischief, and luring men to all actions inimical to their welfare and happiness.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Henceforth she wandered among mankind, sowing dissension, working mischief, and luring men to all actions inimical to their welfare and happiness.",
+      "evidence": [
+        "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Having instigated Hera to deprive Heracles of his birthright, her father seized her by the hair of her head, and hurled her from Olympus, forbidding her, under the most solemn.",
+      "Henceforth she wandered among mankind, sowing dissension, working mischief, and luring men to all actions inimical to their welfare and happiness."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-5960e8c3",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0208-a3eb5b",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "ATE.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:208.208.1-208.208.1:18895345",
+        "gutenberg:ebooks:22381:208.208.2-208.208.2:53a2cc58"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 63,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

@@ -1,0 +1,175 @@
+{
+  "mythId": "bulk-myth-0275",
+  "mythFamilyId": "orphic-hymn",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-orphic-hymn-a311af",
+  "title": "Orphic Hymn.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89",
+      "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "ceres"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Ceres",
+      "normalizedId": "ceres",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Ceres are involved in Orphic Hymn.. Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+    "openingSituation": "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+    "centralConflict": "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+    "resolution": "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+    "outcome": "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+    "storyline": [
+      "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89",
+        "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89",
+      "excerpt": "[Sidenote: Ceres and Triptolemus.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39",
+      "excerpt": "To avoid recognition, she had assumed the appearance of an aged crone; and as she sat there by the wayside, in tears, she attracted the compassionate inquiries of the daughters of Celeus, king of the country. Having heard her bewail the.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "ceres",
+      "predicate": "opening_situation",
+      "object": "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+      "evidence": [
+        "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "sacrifice",
+      "sourceAction": "offered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "ceres",
+      "predicate": "outcome",
+      "object": "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of.",
+      "evidence": [
+        "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Having heard her bewail the loss of her child, they entreated her to come to the palace, and, knowing nothing could so well soothe a breaking heart, offered her the charge of."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-bdf12c26",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0294-c01871",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Orphic Hymn.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89",
+        "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 52,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

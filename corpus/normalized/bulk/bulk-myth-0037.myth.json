@@ -1,23 +1,34 @@
 {
   "mythId": "bulk-myth-0037",
-  "mythFamilyId": "keats",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-keats-d51822",
-  "title": "Keats.",
+  "mythFamilyId": "theseus-and-minotaur",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-theseus-and-minotaur-79f3a5",
+  "title": "Cretan bull.",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:157.157.1-157.157.1:a11f511e",
-      "gutenberg:ebooks:39250:157.157.2-157.157.2:5d509523",
-      "gutenberg:ebooks:39250:157.157.3-157.157.3:c8602e37",
-      "gutenberg:ebooks:39250:157.157.4-157.157.4:3e2b3a4c",
-      "gutenberg:ebooks:39250:157.157.5-157.157.5:9b3f4fa7",
-      "gutenberg:ebooks:39250:157.157.6-157.157.6:e7a3754f"
+      "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14",
+      "gutenberg:ebooks:22381:313.313.2-313.313.2:12e99071",
+      "gutenberg:ebooks:22381:313.313.3-313.313.3:2b3b3902",
+      "gutenberg:ebooks:22381:313.313.4-313.313.4:5a5af723",
+      "gutenberg:ebooks:22381:313.313.5-313.313.5:216d9a00",
+      "gutenberg:ebooks:22381:313.313.6-313.313.6:3af00035",
+      "gutenberg:ebooks:22381:313.313.7-313.313.7:45c0d1f7",
+      "gutenberg:ebooks:22381:313.313.8-313.313.8:459b9dc5",
+      "gutenberg:ebooks:22381:313.313.9-313.313.9:6aaee854",
+      "gutenberg:ebooks:22381:313.313.10-313.313.10:034609f1",
+      "gutenberg:ebooks:22381:313.313.11-313.313.11:bb307cbe",
+      "gutenberg:ebooks:22381:313.313.12-313.313.12:010331e8",
+      "gutenberg:ebooks:22381:313.313.13-313.313.13:067c61e7",
+      "gutenberg:ebooks:22381:313.313.14-313.313.14:80f987ee"
     ]
   },
   "entities": {
     "characters": [
-      "atlas",
-      "roman-diana"
+      "apollo",
+      "ganymede",
+      "poseidon",
+      "theseus",
+      "zeus"
     ],
     "locations": [],
     "objects": [],
@@ -25,116 +36,381 @@
   },
   "entityMappings": [
     {
-      "sourceName": "Atlas",
-      "normalizedId": "atlas",
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:157.157.1-157.157.1:a11f511e"
+          "passageId": "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14"
         }
       ]
     },
     {
-      "sourceName": "Diana",
-      "normalizedId": "roman-diana",
+      "sourceName": "Ganymede",
+      "normalizedId": "ganymede",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:157.157.1-157.157.1:a11f511e"
+          "passageId": "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14"
+        }
+      ]
+    },
+    {
+      "sourceName": "Poseidon",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14"
+        }
+      ]
+    },
+    {
+      "sourceName": "Theseus",
+      "normalizedId": "theseus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14"
+        }
+      ]
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14"
         }
       ]
     }
   ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Apollo, Ganymede, Poseidon are involved in Cretan bull.. Charmed with the splendid animal sent by Poseidon, and eager to possess it, Minos placed it among his herds, and substituted as a sacrifice one of his own bulls. When Heracles, therefore, arrived in Crete for the purpose of capturing the bull, Minos, far from opposing his design, gladly gave him.",
+    "openingSituation": "Charmed with the splendid animal sent by Poseidon, and eager to possess it, Minos placed it among his herds, and substituted as a sacrifice one of his own bulls.",
+    "centralConflict": "Charmed with the splendid animal sent by Poseidon, and eager to possess it, Minos placed it among his herds, and substituted as a sacrifice one of his own bulls.",
+    "resolution": "But on his return from this encounter he found, to his great grief, that the mares had torn his friend in pieces and devoured him.",
+    "outcome": "But on his return from this encounter he found, to his great grief, that the mares had torn his friend in pieces and devoured him.",
+    "storyline": [
+      "Charmed with the splendid animal sent by Poseidon, and eager to possess it, Minos placed it among his herds, and substituted as a sacrifice one of his own bulls.",
+      "When Heracles, therefore, arrived in Crete for the purpose of capturing the bull, Minos, far from opposing his design, gladly gave him permission to do so.",
+      "He now delivered him up to Eurystheus, who at once set him at liberty, after which he became as ferocious and wild as before, roamed all over Greece into Arcadia, and was.",
+      "This king possessed a breed of wild horses of tremendous size and strength, whose food consisted of human flesh, and all strangers who had the {244} misfortune to enter the.",
+      "When Heracles arrived he first captured the cruel Diomedes himself, and then threw him before his own mares, who, after devouring their master, became perfectly tame and tractable.",
+      "They were then led by Heracles to the sea-shore, when the Bistonians, enraged at the loss of their king, rushed after the hero and attacked him."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14",
+        "gutenberg:ebooks:22381:313.313.2-313.313.2:12e99071",
+        "gutenberg:ebooks:22381:313.313.3-313.313.3:2b3b3902"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:313.313.5-313.313.5:216d9a00"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:313.313.5-313.313.5:216d9a00"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14",
+      "excerpt": "Minos, king of Crete, having vowed to sacrifice to Poseidon any animal which should first appear out of the sea, the god caused a magnificent bull to emerge from the waves in order to test the sincerity of the Cretan king, who, in making.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:313.313.2-313.313.2:12e99071",
+      "excerpt": "The hero not only succeeded in securing the animal, but tamed him so effectually that he rode on his back right across the sea as far as the Peloponnesus. He now delivered him up to Eurystheus, who at once set him at liberty, after which.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:313.313.3-313.313.3:2b3b3902",
+      "excerpt": "8. THE MARES OF DIOMEDES.--The eighth labour of Heracles was to bring to Eurystheus the mares of Diomedes, a son of Ares, and king of the Bistonians, a warlike Thracian tribe. This king possessed a breed of wild horses of tremendous size.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:313.313.4-313.313.4:5a5af723",
+      "excerpt": "When Heracles arrived he first captured the cruel Diomedes himself, and then threw him before his own mares, who, after devouring their master, became perfectly tame and tractable. They were then led by Heracles to the sea-shore, when the.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:313.313.5-313.313.5:216d9a00",
+      "excerpt": "But on his return from this encounter he found, to his great grief, that the mares had torn his friend in pieces and devoured him. After celebrating due funereal rites to the unfortunate Abderus, Heracles built a city in his honour, which.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:313.313.6-313.313.6:3af00035",
+      "excerpt": "It was after the performance of this task that Heracles joined the Argonauts in their expedition to gain possession of the Golden Fleece, and was left behind at Chios, as already narrated. During his wanderings he undertook his ninth.",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:313.313.7-313.313.7:45c0d1f7",
+      "excerpt": "9. THE GIRDLE OF HIPPOLYTE.--The Amazons, who dwelt on the shores of the Black Sea, near the river Thermodon, were a nation of warlike women, renowned for their strength, courage, and great skill in horsemanship. Their queen, Hippolyte,.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:313.313.8-313.313.8:459b9dc5",
+      "excerpt": "Foreseeing that this would be a task of no ordinary difficulty the hero called to his aid a select band of brave companions, with whom he embarked for the Amazonian {245} town Themiscyra. Here they were met by queen Hippolyte, who was so.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
   "initialState": [
     {
-      "subject": "atlas",
-      "predicate": "is introduced in",
-      "object": "Keats.",
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Charmed with the splendid animal sent by Poseidon, and eager to possess it, Minos placed it among his herds, and substituted as a sacrifice one of his own bulls.",
       "evidence": [
-        "gutenberg:ebooks:39250:157.157.1-157.157.1:a11f511e"
+        "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14"
       ]
     }
   ],
   "events": [
     {
       "eventId": "event-001",
-      "actor": "roman-diana",
-      "action": "love",
-      "sourceAction": "loved",
+      "actor": "poseidon",
+      "action": "command",
+      "sourceAction": "sent",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Charmed with the splendid animal sent by Poseidon, and eager to possess it, Minos placed it among his herds, and substituted as a sacrifice one of his own bulls.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:157.157.1-157.157.1:a11f511e"
+          "passageId": "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-002",
       "actor": null,
-      "action": "describe",
-      "sourceAction": "is described",
+      "action": "travel",
+      "sourceAction": "arrived",
       "object": null,
       "target": null,
       "recipient": null,
-      "location": null,
+      "location": "crete",
+      "result": "When Heracles, therefore, arrived in Crete for the purpose of capturing the bull, Minos, far from opposing his design, gladly gave him permission to do so.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:157.157.2-157.157.2:5d509523"
+          "passageId": "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-003",
-      "actor": "atlas",
-      "action": "describe",
-      "sourceAction": "is described",
+      "actor": "theseus",
+      "action": "rescue",
+      "sourceAction": "delivered",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "He now delivered him up to Eurystheus, who at once set him at liberty, after which he became as ferocious and wild as before, roamed all over Greece into Arcadia, and was.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:157.157.3-157.157.3:c8602e37"
+          "passageId": "gutenberg:ebooks:22381:313.313.2-313.313.2:12e99071"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "This king possessed a breed of wild horses of tremendous size and strength, whose food consisted of human flesh, and all strangers who had the {244} misfortune to enter the.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:313.313.3-313.313.3:2b3b3902"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "arrived",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "When Heracles arrived he first captured the cruel Diomedes himself, and then threw him before his own mares, who, after devouring their master, became perfectly tame and tractable.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:313.313.4-313.313.4:5a5af723"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "actor": null,
+      "action": "fight",
+      "sourceAction": "attacked",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "They were then led by Heracles to the sea-shore, when the Bistonians, enraged at the loss of their king, rushed after the hero and attacked him.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:313.313.4-313.313.4:5a5af723"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "actor": null,
+      "action": "flee",
+      "sourceAction": "fled",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He now gave the animals in charge of his friend Abderus, and made such a furious onslaught on his assailants that they turned and fled.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:313.313.4-313.313.4:5a5af723"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "actor": null,
+      "action": "discover",
+      "sourceAction": "found",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "But on his return from this encounter he found, to his great grief, that the mares had torn his friend in pieces and devoured him.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:313.313.5-313.313.5:216d9a00"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
     }
   ],
   "finalState": [
     {
-      "subject": "atlas",
-      "predicate": "is last attested in selected candidate",
-      "object": "Keats.",
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "But on his return from this encounter he found, to his great grief, that the mares had torn his friend in pieces and devoured him.",
       "evidence": [
-        "gutenberg:ebooks:39250:157.157.6-157.157.6:e7a3754f"
+        "gutenberg:ebooks:22381:313.313.14-313.313.14:80f987ee"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "Charmed with the splendid animal sent by Poseidon, and eager to possess it, Minos placed it among his herds, and substituted as a sacrifice one of his own bulls.",
+      "When Heracles, therefore, arrived in Crete for the purpose of capturing the bull, Minos, far from opposing his design, gladly gave him permission to do so.",
+      "He now delivered him up to Eurystheus, who at once set him at liberty, after which he became as ferocious and wild as before, roamed all over Greece into Arcadia, and was.",
+      "This king possessed a breed of wild horses of tremendous size and strength, whose food consisted of human flesh, and all strangers who had the {244} misfortune to enter the.",
+      "When Heracles arrived he first captured the cruel Diomedes himself, and then threw him before his own mares, who, after devouring their master, became perfectly tame and tractable.",
+      "They were then led by Heracles to the sea-shore, when the Bistonians, enraged at the loss of their king, rushed after the hero and attacked him."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
-  "normalizationWarnings": [],
-  "reviewStatus": "approved"
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-cd1ea1e5",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0313-b07cf7",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Cretan bull.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:313.313.1-313.313.1:21472c14",
+        "gutenberg:ebooks:22381:313.313.2-313.313.2:12e99071",
+        "gutenberg:ebooks:22381:313.313.3-313.313.3:2b3b3902"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 171,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 8,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
 }

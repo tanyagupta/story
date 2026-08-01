@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4",
     "gutenberg:ebooks:39250:112.112.4-112.112.4:f272bbbb"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,12 +22,33 @@
   "mythFamilyId": "orpheus-and-eurydice",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-orpheus-and-eurydice-8743a6",
   "characters": [
+    "Apollo",
     "Eurydice",
     "Midas",
     "Orpheus"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "rejected-poor-quality",
+  "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 140,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 5,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

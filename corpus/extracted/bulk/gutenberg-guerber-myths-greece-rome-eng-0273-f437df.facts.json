@@ -1,0 +1,129 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0273-f437df",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Bacchus",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-bacchus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Midas",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:273.273.3-273.273.3:fefc952a"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "roman-bacchus",
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:273.273.4-273.273.4:c5f320e7"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "midas",
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:273.273.4-273.273.4:c5f320e7"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-bacchus",
+      "predicate": "opening_situation",
+      "object": "In the midst of plenty, the gnawing pangs of hunger now made themselves felt; and the precious gift, which prevented his allaying them, soon lost all its attractions.",
+      "evidence": [
+        "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-bacchus",
+      "predicate": "outcome",
+      "object": "Midas hastened off to the river and plunged in its tide, noting that even its sands all turned to gold beneath his tread; since when,",
+      "evidence": [
+        "gutenberg:ebooks:39250:273.273.5-273.273.5:b9d8c476"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-c27bf7f2",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0273-f437df",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "It trickles from his jaws a fluid gold.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9",
+        "gutenberg:ebooks:39250:273.273.2-273.273.2:5ff97374",
+        "gutenberg:ebooks:39250:273.273.3-273.273.3:fefc952a"
+      ],
+      "status": "open"
+    }
+  ]
+}

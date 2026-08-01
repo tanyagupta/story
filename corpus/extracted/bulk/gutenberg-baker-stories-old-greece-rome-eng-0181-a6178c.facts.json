@@ -1,0 +1,114 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0181-a6178c",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:181.181.1-181.181.1:944e313b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Pandora",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:181.181.1-181.181.1:944e313b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "pandora",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "apollo",
+      "sourceAction": "built",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:181.181.9-181.181.9:79d58579"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "found",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:181.181.9-181.181.9:79d58579"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "The city of Delphi, containing the famous oracle of Apollo, was built on the slopes of Mount Parnassus in Phocis.",
+      "evidence": [
+        "gutenberg:ebooks:45489:181.181.1-181.181.1:944e313b"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "When a goatherd ventured near the spot, he found a peculiar vapor arising from the cavern, and as he inhaled it, he was affected in the same way as the animals had been.",
+      "evidence": [
+        "gutenberg:ebooks:45489:181.181.9-181.181.9:79d58579"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-e4e0c368",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0181-a6178c",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "III",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:181.181.1-181.181.1:944e313b",
+        "gutenberg:ebooks:45489:181.181.2-181.181.2:80730bcd",
+        "gutenberg:ebooks:45489:181.181.3-181.181.3:dd7b49de"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:358.358.3-358.358.3:e0f63119",
     "gutenberg:ebooks:39250:358.358.4-358.358.4:f9cbb490"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -18,14 +18,32 @@
   "workingTitle": "Milton.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-heracles-labors-c39f9d",
   "characters": [
-    "Hercules"
+    "Hercules",
+    "Jupiter"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 63,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 3,
+      "conflictSignals": 2,
+      "paragraphCount": 4,
+      "knownMythFamily": true
+    }
+  }
 }

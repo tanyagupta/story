@@ -1,23 +1,35 @@
 {
   "mythId": "bulk-myth-0020",
-  "mythFamilyId": "moore",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-moore-1b7ce5",
-  "title": "Moore.",
+  "mythFamilyId": "perseus-and-medusa",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-perseus-and-medusa-bb09c9",
+  "title": "PERSEUS.",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd",
-      "gutenberg:ebooks:39250:104.104.2-104.104.2:49329cd0",
-      "gutenberg:ebooks:39250:104.104.3-104.104.3:17baff1f",
-      "gutenberg:ebooks:39250:104.104.4-104.104.4:4bea2cfb",
-      "gutenberg:ebooks:39250:104.104.5-104.104.5:2e036f89",
-      "gutenberg:ebooks:39250:104.104.6-104.104.6:40358324"
+      "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+      "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+      "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785",
+      "gutenberg:ebooks:22381:296.296.4-296.296.4:b9dbde32",
+      "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+      "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735",
+      "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7",
+      "gutenberg:ebooks:22381:296.296.8-296.296.8:61778f58",
+      "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+      "gutenberg:ebooks:22381:296.296.10-296.296.10:4140a75a",
+      "gutenberg:ebooks:22381:296.296.11-296.296.11:0a1697eb",
+      "gutenberg:ebooks:22381:296.296.12-296.296.12:43ad3830",
+      "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
+      "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65"
     ]
   },
   "entities": {
     "characters": [
-      "apollo",
-      "helios"
+      "andromeda",
+      "atlas",
+      "hermes",
+      "roman-jupiter",
+      "medusa",
+      "pegasus"
     ],
     "locations": [],
     "objects": [],
@@ -25,34 +37,167 @@
   },
   "entityMappings": [
     {
-      "sourceName": "Apollo",
-      "normalizedId": "apollo",
+      "sourceName": "Andromeda",
+      "normalizedId": "andromeda",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
+          "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f"
         }
       ]
     },
     {
-      "sourceName": "Helios",
-      "normalizedId": "helios",
+      "sourceName": "Atlas",
+      "normalizedId": "atlas",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
+          "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hermes",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Medusa",
+      "normalizedId": "medusa",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pegasus",
+      "normalizedId": "pegasus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f"
         }
       ]
     }
   ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Andromeda, Atlas, Hermes are involved in PERSEUS.. An oracle having foretold to Acrisius that a son of Danae would be the cause of his death, he imprisoned her in a tower of brass in order to keep her secluded from the world. Zeus, however, descended through the roof of the tower in the form of a shower of gold, and the lovely Danae became his bride..",
+    "openingSituation": "An oracle having foretold to Acrisius that a son of Danae would be the cause of his death, he imprisoned her in a tower of brass in order to keep her secluded from the world.",
+    "centralConflict": "An oracle having foretold to Acrisius that a son of Danae would be the cause of his death, he imprisoned her in a tower of brass in order to keep her secluded from the world.",
+    "resolution": "Equipped with the magic helmet and wallet, and armed with a sickle, the gift of Hermes, he attached to his feet the winged sandals, and flew to the abode of the Gorgons, whom he.",
+    "outcome": "Equipped with the magic helmet and wallet, and armed with a sickle, the gift of Hermes, he attached to his feet the winged sandals, and flew to the abode of the Gorgons, whom he.",
+    "storyline": [
+      "An oracle having foretold to Acrisius that a son of Danae would be the cause of his death, he imprisoned her in a tower of brass in order to keep her secluded from the world.",
+      "Zeus, however, descended through the roof of the tower in the form of a shower of gold, and the lovely Danae became his bride.",
+      "Enraged at finding all his precautions unavailing, Acrisius commanded the mother and child to be placed in a chest and thrown into the sea.",
+      "Polydectes eventually became united to Danae, and {206} bestowed upon Perseus an education befitting a hero.",
+      "Perseus started on his expedition, and, guided by Hermes and Pallas-Athene, arrived, after a long journey, in the far-off region, on the borders of Oceanus, where dwelt the.",
+      "He at once applied to them for the necessary information, and on their refusing to grant it he deprived them of their single eye and tooth, which he only restored to them when."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+        "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+        "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+      "excerpt": "Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae, daughter of Acrisius, king of Argos.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+      "excerpt": "An oracle having foretold to Acrisius that a son of Danae would be the cause of his death, he imprisoned her in a tower of brass in order to keep her secluded from the world. Zeus, however, descended through the roof of the tower in the.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785",
+      "excerpt": "For four years Acrisius remained in ignorance of this union, but one evening as he chanced to pass by the brazen chamber, he heard the cry of a young child proceeding from within, which led to the discovery of his daughter's marriage with.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.4-296.296.4:b9dbde32",
+      "excerpt": "But it was not the will of Zeus that they should perish. He directed Poseidon to calm the troubled waters, and caused the chest to float safely to the island of Seriphus. Dictys, brother of Polydectes, king of the island, was fishing on.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+      "excerpt": "Polydectes eventually became united to Danae, and {206} bestowed upon Perseus an education befitting a hero. When he saw his stepson develop into a noble and manly youth he endeavoured to instil into his mind a desire to signalize himself.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735",
+      "excerpt": "For the successful accomplishment of his object it was necessary for him to be provided with a pair of winged sandals, a magic wallet, and the helmet of Aides, which rendered the wearer invisible, all of which were in the keeping of the.",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7",
+      "excerpt": "Equipped with the magic helmet and wallet, and armed with a sickle, the gift of Hermes, he attached to his feet the winged sandals, and flew to the abode of the Gorgons, whom he found fast asleep. Now as Perseus had been warned by his.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.8-296.296.8:61778f58",
+      "excerpt": "His invisible helmet and winged sandals here stood him in good stead; for the former concealed him from the view of the Gorgons, whilst the latter bore him swiftly over land and sea, far beyond the reach of pursuit. In passing over the.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
   "initialState": [
     {
-      "subject": "apollo",
-      "predicate": "is introduced in",
-      "object": "Moore.",
+      "subject": "andromeda",
+      "predicate": "opening_situation",
+      "object": "An oracle having foretold to Acrisius that a son of Danae would be the cause of his death, he imprisoned her in a tower of brass in order to keep her secluded from the world.",
       "evidence": [
-        "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
+        "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f"
       ]
     }
   ],
@@ -60,17 +205,18 @@
     {
       "eventId": "event-001",
       "actor": null,
-      "action": "describe",
-      "sourceAction": "was",
+      "action": "imprison",
+      "sourceAction": "imprisoned",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "An oracle having foretold to Acrisius that a son of Danae would be the cause of his death, he imprisoned her in a tower of brass in order to keep her secluded from the world.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
+          "passageId": "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f"
         }
       ],
       "reviewStatus": "approved"
@@ -78,17 +224,18 @@
     {
       "eventId": "event-002",
       "actor": null,
-      "action": "assist",
-      "sourceAction": "gave",
+      "action": "become",
+      "sourceAction": "become",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Zeus, however, descended through the roof of the tower in the form of a shower of gold, and the lovely Danae became his bride.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:104.104.2-104.104.2:49329cd0"
+          "passageId": "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f"
         }
       ],
       "reviewStatus": "approved"
@@ -96,17 +243,113 @@
     {
       "eventId": "event-003",
       "actor": null,
-      "action": "travel",
-      "sourceAction": "came",
+      "action": "command",
+      "sourceAction": "commanded",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Enraged at finding all his precautions unavailing, Acrisius commanded the mother and child to be placed in a chest and thrown into the sea.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:104.104.3-104.104.3:17baff1f"
+          "passageId": "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-004",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Polydectes eventually became united to Danae, and {206} bestowed upon Perseus an education befitting a hero.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-005",
+      "actor": "hermes",
+      "action": "travel",
+      "sourceAction": "arrived",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Perseus started on his expedition, and, guided by Hermes and Pallas-Athene, arrived, after a long journey, in the far-off region, on the borders of Oceanus, where dwelt the.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-006",
+      "actor": null,
+      "action": "give",
+      "sourceAction": "gave",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He at once applied to them for the necessary information, and on their refusing to grant it he deprived them of their single eye and tooth, which he only restored to them when.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-007",
+      "actor": null,
+      "action": "receive",
+      "sourceAction": "obtained",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He then proceeded to the abode of the Nymphs, from whom he obtained the objects indispensable for his purpose.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-008",
+      "actor": "hermes",
+      "action": "discover",
+      "sourceAction": "found",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Equipped with the magic helmet and wallet, and armed with a sickle, the gift of Hermes, he attached to his feet the winged sandals, and flew to the abode of the Gorgons, whom he.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7"
         }
       ],
       "reviewStatus": "approved"
@@ -114,27 +357,51 @@
   ],
   "finalState": [
     {
-      "subject": "apollo",
-      "predicate": "is last attested in selected candidate",
-      "object": "Moore.",
+      "subject": "andromeda",
+      "predicate": "outcome",
+      "object": "Equipped with the magic helmet and wallet, and armed with a sickle, the gift of Hermes, he attached to his feet the winged sandals, and flew to the abode of the Gorgons, whom he.",
       "evidence": [
-        "gutenberg:ebooks:39250:104.104.6-104.104.6:40358324"
+        "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "An oracle having foretold to Acrisius that a son of Danae would be the cause of his death, he imprisoned her in a tower of brass in order to keep her secluded from the world.",
+      "Zeus, however, descended through the roof of the tower in the form of a shower of gold, and the lovely Danae became his bride.",
+      "Enraged at finding all his precautions unavailing, Acrisius commanded the mother and child to be placed in a chest and thrown into the sea.",
+      "Polydectes eventually became united to Danae, and {206} bestowed upon Perseus an education befitting a hero.",
+      "Perseus started on his expedition, and, guided by Hermes and Pallas-Athene, arrived, after a long journey, in the far-off region, on the borders of Oceanus, where dwelt the.",
+      "He at once applied to them for the necessary information, and on their refusing to grant it he deprived them of their single eye and tooth, which he only restored to them when."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
   "normalizationWarnings": [],
+  "semanticQuality": {
+    "score": 179,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
   "reviewStatus": "approved"
 }

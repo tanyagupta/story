@@ -14,7 +14,7 @@
     "gutenberg:ebooks:39250:41.41.9-41.41.9:b3626c42",
     "gutenberg:ebooks:39250:41.41.10-41.41.10:b1f90c99"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -27,9 +27,35 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "that-for-the-stone-his-child-behind-remaind",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-that-for-the-stone-his-child-behind-remaind-090733",
-  "characters": [],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "characters": [
+    "Ceres",
+    "Juno",
+    "Jupiter",
+    "Neptune",
+    "Pluto"
+  ],
+  "processingStatus": "rejected-poor-quality",
+  "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 181,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 8,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -22,7 +22,7 @@
     "gutenberg:ebooks:39250:501.501.17-501.501.17:a5d1393c",
     "gutenberg:ebooks:39250:501.501.18-501.501.18:b24dca1c"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -36,12 +36,39 @@
   "mythFamilyId": "europa",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-europa-14c60a",
   "characters": [
+    "Apollo",
     "Cadmus",
+    "Daphne",
     "Europa",
-    "Jupiter"
+    "Eurydice",
+    "Helios",
+    "Jupiter",
+    "Mercury",
+    "Orpheus",
+    "Ulysses"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 162,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 6,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

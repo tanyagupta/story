@@ -1,0 +1,115 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0295-c631e1",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Ceres",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ceres",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "ceres",
+      "sourceAction": "arrived",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "stole",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "ceres",
+      "predicate": "opening_situation",
+      "object": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "evidence": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "ceres",
+      "predicate": "outcome",
+      "object": "The queen, Metaneira, who had thought it somewhat imprudent to leave the child thus alone with a stranger, now stole noiselessly into the apartment, and with a wild shriek rushed.",
+      "evidence": [
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-cd319c73",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0295-c631e1",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Triptolemus.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
+        "gutenberg:ebooks:39250:295.295.2-295.295.2:230516c3",
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ],
+      "status": "open"
+    }
+  ]
+}

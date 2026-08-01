@@ -50,10 +50,34 @@
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-b492c9",
   "characters": [
-    "Achilles"
+    "Achilles",
+    "Hector",
+    "Hercules",
+    "Jupiter",
+    "Mercury",
+    "Paris",
+    "Ulysses",
+    "Vulcan"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 315,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 8,
+      "actionBearingSentences": 19,
+      "conflictSignals": 10,
+      "paragraphCount": 32,
+      "knownMythFamily": true
+    }
+  }
 }

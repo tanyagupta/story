@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:200.200.5-200.200.5:378087f3",
     "gutenberg:ebooks:39250:200.200.6-200.200.6:892f7201"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -20,17 +20,36 @@
   "workingTitle": "Lewis Morris.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "eros-and-psyche",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-eros-and-psyche-51b4e5",
   "characters": [
     "Ceres",
     "Cupid",
+    "Hades",
+    "Proserpina",
     "Psyche",
     "Venus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 107,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "actionBearingSentences": 3,
+      "conflictSignals": 3,
+      "paragraphCount": 6,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -28,7 +28,7 @@
     "gutenberg:ebooks:22381:322.322.23-322.322.23:120d4dcb",
     "gutenberg:ebooks:22381:322.322.24-322.322.24:7a162728"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -38,14 +38,37 @@
   "workingTitle": "Aethra.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "theseus-and-minotaur",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-theseus-and-minotaur-d10908",
   "characters": [
+    "Apollo",
+    "Ariadne",
+    "Daedalus",
+    "Dionysus",
+    "Medea",
+    "Minotaur",
     "Theseus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 423,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 7,
+      "actionBearingSentences": 33,
+      "conflictSignals": 14,
+      "paragraphCount": 24,
+      "knownMythFamily": true
+    }
+  }
 }

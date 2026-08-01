@@ -1,34 +1,30 @@
 {
   "mythId": "bulk-myth-0013",
-  "mythFamilyId": "pope",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-pope-559a17",
-  "title": "Pope.",
+  "mythFamilyId": "theseus-and-minotaur",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-theseus-and-minotaur-5f3dd6",
+  "title": "Part II",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef",
-      "gutenberg:ebooks:39250:76.76.2-76.76.2:f136ac88",
-      "gutenberg:ebooks:39250:76.76.3-76.76.3:180b680d",
-      "gutenberg:ebooks:39250:76.76.4-76.76.4:5479a1b0",
-      "gutenberg:ebooks:39250:76.76.5-76.76.5:2604d353",
-      "gutenberg:ebooks:39250:76.76.6-76.76.6:4e5a757b",
-      "gutenberg:ebooks:39250:76.76.7-76.76.7:d2c65865",
-      "gutenberg:ebooks:39250:76.76.8-76.76.8:79f03266",
-      "gutenberg:ebooks:39250:76.76.9-76.76.9:740c5f83",
-      "gutenberg:ebooks:39250:76.76.10-76.76.10:29e649ae",
-      "gutenberg:ebooks:39250:76.76.11-76.76.11:298ec296",
-      "gutenberg:ebooks:39250:76.76.12-76.76.12:7d878f51",
-      "gutenberg:ebooks:39250:76.76.13-76.76.13:48b8b737",
-      "gutenberg:ebooks:39250:76.76.14-76.76.14:977cdcef"
+      "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63",
+      "gutenberg:ebooks:45489:167.167.2-167.167.2:b014af21",
+      "gutenberg:ebooks:45489:167.167.3-167.167.3:28e1f90a",
+      "gutenberg:ebooks:45489:167.167.4-167.167.4:5aeb07cd",
+      "gutenberg:ebooks:45489:167.167.5-167.167.5:b4aa6606",
+      "gutenberg:ebooks:45489:167.167.6-167.167.6:2ff5185f",
+      "gutenberg:ebooks:45489:167.167.7-167.167.7:9752d0dc",
+      "gutenberg:ebooks:45489:167.167.8-167.167.8:d5c3bd93",
+      "gutenberg:ebooks:45489:167.167.9-167.167.9:7216055e"
     ]
   },
   "entities": {
     "characters": [
-      "arachne",
-      "europa",
-      "roman-jupiter",
-      "roman-minerva",
-      "roman-neptune"
+      "ariadne",
+      "roman-bacchus",
+      "roman-hercules",
+      "hippolytus",
+      "minotaur",
+      "theseus"
     ],
     "locations": [],
     "objects": [],
@@ -36,146 +32,391 @@
   },
   "entityMappings": [
     {
-      "sourceName": "Arachne",
-      "normalizedId": "arachne",
+      "sourceName": "Ariadne",
+      "normalizedId": "ariadne",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+          "passageId": "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63"
         }
       ]
     },
     {
-      "sourceName": "Europa",
-      "normalizedId": "europa",
+      "sourceName": "Bacchus",
+      "normalizedId": "roman-bacchus",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+          "passageId": "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63"
         }
       ]
     },
     {
-      "sourceName": "Jupiter",
-      "normalizedId": "roman-jupiter",
+      "sourceName": "Hercules",
+      "normalizedId": "roman-hercules",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+          "passageId": "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63"
         }
       ]
     },
     {
-      "sourceName": "Minerva",
-      "normalizedId": "roman-minerva",
+      "sourceName": "Hippolytus",
+      "normalizedId": "hippolytus",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+          "passageId": "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63"
         }
       ]
     },
     {
-      "sourceName": "Neptune",
-      "normalizedId": "roman-neptune",
+      "sourceName": "Minotaur",
+      "normalizedId": "minotaur",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+          "passageId": "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63"
+        }
+      ]
+    },
+    {
+      "sourceName": "Theseus",
+      "normalizedId": "theseus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63"
         }
       ]
     }
   ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Ariadne, Bacchus, Hercules are involved in Part II. According to the custom, the ship hoisted only black sails, which Theseus promised to change for white ones when he returned unharmed, having slain the monster. Nothing befell the voyagers until they reached the coast of Crete, but here the ship was stopped by the giant Talus, whose body was made of brass.",
+    "openingSituation": "According to the custom, the ship hoisted only black sails, which Theseus promised to change for white ones when he returned unharmed, having slain the monster.",
+    "centralConflict": "According to the custom, the ship hoisted only black sails, which Theseus promised to change for white ones when he returned unharmed, having slain the monster.",
+    "resolution": "He assured the maiden that his father would send her a generous reward of gold and jewels; but she refused to accept any return for her kindness until Theseus ventured to suggest.",
+    "outcome": "He assured the maiden that his father would send her a generous reward of gold and jewels; but she refused to accept any return for her kindness until Theseus ventured to suggest.",
+    "storyline": [
+      "According to the custom, the ship hoisted only black sails, which Theseus promised to change for white ones when he returned unharmed, having slain the monster.",
+      "Nothing befell the voyagers until they reached the coast of Crete, but here the ship was stopped by the giant Talus, whose body was made of brass and was always so red hot that.",
+      "As he knew that the black-sailed ship brought to his master, King Minos, the yearly tribute from the Athenians, he let the vessel pass; and the voyagers, having landed, were led.",
+      "The cruel mouth of Minos relaxed into a smile when he saw the youths and maidens, for they were all young and beautiful,--the very flower of the Athenians,--and it gave him.",
+      "His sword had been taken away, and he had no other weapon with which to fight the monster, so his confidence was somewhat shaken; and as he watched the night deepening the gloom.",
+      "To Theseus's great surprise she gave him a sharp sword and a ball of thread--two things that she assured him were necessary for him to have if he hoped to come alive out of the."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63",
+        "gutenberg:ebooks:45489:167.167.2-167.167.2:b014af21",
+        "gutenberg:ebooks:45489:167.167.3-167.167.3:28e1f90a"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:167.167.4-167.167.4:5aeb07cd"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:167.167.4-167.167.4:5aeb07cd"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63",
+      "excerpt": "When Theseus heard the story of the Minotaur and its wonderful labyrinth, he determined that it should no longer exact its yearly tribute of human lives, for he would offer himself as one of the victims and end the terrible sacrifice by.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:167.167.2-167.167.2:b014af21",
+      "excerpt": "Nothing befell the voyagers until they reached the coast of Crete, but here the ship was stopped by the giant Talus, whose body was made of brass and was always so red hot that if he held any one in his embrace, the victim was burnt to.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:167.167.3-167.167.3:28e1f90a",
+      "excerpt": "When the young hero asked that he might go first into the labyrinth, and alone, King Minos smiled at what he considered a child's boast--for he had heard that Theseus hoped to slay the Minotaur; but when he learned that the bold youth was.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:167.167.4-167.167.4:5aeb07cd",
+      "excerpt": "Theseus was very grateful to Ariadne for her assistance, without which he would never have been able to encounter the monster or to escape from its wonderful labyrinth. He assured the maiden that his father would send her a generous.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:167.167.5-167.167.5:b4aa6606",
+      "excerpt": "With the help of the thread, which he had never lost, even in the thick of the fight, Theseus was able to retrace his steps and to reach the entrance to the labyrinth, where he found Ariadne anxiously awaiting him. At the sight of the.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:167.167.6-167.167.6:2ff5185f",
+      "excerpt": "Only once did the vessel stop on its swift voyage homeward, and this was at the island of Naxos. Here the whole company landed to explore the beauties of the island, and to find some spring from which to get a supply of fresh water..",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:167.167.7-167.167.7:9752d0dc",
+      "excerpt": "The Athenians had been so eager to return to their native city that they had no thought but to reach home as quickly as the vessel could bear them; and Theseus forgot his promise to his father that, in case of success, white sails should.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:167.167.8-167.167.8:d5c3bd93",
+      "excerpt": "When Theseus entered Athens in triumph, the first news he heard was the tidings of his father's death; and realizing that it had occurred through his forgetfulness, he was filled with remorse. Though this misfortune made him king of.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
   "initialState": [
     {
-      "subject": "arachne",
-      "predicate": "is introduced in",
-      "object": "Pope.",
+      "subject": "ariadne",
+      "predicate": "opening_situation",
+      "object": "According to the custom, the ship hoisted only black sails, which Theseus promised to change for white ones when he returned unharmed, having slain the monster.",
       "evidence": [
-        "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+        "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63"
       ]
     }
   ],
   "events": [
     {
       "eventId": "event-001",
-      "actor": "roman-minerva",
-      "action": "capture",
-      "sourceAction": "seized",
-      "object": null,
+      "actor": "theseus",
+      "action": "kill",
+      "sourceAction": "slain",
+      "object": "ship",
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "According to the custom, the ship hoisted only black sails, which Theseus promised to change for white ones when he returned unharmed, having slain the monster.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:76.76.1-76.76.1:1d32a7ef"
+          "passageId": "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-002",
       "actor": null,
       "action": "travel",
-      "sourceAction": "came",
-      "object": null,
+      "sourceAction": "reached",
+      "object": "ship",
       "target": null,
       "recipient": null,
-      "location": null,
+      "location": "crete",
+      "result": "Nothing befell the voyagers until they reached the coast of Crete, but here the ship was stopped by the giant Talus, whose body was made of brass and was always so red hot that.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:76.76.2-76.76.2:f136ac88"
+          "passageId": "gutenberg:ebooks:45489:167.167.2-167.167.2:b014af21"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-003",
       "actor": null,
-      "action": "describe",
-      "sourceAction": "is described",
-      "object": null,
+      "action": "travel",
+      "sourceAction": "sailed",
+      "object": "ship",
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "As he knew that the black-sailed ship brought to his master, King Minos, the yearly tribute from the Athenians, he let the vessel pass; and the voyagers, having landed, were led.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:76.76.3-76.76.3:180b680d"
+          "passageId": "gutenberg:ebooks:45489:167.167.2-167.167.2:b014af21"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": null,
+      "action": "give",
+      "sourceAction": "gave",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The cruel mouth of Minos relaxed into a smile when he saw the youths and maidens, for they were all young and beautiful,--the very flower of the Athenians,--and it gave him.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:167.167.2-167.167.2:b014af21"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": null,
+      "action": "fight",
+      "sourceAction": "battle",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "His sword had been taken away, and he had no other weapon with which to fight the monster, so his confidence was somewhat shaken; and as he watched the night deepening the gloom.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:167.167.3-167.167.3:28e1f90a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "actor": "theseus",
+      "action": "give",
+      "sourceAction": "gave",
+      "object": "thread",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "To Theseus's great surprise she gave him a sharp sword and a ball of thread--two things that she assured him were necessary for him to have if he hoped to come alive out of the.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:167.167.3-167.167.3:28e1f90a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "actor": "minotaur",
+      "action": "kill",
+      "sourceAction": "slain",
+      "object": "thread",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "She bade him fasten one end of the thread to the entrance of the cave, and keep the ball tight in his hand, so that it might lead him back through the intricate windings after he.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:167.167.3-167.167.3:28e1f90a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "actor": "theseus",
+      "action": "refuse",
+      "sourceAction": "refused",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "athens",
+      "result": "He assured the maiden that his father would send her a generous reward of gold and jewels; but she refused to accept any return for her kindness until Theseus ventured to suggest.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:167.167.4-167.167.4:5aeb07cd"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
     }
   ],
   "finalState": [
     {
-      "subject": "arachne",
-      "predicate": "is last attested in selected candidate",
-      "object": "Pope.",
+      "subject": "ariadne",
+      "predicate": "outcome",
+      "object": "He assured the maiden that his father would send her a generous reward of gold and jewels; but she refused to accept any return for her kindness until Theseus ventured to suggest.",
       "evidence": [
-        "gutenberg:ebooks:39250:76.76.14-76.76.14:977cdcef"
+        "gutenberg:ebooks:45489:167.167.9-167.167.9:7216055e"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "According to the custom, the ship hoisted only black sails, which Theseus promised to change for white ones when he returned unharmed, having slain the monster.",
+      "Nothing befell the voyagers until they reached the coast of Crete, but here the ship was stopped by the giant Talus, whose body was made of brass and was always so red hot that.",
+      "As he knew that the black-sailed ship brought to his master, King Minos, the yearly tribute from the Athenians, he let the vessel pass; and the voyagers, having landed, were led.",
+      "The cruel mouth of Minos relaxed into a smile when he saw the youths and maidens, for they were all young and beautiful,--the very flower of the Athenians,--and it gave him.",
+      "His sword had been taken away, and he had no other weapon with which to fight the monster, so his confidence was somewhat shaken; and as he watched the night deepening the gloom.",
+      "To Theseus's great surprise she gave him a sharp sword and a ball of thread--two things that she assured him were necessary for him to have if he hoped to come alive out of the."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-baker-stories-old-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
-  "normalizationWarnings": [],
-  "reviewStatus": "approved"
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-bbe228ea",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0167-9a34a2",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Part II",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63",
+        "gutenberg:ebooks:45489:167.167.2-167.167.2:b014af21",
+        "gutenberg:ebooks:45489:167.167.3-167.167.3:28e1f90a"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 189,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
 }

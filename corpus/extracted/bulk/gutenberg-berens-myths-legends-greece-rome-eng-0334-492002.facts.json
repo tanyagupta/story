@@ -1,0 +1,124 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0334-492002",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Achilles",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:334.334.1-334.334.1:aadb3998"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "achilles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Helen",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:334.334.1-334.334.1:aadb3998"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "helen",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Odysseus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:334.334.1-334.334.1:aadb3998"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "odysseus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ulysses",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:334.334.1-334.334.1:aadb3998"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "roman-ulysses",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "helen",
+      "sourceAction": "bound",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:334.334.2-334.334.2:b4501445"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "achilles",
+      "predicate": "opening_situation",
+      "object": "Many of those who volunteered {287} their services were former suitors of the fair Helen, and were therefore bound by their oath to support the cause of Menelaus; others joined.",
+      "evidence": [
+        "gutenberg:ebooks:22381:334.334.1-334.334.1:aadb3998"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "achilles",
+      "predicate": "outcome",
+      "object": "Many of those who volunteered {287} their services were former suitors of the fair Helen, and were therefore bound by their oath to support the cause of Menelaus; others joined.",
+      "evidence": [
+        "gutenberg:ebooks:22381:334.334.3-334.334.3:3f57d733"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-ee416776",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0334-492002",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Helen proceeded to Troy.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:334.334.1-334.334.1:aadb3998",
+        "gutenberg:ebooks:22381:334.334.2-334.334.2:b4501445",
+        "gutenberg:ebooks:22381:334.334.3-334.334.3:3f57d733"
+      ],
+      "status": "open"
+    }
+  ]
+}

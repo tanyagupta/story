@@ -1,0 +1,211 @@
+{
+  "mythId": "bulk-myth-0242",
+  "mythFamilyId": "chafe-blustering-round-their-prison-door",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-chafe-blustering-round-their-prison-door-7ebac7",
+  "title": "Chafe blustering round their prison door",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:335.335.1-335.335.1:80d236a6",
+      "gutenberg:ebooks:39250:335.335.2-335.335.2:2a2698af",
+      "gutenberg:ebooks:39250:335.335.3-335.335.3:f8940886",
+      "gutenberg:ebooks:39250:335.335.4-335.335.4:352db75e",
+      "gutenberg:ebooks:39250:335.335.5-335.335.5:5b7d62ec"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The selected source participants are involved in Chafe blustering round their prison door. Although very unruly indeed, the winds always obeyed their father's voice, and at his command, however reluctant, returned to their gloomy prison, where they expended their. According to his own mood, or in conformity with the gods' request, Æolus either sent the.",
+    "openingSituation": "Although very unruly indeed, the winds always obeyed their father's voice, and at his command, however reluctant, returned to their gloomy prison, where they expended their.",
+    "centralConflict": "According to his own mood, or in conformity with the gods' request, Æolus either sent the gentler winds to play among the flowers, or, recalling them, let the fiercest of all his.",
+    "resolution": "According to his own mood, or in conformity with the gods' request, Æolus either sent the gentler winds to play among the flowers, or, recalling them, let the fiercest of all his.",
+    "outcome": "According to his own mood, or in conformity with the gods' request, Æolus either sent the gentler winds to play among the flowers, or, recalling them, let the fiercest of all his.",
+    "storyline": [
+      "Although very unruly indeed, the winds always obeyed their father's voice, and at his command, however reluctant, returned to their gloomy prison, where they expended their.",
+      "According to his own mood, or in conformity with the gods' request, Æolus either sent the gentler winds to play among the flowers, or, recalling them, let the fiercest of all his."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:335.335.1-335.335.1:80d236a6",
+        "gutenberg:ebooks:39250:335.335.2-335.335.2:2a2698af",
+        "gutenberg:ebooks:39250:335.335.3-335.335.3:f8940886"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:335.335.3-335.335.3:f8940886"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:335.335.4-335.335.4:352db75e"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:335.335.4-335.335.4:352db75e"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:335.335.4-335.335.4:352db75e"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:335.335.1-335.335.1:80d236a6",
+      "excerpt": "He, throned on high, the scepter sways, Controls their moods, their wrath allays.\"",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:335.335.2-335.335.2:2a2698af",
+      "excerpt": "Virgil (Conington's tr.).",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:335.335.3-335.335.3:f8940886",
+      "excerpt": "Although very unruly indeed, the winds always obeyed their father's voice, and at his command, however reluctant, returned to their gloomy prison, where they expended their impotent rage in trying to shake its strong walls.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:335.335.4-335.335.4:352db75e",
+      "excerpt": "According to his own mood, or in conformity with the gods' request, Æolus either sent the gentler winds to play among the flowers, or, recalling them, let the fiercest of all his children free, with orders to pile up the waves.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:335.335.5-335.335.5:5b7d62ec",
+      "excerpt": "\"Now rising all at once, and unconfin'd, From every quarter roars the rushing wind: First, from the wide Atlantic Ocean's bed, Tempestuous Corus rears his dreadful head, Th' obedient deep his potent breath controls, And, mountain-high,.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Although very unruly indeed, the winds always obeyed their father's voice, and at his command, however reluctant, returned to their gloomy prison, where they expended their.",
+      "evidence": [
+        "gutenberg:ebooks:39250:335.335.1-335.335.1:80d236a6"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "return",
+      "sourceAction": "returned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Although very unruly indeed, the winds always obeyed their father's voice, and at his command, however reluctant, returned to their gloomy prison, where they expended their.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:335.335.3-335.335.3:f8940886"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "actor": null,
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "According to his own mood, or in conformity with the gods' request, Æolus either sent the gentler winds to play among the flowers, or, recalling them, let the fiercest of all his.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:335.335.4-335.335.4:352db75e"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "According to his own mood, or in conformity with the gods' request, Æolus either sent the gentler winds to play among the flowers, or, recalling them, let the fiercest of all his.",
+      "evidence": [
+        "gutenberg:ebooks:39250:335.335.5-335.335.5:5b7d62ec"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Although very unruly indeed, the winds always obeyed their father's voice, and at his command, however reluctant, returned to their gloomy prison, where they expended their.",
+      "According to his own mood, or in conformity with the gods' request, Æolus either sent the gentler winds to play among the flowers, or, recalling them, let the fiercest of all his."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-e9cbb294",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0335-6d05bf",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Chafe blustering round their prison door",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:335.335.1-335.335.1:80d236a6",
+        "gutenberg:ebooks:39250:335.335.2-335.335.2:2a2698af",
+        "gutenberg:ebooks:39250:335.335.3-335.335.3:f8940886"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 55,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

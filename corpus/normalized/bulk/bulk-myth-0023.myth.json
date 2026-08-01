@@ -1,19 +1,31 @@
 {
   "mythId": "bulk-myth-0023",
-  "mythFamilyId": "apollo-and-daphne",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-3e188b",
-  "title": "Melanippides.",
+  "mythFamilyId": "niobe",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-niobe-2db72e",
+  "title": "Tartarus.",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:108.108.1-108.108.1:b53dea99",
-      "gutenberg:ebooks:39250:108.108.2-108.108.2:a32206bc",
-      "gutenberg:ebooks:39250:108.108.3-108.108.3:e07a19b0"
+      "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52",
+      "gutenberg:ebooks:45489:111.111.2-111.111.2:eb210867",
+      "gutenberg:ebooks:45489:111.111.3-111.111.3:2152c217",
+      "gutenberg:ebooks:45489:111.111.4-111.111.4:3f795a30",
+      "gutenberg:ebooks:45489:111.111.5-111.111.5:e03151a6",
+      "gutenberg:ebooks:45489:111.111.6-111.111.6:315664df",
+      "gutenberg:ebooks:45489:111.111.7-111.111.7:531b3adf",
+      "gutenberg:ebooks:45489:111.111.8-111.111.8:eb4a1f8a",
+      "gutenberg:ebooks:45489:111.111.9-111.111.9:a6e50917",
+      "gutenberg:ebooks:45489:111.111.10-111.111.10:728cc960"
     ]
   },
   "entities": {
     "characters": [
-      "apollo"
+      "ceres",
+      "hades",
+      "roman-juno",
+      "roman-jupiter",
+      "roman-mercury",
+      "niobe"
     ],
     "locations": [],
     "objects": [],
@@ -21,24 +33,167 @@
   },
   "entityMappings": [
     {
-      "sourceName": "Apollo",
-      "normalizedId": "apollo",
+      "sourceName": "Ceres",
+      "normalizedId": "ceres",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:108.108.1-108.108.1:b53dea99"
+          "passageId": "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hades",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
+        }
+      ]
+    },
+    {
+      "sourceName": "Juno",
+      "normalizedId": "roman-juno",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
+        }
+      ]
+    },
+    {
+      "sourceName": "Niobe",
+      "normalizedId": "niobe",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
         }
       ]
     }
   ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Ceres, Hades, Juno are involved in Tartarus.. Fearing for his life, he confided to his daughters what the oracle had foretold, and gave them each a dagger, bidding them slay their husbands. On the evening of the wedding, when the sons of Ægyptus were heavy with wine, the new-made wives stole in upon them and killed them as they slept. This son-in-law was.",
+    "openingSituation": "Fearing for his life, he confided to his daughters what the oracle had foretold, and gave them each a dagger, bidding them slay their husbands.",
+    "centralConflict": "On the evening of the wedding, when the sons of Ægyptus were heavy with wine, the new-made wives stole in upon them and killed them as they slept.",
+    "resolution": "The inhuman Tantalus was condemned to the torments of Tartarus, where he stands up to his chin in a clear stream.",
+    "outcome": "The inhuman Tantalus was condemned to the torments of Tartarus, where he stands up to his chin in a clear stream.",
+    "storyline": [
+      "Fearing for his life, he confided to his daughters what the oracle had foretold, and gave them each a dagger, bidding them slay their husbands.",
+      "On the evening of the wedding, when the sons of Ægyptus were heavy with wine, the new-made wives stole in upon them and killed them as they slept.",
+      "This son-in-law was eager to avenge his brothers' murder, and having sought out the wicked Danaüs, fulfilled the prophecy by killing the king with the very dagger intended for.",
+      "The gods punished the cruel daughters--except Hypermnestra, who had saved her husband--by condemning them to labor in Tartarus at their impossible task.",
+      "He ill-treated his subjects, defied the gods, and dared to make his own will the religion of his kingdom.",
+      "But the gods were not deceived, and left the meal untouched,--all except poor Ceres, who, still mourning over her daughter's detention in Hades, did not realize what was."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52",
+        "gutenberg:ebooks:45489:111.111.2-111.111.2:eb210867",
+        "gutenberg:ebooks:45489:111.111.3-111.111.3:2152c217"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:111.111.2-111.111.2:eb210867"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:111.111.2-111.111.2:eb210867"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52",
+      "excerpt": "As soon as the gates close on the newly-admitted soul, there is a renewed clamor of voices, while heart-breaking sighs and groans mingle with the curses of those who in their misery dare to defy the gods. And beneath all the awful sounds.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:111.111.2-111.111.2:eb210867",
+      "excerpt": "Near the Danaïdes stands Tantalus, the father of Niobe, who on earth was a most inhuman and brutal king. He ill-treated his subjects, defied the gods, and dared to make his own will the religion of his kingdom. He boasted that the gods.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:111.111.3-111.111.3:2152c217",
+      "excerpt": "Not far from Tantalus is Salmoneus, also a king, who dared to challenge the gods by impersonating Jupiter. He made a huge bridge of brass, and drove heavily over it while he threw lighted torches among the people who were waiting below,.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:111.111.4-111.111.4:3f795a30",
+      "excerpt": "Another unhappy king is Sisyphus, who, when ruler of Corinth, became a famous robber, and in the pride of his great wealth dared to set the gods at naught. Therefore he was consigned to Tartarus, and his punishment is to roll an immense.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:111.111.5-111.111.5:e03151a6",
+      "excerpt": "\"With many a weary step, and many a groan, Up the high hill he heaves a huge round stone.\"",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:111.111.6-111.111.6:315664df",
+      "excerpt": "--HOMER--Pope's translation.",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:111.111.7-111.111.7:531b3adf",
+      "excerpt": "Beyond Sisyphus lies Tityus, a giant whose huge body covers nine acres of ground. He was condemned to the blackness of Tartarus because he dared to affront a goddess with his addresses, and so was doomed to suffer, like Prometheus, by.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:111.111.8-111.111.8:eb4a1f8a",
+      "excerpt": "If any one could follow the course of the gentle Lethe River, it would lead beyond the sunless realm of Pluto to a quiet and far-distant valley, where, in a soundless cave, live Somnus, the god of sleep, and his twin brother Mors, god of.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
   "initialState": [
     {
-      "subject": "apollo",
-      "predicate": "is introduced in",
-      "object": "Melanippides.",
+      "subject": "ceres",
+      "predicate": "opening_situation",
+      "object": "Fearing for his life, he confided to his daughters what the oracle had foretold, and gave them each a dagger, bidding them slay their husbands.",
       "evidence": [
-        "gutenberg:ebooks:39250:108.108.1-108.108.1:b53dea99"
+        "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
       ]
     }
   ],
@@ -46,81 +201,223 @@
     {
       "eventId": "event-001",
       "actor": null,
-      "action": "describe",
-      "sourceAction": "is described",
+      "action": "give",
+      "sourceAction": "gave",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Fearing for his life, he confided to his daughters what the oracle had foretold, and gave them each a dagger, bidding them slay their husbands.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:108.108.1-108.108.1:b53dea99"
+          "passageId": "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-002",
       "actor": null,
-      "action": "describe",
-      "sourceAction": "is described",
+      "action": "steal",
+      "sourceAction": "stole",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "On the evening of the wedding, when the sons of Ægyptus were heavy with wine, the new-made wives stole in upon them and killed them as they slept.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:108.108.2-108.108.2:a32206bc"
+          "passageId": "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-003",
       "actor": null,
-      "action": "describe",
-      "sourceAction": "was",
+      "action": "complete_task",
+      "sourceAction": "fulfilled",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "This son-in-law was eager to avenge his brothers' murder, and having sought out the wicked Danaüs, fulfilled the prophecy by killing the king with the very dagger intended for.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:108.108.3-108.108.3:e07a19b0"
+          "passageId": "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": null,
+      "action": "rescue",
+      "sourceAction": "saved",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The gods punished the cruel daughters--except Hypermnestra, who had saved her husband--by condemning them to labor in Tartarus at their impossible task.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": null,
+      "action": "challenge",
+      "sourceAction": "dared",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He ill-treated his subjects, defied the gods, and dared to make his own will the religion of his kingdom.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:111.111.2-111.111.2:eb210867"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "actor": "ceres",
+      "action": "deceive",
+      "sourceAction": "deceived",
+      "object": null,
+      "target": "hades",
+      "recipient": null,
+      "location": "underworld",
+      "result": "But the gods were not deceived, and left the meal untouched,--all except poor Ceres, who, still mourning over her daughter's detention in Hades, did not realize what was.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:111.111.2-111.111.2:eb210867"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "actor": "ceres",
+      "action": "give",
+      "sourceAction": "gave",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "When the gods restored Pelops to life, Ceres was very sorry for her carelessness and gave him a shoulder of ivory.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:111.111.2-111.111.2:eb210867"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "actor": null,
+      "action": "punish",
+      "sourceAction": "condemned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The inhuman Tantalus was condemned to the torments of Tartarus, where he stands up to his chin in a clear stream.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:111.111.2-111.111.2:eb210867"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
     }
   ],
   "finalState": [
     {
-      "subject": "apollo",
-      "predicate": "is last attested in selected candidate",
-      "object": "Melanippides.",
+      "subject": "ceres",
+      "predicate": "outcome",
+      "object": "The inhuman Tantalus was condemned to the torments of Tartarus, where he stands up to his chin in a clear stream.",
       "evidence": [
-        "gutenberg:ebooks:39250:108.108.3-108.108.3:e07a19b0"
+        "gutenberg:ebooks:45489:111.111.10-111.111.10:728cc960"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "Fearing for his life, he confided to his daughters what the oracle had foretold, and gave them each a dagger, bidding them slay their husbands.",
+      "On the evening of the wedding, when the sons of Ægyptus were heavy with wine, the new-made wives stole in upon them and killed them as they slept.",
+      "This son-in-law was eager to avenge his brothers' murder, and having sought out the wicked Danaüs, fulfilled the prophecy by killing the king with the very dagger intended for.",
+      "The gods punished the cruel daughters--except Hypermnestra, who had saved her husband--by condemning them to labor in Tartarus at their impossible task.",
+      "He ill-treated his subjects, defied the gods, and dared to make his own will the religion of his kingdom.",
+      "But the gods were not deceived, and left the meal untouched,--all except poor Ceres, who, still mourning over her daughter's detention in Hades, did not realize what was."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-baker-stories-old-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
-  "normalizationWarnings": [],
-  "reviewStatus": "approved"
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-841438c9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0111-79f74b",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Tartarus.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:111.111.1-111.111.1:345a6f52",
+        "gutenberg:ebooks:45489:111.111.2-111.111.2:eb210867",
+        "gutenberg:ebooks:45489:111.111.3-111.111.3:2152c217"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 179,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
 }

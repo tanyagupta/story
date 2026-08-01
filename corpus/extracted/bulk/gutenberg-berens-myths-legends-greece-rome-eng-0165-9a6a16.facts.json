@@ -1,0 +1,129 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0165-9a6a16",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Poseidon",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "apollo",
+      "sourceAction": "destroyed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.2-165.165.2:d50b1916"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "poseidon",
+      "sourceAction": "presented",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.3-165.165.3:3586023b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Already had they succeeded in placing Mount Ossa on Olympus and Pelion on Ossa, when this impious project was frustrated by Apollo, who destroyed them with his arrows.",
+      "evidence": [
+        "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "The Greeks believed that it was to Poseidon they were indebted for the existence of the horse, which he is said to have produced in the following manner: Athene and Poseidon both.",
+      "evidence": [
+        "gutenberg:ebooks:22381:165.165.4-165.165.4:e9c03495"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-f2dbf7ff",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0165-9a6a16",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Amphitrite.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a",
+        "gutenberg:ebooks:22381:165.165.2-165.165.2:d50b1916",
+        "gutenberg:ebooks:22381:165.165.3-165.165.3:3586023b"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -7,7 +7,7 @@
     "gutenberg:ebooks:45489:178.178.2-178.178.2:1a4bbc49",
     "gutenberg:ebooks:45489:178.178.3-178.178.3:add88eef"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -20,9 +20,31 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "and-wide-beneath-him-all-olympus-shakes",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-and-wide-beneath-him-all-olympus-shakes-a5650c",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Jupiter"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 95,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 4,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

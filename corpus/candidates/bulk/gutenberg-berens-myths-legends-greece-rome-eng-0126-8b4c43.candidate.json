@@ -12,7 +12,7 @@
     "gutenberg:ebooks:22381:126.126.7-126.126.7:6144aeb2",
     "gutenberg:ebooks:22381:126.126.8-126.126.8:5ec979bf"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,10 +26,38 @@
   "mythFamilyId": "iron-ages",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-iron-ages-3646db",
   "characters": [
-    "Hades"
+    "Hades",
+    "Hercules",
+    "Hermes",
+    "Mercury",
+    "Minerva",
+    "Pandora",
+    "Prometheus",
+    "Vulcan",
+    "Zeus"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 184,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

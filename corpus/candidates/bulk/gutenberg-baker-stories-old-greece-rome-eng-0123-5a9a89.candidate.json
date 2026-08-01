@@ -16,7 +16,7 @@
     "gutenberg:ebooks:45489:123.123.11-123.123.11:259d5eed",
     "gutenberg:ebooks:45489:123.123.12-123.123.12:55dd4859"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -30,10 +30,36 @@
   "mythFamilyId": "chapter-xx",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-chapter-xx-b53f93",
   "characters": [
-    "Mercury"
+    "Apollo",
+    "Ceres",
+    "Diana",
+    "Mercury",
+    "Midas",
+    "Neptune"
   ],
-  "processingStatus": "candidate-only",
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 174,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

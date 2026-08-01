@@ -1,0 +1,68 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0213-00e48c",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "found",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:213.213.1-213.213.1:a0dd6d8d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The brothers heard that their mother Antiope had been put aside by her second husband Lycus, in order that he might marry another wife; so Amphion and Zethus hastened to Thebes,.",
+      "evidence": [
+        "gutenberg:ebooks:45489:213.213.1-213.213.1:a0dd6d8d"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "The brothers heard that their mother Antiope had been put aside by her second husband Lycus, in order that he might marry another wife; so Amphion and Zethus hastened to Thebes,.",
+      "evidence": [
+        "gutenberg:ebooks:45489:213.213.2-213.213.2:7308ff3e"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-81a4ec03",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0213-00e48c",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "XXVI",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:213.213.1-213.213.1:a0dd6d8d",
+        "gutenberg:ebooks:45489:213.213.2-213.213.2:7308ff3e"
+      ],
+      "status": "open"
+    }
+  ]
+}

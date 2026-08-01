@@ -23,7 +23,7 @@
     "gutenberg:ebooks:39250:342.342.18-342.342.18:d476f918",
     "gutenberg:ebooks:39250:342.342.19-342.342.19:e13ad306"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -33,14 +33,33 @@
   "workingTitle": "Darwin.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-heracles-labors-8a8e1b",
   "characters": [
-    "Hercules"
+    "Hercules",
+    "Juno",
+    "Mercury"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 186,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 13,
+      "conflictSignals": 6,
+      "paragraphCount": 19,
+      "knownMythFamily": true
+    }
+  }
 }

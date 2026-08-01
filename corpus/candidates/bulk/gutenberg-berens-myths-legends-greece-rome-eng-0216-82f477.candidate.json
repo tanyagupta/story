@@ -12,7 +12,7 @@
     "gutenberg:ebooks:22381:216.216.7-216.216.7:92f11276",
     "gutenberg:ebooks:22381:216.216.8-216.216.8:df8c1ab4"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,14 +22,32 @@
   "workingTitle": "THE MUSES.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "the-muses",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-the-muses-0a6067",
   "characters": [
+    "Apollo",
     "Zeus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 127,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 8,
+      "conflictSignals": 5,
+      "paragraphCount": 8,
+      "knownMythFamily": true
+    }
+  }
 }

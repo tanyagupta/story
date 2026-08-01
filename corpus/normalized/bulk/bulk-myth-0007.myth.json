@@ -1,21 +1,32 @@
 {
   "mythId": "bulk-myth-0007",
-  "mythFamilyId": "prometheus",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-prometheus-564943",
-  "title": "Horace.",
+  "mythFamilyId": "demeter-and-persephone",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-demeter-and-persephone-c1a982",
+  "title": "The Story of Proserpina",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed",
-      "gutenberg:ebooks:39250:48.48.2-48.48.2:bd007584",
-      "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0",
-      "gutenberg:ebooks:39250:48.48.4-48.48.4:ab8b6554"
+      "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+      "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+      "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09",
+      "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+      "gutenberg:ebooks:45489:107.107.5-107.107.5:60e33e95",
+      "gutenberg:ebooks:45489:107.107.6-107.107.6:554b901a",
+      "gutenberg:ebooks:45489:107.107.7-107.107.7:ced8cd57",
+      "gutenberg:ebooks:45489:107.107.8-107.107.8:3ce94066",
+      "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e",
+      "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+      "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
     ]
   },
   "entities": {
     "characters": [
-      "roman-minerva",
-      "prometheus"
+      "ceres",
+      "roman-diana",
+      "hades",
+      "roman-jupiter",
+      "roman-mercury",
+      "roman-pluto"
     ],
     "locations": [],
     "objects": [],
@@ -23,88 +34,319 @@
   },
   "entityMappings": [
     {
-      "sourceName": "Minerva",
-      "normalizedId": "roman-minerva",
+      "sourceName": "Ceres",
+      "normalizedId": "ceres",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
         }
       ]
     },
     {
-      "sourceName": "Prometheus",
-      "normalizedId": "prometheus",
+      "sourceName": "Diana",
+      "normalizedId": "roman-diana",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hades",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "roman-jupiter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
+        }
+      ]
+    },
+    {
+      "sourceName": "Pluto",
+      "normalizedId": "roman-pluto",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
         }
       ]
     }
   ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Ceres, Diana, Hades are involved in The Story of Proserpina. When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when. So Pluto often went up out of his sunless land to look carefully over the island, and to be sure that no new fissure.",
+    "openingSituation": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when.",
+    "centralConflict": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when.",
+    "resolution": "For days and days she wandered, never stopping to rest except for a few hours at night when it was too dark for her to see her way.",
+    "outcome": "For days and days she wandered, never stopping to rest except for a few hours at night when it was too dark for her to see her way.",
+    "storyline": [
+      "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when.",
+      "So Pluto often went up out of his sunless land to look carefully over the island, and to be sure that no new fissure was being made in the earth's surface.",
+      "Driving his fiery horses at full speed, he rushed toward the group of laughing girls, who scattered and fled at his approach.",
+      "In a moment Pluto had seized her in his strong arms; and, trampling all her violets under his ruthless feet, he sprang into the chariot and urged his horses to their full speed,.",
+      "Then the earth closed again over him and the captured maiden.",
+      "So she summoned enough strength to struggle in her captor's embrace until she freed one arm from his hold, and with it loosened her girdle, which she flung into the Cyane River."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+        "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+        "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+      "excerpt": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when the giants got restless and turned over and over underground.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+      "excerpt": "Pluto had often tried to gain a wife by gentle means, but no one would consent to share his grewsome home; so, knowing that this maiden he desired would never listen to soft words of love, he determined to take her by force. Driving his.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09",
+      "excerpt": "As he neared the Cyane River the waters, wishing to befriend Proserpina, began to rise higher and higher, and with tossing waves opposed the madly-rushing steeds. Fearing to risk the chariot in the angry waters, Pluto struck the ground.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+      "excerpt": "When Ceres[37] came that evening into the vale of Enna and found that her daughter was not playing as usual with the other maidens, she questioned them, and learned their tearful story of the chariot with its four black horses and.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.5-107.107.5:60e33e95",
+      "excerpt": "One day Ceres found herself near the city of Eleusis, and to avoid being recognized as a goddess, she disguised herself as an old beggar woman. She sat for a long time on a stone by the roadside, mourning her lost Proserpina, until a.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.6-107.107.6:554b901a",
+      "excerpt": "As they sat at the simple evening meal, the goddess put some poppy-juice in the glass of milk set out for the boy; and that night, when he was in a heavy sleep, she rubbed his body with oil, murmured over him a solemn charm, and was about.",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.7-107.107.7:ced8cd57",
+      "excerpt": "When Ceres left the cottage of Celeus, she continued her wanderings over the earth, and finally returned, discouraged and heartbroken, to Sicily. Chancing to be near the river Cyane, she went down to the water's edge to drink, and happily.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.8-107.107.8:3ce94066",
+      "excerpt": "While the goddess was musing over this painful revelation, the fountain went on to say that it had not always been a stream in sunny Sicily, but was once a maiden named Arethusa[38] and a native of the country of Elis. As a follower of.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
   "initialState": [
     {
-      "subject": "roman-minerva",
-      "predicate": "is introduced in",
-      "object": "Horace.",
+      "subject": "ceres",
+      "predicate": "opening_situation",
+      "object": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when.",
       "evidence": [
-        "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
+        "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
       ]
     }
   ],
   "events": [
     {
       "eventId": "event-001",
-      "actor": "roman-minerva",
-      "action": "describe",
-      "sourceAction": "is described",
+      "actor": "hades",
+      "action": "imprison",
+      "sourceAction": "imprisoned",
       "object": null,
-      "target": null,
+      "target": "roman-jupiter",
       "recipient": null,
-      "location": null,
+      "location": "underworld",
+      "result": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
         }
       ],
       "reviewStatus": "approved"
     },
     {
       "eventId": "event-002",
-      "actor": "prometheus",
-      "action": "describe",
-      "sourceAction": "is described",
+      "actor": "roman-pluto",
+      "action": "travel",
+      "sourceAction": "went",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "So Pluto often went up out of his sunless land to look carefully over the island, and to be sure that no new fissure was being made in the earth's surface.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:48.48.2-48.48.2:bd007584"
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e"
         }
       ],
       "reviewStatus": "approved"
     },
     {
       "eventId": "event-003",
-      "actor": "prometheus",
-      "action": "describe",
-      "sourceAction": "was",
+      "actor": null,
+      "action": "flee",
+      "sourceAction": "fled",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Driving his fiery horses at full speed, he rushed toward the group of laughing girls, who scattered and fled at his approach.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0"
+          "passageId": "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-004",
+      "actor": "ceres",
+      "action": "capture",
+      "sourceAction": "seized",
+      "object": null,
+      "target": "hades",
+      "recipient": null,
+      "location": "underworld",
+      "result": "In a moment Pluto had seized her in his strong arms; and, trampling all her violets under his ruthless feet, he sprang into the chariot and urged his horses to their full speed,.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-005",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "captured",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Then the earth closed again over him and the captured maiden.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-006",
+      "actor": null,
+      "action": "release",
+      "sourceAction": "freed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "So she summoned enough strength to struggle in her captor's embrace until she freed one arm from his hold, and with it loosened her girdle, which she flung into the Cyane River.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-007",
+      "actor": "ceres",
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "When Ceres[37] came that evening into the vale of Enna and found that her daughter was not playing as usual with the other maidens, she questioned them, and learned their tearful.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "eventId": "event-008",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "wandered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "For days and days she wandered, never stopping to rest except for a few hours at night when it was too dark for her to see her way.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b"
         }
       ],
       "reviewStatus": "approved"
@@ -112,27 +354,51 @@
   ],
   "finalState": [
     {
-      "subject": "roman-minerva",
-      "predicate": "is last attested in selected candidate",
-      "object": "Horace.",
+      "subject": "ceres",
+      "predicate": "outcome",
+      "object": "For days and days she wandered, never stopping to rest except for a few hours at night when it was too dark for her to see her way.",
       "evidence": [
-        "gutenberg:ebooks:39250:48.48.4-48.48.4:ab8b6554"
+        "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when.",
+      "So Pluto often went up out of his sunless land to look carefully over the island, and to be sure that no new fissure was being made in the earth's surface.",
+      "Driving his fiery horses at full speed, he rushed toward the group of laughing girls, who scattered and fled at his approach.",
+      "In a moment Pluto had seized her in his strong arms; and, trampling all her violets under his ruthless feet, he sprang into the chariot and urged his horses to their full speed,.",
+      "Then the earth closed again over him and the captured maiden.",
+      "So she summoned enough strength to struggle in her captor's embrace until she freed one arm from his hold, and with it loosened her girdle, which she flung into the Cyane River."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-baker-stories-old-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
   "normalizationWarnings": [],
+  "semanticQuality": {
+    "score": 189,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
   "reviewStatus": "approved"
 }

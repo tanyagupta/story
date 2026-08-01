@@ -76,6 +76,13 @@ function runBulkSources() {
   childProcess.execFileSync(process.execPath, [path.join(root, "src/corpus/corpus-bulk-runner.js")], { cwd: root, stdio: "pipe" });
 }
 
+function bulkMyths() {
+  return fs.readdirSync(path.join(root, "corpus/normalized/bulk"))
+    .filter((file) => file.endsWith(".myth.json"))
+    .sort()
+    .map((file) => readJson(path.join(root, "corpus/normalized/bulk", file)));
+}
+
 test("extracts TEI metadata, checksum, and prose passages", () => {
   const files = runOne("prose");
   const manifest = readJson(files.manifest);
@@ -450,9 +457,13 @@ test("bulk inventory meets candidate and production targets", () => {
   const validation = readJson(path.join(root, "corpus/review/bulk-validation-report.json"));
   assert.strictEqual(validation.valid, true);
   assert.ok(summary.validNarrativeCandidates >= 100);
-  assert.ok(summary.fullyNormalizedRecords >= 50);
-  assert.strictEqual(summary.approvedRecords, 50);
+  assert.strictEqual(summary.fullyNormalizedRecords, summary.narrativeCandidates);
+  assert.ok(summary.approvedRecords > 0);
+  assert.ok(summary.approvedRecords < summary.fullyNormalizedRecords);
+  assert.ok(summary.recordsAwaitingReview > 0);
   assert.ok(inventory.entries.some((entry) => entry.candidateType === "non_story_material"));
+  assert.ok(inventory.entries.some((entry) => entry.candidateType === "biographical_material"));
+  assert.ok(inventory.entries.every((entry) => entry.semanticQuality));
   assert.ok(inventory.entries.every((entry) => entry.passageIds.length > 0));
 });
 
@@ -467,14 +478,85 @@ test("bulk variants remain separate and probable duplicates are queued", () => {
 
 test("bulk production records have evidence and preserve event order", () => {
   runBulkSources();
-  const mythFiles = fs.readdirSync(path.join(root, "corpus/normalized/bulk")).filter((file) => file.endsWith(".myth.json")).sort();
-  assert.ok(mythFiles.length >= 50);
-  mythFiles.slice(0, 50).forEach((file) => {
-    const myth = readJson(path.join(root, "corpus/normalized/bulk", file));
-    assert.strictEqual(myth.reviewStatus, "approved");
+  const myths = bulkMyths();
+  assert.ok(myths.length >= 50);
+  myths.forEach((myth) => {
     assert.ok(myth.events.every((event) => event.evidence && event.evidence.length));
     assert.deepStrictEqual(myth.events.map((event) => event.eventId), myth.events.map((event, index) => `event-${String(index + 1).padStart(3, "0")}`));
   });
+});
+
+test("bulk semantic gates prevent placeholder approvals", () => {
+  runBulkSources();
+  const myths = bulkMyths();
+  const approved = myths.filter((myth) => myth.reviewStatus === "approved");
+  assert.ok(approved.length > 0);
+  approved.forEach((myth) => {
+    assert.ok(myth.entities.characters.length > 0);
+    assert.ok(myth.events.filter((event) => event.actor).length >= 2);
+    assert.ok(myth.events.filter((event) => event.action && event.action !== "describe").length >= 3);
+    assert.ok(myth.events.some((event) => event.object || event.target || event.recipient || event.location || event.result));
+    assert.ok(myth.narrative.synopsis);
+    assert.ok(myth.narrative.openingSituation);
+    assert.ok(myth.narrative.centralConflict);
+    assert.ok(myth.narrative.outcome);
+    assert.ok(Array.isArray(myth.narrative.storyline) && myth.narrative.storyline.length > 0);
+    assert.ok(myth.evidenceSummary && myth.evidenceSummary.length > 0);
+    assert.ok(!(myth.initialState || []).some((state) => state.subject === "source-section"));
+    assert.strictEqual(myth.semanticQuality.passed, true);
+  });
+});
+
+test("bulk non-story and weak narrative candidates are not approved", () => {
+  runBulkSources();
+  const approvedCatalog = readJson(path.join(root, "corpus/catalog/approved-myths.json"));
+  const rejectedCatalog = readJson(path.join(root, "corpus/catalog/rejected-candidates.json"));
+  const awaiting = readJson(path.join(root, "corpus/catalog/myths-awaiting-review.json"));
+  assert.ok(!approvedCatalog.entries.some((entry) => entry.title === "Pindar."));
+  assert.ok(rejectedCatalog.entries.some((entry) => entry.title === "Pindar." && entry.processingStatus === "rejected-non-story"));
+  assert.ok(awaiting.entries.length > 0);
+  assert.ok(awaiting.entries.every((entry) => entry.failedGates.length > 0));
+});
+
+test("bulk semantic report and review workflow are populated", () => {
+  runBulkSources();
+  const semantic = readJson(path.join(root, "corpus/review/semantic-quality-report.json"));
+  const spotCheck = readJson(path.join(root, "corpus/review/manual-semantic-spot-check.json"));
+  const sampleReview = fs.readdirSync(path.join(root, "corpus/review/bulk")).find((file) => file.endsWith(".review.json"));
+  const review = readJson(path.join(root, "corpus/review/bulk", sampleReview));
+  assert.ok(semantic.approvedRecords > 0);
+  assert.ok(semantic.awaitingReview > 0);
+  assert.ok(Object.keys(semantic.failedQualityGates).length > 0);
+  assert.strictEqual(spotCheck.reviewType, "Codex implementation review");
+  assert.strictEqual(spotCheck.checkedRecords.length, 10);
+  assert.ok(review.reviewType);
+  assert.ok(review.semanticQuality);
+});
+
+test("bulk runner removes stale generated normalized files", () => {
+  const stale = path.join(root, "corpus/normalized/bulk/stale-placeholder.myth.json");
+  writeJson(stale, { stale: true });
+  runBulkSources();
+  assert.ok(!fs.existsSync(stale));
+});
+
+test("bulk semantic reports are portable and deterministic", () => {
+  runBulkSources();
+  const files = [
+    "corpus/review/semantic-quality-report.json",
+    "corpus/catalog/approved-myths.json",
+    "corpus/catalog/myths-awaiting-review.json",
+    "corpus/catalog/rejected-candidates.json",
+    "corpus/review/manual-semantic-spot-check.json"
+  ].map((file) => path.join(root, file));
+  const before = files.map(hashFile);
+  runBulkSources();
+  const after = files.map(hashFile);
+  assert.deepStrictEqual(before, after);
+  const serialized = files.map((file) => fs.readFileSync(file, "utf8")).join("\n");
+  assert.ok(!serialized.includes("/Users/"));
+  assert.ok(!serialized.includes("/workspaces/"));
+  assert.ok(!/[A-Za-z]:\\/.test(serialized));
 });
 
 fs.rmSync(tempRoot, { recursive: true, force: true });

@@ -1,0 +1,85 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0328-e64e07",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "slain",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:328.328.1-328.328.1:acd3ff32"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "accepted",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:328.328.3-328.328.3:4a46d832"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Ten years after these events the sons of the slain heroes, who were called Epigoni, or descendants, resolved to avenge the death of their fathers, and with this object entered.",
+      "evidence": [
+        "gutenberg:ebooks:22381:328.328.1-328.328.1:acd3ff32"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Yielding therefore to her wily representations he accepted the command of the troops, and at the head of a large and powerful army advanced upon",
+      "evidence": [
+        "gutenberg:ebooks:22381:328.328.3-328.328.3:4a46d832"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-3ab1152c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0328-e64e07",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "THE EPIGONI.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:328.328.1-328.328.1:acd3ff32",
+        "gutenberg:ebooks:22381:328.328.2-328.328.2:f04da282",
+        "gutenberg:ebooks:22381:328.328.3-328.328.3:4a46d832"
+      ],
+      "status": "open"
+    }
+  ]
+}

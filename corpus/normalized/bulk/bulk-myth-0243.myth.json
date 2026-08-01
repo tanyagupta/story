@@ -1,0 +1,177 @@
+{
+  "mythId": "bulk-myth-0243",
+  "mythFamilyId": "trojan-war",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-trojan-war-eaf2cc",
+  "title": "GANYMEDES.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b",
+      "gutenberg:ebooks:22381:215.215.2-215.215.2:00a7ef5e"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "zeus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Zeus are involved in GANYMEDES.. Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent.",
+    "openingSituation": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent.",
+    "centralConflict": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent.",
+    "resolution": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent.",
+    "outcome": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent.",
+    "storyline": [
+      "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b",
+        "gutenberg:ebooks:22381:215.215.2-215.215.2:00a7ef5e"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b",
+      "excerpt": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent his eagle to transport him to Olympus, where he was endowed.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:215.215.2-215.215.2:00a7ef5e",
+      "excerpt": "Ganymedes is represented as a youth of exquisite beauty, with short golden locks, delicately chiselled features, beaming blue eyes, and pouting lips.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent.",
+      "evidence": [
+        "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": "zeus",
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "olympus",
+      "result": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent.",
+      "evidence": [
+        "gutenberg:ebooks:22381:215.215.2-215.215.2:00a7ef5e"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Ganymedes, the youngest son of Tros, king of Troy, was one day drawing water from a well on Mount Ida, when he was observed by Zeus, who, struck with his wonderful beauty, sent."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-5b2edda3",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0215-1424e7",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "GANYMEDES.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:215.215.1-215.215.1:49e8ec4b",
+        "gutenberg:ebooks:22381:215.215.2-215.215.2:00a7ef5e"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 57,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

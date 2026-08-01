@@ -1,24 +1,33 @@
 {
   "mythId": "bulk-myth-0005",
-  "mythFamilyId": "lowell",
-  "variantId": "gutenberg-guerber-myths-greece-rome-eng-lowell-0a71a1",
-  "title": "Lowell.",
+  "mythFamilyId": "chapter-xx",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-chapter-xx-b53f93",
+  "title": "Chapter XX",
   "source": {
-    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
     "passages": [
-      "gutenberg:ebooks:39250:45.45.1-45.45.1:946f23c6",
-      "gutenberg:ebooks:39250:45.45.2-45.45.2:65f8c250",
-      "gutenberg:ebooks:39250:45.45.3-45.45.3:626a394d",
-      "gutenberg:ebooks:39250:45.45.4-45.45.4:b9c8ae89",
-      "gutenberg:ebooks:39250:45.45.5-45.45.5:61b40863",
-      "gutenberg:ebooks:39250:45.45.6-45.45.6:53da10ea",
-      "gutenberg:ebooks:39250:45.45.7-45.45.7:983c411f"
+      "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0",
+      "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103",
+      "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903",
+      "gutenberg:ebooks:45489:123.123.4-123.123.4:ada4a3c6",
+      "gutenberg:ebooks:45489:123.123.5-123.123.5:909b6671",
+      "gutenberg:ebooks:45489:123.123.6-123.123.6:a1cc9f65",
+      "gutenberg:ebooks:45489:123.123.7-123.123.7:fcd04b43",
+      "gutenberg:ebooks:45489:123.123.8-123.123.8:e4e594bc",
+      "gutenberg:ebooks:45489:123.123.9-123.123.9:697e665b",
+      "gutenberg:ebooks:45489:123.123.10-123.123.10:07acf0a1",
+      "gutenberg:ebooks:45489:123.123.11-123.123.11:259d5eed",
+      "gutenberg:ebooks:45489:123.123.12-123.123.12:55dd4859"
     ]
   },
   "entities": {
     "characters": [
-      "roman-juno",
-      "roman-jupiter"
+      "apollo",
+      "ceres",
+      "roman-diana",
+      "roman-mercury",
+      "midas",
+      "roman-neptune"
     ],
     "locations": [],
     "objects": [],
@@ -26,34 +35,167 @@
   },
   "entityMappings": [
     {
-      "sourceName": "Juno",
-      "normalizedId": "roman-juno",
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:45.45.1-45.45.1:946f23c6"
+          "passageId": "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0"
         }
       ]
     },
     {
-      "sourceName": "Jupiter",
-      "normalizedId": "roman-jupiter",
+      "sourceName": "Ceres",
+      "normalizedId": "ceres",
       "normalizationStatus": "approved",
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:45.45.1-45.45.1:946f23c6"
+          "passageId": "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0"
+        }
+      ]
+    },
+    {
+      "sourceName": "Diana",
+      "normalizedId": "roman-diana",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0"
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "roman-mercury",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0"
+        }
+      ]
+    },
+    {
+      "sourceName": "Midas",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0"
+        }
+      ]
+    },
+    {
+      "sourceName": "Neptune",
+      "normalizedId": "roman-neptune",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0"
         }
       ]
     }
   ],
   "relationships": [],
+  "narrative": {
+    "synopsis": "Apollo, Ceres, Diana are involved in Chapter XX. It is apparently not known who his mother was, but she must have had some sylvan blood in her veins, for the youthful Pan showed every evidence of having been born of woodland. The story goes that his mother--whichever nymph it was of the many reputed to have borne him--was disgusted with his absurd.",
+    "openingSituation": "It is apparently not known who his mother was, but she must have had some sylvan blood in her veins, for the youthful Pan showed every evidence of having been born of woodland.",
+    "centralConflict": "The story goes that his mother--whichever nymph it was of the many reputed to have borne him--was disgusted with his absurd appearance, and refused to own him for her child; but.",
+    "resolution": "So he gathered a bunch of the reeds, and after cutting them into unequal lengths, bound them together into a sort of shepherd's pipes.",
+    "outcome": "So he gathered a bunch of the reeds, and after cutting them into unequal lengths, bound them together into a sort of shepherd's pipes.",
+    "storyline": [
+      "It is apparently not known who his mother was, but she must have had some sylvan blood in her veins, for the youthful Pan showed every evidence of having been born of woodland.",
+      "The story goes that his mother--whichever nymph it was of the many reputed to have borne him--was disgusted with his absurd appearance, and refused to own him for her child; but.",
+      "Pan's favorite dwelling place was Arcadia; and here he wandered over the hills and among the rocks, or roamed through the fertile valleys.",
+      "He was devoted to music, and was usually seen playing on the syrinx,--or shepherd's pipes,--which he himself invented and named from a nymph whom he unsuccessfully wooed.",
+      "The nymph had always scorned to listen to any lover, and Pan's appearance did not tend to soften her objections; so while he was praising her many charms and pleading for her.",
+      "The woodland god was not to be put off so lightly, however; and he promptly gave chase to the fleeing maiden, who, finding that her pursuer was gaining on her, called wildly on."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0",
+        "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103",
+        "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0",
+      "excerpt": "Pan and the Nymphs",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103",
+      "excerpt": "Pan,[63] the god of woods and fields, god of the flocks and herds, and patron deity of all shepherds, was said to be the son of Mercury. It is apparently not known who his mother was, but she must have had some sylvan blood in her veins,.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903",
+      "excerpt": "Pan's favorite dwelling place was Arcadia; and here he wandered over the hills and among the rocks, or roamed through the fertile valleys. He delighted in hunting, and amused himself with various pastimes--his especial pleasure being to.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:123.123.4-123.123.4:ada4a3c6",
+      "excerpt": "Before inventing this new instrument, Pan had played upon the flute, and it was his skill in this direction that made King Midas dare to affront Apollo by declaring Pan to be the better musician. The god of woods and fields was not,.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:123.123.5-123.123.5:909b6671",
+      "excerpt": "Such a sad mistake did Dryope once make, and suffered for her carelessness by being changed from a mortal into a Hamadryad. Dryope was a beautiful young princess, the wife of Andræmon, and the mother of a golden-haired boy. Every day she.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:123.123.6-123.123.6:a1cc9f65",
+      "excerpt": "When Dryope realized the dreadful thing that she had unknowingly done, she turned pale with fright, and would have hurried away from the unlucky spot; but when she tried to turn from the sight of the dying flower, she found that she could.",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:123.123.7-123.123.7:fcd04b43",
+      "excerpt": "The danger of recklessly destroying any tree is shown by the story of Erysichthon, who dared to defy the goddess Ceres, and so received a fitting punishment. There was a certain grove of trees sacred to Ceres, and among them was a lofty.",
+      "supports": [
+        "event-007"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:123.123.8-123.123.8:e4e594bc",
+      "excerpt": "The nymphs rushed to Ceres, and begged her to punish this wicked violation of her grove. The goddess promised that Erysichthon's deed should not go unpunished, and sent an Oread to the remote part of Scythia, where the ice lies thick on.",
+      "supports": [
+        "event-008"
+      ]
+    }
+  ],
   "initialState": [
     {
-      "subject": "roman-juno",
-      "predicate": "is introduced in",
-      "object": "Lowell.",
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "It is apparently not known who his mother was, but she must have had some sylvan blood in her veins, for the youthful Pan showed every evidence of having been born of woodland.",
       "evidence": [
-        "gutenberg:ebooks:39250:45.45.1-45.45.1:946f23c6"
+        "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0"
       ]
     }
   ],
@@ -61,81 +203,225 @@
     {
       "eventId": "event-001",
       "actor": null,
-      "action": "describe",
-      "sourceAction": "is described",
+      "action": "birth",
+      "sourceAction": "born",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "It is apparently not known who his mother was, but she must have had some sylvan blood in her veins, for the youthful Pan showed every evidence of having been born of woodland.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:45.45.1-45.45.1:946f23c6"
+          "passageId": "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-002",
-      "actor": "roman-jupiter",
-      "action": "describe",
-      "sourceAction": "is described",
+      "actor": "roman-mercury",
+      "action": "refuse",
+      "sourceAction": "refused",
       "object": null,
       "target": null,
       "recipient": null,
-      "location": null,
+      "location": "olympus",
+      "result": "The story goes that his mother--whichever nymph it was of the many reputed to have borne him--was disgusted with his absurd appearance, and refused to own him for her child; but.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:45.45.2-45.45.2:65f8c250"
+          "passageId": "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "eventId": "event-003",
       "actor": null,
-      "action": "describe",
-      "sourceAction": "was",
+      "action": "travel",
+      "sourceAction": "wandered",
       "object": null,
       "target": null,
       "recipient": null,
       "location": null,
+      "result": "Pan's favorite dwelling place was Arcadia; and here he wandered over the hills and among the rocks, or roamed through the fertile valleys.",
       "causedBy": [],
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:45.45.3-45.45.3:626a394d"
+          "passageId": "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
         }
       ],
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "actor": null,
+      "action": "love",
+      "sourceAction": "wooed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He was devoted to music, and was usually seen playing on the syrinx,--or shepherd's pipes,--which he himself invented and named from a nymph whom he unsuccessfully wooed.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "turned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The nymph had always scorned to listen to any lover, and Pan's appearance did not tend to soften her objections; so while he was praising her many charms and pleading for her.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "actor": null,
+      "action": "give",
+      "sourceAction": "gave",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The woodland god was not to be put off so lightly, however; and he promptly gave chase to the fleeing maiden, who, finding that her pursuer was gaining on her, called wildly on.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "reached",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "She had by this time reached the water's edge; and just as Pan's arms were about to enfold her, the kindly nymphs changed her into a cluster of reeds.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "bound",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "So he gathered a bunch of the reeds, and after cutting them into unequal lengths, bound them together into a sort of shepherd's pipes.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
     }
   ],
   "finalState": [
     {
-      "subject": "roman-juno",
-      "predicate": "is last attested in selected candidate",
-      "object": "Lowell.",
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "So he gathered a bunch of the reeds, and after cutting them into unequal lengths, bound them together into a sort of shepherd's pipes.",
       "evidence": [
-        "gutenberg:ebooks:39250:45.45.7-45.45.7:983c411f"
+        "gutenberg:ebooks:45489:123.123.12-123.123.12:55dd4859"
       ]
     }
   ],
   "interpretation": {
     "themes": [],
-    "storyline": null
+    "storyline": [
+      "It is apparently not known who his mother was, but she must have had some sylvan blood in her veins, for the youthful Pan showed every evidence of having been born of woodland.",
+      "The story goes that his mother--whichever nymph it was of the many reputed to have borne him--was disgusted with his absurd appearance, and refused to own him for her child; but.",
+      "Pan's favorite dwelling place was Arcadia; and here he wandered over the hills and among the rocks, or roamed through the fertile valleys.",
+      "He was devoted to music, and was usually seen playing on the syrinx,--or shepherd's pipes,--which he himself invented and named from a nymph whom he unsuccessfully wooed.",
+      "The nymph had always scorned to listen to any lover, and Pan's appearance did not tend to soften her objections; so while he was praising her many charms and pleading for her.",
+      "The woodland god was not to be put off so lightly, however; and he promptly gave chase to the fleeing maiden, who, finding that her pursuer was gaining on her, called wildly on."
+    ]
   },
   "variantLinks": [
     {
       "type": "source-variant",
       "sourceIds": [
-        "gutenberg-guerber-myths-greece-rome-eng"
+        "gutenberg-baker-stories-old-greece-rome-eng"
       ],
       "reviewStatus": "approved"
     }
   ],
-  "normalizationWarnings": [],
-  "reviewStatus": "approved"
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-053b306c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0123-5a9a89",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "Chapter XX",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0",
+        "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103",
+        "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 174,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
 }

@@ -15,7 +15,7 @@
     "gutenberg:ebooks:45489:85.85.10-85.85.10:f8bf0a13",
     "gutenberg:ebooks:45489:85.85.11-85.85.11:5d15913a"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -28,9 +28,36 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "to-bear-him-over-ocean-like-the-wind",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-to-bear-him-over-ocean-like-the-wind-e28987",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Apollo",
+    "Hades",
+    "Io",
+    "Juno",
+    "Jupiter",
+    "Mercury"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 204,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 7,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

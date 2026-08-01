@@ -15,7 +15,7 @@
     "gutenberg:ebooks:45489:132.132.10-132.132.10:8451e67b",
     "gutenberg:ebooks:45489:132.132.11-132.132.11:17a4b9e9"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -28,9 +28,36 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "illi-indignantes-magno-cum-murmure-montis",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-illi-indignantes-magno-cum-murmure-montis-35f0f4",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Apollo",
+    "Juno",
+    "Jupiter",
+    "Mercury",
+    "Neptune",
+    "Ulysses"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 194,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 5,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

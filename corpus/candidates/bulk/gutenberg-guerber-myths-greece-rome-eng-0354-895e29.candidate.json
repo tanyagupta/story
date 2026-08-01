@@ -11,7 +11,7 @@
     "gutenberg:ebooks:39250:354.354.6-354.354.6:d825b63e",
     "gutenberg:ebooks:39250:354.354.7-354.354.7:f65269ec"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,9 +24,31 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "i-left-my-fathers-hospitable-roof",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-i-left-my-fathers-hospitable-roof-ea226c",
-  "characters": [],
-  "processingStatus": "candidate-only",
+  "characters": [
+    "Hercules"
+  ],
+  "processingStatus": "rejected-poor-quality",
   "reviewStatus": "pending",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 101,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 5,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

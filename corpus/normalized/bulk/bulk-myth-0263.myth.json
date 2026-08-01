@@ -1,0 +1,201 @@
+{
+  "mythId": "bulk-myth-0263",
+  "mythFamilyId": "high-olympus-gives-harmonious-greeting",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-high-olympus-gives-harmonious-greeting-b04737",
+  "title": "High Olympus gives harmonious greeting",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:360.360.1-360.360.1:0d08f422",
+      "gutenberg:ebooks:39250:360.360.2-360.360.2:f0e4d55d",
+      "gutenberg:ebooks:39250:360.360.3-360.360.3:24960f3c",
+      "gutenberg:ebooks:39250:360.360.4-360.360.4:e8fcfe73",
+      "gutenberg:ebooks:39250:360.360.5-360.360.5:7ebe7b04"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "roman-hercules"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Hercules",
+      "normalizedId": "roman-hercules",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:360.360.1-360.360.1:0d08f422"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Hercules are involved in High Olympus gives harmonious greeting. He is generally represented in art as a tall, powerfully built man, with a small, bearded head, a lion's skin carelessly thrown over his shoulder, and leaning upon a massive club.",
+    "openingSituation": "He is generally represented in art as a tall, powerfully built man, with a small, bearded head, a lion's skin carelessly thrown over his shoulder, and leaning upon a massive club.",
+    "centralConflict": "He is generally represented in art as a tall, powerfully built man, with a small, bearded head, a lion's skin carelessly thrown over his shoulder, and leaning upon a massive club.",
+    "resolution": "He is generally represented in art as a tall, powerfully built man, with a small, bearded head, a lion's skin carelessly thrown over his shoulder, and leaning upon a massive club.",
+    "outcome": "He is generally represented in art as a tall, powerfully built man, with a small, bearded head, a lion's skin carelessly thrown over his shoulder, and leaning upon a massive club.",
+    "storyline": [
+      "He is generally represented in art as a tall, powerfully built man, with a small, bearded head, a lion's skin carelessly thrown over his shoulder, and leaning upon a massive club."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:360.360.1-360.360.1:0d08f422",
+        "gutenberg:ebooks:39250:360.360.2-360.360.2:f0e4d55d",
+        "gutenberg:ebooks:39250:360.360.3-360.360.3:24960f3c"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:360.360.4-360.360.4:e8fcfe73"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:360.360.4-360.360.4:e8fcfe73"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:360.360.4-360.360.4:e8fcfe73"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:360.360.4-360.360.4:e8fcfe73"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:360.360.1-360.360.1:0d08f422",
+      "excerpt": "To the hall where reigns his sire adored; Youth's bright goddess, with a blush at meeting, Gives the nectar to her lord.\"",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:360.360.2-360.360.2:f0e4d55d",
+      "excerpt": "Schiller (S. G. B.'s tr.).",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:360.360.3-360.360.3:24960f3c",
+      "excerpt": "[Sidenote: Worship of Hercules.]",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:360.360.4-360.360.4:e8fcfe73",
+      "excerpt": "Hercules, the special divinity of athletic sports and of strength, was principally worshiped by young men. He is generally represented in art as a tall, powerfully built man, with a small, bearded head, a lion's skin carelessly thrown.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:360.360.5-360.360.5:7ebe7b04",
+      "excerpt": "\"Great Alcides, stooping with his toil, Rests on his club.\"",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "roman-hercules",
+      "predicate": "opening_situation",
+      "object": "He is generally represented in art as a tall, powerfully built man, with a small, bearded head, a lion's skin carelessly thrown over his shoulder, and leaning upon a massive club.",
+      "evidence": [
+        "gutenberg:ebooks:39250:360.360.1-360.360.1:0d08f422"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "actor": null,
+      "action": "found",
+      "sourceAction": "built",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He is generally represented in art as a tall, powerfully built man, with a small, bearded head, a lion's skin carelessly thrown over his shoulder, and leaning upon a massive club.",
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:360.360.4-360.360.4:e8fcfe73"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "roman-hercules",
+      "predicate": "outcome",
+      "object": "He is generally represented in art as a tall, powerfully built man, with a small, bearded head, a lion's skin carelessly thrown over his shoulder, and leaning upon a massive club.",
+      "evidence": [
+        "gutenberg:ebooks:39250:360.360.5-360.360.5:7ebe7b04"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "He is generally represented in art as a tall, powerfully built man, with a small, bearded head, a lion's skin carelessly thrown over his shoulder, and leaning upon a massive club."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "approved"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-b3e55806",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0360-2815a4",
+      "issueType": "semantic-quality-gates-failed",
+      "sourceValue": "High Olympus gives harmonious greeting",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:360.360.1-360.360.1:0d08f422",
+        "gutenberg:ebooks:39250:360.360.2-360.360.2:f0e4d55d",
+        "gutenberg:ebooks:39250:360.360.3-360.360.3:24960f3c"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 52,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "reviewStatus": "awaiting_review"
+}

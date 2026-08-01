@@ -20,14 +20,34 @@
   "workingTitle": "PRIAPUS.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "ritual_description",
+  "candidateType": "biographical_material",
   "mythFamilyId": "dionysus-and-pirates",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-dionysus-and-pirates-77faf1",
   "characters": [
-    "Dionysus"
+    "Aesculapius",
+    "Apollo",
+    "Dionysus",
+    "Medusa"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 73,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 5,
+      "conflictSignals": 0,
+      "paragraphCount": 6,
+      "knownMythFamily": true
+    }
+  }
 }
