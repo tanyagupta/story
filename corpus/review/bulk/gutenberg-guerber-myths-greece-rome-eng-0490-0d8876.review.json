@@ -1,0 +1,44 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 57,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-8192260a",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0490-0d8876",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Anchises.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:490.490.1-490.490.1:2a271332",
+        "gutenberg:ebooks:39250:490.490.2-490.490.2:2a2698af",
+        "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333"
+      ],
+      "status": "open"
+    }
+  ]
+}

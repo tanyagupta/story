@@ -16,7 +16,7 @@
   "workingTitle": "Virgil.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "deity_profile",
+  "candidateType": "biographical_material",
   "mythFamilyId": "virgil",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-virgil-6202a1",
   "characters": [
@@ -25,5 +25,22 @@
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 15,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 2,
+      "knownMythFamily": true
+    }
+  }
 }

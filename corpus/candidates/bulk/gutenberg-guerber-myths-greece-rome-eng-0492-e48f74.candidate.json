@@ -21,7 +21,7 @@
     "gutenberg:ebooks:39250:492.492.16-492.492.16:3026689d",
     "gutenberg:ebooks:39250:492.492.17-492.492.17:67483a8d"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -34,9 +34,35 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-8d427e",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Cupid",
+    "Neptune",
+    "Pygmalion",
+    "Venus"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 153,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

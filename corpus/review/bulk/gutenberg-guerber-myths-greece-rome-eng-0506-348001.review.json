@@ -1,0 +1,44 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 103,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-0437b253",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0506-348001",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "CLOUD MYTHS.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:506.506.1-506.506.1:89e34445",
+        "gutenberg:ebooks:39250:506.506.2-506.506.2:d4ddb629",
+        "gutenberg:ebooks:39250:506.506.3-506.506.3:7129811f"
+      ],
+      "status": "open"
+    }
+  ]
+}

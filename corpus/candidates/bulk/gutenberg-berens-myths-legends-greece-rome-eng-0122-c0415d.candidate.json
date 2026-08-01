@@ -11,7 +11,7 @@
     "gutenberg:ebooks:22381:122.122.6-122.122.6:870558fc",
     "gutenberg:ebooks:22381:122.122.7-122.122.7:b49f38a0"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -27,8 +27,28 @@
   "characters": [
     "Zeus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 96,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 5,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

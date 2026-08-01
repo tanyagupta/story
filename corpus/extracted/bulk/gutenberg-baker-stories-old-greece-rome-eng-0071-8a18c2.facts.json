@@ -1,0 +1,211 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0071-8a18c2",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:71.71.1-71.71.1:ca73ab65"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Daphne",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:71.71.1-71.71.1:ca73ab65"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "daphne",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:71.71.1-71.71.1:ca73ab65"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:71.71.2-71.71.2:65480cce"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:71.71.2-71.71.2:65480cce"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:71.71.3-71.71.3:f2f19136"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:71.71.5-71.71.5:9877f25c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:71.71.5-71.71.5:9877f25c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "daphne",
+      "sourceAction": "fled",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:71.71.5-71.71.5:9877f25c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "followed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:71.71.5-71.71.5:9877f25c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "There were many fair ones among the daughters of men, and they were wont to look with favor upon the beautiful young god who came down from the high heavens to woo them.",
+      "evidence": [
+        "gutenberg:ebooks:45489:71.71.1-71.71.1:ca73ab65"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "Angered at this rebuff, the god followed her, and though the nymph ran swiftly she could not escape from her pursuer, who was now more than ever determined to win her.",
+      "evidence": [
+        "gutenberg:ebooks:45489:71.71.5-71.71.5:9877f25c"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-d228dc3d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0071-8a18c2",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "The Love of Apollo",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:71.71.1-71.71.1:ca73ab65",
+        "gutenberg:ebooks:45489:71.71.2-71.71.2:65480cce",
+        "gutenberg:ebooks:45489:71.71.3-71.71.3:f2f19136"
+      ],
+      "status": "open"
+    }
+  ]
+}

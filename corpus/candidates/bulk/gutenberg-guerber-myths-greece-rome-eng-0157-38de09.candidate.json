@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:157.157.5-157.157.5:9b3f4fa7",
     "gutenberg:ebooks:39250:157.157.6-157.157.6:e7a3754f"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -20,14 +20,32 @@
   "workingTitle": "Keats.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "keats",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-keats-d51822",
   "characters": [
+    "Atlas",
     "Diana"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 87,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 5,
+      "conflictSignals": 3,
+      "paragraphCount": 6,
+      "knownMythFamily": true
+    }
+  }
 }

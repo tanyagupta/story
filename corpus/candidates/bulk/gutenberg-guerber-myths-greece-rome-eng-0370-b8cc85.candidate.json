@@ -9,7 +9,7 @@
     "gutenberg:ebooks:39250:370.370.4-370.370.4:111e1ffa",
     "gutenberg:ebooks:39250:370.370.5-370.370.5:895b1646"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,9 +22,37 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "to-petrify-the-mortal-clay",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-to-petrify-the-mortal-clay-ef74ec",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Medusa",
+    "Mercury",
+    "Minerva",
+    "Perseus",
+    "Pluto"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 100,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 2,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

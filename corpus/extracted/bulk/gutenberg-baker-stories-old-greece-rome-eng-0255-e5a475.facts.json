@@ -1,0 +1,83 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0255-e5a475",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Bacchus",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:255.255.1-255.255.1:16a6ca92"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "bacchus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "bacchus",
+      "predicate": "opening_situation",
+      "object": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+      "evidence": [
+        "gutenberg:ebooks:45489:255.255.1-255.255.1:16a6ca92"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "bacchus",
+      "predicate": "outcome",
+      "object": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+      "evidence": [
+        "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-5838d3e6",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0255-e5a475",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "XLIV",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:255.255.1-255.255.1:16a6ca92",
+        "gutenberg:ebooks:45489:255.255.2-255.255.2:cd8e80c0",
+        "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+      ],
+      "status": "open"
+    }
+  ]
+}

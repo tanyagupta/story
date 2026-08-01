@@ -1,0 +1,228 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0079-a6178c",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:79.79.1-79.79.1:33c17aa4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Diana",
+      "entityType": "character",
+      "roleInEpisode": "antagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:79.79.1-79.79.1:33c17aa4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "artemis",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "antagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:79.79.1-79.79.1:33c17aa4"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:79.79.2-79.79.2:795b6122"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "fled",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:79.79.2-79.79.2:795b6122"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "pursued",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:79.79.2-79.79.2:795b6122"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:79.79.2-79.79.2:795b6122"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:79.79.2-79.79.2:795b6122"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:79.79.3-79.79.3:10416992"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "artemis",
+      "sourceAction": "knew",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:79.79.3-79.79.3:10416992"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "apollo",
+      "sourceAction": "refused",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:79.79.4-79.79.4:f8f3fb9d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "One morning, as he rushed eagerly through the woods in pursuit of a deer, he came suddenly upon the seven Pleiades,--nymphs of Diana,--who were resting after a long and arduous",
+      "evidence": [
+        "gutenberg:ebooks:45489:79.79.1-79.79.1:33c17aa4"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "When Apollo learned of his sister's affection for the young hunter, he was very angry, for Diana had refused the love of the gods, and had begged of Jupiter the right to live",
+      "evidence": [
+        "gutenberg:ebooks:45489:79.79.5-79.79.5:3be85e82"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-56dbbb87",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0079-a6178c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "III",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:79.79.1-79.79.1:33c17aa4",
+        "gutenberg:ebooks:45489:79.79.2-79.79.2:795b6122",
+        "gutenberg:ebooks:45489:79.79.3-79.79.3:10416992"
+      ],
+      "status": "open"
+    }
+  ]
+}

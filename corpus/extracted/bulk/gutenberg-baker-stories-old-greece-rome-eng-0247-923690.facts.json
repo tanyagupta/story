@@ -1,0 +1,161 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0247-923690",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Arion",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:247.247.1-247.247.1:da2f9aa8"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "arion",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hercules",
+      "entityType": "character",
+      "roleInEpisode": "antagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:247.247.1-247.247.1:da2f9aa8"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "heracles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Neptune",
+      "entityType": "character",
+      "roleInEpisode": "antagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:247.247.1-247.247.1:da2f9aa8"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "loved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:247.247.3-247.247.3:51e5ec29"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:247.247.3-247.247.3:51e5ec29"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:247.247.3-247.247.3:51e5ec29"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:247.247.3-247.247.3:51e5ec29"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "arion",
+      "predicate": "opening_situation",
+      "object": "When he looked into the sea, he smiled complacently and said: \"Beautiful seems my beard, beautiful also my one eye--as I count beauty--and the sea reflects the gleam of my teeth",
+      "evidence": [
+        "gutenberg:ebooks:45489:247.247.1-247.247.1:da2f9aa8"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "arion",
+      "predicate": "outcome",
+      "object": "Soon it became a river which still bears the name of the unfortunate Acis.",
+      "evidence": [
+        "gutenberg:ebooks:45489:247.247.3-247.247.3:51e5ec29"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-22103a98",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0247-923690",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "XXXVIII",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:247.247.1-247.247.1:da2f9aa8",
+        "gutenberg:ebooks:45489:247.247.2-247.247.2:64d0324a",
+        "gutenberg:ebooks:45489:247.247.3-247.247.3:51e5ec29"
+      ],
+      "status": "open"
+    }
+  ]
+}

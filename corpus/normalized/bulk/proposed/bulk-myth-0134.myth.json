@@ -1,0 +1,302 @@
+{
+  "mythId": "bulk-myth-0134",
+  "mythFamilyId": "silver-age",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-silver-age-cf8d13",
+  "title": "Silver Age.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8",
+      "gutenberg:ebooks:39250:553.553.2-553.553.2:ea31c643",
+      "gutenberg:ebooks:39250:553.553.3-553.553.3:8995b3db",
+      "gutenberg:ebooks:39250:553.553.4-553.553.4:8acbff7e",
+      "gutenberg:ebooks:39250:553.553.5-553.553.5:cc3eae2f",
+      "gutenberg:ebooks:39250:553.553.6-553.553.6:1b3fb6d5",
+      "gutenberg:ebooks:39250:553.553.7-553.553.7:b2ff612d",
+      "gutenberg:ebooks:39250:553.553.8-553.553.8:2a19837a"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "niobe",
+      "theseus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Niobe",
+      "normalizedId": "niobe",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8"
+        }
+      ]
+    },
+    {
+      "sourceName": "Theseus",
+      "normalizedId": "theseus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Giant encountered and slain by Theseus, 251. Greek slave, who advised the Trojans to secure the wooden horse, 332, 335. King condemned to roll a rock in Tartarus to the top of a steep hill, 77, 167; significance, 389.",
+    "openingSituation": "Giant encountered and slain by Theseus, 251.",
+    "centralConflict": "Giant encountered and slain by Theseus, 251.",
+    "resolution": "King condemned to roll a rock in Tartarus to the top of a steep hill, 77, 167; significance, 389.",
+    "outcome": "King condemned to roll a rock in Tartarus to the top of a steep hill, 77, 167; significance, 389.",
+    "storyline": [
+      "Giant encountered and slain by Theseus, 251.",
+      "Greek slave, who advised the Trojans to secure the wooden horse, 332, 335.",
+      "King condemned to roll a rock in Tartarus to the top of a steep hill, 77, 167; significance, 389."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8",
+        "gutenberg:ebooks:39250:553.553.2-553.553.2:ea31c643",
+        "gutenberg:ebooks:39250:553.553.3-553.553.3:8995b3db"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:553.553.3-553.553.3:8995b3db"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:553.553.3-553.553.3:8995b3db"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:553.553.8-553.553.8:2a19837a"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:553.553.8-553.553.8:2a19837a"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8",
+      "excerpt": "Second age of the ancient world, 35.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:553.553.2-553.553.2:ea31c643",
+      "excerpt": "Sil´vi-a. Daughter of Latin shepherd; her stag was wounded by Iulus, 373.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:553.553.3-553.553.3:8995b3db",
+      "excerpt": "Si´nis (The Pine-bender). Giant encountered and slain by Theseus, 251.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:553.553.4-553.553.4:8acbff7e",
+      "excerpt": "Si´non. Greek slave, who advised the Trojans to secure the wooden horse, 332, 335.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:553.553.5-553.553.5:cc3eae2f",
+      "excerpt": "Sip´y-lus. Mountain where stood the statue of Niobe, 94.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:553.553.6-553.553.6:1b3fb6d5",
+      "excerpt": "Si´rens. Maidens who allured mariners by their wondrous songs, 350-352; significance, 397.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:553.553.7-553.553.7:b2ff612d",
+      "excerpt": "Sir´i-us. Favorite dog of Orion; a constellation, 98, 100.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:553.553.8-553.553.8:2a19837a",
+      "excerpt": "Sis´y-phus. King condemned to roll a rock in Tartarus to the top of a steep hill, 77, 167; significance, 389.",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "niobe",
+      "predicate": "opening_situation",
+      "object": "Giant encountered and slain by Theseus, 251.",
+      "evidence": [
+        "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Giant encountered and slain by Theseus, 251.",
+      "sourceClause": "Giant encountered and slain by Theseus, 251.",
+      "actor": null,
+      "action": "kill",
+      "sourceAction": "slain",
+      "object": null,
+      "target": "theseus",
+      "recipient": null,
+      "location": null,
+      "result": "Giant encountered and slain by Theseus, 251.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:553.553.3-553.553.3:8995b3db"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Greek slave, who advised the Trojans to secure the wooden horse, 332, 335.",
+      "sourceClause": "Greek slave, who advised the Trojans to secure the wooden horse, 332, 335.",
+      "actor": null,
+      "action": "warn",
+      "sourceAction": "advised",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Greek slave, who advised the Trojans to secure the wooden horse, 332, 335.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:553.553.4-553.553.4:8acbff7e"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "King condemned to roll a rock in Tartarus to the top of a steep hill, 77, 167; significance, 389.",
+      "sourceClause": "King condemned to roll a rock in Tartarus to the top of a steep hill, 77, 167; significance, 389.",
+      "actor": null,
+      "action": "punish",
+      "sourceAction": "condemned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "King condemned to roll a rock in Tartarus to the top of a steep hill, 77, 167; significance, 389.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:553.553.8-553.553.8:2a19837a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "niobe",
+      "predicate": "outcome",
+      "object": "King condemned to roll a rock in Tartarus to the top of a steep hill, 77, 167; significance, 389.",
+      "evidence": [
+        "gutenberg:ebooks:39250:553.553.8-553.553.8:2a19837a"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Giant encountered and slain by Theseus, 251.",
+      "Greek slave, who advised the Trojans to secure the wooden horse, 332, 335.",
+      "King condemned to roll a rock in Tartarus to the top of a steep hill, 77, 167; significance, 389."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-0b3dd01f",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0553-9f5fe0",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Silver Age.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8",
+        "gutenberg:ebooks:39250:553.553.2-553.553.2:ea31c643",
+        "gutenberg:ebooks:39250:553.553.3-553.553.3:8995b3db"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 82,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.41,
+  "failedGates": [
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "niobe",
+    "theseus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

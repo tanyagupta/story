@@ -1,0 +1,229 @@
+{
+  "mythId": "bulk-myth-0240",
+  "mythFamilyId": "she-flies-and-waxes-every-hour",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-she-flies-and-waxes-every-hour-2f7bab",
+  "title": "She flies and waxes every hour.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359",
+      "gutenberg:ebooks:39250:61.61.2-61.61.2:2a2698af",
+      "gutenberg:ebooks:39250:61.61.3-61.61.3:f31a1fdb",
+      "gutenberg:ebooks:39250:61.61.4-61.61.4:90bf99df",
+      "gutenberg:ebooks:39250:61.61.5-61.61.5:79f03266"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "zeus",
+      "hebe"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hebe",
+      "normalizedId": "hebe",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
+    "openingSituation": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
+    "centralConflict": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
+    "resolution": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
+    "outcome": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
+    "storyline": [
+      "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359",
+        "gutenberg:ebooks:39250:61.61.2-61.61.2:2a2698af",
+        "gutenberg:ebooks:39250:61.61.3-61.61.3:f31a1fdb"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:61.61.3-61.61.3:f31a1fdb"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:61.61.3-61.61.3:f31a1fdb"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:61.61.3-61.61.3:f31a1fdb"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:61.61.3-61.61.3:f31a1fdb"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359",
+      "excerpt": "At first she shrinks, and cowers for dread: Ere long she soars on high: Upon the ground she plants her tread, Her forehead in the sky.\"",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:61.61.2-61.61.2:2a2698af",
+      "excerpt": "Virgil (Conington's tr.).",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:61.61.3-61.61.3:f31a1fdb",
+      "excerpt": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with careless hands her numerous gifts, and lavishing with indifference",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:61.61.4-61.61.4:90bf99df",
+      "excerpt": "\"Hebe, honored of them all, Ministered nectar, and from cups of gold They pledged each other.\"",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:61.61.5-61.61.5:79f03266",
+      "excerpt": "Homer (Bryant's tr.).",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
+      "evidence": [
+        "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with careless hands her numerous gifts, and lavishing with indifference her choicest smiles; while Hebe, or Juventas, the goddess of youth, was ever ready at his wish to pour out the nectar, in which the gods were wont to pledge each other.",
+      "sourceClause": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with careless hands her numerous gifts, and lavishing with indifference her choicest smiles; while Hebe, or Juventas, the goddess of youth, was ever ready at his wish to pour out the nectar, in which the gods were wont to pledge each other.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "journeyed",
+      "object": null,
+      "target": "zeus",
+      "recipient": null,
+      "location": null,
+      "result": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:61.61.3-61.61.3:f31a1fdb"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
+      "evidence": [
+        "gutenberg:ebooks:39250:61.61.5-61.61.5:79f03266"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-afcc0d85",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0061-50a2fb",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "She flies and waxes every hour.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359",
+        "gutenberg:ebooks:39250:61.61.2-61.61.2:2a2698af",
+        "gutenberg:ebooks:39250:61.61.3-61.61.3:f31a1fdb"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.3,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "zeus",
+    "hebe"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

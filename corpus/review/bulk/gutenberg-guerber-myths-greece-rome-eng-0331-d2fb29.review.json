@@ -1,0 +1,44 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 74,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-884e34eb",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0331-d2fb29",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "CHAPTER XVIII.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:331.331.1-331.331.1:3aab2df0",
+        "gutenberg:ebooks:39250:331.331.2-331.331.2:2041036f",
+        "gutenberg:ebooks:39250:331.331.3-331.331.3:f4218859"
+      ],
+      "status": "open"
+    }
+  ]
+}

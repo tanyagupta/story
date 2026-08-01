@@ -21,10 +21,28 @@
   "mythFamilyId": "jason-and-argonauts",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-jason-and-argonauts-73ec6e",
   "characters": [
-    "Jason"
+    "Jason",
+    "Argos"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 24,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

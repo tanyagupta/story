@@ -1,0 +1,220 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0560-255ee0",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Juno",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:560.560.1-560.560.1:78e653fb"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hera",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:560.560.1-560.560.1:78e653fb"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Minerva",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:560.560.1-560.560.1:78e653fb"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athena",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Odysseus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:560.560.1-560.560.1:78e653fb"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "odysseus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Paris",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:560.560.1-560.560.1:78e653fb"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "paris",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Psyche",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:560.560.1-560.560.1:78e653fb"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "psyche",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "created",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:560.560.4-560.560.4:c74c13d3"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "saved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:560.560.5-560.560.5:3eab5824"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "loved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:560.560.6-560.560.6:47bebb4a"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:560.560.12-560.560.12:b0f58253"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "saved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:560.560.14-560.560.14:ec1da027"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hera",
+      "predicate": "opening_situation",
+      "object": "Husband of Gæa, created by her, 15, 17, 18; significance, 385.",
+      "evidence": [
+        "gutenberg:ebooks:39250:560.560.1-560.560.1:78e653fb"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hera",
+      "predicate": "outcome",
+      "object": "God of the south wind; son of Æolus and Aurora, 213; Hyacinthus slain by, 67; Venus conducted by, 105; Psyche saved by, 122, 128; Flora, wife of, 301.",
+      "evidence": [
+        "gutenberg:ebooks:39250:560.560.16-560.560.16:3df0e23a"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-29cd660a",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0560-255ee0",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Tyre.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:560.560.1-560.560.1:78e653fb",
+        "gutenberg:ebooks:39250:560.560.2-560.560.2:edfd9264",
+        "gutenberg:ebooks:39250:560.560.3-560.560.3:096f3724"
+      ],
+      "status": "open"
+    }
+  ]
+}

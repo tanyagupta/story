@@ -8,7 +8,7 @@
     "gutenberg:ebooks:45489:121.121.3-121.121.3:1ec25be6",
     "gutenberg:ebooks:45489:121.121.4-121.121.4:ba6fa796"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -21,9 +21,37 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "thus-dreadfully-adorned-with-horror-bright",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-thus-dreadfully-adorned-with-horror-bright-c2afd6",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Bacchus",
+    "Juno",
+    "Jupiter",
+    "Athamas",
+    "Ino"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 95,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

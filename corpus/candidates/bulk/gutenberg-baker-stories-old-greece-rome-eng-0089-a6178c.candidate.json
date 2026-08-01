@@ -6,7 +6,7 @@
     "gutenberg:ebooks:45489:89.89.1-89.89.1:d33c4b14",
     "gutenberg:ebooks:45489:89.89.2-89.89.2:01f52f52"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -16,15 +16,32 @@
   "workingTitle": "III",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-trojan-war-cb825e",
   "characters": [
     "Jupiter",
     "Venus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 35,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 2,
+      "conflictSignals": 0,
+      "paragraphCount": 2,
+      "knownMythFamily": true
+    }
+  }
 }

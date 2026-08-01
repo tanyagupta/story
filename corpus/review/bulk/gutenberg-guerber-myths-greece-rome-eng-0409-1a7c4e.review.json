@@ -1,0 +1,44 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 129,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-bbe26d1a",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0409-1a7c4e",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "But dreadful were the mis'ries it denounc'd",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:409.409.1-409.409.1:fe7787d1",
+        "gutenberg:ebooks:39250:409.409.2-409.409.2:aa73578c",
+        "gutenberg:ebooks:39250:409.409.3-409.409.3:017ee7e8"
+      ],
+      "status": "open"
+    }
+  ]
+}

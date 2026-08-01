@@ -1,0 +1,250 @@
+{
+  "mythId": "bulk-myth-0197",
+  "mythFamilyId": "trojan-war",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-0ae08a",
+  "title": "CHAPTER XXIX.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30",
+      "gutenberg:ebooks:39250:483.483.2-483.483.2:a9133f04",
+      "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374",
+      "gutenberg:ebooks:39250:483.483.4-483.483.4:44b82681"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hector",
+      "aphrodite"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Hector",
+      "normalizedId": "hector",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30"
+        }
+      ]
+    },
+    {
+      "sourceName": "Venus",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him \"'Ah, goddess-born,' he warns me, 'fly!",
+    "openingSituation": "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him",
+    "centralConflict": "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him",
+    "resolution": "\"'Ah, goddess-born,' he warns me, 'fly!",
+    "outcome": "\"'Ah, goddess-born,' he warns me, 'fly!",
+    "storyline": [
+      "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him",
+      "\"'Ah, goddess-born,' he warns me, 'fly!"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30",
+        "gutenberg:ebooks:39250:483.483.2-483.483.2:a9133f04",
+        "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:483.483.4-483.483.4:44b82681"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:483.483.4-483.483.4:44b82681"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30",
+      "excerpt": "ADVENTURES OF ÆNEAS.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:483.483.2-483.483.2:a9133f04",
+      "excerpt": "You have already heard how the Greeks entered the city of Troy in the dead of night, massacred the inhabitants, and set fire to the beautiful buildings which had been the king's pride and delight.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374",
+      "excerpt": "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him in a dream to arise, leave the city, and fly to some distant",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:483.483.4-483.483.4:44b82681",
+      "excerpt": "\"'Ah, goddess-born,' he warns me, 'fly! Escape these flames: Greece holds the walls;",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hector",
+      "predicate": "opening_situation",
+      "object": "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him",
+      "evidence": [
+        "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him in a dream to arise, leave the city, and fly to some distant land.",
+      "sourceClause": "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him in a dream to arise, leave the city, and fly to some distant land.",
+      "actor": null,
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": "hector",
+      "recipient": null,
+      "location": null,
+      "result": "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "\"'Ah, goddess-born,' he warns me, 'fly!",
+      "sourceClause": "\"'Ah, goddess-born,' he warns me, 'fly!",
+      "actor": null,
+      "action": "birth",
+      "sourceAction": "born",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "\"'Ah, goddess-born,' he warns me, 'fly!",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:483.483.4-483.483.4:44b82681"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hector",
+      "predicate": "outcome",
+      "object": "\"'Ah, goddess-born,' he warns me, 'fly!",
+      "evidence": [
+        "gutenberg:ebooks:39250:483.483.4-483.483.4:44b82681"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Unconscious of coming danger, Æneas, son of Venus and Anchises, lay fast asleep in his palace; but the gods had not doomed him to perish, and sent the shade of Hector to warn him",
+      "\"'Ah, goddess-born,' he warns me, 'fly!"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-1fc2d837",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0483-cdb054",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "CHAPTER XXIX.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30",
+        "gutenberg:ebooks:39250:483.483.2-483.483.2:a9133f04",
+        "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 71,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.355,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "hector",
+    "aphrodite"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

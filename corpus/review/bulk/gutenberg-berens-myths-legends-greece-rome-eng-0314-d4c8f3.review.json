@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 141,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 6,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-c49b0d49",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0314-d4c8f3",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Echidna.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:314.314.1-314.314.1:3914e516",
+        "gutenberg:ebooks:22381:314.314.2-314.314.2:4b505826",
+        "gutenberg:ebooks:22381:314.314.3-314.314.3:b0ca9e2a"
+      ],
+      "status": "open"
+    }
+  ]
+}

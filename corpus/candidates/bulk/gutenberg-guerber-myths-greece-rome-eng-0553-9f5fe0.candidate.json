@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:553.553.7-553.553.7:b2ff612d",
     "gutenberg:ebooks:39250:553.553.8-553.553.8:2a19837a"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,12 +22,35 @@
   "workingTitle": "Silver Age.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "deity_profile",
+  "candidateType": "narrative_episode",
   "mythFamilyId": "silver-age",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-silver-age-cf8d13",
-  "characters": [],
-  "processingStatus": "rejected-non-story",
-  "reviewStatus": "dismissed",
+  "characters": [
+    "Niobe",
+    "Theseus"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 82,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -15,7 +15,7 @@
   "workingTitle": "The Unknown Eros COVENTRY PATMORE",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "non_story_material",
+  "candidateType": "ambiguous",
   "mythFamilyId": "eros-and-psyche",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-eros-and-psyche-23db32",
   "characters": [
@@ -27,5 +27,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 22,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

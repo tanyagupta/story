@@ -19,7 +19,7 @@
     "gutenberg:ebooks:22381:331.331.14-331.331.14:2d21a07f",
     "gutenberg:ebooks:22381:331.331.15-331.331.15:fdad853c"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -30,13 +30,53 @@
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
   "candidateType": "narrative_episode",
-  "mythFamilyId": "theseus-and-minotaur",
-  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-theseus-and-minotaur-3c3532",
+  "mythFamilyId": "heraclidae",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-heraclidae-3c3532",
   "characters": [
-    "Theseus"
+    "Theseus",
+    "Zeus",
+    "Argos",
+    "Aristodemus",
+    "Aristomachus",
+    "Atreus",
+    "Ceyx",
+    "Cleodaeus",
+    "Cresphontes",
+    "Deianira",
+    "Demophoon",
+    "Echemon",
+    "Eurystheus",
+    "Hebe",
+    "Heraclidae",
+    "Hyllus",
+    "Iolaus",
+    "Macaria",
+    "Oxylus",
+    "Temenus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 174,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

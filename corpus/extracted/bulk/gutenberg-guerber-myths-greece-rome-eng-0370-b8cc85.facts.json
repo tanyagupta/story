@@ -1,0 +1,156 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0370-b8cc85",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Medusa",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:370.370.1-370.370.1:d18be6f9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "medusa",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Mercury",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:370.370.1-370.370.1:d18be6f9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Minerva",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:370.370.1-370.370.1:d18be6f9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athena",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Perseus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:370.370.1-370.370.1:d18be6f9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "perseus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Pluto",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:370.370.1-370.370.1:d18be6f9"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "hades",
+      "sourceAction": "flight",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:370.370.4-370.370.4:111e1ffa"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "sent",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:370.370.5-370.370.5:895b1646"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "medusa",
+      "predicate": "opening_situation",
+      "object": "Pluto lent him a magic helmet, which made the wearer invisible at will; Mercury attached his own winged sandals to the youth's heels, to endow him with great rapidity of flight",
+      "evidence": [
+        "gutenberg:ebooks:39250:370.370.1-370.370.1:d18be6f9"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "medusa",
+      "predicate": "outcome",
+      "object": "\"Minerva thus to Perseus lent her shield; Secure of conquest, sent him to the field: The hero acted what the queen ordain'd, So was his fame complete.\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:370.370.5-370.370.5:895b1646"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-ec36ae3c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0370-b8cc85",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "To petrify the mortal clay",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:370.370.1-370.370.1:d18be6f9",
+        "gutenberg:ebooks:39250:370.370.2-370.370.2:4061372b",
+        "gutenberg:ebooks:39250:370.370.3-370.370.3:3c0f0546"
+      ],
+      "status": "open"
+    }
+  ]
+}

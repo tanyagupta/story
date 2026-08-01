@@ -26,10 +26,30 @@
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-theseus-and-minotaur-30e87e",
   "characters": [
     "Apollo",
-    "Theseus"
+    "Dionysus",
+    "Theseus",
+    "Zeus",
+    "Acrisius"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 70,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 3,
+      "conflictSignals": 0,
+      "paragraphCount": 7,
+      "knownMythFamily": true
+    }
+  }
 }

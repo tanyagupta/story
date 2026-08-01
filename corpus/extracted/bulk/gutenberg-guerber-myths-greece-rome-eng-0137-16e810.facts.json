@@ -5,29 +5,29 @@
     {
       "sourceName": "Apollo",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "apollo",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Jupiter",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "helper",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-jupiter",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
   ],
@@ -36,7 +36,7 @@
   "events": [
     {
       "actorSourceName": null,
-      "sourceAction": "transformed",
+      "sourceAction": "reached",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -46,10 +46,13 @@
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:137.137.2-137.137.2:719193d5"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -66,7 +69,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -79,18 +82,52 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:137.137.2-137.137.2:719193d5"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "apollo",
+      "sourceAction": "loved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
           "passageId": "gutenberg:ebooks:39250:137.137.3-137.137.3:80eda73e"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "loved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:137.137.4-137.137.4:1af30029"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "apollo",
-      "predicate": "is introduced in",
-      "object": "Worsley.",
+      "predicate": "opening_situation",
+      "object": "[Sidenote: The Heliades.] The tidings of his death soon reached poor Clymene, who mourned her only son, and refused to be comforted; while the Heliades, Phaeton's sisters, three",
       "evidence": [
         "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd"
       ]
@@ -99,14 +136,31 @@
   "finalState": [
     {
       "subject": "apollo",
-      "predicate": "is last attested in selected candidate",
-      "object": "Worsley.",
+      "predicate": "outcome",
+      "object": "\"Whom all the Muses loved, not one alone; Into his hands they put the lyre of gold, And, crowned with sacred laurel at their fount, Placed him as Musagetes on their throne.\"",
       "evidence": [
         "gutenberg:ebooks:39250:137.137.4-137.137.4:1af30029"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-aff7720b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0137-16e810",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Worsley.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd",
+        "gutenberg:ebooks:39250:137.137.2-137.137.2:719193d5",
+        "gutenberg:ebooks:39250:137.137.3-137.137.3:80eda73e"
+      ],
+      "status": "open"
+    }
+  ]
 }

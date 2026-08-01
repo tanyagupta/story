@@ -7,7 +7,7 @@
     "gutenberg:ebooks:39250:90.90.2-90.90.2:e6b66801",
     "gutenberg:ebooks:39250:90.90.3-90.90.3:521d48aa"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -17,14 +17,37 @@
   "workingTitle": "Saxe.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "deity_profile",
+  "candidateType": "narrative_episode",
   "mythFamilyId": "saxe",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-saxe-b1ce7e",
   "characters": [
-    "Hades"
+    "Hades",
+    "Pluto"
   ],
-  "processingStatus": "rejected-non-story",
-  "reviewStatus": "dismissed",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

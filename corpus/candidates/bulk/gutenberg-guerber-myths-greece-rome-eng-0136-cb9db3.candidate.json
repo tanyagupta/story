@@ -21,10 +21,28 @@
   "mythFamilyId": "illustration-aurora-guido-reni-rospigliosi-palace-rome",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-illustration-aurora-guido-reni-rospigliosi-palace-rome-ff444b",
   "characters": [
-    "Jupiter"
+    "Jupiter",
+    "Phaethon"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 84,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 5,
+      "conflictSignals": 3,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -9,7 +9,7 @@
     "gutenberg:ebooks:45489:79.79.4-79.79.4:f8f3fb9d",
     "gutenberg:ebooks:45489:79.79.5-79.79.5:3be85e82"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,10 +23,32 @@
   "mythFamilyId": "iii",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-iii-0d9c24",
   "characters": [
-    "Diana"
+    "Apollo",
+    "Diana",
+    "Jupiter"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 155,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 8,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

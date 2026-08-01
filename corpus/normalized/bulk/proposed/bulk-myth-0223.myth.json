@@ -1,0 +1,220 @@
+{
+  "mythId": "bulk-myth-0223",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-a00eb3",
+  "title": "Greeks.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:322.322.1-322.322.1:957c8a52",
+      "gutenberg:ebooks:39250:322.322.2-322.322.2:c6f194c3"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:322.322.1-322.322.1:957c8a52"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "According to some mythologists, he was the son of Apollo; and, although born in Thessaly, he early in life came to Italy, where he founded a city on the Tiber, to which he gave \"Saturn fled before victorious Jove, Driven down and banish'd from the realms above.",
+    "openingSituation": "According to some mythologists, he was the son of Apollo; and, although born in Thessaly, he early in life came to Italy, where he founded a city on the Tiber, to which he gave",
+    "centralConflict": "\"Saturn fled before victorious Jove, Driven down and banish'd from the realms above.",
+    "resolution": "\"Saturn fled before victorious Jove, Driven down and banish'd from the realms above.",
+    "outcome": "\"Saturn fled before victorious Jove, Driven down and banish'd from the realms above.",
+    "storyline": [
+      "According to some mythologists, he was the son of Apollo; and, although born in Thessaly, he early in life came to Italy, where he founded a city on the Tiber, to which he gave",
+      "\"Saturn fled before victorious Jove, Driven down and banish'd from the realms above."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:322.322.1-322.322.1:957c8a52",
+        "gutenberg:ebooks:39250:322.322.2-322.322.2:c6f194c3"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:322.322.1-322.322.1:957c8a52"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:322.322.2-322.322.2:c6f194c3"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:322.322.2-322.322.2:c6f194c3"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:322.322.2-322.322.2:c6f194c3"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:322.322.1-322.322.1:957c8a52",
+      "excerpt": "According to some mythologists, he was the son of Apollo; and, although born in Thessaly, he early in life came to Italy, where he founded a city on the Tiber, to which he gave the name Janiculum.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:322.322.2-322.322.2:c6f194c3",
+      "excerpt": "\"Saturn fled before victorious Jove, Driven down and banish'd from the realms above. He, by just laws, embodied all the train, Who roam'd the hills, and drew them to the plain; There fixed, and Latium called the new abode,",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "According to some mythologists, he was the son of Apollo; and, although born in Thessaly, he early in life came to Italy, where he founded a city on the Tiber, to which he gave",
+      "evidence": [
+        "gutenberg:ebooks:39250:322.322.1-322.322.1:957c8a52"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "According to some mythologists, he was the son of Apollo; and, although born in Thessaly, he early in life came to Italy, where he founded a city on the Tiber, to which he gave the name Janiculum.",
+      "sourceClause": "According to some mythologists, he was the son of Apollo; and, although born in Thessaly, he early in life came to Italy, where he founded a city on the Tiber, to which he gave the name Janiculum.",
+      "actor": null,
+      "action": "birth",
+      "sourceAction": "born",
+      "object": null,
+      "target": "apollo",
+      "recipient": null,
+      "location": null,
+      "result": "According to some mythologists, he was the son of Apollo; and, although born in Thessaly, he early in life came to Italy, where he founded a city on the Tiber, to which he gave",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:322.322.1-322.322.1:957c8a52"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "\"Saturn fled before victorious Jove, Driven down and banish'd from the realms above.",
+      "sourceClause": "\"Saturn fled before victorious Jove, Driven down and banish'd from the realms above.",
+      "actor": null,
+      "action": "flee",
+      "sourceAction": "fled",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "\"Saturn fled before victorious Jove, Driven down and banish'd from the realms above.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:322.322.2-322.322.2:c6f194c3"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "\"Saturn fled before victorious Jove, Driven down and banish'd from the realms above.",
+      "evidence": [
+        "gutenberg:ebooks:39250:322.322.2-322.322.2:c6f194c3"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "According to some mythologists, he was the son of Apollo; and, although born in Thessaly, he early in life came to Italy, where he founded a city on the Tiber, to which he gave",
+      "\"Saturn fled before victorious Jove, Driven down and banish'd from the realms above."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-c7f80116",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0322-796c87",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Greeks.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:322.322.1-322.322.1:957c8a52",
+        "gutenberg:ebooks:39250:322.322.2-322.322.2:c6f194c3"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 63,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.315,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

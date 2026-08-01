@@ -33,5 +33,22 @@
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 184,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "actionBearingSentences": 16,
+      "conflictSignals": 3,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

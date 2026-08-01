@@ -27,9 +27,31 @@
   "candidateType": "non_story_material",
   "mythFamilyId": "illustration",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-illustration-150f79",
-  "characters": [],
+  "characters": [
+    "Apollo",
+    "Odysseus",
+    "Poseidon",
+    "Zeus"
+  ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 131,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 9,
+      "conflictSignals": 3,
+      "paragraphCount": 10,
+      "knownMythFamily": true
+    }
+  }
 }

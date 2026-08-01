@@ -9,7 +9,7 @@
     "gutenberg:ebooks:39250:335.335.4-335.335.4:352db75e",
     "gutenberg:ebooks:39250:335.335.5-335.335.5:5b7d62ec"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,8 +23,30 @@
   "mythFamilyId": "chafe-blustering-round-their-prison-door",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-chafe-blustering-round-their-prison-door-7ebac7",
   "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 55,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

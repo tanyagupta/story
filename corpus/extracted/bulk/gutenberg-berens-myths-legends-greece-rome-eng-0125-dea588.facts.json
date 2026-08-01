@@ -1,0 +1,133 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0125-dea588",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Prometheus",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:125.125.1-125.125.1:c53bed65"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "prometheus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:125.125.3-125.125.3:c764c45d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "saved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:125.125.3-125.125.3:c764c45d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "built",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:125.125.4-125.125.4:c3059d2c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "sprang",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:125.125.4-125.125.4:c3059d2c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "prometheus",
+      "predicate": "opening_situation",
+      "object": "In the course of time these primitive human beings became tamed and civilized by the gods and heroes, who taught them to work in metals, to build houses, and other useful arts of",
+      "evidence": [
+        "gutenberg:ebooks:22381:125.125.1-125.125.1:c53bed65"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "prometheus",
+      "predicate": "outcome",
+      "object": "From those thrown by Deucalion there sprang up men, and from those thrown by Pyrrha, women.",
+      "evidence": [
+        "gutenberg:ebooks:22381:125.125.5-125.125.5:aa1c2333"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-2c225a41",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0125-dea588",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THEORIES AS TO THE ORIGIN OF MAN.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:125.125.1-125.125.1:c53bed65",
+        "gutenberg:ebooks:22381:125.125.2-125.125.2:becda275",
+        "gutenberg:ebooks:22381:125.125.3-125.125.3:c764c45d"
+      ],
+      "status": "open"
+    }
+  ]
+}

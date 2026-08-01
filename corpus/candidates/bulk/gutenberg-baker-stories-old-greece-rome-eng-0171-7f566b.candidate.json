@@ -14,7 +14,7 @@
     "gutenberg:ebooks:45489:171.171.9-171.171.9:65ec7c4c",
     "gutenberg:ebooks:45489:171.171.10-171.171.10:ad040db4"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -27,9 +27,33 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-trojan-war-5ce3dd",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Antigone",
+    "Apollo"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 137,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

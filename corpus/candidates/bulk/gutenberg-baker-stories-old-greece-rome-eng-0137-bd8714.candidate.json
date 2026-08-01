@@ -26,10 +26,31 @@
   "characters": [
     "Hercules",
     "Juno",
-    "Mercury"
+    "Mercury",
+    "Argos",
+    "Chiron",
+    "Eurystheus",
+    "Iolaus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 285,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 7,
+      "actionBearingSentences": 18,
+      "conflictSignals": 11,
+      "paragraphCount": 6,
+      "knownMythFamily": true
+    }
+  }
 }

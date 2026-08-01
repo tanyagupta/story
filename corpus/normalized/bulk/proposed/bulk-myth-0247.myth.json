@@ -1,0 +1,192 @@
+{
+  "mythId": "bulk-myth-0247",
+  "mythFamilyId": "narcissus-and-echo",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-narcissus-and-echo-8fa1c7",
+  "title": "Saxe.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab",
+      "gutenberg:ebooks:39250:188.188.2-188.188.2:0f357168"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "echo",
+      "narcissus",
+      "aphrodite"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Echo",
+      "normalizedId": "echo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+        }
+      ]
+    },
+    {
+      "sourceName": "Narcissus",
+      "normalizedId": "narcissus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+        }
+      ]
+    },
+    {
+      "sourceName": "Venus",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "",
+    "openingSituation": "",
+    "centralConflict": "",
+    "resolution": "",
+    "outcome": "",
+    "storyline": [],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab",
+        "gutenberg:ebooks:39250:188.188.2-188.188.2:0f357168"
+      ],
+      "openingSituation": [],
+      "centralConflict": [],
+      "resolution": [],
+      "outcome": []
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab",
+      "excerpt": "Venus alone had not forgotten poor Echo's last passionate prayer, and was biding her time to punish the disdainful Narcissus. One day, after a prolonged chase, he hurried to a lonely pool to slake his thirst.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:188.188.2-188.188.2:0f357168",
+      "excerpt": "\"In some delicious ramble, he had found A little space, with boughs all woven round; And in the midst of all, a clearer pool",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "echo",
+      "predicate": "opening_situation",
+      "object": "Saxe.",
+      "evidence": [
+        "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+      ]
+    }
+  ],
+  "events": [],
+  "finalState": [
+    {
+      "subject": "echo",
+      "predicate": "outcome",
+      "object": "Saxe.",
+      "evidence": [
+        "gutenberg:ebooks:39250:188.188.2-188.188.2:0f357168"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-947fc424",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0188-cf9d4c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab",
+        "gutenberg:ebooks:39250:188.188.2-188.188.2:0f357168"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 30,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, no-object-target-recipient-location-or-outcome, no-central-conflict-or-change, no-outcome, no-storyline, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "no-object-target-recipient-location-or-outcome",
+      "no-central-conflict-or-change",
+      "no-outcome",
+      "no-storyline",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 0,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 0,
+      "hasCentralConflictOrChange": false,
+      "hasOutcome": false,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.15,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "no-object-target-recipient-location-or-outcome",
+    "no-central-conflict-or-change",
+    "no-outcome",
+    "no-storyline",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "echo",
+    "narcissus",
+    "aphrodite"
+  ],
+  "uncertainEvents": [],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

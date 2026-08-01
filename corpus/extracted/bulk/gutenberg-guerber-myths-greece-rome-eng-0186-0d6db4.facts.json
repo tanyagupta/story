@@ -5,43 +5,43 @@
     {
       "sourceName": "Echo",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:186.186.1-186.186.1:d1e7d467"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "echo",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Narcissus",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "participant",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:186.186.1-186.186.1:d1e7d467"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "narcissus",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Venus",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "participant",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:186.186.1-186.186.1:d1e7d467"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-venus",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
@@ -63,28 +63,11 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
-      "sourceAction": "had",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:186.186.2-186.186.2:6e1750c7"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": "roman-venus",
-      "sourceAction": "is described",
+      "sourceAction": "discovered",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -97,14 +80,116 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "stolen",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:186.186.4-186.186.4:92e9a7f5"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "concealed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:186.186.5-186.186.5:c255914c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "caught",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:186.186.5-186.186.5:c255914c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:186.186.6-186.186.6:f8c414c0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "wandered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:186.186.13-186.186.13:96d098ec"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "condemned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:186.186.14-186.186.14:4fe6391e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "echo",
-      "predicate": "is introduced in",
-      "object": "The lonely hope of Sestos' daughter.",
+      "predicate": "opening_situation",
+      "object": "when alone along the sky Her turret torch was blazing high, Though rising gale, and breaking foam, And shrieking sea-birds warn'd him home; And clouds aloft and tides below, With",
       "evidence": [
         "gutenberg:ebooks:39250:186.186.1-186.186.1:d1e7d467"
       ]
@@ -113,14 +198,31 @@
   "finalState": [
     {
       "subject": "echo",
-      "predicate": "is last attested in selected candidate",
-      "object": "The lonely hope of Sestos' daughter.",
+      "predicate": "outcome",
+      "object": "The gods, displeased at her lack of proper pride, condemned her to haunt rocks and solitary places, and, as a warning to other impulsive maidens, to repeat the last sounds which",
       "evidence": [
         "gutenberg:ebooks:39250:186.186.15-186.186.15:299ef79f"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-d022ebc4",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0186-0d6db4",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "The lonely hope of Sestos' daughter.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:186.186.1-186.186.1:d1e7d467",
+        "gutenberg:ebooks:39250:186.186.2-186.186.2:6e1750c7",
+        "gutenberg:ebooks:39250:186.186.3-186.186.3:551b92b0"
+      ],
+      "status": "open"
+    }
+  ]
 }

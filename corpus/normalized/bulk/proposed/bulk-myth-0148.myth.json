@@ -1,0 +1,311 @@
+{
+  "mythId": "bulk-myth-0148",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-apollo-and-daphne-33f970",
+  "title": "Amphitrite.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a",
+      "gutenberg:ebooks:22381:165.165.2-165.165.2:d50b1916",
+      "gutenberg:ebooks:22381:165.165.3-165.165.3:3586023b",
+      "gutenberg:ebooks:22381:165.165.4-165.165.4:e9c03495"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "poseidon",
+      "argonauts"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a"
+        }
+      ]
+    },
+    {
+      "sourceName": "Poseidon",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a"
+        }
+      ]
+    },
+    {
+      "sourceName": "Argonauts",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Already had they succeeded in placing Mount Ossa on Olympus and Pelion on Ossa, when this impious project was frustrated by Apollo, who destroyed them with his arrows. Pelias became afterwards famous in the story of the Argonauts, and Neleus was the father of Nestor, who was distinguished in the Trojan War.",
+    "openingSituation": "Already had they succeeded in placing Mount Ossa on Olympus and Pelion on Ossa, when this impious project was frustrated by Apollo, who destroyed them with his arrows.",
+    "centralConflict": "Already had they succeeded in placing Mount Ossa on Olympus and Pelion on Ossa, when this impious project was frustrated by Apollo, who destroyed them with his arrows.",
+    "resolution": "Upon this Poseidon struck the ground with his trident, and the horse sprang forth in all his untamed strength and graceful beauty.",
+    "outcome": "Upon this Poseidon struck the ground with his trident, and the horse sprang forth in all his untamed strength and graceful beauty.",
+    "storyline": [
+      "Already had they succeeded in placing Mount Ossa on Olympus and Pelion on Ossa, when this impious project was frustrated by Apollo, who destroyed them with his arrows.",
+      "Pelias became afterwards famous in the story of the Argonauts, and Neleus was the father of Nestor, who was distinguished in the Trojan War.",
+      "The Greeks believed that it was to Poseidon they were indebted for the existence of the horse, which he is said to have produced in the following manner: Athene and Poseidon both",
+      "Upon this Poseidon struck the ground with his trident, and the horse sprang forth in all his untamed strength and graceful beauty."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a",
+        "gutenberg:ebooks:22381:165.165.2-165.165.2:d50b1916",
+        "gutenberg:ebooks:22381:165.165.3-165.165.3:3586023b"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:165.165.3-165.165.3:3586023b"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:165.165.3-165.165.3:3586023b"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a",
+      "excerpt": "The sea-god was the father of two giant sons called Otus and Ephialtes.[40] When only nine years old they {106} were said to be twenty-seven cubits[41] in height and nine in breadth.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:165.165.2-165.165.2:d50b1916",
+      "excerpt": "Pelias and Neleus were also sons of Poseidon. Their mother Tyro was attached to the river-god Enipeus, whose form Poseidon assumed, and thus won her love.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:165.165.3-165.165.3:3586023b",
+      "excerpt": "The Greeks believed that it was to Poseidon they were indebted for the existence of the horse, which he is said to have produced in the following manner: Athene and Poseidon both claiming the right to name Cecropia (the ancient name of",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:165.165.4-165.165.4:e9c03495",
+      "excerpt": "Poseidon tamed the horse for the use of mankind, and was believed to have taught men the art of managing horses by the bridle.",
+      "supports": [
+        "event-004"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Already had they succeeded in placing Mount Ossa on Olympus and Pelion on Ossa, when this impious project was frustrated by Apollo, who destroyed them with his arrows.",
+      "evidence": [
+        "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Already had they succeeded in placing Mount Ossa on Olympus and Pelion on Ossa, when this impious project was frustrated by Apollo, who destroyed them with his arrows.",
+      "sourceClause": "Already had they succeeded in placing Mount Ossa on Olympus and Pelion on Ossa, when this impious project was frustrated by Apollo, who destroyed them with his arrows.",
+      "actor": null,
+      "action": "destroy",
+      "sourceAction": "destroyed",
+      "object": null,
+      "target": "apollo",
+      "recipient": null,
+      "location": "olympus",
+      "result": "Already had they succeeded in placing Mount Ossa on Olympus and Pelion on Ossa, when this impious project was frustrated by Apollo, who destroyed them with his arrows.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Pelias became afterwards famous in the story of the Argonauts, and Neleus was the father of Nestor, who was distinguished in the Trojan War.",
+      "sourceClause": "Pelias became afterwards famous in the story of the Argonauts, and Neleus was the father of Nestor, who was distinguished in the Trojan War.",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": "argonauts",
+      "recipient": null,
+      "location": "troy",
+      "result": "Pelias became afterwards famous in the story of the Argonauts, and Neleus was the father of Nestor, who was distinguished in the Trojan War.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.2-165.165.2:d50b1916"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "The Greeks believed that it was to Poseidon they were indebted for the existence of the horse, which he is said to have produced in the following manner: Athene and Poseidon both claiming the right to name Cecropia (the ancient name of Athens), a violent dispute arose, which was finally settled by an assembly of the Olympian gods, who decided that whichever of the contending parties presented mankind with the most useful gift, should obtain the privilege of naming the city.",
+      "sourceClause": "The Greeks believed that it was to Poseidon they were indebted for the existence of the horse, which he is said to have produced in the following manner: Athene and Poseidon both claiming the right to name Cecropia (the ancient name of Athens), a violent dispute arose, which was finally settled by an assembly of the Olympian gods, who decided that whichever of the contending parties presented mankind with the most useful gift, should obtain the privilege of naming the city.",
+      "actor": null,
+      "action": "give",
+      "sourceAction": "presented",
+      "object": null,
+      "target": "poseidon",
+      "recipient": null,
+      "location": "athens",
+      "result": "The Greeks believed that it was to Poseidon they were indebted for the existence of the horse, which he is said to have produced in the following manner: Athene and Poseidon both",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.3-165.165.3:3586023b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "Upon this Poseidon struck the ground with his trident, and the horse sprang forth in all his untamed strength and graceful beauty.",
+      "sourceClause": "Upon this Poseidon struck the ground with his trident, and the horse sprang forth in all his untamed strength and graceful beauty.",
+      "actor": null,
+      "action": "leap",
+      "sourceAction": "sprang",
+      "object": null,
+      "target": "poseidon",
+      "recipient": null,
+      "location": null,
+      "result": "Upon this Poseidon struck the ground with his trident, and the horse sprang forth in all his untamed strength and graceful beauty.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:165.165.3-165.165.3:3586023b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "Upon this Poseidon struck the ground with his trident, and the horse sprang forth in all his untamed strength and graceful beauty.",
+      "evidence": [
+        "gutenberg:ebooks:22381:165.165.4-165.165.4:e9c03495"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Already had they succeeded in placing Mount Ossa on Olympus and Pelion on Ossa, when this impious project was frustrated by Apollo, who destroyed them with his arrows.",
+      "Pelias became afterwards famous in the story of the Argonauts, and Neleus was the father of Nestor, who was distinguished in the Trojan War.",
+      "The Greeks believed that it was to Poseidon they were indebted for the existence of the horse, which he is said to have produced in the following manner: Athene and Poseidon both",
+      "Upon this Poseidon struck the ground with his trident, and the horse sprang forth in all his untamed strength and graceful beauty."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-eb52f836",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0165-9a6a16",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Amphitrite.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:165.165.1-165.165.1:6ab32b8a",
+        "gutenberg:ebooks:22381:165.165.2-165.165.2:d50b1916",
+        "gutenberg:ebooks:22381:165.165.3-165.165.3:3586023b"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 101,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 4,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.505,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "poseidon",
+    "argonauts"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

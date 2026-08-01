@@ -1,0 +1,256 @@
+{
+  "mythId": "bulk-myth-0193",
+  "mythFamilyId": "trojan-war",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-77dacb",
+  "title": "Cowper.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:436.436.1-436.436.1:8a4a508d",
+      "gutenberg:ebooks:39250:436.436.2-436.436.2:13a2ab44",
+      "gutenberg:ebooks:39250:436.436.3-436.436.3:117b8307",
+      "gutenberg:ebooks:39250:436.436.4-436.436.4:16417bf5",
+      "gutenberg:ebooks:39250:436.436.5-436.436.5:b1f2036e"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hera",
+      "athena",
+      "paris",
+      "aphrodite"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Juno",
+      "normalizedId": "hera",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:436.436.1-436.436.1:8a4a508d"
+        }
+      ]
+    },
+    {
+      "sourceName": "Minerva",
+      "normalizedId": "athena",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:436.436.1-436.436.1:8a4a508d"
+        }
+      ]
+    },
+    {
+      "sourceName": "Paris",
+      "normalizedId": "paris",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:436.436.1-436.436.1:8a4a508d"
+        }
+      ]
+    },
+    {
+      "sourceName": "Venus",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:436.436.1-436.436.1:8a4a508d"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening",
+    "openingSituation": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening",
+    "centralConflict": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening",
+    "resolution": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening",
+    "outcome": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening",
+    "storyline": [
+      "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:436.436.1-436.436.1:8a4a508d",
+        "gutenberg:ebooks:39250:436.436.2-436.436.2:13a2ab44",
+        "gutenberg:ebooks:39250:436.436.3-436.436.3:117b8307"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:436.436.3-436.436.3:117b8307"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:436.436.3-436.436.3:117b8307"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:436.436.3-436.436.3:117b8307"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:436.436.3-436.436.3:117b8307"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:436.436.1-436.436.1:8a4a508d",
+      "excerpt": "Then, trembling lest her efforts should prove vain, she gently drew near the youth, and softly promised him a bride as fair as herself, in return for the coveted golden apple.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:436.436.2-436.436.2:13a2ab44",
+      "excerpt": "Won either by her superior attractions or by her alluring bribe, Paris no longer hesitated, but placed the prize in her extended palm.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:436.436.3-436.436.3:117b8307",
+      "excerpt": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening seed.\"",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:436.436.4-436.436.4:16417bf5",
+      "excerpt": "Coluthus (Elton's tr.).",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:436.436.5-436.436.5:b1f2036e",
+      "excerpt": "This act of partiality, of course, called down upon him the wrath and hatred of Juno and Minerva, who, biding their time, watched for a suitable opportunity to avenge themselves; while Venus, triumphant, and anxious to redeem her promise",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hera",
+      "predicate": "opening_situation",
+      "object": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening",
+      "evidence": [
+        "gutenberg:ebooks:39250:436.436.1-436.436.1:8a4a508d"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening seed.\"",
+      "sourceClause": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening seed.\"",
+      "actor": null,
+      "action": "birth",
+      "sourceAction": "born",
+      "object": null,
+      "target": "aphrodite",
+      "recipient": null,
+      "location": null,
+      "result": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:436.436.3-436.436.3:117b8307"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hera",
+      "predicate": "outcome",
+      "object": "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening",
+      "evidence": [
+        "gutenberg:ebooks:39250:436.436.5-436.436.5:b1f2036e"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "\"Ere yet her speech was finished, he consign'd To her soft hand the fruit of burnished rind; And foam-born Venus grasp'd the graceful meed, Of war, of evil war, the quickening"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-cebc60dd",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0436-c657c9",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Cowper.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:436.436.1-436.436.1:8a4a508d",
+        "gutenberg:ebooks:39250:436.436.2-436.436.2:13a2ab44",
+        "gutenberg:ebooks:39250:436.436.3-436.436.3:117b8307"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 76,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.38,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "hera",
+    "athena",
+    "paris",
+    "aphrodite"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

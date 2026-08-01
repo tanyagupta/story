@@ -23,10 +23,28 @@
   "characters": [
     "Jason",
     "Medea",
-    "Theseus"
+    "Theseus",
+    "Argonauts"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 126,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 6,
+      "conflictSignals": 5,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

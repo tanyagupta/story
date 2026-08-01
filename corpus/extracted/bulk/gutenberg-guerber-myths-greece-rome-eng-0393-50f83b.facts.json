@@ -1,0 +1,146 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0393-50f83b",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Jason",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:393.393.1-393.393.1:2625da19"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "jason",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Phryxus",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:393.393.1-393.393.1:2625da19"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "phryxus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "phryxus",
+      "sourceAction": "reached",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:393.393.1-393.393.1:2625da19"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "went",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:393.393.1-393.393.1:2625da19"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "sprang",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:393.393.3-393.393.3:9de3df75"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "dared",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:393.393.3-393.393.3:9de3df75"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "jason",
+      "predicate": "opening_situation",
+      "object": "Phryxus, more fortunate than his sister, reached Colchis in safety, and in gratitude to the gods sacrificed the ram they had sent to deliver him, and hung its golden fleece on a",
+      "evidence": [
+        "gutenberg:ebooks:39250:393.393.1-393.393.1:2625da19"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "jason",
+      "predicate": "outcome",
+      "object": "Pelias, quite certain that the rash youth would lose his life in the attempt, and thus cause no more trouble, with much difficulty restrained all expressions of joy, and dared him",
+      "evidence": [
+        "gutenberg:ebooks:39250:393.393.4-393.393.4:e39a2f85"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-ed70a39c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0393-50f83b",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Meleager.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:393.393.1-393.393.1:2625da19",
+        "gutenberg:ebooks:39250:393.393.2-393.393.2:dd5760ce",
+        "gutenberg:ebooks:39250:393.393.3-393.393.3:9de3df75"
+      ],
+      "status": "open"
+    }
+  ]
+}

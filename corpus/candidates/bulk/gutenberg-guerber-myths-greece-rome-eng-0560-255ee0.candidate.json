@@ -20,7 +20,7 @@
     "gutenberg:ebooks:39250:560.560.15-560.560.15:c50ee9c5",
     "gutenberg:ebooks:39250:560.560.16-560.560.16:3df0e23a"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -34,10 +34,38 @@
   "mythFamilyId": "odysseus-cyclops",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-odysseus-cyclops-76b8eb",
   "characters": [
-    "Odysseus"
+    "Juno",
+    "Jupiter",
+    "Minerva",
+    "Odysseus",
+    "Paris",
+    "Psyche",
+    "Venus",
+    "Vulcan"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 136,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 5,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

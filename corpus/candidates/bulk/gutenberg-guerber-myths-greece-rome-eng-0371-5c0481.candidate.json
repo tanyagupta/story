@@ -13,7 +13,7 @@
     "gutenberg:ebooks:39250:371.371.8-371.371.8:ea9a2c52",
     "gutenberg:ebooks:39250:371.371.9-371.371.9:37156439"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,15 +23,34 @@
   "workingTitle": "Prior.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "perseus-and-medusa",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-perseus-and-medusa-ef3c12",
   "characters": [
     "Medusa",
+    "Neptune",
+    "Pegasus",
     "Perseus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 86,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 5,
+      "conflictSignals": 1,
+      "paragraphCount": 9,
+      "knownMythFamily": true
+    }
+  }
 }

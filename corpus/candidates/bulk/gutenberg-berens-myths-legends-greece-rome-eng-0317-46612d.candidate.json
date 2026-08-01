@@ -26,7 +26,7 @@
     "gutenberg:ebooks:22381:317.317.21-317.317.21:3acb082f",
     "gutenberg:ebooks:22381:317.317.22-317.317.22:d6bc4e76"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -39,9 +39,39 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-heracles-labors-8abf8c",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Apollo",
+    "Hermes",
+    "Zeus",
+    "Ceyx",
+    "Eurystheus",
+    "Hebe",
+    "Hyllus",
+    "Iolaus"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 174,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

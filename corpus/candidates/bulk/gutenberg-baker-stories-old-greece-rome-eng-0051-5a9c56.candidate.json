@@ -15,7 +15,7 @@
   "workingTitle": "FACING PAGE",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "non_story_material",
+  "candidateType": "ambiguous",
   "mythFamilyId": "perseus-and-medusa",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-perseus-and-medusa-150cd9",
   "characters": [
@@ -45,5 +45,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 166,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 20,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -7,7 +7,7 @@
     "gutenberg:ebooks:39250:159.159.2-159.159.2:644ca529",
     "gutenberg:ebooks:39250:159.159.3-159.159.3:9ceea39c"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -21,8 +21,29 @@
   "mythFamilyId": "hemans",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-hemans-a2713a",
   "characters": [],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 77,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 4,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

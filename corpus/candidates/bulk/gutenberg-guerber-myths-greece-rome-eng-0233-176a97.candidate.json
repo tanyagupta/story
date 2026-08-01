@@ -28,7 +28,7 @@
     "gutenberg:ebooks:39250:233.233.23-233.233.23:f49d10a8",
     "gutenberg:ebooks:39250:233.233.24-233.233.24:f2fb09b5"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -38,12 +38,43 @@
   "workingTitle": "Lewis Morris.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "lewis-morris",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-lewis-morris-49919e",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Apollo",
+    "Arion",
+    "Ceres",
+    "Hercules",
+    "Juno",
+    "Jupiter",
+    "Medusa",
+    "Minerva",
+    "Neptune",
+    "Pegasus",
+    "Proserpina",
+    "Eurystheus",
+    "Phryxus"
+  ],
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 351,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 13,
+      "actionBearingSentences": 18,
+      "conflictSignals": 11,
+      "paragraphCount": 24,
+      "knownMythFamily": true
+    }
+  }
 }

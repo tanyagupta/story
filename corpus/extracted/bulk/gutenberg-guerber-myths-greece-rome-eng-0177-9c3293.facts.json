@@ -1,0 +1,115 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0177-9c3293",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Venus",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "declared",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "knew",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "refused",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "aphrodite",
+      "predicate": "opening_situation",
+      "object": "An undying passion was thus simultaneously kindled in both young hearts; and, thanks to Venus' assistance, Leander managed to exchange a few words with Hero, declared his love",
+      "evidence": [
+        "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "aphrodite",
+      "predicate": "outcome",
+      "object": "Then, afraid lest some one should notice that she was talking to a stranger, she bade him depart; but he refused to go until he had learned where she lived, and proposed to swim",
+      "evidence": [
+        "gutenberg:ebooks:39250:177.177.3-177.177.3:92480a38"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-9c970201",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0177-9c3293",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Edwin Arnold.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c",
+        "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584",
+        "gutenberg:ebooks:39250:177.177.3-177.177.3:92480a38"
+      ],
+      "status": "open"
+    }
+  ]
+}

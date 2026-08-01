@@ -11,7 +11,7 @@
     "gutenberg:ebooks:22381:312.312.6-312.312.6:eb9ae74e",
     "gutenberg:ebooks:22381:312.312.7-312.312.7:991620c0"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -21,12 +21,37 @@
   "workingTitle": "Mycenae.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "deity_profile",
+  "candidateType": "narrative_episode",
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-heracles-labors-234094",
-  "characters": [],
-  "processingStatus": "rejected-non-story",
-  "reviewStatus": "dismissed",
+  "characters": [
+    "Alpheus",
+    "Argonauts",
+    "Eurystheus"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 117,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 5,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

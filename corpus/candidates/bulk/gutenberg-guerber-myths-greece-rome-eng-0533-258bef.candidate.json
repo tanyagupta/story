@@ -47,7 +47,7 @@
     "gutenberg:ebooks:39250:533.533.42-533.533.42:347b9544",
     "gutenberg:ebooks:39250:533.533.43-533.533.43:588b8fad"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -61,15 +61,54 @@
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-heracles-labors-efdd00",
   "characters": [
+    "Apollo",
+    "Bacchus",
+    "Bellerophon",
+    "Ceres",
+    "Diana",
+    "Hades",
+    "Helen",
     "Hercules",
+    "Io",
     "Jason",
+    "Juno",
     "Jupiter",
+    "Mercury",
     "Minerva",
+    "Minotaur",
+    "Neptune",
+    "Prometheus",
+    "Ulysses",
     "Venus",
-    "Vulcan"
+    "Vulcan",
+    "Athamas",
+    "Danae",
+    "Hebe",
+    "Ino"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

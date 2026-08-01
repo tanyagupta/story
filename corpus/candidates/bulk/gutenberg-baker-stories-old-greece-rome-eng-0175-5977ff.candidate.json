@@ -11,7 +11,7 @@
     "gutenberg:ebooks:45489:175.175.6-175.175.6:74dbbb00",
     "gutenberg:ebooks:45489:175.175.7-175.175.7:dd2f49f1"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,10 +25,31 @@
   "mythFamilyId": "the-apple-of-discord",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-the-apple-of-discord-c08d20",
   "characters": [
-    "Jupiter"
+    "Juno",
+    "Jupiter",
+    "Minerva",
+    "Paris",
+    "Venus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 171,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 8,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

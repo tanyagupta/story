@@ -6,7 +6,7 @@
     "gutenberg:ebooks:22381:226.226.1-226.226.1:494c2ad3",
     "gutenberg:ebooks:22381:226.226.2-226.226.2:18572de4"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -16,7 +16,7 @@
   "workingTitle": "PEGASUS.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "perseus-and-medusa",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-perseus-and-medusa-4f7761",
   "characters": [
@@ -24,10 +24,28 @@
     "Medusa",
     "Pegasus",
     "Perseus",
-    "Zeus"
+    "Zeus",
+    "Danae"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 77,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "actionBearingSentences": 2,
+      "conflictSignals": 1,
+      "paragraphCount": 2,
+      "knownMythFamily": true
+    }
+  }
 }

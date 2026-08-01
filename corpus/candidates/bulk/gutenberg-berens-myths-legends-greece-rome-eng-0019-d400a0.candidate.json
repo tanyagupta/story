@@ -29,5 +29,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 38,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -1,0 +1,96 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0188-cf9d4c",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Echo",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "echo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Narcissus",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "narcissus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Venus",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [],
+  "initialState": [
+    {
+      "subject": "echo",
+      "predicate": "opening_situation",
+      "object": "Saxe.",
+      "evidence": [
+        "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "echo",
+      "predicate": "outcome",
+      "object": "Saxe.",
+      "evidence": [
+        "gutenberg:ebooks:39250:188.188.2-188.188.2:0f357168"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-947fc424",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0188-cf9d4c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:188.188.1-188.188.1:8536b2ab",
+        "gutenberg:ebooks:39250:188.188.2-188.188.2:0f357168"
+      ],
+      "status": "open"
+    }
+  ]
+}

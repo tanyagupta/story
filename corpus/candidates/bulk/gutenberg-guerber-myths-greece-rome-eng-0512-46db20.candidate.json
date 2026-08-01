@@ -59,10 +59,51 @@
   "mythFamilyId": "jason-and-argonauts",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-jason-and-argonauts-cb5a63",
   "characters": [
-    "Medea"
+    "Alcestis",
+    "Apollo",
+    "Arion",
+    "Ceres",
+    "Circe",
+    "Diana",
+    "Hades",
+    "Hector",
+    "Helen",
+    "Hercules",
+    "Jason",
+    "Juno",
+    "Jupiter",
+    "Medea",
+    "Medusa",
+    "Minerva",
+    "Perseus",
+    "Theseus",
+    "Ulysses",
+    "Venus",
+    "Vulcan",
+    "Argos",
+    "Argonauts",
+    "Danae",
+    "Eurystheus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 380,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 25,
+      "actionBearingSentences": 9,
+      "conflictSignals": 8,
+      "paragraphCount": 41,
+      "knownMythFamily": true
+    }
+  }
 }

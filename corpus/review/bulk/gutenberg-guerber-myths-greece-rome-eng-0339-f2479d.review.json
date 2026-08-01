@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 106,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 4,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-6731925c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0339-f2479d",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "HERCULES.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:339.339.1-339.339.1:896736a0",
+        "gutenberg:ebooks:39250:339.339.2-339.339.2:d6f117fb",
+        "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c"
+      ],
+      "status": "open"
+    }
+  ]
+}

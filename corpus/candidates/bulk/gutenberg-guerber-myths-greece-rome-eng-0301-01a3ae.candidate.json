@@ -9,7 +9,7 @@
     "gutenberg:ebooks:39250:301.301.4-301.301.4:d7fea326",
     "gutenberg:ebooks:39250:301.301.5-301.301.5:f4f3ad9b"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -19,12 +19,33 @@
   "workingTitle": "And now his waters interfuse",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "deity_profile",
   "mythFamilyId": "and-now-his-waters-interfuse",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-and-now-his-waters-interfuse-ce1097",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Ceres",
+    "Alpheus",
+    "Arethusa"
+  ],
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 34,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

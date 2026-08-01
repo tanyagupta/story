@@ -1,0 +1,115 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0318-1f97c9",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Bellerophon",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "bellerophon",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "bellerophon",
+      "sourceAction": "fled",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "sent",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:318.318.2-318.318.2:15f887e5"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "bellerophon",
+      "sourceAction": "presented",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "bellerophon",
+      "predicate": "opening_situation",
+      "object": "In consequence of an unpremeditated murder Bellerophon fled to Tiryns, where he was kindly received by King Proetus, who purified him from his crime.",
+      "evidence": [
+        "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "bellerophon",
+      "predicate": "outcome",
+      "object": "Bellerophon now presented to him the letter intrusted to him by Proetus.",
+      "evidence": [
+        "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-de78598d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0318-1f97c9",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "BELLEROPHON.",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420",
+        "gutenberg:ebooks:22381:318.318.2-318.318.2:15f887e5",
+        "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+      ],
+      "status": "open"
+    }
+  ]
+}

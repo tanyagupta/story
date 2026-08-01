@@ -1,0 +1,204 @@
+{
+  "mythId": "bulk-myth-0270",
+  "mythFamilyId": "dionysus-and-pirates",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-dionysus-and-pirates-2a360c",
+  "title": "XLIV",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:255.255.1-255.255.1:16a6ca92",
+      "gutenberg:ebooks:45489:255.255.2-255.255.2:cd8e80c0",
+      "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "bacchus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Bacchus",
+      "normalizedId": "bacchus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:255.255.1-255.255.1:16a6ca92"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+    "openingSituation": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+    "centralConflict": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+    "resolution": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+    "outcome": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+    "storyline": [
+      "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\""
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:255.255.1-255.255.1:16a6ca92",
+        "gutenberg:ebooks:45489:255.255.2-255.255.2:cd8e80c0",
+        "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:255.255.1-255.255.1:16a6ca92",
+      "excerpt": "Fauns and satyrs have been favorite subjects in art and especially in sculpture.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:255.255.2-255.255.2:cd8e80c0",
+      "excerpt": "The use of the Faun in literature is best known in Hawthorne's \"The Marble Faun.\"",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1",
+      "excerpt": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "bacchus",
+      "predicate": "opening_situation",
+      "object": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+      "evidence": [
+        "gutenberg:ebooks:45489:255.255.1-255.255.1:16a6ca92"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+      "sourceClause": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "bacchus",
+      "predicate": "outcome",
+      "object": "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\"",
+      "evidence": [
+        "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Reference is made to fauns and naiads in Milton's \"Lycidas.\" Robert Buchanan has two poems entitled \"The Satyr\" and \"The Naiad.\""
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-5838d3e6",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0255-e5a475",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "XLIV",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:255.255.1-255.255.1:16a6ca92",
+        "gutenberg:ebooks:45489:255.255.2-255.255.2:cd8e80c0",
+        "gutenberg:ebooks:45489:255.255.3-255.255.3:03376bd1"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 52,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.26,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "bacchus"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

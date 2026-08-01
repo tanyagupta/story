@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:327.327.3-327.327.3:081ab05d",
     "gutenberg:ebooks:39250:327.327.4-327.327.4:fdf1b3d1"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -18,14 +18,35 @@
   "workingTitle": "SOMNUS AND MORS.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "deity_profile",
+  "candidateType": "narrative_episode",
   "mythFamilyId": "somnus-and-mors",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-somnus-and-mors-5190cf",
   "characters": [
     "Pluto"
   ],
-  "processingStatus": "rejected-non-story",
-  "reviewStatus": "dismissed",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 52,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -25,7 +25,7 @@
     "gutenberg:ebooks:22381:197.197.20-197.197.20:70788ce8",
     "gutenberg:ebooks:22381:197.197.21-197.197.21:3aa8a493"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -38,9 +38,34 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "erinyes",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-erinyes-439abe",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Demeter",
+    "Hades",
+    "Persephone",
+    "Zeus"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 142,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 7,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

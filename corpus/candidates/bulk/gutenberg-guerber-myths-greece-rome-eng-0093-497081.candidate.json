@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:93.93.5-93.93.5:0f506462",
     "gutenberg:ebooks:39250:93.93.6-93.93.6:d1390f90"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,10 +24,35 @@
   "mythFamilyId": "the-leech-that-wrought-such-healing-hurled",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-the-leech-that-wrought-such-healing-hurled-84f04c",
   "characters": [
+    "Alcestis",
+    "Apollo",
+    "Jupiter",
     "Pluto"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 76,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

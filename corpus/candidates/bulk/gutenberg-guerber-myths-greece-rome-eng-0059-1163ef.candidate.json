@@ -11,7 +11,7 @@
     "gutenberg:ebooks:39250:59.59.6-59.59.6:65a6b224",
     "gutenberg:ebooks:39250:59.59.7-59.59.7:2135b819"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -21,15 +21,37 @@
   "workingTitle": "JUPITER.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "deity_profile",
+  "candidateType": "narrative_episode",
   "mythFamilyId": "jupiter",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-jupiter-fac532",
   "characters": [
     "Jupiter",
     "Zeus"
   ],
-  "processingStatus": "rejected-non-story",
-  "reviewStatus": "dismissed",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

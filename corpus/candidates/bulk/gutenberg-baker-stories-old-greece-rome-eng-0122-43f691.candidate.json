@@ -31,13 +31,34 @@
   "mythFamilyId": "orpheus-and-eurydice",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-orpheus-and-eurydice-01cbe5",
   "characters": [
+    "Apollo",
+    "Ariadne",
     "Bacchus",
     "Juno",
     "Jupiter",
-    "Orpheus"
+    "Midas",
+    "Orpheus",
+    "Theseus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 566,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 8,
+      "actionBearingSentences": 49,
+      "conflictSignals": 19,
+      "paragraphCount": 13,
+      "knownMythFamily": true
+    }
+  }
 }

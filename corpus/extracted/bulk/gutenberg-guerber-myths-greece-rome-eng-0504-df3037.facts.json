@@ -1,0 +1,152 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0504-df3037",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Ceres",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:504.504.1-504.504.1:44ed8d3a"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "demeter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Demeter",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:504.504.1-504.504.1:44ed8d3a"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "demeter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:504.504.1-504.504.1:44ed8d3a"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Pluto",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:504.504.1-504.504.1:44ed8d3a"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Proserpina",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:504.504.1-504.504.1:44ed8d3a"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "persephone",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Danae",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:504.504.1-504.504.1:44ed8d3a"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "danae",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "imprisoned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:504.504.4-504.504.4:7ba5d6fb"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "demeter",
+      "predicate": "opening_situation",
+      "object": "But when Proserpina (the spring or vegetation) returned from her sojourn under the ground, people said \"that the daughter of the earth was returning in all her beauty; and when",
+      "evidence": [
+        "gutenberg:ebooks:39250:504.504.1-504.504.1:44ed8d3a"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "demeter",
+      "predicate": "outcome",
+      "object": "But when Proserpina (the spring or vegetation) returned from her sojourn under the ground, people said \"that the daughter of the earth was returning in all her beauty; and when",
+      "evidence": [
+        "gutenberg:ebooks:39250:504.504.6-504.504.6:26999c0e"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-62c5089d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0504-df3037",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "EARTH MYTHS.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:504.504.1-504.504.1:44ed8d3a",
+        "gutenberg:ebooks:39250:504.504.2-504.504.2:126323a0",
+        "gutenberg:ebooks:39250:504.504.3-504.504.3:6233db9c"
+      ],
+      "status": "open"
+    }
+  ]
+}

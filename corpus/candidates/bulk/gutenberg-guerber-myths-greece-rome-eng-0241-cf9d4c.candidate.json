@@ -6,7 +6,7 @@
     "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337",
     "gutenberg:ebooks:39250:241.241.2-241.241.2:2e3f6d06"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -16,7 +16,7 @@
   "workingTitle": "Saxe.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "deity_profile",
+  "candidateType": "narrative_episode",
   "mythFamilyId": "demeter-and-persephone",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-demeter-and-persephone-2ced6a",
   "characters": [
@@ -24,8 +24,30 @@
     "Pluto",
     "Proserpina"
   ],
-  "processingStatus": "rejected-non-story",
-  "reviewStatus": "dismissed",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 68,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

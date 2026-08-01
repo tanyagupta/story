@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:329.329.5-329.329.5:12b9360a",
     "gutenberg:ebooks:39250:329.329.6-329.329.6:728cc960"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -20,12 +20,36 @@
   "workingTitle": "On creaking hinges turn'd to break his sleep.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "deity_profile",
+  "candidateType": "narrative_episode",
   "mythFamilyId": "on-creaking-hinges-turnd-to-break-his-sleep",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-on-creaking-hinges-turnd-to-break-his-sleep-110dab",
-  "characters": [],
-  "processingStatus": "rejected-non-story",
-  "reviewStatus": "dismissed",
+  "characters": [
+    "Mercury"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 52,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

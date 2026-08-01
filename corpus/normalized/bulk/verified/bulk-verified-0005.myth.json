@@ -1,0 +1,418 @@
+{
+  "mythId": "bulk-verified-0005",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Daedalus escapes to Crete.",
+      "Daedalus constructs the labyrinth.",
+      "Minos keeps Daedalus nearly prisoner.",
+      "Daedalus makes wings.",
+      "Icarus flies too near the sun and drowns.",
+      "Daedalus reaches Sicily."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "Daedalus and Icarus",
+  "mythFamilyId": "daedalus-and-icarus",
+  "variantId": "gutenberg-berens-daedalus-icarus-verified",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+      "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7",
+      "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+      "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+    ]
+  },
+  "scope": {
+    "type": "multi-episode",
+    "description": "Selected passages include Daedalus' earlier exile, Cretan confinement, the Icarus flight, and later Sicily consequence.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+      "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7",
+      "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+      "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The Icarus flight is central, while the Sicily material is retained as the source's immediate continuation."
+  },
+  "entities": {
+    "characters": [
+      "daedalus",
+      "icarus",
+      "minos",
+      "cocalus",
+      "talus"
+    ],
+    "locations": [
+      "crete",
+      "sicily"
+    ],
+    "objects": [
+      "wings",
+      "labyrinth"
+    ],
+    "creatures": [
+      "minotaur"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Daedalus",
+      "normalizedId": "daedalus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+          "sourceText": "Now his nephew and pupil, Talus, exhibited great talent, having invented both the saw and the compass, and Daedalus, fearing lest he might overshadow his own fame, secretly killed him by throwing him down from the citadel of Pallas-Athene.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Icarus",
+      "normalizedId": "icarus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+          "sourceText": "He therefore resolved to make his escape, and for this purpose ingeniously contrived wings for himself and his young son Icarus, whom he diligently trained how to use them.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Minos",
+      "normalizedId": "minos",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f",
+          "sourceText": "But no sooner did Minos receive the intelligence that his great architect had found an asylum with Cocalus than he sailed over to Sicily with a large army, and sent messengers to the Sicilian king demanding the surrender of his guest.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Cocalus",
+      "normalizedId": "cocalus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f",
+          "sourceText": "After this sad event, Daedalus winged his flight to the island of Sicily, where he met with a kind welcome from {213} king Cocalus, for whom he constructed several important public works.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Talus",
+      "normalizedId": "talus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+          "sourceText": "Now his nephew and pupil, Talus, exhibited great talent, having invented both the saw and the compass, and Daedalus, fearing lest he might overshadow his own fame, secretly killed him by throwing him down from the citadel of Pallas-Athene.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "daedalus",
+      "sourceNames": [
+        "Daedalus"
+      ],
+      "role": "inventor and fugitive",
+      "reason": "He constructs the labyrinth, makes wings, and escapes Crete.",
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7",
+        "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+      ]
+    },
+    {
+      "entityId": "icarus",
+      "sourceNames": [
+        "Icarus"
+      ],
+      "role": "son",
+      "reason": "He flies with Daedalus, ignores the warning, falls, and drowns.",
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33"
+      ]
+    },
+    {
+      "entityId": "minos",
+      "sourceNames": [
+        "Minos"
+      ],
+      "role": "detaining king",
+      "reason": "He keeps Daedalus almost a prisoner and later demands his surrender.",
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+        "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "daedalus",
+      "relationship": "parent_of",
+      "target": "icarus",
+      "sourceText": "He therefore resolved to make his escape, and for this purpose ingeniously contrived wings for himself and his young son Icarus, whom he diligently trained how to use them.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+        "sourceText": "He therefore resolved to make his escape, and for this purpose ingeniously contrived wings for himself and his young son Icarus, whom he diligently trained how to use them."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Daedalus reaches Crete and serves Minos, who later keeps him almost a prisoner. Daedalus makes wings for himself and Icarus; Icarus flies too near the sun and drowns, while Daedalus reaches Sicily.",
+    "openingSituation": "Daedalus escapes Athens and is received by Minos in Crete.",
+    "centralConflict": "Minos keeps Daedalus almost a prisoner, and Daedalus resolves to escape.",
+    "resolution": "Daedalus constructs wings and begins the flight with Icarus.",
+    "outcome": "Icarus drowns after the wax melts, and Daedalus flies to Sicily.",
+    "storyline": [
+      "Daedalus escapes to Crete.",
+      "Daedalus constructs the labyrinth.",
+      "Minos keeps Daedalus nearly prisoner.",
+      "Daedalus makes wings.",
+      "Icarus flies too near the sun and drowns.",
+      "Daedalus reaches Sicily."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+      "sourceText": "The murder being discovered, Daedalus was summoned before the court of the Areopagus and condemned to death; but he made his escape to the island of Crete, where he was received by king Minos in a manner worthy of his great reputation.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+      "sourceText": "In the course of time the great artist became weary of his long exile, more especially as the king, under the guise of friendship, kept him almost a prisoner.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+      "sourceText": "The consequence was that the wax, by means of which his wings were attached, melted, and he fell into the sea and was drowned.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f",
+      "sourceText": "After this sad event, Daedalus winged his flight to the island of Sicily, where he met with a kind welcome from {213} king Cocalus, for whom he constructed several important public works.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "daedalus",
+      "predicate": "exiled_in",
+      "object": "crete",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+          "sourceText": "The murder being discovered, Daedalus was summoned before the court of the Areopagus and condemned to death; but he made his escape to the island of Crete, where he was received by king Minos in a manner worthy of his great reputation."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "escape",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": "crete",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "The murder being discovered, Daedalus was summoned before the court of the Areopagus and condemned to death; but he made his escape to the island of Crete, where he was received by king Minos in a manner worthy of his great reputation.",
+      "normalizedStatement": "Daedalus escaped to Crete.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+          "sourceText": "The murder being discovered, Daedalus was summoned before the court of the Areopagus and condemned to death; but he made his escape to the island of Crete, where he was received by king Minos in a manner worthy of his great reputation."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "daedalus",
+      "action": "escape"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "create",
+      "target": null,
+      "object": "labyrinth",
+      "recipient": "minos",
+      "location": "crete",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Daedalus constructed for the king the world-renowned labyrinth, which was an immense building, full of intricate passages, intersecting each other in such a manner, that even Daedalus himself is said, upon one occasion, to have nearly lost his way in it; and it was in this building the king placed the Minotaur, a monster with the head and shoulders of a bull and the body of a man.",
+      "normalizedStatement": "Daedalus constructed the labyrinth for Minos.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7",
+          "sourceText": "Daedalus constructed for the king the world-renowned labyrinth, which was an immense building, full of intricate passages, intersecting each other in such a manner, that even Daedalus himself is said, upon one occasion, to have nearly lost his way in it; and it was in this building the king placed the Minotaur, a monster with the head and shoulders of a bull and the body of a man."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "daedalus",
+      "action": "create"
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "create",
+      "target": null,
+      "object": "wings",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "He therefore resolved to make his escape, and for this purpose ingeniously contrived wings for himself and his young son Icarus, whom he diligently trained how to use them.",
+      "normalizedStatement": "Daedalus made wings for himself and Icarus.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+          "sourceText": "He therefore resolved to make his escape, and for this purpose ingeniously contrived wings for himself and his young son Icarus, whom he diligently trained how to use them."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "daedalus",
+      "action": "create"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "drown",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "The consequence was that the wax, by means of which his wings were attached, melted, and he fell into the sea and was drowned.",
+      "normalizedStatement": "Icarus fell and drowned.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+          "sourceText": "The consequence was that the wax, by means of which his wings were attached, melted, and he fell into the sea and was drowned."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "icarus",
+      "action": "drown"
+    },
+    {
+      "eventId": "event-005",
+      "sourceAction": "travel",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": "sicily",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "After this sad event, Daedalus winged his flight to the island of Sicily, where he met with a kind welcome from {213} king Cocalus, for whom he constructed several important public works.",
+      "normalizedStatement": "Daedalus flew to Sicily.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f",
+          "sourceText": "After this sad event, Daedalus winged his flight to the island of Sicily, where he met with a kind welcome from {213} king Cocalus, for whom he constructed several important public works."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "daedalus",
+      "action": "travel"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "daedalus",
+      "predicate": "arrives_at",
+      "object": "sicily",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f",
+          "sourceText": "After this sad event, Daedalus winged his flight to the island of Sicily, where he met with a kind welcome from {213} king Cocalus, for whom he constructed several important public works."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+      "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7",
+      "gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33",
+      "gutenberg:ebooks:22381:300.300.5-300.300.5:cd942f2f"
+    ],
+    "claimsChecked": [
+      "confinement wording",
+      "wing construction",
+      "Icarus fall",
+      "Daedalus arrival",
+      "later Sicily material"
+    ],
+    "correctionsMade": [
+      "Marked as multi-episode because Sicily aftermath is retained.",
+      "Used exact source sentences for all events and excerpts."
+    ],
+    "remainingUncertainties": []
+  }
+}

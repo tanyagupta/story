@@ -19,7 +19,7 @@
     "gutenberg:ebooks:39250:550.550.14-550.550.14:e0a4c5f2",
     "gutenberg:ebooks:39250:550.550.15-550.550.15:1343e561"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -32,9 +32,39 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "rome",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-rome-0592a2",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Achilles",
+    "Circe",
+    "Europa",
+    "Hercules",
+    "Jupiter",
+    "Neptune",
+    "Theseus",
+    "Chiron"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 125,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 4,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

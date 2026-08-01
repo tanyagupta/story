@@ -1,0 +1,186 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0556-ab97fc",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Achilles",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:556.556.1-556.556.1:e3391835"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "achilles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Diana",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:556.556.1-556.556.1:e3391835"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "artemis",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Europa",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:556.556.1-556.556.1:e3391835"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "europa",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hades",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:556.556.1-556.556.1:e3391835"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:556.556.1-556.556.1:e3391835"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Mercury",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:556.556.1-556.556.1:e3391835"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:556.556.5-556.556.5:5792df57"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "condemned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:556.556.9-556.556.9:0ed0fbd9"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "confined",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:556.556.10-556.556.10:345acd75"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "achilles",
+      "predicate": "opening_situation",
+      "object": "Nymph loved by Pan, and changed into reeds, 300, 301.",
+      "evidence": [
+        "gutenberg:ebooks:39250:556.556.1-556.556.1:e3391835"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "achilles",
+      "predicate": "outcome",
+      "object": "Abyss under the earth, where the Titans, etc., were confined, 17, 18, 22, 25; Orpheus' music heard in, 77; wicked in, 161-169; significance, 385, 391.",
+      "evidence": [
+        "gutenberg:ebooks:39250:556.556.21-556.556.21:f4de455f"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-cf755244",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0556-ab97fc",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Styx.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:556.556.1-556.556.1:e3391835",
+        "gutenberg:ebooks:39250:556.556.2-556.556.2:3268ad3e",
+        "gutenberg:ebooks:39250:556.556.3-556.556.3:5dbb1ce4"
+      ],
+      "status": "open"
+    }
+  ]
+}

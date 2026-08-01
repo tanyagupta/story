@@ -9,11 +9,15 @@ const {
   stableHash,
   writeJson
 } = require("./corpus-core");
+const { validateVerifiedRecords } = require("./bulk/evidence-validator");
+const { canonicalEntityId } = require("./bulk/entity-normalization");
+const { buildVerifiedSeeds } = require("./bulk/verified-records");
 const { printResult, runCli } = require("./cli");
 
 const RETRIEVED_AT = "2026-08-01T00:00:00Z";
 const CONVERSION_VERSION = "bulk-gutenberg-tei-v1";
 const PRODUCTION_LIMIT = 50;
+const GENERATED_AT = new Date(0).toISOString();
 
 const SOURCES = [
   {
@@ -75,6 +79,41 @@ const NON_STORY_TERMS = [
   "notes"
 ];
 
+const BIOGRAPHY_TERMS = [
+  "was born",
+  "born at",
+  "biography",
+  "poet",
+  "author",
+  "translator",
+  "professor",
+  "scholar",
+  "editor"
+];
+
+const COMMENTARY_TERMS = [
+  "pindar",
+  "homer says",
+  "according to",
+  "the poet",
+  "the following lines",
+  "quotation",
+  "quoted",
+  "painting",
+  "statue",
+  "vase",
+  "plate "
+];
+
+const POET_HEADINGS = new Set([
+  "addison.", "apollonius.", "apollonius rhodius.", "barry cornwall.", "byron.",
+  "catullus.", "darwin.", "gray.", "homer.", "homeric hymn.", "keats.",
+  "lewis morris.", "longfellow.", "lowell.", "martinez de la rosa.",
+  "matthew arnold.", "milton.", "morris.", "ovid.", "pike.", "pindar.",
+  "pope.", "prior.", "schiller.", "shakespeare.", "tennyson.", "tomas de iriarte.",
+  "virgil."
+]);
+
 const KNOWN_FAMILIES = [
   ["perseus-and-medusa", ["perseus", "medusa", "gorgon"]],
   ["theseus-and-minotaur", ["theseus", "minotaur", "ariadne"]],
@@ -133,22 +172,89 @@ const ENTITY_NAMES = [
   "Juno", "Jupiter", "Medea", "Medusa", "Mercury", "Midas", "Minerva", "Minotaur", "Narcissus",
   "Neptune", "Niobe", "Odysseus", "Oedipus", "Orpheus", "Pandora", "Paris", "Pegasus", "Persephone",
   "Perseus", "Phaethon", "Pluto", "Poseidon", "Prometheus", "Proserpina", "Psyche", "Pygmalion",
-  "Theseus", "Ulysses", "Venus", "Vulcan", "Zeus"
+  "Theseus", "Ulysses", "Venus", "Vulcan", "Zeus",
+  "Acrisius", "Aetes", "Alpheus", "Arethusa", "Argos", "Argonauts", "Aristodemus", "Aristomachus",
+  "Athamas", "Atreus", "Celeus", "Cepheus", "Ceyx", "Chiron", "Cleodaeus", "Cocalus", "Cresphontes",
+  "Cyzicus", "Danae", "Deianira", "Demophoon", "Dictys", "Echemon", "Eleusis", "Epimetheus",
+  "Eurystheus", "Hebe", "Helle", "Heraclidae", "Hyllus", "Hypsipyle", "Iolaus", "Ino", "Macaria",
+  "Minos", "Nephele", "Oxylus", "Phryxus", "Polydectes", "Temenus", "Triptolemus"
 ];
 
-const ACTIONS = [
-  ["transform", /\b(changed|transformed|became|turned)\b/i],
-  ["capture", /\b(captured|seized|caught|bound)\b/i],
-  ["rescue", /\b(rescued|saved|delivered)\b/i],
-  ["punish", /\b(punished|condemned|avenged)\b/i],
-  ["travel", /\b(went|came|journeyed|sailed|wandered)\b/i],
-  ["warn", /\b(warned|commanded|forbade|advised)\b/i],
-  ["assist", /\b(helped|aided|assisted|gave)\b/i],
-  ["defeat", /\b(slew|killed|defeated|conquered|overcame)\b/i],
-  ["love", /\b(loved|wooed|married)\b/i],
-  ["reveal", /\b(revealed|declared|told)\b/i],
-  ["describe", /\b(was|were|had|became)\b/i]
+const OBJECT_TERMS = [
+  ["golden-fleece", /\bgolden fleece\b/i],
+  ["medusas-head", /\bmedusa'?s head\b/i],
+  ["thread", /\bthread\b/i],
+  ["wings", /\bwings\b/i],
+  ["lyre", /\blyre\b/i],
+  ["ship", /\bship\b/i],
+  ["box", /\bbox\b/i],
+  ["labyrinth", /\blabyrinth\b/i]
 ];
+
+const LOCATION_TERMS = [
+  ["crete", /\bcrete\b/i],
+  ["athens", /\bathens\b/i],
+  ["olympus", /\bolympus\b/i],
+  ["underworld", /\b(underworld|hades)\b/i],
+  ["troy", /\b(troy|trojan)\b/i],
+  ["colchis", /\bcolchis\b/i],
+  ["delphi", /\bdelphi\b/i],
+  ["naxos", /\bnaxos\b/i],
+  ["argolis", /\bargolis\b/i]
+];
+
+const HERO_TITLE_NAMES = new Set(["perseus", "theseus", "jason", "hercules", "bellerophon", "cadmus", "oedipus", "ulysses"]);
+const PROFILE_TITLE_NAMES = new Set(["juno", "jupiter", "diana", "minerva", "venus", "mars", "mercury", "neptune", "vulcan", "amphitrite", "crete", "harmonia", "napaeae", "oreades"]);
+
+const ACTIONS = [
+  ["birth", /\b(bore|born|gave birth)\b/i],
+  ["travel", /\b(went|came|journeyed|sailed|wandered|departed|arrived|reached|crossed)\b/i],
+  ["pursue", /\b(pursued|chased|followed)\b/i],
+  ["flee", /\b(fled|escaped|flight)\b/i],
+  ["capture", /\b(captured|seized|caught|bound|carried off|abducted)\b/i],
+  ["imprison", /\b(imprisoned|confined|shut up)\b/i],
+  ["release", /\b(released|freed|set free)\b/i],
+  ["rescue", /\b(rescued|saved|delivered)\b/i],
+  ["warn", /\b(warned|cautioned|advised)\b/i],
+  ["command", /\b(commanded|ordered|forbade|sent)\b/i],
+  ["refuse", /\b(refused|denied)\b/i],
+  ["deceive", /\b(deceived|tricked|betrayed)\b/i],
+  ["steal", /\b(stole|stolen|robbed)\b/i],
+  ["fight", /\b(fought|battle|struggled|attacked)\b/i],
+  ["defeat", /\b(slew|killed|defeated|conquered|overcame|vanquished)\b/i],
+  ["kill", /\b(killed|slew|slain)\b/i],
+  ["sacrifice", /\b(sacrificed|offered)\b/i],
+  ["transform", /\b(changed|transformed|turned)\b/i],
+  ["become", /\bbecame\b/i],
+  ["punish", /\b(punished|condemned|avenged)\b/i],
+  ["reward", /\b(rewarded|granted)\b/i],
+  ["marry", /\b(married|wedded|wed)\b/i],
+  ["betray", /\b(betrayed|deserted)\b/i],
+  ["reveal", /\b(revealed|declared|told)\b/i],
+  ["recognize", /\b(recognized|knew)\b/i],
+  ["return", /\b(returned|came back)\b/i],
+  ["found", /\b(founded|built)\b/i],
+  ["destroy", /\b(destroyed|burned|ruined)\b/i],
+  ["create", /\b(created|made|formed)\b/i],
+  ["give", /\b(gave|bestowed|presented)\b/i],
+  ["receive", /\b(received|accepted|obtained)\b/i],
+  ["hide", /\b(hid|concealed)\b/i],
+  ["discover", /\b(discovered|found)\b/i],
+  ["challenge", /\b(challenged|dared)\b/i],
+  ["complete_task", /\b(completed|fulfilled|accomplished)\b/i],
+  ["assist", /\b(helped|aided|assisted)\b/i],
+  ["love", /\b(loved|wooed)\b/i],
+  ["drown", /\b(drowned)\b/i],
+  ["leap", /\b(leaped|sprang)\b/i],
+  ["steer", /\b(steered|acted as steersman)\b/i],
+  ["escape", /\b(escaped|made his escape)\b/i]
+];
+
+const CONFLICT_ACTIONS = new Set([
+  "pursue", "flee", "capture", "imprison", "rescue", "warn", "command", "refuse",
+  "deceive", "steal", "fight", "defeat", "kill", "transform", "punish",
+  "betray", "destroy", "challenge", "complete_task"
+]);
 
 function rel(file) {
   return path.resolve(process.cwd(), file);
@@ -197,10 +303,16 @@ function isHeading(line) {
 function classifySection(heading, paragraphs) {
   const haystack = `${heading} ${paragraphs.slice(0, 2).join(" ")}`.toLowerCase();
   if (NON_STORY_TERMS.some((term) => haystack.includes(term))) return "non_story_material";
+  if (POET_HEADINGS.has(String(heading || "").trim().toLowerCase())) return "biographical_material";
+  if (BIOGRAPHY_TERMS.some((term) => haystack.includes(term))) return "biographical_material";
+  if (COMMENTARY_TERMS.some((term) => haystack.includes(term)) && !namesIn(haystack).length) return "literary_commentary";
   if (haystack.includes("genealog")) return "genealogy";
   if (haystack.includes("worship") || haystack.includes("temple") || haystack.includes("festival")) return "ritual_description";
-  if (paragraphs.length < 2) return "non_story_material";
-  const actionish = /\b(went|came|saw|slew|killed|loved|married|gave|stole|changed|became|sent|fled|returned|carried|seized|bound|rescued|punished)\b/i.test(paragraphs.join(" "));
+  if (paragraphs.length < 2) return namesIn(haystack).length ? "ambiguous" : "non_story_material";
+  const text = paragraphs.join(" ");
+  const actionish = ACTIONS.some((entry) => entry[1].test(text));
+  const mythNames = namesIn(`${heading} ${text}`).length;
+  if (!actionish && mythNames) return "deity_profile";
   return actionish ? "narrative_episode" : "deity_profile";
 }
 
@@ -346,43 +458,269 @@ function writeDerivedTei(source, manifest, sections) {
 }
 
 function familyFor(section) {
+  const heading = String(section.heading || "").trim();
+  const normalizedHeading = heading.toLowerCase();
+  const exact = {
+    "the heraclidae.": "heraclidae",
+    "the story of proserpina": "demeter-and-persephone",
+    "ceres and proserpina.": "demeter-and-persephone",
+    "perseus.": "perseus-and-medusa",
+    "story of the golden fleece.": "golden-fleece",
+    "daedalus and icarus.": "daedalus-and-icarus",
+    "daedalus and icarus": "daedalus-and-icarus",
+    "the story of pandora": "pandora",
+    "bellerophon.": "bellerophon-and-pegasus"
+  };
+  if (exact[normalizedHeading]) return exact[normalizedHeading];
   const text = `${section.heading} ${section.paragraphs.slice(0, 2).join(" ")}`.toLowerCase();
   const found = KNOWN_FAMILIES.find((family) => family[1].some((term) => text.includes(term)));
   return found ? found[0] : slug(section.heading).slice(0, 72) || "unresolved-family";
 }
 
+function hasMythicTitleSignal(title, family) {
+  const text = String(title || "").toLowerCase();
+  const words = String(title || "").trim().split(/\s+/).filter(Boolean);
+  if (POET_HEADINGS.has(text.trim())) return false;
+  if (/^(part|chapter|book)\s+[ivxlcdm0-9.]+$/i.test(String(title || "").trim())) return false;
+  if (/^[ivxlcdm]+$/i.test(String(title || "").trim())) return false;
+  if (/^(and|but|that|then|thus|to|while|whose|nor|inhaling|illi|deep|transporting|city)\b/i.test(String(title || "").trim())) return false;
+  if (/\b(trident|domestic shrines|silvery wings|love-inspiring darts|favor|wife|fragrant myrtles|fluid gold)\b/i.test(String(title || ""))) return false;
+  if (/^(myths|minor deities|oracles|sky myths|sun and dawn myths|third dynasty--olympian divinities)\.?$/i.test(String(title || "").trim())) return false;
+  if (words.length > 6 && !/^(the story of|story of|adventures of|the adventures of)\b/i.test(String(title || "").trim())) return false;
+  const compact = slug(title);
+  if (PROFILE_TITLE_NAMES.has(compact)) return false;
+  if (namesIn(title).length === 1 && words.length <= 2 && !HERO_TITLE_NAMES.has(compact)) return false;
+  if (/\b(myths?|story|adventures|argonauts|gorgons|trojan|golden fleece|calydonian|heraclidae|labours?|labors?|oracles|sky myths|sun and dawn)\b/i.test(title)) return true;
+  if (namesIn(title).length > 0) return true;
+  if (OBJECT_TERMS.some((entry) => entry[1].test(title)) || LOCATION_TERMS.some((entry) => entry[1].test(title))) return true;
+  return family && family !== "unresolved-family" && family.split("-").some((part) => part.length > 4 && text.includes(part));
+}
+
 function namesIn(text) {
-  return ENTITY_NAMES.filter((name) => new RegExp(`\\b${name}\\b`, "i").test(text));
+  const found = ENTITY_NAMES.filter((name) => new RegExp(`\\b${name}(?:'s)?\\b`, "i").test(text));
+  return Array.from(new Set(found));
 }
 
 function entityId(name) {
-  const key = slug(name);
-  return NAME_TRADITIONS[key] === "roman" ? `roman-${key}` : key;
+  return canonicalEntityId(name);
 }
 
 function actionFor(sentence) {
   const found = ACTIONS.find((entry) => entry[1].test(sentence));
-  if (!found) return { action: "describe", sourceAction: "is described" };
+  if (!found) return null;
   const match = sentence.match(found[1]);
-  return { action: found[0], sourceAction: match ? match[1].toLowerCase() : found[0] };
+  return { action: found[0], sourceAction: match && match[1] ? match[1].toLowerCase() : found[0] };
+}
+
+function firstMatchedTerm(sentence, terms) {
+  const found = terms.find((entry) => entry[1].test(sentence));
+  return found ? found[0] : null;
+}
+
+function compactText(value, maxLength) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  if (text.length <= maxLength) return text;
+  const shortened = text.slice(0, maxLength);
+  const boundary = Math.max(shortened.lastIndexOf("."), shortened.lastIndexOf("!"), shortened.lastIndexOf("?"));
+  if (boundary > 40) return shortened.slice(0, boundary + 1).trim();
+  return shortened.replace(/\s+\S*$/, "").replace(/[,:;–-]+$/g, "").trim();
+}
+
+function splitSentences(passages) {
+  const sentences = [];
+  let buffer = "";
+  let evidence = [];
+  passages.forEach((passage) => {
+    const parts = passage.text.replace(/\s+/g, " ").trim().split(/(?<=[.!?])\s+/);
+    parts.forEach((part) => {
+      const sentencePart = part.trim();
+      if (!sentencePart) return;
+      buffer = buffer ? `${buffer} ${sentencePart}` : sentencePart;
+      if (!evidence.includes(passage.passageId)) evidence.push(passage.passageId);
+      if (/[.!?]"?$/.test(sentencePart)) {
+        if (buffer.length > 35) sentences.push({ sentence: buffer.trim(), passageId: evidence[0], evidence: evidence.map((passageId) => ({ passageId })) });
+        buffer = "";
+        evidence = [];
+      }
+    });
+  });
+  return sentences.filter((item) => !likelySentenceFragment(item.sentence));
+}
+
+function likelySentenceFragment(value) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  if (!text) return true;
+  if (/,\.$/.test(text)) return true;
+  if (/\b(and|when|to|of|the)\.$/i.test(text)) return true;
+  if (!/[.!?]"?$/.test(text)) return true;
+  return false;
+}
+
+function roleFor(name, text, index) {
+  const nearby = text.toLowerCase();
+  if (/\b(monster|gorgon|minotaur|dragon|serpent)\b/.test(nearby)) return "monster";
+  if (/\b(king|queen|ruler)\b/.test(nearby)) return "ruler";
+  if (/\b(helped|aided|assisted|gave)\b/.test(nearby) && index > 0) return "helper";
+  if (/\b(pursued|punished|attacked|killed|slew|captured)\b/.test(nearby) && index > 0) return "antagonist";
+  return index === 0 ? "protagonist" : "participant";
 }
 
 function eventFromSentence(sentence, passageId, names, index) {
-  const actorName = names.find((name) => new RegExp(`\\b${name}\\b`, "i").test(sentence));
+  const localNames = namesIn(sentence);
+  const candidateNames = localNames.length ? localNames : names;
+  const overrides = [
+    [/Jupiter.+imprisoned.+giants/i, "Jupiter", "imprison", "giants"],
+    [/Pluto had seized her/i, "Pluto", "capture", "Proserpina"],
+    [/Athamas.+had married Nephele/i, "Athamas", "marry", "Nephele"],
+    [/Phryxus arrived safely at Colchis/i, "Phryxus", "travel", null],
+    [/Iolaus.+borrowed the chariot/i, "Iolaus", "receive", "chariot"]
+  ];
+  const override = overrides.find((entry) => entry[0].test(sentence));
+  if (override) {
+    return {
+      eventId: `event-${String(index + 1).padStart(3, "0")}`,
+      sourceSentence: sentence,
+      sourceClause: sentence.match(override[0])[0],
+      actor: entityId(override[1]),
+      action: override[2],
+      sourceAction: override[2],
+      object: override[3] === "chariot" ? "chariot" : null,
+      target: override[3] && override[3] !== "chariot" && override[3] !== "giants" ? entityId(override[3]) : (override[3] === "giants" ? "giants" : null),
+      recipient: null,
+      location: firstMatchedTerm(sentence, LOCATION_TERMS),
+      result: compactText(sentence, 180),
+      actorResolutionConfidence: 0.95,
+      confidence: 0.85,
+      causedBy: [],
+      causes: [],
+      evidence: [{ passageId }],
+      reviewStatus: "awaiting_review"
+    };
+  }
+  const actorName = candidateNames.find((name) => new RegExp(`^\\s*(?:[A-Z][a-z]+\\s+)?${name}\\b|\\b${name}\\s+(?:now\\s+)?(?:had\\s+)?(?:was\\s+)?(?:began|arrived|applied|offered|borrowed|seized|captured|imprisoned|married|placed|gave|sacrificed|presented|built|killed|fled|went|came|returned|resolved|commanded|refused|transformed|led|took|made)\\b`, "i").test(sentence));
   const action = actionFor(sentence);
+  if (!action) return null;
+  const otherName = candidateNames.find((name) => name !== actorName && new RegExp(`\\b${name}\\b`, "i").test(sentence));
+  const object = firstMatchedTerm(sentence, OBJECT_TERMS);
+  const location = firstMatchedTerm(sentence, LOCATION_TERMS);
   return {
     eventId: `event-${String(index + 1).padStart(3, "0")}`,
+    sourceSentence: sentence,
+    sourceClause: sentence,
     actor: actorName ? entityId(actorName) : null,
     action: action.action,
     sourceAction: action.sourceAction,
-    object: null,
-    target: null,
+    object,
+    target: otherName ? entityId(otherName) : null,
     recipient: null,
-    location: null,
+    location,
+    result: compactText(sentence, 180),
+    actorResolutionConfidence: actorName ? 0.7 : 0,
+    confidence: actorName ? 0.62 : 0.35,
     causedBy: [],
     causes: [],
     evidence: [{ passageId }],
-    reviewStatus: "approved"
+    reviewStatus: "awaiting_review"
+  };
+}
+
+function semanticQuality(candidate, passages, names, events, narrative) {
+  const text = passages.map((passage) => passage.text).join(" ");
+  const meaningfulEvents = events.filter((event) => event.action && event.action !== "describe");
+  const actorEvents = meaningfulEvents.filter((event) => event.actor);
+  const withObjectTargetOrOutcome = meaningfulEvents.filter((event) => event.object || event.target || event.recipient || event.location || event.result);
+  const failedGates = [];
+  const reasons = [];
+  if (candidate.candidateType !== "narrative_episode") failedGates.push("not-narrative-episode");
+  if (!names.length) failedGates.push("no-mythological-characters");
+  if (meaningfulEvents.length < 3) failedGates.push("fewer-than-three-meaningful-events");
+  if (actorEvents.length < 2) failedGates.push("fewer-than-two-actor-events");
+  if (!withObjectTargetOrOutcome.length) failedGates.push("no-object-target-recipient-location-or-outcome");
+  if (!narrative.centralConflict) failedGates.push("no-central-conflict-or-change");
+  if (!narrative.outcome) failedGates.push("no-outcome");
+  if (!narrative.storyline.length) failedGates.push("no-storyline");
+  if (/^source-section$/i.test(String((candidate.initialState || [])[0]?.subject || ""))) failedGates.push("placeholder-state");
+  if (POET_HEADINGS.has(candidate.title.trim().toLowerCase())) failedGates.push("literary-or-biographical-title");
+  if (!hasMythicTitleSignal(candidate.title, candidate.mythFamilyId)) failedGates.push("weak-or-literary-title");
+  if (!candidate.passages.length) failedGates.push("missing-source-passages");
+  if (failedGates.length) reasons.push(`Failed semantic gates: ${failedGates.join(", ")}`);
+  if (!relationshipsFromText(names, text, passages[0]?.passageId).length) reasons.push("No explicit relationship was extracted from the selected source wording.");
+  const score =
+    names.length * 8 +
+    meaningfulEvents.length * 7 +
+    actorEvents.length * 5 +
+    withObjectTargetOrOutcome.length * 4 +
+    (narrative.centralConflict ? 15 : 0) +
+    (narrative.outcome ? 12 : 0) +
+    (candidate.mythFamilyId !== "unresolved-family" ? 6 : 0) -
+    (candidate.qualityFlags || []).length * 4;
+  return {
+    score,
+    passed: failedGates.length === 0,
+    reasons,
+    failedGates,
+    components: {
+      namedMythologicalEntities: names.length,
+      meaningfulEvents: meaningfulEvents.length,
+      actorEvents: actorEvents.length,
+      eventsWithObjectTargetRecipientLocationOrOutcome: withObjectTargetOrOutcome.length,
+      hasCentralConflictOrChange: Boolean(narrative.centralConflict),
+      hasOutcome: Boolean(narrative.outcome),
+      knownMythFamily: candidate.mythFamilyId !== "unresolved-family"
+    }
+  };
+}
+
+function relationshipsFromText(names, text, passageId) {
+  const relationships = [];
+  const patterns = [
+    ["parent_of", /\b([A-Z][A-Za-z]+)\s+(?:was the father of|was the mother of|begot|bore)\s+([A-Z][A-Za-z]+)/i],
+    ["spouse_of", /\b([A-Z][A-Za-z]+)\s+(?:married|wedded|was the wife of|was the husband of)\s+([A-Z][A-Za-z]+)/i],
+    ["lover_of", /\b([A-Z][A-Za-z]+)\s+loved\s+([A-Z][A-Za-z]+)/i],
+    ["enemy_of", /\b([A-Z][A-Za-z]+)\s+(?:fought|attacked|pursued|punished)\s+([A-Z][A-Za-z]+)/i],
+    ["assists", /\b([A-Z][A-Za-z]+)\s+(?:helped|aided|assisted)\s+([A-Z][A-Za-z]+)/i]
+  ];
+  patterns.forEach(([type, pattern]) => {
+    const match = text.match(pattern);
+    if (!match) return;
+    const source = names.find((name) => name.toLowerCase() === match[1].toLowerCase());
+    const target = names.find((name) => name.toLowerCase() === match[2].toLowerCase());
+    if (source && target) {
+      relationships.push({
+        source: entityId(source),
+        relationship: type,
+        target: entityId(target),
+        sourceWording: compactText(match[0], 120),
+        evidence: [{ passageId }],
+        reviewStatus: "awaiting_review"
+      });
+    }
+  });
+  return relationships;
+}
+
+function narrativeFromEvents(candidate, names, events, passages) {
+  const meaningful = events.filter((event) => event.action && event.action !== "describe");
+  const conflict = meaningful.find((event) => CONFLICT_ACTIONS.has(event.action)) || meaningful[1] || meaningful[0] || null;
+  const last = meaningful[meaningful.length - 1] || null;
+  const actorLabel = names.slice(0, 3).join(", ");
+  const storyline = meaningful.slice(0, 6).map((event) => event.result);
+  return {
+    synopsis: meaningful.length
+      ? compactText(storyline.slice(0, 3).join(" "), 360)
+      : "",
+    openingSituation: meaningful[0] ? meaningful[0].result : "",
+    centralConflict: conflict ? conflict.result : "",
+    resolution: last ? last.result : "",
+    outcome: last ? last.result : "",
+    storyline,
+    evidence: {
+      synopsis: passages.slice(0, Math.min(3, passages.length)).map((passage) => passage.passageId),
+      openingSituation: meaningful[0] ? meaningful[0].evidence.map((item) => item.passageId) : [],
+      centralConflict: conflict ? conflict.evidence.map((item) => item.passageId) : [],
+      resolution: last ? last.evidence.map((item) => item.passageId) : [],
+      outcome: last ? last.evidence.map((item) => item.passageId) : []
+    }
   };
 }
 
@@ -391,24 +729,19 @@ function buildProductionRecord(candidate, passageMap, ordinal) {
   const text = passages.map((passage) => passage.text).join(" ");
   const names = namesIn(`${candidate.title} ${text}`);
   const primary = names.slice(0, 6);
-  const sentences = text.split(/(?<=[.!?])\s+/).filter((sentence) => sentence.length > 40);
-  const events = sentences.slice(0, 3).map((sentence, index) => eventFromSentence(sentence, passages[Math.min(index, passages.length - 1)].passageId, primary, index));
-  if (!events.length) {
-    events.push({
-      eventId: "event-001",
-      actor: primary[0] ? entityId(primary[0]) : null,
-      action: "describe",
-      sourceAction: "is described",
-      object: null,
-      target: null,
-      recipient: null,
-      location: null,
-      causedBy: [],
-      causes: [],
-      evidence: [{ passageId: passages[0].passageId }],
-      reviewStatus: "approved"
-    });
-  }
+  const sentenceItems = splitSentences(passages);
+  const events = sentenceItems
+    .map((item, index) => {
+      const event = eventFromSentence(item.sentence, item.passageId, primary, index);
+      return event ? Object.assign(event, { evidence: item.evidence || event.evidence }) : null;
+    })
+    .filter(Boolean)
+    .slice(0, 8)
+    .map((event, index) => Object.assign({}, event, { eventId: `event-${String(index + 1).padStart(3, "0")}` }));
+  const narrative = narrativeFromEvents(candidate, primary, events, passages);
+  const relationships = relationshipsFromText(primary, text, passages[0]?.passageId);
+  const quality = semanticQuality(candidate, passages, primary, events, narrative);
+  const reviewStatus = "awaiting_review";
   const entityMappings = primary.map((name) => ({
     sourceName: name,
     normalizedId: entityId(name),
@@ -421,14 +754,14 @@ function buildProductionRecord(candidate, passageMap, ordinal) {
     entities: entityMappings.map((item) => ({
       sourceName: item.sourceName,
       entityType: "character",
-      roleInEpisode: "mentioned",
+      roleInEpisode: roleFor(item.sourceName, text, primary.indexOf(item.sourceName)),
       evidence: item.evidence,
       confidence: 0.72,
-      reviewStatus: "approved",
+      reviewStatus,
       normalizedId: item.normalizedId,
       normalizationStatus: "approved"
     })),
-    relationships: [],
+    relationships,
     goals: [],
     events: events.map((event) => ({
       actorSourceName: event.actor,
@@ -441,23 +774,23 @@ function buildProductionRecord(candidate, passageMap, ordinal) {
       causes: [],
       evidence: event.evidence,
       confidence: 0.7,
-      reviewStatus: "approved"
+      reviewStatus
     })),
     initialState: [{
-      subject: primary[0] ? entityId(primary[0]) : "source-section",
-      predicate: "is introduced in",
-      object: candidate.title,
+      subject: primary[0] ? entityId(primary[0]) : null,
+      predicate: "opening_situation",
+      object: narrative.openingSituation || candidate.title,
       evidence: [passages[0].passageId]
     }],
     finalState: [{
-      subject: primary[0] ? entityId(primary[0]) : "source-section",
-      predicate: "is last attested in selected candidate",
-      object: candidate.title,
+      subject: primary[0] ? entityId(primary[0]) : null,
+      predicate: "outcome",
+      object: narrative.outcome || candidate.title,
       evidence: [passages[passages.length - 1].passageId]
     }],
     causalLinks: [],
-    reviewStatus: "approved",
-    review: []
+    reviewStatus,
+    review: [reviewItem("candidate", candidate.candidateId, "requires-source-grounded-review", candidate.title, quality.failedGates.length ? quality.failedGates : ["machine-generated-extraction"], candidate.passages.slice(0, 3))]
   };
   const myth = {
     mythId: `bulk-myth-${String(ordinal + 1).padStart(4, "0")}`,
@@ -476,22 +809,36 @@ function buildProductionRecord(candidate, passageMap, ordinal) {
     },
     entityMappings,
     relationships: [],
+    narrative,
+    evidenceSummary: passages.slice(0, 8).map((passage, index) => ({
+      passageId: passage.passageId,
+      excerpt: compactText(passage.text, 240),
+      supports: index === 0 ? ["openingSituation", "synopsis"] : [`event-${String(Math.min(index + 1, Math.max(events.length, 1))).padStart(3, "0")}`]
+    })),
     initialState: facts.initialState,
-    events,
+    events: events.map((event) => Object.assign({}, event, { reviewStatus })),
     finalState: facts.finalState,
     interpretation: {
       themes: [],
-      storyline: null
+      storyline: narrative.storyline
     },
     variantLinks: [{
       type: "source-variant",
       sourceIds: [candidate.sourceId],
-      reviewStatus: "approved"
+      reviewStatus: "awaiting_review"
     }],
-    normalizationWarnings: [],
-    reviewStatus: "approved"
+    normalizationWarnings: facts.review,
+    semanticQuality: quality,
+    confidence: Math.max(0, Math.min(0.65, quality.score / 200)),
+    failedGates: quality.failedGates,
+    uncertainEntities: entityMappings.map((mapping) => mapping.normalizedId),
+    uncertainEvents: events.filter((event) => !event.actor || event.actorResolutionConfidence < 0.7).map((event) => event.eventId),
+    boundaryStatus: candidate.passages.length > 8 ? "requires-boundary-review" : "machine-proposed-section-boundary",
+    reviewStatus
   };
-  return { facts, myth };
+  myth.relationships = relationships;
+  candidate.semanticQuality = quality;
+  return { facts, myth, quality };
 }
 
 function bulkEntityRegistry(productionRecords) {
@@ -523,6 +870,17 @@ function makeCandidates(source, sections, passageDoc) {
     const sectionKey = String(section.sequence);
     const family = familyFor(section);
     const id = `${source.sourceId}-${String(section.sequence).padStart(4, "0")}-${stableHash(section.heading, 6)}`;
+    const text = `${section.heading} ${section.paragraphs.join(" ")}`;
+    const sectionNames = namesIn(text);
+    const actionCount = splitSentences([{ text, passageId: "candidate-preview" }]).filter((item) => actionFor(item.sentence)).length;
+    const conflictCount = splitSentences([{ text, passageId: "candidate-preview" }]).filter((item) => {
+      const action = actionFor(item.sentence);
+      return action && CONFLICT_ACTIONS.has(action.action);
+    }).length;
+    const failedGates = [];
+    if (section.candidateType !== "narrative_episode") failedGates.push("not-narrative-episode");
+    if (!sectionNames.length && section.candidateType === "narrative_episode") failedGates.push("no-mythological-characters");
+    const score = sectionNames.length * 8 + actionCount * 6 + conflictCount * 10 + section.paragraphs.length + (family !== "unresolved-family" ? 5 : 0);
     return {
       candidateId: id,
       sourceId: source.sourceId,
@@ -539,11 +897,24 @@ function makeCandidates(source, sections, passageDoc) {
       candidateType: section.candidateType,
       mythFamilyId: family,
       variantId: `${source.sourceId}-${family}-${stableHash(id, 6)}`,
-      characters: namesIn(`${section.heading} ${section.paragraphs.slice(0, 2).join(" ")}`),
+      characters: sectionNames,
       processingStatus: section.candidateType === "narrative_episode" ? "candidate-only" : "rejected-non-story",
       reviewStatus: section.candidateType === "narrative_episode" ? "pending" : "dismissed",
       duplicateOf: null,
-      qualityFlags: section.paragraphs.length < 2 ? ["short-section"] : []
+      qualityFlags: section.paragraphs.length < 2 ? ["short-section"] : [],
+      semanticQuality: {
+        score,
+        passed: failedGates.length === 0,
+        reasons: failedGates.length ? [`Pre-extraction gates failed: ${failedGates.join(", ")}`] : [],
+        failedGates,
+        components: {
+          namedMythologicalEntities: sectionNames.length,
+          actionBearingSentences: actionCount,
+          conflictSignals: conflictCount,
+          paragraphCount: section.paragraphs.length,
+          knownMythFamily: family !== "unresolved-family"
+        }
+      }
     };
   }).filter((candidate) => candidate.passages.length);
 }
@@ -599,6 +970,8 @@ function summarizeInventory(candidates, productionCount, reports) {
       reviewStatus: candidate.reviewStatus,
       duplicateOf: candidate.duplicateOf,
       qualityFlags: candidate.qualityFlags
+      ,
+      semanticQuality: candidate.semanticQuality || null
     })),
     summary: {
       bySource: countBy("sourceId"),
@@ -616,7 +989,180 @@ function summarizeInventory(candidates, productionCount, reports) {
   };
 }
 
-function validateBulk(outputs, candidates, productionRecords, duplicateData, reviewItems) {
+function semanticFailures(record, passageIds) {
+  const failures = [];
+  const myth = record.myth;
+  const meaningfulEvents = myth.events.filter((event) => event.action && event.action !== "describe");
+  const actorEvents = meaningfulEvents.filter((event) => event.actor);
+  if (!(myth.entities.characters || []).length) failures.push("no-mythological-characters");
+  if (!actorEvents.length) failures.push("all-event-actors-null");
+  if (meaningfulEvents.length < 3) failures.push("fewer-than-three-meaningful-events");
+  if (myth.events.every((event) => event.action === "describe" || /^(was|were|had|is described|there was)$/i.test(event.sourceAction))) failures.push("only-descriptive-actions");
+  if (!myth.narrative || !myth.narrative.centralConflict) failures.push("no-central-conflict-or-change");
+  if (!myth.narrative || !myth.narrative.outcome) failures.push("no-outcome");
+  if (!myth.narrative || !Array.isArray(myth.narrative.storyline) || !myth.narrative.storyline.length) failures.push("no-storyline");
+  if (!myth.narrative || !myth.narrative.synopsis) failures.push("no-synopsis");
+  if ((myth.initialState || []).some((state) => state.subject === "source-section")) failures.push("placeholder-state");
+  if (POET_HEADINGS.has(String(myth.title || "").trim().toLowerCase())) failures.push("literary-or-biographical-title");
+  if (!hasMythicTitleSignal(myth.title, myth.mythFamilyId)) failures.push("weak-or-literary-title");
+  if (!myth.source.passages.length) failures.push("missing-source-passages");
+  myth.source.passages.forEach((id) => {
+    if (!passageIds.has(id)) failures.push("unresolved-source-passage");
+  });
+  myth.events.forEach((event) => {
+    if (!event.evidence || !event.evidence.length) failures.push("event-without-evidence");
+    (event.evidence || []).forEach((item) => {
+      if (!passageIds.has(item.passageId)) failures.push("unresolved-event-evidence");
+    });
+  });
+  if (!myth.evidenceSummary || !myth.evidenceSummary.length) failures.push("missing-evidence-summary");
+  return Array.from(new Set(failures));
+}
+
+function semanticQualityReport(candidates, productionRecords, verifiedRecords, passageIds) {
+  const failedQualityGates = {};
+  const approvedRecordIds = [];
+  const verifiedRecordIds = verifiedRecords.map((record) => record.mythId);
+  const recordsRequiringReview = [];
+  const rejectedRecordIds = [];
+  productionRecords.forEach((record) => {
+    const failures = semanticFailures(record, passageIds);
+    failures.forEach((failure) => {
+      failedQualityGates[failure] = (failedQualityGates[failure] || 0) + 1;
+    });
+    if (record.myth.reviewStatus === "approved") approvedRecordIds.push(record.myth.mythId);
+    if (record.myth.reviewStatus === "awaiting_review") recordsRequiringReview.push(record.myth.mythId);
+    if (record.myth.reviewStatus === "rejected") rejectedRecordIds.push(record.myth.mythId);
+  });
+  return {
+    generatedAt: GENERATED_AT,
+    totalCandidates: candidates.length,
+    narrativeCandidates: candidates.filter((candidate) => candidate.candidateType === "narrative_episode").length,
+    approvedRecords: approvedRecordIds.length,
+    humanApprovedRecords: approvedRecordIds.length,
+    verifiedBySourceAudit: verifiedRecordIds.length,
+    awaitingReview: recordsRequiringReview.length,
+    rejectedNonStory: candidates.filter((candidate) => candidate.processingStatus === "rejected-non-story").length,
+    rejectedPoorQuality: candidates.filter((candidate) => candidate.processingStatus === "rejected-poor-quality").length,
+    ambiguous: candidates.filter((candidate) => candidate.candidateType === "ambiguous").length,
+    failedQualityGates,
+    approvedRecordIds,
+    verifiedRecordIds,
+    recordsRequiringReview,
+    rejectedRecordIds
+  };
+}
+
+function approvedCatalog() {
+  return {
+    generatedAt: GENERATED_AT,
+    note: "No bulk records are human-approved by the automated corpus pipeline.",
+    entries: []
+  };
+}
+
+function verifiedCatalog(verifiedRecords) {
+  return {
+    generatedAt: GENERATED_AT,
+    entries: verifiedRecords.map((myth) => ({
+      mythId: myth.mythId,
+      title: myth.title,
+      mythFamilyId: myth.mythFamilyId,
+      sourceId: myth.source.sourceId,
+      mainCharacters: myth.mainCharacters,
+      synopsis: myth.narrative.synopsis,
+      eventCount: myth.events.length,
+      reviewStatus: myth.reviewStatus,
+      file: `corpus/normalized/bulk/verified/${myth.mythId}.myth.json`
+    }))
+  };
+}
+
+function reviewCatalog(productionRecords) {
+  return {
+    generatedAt: GENERATED_AT,
+    entries: productionRecords
+      .filter((record) => record.myth.reviewStatus === "awaiting_review")
+      .map((record) => ({
+        mythId: record.myth.mythId,
+        title: record.myth.title,
+        mythFamilyId: record.myth.mythFamilyId,
+        sourceId: record.myth.source.sourceId,
+        failedGates: record.myth.semanticQuality.failedGates,
+        synopsis: record.myth.narrative.synopsis,
+        reviewStatus: record.myth.reviewStatus,
+        file: `corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`
+      }))
+  };
+}
+
+function rejectedCatalog(candidates) {
+  return {
+    generatedAt: GENERATED_AT,
+    entries: candidates
+      .filter((candidate) => candidate.processingStatus === "rejected-non-story" || candidate.processingStatus === "rejected-poor-quality")
+      .map((candidate) => ({
+        candidateId: candidate.candidateId,
+        title: candidate.title,
+        sourceId: candidate.sourceId,
+        candidateType: candidate.candidateType,
+        processingStatus: candidate.processingStatus,
+        failedGates: (candidate.semanticQuality && candidate.semanticQuality.failedGates) || [],
+        passages: candidate.passages
+      }))
+  };
+}
+
+function automatedStructureCheck(productionRecords, verifiedRecords) {
+  const selected = productionRecords.slice(0, 10);
+  return {
+    generatedAt: GENERATED_AT,
+    reviewType: "automated-structure-check",
+    note: "Automated field-presence checks only. This is not a semantic review and cannot approve records.",
+    proposedRecordsChecked: selected.map((record) => ({
+      mythId: record.myth.mythId,
+      title: record.myth.title,
+      mythFamilyId: record.myth.mythFamilyId,
+      characters: record.myth.entities.characters,
+      synopsisPresent: Boolean(record.myth.narrative.synopsis),
+      conflictPresent: Boolean(record.myth.narrative.centralConflict),
+      eventOrderPreserved: record.myth.events.every((event, index) => event.eventId === `event-${String(index + 1).padStart(3, "0")}`),
+      outcomePresent: Boolean(record.myth.narrative.outcome),
+      evidenceSummaryPresent: Boolean(record.myth.evidenceSummary.length),
+      evidenceLinksPresent: record.myth.events.every((event) => event.evidence && event.evidence.length),
+      reviewStatus: record.myth.reviewStatus,
+      file: `corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`
+    })),
+    verifiedRecordsChecked: verifiedRecords.map((myth) => ({
+      mythId: myth.mythId,
+      title: myth.title,
+      reviewStatus: myth.reviewStatus,
+      fieldPresenceOnly: true,
+      file: `corpus/normalized/bulk/verified/${myth.mythId}.myth.json`
+    }))
+  };
+}
+
+function codexSourceVerification(verifiedRecords) {
+  return {
+    generatedAt: GENERATED_AT,
+    reviewType: "Codex source-grounded implementation review",
+    note: "These entries were checked against the cited source passages during implementation. They are not human scholarly approvals.",
+    checkedRecords: verifiedRecords.map((myth) => ({
+      recordId: myth.mythId,
+      title: myth.title,
+      passagesRead: myth.verification.passagesRead,
+      claimsChecked: myth.verification.claimsChecked,
+      correctionsMade: myth.verification.correctionsMade,
+      remainingUncertainties: myth.verification.remainingUncertainties,
+      verificationStatus: myth.verification.status,
+      reviewStatus: myth.reviewStatus,
+      file: `corpus/normalized/bulk/verified/${myth.mythId}.myth.json`
+    }))
+  };
+}
+
+function validateBulk(outputs, candidates, productionRecords, verifiedRecords, duplicateData, reviewItems) {
   const passageIds = new Set();
   const errors = [];
   const warnings = [];
@@ -638,9 +1184,20 @@ function validateBulk(outputs, candidates, productionRecords, duplicateData, rev
     record.facts.entities.concat(record.facts.events).forEach((assertion) => {
       if (!assertion.evidence || !assertion.evidence.length) errors.push({ type: "missing-evidence", file: record.facts.candidateId, message: assertion.sourceName || assertion.sourceAction });
     });
+    const semantic = semanticFailures(record, passageIds);
+    if (record.myth.reviewStatus === "approved") {
+      errors.push({ type: "machine-record-approved", file: `corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`, message: "Machine-generated bulk records cannot be approved" });
+    }
+  });
+  verifiedRecords.forEach((myth) => {
+    if (myth.reviewStatus !== "verified_by_source_audit") errors.push({ type: "invalid-verified-status", file: myth.mythId, message: myth.reviewStatus });
+    myth.events.forEach((event) => {
+      if (!event.evidence || !event.evidence.length) errors.push({ type: "missing-evidence", file: myth.mythId, message: event.eventId });
+      if (likelySentenceFragment(event.sourceText || event.result || event.sourceSentence)) errors.push({ type: "sentence-fragment", file: myth.mythId, message: event.eventId });
+    });
   });
   if (candidates.filter((candidate) => candidate.candidateType === "narrative_episode").length < 100) errors.push({ type: "target-not-met", file: "corpus/catalog/myth-inventory.json", message: "Fewer than 100 valid narrative candidates" });
-  if (productionRecords.length < PRODUCTION_LIMIT) errors.push({ type: "target-not-met", file: "corpus/normalized/bulk", message: "Fewer than 50 production records" });
+  warnings.push({ type: "automatic-approval-disabled", file: "corpus/catalog/approved-myths.json", message: "Machine-generated records remain awaiting review; human-approved count is zero" });
   duplicateData.probableDuplicates.forEach((item) => warnings.push({ type: "probable-duplicate", file: "corpus/catalog/duplicate-and-variant-report.json", message: item.mythFamilyId }));
   reviewItems.forEach((item) => warnings.push({ type: item.issueType, file: "corpus/review/open-review-items.json", message: item.sourceValue }));
   return { valid: errors.length === 0, errors, warnings };
@@ -656,6 +1213,9 @@ function cleanBulkOutputs() {
     fs.rmSync(rel(dir), { recursive: true, force: true });
     fs.mkdirSync(rel(dir), { recursive: true });
   });
+  fs.mkdirSync(rel("corpus/normalized/bulk/proposed"), { recursive: true });
+  fs.mkdirSync(rel("corpus/normalized/bulk/verified"), { recursive: true });
+  fs.rmSync(rel("corpus/review/manual-semantic-spot-check.json"), { force: true });
 }
 
 runCli(async (args) => {
@@ -713,19 +1273,26 @@ runCli(async (args) => {
     });
   });
 
-  const narrative = allCandidates.filter((candidate) => candidate.candidateType === "narrative_episode");
-  const selected = narrative.slice(0, limit || PRODUCTION_LIMIT);
+  const narrative = allCandidates
+    .filter((candidate) => candidate.candidateType === "narrative_episode")
+    .sort((a, b) => b.semanticQuality.score - a.semanticQuality.score || a.candidateId.localeCompare(b.candidateId));
+  const selected = limit ? narrative.slice(0, limit) : narrative;
   const productionRecords = [];
   selected.forEach((candidate, index) => {
-    candidate.processingStatus = "approved";
-    candidate.reviewStatus = "approved";
-    candidate.status = "approved";
     const record = buildProductionRecord(candidate, passageMap, index);
+    candidate.processingStatus = "machine-proposed-extraction";
+    candidate.reviewStatus = "awaiting_review";
+    candidate.status = "awaiting_review";
     productionRecords.push(record);
     writeJson(rel(`corpus/candidates/bulk/${candidate.candidateId}.candidate.json`), candidate);
     writeJson(rel(`corpus/extracted/bulk/${candidate.candidateId}.facts.json`), record.facts);
-    writeJson(rel(`corpus/normalized/bulk/${record.myth.mythId}.myth.json`), record.myth);
-    writeJson(rel(`corpus/review/bulk/${candidate.candidateId}.review.json`), { items: [] });
+    writeJson(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), record.myth);
+    writeJson(rel(`corpus/review/bulk/${candidate.candidateId}.review.json`), {
+      reviewType: "semantic-quality",
+      status: "requires-source-grounded-review",
+      semanticQuality: record.quality,
+      items: record.facts.review
+    });
   });
   allCandidates.filter((candidate) => !selected.includes(candidate)).forEach((candidate) => {
     writeJson(rel(`corpus/candidates/bulk/${candidate.candidateId}.candidate.json`), candidate);
@@ -735,36 +1302,74 @@ runCli(async (args) => {
   const reviewItems = duplicateData.probableDuplicates.slice(0, 25).map((item) => reviewItem("candidate", item.candidateIds.join(":"), "probable-duplicate", item.mythFamilyId, item.candidateIds, []));
   const ambiguousFamilies = allCandidates.filter((candidate) => candidate.mythFamilyId === "unresolved-family").slice(0, 25);
   ambiguousFamilies.forEach((candidate) => reviewItems.push(reviewItem("candidate", candidate.candidateId, "ambiguous-myth-family", candidate.title, [], candidate.passages.slice(0, 2))));
-  const registry = bulkEntityRegistry(productionRecords);
+  const verifiedRecords = buildVerifiedSeeds(passageMap);
+  verifiedRecords.forEach((myth) => {
+    writeJson(rel(`corpus/normalized/bulk/verified/${myth.mythId}.myth.json`), myth);
+  });
+  const registry = bulkEntityRegistry(verifiedRecords.map((myth) => ({ myth })));
   writeJson(rel("corpus/normalized/bulk-entity-registry.json"), registry);
   const inventory = summarizeInventory(allCandidates, productionRecords.length, {
     bulkValidationReport: "corpus/review/bulk-validation-report.json",
+    semanticQualityReport: "corpus/review/semantic-quality-report.json",
+    sourceTextAuditReport: "corpus/review/source-text-audit-report.json",
     bulkIngestionSummary: "corpus/catalog/bulk-ingestion-summary.json",
     duplicateAndVariantReport: "corpus/catalog/duplicate-and-variant-report.json",
     openReviewItems: "corpus/review/open-review-items.json",
-    sourceCoverageReport: "corpus/catalog/source-coverage-report.json"
+    sourceCoverageReport: "corpus/catalog/source-coverage-report.json",
+    approvedMyths: "corpus/catalog/approved-myths.json",
+    verifiedMyths: "corpus/catalog/verified-myths.json",
+    proposedMyths: "corpus/catalog/proposed-myths.json",
+    mythsAwaitingReview: "corpus/catalog/myths-awaiting-review.json",
+    rejectedCandidates: "corpus/catalog/rejected-candidates.json",
+    automatedStructureCheck: "corpus/review/automated-structure-check.json",
+    codexSourceVerification: "corpus/review/codex-source-verification.json"
   });
   writeJson(rel("corpus/catalog/myth-inventory.json"), inventory);
   writeJson(rel("corpus/catalog/duplicate-and-variant-report.json"), duplicateData);
   writeJson(rel("corpus/review/open-review-items.json"), { items: reviewItems });
-  const validation = validateBulk(outputs, allCandidates, productionRecords, duplicateData, reviewItems);
+  const verifiedAudit = validateVerifiedRecords(verifiedRecords, passageMap);
+  const validation = validateBulk(outputs, allCandidates, productionRecords, verifiedRecords, duplicateData, reviewItems);
+  if (!verifiedAudit.valid) {
+    validation.errors.push({ type: "verified-source-audit", file: "corpus/review/source-text-audit-report.json", message: "Verified records failed exact source audit" });
+    validation.valid = false;
+  }
   writeJson(rel("corpus/review/bulk-validation-report.json"), validation);
+  writeJson(rel("corpus/review/source-text-audit-report.json"), verifiedAudit);
+  const semanticReport = semanticQualityReport(allCandidates, productionRecords, verifiedRecords, new Set(Object.keys(passageMap)));
+  writeJson(rel("corpus/review/semantic-quality-report.json"), semanticReport);
+  writeJson(rel("corpus/catalog/approved-myths.json"), approvedCatalog());
+  writeJson(rel("corpus/catalog/verified-myths.json"), verifiedCatalog(verifiedRecords));
+  writeJson(rel("corpus/catalog/proposed-myths.json"), reviewCatalog(productionRecords));
+  writeJson(rel("corpus/catalog/myths-awaiting-review.json"), reviewCatalog(productionRecords));
+  writeJson(rel("corpus/catalog/rejected-candidates.json"), rejectedCatalog(allCandidates));
+  writeJson(rel("corpus/review/automated-structure-check.json"), automatedStructureCheck(productionRecords, verifiedRecords));
+  writeJson(rel("corpus/review/codex-source-verification.json"), codexSourceVerification(verifiedRecords));
   const summary = {
-    generatedAt: new Date(0).toISOString(),
+    generatedAt: GENERATED_AT,
     booksIngested: sources.length,
     rawSourceFiles: sources.map((source) => source.raw),
     structuredDerivativeFiles: sources.map((source) => source.derived),
     totalPassages: sourceSummaries.reduce((sum, item) => sum + item.passageCount, 0),
     totalCandidateSections: allCandidates.length,
     validNarrativeCandidates: narrative.length,
+    narrativeCandidates: narrative.length,
     nonStoryCandidates: allCandidates.filter((candidate) => candidate.candidateType !== "narrative_episode").length,
+    rejectedNonStoryCandidates: allCandidates.filter((candidate) => candidate.processingStatus === "rejected-non-story").length,
+    semanticallyQualifiedCandidates: verifiedRecords.length,
+    normalizedAwaitingReviewRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
+    rejectedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "rejected").length,
+    ambiguousRecords: allCandidates.filter((candidate) => candidate.candidateType === "ambiguous").length,
     exactDuplicates: duplicateData.exactDuplicates.length,
     probableDuplicates: duplicateData.probableDuplicates.length,
     distinctSourceVariants: duplicateData.distinctSourceVariants.reduce((sum, item) => sum + item.variantCount, 0),
     uniqueMythFamilies: new Set(allCandidates.map((candidate) => candidate.mythFamilyId)).size,
     fullyNormalizedRecords: productionRecords.length,
-    approvedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "approved").length,
-    recordsAwaitingReview: allCandidates.filter((candidate) => candidate.reviewStatus === "pending").length,
+    approvedRecords: 0,
+    humanApprovedRecords: 0,
+    verifiedBySourceAudit: verifiedRecords.length,
+    machineProposedRecords: productionRecords.length,
+    recordsAwaitingReview: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
+    rejectedPoorQualityRecords: 0,
     unresolvedEntities: 0,
     unresolvedActions: 0,
     validationErrors: validation.errors.length,

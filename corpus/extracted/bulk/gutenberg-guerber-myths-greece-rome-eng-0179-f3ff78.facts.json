@@ -20,11 +20,11 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
-      "sourceAction": "had",
+      "sourceAction": "escaped",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -33,35 +33,18 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:179.179.2-179.179.2:b14b03ee"
+          "passageId": "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "had",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:179.179.2-179.179.2:b14b03ee"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "source-section",
-      "predicate": "is introduced in",
-      "object": "Then only he departed.",
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Night came on; darkness stole over the earth; and Leander impatiently paced the sandy shore, and watched for the promised signal, which no sooner appeared, than he exultantly",
       "evidence": [
         "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0"
       ]
@@ -69,15 +52,34 @@
   ],
   "finalState": [
     {
-      "subject": "source-section",
-      "predicate": "is last attested in selected candidate",
-      "object": "Then only he departed.",
+      "subject": null,
+      "predicate": "outcome",
+      "object": "At times the huge billows towered above his head; but when he had escaped their threatening depths, and rose up on their foamy crests, he could catch a glimpse of the torch",
       "evidence": [
         "gutenberg:ebooks:39250:179.179.2-179.179.2:b14b03ee"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-cec55e89",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0179-f3ff78",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Then only he departed.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:179.179.1-179.179.1:753b2cd0",
+        "gutenberg:ebooks:39250:179.179.2-179.179.2:b14b03ee"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:264.264.5-264.264.5:3816fb3a",
     "gutenberg:ebooks:39250:264.264.6-264.264.6:02674b0c"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,9 +23,34 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "odysseus-cyclops",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-odysseus-cyclops-b9984c",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Bacchus",
+    "Dionysus",
+    "Jupiter"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 117,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 5,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

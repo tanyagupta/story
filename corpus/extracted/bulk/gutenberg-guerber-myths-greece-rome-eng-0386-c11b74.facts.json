@@ -1,0 +1,177 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0386-c11b74",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Ariadne",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:386.386.1-386.386.1:0c9a22a0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ariadne",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Minotaur",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:386.386.1-386.386.1:0c9a22a0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "minotaur",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Theseus",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:386.386.1-386.386.1:0c9a22a0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "theseus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "theseus",
+      "sourceAction": "granted",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:386.386.2-386.386.2:ec870ca7"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "confined",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:386.386.3-386.386.3:b781d944"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:386.386.3-386.386.3:b781d944"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "revealed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:386.386.4-386.386.4:76be6802"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "minotaur",
+      "sourceAction": "slain",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:386.386.7-386.386.7:9bd84878"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "ariadne",
+      "predicate": "opening_situation",
+      "object": "Theseus, by right of his birth, claimed the precedence, and proffered a request to be the first victim,--a request which the king granted with a sardonic smile, ere he returned",
+      "evidence": [
+        "gutenberg:ebooks:39250:386.386.1-386.386.1:0c9a22a0"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "ariadne",
+      "predicate": "outcome",
+      "object": "The Minotaur slain, Theseus hastily retraced his footsteps.",
+      "evidence": [
+        "gutenberg:ebooks:39250:386.386.8-386.386.8:d13f8931"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-988e1faf",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0386-c11b74",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Athenians.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:386.386.1-386.386.1:0c9a22a0",
+        "gutenberg:ebooks:39250:386.386.2-386.386.2:ec870ca7",
+        "gutenberg:ebooks:39250:386.386.3-386.386.3:b781d944"
+      ],
+      "status": "open"
+    }
+  ]
+}

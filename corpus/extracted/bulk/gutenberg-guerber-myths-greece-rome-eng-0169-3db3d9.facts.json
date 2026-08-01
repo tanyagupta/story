@@ -5,29 +5,29 @@
     {
       "sourceName": "Jupiter",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-jupiter",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Venus",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "participant",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-venus",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "aphrodite",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,8 +35,8 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-jupiter",
-      "sourceAction": "is described",
+      "actorSourceName": null,
+      "sourceAction": "bore",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -49,10 +49,10 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "roman-venus",
+      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -62,35 +62,18 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+          "passageId": "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "roman-jupiter",
-      "predicate": "is introduced in",
-      "object": "Spenser.",
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "Daughters of Jupiter and Eurynome, these maidens, who bore the respective names of Aglaia, Euphrosyne, and Thalia, longed to show their love for their new mistress.",
       "evidence": [
         "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8"
       ]
@@ -98,15 +81,32 @@
   ],
   "finalState": [
     {
-      "subject": "roman-jupiter",
-      "predicate": "is last attested in selected candidate",
-      "object": "Spenser.",
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "When the wave upon which she reclined came nearer still, the \"rosy-bosomed Hours, fair Venus' train,\" appeared.",
       "evidence": [
         "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-bef6ac78",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0169-3db3d9",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Spenser.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:169.169.1-169.169.1:d6bf12a8",
+        "gutenberg:ebooks:39250:169.169.2-169.169.2:530bca00"
+      ],
+      "status": "open"
+    }
+  ]
 }

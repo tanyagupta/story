@@ -7,7 +7,7 @@
     "gutenberg:ebooks:22381:328.328.2-328.328.2:f04da282",
     "gutenberg:ebooks:22381:328.328.3-328.328.3:4a46d832"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -17,12 +17,34 @@
   "workingTitle": "THE EPIGONI.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "deity_profile",
+  "candidateType": "narrative_episode",
   "mythFamilyId": "the-epigoni",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-the-epigoni-14ad8d",
   "characters": [],
-  "processingStatus": "rejected-non-story",
-  "reviewStatus": "dismissed",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 44,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

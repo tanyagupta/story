@@ -34,7 +34,7 @@
     "gutenberg:ebooks:39250:453.453.29-453.453.29:fb10645d",
     "gutenberg:ebooks:39250:453.453.30-453.453.30:3db80569"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -48,10 +48,36 @@
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-ae14e9",
   "characters": [
-    "Hector"
+    "Achilles",
+    "Europa",
+    "Hector",
+    "Jupiter",
+    "Paris",
+    "Vulcan"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 174,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

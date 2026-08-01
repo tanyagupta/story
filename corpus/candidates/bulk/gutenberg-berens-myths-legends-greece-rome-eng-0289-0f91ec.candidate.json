@@ -19,12 +19,29 @@
   "workingTitle": "PANATHENAEA.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "ritual_description",
+  "candidateType": "literary_commentary",
   "mythFamilyId": "panathenaea",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-panathenaea-1e824b",
   "characters": [],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 28,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "actionBearingSentences": 3,
+      "conflictSignals": 0,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

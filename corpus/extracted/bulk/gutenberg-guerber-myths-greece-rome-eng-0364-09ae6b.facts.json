@@ -1,0 +1,142 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0364-09ae6b",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Perseus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "perseus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Acrisius",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "acrisius",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Danae",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "danae",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "acrisius",
+      "sourceAction": "ordered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.4-364.364.4:d0e1ad06"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most",
+      "evidence": [
+        "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with",
+      "evidence": [
+        "gutenberg:ebooks:39250:364.364.5-364.364.5:e5348dea"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a7f9ec36",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0364-09ae6b",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Shelley.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0",
+        "gutenberg:ebooks:39250:364.364.2-364.364.2:5b6aaac3",
+        "gutenberg:ebooks:39250:364.364.3-364.364.3:e70deb5f"
+      ],
+      "status": "open"
+    }
+  ]
+}

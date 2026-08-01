@@ -1,0 +1,163 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0339-f2479d",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Hercules",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.1-339.339.1:896736a0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "heracles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Juno",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.1-339.339.1:896736a0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hera",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.1-339.339.1:896736a0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "born",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.1-339.339.1:896736a0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "hera",
+      "sourceAction": "reached",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.4-339.339.4:d96f060e"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "caught",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "heracles",
+      "predicate": "opening_situation",
+      "object": "\"Unto this thy son it shall be given, With his broad heart to win his way to heaven; Twelve labors shall he work; and all accurst And brutal things o'erthrow, brute men the worst",
+      "evidence": [
+        "gutenberg:ebooks:39250:339.339.1-339.339.1:896736a0"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "heracles",
+      "predicate": "outcome",
+      "object": "The monsters crept along noiselessly, entered the palace unseen, twined themselves around the cradle, and were about to crush the child to death in their folds, when, to the utter",
+      "evidence": [
+        "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-6731925c",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0339-f2479d",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "HERCULES.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:339.339.1-339.339.1:896736a0",
+        "gutenberg:ebooks:39250:339.339.2-339.339.2:d6f117fb",
+        "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c"
+      ],
+      "status": "open"
+    }
+  ]
+}

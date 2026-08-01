@@ -1,0 +1,220 @@
+{
+  "mythId": "bulk-myth-0259",
+  "mythFamilyId": "dionysus-and-pirates",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-dionysus-and-pirates-e10f1f",
+  "title": "Egypt.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa",
+      "gutenberg:ebooks:39250:269.269.2-269.269.2:587e7db5"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "bacchus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Bacchus",
+      "normalizedId": "bacchus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Their amusement was cut short, however, for the ship came to a sudden standstill; and, when they leaned over the sides to ascertain why their oars could no longer propel it Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of",
+    "openingSituation": "Their amusement was cut short, however, for the ship came to a sudden standstill; and, when they leaned over the sides to ascertain why their oars could no longer propel it",
+    "centralConflict": "Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of",
+    "resolution": "Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of",
+    "outcome": "Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of",
+    "storyline": [
+      "Their amusement was cut short, however, for the ship came to a sudden standstill; and, when they leaned over the sides to ascertain why their oars could no longer propel it",
+      "Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa",
+        "gutenberg:ebooks:39250:269.269.2-269.269.2:587e7db5"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa",
+      "excerpt": "They were already quite far out at sea when the god awoke, and gazed around him in mute wonder at his surroundings. When fully roused, he bade the seamen take him back to land, but they merely replied by laughter and mockery.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:269.269.2-269.269.2:587e7db5",
+      "excerpt": "\"In chorus we sing of wine, sweet wine, Its power benign, and its flavor divine.\"",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "bacchus",
+      "predicate": "opening_situation",
+      "object": "Their amusement was cut short, however, for the ship came to a sudden standstill; and, when they leaned over the sides to ascertain why their oars could no longer propel it",
+      "evidence": [
+        "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Their amusement was cut short, however, for the ship came to a sudden standstill; and, when they leaned over the sides to ascertain why their oars could no longer propel it onward, they saw a vine grow out of the sea, and twine its branches and tendrils with lightning-like velocity around oars, mast, and rigging, thus transforming the vessel into a floating arbor.",
+      "sourceClause": "Their amusement was cut short, however, for the ship came to a sudden standstill; and, when they leaned over the sides to ascertain why their oars could no longer propel it onward, they saw a vine grow out of the sea, and twine its branches and tendrils with lightning-like velocity around oars, mast, and rigging, thus transforming the vessel into a floating arbor.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": "ship",
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Their amusement was cut short, however, for the ship came to a sudden standstill; and, when they leaned over the sides to ascertain why their oars could no longer propel it",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of their god and of his favorite beverage.",
+      "sourceClause": "Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of their god and of his favorite beverage.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": "ship",
+      "target": "bacchus",
+      "recipient": null,
+      "location": null,
+      "result": "Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "bacchus",
+      "predicate": "outcome",
+      "object": "Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of",
+      "evidence": [
+        "gutenberg:ebooks:39250:269.269.2-269.269.2:587e7db5"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Their amusement was cut short, however, for the ship came to a sudden standstill; and, when they leaned over the sides to ascertain why their oars could no longer propel it",
+      "Then a sound of music and revelry greeted their astonished ears, and Bacchus' followers came thronging over the ship's sides, riding on wild beasts, and chanting the praises of"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-a31cb02b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0269-ceff43",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Egypt.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:269.269.1-269.269.1:d03aedaa",
+        "gutenberg:ebooks:39250:269.269.2-269.269.2:587e7db5"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 63,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.315,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "bacchus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

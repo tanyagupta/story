@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 138,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 5,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-2e37b85e",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0225-656066",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Cupid's love-inspiring darts.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:225.225.1-225.225.1:f0631bf7",
+        "gutenberg:ebooks:39250:225.225.2-225.225.2:febfbde3",
+        "gutenberg:ebooks:39250:225.225.3-225.225.3:5b7e0906"
+      ],
+      "status": "open"
+    }
+  ]
+}

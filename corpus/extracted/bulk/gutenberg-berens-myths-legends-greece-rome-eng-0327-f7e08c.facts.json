@@ -1,0 +1,161 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0327-f7e08c",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Antigone",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "antigone",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Eurydice",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "eurydice",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Theseus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "theseus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "condemned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "reached",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "flight",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "accomplished",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "antigone",
+      "predicate": "opening_situation",
+      "object": "When Creon discovered that his commands had been set at defiance, he inhumanly condemned the devoted maiden to be entombed alive in a subterranean vault.",
+      "evidence": [
+        "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "antigone",
+      "predicate": "outcome",
+      "object": "This undertaking was successfully accomplished, and the remains of the fallen heroes were interred with due honours.",
+      "evidence": [
+        "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-c6b9c0a7",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0327-f7e08c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Polynices.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e",
+        "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97",
+        "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -7,7 +7,7 @@
     "gutenberg:ebooks:22381:318.318.2-318.318.2:15f887e5",
     "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,8 +23,25 @@
   "characters": [
     "Bellerophon"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 84,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 3,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -1,0 +1,113 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0083-606cb1",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Mercury",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "sprang",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "When scarcely a day old, he sprang from his mother's arms, and ran some distance off to where a tortoise shell was lying on the ground.",
+      "evidence": [
+        "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Thus it was that the first lyre was made.",
+      "evidence": [
+        "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-5445f2c9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0083-606cb1",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Mercury",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:83.83.1-83.83.1:ca73ab65",
+        "gutenberg:ebooks:45489:83.83.2-83.83.2:0b364167"
+      ],
+      "status": "open"
+    }
+  ]
+}

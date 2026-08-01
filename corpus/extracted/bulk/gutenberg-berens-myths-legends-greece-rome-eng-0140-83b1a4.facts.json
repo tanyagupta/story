@@ -1,0 +1,115 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0140-83b1a4",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Zeus",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:140.140.1-140.140.1:ef0ae933"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:140.140.4-140.140.4:b92e96d8"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "built",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:140.140.7-140.140.7:411b7465"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:140.140.7-140.140.7:411b7465"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "This elder Themis inherited from her mother the gift of prophecy, and when she became merged into her younger representative she transmitted to her this prophetic power.",
+      "evidence": [
+        "gutenberg:ebooks:22381:140.140.1-140.140.1:ef0ae933"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Here prayers were said and sacrifices offered, and here also every kind and loving feeling was fostered, which even extended to the hunted and guilty stranger, who, if he once",
+      "evidence": [
+        "gutenberg:ebooks:22381:140.140.7-140.140.7:411b7465"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-7232a136",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0140-83b1a4",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THEMIS.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:140.140.1-140.140.1:ef0ae933",
+        "gutenberg:ebooks:22381:140.140.2-140.140.2:7b08ce11",
+        "gutenberg:ebooks:22381:140.140.3-140.140.3:3a4b9246"
+      ],
+      "status": "open"
+    }
+  ]
+}

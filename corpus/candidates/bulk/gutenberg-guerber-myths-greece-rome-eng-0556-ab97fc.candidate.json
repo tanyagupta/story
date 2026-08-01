@@ -25,7 +25,7 @@
     "gutenberg:ebooks:39250:556.556.20-556.556.20:775cea6e",
     "gutenberg:ebooks:39250:556.556.21-556.556.21:f4de455f"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -40,11 +40,41 @@
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-53f228",
   "characters": [
     "Achilles",
+    "Diana",
+    "Europa",
     "Hades",
-    "Venus"
+    "Jupiter",
+    "Mercury",
+    "Orpheus",
+    "Pygmalion",
+    "Ulysses",
+    "Venus",
+    "Vulcan",
+    "Minos"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 114,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

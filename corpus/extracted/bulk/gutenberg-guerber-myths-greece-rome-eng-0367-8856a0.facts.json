@@ -1,0 +1,208 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0367-8856a0",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Medusa",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "medusa",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Minerva",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athena",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Perseus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "perseus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Danae",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "danae",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Polydectes",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "polydectes",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "received",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.3-367.367.3:224c154b"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.4-367.367.4:6a96c118"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "perseus",
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.4-367.367.4:6a96c118"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "declared",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.5-367.367.5:f41f446e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "athena",
+      "sourceAction": "refused",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.8-367.367.8:aaaeeffc"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:367.367.8-367.367.8:aaaeeffc"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "medusa",
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Danae at Seriphus.] Her piteous prayer was evidently heard, for, after much tossing, the cask was finally washed ashore on the Island of Seriphus, where Polydectes, the",
+      "evidence": [
+        "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "medusa",
+      "predicate": "outcome",
+      "object": "This presumptuous remark so incensed Minerva, that, to punish her for her vanity, she changed her beautiful curling locks into hissing, writhing serpents, and decreed that one",
+      "evidence": [
+        "gutenberg:ebooks:39250:367.367.9-367.367.9:c978525a"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-394ad859",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0367-8856a0",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Inhaling in thy milky-breathing breast",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6",
+        "gutenberg:ebooks:39250:367.367.2-367.367.2:54eb21d3",
+        "gutenberg:ebooks:39250:367.367.3-367.367.3:224c154b"
+      ],
+      "status": "open"
+    }
+  ]
+}

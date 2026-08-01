@@ -6,7 +6,7 @@
     "gutenberg:ebooks:39250:465.465.1-465.465.1:68b38e98",
     "gutenberg:ebooks:39250:465.465.2-465.465.2:4ac207e6"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -16,14 +16,31 @@
   "workingTitle": "Tennyson.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "odysseus-cyclops",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-odysseus-cyclops-ffecdc",
   "characters": [
     "Ulysses"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 37,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 2,
+      "conflictSignals": 1,
+      "paragraphCount": 2,
+      "knownMythFamily": true
+    }
+  }
 }

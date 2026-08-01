@@ -1,0 +1,243 @@
+{
+  "mythId": "bulk-myth-0175",
+  "mythFamilyId": "bellerophon-and-pegasus",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-bellerophon-and-pegasus-213251",
+  "title": "BELLEROPHON.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420",
+      "gutenberg:ebooks:22381:318.318.2-318.318.2:15f887e5",
+      "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "bellerophon"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Bellerophon",
+      "normalizedId": "bellerophon",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "In consequence of an unpremeditated murder Bellerophon fled to Tiryns, where he was kindly received by King Proetus, who purified him from his crime.",
+    "openingSituation": "In consequence of an unpremeditated murder Bellerophon fled to Tiryns, where he was kindly received by King Proetus, who purified him from his crime.",
+    "centralConflict": "In consequence of an unpremeditated murder Bellerophon fled to Tiryns, where he was kindly received by King Proetus, who purified him from his crime.",
+    "resolution": "Bellerophon now presented to him the letter intrusted to him by Proetus.",
+    "outcome": "Bellerophon now presented to him the letter intrusted to him by Proetus.",
+    "storyline": [
+      "In consequence of an unpremeditated murder Bellerophon fled to Tiryns, where he was kindly received by King Proetus, who purified him from his crime.",
+      "He therefore sent him to his father-in-law, Iobates, king of Lycia, with a kind of letter or tablet which contained mysterious signs, indicating his desire that the bearer of the",
+      "Bellerophon now presented to him the letter intrusted to him by Proetus."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420",
+        "gutenberg:ebooks:22381:318.318.2-318.318.2:15f887e5",
+        "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420",
+      "excerpt": "Bellerophon, or Bellerophontes, was the son of Glaucus, king of Corinth, and grandson of Sisyphus.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:318.318.2-318.318.2:15f887e5",
+      "excerpt": "The first impulse of Proetus, when informed of the conduct of Bellerophon, was to kill him; but the youth, with his gentle and winning manners, had so endeared himself to his host that he felt it impossible to take his life with his own",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345",
+      "excerpt": "Bellerophon now presented to him the letter intrusted to him by Proetus. Iobates, who had become greatly attached to the youth, was horror-struck at its contents.",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "bellerophon",
+      "predicate": "opening_situation",
+      "object": "In consequence of an unpremeditated murder Bellerophon fled to Tiryns, where he was kindly received by King Proetus, who purified him from his crime.",
+      "evidence": [
+        "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "In consequence of an unpremeditated murder Bellerophon fled to Tiryns, where he was kindly received by King Proetus, who purified him from his crime.",
+      "sourceClause": "In consequence of an unpremeditated murder Bellerophon fled to Tiryns, where he was kindly received by King Proetus, who purified him from his crime.",
+      "actor": "bellerophon",
+      "action": "flee",
+      "sourceAction": "fled",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "In consequence of an unpremeditated murder Bellerophon fled to Tiryns, where he was kindly received by King Proetus, who purified him from his crime.",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "He therefore sent him to his father-in-law, Iobates, king of Lycia, with a kind of letter or tablet which contained mysterious signs, indicating his desire that the bearer of the missive should be put to death.",
+      "sourceClause": "He therefore sent him to his father-in-law, Iobates, king of Lycia, with a kind of letter or tablet which contained mysterious signs, indicating his desire that the bearer of the missive should be put to death.",
+      "actor": null,
+      "action": "command",
+      "sourceAction": "sent",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He therefore sent him to his father-in-law, Iobates, king of Lycia, with a kind of letter or tablet which contained mysterious signs, indicating his desire that the bearer of the",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:318.318.2-318.318.2:15f887e5"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Bellerophon now presented to him the letter intrusted to him by Proetus.",
+      "sourceClause": "Bellerophon now presented to him the letter intrusted to him by Proetus.",
+      "actor": "bellerophon",
+      "action": "give",
+      "sourceAction": "presented",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Bellerophon now presented to him the letter intrusted to him by Proetus.",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "bellerophon",
+      "predicate": "outcome",
+      "object": "Bellerophon now presented to him the letter intrusted to him by Proetus.",
+      "evidence": [
+        "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "In consequence of an unpremeditated murder Bellerophon fled to Tiryns, where he was kindly received by King Proetus, who purified him from his crime.",
+      "He therefore sent him to his father-in-law, Iobates, king of Lycia, with a kind of letter or tablet which contained mysterious signs, indicating his desire that the bearer of the",
+      "Bellerophon now presented to him the letter intrusted to him by Proetus."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-de78598d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0318-1f97c9",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "BELLEROPHON.",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420",
+        "gutenberg:ebooks:22381:318.318.2-318.318.2:15f887e5",
+        "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 84,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 3,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.42,
+  "failedGates": [],
+  "uncertainEntities": [
+    "bellerophon"
+  ],
+  "uncertainEvents": [
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

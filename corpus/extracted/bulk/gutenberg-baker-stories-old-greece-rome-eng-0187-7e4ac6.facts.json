@@ -1,0 +1,105 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0187-7e4ac6",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:187.187.1-187.187.1:fc7607f0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:187.187.2-187.187.2:e10b995c"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:187.187.3-187.187.3:86169761"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:187.187.3-187.187.3:86169761"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The same look that she turned when he rose.\"",
+      "evidence": [
+        "gutenberg:ebooks:45489:187.187.1-187.187.1:fc7607f0"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Their tears, which continued to flow, became amber as they dropped into the stream.",
+      "evidence": [
+        "gutenberg:ebooks:45489:187.187.3-187.187.3:86169761"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-fffa3e5d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0187-7e4ac6",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "As the sunflower turns on her god when he sets",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:187.187.1-187.187.1:fc7607f0",
+        "gutenberg:ebooks:45489:187.187.2-187.187.2:e10b995c",
+        "gutenberg:ebooks:45489:187.187.3-187.187.3:86169761"
+      ],
+      "status": "open"
+    }
+  ]
+}

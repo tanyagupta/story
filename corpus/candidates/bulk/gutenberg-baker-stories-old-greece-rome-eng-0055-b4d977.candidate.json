@@ -29,10 +29,33 @@
   "mythFamilyId": "in-the-beginning",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-in-the-beginning-9f2223",
   "characters": [
-    "Jupiter"
+    "Atlas",
+    "Hercules",
+    "Jupiter",
+    "Neptune",
+    "Pluto",
+    "Prometheus",
+    "Epimetheus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 248,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 7,
+      "actionBearingSentences": 16,
+      "conflictSignals": 8,
+      "paragraphCount": 11,
+      "knownMythFamily": true
+    }
+  }
 }

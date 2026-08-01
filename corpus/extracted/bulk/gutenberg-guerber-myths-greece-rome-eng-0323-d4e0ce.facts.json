@@ -1,0 +1,72 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0323-d4e0ce",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:323.323.3-323.323.3:ec7813d7"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:323.323.4-323.323.4:f5405ee6"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Janus' two faces.] Janus is generally represented with two faces, turned in opposite directions, because he was acquainted with the past and future as well as with the",
+      "evidence": [
+        "gutenberg:ebooks:39250:323.323.1-323.323.1:5c56fa2f"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "[Sidenote: Janus' two faces.] Janus is generally represented with two faces, turned in opposite directions, because he was acquainted with the past and future as well as with the",
+      "evidence": [
+        "gutenberg:ebooks:39250:323.323.6-323.323.6:7219db68"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a1126b78",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0323-d4e0ce",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Whose friendly shores concealed the latent god.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:323.323.1-323.323.1:5c56fa2f",
+        "gutenberg:ebooks:39250:323.323.2-323.323.2:c8888b92",
+        "gutenberg:ebooks:39250:323.323.3-323.323.3:ec7813d7"
+      ],
+      "status": "open"
+    }
+  ]
+}

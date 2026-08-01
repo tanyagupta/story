@@ -1,0 +1,149 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0354-895e29",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Hercules",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:354.354.1-354.354.1:f763f8a7"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "heracles",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "bore",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:354.354.1-354.354.1:f763f8a7"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "heracles",
+      "sourceAction": "helped",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:354.354.3-354.354.3:1d3630eb"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "reached",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:354.354.4-354.354.4:13190b9a"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "reached",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:354.354.4-354.354.4:13190b9a"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "found",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:354.354.6-354.354.6:d825b63e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "heracles",
+      "predicate": "opening_situation",
+      "object": "With my Alcides, in his arms he bore Athwart the current.\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:354.354.1-354.354.1:f763f8a7"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "heracles",
+      "predicate": "outcome",
+      "object": "With dying accents the Centaur Nessus professed repentance, and bade Deianeira take his robe,--but slightly stained with the blood which gushed from the wound inflicted by the",
+      "evidence": [
+        "gutenberg:ebooks:39250:354.354.7-354.354.7:f65269ec"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-7243e642",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0354-895e29",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "I left my father's hospitable roof",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:354.354.1-354.354.1:f763f8a7",
+        "gutenberg:ebooks:39250:354.354.2-354.354.2:aa73578c",
+        "gutenberg:ebooks:39250:354.354.3-354.354.3:1d3630eb"
+      ],
+      "status": "open"
+    }
+  ]
+}

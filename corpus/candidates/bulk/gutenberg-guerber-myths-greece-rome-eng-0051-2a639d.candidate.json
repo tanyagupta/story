@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:51.51.5-51.51.5:1d273751",
     "gutenberg:ebooks:39250:51.51.6-51.51.6:427d29b3"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -20,16 +20,35 @@
   "workingTitle": "Longfellow.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "prometheus",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-prometheus-1ac0a6",
   "characters": [
     "Hercules",
     "Jupiter",
-    "Prometheus"
+    "Pandora",
+    "Prometheus",
+    "Epimetheus"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 79,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 3,
+      "conflictSignals": 1,
+      "paragraphCount": 6,
+      "knownMythFamily": true
+    }
+  }
 }

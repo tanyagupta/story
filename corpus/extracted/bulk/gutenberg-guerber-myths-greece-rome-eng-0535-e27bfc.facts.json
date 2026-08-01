@@ -1,0 +1,85 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0535-e27bfc",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:535.535.1-535.535.1:6bd3b9b4"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:535.535.2-535.535.2:975d80fc"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Arcas changed into the constellation of the, 52.",
+      "evidence": [
+        "gutenberg:ebooks:39250:535.535.1-535.535.1:6bd3b9b4"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Nymph changed into a lotus blossom, 299.",
+      "evidence": [
+        "gutenberg:ebooks:39250:535.535.3-535.535.3:811a5472"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-3a6f2045",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0535-e27bfc",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Little Bear.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:535.535.1-535.535.1:6bd3b9b4",
+        "gutenberg:ebooks:39250:535.535.2-535.535.2:975d80fc",
+        "gutenberg:ebooks:39250:535.535.3-535.535.3:811a5472"
+      ],
+      "status": "open"
+    }
+  ]
+}

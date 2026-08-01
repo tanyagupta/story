@@ -21,11 +21,30 @@
   "mythFamilyId": "juno",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-juno-1759f5",
   "characters": [
+    "Helios",
     "Juno",
-    "Minerva"
+    "Minerva",
+    "Zeus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 70,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 5,
+      "conflictSignals": 0,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

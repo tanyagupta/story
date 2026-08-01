@@ -1,0 +1,68 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0201-3cb162",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "formed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:201.201.3-201.201.3:d0bdaf7e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Homer describes the House of Dreams as having two gates: one, whence issue all deceptive and flattering visions, being formed of ivory; the other, through which proceed those",
+      "evidence": [
+        "gutenberg:ebooks:22381:201.201.1-201.201.1:dcf152f7"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Homer describes the House of Dreams as having two gates: one, whence issue all deceptive and flattering visions, being formed of ivory; the other, through which proceed those",
+      "evidence": [
+        "gutenberg:ebooks:22381:201.201.3-201.201.3:d0bdaf7e"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-2ccae5fd",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0201-3cb162",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "MORPHEUS.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:201.201.1-201.201.1:dcf152f7",
+        "gutenberg:ebooks:22381:201.201.2-201.201.2:3a9b3f70",
+        "gutenberg:ebooks:22381:201.201.3-201.201.3:d0bdaf7e"
+      ],
+      "status": "open"
+    }
+  ]
+}

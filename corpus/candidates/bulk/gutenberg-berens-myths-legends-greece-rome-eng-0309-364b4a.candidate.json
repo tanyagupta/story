@@ -20,9 +20,29 @@
   "candidateType": "non_story_material",
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-heracles-labors-54aac6",
-  "characters": [],
+  "characters": [
+    "Apollo",
+    "Iolaus"
+  ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 84,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 5,
+      "conflictSignals": 3,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -16,12 +16,29 @@
   "workingTitle": "STATUES.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "ritual_description",
+  "candidateType": "literary_commentary",
   "mythFamilyId": "statues",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-statues-13d238",
   "characters": [],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 7,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 2,
+      "knownMythFamily": true
+    }
+  }
 }

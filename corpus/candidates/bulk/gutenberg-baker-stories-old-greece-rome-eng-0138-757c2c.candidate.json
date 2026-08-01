@@ -10,7 +10,7 @@
     "gutenberg:ebooks:45489:138.138.5-138.138.5:56cbd352",
     "gutenberg:ebooks:45489:138.138.6-138.138.6:d25425da"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,12 +25,38 @@
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-theseus-and-minotaur-d67ac8",
   "characters": [
     "Hercules",
+    "Juno",
+    "Jupiter",
     "Minotaur",
     "Neptune",
-    "Theseus"
+    "Theseus",
+    "Alpheus",
+    "Eurystheus",
+    "Iolaus",
+    "Minos"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

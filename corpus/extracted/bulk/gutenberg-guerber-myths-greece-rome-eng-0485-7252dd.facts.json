@@ -1,0 +1,167 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0485-7252dd",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Achilles",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:485.485.1-485.485.1:5a6072ff"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "achilles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Cassandra",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:485.485.1-485.485.1:5a6072ff"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "cassandra",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "seized",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:485.485.3-485.485.3:95fe1182"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:485.485.4-485.485.4:e19769db"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "discovered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:485.485.4-485.485.4:e19769db"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "slain",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:485.485.4-485.485.4:e19769db"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "seized",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:485.485.5-485.485.5:c2259354"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "followed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:485.485.6-485.485.6:6acfb891"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "achilles",
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Æneas goes to save Priam.] Awakened at last by the ever-increasing tumult without, Æneas seized his arms and hastened forth, attended by many of his fellow-citizens, to",
+      "evidence": [
+        "gutenberg:ebooks:39250:485.485.1-485.485.1:5a6072ff"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "achilles",
+      "predicate": "outcome",
+      "object": "Hecuba, his wife, was clinging to him, imploring him to remain, when suddenly Polites, their son, rushed into their presence, closely followed by Pyrrhus, or Neoptolemus, son of",
+      "evidence": [
+        "gutenberg:ebooks:39250:485.485.7-485.485.7:d9f541e3"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a73aadb9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0485-7252dd",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "The gods of her domestic shrines",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:485.485.1-485.485.1:5a6072ff",
+        "gutenberg:ebooks:39250:485.485.2-485.485.2:2a2698af",
+        "gutenberg:ebooks:39250:485.485.3-485.485.3:95fe1182"
+      ],
+      "status": "open"
+    }
+  ]
+}

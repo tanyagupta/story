@@ -19,7 +19,7 @@
     "gutenberg:ebooks:39250:262.262.14-262.262.14:b17dbba3",
     "gutenberg:ebooks:39250:262.262.15-262.262.15:9d1dd634"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -32,9 +32,32 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "harmonia",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-harmonia-e4408a",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Juno",
+    "Jupiter"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 147,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 8,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

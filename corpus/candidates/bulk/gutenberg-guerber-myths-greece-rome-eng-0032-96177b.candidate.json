@@ -15,7 +15,7 @@
     "gutenberg:ebooks:39250:32.32.10-32.32.10:7e5f00ca",
     "gutenberg:ebooks:39250:32.32.11-32.32.11:8966478f"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -29,8 +29,31 @@
   "mythFamilyId": "that-he-might-sheltering-compass-her-around",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-that-he-might-sheltering-compass-her-around-da97aa",
   "characters": [],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 55,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

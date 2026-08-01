@@ -1,0 +1,133 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0129-a093c9",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Vulcan",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hephaestus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "hephaestus",
+      "sourceAction": "built",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "bound",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "sent",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "Æolus Not far from sunny Sicily and the deep crater of Etna, in which Vulcan built his glowing forge, were the Æolian Islands--now called Lipari Islands--where Æolus, god of the",
+      "evidence": [
+        "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Only once were they allowed to give free play to their boisterous feelings, and rush over the waters, making havoc everywhere, and this was when Jupiter sent a deluge upon the",
+      "evidence": [
+        "gutenberg:ebooks:45489:129.129.3-129.129.3:f6b4947b"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-dbc9f138",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0129-a093c9",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Minor Deities",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6",
+        "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7",
+        "gutenberg:ebooks:45489:129.129.3-129.129.3:f6b4947b"
+      ],
+      "status": "open"
+    }
+  ]
+}

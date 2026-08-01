@@ -17,7 +17,7 @@
     "gutenberg:ebooks:45489:63.63.12-63.63.12:653ae51e",
     "gutenberg:ebooks:45489:63.63.13-63.63.13:43c8ad16"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -31,13 +31,40 @@
   "mythFamilyId": "minerva",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-minerva-80f996",
   "characters": [
+    "Apollo",
+    "Arachne",
+    "Athena",
     "Juno",
     "Jupiter",
     "Minerva",
-    "Vulcan"
+    "Neptune",
+    "Pandora",
+    "Vulcan",
+    "Epimetheus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

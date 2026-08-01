@@ -1,0 +1,216 @@
+{
+  "mythId": "bulk-myth-0252",
+  "mythFamilyId": "for-that-one-circular-eye-was-broad-infixd",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-for-that-one-circular-eye-was-broad-infixd-cff309",
+  "title": "For that one circular eye was broad infix'd",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2",
+      "gutenberg:ebooks:39250:466.466.2-466.466.2:f49d10a8",
+      "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "poseidon",
+      "ulysses"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Neptune",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2"
+        }
+      ]
+    },
+    {
+      "sourceName": "Ulysses",
+      "normalizedId": "ulysses",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with",
+    "openingSituation": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with",
+    "centralConflict": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with",
+    "resolution": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with",
+    "outcome": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with",
+    "storyline": [
+      "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2",
+        "gutenberg:ebooks:39250:466.466.2-466.466.2:f49d10a8",
+        "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2",
+      "excerpt": "In the mid-forehead:--strength was theirs, and force, And craft of curious toil.\"",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:466.466.2-466.466.2:f49d10a8",
+      "excerpt": "Hesiod (Elton's tr.).",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0",
+      "excerpt": "The main part of the fleet was stationed at another island not far distant, but Ulysses and twelve companions landed in Sicily in search of food.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "poseidon",
+      "predicate": "opening_situation",
+      "object": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with",
+      "evidence": [
+        "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with rich stores of milk and cheese.",
+      "sourceClause": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with rich stores of milk and cheese.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": "ulysses",
+      "recipient": null,
+      "location": null,
+      "result": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "poseidon",
+      "predicate": "outcome",
+      "object": "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with",
+      "evidence": [
+        "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The prospect was promising, for on the plains and hillsides great flocks of sheep cropped the tender grass; and Ulysses and his followers soon came to a great cave filled with"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-29499b0a",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0466-498ddc",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "For that one circular eye was broad infix'd",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2",
+        "gutenberg:ebooks:39250:466.466.2-466.466.2:f49d10a8",
+        "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.3,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "poseidon",
+    "ulysses"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

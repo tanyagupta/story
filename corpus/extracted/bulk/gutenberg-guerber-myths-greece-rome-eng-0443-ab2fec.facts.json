@@ -1,0 +1,88 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0443-ab2fec",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:443.443.4-443.443.4:03e576d0"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "[Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given",
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-47ce8889",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0443-ab2fec",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Aulis.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+        "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+        "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:504.504.5-504.504.5:3f987dc3",
     "gutenberg:ebooks:39250:504.504.6-504.504.6:26999c0e"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,9 +23,37 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "earth-myths",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-earth-myths-d4fa25",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Ceres",
+    "Demeter",
+    "Jupiter",
+    "Pluto",
+    "Proserpina",
+    "Danae"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 92,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

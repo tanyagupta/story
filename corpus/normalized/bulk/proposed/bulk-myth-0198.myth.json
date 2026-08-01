@@ -1,0 +1,240 @@
+{
+  "mythId": "bulk-myth-0198",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-6456d6",
+  "title": "MINERVA.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3",
+      "gutenberg:ebooks:39250:73.73.2-73.73.2:50beb30f",
+      "gutenberg:ebooks:39250:73.73.3-73.73.3:3640712d"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "zeus",
+      "athena",
+      "hephaestus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3"
+        }
+      ]
+    },
+    {
+      "sourceName": "Minerva",
+      "normalizedId": "athena",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3"
+        }
+      ]
+    },
+    {
+      "sourceName": "Vulcan",
+      "normalizedId": "hephaestus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in",
+    "openingSituation": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in",
+    "centralConflict": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in",
+    "resolution": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in",
+    "outcome": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in",
+    "storyline": [
+      "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3",
+        "gutenberg:ebooks:39250:73.73.2-73.73.2:50beb30f",
+        "gutenberg:ebooks:39250:73.73.3-73.73.3:3640712d"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:73.73.2-73.73.2:50beb30f"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:73.73.2-73.73.2:50beb30f"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:73.73.2-73.73.2:50beb30f"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:73.73.2-73.73.2:50beb30f"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3",
+      "excerpt": "[Sidenote: Birth of Minerva.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:73.73.2-73.73.2:50beb30f",
+      "excerpt": "Although immortal, the gods were not exempt from physical pain. One day Jupiter suffered intensely from a sudden headache, and, in hopes that some mode of alleviation would be devised, he summoned all the gods to Olympus.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:73.73.3-73.73.3:3640712d",
+      "excerpt": "\"From his awful head Whom Jove brought forth, in warlike armor drest, Golden, all radiant.\"",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in",
+      "evidence": [
+        "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in glittering armor, with poised spear, and chanting a triumphant song of victory.",
+      "sourceClause": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in glittering armor, with poised spear, and chanting a triumphant song of victory.",
+      "actor": null,
+      "action": "leap",
+      "sourceAction": "sprang",
+      "object": null,
+      "target": "athena",
+      "recipient": null,
+      "location": null,
+      "result": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:73.73.2-73.73.2:50beb30f"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in",
+      "evidence": [
+        "gutenberg:ebooks:39250:73.73.3-73.73.3:3640712d"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "With cheerful alacrity the dutiful god obeyed; and no sooner was the operation performed, than Minerva (Pallas, Athene) sprang out of her father's head, full-grown, clad in"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-2c95feff",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0073-fb10c9",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "MINERVA.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:73.73.1-73.73.1:475d9af3",
+        "gutenberg:ebooks:39250:73.73.2-73.73.2:50beb30f",
+        "gutenberg:ebooks:39250:73.73.3-73.73.3:3640712d"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 76,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.38,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "zeus",
+    "athena",
+    "hephaestus"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

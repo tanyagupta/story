@@ -1,0 +1,54 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 22,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, no-object-target-recipient-location-or-outcome, no-central-conflict-or-change, no-outcome, no-storyline, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "no-object-target-recipient-location-or-outcome",
+      "no-central-conflict-or-change",
+      "no-outcome",
+      "no-storyline",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 0,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 0,
+      "hasCentralConflictOrChange": false,
+      "hasOutcome": false,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-d405223b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0448-25f6a7",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:448.448.1-448.448.1:5b976939",
+        "gutenberg:ebooks:39250:448.448.2-448.448.2:dc78d250",
+        "gutenberg:ebooks:39250:448.448.3-448.448.3:a0586217"
+      ],
+      "status": "open"
+    }
+  ]
+}

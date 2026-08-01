@@ -9,7 +9,7 @@
     "gutenberg:ebooks:39250:423.423.4-423.423.4:34537c54",
     "gutenberg:ebooks:39250:423.423.5-423.423.5:97a17aab"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -19,12 +19,29 @@
   "workingTitle": "Keats.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "keats",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-keats-d038c8",
   "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 16,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "actionBearingSentences": 1,
+      "conflictSignals": 0,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -19,7 +19,7 @@
     "gutenberg:ebooks:45489:115.115.14-115.115.14:f77a66b0",
     "gutenberg:ebooks:45489:115.115.15-115.115.15:265d244d"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -32,9 +32,41 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "the-trident-summoned-all-the-hurricanes",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-the-trident-summoned-all-the-hurricanes-b74e11",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Apollo",
+    "Arion",
+    "Ceres",
+    "Eurydice",
+    "Hercules",
+    "Jason",
+    "Jupiter",
+    "Neptune",
+    "Orpheus",
+    "Proserpina",
+    "Argonauts"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 179,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -1,0 +1,44 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 131,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 6,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-ad4bd9d6",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0439-a3f7cd",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "King of Sparta.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d",
+        "gutenberg:ebooks:39250:439.439.2-439.439.2:790d0b10",
+        "gutenberg:ebooks:39250:439.439.3-439.439.3:e921ccf5"
+      ],
+      "status": "open"
+    }
+  ]
+}

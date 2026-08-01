@@ -7,7 +7,7 @@
     "gutenberg:ebooks:39250:268.268.2-268.268.2:979de14e",
     "gutenberg:ebooks:39250:268.268.3-268.268.3:8091f631"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -17,14 +17,31 @@
   "workingTitle": "Keats.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "dionysus-and-pirates",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-dionysus-and-pirates-120a9f",
   "characters": [
     "Bacchus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 22,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 1,
+      "conflictSignals": 0,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

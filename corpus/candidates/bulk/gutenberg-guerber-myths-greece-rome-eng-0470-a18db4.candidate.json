@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:470.470.7-470.470.7:a683de00",
     "gutenberg:ebooks:39250:470.470.8-470.470.8:7e417f29"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,9 +25,34 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "that-i-receive-or-aid-as-he-departs",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-that-i-receive-or-aid-as-he-departs-bc7954",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Circe",
+    "Medea",
+    "Ulysses"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 128,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 6,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

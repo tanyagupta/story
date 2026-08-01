@@ -14,7 +14,7 @@
     "gutenberg:ebooks:39250:461.461.9-461.461.9:902ba030",
     "gutenberg:ebooks:39250:461.461.10-461.461.10:b8b1e224"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,12 +24,33 @@
   "workingTitle": "Lewis Morris.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "lewis-morris",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-lewis-morris-561516",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Diana",
+    "Helen",
+    "Argos"
+  ],
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 125,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 11,
+      "conflictSignals": 2,
+      "paragraphCount": 10,
+      "knownMythFamily": true
+    }
+  }
 }

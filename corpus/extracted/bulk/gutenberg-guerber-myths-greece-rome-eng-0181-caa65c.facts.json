@@ -20,11 +20,28 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
-      "sourceAction": "is described",
+      "sourceAction": "departed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:181.181.1-181.181.1:139bdc3a"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -37,7 +54,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -54,14 +71,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "source-section",
-      "predicate": "is introduced in",
-      "object": "Hunt.",
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "No one suspected their meetings; and all went well until the first fierce storms of winter swept down over the Hellespont.",
       "evidence": [
         "gutenberg:ebooks:39250:181.181.1-181.181.1:139bdc3a"
       ]
@@ -69,15 +86,34 @@
   ],
   "finalState": [
     {
-      "subject": "source-section",
-      "predicate": "is last attested in selected candidate",
-      "object": "Hunt.",
+      "subject": null,
+      "predicate": "outcome",
+      "object": "\"There came one night, the wildest of the year, When the wind smote like edge of hissing spear, And the pale breakers thundered on the beach.\"",
       "evidence": [
         "gutenberg:ebooks:39250:181.181.3-181.181.3:f0d957ba"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-6aa0490b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0181-caa65c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Hunt.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:181.181.1-181.181.1:139bdc3a",
+        "gutenberg:ebooks:39250:181.181.2-181.181.2:cab419d9",
+        "gutenberg:ebooks:39250:181.181.3-181.181.3:f0d957ba"
+      ],
+      "status": "open"
+    }
+  ]
 }

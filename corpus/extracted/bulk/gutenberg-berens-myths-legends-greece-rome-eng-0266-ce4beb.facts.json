@@ -1,0 +1,68 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0266-ce4beb",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:266.266.3-266.266.3:2edbf3f2"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The sacrifices to the genii consisted of wine, cakes, and incense, which were offered to them on birthdays.",
+      "evidence": [
+        "gutenberg:ebooks:22381:266.266.1-266.266.1:22911c4d"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "The sacrifices to the genii consisted of wine, cakes, and incense, which were offered to them on birthdays.",
+      "evidence": [
+        "gutenberg:ebooks:22381:266.266.4-266.266.4:fff4cc18"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-9ef19c0b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0266-ce4beb",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "GENII.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:266.266.1-266.266.1:22911c4d",
+        "gutenberg:ebooks:22381:266.266.2-266.266.2:4384eb95",
+        "gutenberg:ebooks:22381:266.266.3-266.266.3:2edbf3f2"
+      ],
+      "status": "open"
+    }
+  ]
+}

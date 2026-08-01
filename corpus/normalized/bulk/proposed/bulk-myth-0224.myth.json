@@ -1,0 +1,277 @@
+{
+  "mythId": "bulk-myth-0224",
+  "mythFamilyId": "deep-was-the-animated-strife",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-deep-was-the-animated-strife-7ad6ac",
+  "title": "Deep was the animated strife",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283",
+      "gutenberg:ebooks:39250:353.353.2-353.353.2:aa73578c",
+      "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b",
+      "gutenberg:ebooks:39250:353.353.4-353.353.4:720b9d3d",
+      "gutenberg:ebooks:39250:353.353.5-353.353.5:f1e680f3",
+      "gutenberg:ebooks:39250:353.353.6-353.353.6:af411814"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "heracles"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Hercules",
+      "normalizedId": "heracles",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any Instead of wandering alone now, with none to cheer or sympathize, Hercules had Deianeira ever at his side; and after many days they came to the river Evenus, whose usually shallow",
+    "openingSituation": "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any",
+    "centralConflict": "Instead of wandering alone now, with none to cheer or sympathize, Hercules had Deianeira ever at his side; and after many days they came to the river Evenus, whose usually shallow",
+    "resolution": "While he was thus considering, a Centaur by the name of Nessus came to his assistance, and proposed to carry the fair young bride to the other shore in complete safety, if she",
+    "outcome": "While he was thus considering, a Centaur by the name of Nessus came to his assistance, and proposed to carry the fair young bride to the other shore in complete safety, if she",
+    "storyline": [
+      "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any",
+      "Instead of wandering alone now, with none to cheer or sympathize, Hercules had Deianeira ever at his side; and after many days they came to the river Evenus, whose usually shallow",
+      "While he was thus considering, a Centaur by the name of Nessus came to his assistance, and proposed to carry the fair young bride to the other shore in complete safety, if she"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283",
+        "gutenberg:ebooks:39250:353.353.2-353.353.2:aa73578c",
+        "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:353.353.5-353.353.5:f1e680f3"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:353.353.5-353.353.5:f1e680f3"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283",
+      "excerpt": "For love, for conquest, and for life.\"",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:353.353.2-353.353.2:aa73578c",
+      "excerpt": "Sophocles (Francklin's tr.).",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b",
+      "excerpt": "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any place.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:353.353.4-353.353.4:720b9d3d",
+      "excerpt": "[Sidenote: Story of Nessus.]",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:353.353.5-353.353.5:f1e680f3",
+      "excerpt": "Hercules paused for a moment to contemplate the stream, and glanced about for some safe mode to transport Deianeira across.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:353.353.6-353.353.6:af411814",
+      "excerpt": "\"The hoary centaur, who was wont for hire To bear the traveler o'er the rapid flood Of deep Evenus: not with oars or sail He stemm'd the torrent, but with nervous arm Opposed and pass'd it; me, when first a bride,",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "heracles",
+      "predicate": "opening_situation",
+      "object": "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any",
+      "evidence": [
+        "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any place.",
+      "sourceClause": "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any place.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "departed",
+      "object": null,
+      "target": "heracles",
+      "recipient": null,
+      "location": null,
+      "result": "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Instead of wandering alone now, with none to cheer or sympathize, Hercules had Deianeira ever at his side; and after many days they came to the river Evenus, whose usually shallow and peaceful waters were swollen and turbid, for violent rainstorms had recently swept over that portion of the country.",
+      "sourceClause": "Instead of wandering alone now, with none to cheer or sympathize, Hercules had Deianeira ever at his side; and after many days they came to the river Evenus, whose usually shallow and peaceful waters were swollen and turbid, for violent rainstorms had recently swept over that portion of the country.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": "heracles",
+      "recipient": null,
+      "location": null,
+      "result": "Instead of wandering alone now, with none to cheer or sympathize, Hercules had Deianeira ever at his side; and after many days they came to the river Evenus, whose usually shallow",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "While he was thus considering, a Centaur by the name of Nessus came to his assistance, and proposed to carry the fair young bride to the other shore in complete safety, if she would but consent to mount upon his broad back.",
+      "sourceClause": "While he was thus considering, a Centaur by the name of Nessus came to his assistance, and proposed to carry the fair young bride to the other shore in complete safety, if she would but consent to mount upon his broad back.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "While he was thus considering, a Centaur by the name of Nessus came to his assistance, and proposed to carry the fair young bride to the other shore in complete safety, if she",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:353.353.5-353.353.5:f1e680f3"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "heracles",
+      "predicate": "outcome",
+      "object": "While he was thus considering, a Centaur by the name of Nessus came to his assistance, and proposed to carry the fair young bride to the other shore in complete safety, if she",
+      "evidence": [
+        "gutenberg:ebooks:39250:353.353.6-353.353.6:af411814"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The victory, though long uncertain, finally rested with Hercules, who triumphantly departed with his hard-won bride, for his destiny would not permit him to tarry long in any",
+      "Instead of wandering alone now, with none to cheer or sympathize, Hercules had Deianeira ever at his side; and after many days they came to the river Evenus, whose usually shallow",
+      "While he was thus considering, a Centaur by the name of Nessus came to his assistance, and proposed to carry the fair young bride to the other shore in complete safety, if she"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-c86ae260",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0353-abb683",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Deep was the animated strife",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283",
+        "gutenberg:ebooks:39250:353.353.2-353.353.2:aa73578c",
+        "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 74,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.37,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "heracles"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

@@ -76,6 +76,35 @@ function runBulkSources() {
   childProcess.execFileSync(process.execPath, [path.join(root, "src/corpus/corpus-bulk-runner.js")], { cwd: root, stdio: "pipe" });
 }
 
+function bulkMyths() {
+  const base = path.join(root, "corpus/normalized/bulk");
+  const files = [];
+  function visit(dir) {
+    fs.readdirSync(dir, { withFileTypes: true }).forEach((entry) => {
+      const file = path.join(dir, entry.name);
+      if (entry.isDirectory()) visit(file);
+      if (entry.isFile() && entry.name.endsWith(".myth.json")) files.push(file);
+    });
+  }
+  visit(base);
+  return files.sort().map((file) => readJson(file));
+}
+
+function verifiedMyth(title) {
+  const found = bulkMyths().find((myth) => myth.reviewStatus === "verified_by_source_audit" && myth.title === title);
+  assert.ok(found, `Missing verified myth ${title}`);
+  return found;
+}
+
+function assertNoSentenceFragments(myth) {
+  const bad = /\b(and|when|to|of|the)\.$|,\.$/i;
+  ["synopsis", "openingSituation", "centralConflict", "resolution", "outcome"].forEach((field) => {
+    const value = myth.narrative && myth.narrative[field];
+    assert.ok(!bad.test(String(value || "")), `${myth.title} has fragment in ${field}: ${value}`);
+  });
+  (myth.narrative.storyline || []).forEach((line) => assert.ok(!bad.test(line), `${myth.title} has fragment storyline: ${line}`));
+}
+
 test("extracts TEI metadata, checksum, and prose passages", () => {
   const files = runOne("prose");
   const manifest = readJson(files.manifest);
@@ -450,9 +479,15 @@ test("bulk inventory meets candidate and production targets", () => {
   const validation = readJson(path.join(root, "corpus/review/bulk-validation-report.json"));
   assert.strictEqual(validation.valid, true);
   assert.ok(summary.validNarrativeCandidates >= 100);
-  assert.ok(summary.fullyNormalizedRecords >= 50);
-  assert.strictEqual(summary.approvedRecords, 50);
+  assert.strictEqual(summary.fullyNormalizedRecords, summary.narrativeCandidates);
+  assert.strictEqual(summary.approvedRecords, 0);
+  assert.strictEqual(summary.humanApprovedRecords, 0);
+  assert.strictEqual(summary.verifiedBySourceAudit, 6);
+  assert.strictEqual(summary.machineProposedRecords, summary.narrativeCandidates);
+  assert.ok(summary.recordsAwaitingReview > 0);
   assert.ok(inventory.entries.some((entry) => entry.candidateType === "non_story_material"));
+  assert.ok(inventory.entries.some((entry) => entry.candidateType === "biographical_material"));
+  assert.ok(inventory.entries.every((entry) => entry.semanticQuality));
   assert.ok(inventory.entries.every((entry) => entry.passageIds.length > 0));
 });
 
@@ -467,13 +502,215 @@ test("bulk variants remain separate and probable duplicates are queued", () => {
 
 test("bulk production records have evidence and preserve event order", () => {
   runBulkSources();
-  const mythFiles = fs.readdirSync(path.join(root, "corpus/normalized/bulk")).filter((file) => file.endsWith(".myth.json")).sort();
-  assert.ok(mythFiles.length >= 50);
-  mythFiles.slice(0, 50).forEach((file) => {
-    const myth = readJson(path.join(root, "corpus/normalized/bulk", file));
-    assert.strictEqual(myth.reviewStatus, "approved");
+  const myths = bulkMyths();
+  assert.ok(myths.length >= 50);
+  myths.forEach((myth) => {
     assert.ok(myth.events.every((event) => event.evidence && event.evidence.length));
     assert.deepStrictEqual(myth.events.map((event) => event.eventId), myth.events.map((event, index) => `event-${String(index + 1).padStart(3, "0")}`));
+  });
+});
+
+test("bulk semantic gates prevent placeholder approvals", () => {
+  runBulkSources();
+  const myths = bulkMyths();
+  const proposed = myths.filter((myth) => myth.reviewStatus === "awaiting_review");
+  const verified = myths.filter((myth) => myth.reviewStatus === "verified_by_source_audit");
+  assert.ok(proposed.length >= 100);
+  assert.strictEqual(verified.length, 6);
+  assert.strictEqual(myths.filter((myth) => myth.reviewStatus === "approved").length, 0);
+  verified.forEach((myth) => {
+    assert.ok(myth.entities.characters.length > 0);
+    assert.ok(myth.events.every((event) => event.actor && event.confidence >= 0.85));
+    assert.ok(myth.narrative.synopsis);
+    assert.ok(myth.narrative.openingSituation);
+    assert.ok(myth.narrative.centralConflict);
+    assert.ok(myth.narrative.outcome);
+    assert.ok(Array.isArray(myth.narrative.storyline) && myth.narrative.storyline.length > 0);
+    assert.ok(myth.evidenceSummary && myth.evidenceSummary.length > 0);
+    assert.ok(!(myth.initialState || []).some((state) => state.subject === "source-section"));
+    assert.strictEqual(myth.semanticQuality.passed, true);
+    assert.strictEqual(myth.semanticQuality.verificationLevel, "source_audited");
+    assert.ok(!Object.prototype.hasOwnProperty.call(myth.semanticQuality, "score"));
+    assert.ok((myth.semanticQuality.limitations || []).some((item) => /not human scholarly approval/i.test(item)));
+    assertNoSentenceFragments(myth);
+  });
+});
+
+test("bulk non-story and weak narrative candidates are not approved", () => {
+  runBulkSources();
+  const approvedCatalog = readJson(path.join(root, "corpus/catalog/approved-myths.json"));
+  const verifiedCatalog = readJson(path.join(root, "corpus/catalog/verified-myths.json"));
+  const proposedCatalog = readJson(path.join(root, "corpus/catalog/proposed-myths.json"));
+  const rejectedCatalog = readJson(path.join(root, "corpus/catalog/rejected-candidates.json"));
+  const awaiting = readJson(path.join(root, "corpus/catalog/myths-awaiting-review.json"));
+  assert.strictEqual(approvedCatalog.entries.length, 0);
+  assert.strictEqual(verifiedCatalog.entries.length, 6);
+  assert.ok(verifiedCatalog.entries.every((entry) => entry.reviewStatus === "verified_by_source_audit"));
+  assert.ok(verifiedCatalog.entries.every((entry) => entry.file.startsWith("corpus/normalized/bulk/verified/") && fs.existsSync(path.join(root, entry.file))));
+  assert.ok(proposedCatalog.entries.every((entry) => entry.file.startsWith("corpus/normalized/bulk/proposed/") && fs.existsSync(path.join(root, entry.file))));
+  assert.ok(!approvedCatalog.entries.some((entry) => entry.title === "Pindar."));
+  assert.ok(rejectedCatalog.entries.some((entry) => entry.title === "Pindar." && entry.processingStatus === "rejected-non-story"));
+  assert.ok(awaiting.entries.length > 0);
+  assert.ok(awaiting.entries.every((entry) => entry.reviewStatus === "awaiting_review"));
+});
+
+test("bulk semantic report and review workflow are populated", () => {
+  runBulkSources();
+  const semantic = readJson(path.join(root, "corpus/review/semantic-quality-report.json"));
+  const structureCheck = readJson(path.join(root, "corpus/review/automated-structure-check.json"));
+  const verification = readJson(path.join(root, "corpus/review/codex-source-verification.json"));
+  const audit = readJson(path.join(root, "corpus/review/source-text-audit-report.json"));
+  const sampleReview = fs.readdirSync(path.join(root, "corpus/review/bulk")).find((file) => file.endsWith(".review.json"));
+  const review = readJson(path.join(root, "corpus/review/bulk", sampleReview));
+  assert.strictEqual(semantic.approvedRecords, 0);
+  assert.strictEqual(semantic.verifiedBySourceAudit, 6);
+  assert.ok(semantic.awaitingReview > 0);
+  assert.ok(Object.keys(semantic.failedQualityGates).length > 0);
+  assert.strictEqual(structureCheck.reviewType, "automated-structure-check");
+  assert.ok(structureCheck.note.includes("not a semantic review"));
+  assert.strictEqual(verification.reviewType, "Codex source-grounded implementation review");
+  assert.ok(verification.checkedRecords.every((entry) => entry.passagesRead.length && entry.claimsChecked.length && entry.correctionsMade.length));
+  assert.strictEqual(audit.valid, true);
+  [
+    "exactSourceTextFailures",
+    "truncatedExcerptFailures",
+    "entityEvidenceFailures",
+    "unsupportedSupportsFailures",
+    "aliasDuplicationFailures",
+    "boundaryFailures",
+    "crossFieldConsistencyFailures",
+    "eventReferenceFailures",
+    "relationshipFailures",
+    "statusConsistencyFailures",
+    "misleadingScoreFailures",
+    "duplicateOutputFailures"
+  ].forEach((field) => assert.strictEqual(audit[field].length, 0, field));
+  assert.ok(review.reviewType);
+  assert.ok(review.semanticQuality);
+});
+
+test("bulk runner removes stale generated normalized files", () => {
+  const stale = path.join(root, "corpus/normalized/bulk/stale-placeholder.myth.json");
+  const staleDuplicate = path.join(root, "corpus/normalized/bulk/bulk-myth-0001.myth.json");
+  writeJson(stale, { stale: true });
+  writeJson(staleDuplicate, { stale: true });
+  runBulkSources();
+  assert.ok(!fs.existsSync(stale));
+  assert.ok(!fs.existsSync(staleDuplicate));
+  assert.strictEqual(fs.readdirSync(path.join(root, "corpus/normalized/bulk")).filter((file) => /^bulk-myth-.*\.myth\.json$/.test(file)).length, 0);
+});
+
+test("bulk semantic reports are portable and deterministic", () => {
+  runBulkSources();
+  const files = [
+    "corpus/review/semantic-quality-report.json",
+    "corpus/catalog/approved-myths.json",
+    "corpus/catalog/verified-myths.json",
+    "corpus/catalog/proposed-myths.json",
+    "corpus/catalog/myths-awaiting-review.json",
+    "corpus/catalog/rejected-candidates.json",
+    "corpus/review/automated-structure-check.json",
+    "corpus/review/codex-source-verification.json",
+    "corpus/review/source-text-audit-report.json"
+  ].map((file) => path.join(root, file));
+  const before = files.map(hashFile);
+  runBulkSources();
+  const after = files.map(hashFile);
+  assert.deepStrictEqual(before, after);
+  const serialized = files.map((file) => fs.readFileSync(file, "utf8")).join("\n");
+  assert.ok(!serialized.includes("/Users/"));
+  assert.ok(!serialized.includes("/workspaces/"));
+  assert.ok(!/[A-Za-z]:\\/.test(serialized));
+});
+
+test("bulk verified Proserpina corrects aliases, actors, and outcome", () => {
+  runBulkSources();
+  const myth = verifiedMyth("The Story of Proserpina");
+  assert.ok(myth.entities.characters.includes("persephone"));
+  assert.ok(myth.entities.characters.includes("demeter"));
+  assert.ok(myth.entities.characters.includes("hades"));
+  assert.ok(!myth.entities.characters.includes("roman-pluto"));
+  assert.ok(/abducts|seizes|abduction/i.test(myth.narrative.centralConflict));
+  assert.ok(!/Ceres wandering/i.test(myth.narrative.outcome));
+  assert.ok(myth.events.some((event) => event.actor === "hades" && event.action === "capture" && event.target === "persephone"));
+  assert.ok(myth.events.some((event) => event.actor === "hades" && event.sourceText.includes("Pluto had seized her") && event.normalizedStatement.includes("Proserpina")));
+  assert.ok(!myth.events.some((event) => event.actor === "demeter" && event.target === "hades"));
+  assert.ok(myth.events.some((event) => event.actor === "zeus" && event.action === "imprison" && event.target === "giants"));
+  assert.ok(!myth.entities.characters.includes("pluto"));
+  assert.strictEqual(myth.scope.type, "partial-section");
+});
+
+test("bulk verified Golden Fleece opening keeps participants and boundary accurate", () => {
+  runBulkSources();
+  const myth = verifiedMyth("Phryxus, Helle, and the Golden Fleece");
+  ["athamas", "nephele", "helle", "phryxus"].forEach((id) => assert.ok(myth.entities.characters.includes(id), id));
+  assert.notStrictEqual(myth.initialState[0].subject, "achilles");
+  assert.ok(!myth.events.some((event) => event.actor === "hermes" && event.action === "capture"));
+  assert.ok(myth.events.some((event) => event.actor === "phryxus" && event.action === "travel" && event.location === "colchis"));
+  assert.ok(myth.events.some((event) => event.actor === "ino" && event.normalizedStatement.includes("Helle and Phryxus")));
+  assert.ok(myth.events.some((event) => event.actor === "nephele" && event.action === "rescue"));
+  assert.strictEqual(myth.scope.type, "coherent-subepisode");
+  assert.ok(!/join Jason/i.test(myth.narrative.outcome));
+});
+
+test("bulk verified Heraclidae corrects family and actor assignments", () => {
+  runBulkSources();
+  const myth = verifiedMyth("The Heraclidae");
+  assert.strictEqual(myth.mythFamilyId, "heraclidae");
+  assert.ok(!myth.mainCharacters.some((item) => item.entityId === "theseus"));
+  ["hyllus", "iolaus", "eurystheus", "heraclidae"].forEach((id) => assert.ok(myth.entities.characters.includes(id), id));
+  assert.ok(myth.events.some((event) => event.actor === "iolaus" && event.sourceAction === "borrowed" && event.object === "chariot"));
+  assert.ok(!myth.events.some((event) => event.actor === "zeus" && event.action === "fight"));
+  assert.notStrictEqual(myth.initialState[0].subject, "theseus");
+});
+
+test("bulk proposed extraction records actor resolution confidence and family rules", () => {
+  runBulkSources();
+  const proposed = bulkMyths().filter((myth) => myth.reviewStatus === "awaiting_review");
+  const heraclidae = proposed.find((myth) => myth.title === "THE HERACLIDAE.");
+  assert.ok(heraclidae);
+  assert.strictEqual(heraclidae.mythFamilyId, "heraclidae");
+  assert.ok(proposed.every((myth) => myth.reviewStatus === "awaiting_review"));
+  assert.ok(proposed.every((myth) => typeof myth.confidence === "number"));
+  assert.ok(proposed.every((myth) => Array.isArray(myth.failedGates)));
+  assert.ok(proposed.every((myth) => Array.isArray(myth.uncertainEntities)));
+  assert.ok(proposed.every((myth) => Array.isArray(myth.uncertainEvents)));
+  assert.ok(proposed.every((myth) => myth.boundaryStatus));
+  assert.ok(proposed.every((myth) => myth.events.every((event) => typeof event.actorResolutionConfidence === "number")));
+  assert.ok(proposed.some((myth) => myth.events.some((event) => event.actorResolutionConfidence === 0)));
+});
+
+test("bulk verified records use exact sourceText and targeted entity evidence", () => {
+  runBulkSources();
+  const passageDocs = {};
+  [
+    "corpus/passages/gutenberg-guerber-myths-greece-rome-eng.passages.json",
+    "corpus/passages/gutenberg-berens-myths-legends-greece-rome-eng.passages.json",
+    "corpus/passages/gutenberg-baker-stories-old-greece-rome-eng.passages.json"
+  ].forEach((file) => {
+    readJson(path.join(root, file)).passages.forEach((passage) => {
+      passageDocs[passage.passageId] = passage.text;
+    });
+  });
+  bulkMyths().filter((myth) => myth.reviewStatus === "verified_by_source_audit").forEach((myth) => {
+    myth.events.forEach((event) => {
+      assert.ok(event.sourceText);
+      assert.ok(event.normalizedStatement);
+      event.evidence.forEach((item) => assert.ok(passageDocs[item.passageId].includes(event.sourceText), `${myth.title} ${event.eventId}`));
+      assert.ok(!event.sourceSentence);
+      assert.ok(!event.sourceClause);
+    });
+    myth.evidenceSummary.forEach((item) => {
+      assert.ok(passageDocs[item.passageId].includes(item.sourceText));
+      assert.ok(/[.!?]"?$/.test(item.sourceText));
+      assert.ok(item.supports.every((support) => support.evidenceType && support.rationale));
+    });
+    myth.entityMappings.forEach((mapping) => {
+      mapping.evidence.forEach((item) => {
+        assert.ok(passageDocs[item.passageId].includes(item.sourceText));
+        assert.ok(item.sourceText.includes(mapping.sourceName) || item.coreferenceNote);
+      });
+    });
   });
 });
 

@@ -20,7 +20,7 @@
     "gutenberg:ebooks:39250:421.421.15-421.421.15:d804c367",
     "gutenberg:ebooks:39250:421.421.16-421.421.16:5357b790"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -33,9 +33,33 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "whose-verdant-summit-fragrant-myrtles-crownd",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-whose-verdant-summit-fragrant-myrtles-crownd-82d636",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Bacchus",
+    "Mercury"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 137,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

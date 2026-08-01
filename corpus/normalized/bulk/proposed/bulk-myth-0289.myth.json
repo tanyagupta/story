@@ -1,0 +1,182 @@
+{
+  "mythId": "bulk-myth-0289",
+  "mythFamilyId": "bona-dea",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-bona-dea-2cd311",
+  "title": "Bona Dea.",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:305.305.1-305.305.1:6bd9b222",
+      "gutenberg:ebooks:45489:305.305.2-305.305.2:22bad876"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Manes, the souls of the departed who had become deified.",
+    "openingSituation": "Manes, the souls of the departed who had become deified.",
+    "centralConflict": "Manes, the souls of the departed who had become deified.",
+    "resolution": "Manes, the souls of the departed who had become deified.",
+    "outcome": "Manes, the souls of the departed who had become deified.",
+    "storyline": [
+      "Manes, the souls of the departed who had become deified."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:305.305.1-305.305.1:6bd9b222",
+        "gutenberg:ebooks:45489:305.305.2-305.305.2:22bad876"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:305.305.2-305.305.2:22bad876"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:305.305.2-305.305.2:22bad876"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:305.305.2-305.305.2:22bad876"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:305.305.2-305.305.2:22bad876"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:305.305.1-305.305.1:6bd9b222",
+      "excerpt": "Pales, a deity who presided over cattle and pastures.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:305.305.2-305.305.2:22bad876",
+      "excerpt": "Manes, the souls of the departed who had become deified.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Manes, the souls of the departed who had become deified.",
+      "evidence": [
+        "gutenberg:ebooks:45489:305.305.1-305.305.1:6bd9b222"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Manes, the souls of the departed who had become deified.",
+      "sourceClause": "Manes, the souls of the departed who had become deified.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "departed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Manes, the souls of the departed who had become deified.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:305.305.2-305.305.2:22bad876"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Manes, the souls of the departed who had become deified.",
+      "evidence": [
+        "gutenberg:ebooks:45489:305.305.2-305.305.2:22bad876"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Manes, the souls of the departed who had become deified."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-ec86d071",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0305-eb8d57",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Bona Dea.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:305.305.1-305.305.1:6bd9b222",
+        "gutenberg:ebooks:45489:305.305.2-305.305.2:22bad876"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 44,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.22,
+  "failedGates": [
+    "no-mythological-characters",
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

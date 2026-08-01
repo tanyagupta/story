@@ -40,7 +40,7 @@
     "gutenberg:ebooks:22381:336.336.35-336.336.35:3a8310ec",
     "gutenberg:ebooks:22381:336.336.36-336.336.36:462c4aa8"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -54,10 +54,38 @@
   "mythFamilyId": "odysseus-cyclops",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-odysseus-cyclops-4358f5",
   "characters": [
-    "Odysseus"
+    "Achilles",
+    "Apollo",
+    "Cassandra",
+    "Hector",
+    "Helen",
+    "Odysseus",
+    "Paris",
+    "Zeus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

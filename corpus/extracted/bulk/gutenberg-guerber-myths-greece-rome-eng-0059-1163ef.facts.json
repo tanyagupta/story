@@ -1,0 +1,97 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0059-1163ef",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Zeus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "dared",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:59.59.6-59.59.6:65a6b224"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
+      "evidence": [
+        "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "The Fates and Destiny alone dared oppose Jupiter's sovereign will, and they continued to issue their irrevocable decrees, even after he supplanted his father and began to rule",
+      "evidence": [
+        "gutenberg:ebooks:39250:59.59.7-59.59.7:2135b819"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-f8bcaae9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0059-1163ef",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "JUPITER.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:59.59.1-59.59.1:debeb4db",
+        "gutenberg:ebooks:39250:59.59.2-59.59.2:410abc5e",
+        "gutenberg:ebooks:39250:59.59.3-59.59.3:7a92b8b8"
+      ],
+      "status": "open"
+    }
+  ]
+}

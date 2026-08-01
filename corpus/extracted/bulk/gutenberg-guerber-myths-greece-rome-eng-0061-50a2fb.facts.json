@@ -1,0 +1,96 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0061-50a2fb",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hebe",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hebe",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "journeyed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:61.61.3-61.61.3:f31a1fdb"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
+      "evidence": [
+        "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Close by Jupiter's side was sometimes seen Fortuna, goddess of fortune, poised on a constantly revolving wheel, whereon she journeyed throughout the world, scattering with",
+      "evidence": [
+        "gutenberg:ebooks:39250:61.61.5-61.61.5:79f03266"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-afcc0d85",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0061-50a2fb",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "She flies and waxes every hour.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:61.61.1-61.61.1:3368b359",
+        "gutenberg:ebooks:39250:61.61.2-61.61.2:2a2698af",
+        "gutenberg:ebooks:39250:61.61.3-61.61.3:f31a1fdb"
+      ],
+      "status": "open"
+    }
+  ]
+}

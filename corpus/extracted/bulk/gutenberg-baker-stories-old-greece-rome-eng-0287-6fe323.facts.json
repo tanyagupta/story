@@ -1,0 +1,99 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0287-6fe323",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Medea",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "medea",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "medea",
+      "sourceAction": "assisted",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "wandered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "medea",
+      "predicate": "opening_situation",
+      "object": "Medea's sorceries were assisted by the prayers that she addressed to Hecate, a mysterious divinity who embodied the terrors of the darkness.",
+      "evidence": [
+        "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "medea",
+      "predicate": "outcome",
+      "object": "She haunted cross roads and graveyards; and, being goddess of sorcery and witchcraft, wandered only by night and was seen only by dogs, whose barking told of her approach.",
+      "evidence": [
+        "gutenberg:ebooks:45489:287.287.2-287.287.2:d183ba31"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-f619eaed",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0287-6fe323",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "LXIV",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99",
+        "gutenberg:ebooks:45489:287.287.2-287.287.2:d183ba31"
+      ],
+      "status": "open"
+    }
+  ]
+}

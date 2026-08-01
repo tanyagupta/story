@@ -1,0 +1,449 @@
+{
+  "mythId": "bulk-verified-0001",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Jupiter imprisons the giants.",
+      "Pluto seizes Proserpina.",
+      "Ceres searches for her daughter.",
+      "Famine moves Jupiter to intervene.",
+      "Jupiter divides Proserpina's time between Ceres and Pluto."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "The Story of Proserpina",
+  "mythFamilyId": "demeter-and-persephone",
+  "variantId": "gutenberg-baker-demeter-and-persephone-verified",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+      "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+      "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+      "gutenberg:ebooks:45489:107.107.7-107.107.7:ced8cd57",
+      "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e",
+      "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+      "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+    ]
+  },
+  "scope": {
+    "type": "partial-section",
+    "description": "Selected Baker Proserpina passages cover the abduction, Ceres' search, famine, compromise, and seasonal outcome; intervening Eleusis and Arethusa material is omitted from the normalized event chain.",
+    "includedPassages": [
+      "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+      "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+      "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+      "gutenberg:ebooks:45489:107.107.7-107.107.7:ced8cd57",
+      "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e",
+      "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+      "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+    ],
+    "omittedPassages": [
+      "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09",
+      "gutenberg:ebooks:45489:107.107.5-107.107.5:60e33e95",
+      "gutenberg:ebooks:45489:107.107.6-107.107.6:554b901a",
+      "gutenberg:ebooks:45489:107.107.8-107.107.8:3ce94066"
+    ],
+    "boundaryRationale": "The selected passages support the main abduction/search/return arc but the record does not claim full section completeness."
+  },
+  "entities": {
+    "characters": [
+      "zeus",
+      "hades",
+      "persephone",
+      "demeter",
+      "hermes",
+      "triptolemus"
+    ],
+    "locations": [
+      "sicily",
+      "hades",
+      "eleusis"
+    ],
+    "objects": [
+      "pomegranate-seeds",
+      "girdle"
+    ],
+    "creatures": [
+      "giants"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+          "sourceText": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when the giants got restless and turned over and over underground (thus causing earthquakes), they would some day make such a large crack in the earth that daylight would be let into Hades.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Pluto",
+      "normalizedId": "hades",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+          "sourceText": "In a moment Pluto had seized her in his strong arms; and, trampling all her violets under his ruthless feet, he sprang into the chariot and urged his horses to their full speed, hoping to reach Hades before the maiden's cries brought Ceres to the rescue.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Proserpina",
+      "normalizedId": "persephone",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+          "sourceText": "Proserpina alone stood still, and stared, frightened and wondering, at the grim figure confronting her, while the flowers she had gathered dropped from her trembling hands.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Ceres",
+      "normalizedId": "demeter",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+          "sourceText": "When Ceres[37] came that evening into the vale of Enna and found that her daughter was not playing as usual with the other maidens, she questioned them, and learned their tearful story of the chariot with its four black horses and terrible driver.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "hermes",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+          "sourceText": "Mercury was sent to lead Proserpina out of Hades; but when he reached there, he found that Pluto had already given his wife some pomegranate seeds, hoping that she would thereby stay forever in his keeping.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "persephone",
+      "sourceNames": [
+        "Proserpina"
+      ],
+      "role": "captured participant",
+      "reason": "She is seized by Pluto and becomes the subject of Ceres' search and Jupiter's compromise.",
+      "evidence": [
+        "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+        "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85"
+      ]
+    },
+    {
+      "entityId": "demeter",
+      "sourceNames": [
+        "Ceres"
+      ],
+      "role": "searching mother",
+      "reason": "She searches for Proserpina and neglects the earth while mourning.",
+      "evidence": [
+        "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+        "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e"
+      ]
+    },
+    {
+      "entityId": "hades",
+      "sourceNames": [
+        "Pluto"
+      ],
+      "role": "captor",
+      "reason": "The source says Pluto seizes Proserpina and takes her below.",
+      "evidence": [
+        "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "demeter",
+      "relationship": "parent_of",
+      "target": "persephone",
+      "sourceText": "When Ceres[37] came that evening into the vale of Enna and found that her daughter was not playing as usual with the other maidens, she questioned them, and learned their tearful story of the chariot with its four black horses and terrible driver.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+        "sourceText": "When Ceres[37] came that evening into the vale of Enna and found that her daughter was not playing as usual with the other maidens, she questioned them, and learned their tearful story of the chariot with its four black horses and terrible driver."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "hades",
+      "relationship": "spouse_of",
+      "target": "persephone",
+      "sourceText": "Mercury was sent to lead Proserpina out of Hades; but when he reached there, he found that Pluto had already given his wife some pomegranate seeds, hoping that she would thereby stay forever in his keeping.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+        "sourceText": "Mercury was sent to lead Proserpina out of Hades; but when he reached there, he found that Pluto had already given his wife some pomegranate seeds, hoping that she would thereby stay forever in his keeping."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Pluto seizes Proserpina in Sicily and carries her into Hades. Ceres searches for her daughter and neglects the earth until famine moves Jupiter to arrange a compromise that divides Proserpina's time between her mother and Pluto.",
+    "openingSituation": "Jupiter has imprisoned the giants under Mount Etna, and Pluto leaves Hades to inspect the earth for cracks.",
+    "centralConflict": "Pluto abducts Proserpina by force, and Ceres cannot find her daughter.",
+    "resolution": "Jupiter intervenes during the famine and compromises with Pluto after Proserpina has eaten pomegranate seeds.",
+    "outcome": "Proserpina spends part of her time with Ceres and part with Pluto, and Ceres restores the earth when Proserpina returns.",
+    "storyline": [
+      "Jupiter imprisons the giants.",
+      "Pluto seizes Proserpina.",
+      "Ceres searches for her daughter.",
+      "Famine moves Jupiter to intervene.",
+      "Jupiter divides Proserpina's time between Ceres and Pluto."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+      "sourceText": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when the giants got restless and turned over and over underground (thus causing earthquakes), they would some day make such a large crack in the earth that daylight would be let into Hades.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+      "sourceText": "In a moment Pluto had seized her in his strong arms; and, trampling all her violets under his ruthless feet, he sprang into the chariot and urged his horses to their full speed, hoping to reach Hades before the maiden's cries brought Ceres to the rescue.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        },
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports event-002.",
+          "field": "event-002"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+      "sourceText": "Dismayed at this unexpected downfall of her hopes, Ceres was about to shut herself up again in the cave, when Jupiter, in behalf of the suffering earth, made a compromise with Pluto whereby Proserpina was to spend half her time with her mother in the land of sunshine and flowers, and the rest with her husband in cold and cheerless Hades.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports resolution.",
+          "field": "resolution"
+        },
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "imprisoned",
+      "object": "giants",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+          "sourceText": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when the giants got restless and turned over and over underground (thus causing earthquakes), they would some day make such a large crack in the earth that daylight would be let into Hades."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "imprison",
+      "target": "giants",
+      "object": null,
+      "recipient": null,
+      "location": "sicily",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when the giants got restless and turned over and over underground (thus causing earthquakes), they would some day make such a large crack in the earth that daylight would be let into Hades.",
+      "normalizedStatement": "Jupiter imprisoned the giants under Mount Etna.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+          "sourceText": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when the giants got restless and turned over and over underground (thus causing earthquakes), they would some day make such a large crack in the earth that daylight would be let into Hades."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "zeus",
+      "action": "imprison",
+      "actorResolution": "The clause subject is Jupiter from the opening dependent clause."
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "capture",
+      "target": "persephone",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "In a moment Pluto had seized her in his strong arms; and, trampling all her violets under his ruthless feet, he sprang into the chariot and urged his horses to their full speed, hoping to reach Hades before the maiden's cries brought Ceres to the rescue.",
+      "normalizedStatement": "Pluto seized Proserpina.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+          "sourceText": "In a moment Pluto had seized her in his strong arms; and, trampling all her violets under his ruthless feet, he sprang into the chariot and urged his horses to their full speed, hoping to reach Hades before the maiden's cries brought Ceres to the rescue."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "hades",
+      "action": "capture",
+      "actorResolution": "The source names Pluto as subject; 'her' resolves to Proserpina from the previous sentence."
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "travel",
+      "target": "persephone",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Just what had become of Proserpina no one could tell her; so the distracted mother began her search, not knowing whether she might at any moment come upon her daughter's body mangled by the chariot wheels.",
+      "normalizedStatement": "Ceres began searching for Proserpina.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+          "sourceText": "Just what had become of Proserpina no one could tell her; so the distracted mother began her search, not knowing whether she might at any moment come upon her daughter's body mangled by the chariot wheels."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "demeter",
+      "action": "travel",
+      "actorResolution": "The distracted mother refers to Ceres in the same passage."
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "discover",
+      "target": null,
+      "object": "girdle",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Chancing to be near the river Cyane, she went down to the water's edge to drink, and happily discovered the girdle that Proserpina had dropped there in her flight.",
+      "normalizedStatement": "Ceres discovered Proserpina's girdle.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.7-107.107.7:ced8cd57",
+          "sourceText": "Chancing to be near the river Cyane, she went down to the water's edge to drink, and happily discovered the girdle that Proserpina had dropped there in her flight."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "demeter",
+      "action": "discover"
+    },
+    {
+      "eventId": "event-005",
+      "sourceAction": "command",
+      "target": "hades",
+      "object": "pomegranate-seeds",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Dismayed at this unexpected downfall of her hopes, Ceres was about to shut herself up again in the cave, when Jupiter, in behalf of the suffering earth, made a compromise with Pluto whereby Proserpina was to spend half her time with her mother in the land of sunshine and flowers, and the rest with her husband in cold and cheerless Hades.",
+      "normalizedStatement": "Jupiter arranged Proserpina's divided return.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+          "sourceText": "Dismayed at this unexpected downfall of her hopes, Ceres was about to shut herself up again in the cave, when Jupiter, in behalf of the suffering earth, made a compromise with Pluto whereby Proserpina was to spend half her time with her mother in the land of sunshine and flowers, and the rest with her husband in cold and cheerless Hades."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "zeus",
+      "action": "command"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "persephone",
+      "predicate": "divides_time_between",
+      "object": "demeter-and-hades",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+          "sourceText": "Dismayed at this unexpected downfall of her hopes, Ceres was about to shut herself up again in the cave, when Jupiter, in behalf of the suffering earth, made a compromise with Pluto whereby Proserpina was to spend half her time with her mother in the land of sunshine and flowers, and the rest with her husband in cold and cheerless Hades."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+      "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+      "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+      "gutenberg:ebooks:45489:107.107.7-107.107.7:ced8cd57",
+      "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e",
+      "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+      "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+    ],
+    "claimsChecked": [
+      "alias mappings",
+      "abduction actor",
+      "Ceres search",
+      "Jupiter famine intervention",
+      "pomegranate condition",
+      "seasonal division"
+    ],
+    "correctionsMade": [
+      "Separated sourceText from normalized statements.",
+      "Removed paraphrased event source sentences.",
+      "Replaced blanket entity evidence."
+    ],
+    "remainingUncertainties": [
+      "Embedded Arethusa material remains contextual rather than normalized as a separate event chain."
+    ]
+  }
+}

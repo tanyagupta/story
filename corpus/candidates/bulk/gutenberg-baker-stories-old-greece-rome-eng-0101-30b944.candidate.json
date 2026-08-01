@@ -11,7 +11,7 @@
     "gutenberg:ebooks:45489:101.101.6-101.101.6:32f875d2",
     "gutenberg:ebooks:45489:101.101.7-101.101.7:19c501df"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,12 +25,35 @@
   "mythFamilyId": "mars-and-vulcan",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-mars-and-vulcan-cd1b87",
   "characters": [
+    "Ganymede",
     "Juno",
     "Jupiter",
-    "Vulcan"
+    "Venus",
+    "Vulcan",
+    "Hebe"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

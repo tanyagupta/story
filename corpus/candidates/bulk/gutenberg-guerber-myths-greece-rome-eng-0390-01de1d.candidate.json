@@ -23,13 +23,32 @@
   "mythFamilyId": "theseus-and-minotaur",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-theseus-and-minotaur-65b379",
   "characters": [
+    "Ariadne",
     "Hades",
     "Hercules",
     "Hippolytus",
+    "Neptune",
     "Theseus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 130,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "actionBearingSentences": 7,
+      "conflictSignals": 3,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

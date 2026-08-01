@@ -18,7 +18,7 @@
     "gutenberg:ebooks:22381:130.130.13-130.130.13:245c2262",
     "gutenberg:ebooks:22381:130.130.14-130.130.14:d01b5d61"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -33,11 +33,38 @@
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-apollo-and-daphne-328fc7",
   "characters": [
     "Apollo",
+    "Callisto",
     "Diana",
-    "Zeus"
+    "Europa",
+    "Hermes",
+    "Io",
+    "Zeus",
+    "Danae",
+    "Minos"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 174,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

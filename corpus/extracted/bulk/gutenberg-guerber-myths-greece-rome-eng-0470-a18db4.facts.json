@@ -1,0 +1,201 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0470-a18db4",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Circe",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:470.470.1-470.470.1:cfc094b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "circe",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Medea",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:470.470.1-470.470.1:cfc094b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "medea",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ulysses",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:470.470.1-470.470.1:cfc094b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ulysses",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:470.470.3-470.470.3:661125c6"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:470.470.4-470.470.4:db0e7696"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "went",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:470.470.6-470.470.6:ee52f67b"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:470.470.7-470.470.7:a683de00"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:470.470.7-470.470.7:a683de00"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "revealed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:470.470.7-470.470.7:a683de00"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "circe",
+      "sourceAction": "received",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:470.470.8-470.470.8:7e417f29"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "concealed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:470.470.8-470.470.8:7e417f29"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "circe",
+      "predicate": "opening_situation",
+      "object": "[Sidenote: The Læstrygonians.] Sorrowfully now the Greeks embarked; but, instead of being hurried along by favorable winds, they were obliged to row against wind and waves, and",
+      "evidence": [
+        "gutenberg:ebooks:39250:470.470.1-470.470.1:cfc094b0"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "circe",
+      "predicate": "outcome",
+      "object": "The men feasted greedily, for they had fasted for many days, and Circe watched them with ill-concealed disgust.",
+      "evidence": [
+        "gutenberg:ebooks:39250:470.470.8-470.470.8:7e417f29"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-f6d6a382",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0470-a18db4",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "That I receive or aid as he departs",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:470.470.1-470.470.1:cfc094b0",
+        "gutenberg:ebooks:39250:470.470.2-470.470.2:79f03266",
+        "gutenberg:ebooks:39250:470.470.3-470.470.3:661125c6"
+      ],
+      "status": "open"
+    }
+  ]
+}

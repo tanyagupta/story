@@ -5,29 +5,29 @@
     {
       "sourceName": "Apollo",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "apollo",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Minerva",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "participant",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-minerva",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,8 +35,8 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "apollo",
-      "sourceAction": "became",
+      "actorSourceName": null,
+      "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -46,51 +46,20 @@
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": "roman-minerva",
-      "sourceAction": "were",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
+        },
         {
           "passageId": "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:107.107.3-107.107.3:06f669c7"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "apollo",
-      "predicate": "is introduced in",
-      "object": "Moore.",
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
       "evidence": [
         "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe"
       ]
@@ -99,14 +68,33 @@
   "finalState": [
     {
       "subject": "apollo",
-      "predicate": "is last attested in selected candidate",
-      "object": "Moore.",
+      "predicate": "outcome",
+      "object": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
       "evidence": [
         "gutenberg:ebooks:39250:107.107.3-107.107.3:06f669c7"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-76f19870",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0107-21583c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Moore.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe",
+        "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87",
+        "gutenberg:ebooks:39250:107.107.3-107.107.3:06f669c7"
+      ],
+      "status": "open"
+    }
+  ]
 }

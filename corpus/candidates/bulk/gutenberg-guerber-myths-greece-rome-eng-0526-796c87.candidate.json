@@ -49,7 +49,7 @@
     "gutenberg:ebooks:39250:526.526.44-526.526.44:721f32c5",
     "gutenberg:ebooks:39250:526.526.45-526.526.45:38592e0f"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -63,10 +63,60 @@
   "mythFamilyId": "odysseus-cyclops",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-odysseus-cyclops-19db31",
   "characters": [
-    "Circe"
+    "Achilles",
+    "Adonis",
+    "Antigone",
+    "Apollo",
+    "Atalanta",
+    "Atlas",
+    "Cadmus",
+    "Circe",
+    "Hades",
+    "Hector",
+    "Hercules",
+    "Juno",
+    "Jupiter",
+    "Mercury",
+    "Neptune",
+    "Orpheus",
+    "Paris",
+    "Pegasus",
+    "Pluto",
+    "Prometheus",
+    "Proserpina",
+    "Psyche",
+    "Theseus",
+    "Ulysses",
+    "Venus",
+    "Vulcan",
+    "Athamas",
+    "Ceyx",
+    "Helle",
+    "Nephele"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

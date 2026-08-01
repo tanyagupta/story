@@ -1,0 +1,144 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0555-47ab5e",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Ceres",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:555.555.1-555.555.1:c71c4155"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "demeter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hercules",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:555.555.1-555.555.1:c71c4155"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "heracles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Proserpina",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:555.555.1-555.555.1:c71c4155"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "persephone",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "slain",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:555.555.1-555.555.1:c71c4155"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:555.555.2-555.555.2:69394a71"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "slew",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:555.555.7-555.555.7:10d7c8d4"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "demeter",
+      "predicate": "opening_situation",
+      "object": "Riddle-giving monster; slain by Œdipus, 283-285; significance, 393, 401.",
+      "evidence": [
+        "gutenberg:ebooks:39250:555.555.1-555.555.1:c71c4155"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "demeter",
+      "predicate": "outcome",
+      "object": "Lake upon whose banks Hercules slew the brazen-clawed birds, 226.",
+      "evidence": [
+        "gutenberg:ebooks:39250:555.555.7-555.555.7:10d7c8d4"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-c44ac409",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0555-47ab5e",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Sphinx.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:555.555.1-555.555.1:c71c4155",
+        "gutenberg:ebooks:39250:555.555.2-555.555.2:69394a71",
+        "gutenberg:ebooks:39250:555.555.3-555.555.3:ddbfc3a1"
+      ],
+      "status": "open"
+    }
+  ]
+}

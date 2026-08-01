@@ -5,57 +5,57 @@
     {
       "sourceName": "Hades",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "monster",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "hades",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Jupiter",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "monster",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-jupiter",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Orpheus",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "monster",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "orpheus",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Pluto",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "monster",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-pluto",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
       "normalizationStatus": "approved"
     }
   ],
@@ -63,7 +63,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-jupiter",
+      "actorSourceName": null,
       "sourceAction": "wandered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -77,7 +77,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -90,15 +90,15 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:117.117.2-117.117.2:bac1f913"
+          "passageId": "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "hades",
-      "sourceAction": "is described",
+      "actorSourceName": null,
+      "sourceAction": "condemned",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -111,14 +111,31 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:117.117.4-117.117.4:a071a73e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "hades",
-      "predicate": "is introduced in",
-      "object": "Orpheus broken-hearted.",
+      "predicate": "opening_situation",
+      "object": "Plaintive, heartrending laments now replaced the joyous wedding strains; but even the charms of music failed to make life endurable, and Orpheus wandered off to Olympus, where he",
       "evidence": [
         "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96"
       ]
@@ -127,14 +144,32 @@
   "finalState": [
     {
       "subject": "hades",
-      "predicate": "is last attested in selected candidate",
-      "object": "Orpheus broken-hearted.",
+      "predicate": "outcome",
+      "object": "\"E'en Tantalus ceased from trying to sip The cup that flies from his arid lip; Ixion, too, the magic could feel, And, for a moment, blocked his wheel; Poor Sisyphus, doomed to",
       "evidence": [
         "gutenberg:ebooks:39250:117.117.4-117.117.4:a071a73e"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a48cc5fc",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0117-5d39c0",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Orpheus broken-hearted.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96",
+        "gutenberg:ebooks:39250:117.117.2-117.117.2:bac1f913",
+        "gutenberg:ebooks:39250:117.117.3-117.117.3:c5e95095"
+      ],
+      "status": "open"
+    }
+  ]
 }

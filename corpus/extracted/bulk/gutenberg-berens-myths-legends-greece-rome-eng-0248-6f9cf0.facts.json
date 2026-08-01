@@ -1,0 +1,115 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0248-6f9cf0",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:248.248.1-248.248.1:de7b907e"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:248.248.2-248.248.2:0133c5da"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "sent",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:248.248.4-248.248.4:f572135c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:248.248.8-248.248.8:2e461c73"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "He was believed to preside over the beginnings of all things, hence it was he who inaugurated the years, months, and seasons, and in course of time came to be considered as",
+      "evidence": [
+        "gutenberg:ebooks:22381:248.248.1-248.248.1:de7b907e"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "His sacrifices, consisting of cakes, wine, and barley, were offered to him at the beginning of every month; and before sacrificing to the other gods his name was always invoked",
+      "evidence": [
+        "gutenberg:ebooks:22381:248.248.10-248.248.10:3312b0ad"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-aad49fb2",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0248-6f9cf0",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "JANUS.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:248.248.1-248.248.1:de7b907e",
+        "gutenberg:ebooks:22381:248.248.2-248.248.2:0133c5da",
+        "gutenberg:ebooks:22381:248.248.3-248.248.3:bf44060a"
+      ],
+      "status": "open"
+    }
+  ]
+}

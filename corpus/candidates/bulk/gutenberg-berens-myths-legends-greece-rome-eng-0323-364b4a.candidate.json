@@ -32,10 +32,34 @@
   "mythFamilyId": "theseus-and-minotaur",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-theseus-and-minotaur-3987f7",
   "characters": [
-    "Theseus"
+    "Ariadne",
+    "Hades",
+    "Helen",
+    "Hippolytus",
+    "Persephone",
+    "Poseidon",
+    "Theseus",
+    "Zeus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 353,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 8,
+      "actionBearingSentences": 25,
+      "conflictSignals": 12,
+      "paragraphCount": 14,
+      "knownMythFamily": true
+    }
+  }
 }

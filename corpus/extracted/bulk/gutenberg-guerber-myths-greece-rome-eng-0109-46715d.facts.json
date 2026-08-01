@@ -5,14 +5,14 @@
     {
       "sourceName": "Apollo",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "apollo",
       "normalizationStatus": "approved"
     }
@@ -22,7 +22,7 @@
   "events": [
     {
       "actorSourceName": null,
-      "sourceAction": "is described",
+      "sourceAction": "imprisoned",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -35,7 +35,7 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -48,15 +48,15 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:109.109.2-109.109.2:adbd7a53"
+          "passageId": "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
-      "sourceAction": "is described",
+      "actorSourceName": null,
+      "sourceAction": "bestowed",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -69,14 +69,31 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "seized",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "apollo",
-      "predicate": "is introduced in",
-      "object": "By summer hid in green reeds' jointed cells",
+      "predicate": "opening_situation",
+      "object": "To wait imprisoned for the south wind's spells, From out his reedy flute the player drew, And as the music clearer, louder grew, Wild creatures from their winter nooks and dells",
       "evidence": [
         "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17"
       ]
@@ -85,14 +102,32 @@
   "finalState": [
     {
       "subject": "apollo",
-      "predicate": "is last attested in selected candidate",
-      "object": "By summer hid in green reeds' jointed cells",
+      "predicate": "outcome",
+      "object": "The god seized his golden lyre, and poured forth impassioned strains.",
       "evidence": [
         "gutenberg:ebooks:39250:109.109.4-109.109.4:b4ccdf4f"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-15a465fe",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0109-46715d",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "By summer hid in green reeds' jointed cells",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17",
+        "gutenberg:ebooks:39250:109.109.2-109.109.2:adbd7a53",
+        "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9"
+      ],
+      "status": "open"
+    }
+  ]
 }

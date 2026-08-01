@@ -1,0 +1,69 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0253-fe4b42",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Midas",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [],
+  "initialState": [
+    {
+      "subject": "midas",
+      "predicate": "opening_situation",
+      "object": "XLIII",
+      "evidence": [
+        "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "midas",
+      "predicate": "outcome",
+      "object": "XLIII",
+      "evidence": [
+        "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-af88af52",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0253-fe4b42",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "XLIII",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360",
+        "gutenberg:ebooks:45489:253.253.2-253.253.2:1a8d1a43",
+        "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
+      ],
+      "status": "open"
+    }
+  ]
+}

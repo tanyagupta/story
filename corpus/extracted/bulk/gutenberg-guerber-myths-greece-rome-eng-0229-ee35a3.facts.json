@@ -1,0 +1,86 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0229-ee35a3",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:229.229.4-229.229.4:1910667d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Before this new ruler made his appearance, the Titan Oceanus had wielded the scepter of the sea; and regretfully he now resigned it to his youthful supplanter, whom he",
+      "evidence": [
+        "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Have ye beheld his chariot, foam'd along By noble winged creatures he hath made?",
+      "evidence": [
+        "gutenberg:ebooks:39250:229.229.4-229.229.4:1910667d"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-8a30dfd2",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0229-ee35a3",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Whose graceful green hair circles all the earth.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17",
+        "gutenberg:ebooks:39250:229.229.2-229.229.2:affaea89",
+        "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597"
+      ],
+      "status": "open"
+    }
+  ]
+}

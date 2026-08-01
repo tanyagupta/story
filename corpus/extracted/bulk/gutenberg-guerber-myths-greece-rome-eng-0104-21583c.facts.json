@@ -5,28 +5,28 @@
     {
       "sourceName": "Apollo",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "apollo",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Helios",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "helper",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "helios",
       "normalizationStatus": "approved"
     }
@@ -34,23 +34,6 @@
   "relationships": [],
   "goals": [],
   "events": [
-    {
-      "actorSourceName": null,
-      "sourceAction": "was",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
     {
       "actorSourceName": null,
       "sourceAction": "gave",
@@ -62,11 +45,11 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:104.104.2-104.104.2:49329cd0"
+          "passageId": "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
@@ -79,18 +62,52 @@
       "causes": [],
       "evidence": [
         {
+          "passageId": "gutenberg:ebooks:39250:104.104.2-104.104.2:49329cd0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "bound",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
           "passageId": "gutenberg:ebooks:39250:104.104.3-104.104.3:17baff1f"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "reached",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:104.104.5-104.104.5:2e036f89"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "apollo",
-      "predicate": "is introduced in",
-      "object": "Moore.",
+      "predicate": "opening_situation",
+      "object": "Procris, blinded by sudden jealousy, gave credit to the false story, and immediately resolved to follow her husband.",
       "evidence": [
         "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd"
       ]
@@ -99,14 +116,31 @@
   "finalState": [
     {
       "subject": "apollo",
-      "predicate": "is last attested in selected candidate",
-      "object": "Moore.",
+      "predicate": "outcome",
+      "object": "Day after day he rode across the azure sky, nor paused on his way till he reached the golden boat awaiting him at the end of his long day's journey, to bear him in safety back to",
       "evidence": [
         "gutenberg:ebooks:39250:104.104.6-104.104.6:40358324"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-14aaeef3",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0104-21583c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Moore.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd",
+        "gutenberg:ebooks:39250:104.104.2-104.104.2:49329cd0",
+        "gutenberg:ebooks:39250:104.104.3-104.104.3:17baff1f"
+      ],
+      "status": "open"
+    }
+  ]
 }

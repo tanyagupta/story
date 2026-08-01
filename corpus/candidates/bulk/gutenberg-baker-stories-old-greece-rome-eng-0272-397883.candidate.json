@@ -15,16 +15,34 @@
   "workingTitle": "LVI",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "non_story_material",
+  "candidateType": "ambiguous",
   "mythFamilyId": "perseus-and-medusa",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-perseus-and-medusa-31b445",
   "characters": [
-    "Medusa"
+    "Medusa",
+    "Acrisius"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 22,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

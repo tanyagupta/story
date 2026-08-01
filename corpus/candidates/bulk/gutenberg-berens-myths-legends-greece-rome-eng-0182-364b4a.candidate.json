@@ -23,10 +23,30 @@
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-apollo-and-daphne-b0b7fa",
   "characters": [
     "Apollo",
-    "Hermes"
+    "Atlas",
+    "Hermes",
+    "Zeus",
+    "Alpheus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 243,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 19,
+      "conflictSignals": 8,
+      "paragraphCount": 4,
+      "knownMythFamily": true
+    }
+  }
 }

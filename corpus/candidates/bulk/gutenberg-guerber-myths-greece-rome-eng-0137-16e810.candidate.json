@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:137.137.3-137.137.3:80eda73e",
     "gutenberg:ebooks:39250:137.137.4-137.137.4:1af30029"
   ],
-  "status": "approved",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -21,9 +21,32 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "worsley",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-worsley-c1c5c0",
-  "characters": [],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "characters": [
+    "Apollo",
+    "Jupiter"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 109,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 5,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

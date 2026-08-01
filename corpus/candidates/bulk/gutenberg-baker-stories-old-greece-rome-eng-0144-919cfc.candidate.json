@@ -22,10 +22,28 @@
   "characters": [
     "Hercules",
     "Juno",
-    "Jupiter"
+    "Jupiter",
+    "Hebe"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 179,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 15,
+      "conflictSignals": 5,
+      "paragraphCount": 2,
+      "knownMythFamily": true
+    }
+  }
 }

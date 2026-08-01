@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:400.400.7-400.400.7:2ac45975",
     "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,9 +25,34 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "the-calydonian-hunt",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-the-calydonian-hunt-89ab3d",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Atalanta",
+    "Diana",
+    "Jason",
+    "Theseus"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 153,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

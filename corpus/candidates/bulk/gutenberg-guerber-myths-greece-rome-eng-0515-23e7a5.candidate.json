@@ -49,7 +49,7 @@
     "gutenberg:ebooks:39250:515.515.44-515.515.44:921b42ec",
     "gutenberg:ebooks:39250:515.515.45-515.515.45:09783d25"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -63,11 +63,55 @@
   "mythFamilyId": "jason-and-argonauts",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-jason-and-argonauts-081971",
   "characters": [
+    "Apollo",
+    "Bacchus",
+    "Ceres",
+    "Diana",
+    "Hades",
+    "Helen",
+    "Hercules",
     "Jason",
-    "Zeus"
+    "Jupiter",
+    "Medea",
+    "Mercury",
+    "Neptune",
+    "Paris",
+    "Perseus",
+    "Pluto",
+    "Proserpina",
+    "Psyche",
+    "Ulysses",
+    "Venus",
+    "Vulcan",
+    "Zeus",
+    "Arethusa",
+    "Argos",
+    "Ceyx",
+    "Minos"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

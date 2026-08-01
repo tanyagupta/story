@@ -1,0 +1,84 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0173-4718c7",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "caught",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "While angling one day, he observed that the fish he caught and threw on the bank, at once nibbled at the grass and then leaped back into the water.",
+      "evidence": [
+        "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "No sooner was this done than, obeying an irresistible impulse, he precipitated himself into the deep, and became a sea-god.",
+      "evidence": [
+        "gutenberg:ebooks:22381:173.173.2-173.173.2:5ad73706"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a996ea62",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0173-4718c7",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "GLAUCUS.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815",
+        "gutenberg:ebooks:22381:173.173.2-173.173.2:5ad73706"
+      ],
+      "status": "open"
+    }
+  ]
+}

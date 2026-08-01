@@ -109,9 +109,29 @@
   "candidateType": "non_story_material",
   "mythFamilyId": "index-to-poetical-quotations",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-index-to-poetical-quotations-be74e2",
-  "characters": [],
+  "characters": [
+    "Arion",
+    "Helen"
+  ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 113,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 92,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -11,7 +11,7 @@
     "gutenberg:ebooks:39250:64.64.6-64.64.6:0674dc38",
     "gutenberg:ebooks:39250:64.64.7-64.64.7:5ca61e04"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -21,16 +21,34 @@
   "workingTitle": "Shakespeare.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "europa",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-europa-3abdfc",
   "characters": [
     "Cadmus",
     "Europa",
-    "Jupiter"
+    "Jupiter",
+    "Minos"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 62,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 3,
+      "conflictSignals": 0,
+      "paragraphCount": 7,
+      "knownMythFamily": true
+    }
+  }
 }

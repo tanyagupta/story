@@ -1,0 +1,133 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0474-4533ce",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Ulysses",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ulysses",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "seized",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "warned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:474.474.3-474.474.3:af1ba93e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "went",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:474.474.4-474.474.4:d592d2ca"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "caught",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "ulysses",
+      "predicate": "opening_situation",
+      "object": "Suddenly a piercing cry was heard, as the monster seized six of the men and devoured them.",
+      "evidence": [
+        "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "ulysses",
+      "predicate": "outcome",
+      "object": "Led by Eurylochus, some of the men, during one of Ulysses' temporary absences, caught and slew some of the sun god's cattle.",
+      "evidence": [
+        "gutenberg:ebooks:39250:474.474.6-474.474.6:ed6eb848"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-7488d742",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0474-4533ce",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Scylla's den.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604",
+        "gutenberg:ebooks:39250:474.474.2-474.474.2:3ea3c7f4",
+        "gutenberg:ebooks:39250:474.474.3-474.474.3:af1ba93e"
+      ],
+      "status": "open"
+    }
+  ]
+}

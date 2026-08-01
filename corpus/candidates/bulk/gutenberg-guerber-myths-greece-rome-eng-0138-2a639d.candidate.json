@@ -20,12 +20,29 @@
   "workingTitle": "Longfellow.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "deity_profile",
+  "candidateType": "biographical_material",
   "mythFamilyId": "longfellow",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-longfellow-6444eb",
   "characters": [],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 11,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 6,
+      "knownMythFamily": true
+    }
+  }
 }

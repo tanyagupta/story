@@ -9,7 +9,7 @@
     "gutenberg:ebooks:45489:147.147.4-147.147.4:3fe5d2d0",
     "gutenberg:ebooks:45489:147.147.5-147.147.5:1b83ba95"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,9 +22,34 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "while-oer-their-backs-their-straight-white-hair-hung-down",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-while-oer-their-backs-their-straight-white-hair-hung-down-a63a86",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Medusa",
+    "Mercury",
+    "Minerva",
+    "Perseus"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 162,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 7,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

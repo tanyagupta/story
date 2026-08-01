@@ -1,0 +1,186 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0529-631df1",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:529.529.1-529.529.1:a9f5dad7"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Atalanta",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:529.529.1-529.529.1:a9f5dad7"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "atalanta",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hercules",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:529.529.1-529.529.1:a9f5dad7"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "heracles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Io",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:529.529.1-529.529.1:a9f5dad7"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "io",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Neptune",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:529.529.1-529.529.1:a9f5dad7"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Prometheus",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:529.529.1-529.529.1:a9f5dad7"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "prometheus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:529.529.4-529.529.4:5a3ce117"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "slain",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:529.529.5-529.529.5:a57835f2"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "stolen",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:529.529.7-529.529.7:af330973"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Youth loved by Apollo and Zephyrus; changed to a flower, 67.",
+      "evidence": [
+        "gutenberg:ebooks:39250:529.529.1-529.529.1:a9f5dad7"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "Youth loved by Hercules; stolen by the water nymphs, 267.",
+      "evidence": [
+        "gutenberg:ebooks:39250:529.529.23-529.529.23:e8fa0c69"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-adb8cd7e",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0529-631df1",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Hours.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:529.529.1-529.529.1:a9f5dad7",
+        "gutenberg:ebooks:39250:529.529.2-529.529.2:e647a57e",
+        "gutenberg:ebooks:39250:529.529.3-529.529.3:a9b08f8e"
+      ],
+      "status": "open"
+    }
+  ]
+}

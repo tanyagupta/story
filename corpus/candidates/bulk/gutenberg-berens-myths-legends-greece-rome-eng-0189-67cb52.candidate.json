@@ -23,7 +23,7 @@
     "gutenberg:ebooks:22381:189.189.18-189.189.18:5e7e15f9",
     "gutenberg:ebooks:22381:189.189.19-189.189.19:574964a4"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -37,13 +37,40 @@
   "mythFamilyId": "march",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-march-5f7379",
   "characters": [
+    "Achilles",
+    "Circe",
     "Hades",
+    "Hermes",
+    "Odysseus",
+    "Persephone",
     "Pluto",
     "Poseidon",
-    "Zeus"
+    "Zeus",
+    "Argos",
+    "Minos"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

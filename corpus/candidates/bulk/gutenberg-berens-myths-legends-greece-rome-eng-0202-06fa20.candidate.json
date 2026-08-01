@@ -11,7 +11,7 @@
     "gutenberg:ebooks:22381:202.202.6-202.202.6:6f08b807",
     "gutenberg:ebooks:22381:202.202.7-202.202.7:391ec434"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,10 +25,32 @@
   "mythFamilyId": "perseus-and-medusa",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-perseus-and-medusa-5d9f53",
   "characters": [
-    "Medusa"
+    "Medusa",
+    "Pegasus",
+    "Perseus",
+    "Poseidon"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 158,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events"
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

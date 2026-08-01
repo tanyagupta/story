@@ -5,14 +5,14 @@
     {
       "sourceName": "Midas",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "midas",
       "normalizationStatus": "approved"
     }
@@ -21,8 +21,8 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "midas",
-      "sourceAction": "was",
+      "actorSourceName": null,
+      "sourceAction": "sent",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -35,48 +35,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "was",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:111.111.2-111.111.2:ba01a8e7"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": "midas",
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "midas",
-      "predicate": "is introduced in",
-      "object": "Swift.",
+      "predicate": "opening_situation",
+      "object": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
       "evidence": [
         "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2"
       ]
@@ -85,14 +51,33 @@
   "finalState": [
     {
       "subject": "midas",
-      "predicate": "is last attested in selected candidate",
-      "object": "Swift.",
+      "predicate": "outcome",
+      "object": "Greatly dismayed by these new ornaments, Midas retreated into the privacy of his own apartment, and sent in hot haste for a barber, who, after having been sworn to secrecy, was",
       "evidence": [
         "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-14c3e7cc",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0111-ce0c65",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Swift.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:111.111.1-111.111.1:ac7e55c2",
+        "gutenberg:ebooks:39250:111.111.2-111.111.2:ba01a8e7",
+        "gutenberg:ebooks:39250:111.111.3-111.111.3:40a6c693"
+      ],
+      "status": "open"
+    }
+  ]
 }

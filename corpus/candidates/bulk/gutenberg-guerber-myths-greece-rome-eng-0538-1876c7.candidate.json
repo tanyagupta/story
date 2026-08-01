@@ -17,7 +17,7 @@
     "gutenberg:ebooks:39250:538.538.12-538.538.12:9bc5ecb3",
     "gutenberg:ebooks:39250:538.538.13-538.538.13:9b5980fb"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -31,10 +31,38 @@
   "mythFamilyId": "lower-regions",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-lower-regions-0419ba",
   "characters": [
-    "Diana"
+    "Achilles",
+    "Bellerophon",
+    "Ceres",
+    "Diana",
+    "Mercury",
+    "Midas",
+    "Orpheus",
+    "Theseus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 103,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

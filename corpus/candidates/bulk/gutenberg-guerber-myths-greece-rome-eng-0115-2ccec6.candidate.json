@@ -15,7 +15,7 @@
   "workingTitle": "Shakespeare.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "non_story_material",
+  "candidateType": "biographical_material",
   "mythFamilyId": "orpheus-and-eurydice",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-orpheus-and-eurydice-b4f440",
   "characters": [
@@ -26,5 +26,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 20,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 1,
+      "conflictSignals": 0,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

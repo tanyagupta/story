@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:506.506.3-506.506.3:7129811f",
     "gutenberg:ebooks:39250:506.506.4-506.506.4:e5b6a66e"
   ],
-  "status": "rejected",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -18,14 +18,41 @@
   "workingTitle": "CLOUD MYTHS.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "deity_profile",
+  "candidateType": "narrative_episode",
   "mythFamilyId": "bellerophon-and-pegasus",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-bellerophon-and-pegasus-36500e",
   "characters": [
-    "Pegasus"
+    "Apollo",
+    "Diana",
+    "Niobe",
+    "Pegasus",
+    "Helle",
+    "Nephele",
+    "Phryxus"
   ],
-  "processingStatus": "rejected-non-story",
-  "reviewStatus": "dismissed",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 103,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -1,0 +1,120 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0113-88eaa2",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Achilles",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "achilles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Neptune",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "poseidon",
+      "sourceAction": "gave",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.2-113.113.2:ca73ab65"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "achilles",
+      "predicate": "opening_situation",
+      "object": "Neptune and the Sea-Gods I In the days when the Titans ruled the universe, Oceanus, with his wife Tethys, controlled all the lakes, rivers, and seas; but when the Titans were",
+      "evidence": [
+        "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "achilles",
+      "predicate": "outcome",
+      "object": "There were two others of the Nereids who became famous: Galatea, beloved by the Cyclops Polyphemus,[48] and Thetis, the mother of Achilles; but none of them equaled Amphitrite in",
+      "evidence": [
+        "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-6f94dfbe",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0113-88eaa2",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Chapter XVIII",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524",
+        "gutenberg:ebooks:45489:113.113.2-113.113.2:ca73ab65",
+        "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+      ],
+      "status": "open"
+    }
+  ]
+}

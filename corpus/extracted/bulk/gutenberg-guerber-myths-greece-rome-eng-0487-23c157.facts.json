@@ -1,0 +1,105 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0487-23c157",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:487.487.3-487.487.3:9ce2f313"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:487.487.4-487.487.4:4099462f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "arrived",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:487.487.4-487.487.4:4099462f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "went",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:487.487.4-487.487.4:4099462f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Creusa's ghost.] A trysting place near a ruined temple had already been appointed for his servants, and thither Æneas turned his steps.",
+      "evidence": [
+        "gutenberg:ebooks:39250:487.487.1-487.487.1:203e1b93"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "This speech ended, Creusa's ghost vanished, and Æneas sadly returned to the ruined temple, where he found many fugitives ready to follow him wherever he went, and eager to obey",
+      "evidence": [
+        "gutenberg:ebooks:39250:487.487.4-487.487.4:4099462f"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-1dcd4b34",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0487-23c157",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Such load my strength shall never tire.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:487.487.1-487.487.1:203e1b93",
+        "gutenberg:ebooks:39250:487.487.2-487.487.2:2a2698af",
+        "gutenberg:ebooks:39250:487.487.3-487.487.3:9ce2f313"
+      ],
+      "status": "open"
+    }
+  ]
+}

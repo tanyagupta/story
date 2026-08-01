@@ -15,7 +15,7 @@
   "workingTitle": "Keats.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "ritual_description",
+  "candidateType": "biographical_material",
   "mythFamilyId": "keats",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-keats-7ae28f",
   "characters": [],
@@ -24,5 +24,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 6,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

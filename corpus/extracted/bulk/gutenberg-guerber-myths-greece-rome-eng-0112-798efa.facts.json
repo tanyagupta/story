@@ -5,56 +5,56 @@
     {
       "sourceName": "Apollo",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "apollo",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Eurydice",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "eurydice",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Midas",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "midas",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Orpheus",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "orpheus",
       "normalizationStatus": "approved"
     }
@@ -64,7 +64,7 @@
   "events": [
     {
       "actorSourceName": null,
-      "sourceAction": "is described",
+      "sourceAction": "returned",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -77,11 +77,28 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "midas",
-      "sourceAction": "became",
+      "actorSourceName": null,
+      "sourceAction": "caught",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "loved",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -91,14 +108,17 @@
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "apollo",
-      "sourceAction": "loved",
+      "actorSourceName": null,
+      "sourceAction": "become",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -111,14 +131,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "apollo",
-      "predicate": "is introduced in",
-      "object": "Horace.",
+      "predicate": "opening_situation",
+      "object": "Unspeakably relieved by this performance, the barber returned home.",
       "evidence": [
         "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
       ]
@@ -127,14 +147,32 @@
   "finalState": [
     {
       "subject": "apollo",
-      "predicate": "is last attested in selected candidate",
-      "object": "Horace.",
+      "predicate": "outcome",
+      "object": "This being the state of her feelings, she readily consented to their union, and became the proud mother of Orpheus, who inherited his parents' musical and poetical gifts.",
       "evidence": [
         "gutenberg:ebooks:39250:112.112.4-112.112.4:f272bbbb"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-4fbe983d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0112-798efa",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Horace.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f",
+        "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1",
+        "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
+      ],
+      "status": "open"
+    }
+  ]
 }

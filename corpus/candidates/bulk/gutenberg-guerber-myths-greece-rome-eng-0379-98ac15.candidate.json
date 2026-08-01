@@ -19,7 +19,7 @@
     "gutenberg:ebooks:39250:379.379.14-379.379.14:0ecd5c64",
     "gutenberg:ebooks:39250:379.379.15-379.379.15:ff0f31b8"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -33,10 +33,31 @@
   "mythFamilyId": "theseus-and-minotaur",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-theseus-and-minotaur-4d4d00",
   "characters": [
-    "Theseus"
+    "Theseus",
+    "Vulcan"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 137,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

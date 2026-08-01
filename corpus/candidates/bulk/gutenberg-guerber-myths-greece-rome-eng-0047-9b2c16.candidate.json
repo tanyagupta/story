@@ -21,10 +21,28 @@
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-prometheus-6490fd",
   "characters": [
     "Minerva",
-    "Prometheus"
+    "Prometheus",
+    "Epimetheus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 37,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 1,
+      "conflictSignals": 0,
+      "paragraphCount": 2,
+      "knownMythFamily": true
+    }
+  }
 }

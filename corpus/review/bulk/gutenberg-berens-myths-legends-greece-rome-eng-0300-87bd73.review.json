@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 150,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 7,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-9eda2b58",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0300-87bd73",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "DAEDALUS and ICARUS.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.1-300.300.1:295772a7",
+        "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+        "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7"
+      ],
+      "status": "open"
+    }
+  ]
+}

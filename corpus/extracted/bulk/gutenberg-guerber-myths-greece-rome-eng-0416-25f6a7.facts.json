@@ -1,0 +1,114 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0416-25f6a7",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Bellerophon",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "bellerophon",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Pegasus",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "pegasus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "killed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "bellerophon",
+      "sourceAction": "flight",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:416.416.2-416.416.2:6cd2a8a9"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "bellerophon",
+      "predicate": "opening_situation",
+      "object": "This fall, which would doubtless have killed any one but a mythological hero, merely deprived Bellerophon of his eyesight; and ever after he groped his way disconsolately",
+      "evidence": [
+        "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "bellerophon",
+      "predicate": "outcome",
+      "object": "Bellerophon, mounted upon Pegasus, winging his flight through the air or fighting the Chimæra, is a favorite subject in sculpture and painting, which has frequently been treated",
+      "evidence": [
+        "gutenberg:ebooks:39250:416.416.3-416.416.3:6a8d7dc1"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-71a66e65",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0416-25f6a7",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:416.416.1-416.416.1:78baef5b",
+        "gutenberg:ebooks:39250:416.416.2-416.416.2:6cd2a8a9",
+        "gutenberg:ebooks:39250:416.416.3-416.416.3:6a8d7dc1"
+      ],
+      "status": "open"
+    }
+  ]
+}

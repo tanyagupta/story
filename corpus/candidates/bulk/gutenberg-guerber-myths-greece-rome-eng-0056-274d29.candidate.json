@@ -42,10 +42,31 @@
   "mythFamilyId": "pandora",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-pandora-ec22ec",
   "characters": [
-    "Pandora"
+    "Jupiter",
+    "Neptune",
+    "Pandora",
+    "Prometheus",
+    "Epimetheus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 229,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 15,
+      "conflictSignals": 7,
+      "paragraphCount": 24,
+      "knownMythFamily": true
+    }
+  }
 }

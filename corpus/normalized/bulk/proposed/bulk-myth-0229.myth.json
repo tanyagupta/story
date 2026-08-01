@@ -1,0 +1,241 @@
+{
+  "mythId": "bulk-myth-0229",
+  "mythFamilyId": "triptolemus",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-triptolemus-9b5700",
+  "title": "Triptolemus.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
+      "gutenberg:ebooks:39250:295.295.2-295.295.2:230516c3",
+      "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "demeter",
+      "triptolemus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Ceres",
+      "normalizedId": "demeter",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+        }
+      ]
+    },
+    {
+      "sourceName": "Triptolemus",
+      "normalizedId": "triptolemus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care. Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the",
+    "openingSituation": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+    "centralConflict": "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the",
+    "resolution": "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the",
+    "outcome": "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the",
+    "storyline": [
+      "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
+        "gutenberg:ebooks:39250:295.295.2-295.295.2:230516c3",
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
+      "excerpt": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:295.295.2-295.295.2:230516c3",
+      "excerpt": "In the night, while Ceres sat alone with her charge, it occurred to her that she might confer a still greater blessing upon him, that of immortality: so she anointed his limbs with nectar, murmured a powerful charm, and placed him upon the",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988",
+      "excerpt": "The queen, Metaneira, who had thought it somewhat imprudent to leave the child thus alone with a stranger, now stole noiselessly into the apartment, and with a wild shriek rushed to the fire and snatched her child out of the flames",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "demeter",
+      "predicate": "opening_situation",
+      "object": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "evidence": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "sourceClause": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "actor": "demeter",
+      "action": "travel",
+      "sourceAction": "arrived",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the court.",
+      "sourceClause": "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the court.",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "demeter",
+      "predicate": "outcome",
+      "object": "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the",
+      "evidence": [
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Ceres, touched by their ready sympathy, accepted the offer; and when she arrived at the palace, the royal heir was intrusted to her care.",
+      "Tenderly the goddess kissed the puny child's little pinched face; and at her touch the child became rosy and well, to the unbounded astonishment of the royal family and all the"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-cf524a0f",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0295-c631e1",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Triptolemus.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
+        "gutenberg:ebooks:39250:295.295.2-295.295.2:230516c3",
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 76,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 2,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.38,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "demeter",
+    "triptolemus"
+  ],
+  "uncertainEvents": [
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

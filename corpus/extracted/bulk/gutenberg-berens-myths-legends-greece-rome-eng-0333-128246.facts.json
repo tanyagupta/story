@@ -1,0 +1,256 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0333-128246",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Cassandra",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "cassandra",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hector",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hector",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Helen",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "helen",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Paris",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "paris",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Zeus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "born",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.2-333.333.2:228872b7"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "gave",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.2-333.333.2:228872b7"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "paris",
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.3-333.333.3:d354b666"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "paris",
+      "sourceAction": "departed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.4-333.333.4:d08e4985"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "defeated",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.4-333.333.4:d08e4985"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "found",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.4-333.333.4:d08e4985"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "conquered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.5-333.333.5:b2f1ea58"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "cassandra",
+      "predicate": "opening_situation",
+      "object": "Anxious to prevent the fulfilment of the prophecy, Hecuba caused her new-born babe to be exposed on Mount Ida to perish; but being found by some kind-hearted shepherds, the child",
+      "evidence": [
+        "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "cassandra",
+      "predicate": "outcome",
+      "object": "As we have already seen in the Legend of Heracles, that great hero conquered Troy, and after killing king Laomedon, carried away captive his beautiful daughter Hesione, whom he",
+      "evidence": [
+        "gutenberg:ebooks:22381:333.333.10-333.333.10:a96158b3"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-976aa1dc",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0333-128246",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Trojan war.",
+      "suggestions": [
+        "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+        "gutenberg:ebooks:22381:333.333.2-333.333.2:228872b7",
+        "gutenberg:ebooks:22381:333.333.3-333.333.3:d354b666"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -18,12 +18,29 @@
   "workingTitle": "The Fortunate Isles ANDREW LANG",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "deity_profile",
+  "candidateType": "literary_commentary",
   "mythFamilyId": "the-fortunate-isles-andrew-lang",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-the-fortunate-isles-andrew-lang-066ac8",
   "characters": [],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 9,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 4,
+      "knownMythFamily": true
+    }
+  }
 }

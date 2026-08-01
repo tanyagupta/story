@@ -1,0 +1,101 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0268-e6b7eb",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "departed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:268.268.2-268.268.2:5e28f334"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:268.268.5-268.268.5:348789c9"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:268.268.7-268.268.7:d14af741"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The Manes were the spirits of the departed, and were of two kinds, viz., Lemures (or Larvae) and Lares.",
+      "evidence": [
+        "gutenberg:ebooks:22381:268.268.1-268.268.1:11e042b4"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Their temples were always open for any pious worshipper to enter, and on their altars public sacrifices were offered for the welfare of the state or city.",
+      "evidence": [
+        "gutenberg:ebooks:22381:268.268.7-268.268.7:d14af741"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-5f5167ec",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0268-e6b7eb",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "MANES.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:268.268.1-268.268.1:11e042b4",
+        "gutenberg:ebooks:22381:268.268.2-268.268.2:5e28f334",
+        "gutenberg:ebooks:22381:268.268.3-268.268.3:9d772f9d"
+      ],
+      "status": "open"
+    }
+  ]
+}

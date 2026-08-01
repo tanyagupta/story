@@ -83,7 +83,7 @@
     "gutenberg:ebooks:39250:514.514.78-514.514.78:287c0e96",
     "gutenberg:ebooks:39250:514.514.79-514.514.79:86fb198f"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -96,9 +96,60 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "brass-age",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-brass-age-dc66ff",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Achilles",
+    "Andromeda",
+    "Apollo",
+    "Ariadne",
+    "Arion",
+    "Bellerophon",
+    "Ceres",
+    "Demeter",
+    "Diana",
+    "Europa",
+    "Hades",
+    "Helen",
+    "Hercules",
+    "Juno",
+    "Jupiter",
+    "Mercury",
+    "Neptune",
+    "Orpheus",
+    "Prometheus",
+    "Proserpina",
+    "Psyche",
+    "Theseus",
+    "Ulysses",
+    "Venus",
+    "Vulcan",
+    "Argonauts",
+    "Chiron",
+    "Eleusis",
+    "Phryxus",
+    "Triptolemus"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

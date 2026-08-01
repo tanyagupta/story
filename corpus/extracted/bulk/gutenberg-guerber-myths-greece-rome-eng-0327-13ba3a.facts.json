@@ -1,0 +1,85 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0327-13ba3a",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Pluto",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:327.327.1-327.327.1:b1636d00"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "reached",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:327.327.1-327.327.1:b1636d00"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:327.327.2-327.327.2:2812dcbf"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hades",
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Cave of sleep.] After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a",
+      "evidence": [
+        "gutenberg:ebooks:39250:327.327.1-327.327.1:b1636d00"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hades",
+      "predicate": "outcome",
+      "object": "[Sidenote: Cave of sleep.] After leaving the joyless regions of Pluto's realm, and following the even course of the Lethe River, the ancients fancied one reached a large cave in a",
+      "evidence": [
+        "gutenberg:ebooks:39250:327.327.4-327.327.4:fdf1b3d1"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-892e84cb",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0327-13ba3a",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "SOMNUS AND MORS.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:327.327.1-327.327.1:b1636d00",
+        "gutenberg:ebooks:39250:327.327.2-327.327.2:2812dcbf",
+        "gutenberg:ebooks:39250:327.327.3-327.327.3:081ab05d"
+      ],
+      "status": "open"
+    }
+  ]
+}

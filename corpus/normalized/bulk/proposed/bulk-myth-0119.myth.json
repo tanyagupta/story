@@ -1,0 +1,298 @@
+{
+  "mythId": "bulk-myth-0119",
+  "mythFamilyId": "beaumont-and-fletcher",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-beaumont-and-fletcher-2291e9",
+  "title": "Beaumont and Fletcher.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:422.422.1-422.422.1:9794a656",
+      "gutenberg:ebooks:39250:422.422.2-422.422.2:454da997",
+      "gutenberg:ebooks:39250:422.422.3-422.422.3:1b580bc0",
+      "gutenberg:ebooks:39250:422.422.4-422.422.4:0c6ce7a6"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "He saw one of the nymphs, Syrinx, whom he immediately loved; but unfortunately for him, she, frightened at his appearance, fled. Exasperated by her persistent avoidance of him, Pan once pursued and was about to overtake her, when she paused, and implored Gæa to protect her.",
+    "openingSituation": "He saw one of the nymphs, Syrinx, whom he immediately loved; but unfortunately for him, she, frightened at his appearance, fled.",
+    "centralConflict": "He saw one of the nymphs, Syrinx, whom he immediately loved; but unfortunately for him, she, frightened at his appearance, fled.",
+    "resolution": "\"Fair, trembling Syrinx fled Arcadian Pan, with such a fearful dread.",
+    "outcome": "\"Fair, trembling Syrinx fled Arcadian Pan, with such a fearful dread.",
+    "storyline": [
+      "He saw one of the nymphs, Syrinx, whom he immediately loved; but unfortunately for him, she, frightened at his appearance, fled.",
+      "Exasperated by her persistent avoidance of him, Pan once pursued and was about to overtake her, when she paused, and implored Gæa to protect her.",
+      "The prayer was scarcely ended, when she found herself changed into a clump of reeds, which the panting lover embraced, thinking he had caught the maiden, who had stood in that",
+      "Pan, seeing Syrinx had gone forever, took seven pieces of the reed, of unequal lengths, bound them together, and fashioned from them a musical instrument, which was called by the",
+      "\"Fair, trembling Syrinx fled Arcadian Pan, with such a fearful dread."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:422.422.1-422.422.1:9794a656",
+        "gutenberg:ebooks:39250:422.422.2-422.422.2:454da997",
+        "gutenberg:ebooks:39250:422.422.3-422.422.3:1b580bc0"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:422.422.2-422.422.2:454da997"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:422.422.2-422.422.2:454da997"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:422.422.4-422.422.4:0c6ce7a6"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:422.422.4-422.422.4:0c6ce7a6"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:422.422.1-422.422.1:9794a656",
+      "excerpt": "[Sidenote: Story of Syrinx.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:422.422.2-422.422.2:454da997",
+      "excerpt": "Pan was equally devoted to music, the dance, and pretty nymphs. He saw one of the nymphs, Syrinx, whom he immediately loved; but unfortunately for him, she, frightened at his appearance, fled.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:422.422.3-422.422.3:1b580bc0",
+      "excerpt": "His deception and disappointment were so severe, that they wrung from him a prolonged sigh, which, passing through the rustling reeds, produced plaintive tones.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:422.422.4-422.422.4:0c6ce7a6",
+      "excerpt": "\"Fair, trembling Syrinx fled Arcadian Pan, with such a fearful dread. Poor nymph!--poor Pan!--how he did weep to find Naught but a lovely sighing of the wind Along the reedy stream; a half-heard strain Full of sweet desolation--balmy pain.\"",
+      "supports": [
+        "event-004"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "He saw one of the nymphs, Syrinx, whom he immediately loved; but unfortunately for him, she, frightened at his appearance, fled.",
+      "evidence": [
+        "gutenberg:ebooks:39250:422.422.1-422.422.1:9794a656"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "He saw one of the nymphs, Syrinx, whom he immediately loved; but unfortunately for him, she, frightened at his appearance, fled.",
+      "sourceClause": "He saw one of the nymphs, Syrinx, whom he immediately loved; but unfortunately for him, she, frightened at his appearance, fled.",
+      "actor": null,
+      "action": "flee",
+      "sourceAction": "fled",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He saw one of the nymphs, Syrinx, whom he immediately loved; but unfortunately for him, she, frightened at his appearance, fled.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:422.422.2-422.422.2:454da997"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Exasperated by her persistent avoidance of him, Pan once pursued and was about to overtake her, when she paused, and implored Gæa to protect her.",
+      "sourceClause": "Exasperated by her persistent avoidance of him, Pan once pursued and was about to overtake her, when she paused, and implored Gæa to protect her.",
+      "actor": null,
+      "action": "pursue",
+      "sourceAction": "pursued",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Exasperated by her persistent avoidance of him, Pan once pursued and was about to overtake her, when she paused, and implored Gæa to protect her.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:422.422.2-422.422.2:454da997"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "The prayer was scarcely ended, when she found herself changed into a clump of reeds, which the panting lover embraced, thinking he had caught the maiden, who had stood in that very spot a few moments before.",
+      "sourceClause": "The prayer was scarcely ended, when she found herself changed into a clump of reeds, which the panting lover embraced, thinking he had caught the maiden, who had stood in that very spot a few moments before.",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "caught",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The prayer was scarcely ended, when she found herself changed into a clump of reeds, which the panting lover embraced, thinking he had caught the maiden, who had stood in that",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:422.422.2-422.422.2:454da997"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "Pan, seeing Syrinx had gone forever, took seven pieces of the reed, of unequal lengths, bound them together, and fashioned from them a musical instrument, which was called by the name of the fair nymph.",
+      "sourceClause": "Pan, seeing Syrinx had gone forever, took seven pieces of the reed, of unequal lengths, bound them together, and fashioned from them a musical instrument, which was called by the name of the fair nymph.",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "bound",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Pan, seeing Syrinx had gone forever, took seven pieces of the reed, of unequal lengths, bound them together, and fashioned from them a musical instrument, which was called by the",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:422.422.3-422.422.3:1b580bc0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "sourceSentence": "\"Fair, trembling Syrinx fled Arcadian Pan, with such a fearful dread.",
+      "sourceClause": "\"Fair, trembling Syrinx fled Arcadian Pan, with such a fearful dread.",
+      "actor": null,
+      "action": "flee",
+      "sourceAction": "fled",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "\"Fair, trembling Syrinx fled Arcadian Pan, with such a fearful dread.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:422.422.4-422.422.4:0c6ce7a6"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "\"Fair, trembling Syrinx fled Arcadian Pan, with such a fearful dread.",
+      "evidence": [
+        "gutenberg:ebooks:39250:422.422.4-422.422.4:0c6ce7a6"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "He saw one of the nymphs, Syrinx, whom he immediately loved; but unfortunately for him, she, frightened at his appearance, fled.",
+      "Exasperated by her persistent avoidance of him, Pan once pursued and was about to overtake her, when she paused, and implored Gæa to protect her.",
+      "The prayer was scarcely ended, when she found herself changed into a clump of reeds, which the panting lover embraced, thinking he had caught the maiden, who had stood in that",
+      "Pan, seeing Syrinx had gone forever, took seven pieces of the reed, of unequal lengths, bound them together, and fashioned from them a musical instrument, which was called by the",
+      "\"Fair, trembling Syrinx fled Arcadian Pan, with such a fearful dread."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-4660fe0b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0422-5aed3a",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Beaumont and Fletcher.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:422.422.1-422.422.1:9794a656",
+        "gutenberg:ebooks:39250:422.422.2-422.422.2:454da997",
+        "gutenberg:ebooks:39250:422.422.3-422.422.3:1b580bc0"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 88,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 5,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.44,
+  "failedGates": [
+    "no-mythological-characters",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004",
+    "event-005"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

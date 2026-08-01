@@ -1,0 +1,42 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 162,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 7,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-7e757bd0",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0147-0292ba",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "While o'er their backs their straight white hair hung down",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:147.147.1-147.147.1:fad73a39",
+        "gutenberg:ebooks:45489:147.147.2-147.147.2:7e9533f2",
+        "gutenberg:ebooks:45489:147.147.3-147.147.3:6dfd707a"
+      ],
+      "status": "open"
+    }
+  ]
+}

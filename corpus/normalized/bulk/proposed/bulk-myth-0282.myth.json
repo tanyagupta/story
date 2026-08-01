@@ -1,0 +1,207 @@
+{
+  "mythId": "bulk-myth-0282",
+  "mythFamilyId": "xlvi",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-xlvi-a2cb8e",
+  "title": "XLVI",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d",
+      "gutenberg:ebooks:45489:260.260.2-260.260.2:25286849",
+      "gutenberg:ebooks:45489:260.260.3-260.260.3:7308ff3e",
+      "gutenberg:ebooks:45489:260.260.4-260.260.4:96d00d26"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+    "openingSituation": "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+    "centralConflict": "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+    "resolution": "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+    "outcome": "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+    "storyline": [
+      "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d",
+        "gutenberg:ebooks:45489:260.260.2-260.260.2:25286849",
+        "gutenberg:ebooks:45489:260.260.3-260.260.3:7308ff3e"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d",
+        "gutenberg:ebooks:45489:260.260.2-260.260.2:25286849"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d",
+        "gutenberg:ebooks:45489:260.260.2-260.260.2:25286849"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d",
+        "gutenberg:ebooks:45489:260.260.2-260.260.2:25286849"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d",
+        "gutenberg:ebooks:45489:260.260.2-260.260.2:25286849"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d",
+      "excerpt": "Keats in \"Endymion\" alludes to Dryope thus:--",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:260.260.2-260.260.2:25286849",
+      "excerpt": "\"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander. 'Twas a lay More subtle-cadenced, more forest-wild Than Dryope's lone lulling of her child.\"",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:260.260.3-260.260.3:7308ff3e",
+      "excerpt": "Poem:--",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:260.260.4-260.260.4:96d00d26",
+      "excerpt": "Dryope WALTER S. LANDOR",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+      "evidence": [
+        "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+      "sourceClause": "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:260.260.2-260.260.2:25286849"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander.",
+      "evidence": [
+        "gutenberg:ebooks:45489:260.260.4-260.260.4:96d00d26"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Keats in \"Endymion\" alludes to Dryope thus:-- \"She took a lute from which there pulsing came A lively prelude, fashioning the way In which her voice should wander."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-fe695f85",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0260-d7c69b",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "XLVI",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:260.260.1-260.260.1:7af6173d",
+        "gutenberg:ebooks:45489:260.260.2-260.260.2:25286849",
+        "gutenberg:ebooks:45489:260.260.3-260.260.3:7308ff3e"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 44,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.22,
+  "failedGates": [
+    "no-mythological-characters",
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

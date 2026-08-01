@@ -7,7 +7,7 @@
     "gutenberg:ebooks:39250:274.274.2-274.274.2:53d83803",
     "gutenberg:ebooks:39250:274.274.3-274.274.3:83c1c67a"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -17,7 +17,7 @@
   "workingTitle": "Gray.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "theseus-and-minotaur",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-theseus-and-minotaur-541da7",
   "characters": [
@@ -26,8 +26,25 @@
     "Echo",
     "Theseus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 90,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 5,
+      "conflictSignals": 2,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

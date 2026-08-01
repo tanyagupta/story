@@ -1,0 +1,172 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0196-da183b",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Atalanta",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:196.196.1-196.196.1:875dffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "atalanta",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hades",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:196.196.1-196.196.1:875dffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:196.196.1-196.196.1:875dffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Paris",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:196.196.1-196.196.1:875dffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "paris",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Venus",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:196.196.1-196.196.1:875dffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "born",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:196.196.1-196.196.1:875dffc3"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "found",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:196.196.1-196.196.1:875dffc3"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "followed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:196.196.1-196.196.1:875dffc3"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "atalanta",
+      "predicate": "opening_situation",
+      "object": "According to the more ancient Greek conception, Venus was the daughter of Jupiter and Dione, goddess of moisture; but Hesiod says that she came from the foam of the sea, and was",
+      "evidence": [
+        "gutenberg:ebooks:45489:196.196.1-196.196.1:875dffc3"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "atalanta",
+      "predicate": "outcome",
+      "object": "He followed an original of the age of Praxiteles, probably in bronze, which represented the goddess, partly draped, gazing at her reflection in an uplifted shield.",
+      "evidence": [
+        "gutenberg:ebooks:45489:196.196.5-196.196.5:302ad532"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-1488704d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0196-da183b",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "XVIII",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:196.196.1-196.196.1:875dffc3",
+        "gutenberg:ebooks:45489:196.196.2-196.196.2:80730bcd",
+        "gutenberg:ebooks:45489:196.196.3-196.196.3:74a836be"
+      ],
+      "status": "open"
+    }
+  ]
+}

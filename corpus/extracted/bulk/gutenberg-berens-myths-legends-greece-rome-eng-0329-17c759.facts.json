@@ -1,0 +1,82 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0329-17c759",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Cadmus",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:329.329.1-329.329.1:348f4e29"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "cadmus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "battle",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:329.329.1-329.329.1:348f4e29"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "cadmus",
+      "predicate": "opening_situation",
+      "object": "A fierce battle ensued, in which the Theban leader, after performing prodigies of valour, perished by the hand of Alcmaeon.",
+      "evidence": [
+        "gutenberg:ebooks:22381:329.329.1-329.329.1:348f4e29"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "cadmus",
+      "predicate": "outcome",
+      "object": "A fierce battle ensued, in which the Theban leader, after performing prodigies of valour, perished by the hand of Alcmaeon.",
+      "evidence": [
+        "gutenberg:ebooks:22381:329.329.2-329.329.2:8dca738c"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-bfebc983",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0329-17c759",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Thebes.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:329.329.1-329.329.1:348f4e29",
+        "gutenberg:ebooks:22381:329.329.2-329.329.2:8dca738c"
+      ],
+      "status": "open"
+    }
+  ]
+}

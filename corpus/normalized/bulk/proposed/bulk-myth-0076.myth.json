@@ -1,0 +1,434 @@
+{
+  "mythId": "bulk-myth-0076",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-apollo-and-daphne-5bef79",
+  "title": "Diana",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:77.77.1-77.77.1:ca73ab65",
+      "gutenberg:ebooks:45489:77.77.2-77.77.2:bba39e6b",
+      "gutenberg:ebooks:45489:77.77.3-77.77.3:bd070fed",
+      "gutenberg:ebooks:45489:77.77.4-77.77.4:40e4ac2e",
+      "gutenberg:ebooks:45489:77.77.5-77.77.5:009ffe55",
+      "gutenberg:ebooks:45489:77.77.6-77.77.6:e95267a3",
+      "gutenberg:ebooks:45489:77.77.7-77.77.7:1433eae8"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "artemis",
+      "niobe"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:77.77.1-77.77.1:ca73ab65"
+        }
+      ]
+    },
+    {
+      "sourceName": "Diana",
+      "normalizedId": "artemis",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:77.77.1-77.77.1:ca73ab65"
+        }
+      ]
+    },
+    {
+      "sourceName": "Niobe",
+      "normalizedId": "niobe",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:77.77.1-77.77.1:ca73ab65"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "As they grew up she boasted of their strength and beauty to all who came to the shores of Delos, and no village or hamlet--however small--but had heard of Latona's children.",
+    "openingSituation": "As they grew up she boasted of their strength and beauty to all who came to the shores of Delos, and no village or hamlet--however small--but had heard of Latona's children.",
+    "centralConflict": "When Niobe learned that the people in her kingdom were loud in their praises of Latona's children, and were neglecting to honor her own splendid sons and daughters, she was very",
+    "resolution": "She found the maidens seated at Niobe's side, weaving, and one by one the remorseless goddess shot them down in spite of their mother's heart-broken cries for mercy.",
+    "outcome": "She found the maidens seated at Niobe's side, weaving, and one by one the remorseless goddess shot them down in spite of their mother's heart-broken cries for mercy.",
+    "storyline": [
+      "As they grew up she boasted of their strength and beauty to all who came to the shores of Delos, and no village or hamlet--however small--but had heard of Latona's children.",
+      "When Grecian mothers put their little ones to bed at night, they told wonderful tales of an island far out at sea where a brother and sister lived who were fairer than all the",
+      "When Niobe learned that the people in her kingdom were loud in their praises of Latona's children, and were neglecting to honor her own splendid sons and daughters, she was very",
+      "When Latona received the message she was so enraged at the insult that her desire for revenge knew no bounds.",
+      "She called Apollo and Diana to her side and commanded them to go forth and slay the children of Niobe.",
+      "It was easy for Apollo to accomplish his part of the cruel task, for he met the seven sons of Niobe hunting, and slew them so quickly that not one of the brothers had time to ask"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:77.77.1-77.77.1:ca73ab65",
+        "gutenberg:ebooks:45489:77.77.2-77.77.2:bba39e6b",
+        "gutenberg:ebooks:45489:77.77.3-77.77.3:bd070fed"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:77.77.2-77.77.2:bba39e6b"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:77.77.3-77.77.3:bd070fed"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:77.77.4-77.77.4:40e4ac2e"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:77.77.4-77.77.4:40e4ac2e"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:77.77.1-77.77.1:ca73ab65",
+      "excerpt": "I",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:77.77.2-77.77.2:bba39e6b",
+      "excerpt": "During the childhood of Apollo and Diana the goddess Latona lived happily on the island of Delos, and forgot all her early misfortunes in the joy of her children.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:77.77.3-77.77.3:bd070fed",
+      "excerpt": "Latona was proud of her children's fame, and boasted of it far and wide.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:77.77.4-77.77.4:40e4ac2e",
+      "excerpt": "When Latona received the message she was so enraged at the insult that her desire for revenge knew no bounds. She called Apollo and Diana to her side and commanded them to go forth and slay the children of Niobe.",
+      "supports": [
+        "event-004"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:77.77.5-77.77.5:009ffe55",
+      "excerpt": "Over her fallen body the wretched Niobe wept so long that the gods at last felt pity for her grief, and changed her into stone.",
+      "supports": [
+        "event-005"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:77.77.6-77.77.6:e95267a3",
+      "excerpt": "II",
+      "supports": [
+        "event-006"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:77.77.7-77.77.7:1433eae8",
+      "excerpt": "Though the goddess Diana[14] spent most of her daylight hours in hunting, it was not often that she exercised her skill to such cruel purpose as was shown in the case of poor Niobe.",
+      "supports": [
+        "event-007"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "As they grew up she boasted of their strength and beauty to all who came to the shores of Delos, and no village or hamlet--however small--but had heard of Latona's children.",
+      "evidence": [
+        "gutenberg:ebooks:45489:77.77.1-77.77.1:ca73ab65"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "As they grew up she boasted of their strength and beauty to all who came to the shores of Delos, and no village or hamlet--however small--but had heard of Latona's children.",
+      "sourceClause": "As they grew up she boasted of their strength and beauty to all who came to the shores of Delos, and no village or hamlet--however small--but had heard of Latona's children.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "As they grew up she boasted of their strength and beauty to all who came to the shores of Delos, and no village or hamlet--however small--but had heard of Latona's children.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:77.77.2-77.77.2:bba39e6b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "When Grecian mothers put their little ones to bed at night, they told wonderful tales of an island far out at sea where a brother and sister lived who were fairer than all the flowers in the meadows; and maidens, sighing for a loveliness greater than their own, wove garlands to adorn the shrines of those two who walked the earth in all their immortal grace.",
+      "sourceClause": "When Grecian mothers put their little ones to bed at night, they told wonderful tales of an island far out at sea where a brother and sister lived who were fairer than all the flowers in the meadows; and maidens, sighing for a loveliness greater than their own, wove garlands to adorn the shrines of those two who walked the earth in all their immortal grace.",
+      "actor": null,
+      "action": "reveal",
+      "sourceAction": "told",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "When Grecian mothers put their little ones to bed at night, they told wonderful tales of an island far out at sea where a brother and sister lived who were fairer than all the",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:77.77.2-77.77.2:bba39e6b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "When Niobe learned that the people in her kingdom were loud in their praises of Latona's children, and were neglecting to honor her own splendid sons and daughters, she was very angry and ordered all the statues of Apollo and Diana to be destroyed; for the people, in their devotion to beauty, had set up many in the temples and the market place.",
+      "sourceClause": "When Niobe learned that the people in her kingdom were loud in their praises of Latona's children, and were neglecting to honor her own splendid sons and daughters, she was very angry and ordered all the statues of Apollo and Diana to be destroyed; for the people, in their devotion to beauty, had set up many in the temples and the market place.",
+      "actor": "niobe",
+      "action": "command",
+      "sourceAction": "ordered",
+      "object": null,
+      "target": "apollo",
+      "recipient": null,
+      "location": null,
+      "result": "When Niobe learned that the people in her kingdom were loud in their praises of Latona's children, and were neglecting to honor her own splendid sons and daughters, she was very",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:77.77.3-77.77.3:bd070fed"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "When Latona received the message she was so enraged at the insult that her desire for revenge knew no bounds.",
+      "sourceClause": "When Latona received the message she was so enraged at the insult that her desire for revenge knew no bounds.",
+      "actor": null,
+      "action": "recognize",
+      "sourceAction": "knew",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "When Latona received the message she was so enraged at the insult that her desire for revenge knew no bounds.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:77.77.4-77.77.4:40e4ac2e"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "sourceSentence": "She called Apollo and Diana to her side and commanded them to go forth and slay the children of Niobe.",
+      "sourceClause": "She called Apollo and Diana to her side and commanded them to go forth and slay the children of Niobe.",
+      "actor": null,
+      "action": "command",
+      "sourceAction": "commanded",
+      "object": null,
+      "target": "apollo",
+      "recipient": null,
+      "location": null,
+      "result": "She called Apollo and Diana to her side and commanded them to go forth and slay the children of Niobe.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:77.77.4-77.77.4:40e4ac2e"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "sourceSentence": "It was easy for Apollo to accomplish his part of the cruel task, for he met the seven sons of Niobe hunting, and slew them so quickly that not one of the brothers had time to ask what he had done to merit the god's wrath.",
+      "sourceClause": "It was easy for Apollo to accomplish his part of the cruel task, for he met the seven sons of Niobe hunting, and slew them so quickly that not one of the brothers had time to ask what he had done to merit the god's wrath.",
+      "actor": null,
+      "action": "defeat",
+      "sourceAction": "slew",
+      "object": null,
+      "target": "apollo",
+      "recipient": null,
+      "location": null,
+      "result": "It was easy for Apollo to accomplish his part of the cruel task, for he met the seven sons of Niobe hunting, and slew them so quickly that not one of the brothers had time to ask",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:77.77.4-77.77.4:40e4ac2e"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-007",
+      "sourceSentence": "The daughters of Niobe were in the palace with their mother; but this did not daunt the young Diana, who put seven sharp arrows in her quiver, and, bow in hand, went forth to complete Latona's revenge.",
+      "sourceClause": "The daughters of Niobe were in the palace with their mother; but this did not daunt the young Diana, who put seven sharp arrows in her quiver, and, bow in hand, went forth to complete Latona's revenge.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "went",
+      "object": null,
+      "target": "artemis",
+      "recipient": null,
+      "location": null,
+      "result": "The daughters of Niobe were in the palace with their mother; but this did not daunt the young Diana, who put seven sharp arrows in her quiver, and, bow in hand, went forth to",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:77.77.4-77.77.4:40e4ac2e"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-008",
+      "sourceSentence": "She found the maidens seated at Niobe's side, weaving, and one by one the remorseless goddess shot them down in spite of their mother's heart-broken cries for mercy.",
+      "sourceClause": "She found the maidens seated at Niobe's side, weaving, and one by one the remorseless goddess shot them down in spite of their mother's heart-broken cries for mercy.",
+      "actor": null,
+      "action": "discover",
+      "sourceAction": "found",
+      "object": null,
+      "target": "niobe",
+      "recipient": null,
+      "location": null,
+      "result": "She found the maidens seated at Niobe's side, weaving, and one by one the remorseless goddess shot them down in spite of their mother's heart-broken cries for mercy.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:77.77.4-77.77.4:40e4ac2e"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "She found the maidens seated at Niobe's side, weaving, and one by one the remorseless goddess shot them down in spite of their mother's heart-broken cries for mercy.",
+      "evidence": [
+        "gutenberg:ebooks:45489:77.77.7-77.77.7:1433eae8"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "As they grew up she boasted of their strength and beauty to all who came to the shores of Delos, and no village or hamlet--however small--but had heard of Latona's children.",
+      "When Grecian mothers put their little ones to bed at night, they told wonderful tales of an island far out at sea where a brother and sister lived who were fairer than all the",
+      "When Niobe learned that the people in her kingdom were loud in their praises of Latona's children, and were neglecting to honor her own splendid sons and daughters, she was very",
+      "When Latona received the message she was so enraged at the insult that her desire for revenge knew no bounds.",
+      "She called Apollo and Diana to her side and commanded them to go forth and slay the children of Niobe.",
+      "It was easy for Apollo to accomplish his part of the cruel task, for he met the seven sons of Niobe hunting, and slew them so quickly that not one of the brothers had time to ask"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-82a8d4cd",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0077-e7df11",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Diana",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:77.77.1-77.77.1:ca73ab65",
+        "gutenberg:ebooks:45489:77.77.2-77.77.2:bba39e6b",
+        "gutenberg:ebooks:45489:77.77.3-77.77.3:bd070fed"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 150,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.65,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "artemis",
+    "niobe"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-004",
+    "event-005",
+    "event-006",
+    "event-007",
+    "event-008"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

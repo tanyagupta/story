@@ -15,7 +15,7 @@
   "workingTitle": "Loves.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "non_story_material",
+  "candidateType": "ambiguous",
   "mythFamilyId": "loves",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-loves-1154ee",
   "characters": [
@@ -26,5 +26,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 14,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -1,0 +1,83 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0329-63de5f",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Mercury",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "fulfilled",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:329.329.6-329.329.6:728cc960"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hermes",
+      "predicate": "opening_situation",
+      "object": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+      "evidence": [
+        "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hermes",
+      "predicate": "outcome",
+      "object": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+      "evidence": [
+        "gutenberg:ebooks:39250:329.329.6-329.329.6:728cc960"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-a44833e6",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0329-63de5f",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "On creaking hinges turn'd to break his sleep.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f",
+        "gutenberg:ebooks:39250:329.329.2-329.329.2:01315c12",
+        "gutenberg:ebooks:39250:329.329.3-329.329.3:1bb2093f"
+      ],
+      "status": "open"
+    }
+  ]
+}

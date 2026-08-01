@@ -21,10 +21,28 @@
   "mythFamilyId": "illustration-antigone-and-ismene",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-illustration-antigone-and-ismene-7815b2",
   "characters": [
-    "Antigone"
+    "Antigone",
+    "Argos"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 154,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 10,
+      "conflictSignals": 7,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

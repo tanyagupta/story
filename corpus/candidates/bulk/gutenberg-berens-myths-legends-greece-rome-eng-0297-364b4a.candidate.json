@@ -23,10 +23,32 @@
   "mythFamilyId": "perseus-and-medusa",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-perseus-and-medusa-ba4c19",
   "characters": [
-    "Perseus"
+    "Andromeda",
+    "Medusa",
+    "Perseus",
+    "Acrisius",
+    "Argos",
+    "Danae"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 108,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "actionBearingSentences": 5,
+      "conflictSignals": 2,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

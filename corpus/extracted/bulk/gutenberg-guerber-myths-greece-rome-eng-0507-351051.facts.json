@@ -1,0 +1,110 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0507-351051",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:507.507.1-507.507.1:774db575"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Prometheus",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:507.507.1-507.507.1:774db575"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "prometheus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Vulcan",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:507.507.1-507.507.1:774db575"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hephaestus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "stole",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:507.507.6-507.507.6:dc3668b3"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "Learned men have therefore proved that the \"beneficent Titan, who stole fire from heaven and bestowed it upon mankind as the richest of boons,\" was originally nothing but the",
+      "evidence": [
+        "gutenberg:ebooks:39250:507.507.1-507.507.1:774db575"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Learned men have therefore proved that the \"beneficent Titan, who stole fire from heaven and bestowed it upon mankind as the richest of boons,\" was originally nothing but the",
+      "evidence": [
+        "gutenberg:ebooks:39250:507.507.10-507.507.10:10423aa1"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-5176a2a0",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0507-351051",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "FIRE MYTHS.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:507.507.1-507.507.1:774db575",
+        "gutenberg:ebooks:39250:507.507.2-507.507.2:f81d602e",
+        "gutenberg:ebooks:39250:507.507.3-507.507.3:5a95536c"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0553-9f5fe0",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Niobe",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "niobe",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Theseus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "theseus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "slain",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:553.553.3-553.553.3:8995b3db"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "advised",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:553.553.4-553.553.4:8acbff7e"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "condemned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:553.553.8-553.553.8:2a19837a"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "niobe",
+      "predicate": "opening_situation",
+      "object": "Giant encountered and slain by Theseus, 251.",
+      "evidence": [
+        "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "niobe",
+      "predicate": "outcome",
+      "object": "King condemned to roll a rock in Tartarus to the top of a steep hill, 77, 167; significance, 389.",
+      "evidence": [
+        "gutenberg:ebooks:39250:553.553.8-553.553.8:2a19837a"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-0b3dd01f",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0553-9f5fe0",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Silver Age.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8",
+        "gutenberg:ebooks:39250:553.553.2-553.553.2:ea31c643",
+        "gutenberg:ebooks:39250:553.553.3-553.553.3:8995b3db"
+      ],
+      "status": "open"
+    }
+  ]
+}

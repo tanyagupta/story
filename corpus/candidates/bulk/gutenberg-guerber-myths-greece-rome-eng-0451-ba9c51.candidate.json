@@ -15,7 +15,7 @@
   "workingTitle": "And no dear mother.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "non_story_material",
+  "candidateType": "ambiguous",
   "mythFamilyId": "and-no-dear-mother",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-and-no-dear-mother-05c76b",
   "characters": [
@@ -26,5 +26,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 14,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

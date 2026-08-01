@@ -15,7 +15,7 @@
     "gutenberg:ebooks:22381:160.160.10-160.160.10:a6f87978",
     "gutenberg:ebooks:22381:160.160.11-160.160.11:b32a82d7"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -29,10 +29,39 @@
   "mythFamilyId": "diana",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-diana-7f8143",
   "characters": [
-    "Diana"
+    "Achilles",
+    "Aeneas",
+    "Ariadne",
+    "Diana",
+    "Dionysus",
+    "Pandora",
+    "Vulcan",
+    "Zeus",
+    "Aetes"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 174,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -57,7 +57,7 @@
     "gutenberg:ebooks:22381:303.303.52-303.303.52:028cf29c",
     "gutenberg:ebooks:22381:303.303.53-303.303.53:e04568c8"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -71,10 +71,45 @@
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-heracles-labors-9f9494",
   "characters": [
-    "Jason"
+    "Apollo",
+    "Circe",
+    "Jason",
+    "Medea",
+    "Medusa",
+    "Orpheus",
+    "Perseus",
+    "Poseidon",
+    "Prometheus",
+    "Zeus",
+    "Aetes",
+    "Argos",
+    "Argonauts",
+    "Cyzicus",
+    "Phryxus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

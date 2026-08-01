@@ -13,7 +13,7 @@
     "gutenberg:ebooks:39250:486.486.8-486.486.8:6d12b1d1",
     "gutenberg:ebooks:39250:486.486.9-486.486.9:b0710141"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -26,9 +26,38 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "who-once-oer-land-and-peoples-proud",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-who-once-oer-land-and-peoples-proud-96e8ae",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Helen",
+    "Juno",
+    "Jupiter",
+    "Minerva",
+    "Neptune",
+    "Paris",
+    "Venus"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 114,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

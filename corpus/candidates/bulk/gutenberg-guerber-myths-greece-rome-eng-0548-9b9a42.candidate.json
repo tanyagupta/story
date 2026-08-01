@@ -109,10 +109,65 @@
   "mythFamilyId": "pan",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-pan-3f5081",
   "characters": [
-    "Minerva"
+    "Achilles",
+    "Adonis",
+    "Antigone",
+    "Apollo",
+    "Atalanta",
+    "Bacchus",
+    "Bellerophon",
+    "Ceres",
+    "Cupid",
+    "Daphne",
+    "Diana",
+    "Europa",
+    "Hades",
+    "Hector",
+    "Helen",
+    "Hercules",
+    "Jason",
+    "Juno",
+    "Jupiter",
+    "Medusa",
+    "Mercury",
+    "Minerva",
+    "Neptune",
+    "Orpheus",
+    "Paris",
+    "Pegasus",
+    "Persephone",
+    "Perseus",
+    "Pluto",
+    "Proserpina",
+    "Theseus",
+    "Ulysses",
+    "Venus",
+    "Vulcan",
+    "Arethusa",
+    "Athamas",
+    "Danae",
+    "Minos",
+    "Nephele"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 758,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 39,
+      "actionBearingSentences": 30,
+      "conflictSignals": 17,
+      "paragraphCount": 91,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -12,7 +12,7 @@
     "gutenberg:ebooks:39250:356.356.7-356.356.7:02c2271b",
     "gutenberg:ebooks:39250:356.356.8-356.356.8:94e89422"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,14 +22,31 @@
   "workingTitle": "Lewis Morris.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-heracles-labors-92f583",
   "characters": [
     "Hercules"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 57,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 6,
+      "conflictSignals": 0,
+      "paragraphCount": 8,
+      "knownMythFamily": true
+    }
+  }
 }

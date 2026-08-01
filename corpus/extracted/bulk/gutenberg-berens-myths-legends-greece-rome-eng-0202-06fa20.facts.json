@@ -1,0 +1,255 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0202-06fa20",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Medusa",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "medusa",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Pegasus",
+      "entityType": "character",
+      "roleInEpisode": "antagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "pegasus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Perseus",
+      "entityType": "character",
+      "roleInEpisode": "antagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "perseus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Poseidon",
+      "entityType": "character",
+      "roleInEpisode": "antagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "medusa",
+      "relationship": "parent_of",
+      "target": "pegasus",
+      "sourceWording": "Medusa was the mother of Pegasus",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "turned",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.2-202.202.2:10c71e57"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.4-202.202.4:17960543"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.5-202.202.5:4a21c7de"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "punished",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.5-202.202.5:4a21c7de"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.5-202.202.5:4a21c7de"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "medusa",
+      "sourceAction": "fled",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.5-202.202.5:4a21c7de"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "fled",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.5-202.202.5:4a21c7de"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:202.202.5-202.202.5:4a21c7de"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "medusa",
+      "predicate": "opening_situation",
+      "object": "They were frightful winged monsters, whose bodies were covered with scales; hissing, wriggling snakes clustered round their heads instead of hair; their hands were of brass; their",
+      "evidence": [
+        "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "medusa",
+      "predicate": "outcome",
+      "object": "With the curse of Athene upon her, she turned into stone whomsoever she gazed upon, till at last, after a life of nameless misery, deliverance came to her in the shape of death",
+      "evidence": [
+        "gutenberg:ebooks:22381:202.202.7-202.202.7:391ec434"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-18bd3851",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0202-06fa20",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THE GORGONS.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5",
+        "gutenberg:ebooks:22381:202.202.2-202.202.2:10c71e57",
+        "gutenberg:ebooks:22381:202.202.3-202.202.3:7bb6f099"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "mythId": "bulk-myth-0174",
+  "mythFamilyId": "heracles-labors",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-heracles-labors-141897",
+  "title": "Eurystheus.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:308.308.1-308.308.1:69a36a17",
+      "gutenberg:ebooks:22381:308.308.2-308.308.2:c9f4632a",
+      "gutenberg:ebooks:22381:308.308.3-308.308.3:62a2b819"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "eurystheus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Eurystheus",
+      "normalizedId": "eurystheus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:308.308.1-308.308.1:69a36a17"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to the He then made himself a coat of mail of the skin, and a new helmet of the head of the animal.",
+    "openingSituation": "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to the",
+    "centralConflict": "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to the",
+    "resolution": "Thus attired, he so alarmed Eurystheus by appearing suddenly before him, that the king concealed himself in his palace, and henceforth forbade Heracles to enter his presence, but",
+    "outcome": "Thus attired, he so alarmed Eurystheus by appearing suddenly before him, that the king concealed himself in his palace, and henceforth forbade Heracles to enter his presence, but",
+    "storyline": [
+      "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to the",
+      "He then made himself a coat of mail of the skin, and a new helmet of the head of the animal.",
+      "Thus attired, he so alarmed Eurystheus by appearing suddenly before him, that the king concealed himself in his palace, and henceforth forbade Heracles to enter his presence, but"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:308.308.1-308.308.1:69a36a17",
+        "gutenberg:ebooks:22381:308.308.2-308.308.2:c9f4632a",
+        "gutenberg:ebooks:22381:308.308.3-308.308.3:62a2b819"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:308.308.2-308.308.2:c9f4632a"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:308.308.2-308.308.2:c9f4632a"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:308.308.2-308.308.2:c9f4632a"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:308.308.2-308.308.2:c9f4632a"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:308.308.1-308.308.1:69a36a17",
+      "excerpt": "1. THE NEMEAN LION.--His first task was to bring to Eurystheus the skin of the much-dreaded Nemean lion, which ravaged the territory between Cleone and Nemea, and whose hide was invulnerable against any mortal weapon.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:308.308.2-308.308.2:c9f4632a",
+      "excerpt": "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to the ground with his club, and before the animal had time to",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:308.308.3-308.308.3:62a2b819",
+      "excerpt": "2. THE HYDRA.--His second task was to slay the Hydra, a monster serpent (the offspring of Typhon and Echidna), bristling with nine heads, one of which was immortal.",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "eurystheus",
+      "predicate": "opening_situation",
+      "object": "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to the",
+      "evidence": [
+        "gutenberg:ebooks:22381:308.308.1-308.308.1:69a36a17"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to the ground with his club, and before the animal had time to recover from the terrible blow, {239} Heracles seized him by the neck and, with a mighty effort, succeeded in strangling him.",
+      "sourceClause": "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to the ground with his club, and before the animal had time to recover from the terrible blow, {239} Heracles seized him by the neck and, with a mighty effort, succeeded in strangling him.",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "seized",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to the",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:308.308.2-308.308.2:c9f4632a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "He then made himself a coat of mail of the skin, and a new helmet of the head of the animal.",
+      "sourceClause": "He then made himself a coat of mail of the skin, and a new helmet of the head of the animal.",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "He then made himself a coat of mail of the skin, and a new helmet of the head of the animal.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:308.308.2-308.308.2:c9f4632a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Thus attired, he so alarmed Eurystheus by appearing suddenly before him, that the king concealed himself in his palace, and henceforth forbade Heracles to enter his presence, but commanded him to receive his behests, for the future, through his messenger Copreus.",
+      "sourceClause": "Thus attired, he so alarmed Eurystheus by appearing suddenly before him, that the king concealed himself in his palace, and henceforth forbade Heracles to enter his presence, but commanded him to receive his behests, for the future, through his messenger Copreus.",
+      "actor": null,
+      "action": "command",
+      "sourceAction": "forbade",
+      "object": null,
+      "target": "eurystheus",
+      "recipient": null,
+      "location": null,
+      "result": "Thus attired, he so alarmed Eurystheus by appearing suddenly before him, that the king concealed himself in his palace, and henceforth forbade Heracles to enter his presence, but",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:308.308.2-308.308.2:c9f4632a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "eurystheus",
+      "predicate": "outcome",
+      "object": "Thus attired, he so alarmed Eurystheus by appearing suddenly before him, that the king concealed himself in his palace, and henceforth forbade Heracles to enter his presence, but",
+      "evidence": [
+        "gutenberg:ebooks:22381:308.308.3-308.308.3:62a2b819"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Heracles proceeded to the forest of Nemea, where, having discovered the lion's lair, he attempted to pierce him with his arrows; but finding these of no avail he felled him to the",
+      "He then made himself a coat of mail of the skin, and a new helmet of the head of the animal.",
+      "Thus attired, he so alarmed Eurystheus by appearing suddenly before him, that the king concealed himself in his palace, and henceforth forbade Heracles to enter his presence, but"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-b58eb430",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0308-ba0e00",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Eurystheus.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:308.308.1-308.308.1:69a36a17",
+        "gutenberg:ebooks:22381:308.308.2-308.308.2:c9f4632a",
+        "gutenberg:ebooks:22381:308.308.3-308.308.3:62a2b819"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 74,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.37,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "eurystheus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

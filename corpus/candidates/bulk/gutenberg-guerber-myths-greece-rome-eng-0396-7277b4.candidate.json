@@ -25,10 +25,29 @@
   "mythFamilyId": "jason-and-argonauts",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-jason-and-argonauts-edabe4",
   "characters": [
-    "Jason"
+    "Jason",
+    "Medea",
+    "Argonauts"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 102,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 6,
+      "conflictSignals": 3,
+      "paragraphCount": 7,
+      "knownMythFamily": true
+    }
+  }
 }

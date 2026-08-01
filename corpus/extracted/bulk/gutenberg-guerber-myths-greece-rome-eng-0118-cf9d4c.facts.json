@@ -5,57 +5,57 @@
     {
       "sourceName": "Eurydice",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "eurydice",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Orpheus",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "orpheus",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Pluto",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-pluto",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Proserpina",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "ruler",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-proserpina",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "persephone",
       "normalizationStatus": "approved"
     }
   ],
@@ -63,7 +63,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "orpheus",
+      "actorSourceName": null,
       "sourceAction": "wandered",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -77,11 +77,11 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "eurydice",
-      "sourceAction": "is described",
+      "actorSourceName": "orpheus",
+      "sourceAction": "made",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -94,31 +94,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "eurydice",
-      "predicate": "is introduced in",
-      "object": "Saxe.",
+      "predicate": "opening_situation",
+      "object": "No living being had ever before penetrated thus into the Infernal Regions, and Orpheus wandered on until he came to the throne of Pluto, king of these realms, whereon the stern",
       "evidence": [
         "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf"
       ]
@@ -127,14 +110,33 @@
   "finalState": [
     {
       "subject": "eurydice",
-      "predicate": "is last attested in selected candidate",
-      "object": "Saxe.",
+      "predicate": "outcome",
+      "object": "Orpheus made known his errand in operatic guise, and succeeded in moving the royal pair to tears, whereupon they graciously consented to restore Eurydice to life and to her fond",
       "evidence": [
         "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-3b3ffe6a",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0118-cf9d4c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf",
+        "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4",
+        "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32"
+      ],
+      "status": "open"
+    }
+  ]
 }

@@ -10,7 +10,7 @@
     "gutenberg:ebooks:39250:100.100.5-100.100.5:06b0e244",
     "gutenberg:ebooks:39250:100.100.6-100.100.6:e50629e8"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -20,14 +20,32 @@
   "workingTitle": "Keats.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "apollo-and-daphne",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-1ae06a",
   "characters": [
-    "Apollo"
+    "Apollo",
+    "Daphne"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 75,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "actionBearingSentences": 3,
+      "conflictSignals": 3,
+      "paragraphCount": 6,
+      "knownMythFamily": true
+    }
+  }
 }

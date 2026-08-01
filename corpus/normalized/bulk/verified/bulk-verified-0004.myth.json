@@ -1,0 +1,411 @@
+{
+  "mythId": "bulk-verified-0004",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Perseus is assigned the Medusa quest.",
+      "Hermes and Pallas-Athene guide him.",
+      "Perseus cuts off Medusa's head.",
+      "Perseus proposes to save Andromeda.",
+      "Perseus transforms the sea monster."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "Perseus and Medusa",
+  "mythFamilyId": "perseus-and-medusa",
+  "variantId": "gutenberg-berens-perseus-medusa-verified",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+      "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735",
+      "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7",
+      "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
+      "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65"
+    ]
+  },
+  "scope": {
+    "type": "multi-episode",
+    "description": "Selected passages include the Medusa expedition and the connected Andromeda rescue; both are named in the narrative rather than flattened into one conflict.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+      "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735",
+      "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7",
+      "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
+      "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The source links Perseus' Medusa quest to his later use of Medusa's head in Andromeda's rescue."
+  },
+  "entities": {
+    "characters": [
+      "perseus",
+      "medusa",
+      "hermes",
+      "athena",
+      "andromeda",
+      "cepheus"
+    ],
+    "locations": [
+      "aethiopia"
+    ],
+    "objects": [
+      "medusas-head",
+      "winged-sandals",
+      "helmet",
+      "wallet",
+      "sickle"
+    ],
+    "creatures": [
+      "gorgons",
+      "dragon"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Perseus",
+      "normalizedId": "perseus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+          "sourceText": "Polydectes eventually became united to Danae, and {206} bestowed upon Perseus an education befitting a hero.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Medusa",
+      "normalizedId": "medusa",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+          "sourceText": "When he saw his stepson develop into a noble and manly youth he endeavoured to instil into his mind a desire to signalize himself by the achievement of some great and heroic deed, and after mature deliberation it was decided that the slaying of the Gorgon, Medusa, would bring him the greatest renown.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Hermes",
+      "normalizedId": "hermes",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735",
+          "sourceText": "Perseus started on his expedition, and, guided by Hermes and Pallas-Athene, arrived, after a long journey, in the far-off region, on the borders of Oceanus, where dwelt the Graeae, daughters of Phorcys and Ceto.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Pallas-Athene",
+      "normalizedId": "athena",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735",
+          "sourceText": "Perseus started on his expedition, and, guided by Hermes and Pallas-Athene, arrived, after a long journey, in the far-off region, on the borders of Oceanus, where dwelt the Graeae, daughters of Phorcys and Ceto.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Andromeda",
+      "normalizedId": "andromeda",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
+          "sourceText": "Overjoyed at the prospect of Andromeda's release, the king gladly acceded to the stipulation, and Perseus hastened to the rock, to breathe words of hope and comfort to the trembling maiden.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Cepheus",
+      "normalizedId": "cepheus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
+          "sourceText": "On being informed of the meaning of this tragic scene, Perseus proposed to Cepheus to slay the dragon, on condition that the lovely victim should become his bride.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "perseus",
+      "sourceNames": [
+        "Perseus"
+      ],
+      "role": "hero",
+      "reason": "He undertakes the Medusa expedition and rescues Andromeda.",
+      "evidence": [
+        "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+        "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7",
+        "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65"
+      ]
+    },
+    {
+      "entityId": "medusa",
+      "sourceNames": [
+        "Medusa"
+      ],
+      "role": "quest target",
+      "reason": "The selected deed is the slaying of Medusa.",
+      "evidence": [
+        "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+        "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7"
+      ]
+    },
+    {
+      "entityId": "andromeda",
+      "sourceNames": [
+        "Andromeda"
+      ],
+      "role": "rescued participant",
+      "reason": "Perseus uses Medusa's head to deliver Andromeda.",
+      "evidence": [
+        "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
+        "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "perseus",
+      "relationship": "rescues",
+      "target": "andromeda",
+      "sourceText": "Overjoyed at the prospect of Andromeda's release, the king gladly acceded to the stipulation, and Perseus hastened to the rock, to breathe words of hope and comfort to the trembling maiden.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
+        "sourceText": "Overjoyed at the prospect of Andromeda's release, the king gladly acceded to the stipulation, and Perseus hastened to the rock, to breathe words of hope and comfort to the trembling maiden."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Perseus undertakes the Medusa expedition with divine guidance, cuts off Medusa's head, and later uses it to deliver Andromeda from the sea monster.",
+    "openingSituation": "Polydectes decides that slaying Medusa would bring Perseus renown.",
+    "centralConflict": "Perseus must kill Medusa without looking directly at the Gorgons.",
+    "resolution": "Guided by Pallas-Athene, Perseus cuts off Medusa's head.",
+    "outcome": "Perseus uses Medusa's head to transform the sea monster and deliver Andromeda.",
+    "storyline": [
+      "Perseus is assigned the Medusa quest.",
+      "Hermes and Pallas-Athene guide him.",
+      "Perseus cuts off Medusa's head.",
+      "Perseus proposes to save Andromeda.",
+      "Perseus transforms the sea monster."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+      "sourceText": "When he saw his stepson develop into a noble and manly youth he endeavoured to instil into his mind a desire to signalize himself by the achievement of some great and heroic deed, and after mature deliberation it was decided that the slaying of the Gorgon, Medusa, would bring him the greatest renown.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7",
+      "sourceText": "Then, guided by Pallas-Athene, he cut off the head of the Medusa, which he placed in his wallet.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        },
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports resolution.",
+          "field": "resolution"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65",
+      "sourceText": "Lashing his tail furiously from side to side, he leaped forward to seize his victim; but the gallant hero, watching his opportunity, suddenly darted down, and producing the head of the Medusa from his wallet, held it before the eyes of the dragon, whose hideous body became gradually transformed into a huge black rock, which remained for ever a silent witness of the miraculous deliverance of Andromeda.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "perseus",
+      "predicate": "assigned_task",
+      "object": "medusa",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+          "sourceText": "When he saw his stepson develop into a noble and manly youth he endeavoured to instil into his mind a desire to signalize himself by the achievement of some great and heroic deed, and after mature deliberation it was decided that the slaying of the Gorgon, Medusa, would bring him the greatest renown."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "travel",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Perseus started on his expedition, and, guided by Hermes and Pallas-Athene, arrived, after a long journey, in the far-off region, on the borders of Oceanus, where dwelt the Graeae, daughters of Phorcys and Ceto.",
+      "normalizedStatement": "Perseus started the expedition.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735",
+          "sourceText": "Perseus started on his expedition, and, guided by Hermes and Pallas-Athene, arrived, after a long journey, in the far-off region, on the borders of Oceanus, where dwelt the Graeae, daughters of Phorcys and Ceto."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "perseus",
+      "action": "travel"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "kill",
+      "target": "medusa",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Then, guided by Pallas-Athene, he cut off the head of the Medusa, which he placed in his wallet.",
+      "normalizedStatement": "Perseus cut off Medusa's head.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7",
+          "sourceText": "Then, guided by Pallas-Athene, he cut off the head of the Medusa, which he placed in his wallet."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "perseus",
+      "action": "kill",
+      "actorResolution": "The pronoun 'he' resolves to Perseus from the sentence subject."
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "rescue",
+      "target": "andromeda",
+      "object": null,
+      "recipient": "cepheus",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "On being informed of the meaning of this tragic scene, Perseus proposed to Cepheus to slay the dragon, on condition that the lovely victim should become his bride.",
+      "normalizedStatement": "Perseus proposed to slay the dragon for Andromeda's release.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
+          "sourceText": "On being informed of the meaning of this tragic scene, Perseus proposed to Cepheus to slay the dragon, on condition that the lovely victim should become his bride."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "perseus",
+      "action": "rescue"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "transform",
+      "target": "dragon",
+      "object": "medusas-head",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Lashing his tail furiously from side to side, he leaped forward to seize his victim; but the gallant hero, watching his opportunity, suddenly darted down, and producing the head of the Medusa from his wallet, held it before the eyes of the dragon, whose hideous body became gradually transformed into a huge black rock, which remained for ever a silent witness of the miraculous deliverance of Andromeda.",
+      "normalizedStatement": "Perseus used Medusa's head to transform the dragon.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65",
+          "sourceText": "Lashing his tail furiously from side to side, he leaped forward to seize his victim; but the gallant hero, watching his opportunity, suddenly darted down, and producing the head of the Medusa from his wallet, held it before the eyes of the dragon, whose hideous body became gradually transformed into a huge black rock, which remained for ever a silent witness of the miraculous deliverance of Andromeda."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "perseus",
+      "action": "transform"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "andromeda",
+      "predicate": "delivered_by",
+      "object": "perseus",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65",
+          "sourceText": "Lashing his tail furiously from side to side, he leaped forward to seize his victim; but the gallant hero, watching his opportunity, suddenly darted down, and producing the head of the Medusa from his wallet, held it before the eyes of the dragon, whose hideous body became gradually transformed into a huge black rock, which remained for ever a silent witness of the miraculous deliverance of Andromeda."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+      "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735",
+      "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7",
+      "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
+      "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65"
+    ],
+    "claimsChecked": [
+      "Medusa episode",
+      "Andromeda episode",
+      "divine guides",
+      "magical objects",
+      "actors and targets"
+    ],
+    "correctionsMade": [
+      "Marked the record multi-episode.",
+      "Separated Medusa conflict from Andromeda outcome.",
+      "Stored exact source text separately from normalized statements."
+    ],
+    "remainingUncertainties": []
+  }
+}

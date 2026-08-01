@@ -9,7 +9,7 @@
     "gutenberg:ebooks:45489:68.68.4-68.68.4:aca9085e",
     "gutenberg:ebooks:45489:68.68.5-68.68.5:60e86c4a"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -19,16 +19,35 @@
   "workingTitle": "Apollo the Musician",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "apollo-and-daphne",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-apollo-and-daphne-504010",
   "characters": [
     "Apollo",
+    "Arachne",
     "Jupiter",
+    "Minerva",
     "Neptune"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 162,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 12,
+      "conflictSignals": 4,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -1,0 +1,243 @@
+{
+  "mythId": "bulk-myth-0176",
+  "mythFamilyId": "niobe",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-niobe-407af5",
+  "title": "Meleager.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c",
+      "gutenberg:ebooks:39250:151.151.2-151.151.2:f963429b"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "niobe"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Niobe",
+      "normalizedId": "niobe",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The last clung convulsively to her mother's breast; but, even in that fond mother's passionate embrace, death found and claimed her. Then the gods, touched by the sight of woe so intense, changed Niobe into stone, just as she stood, with upturned face, streaming eyes, and quivering lips.",
+    "openingSituation": "The last clung convulsively to her mother's breast; but, even in that fond mother's passionate embrace, death found and claimed her.",
+    "centralConflict": "Then the gods, touched by the sight of woe so intense, changed Niobe into stone, just as she stood, with upturned face, streaming eyes, and quivering lips.",
+    "resolution": "This statue was placed on Mount Sipylus, close to a stream of running water; and it was said that tears continually flowed down the marble cheeks, for, though changed, Niobe still",
+    "outcome": "This statue was placed on Mount Sipylus, close to a stream of running water; and it was said that tears continually flowed down the marble cheeks, for, though changed, Niobe still",
+    "storyline": [
+      "The last clung convulsively to her mother's breast; but, even in that fond mother's passionate embrace, death found and claimed her.",
+      "Then the gods, touched by the sight of woe so intense, changed Niobe into stone, just as she stood, with upturned face, streaming eyes, and quivering lips.",
+      "This statue was placed on Mount Sipylus, close to a stream of running water; and it was said that tears continually flowed down the marble cheeks, for, though changed, Niobe still"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c",
+        "gutenberg:ebooks:39250:151.151.2-151.151.2:f963429b"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:151.151.2-151.151.2:f963429b"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:151.151.2-151.151.2:f963429b"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c",
+      "excerpt": "In vain the poor girls sought to escape the flying arrows. In vain Niobe sought to protect them, and called upon all the gods of Olympus. Her daughters fell one by one, never to rise again.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:151.151.2-151.151.2:f963429b",
+      "excerpt": "This statue was placed on Mount Sipylus, close to a stream of running water; and it was said that tears continually flowed down the marble cheeks, for, though changed, Niobe still felt, and wept for her great loss.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "niobe",
+      "predicate": "opening_situation",
+      "object": "The last clung convulsively to her mother's breast; but, even in that fond mother's passionate embrace, death found and claimed her.",
+      "evidence": [
+        "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "The last clung convulsively to her mother's breast; but, even in that fond mother's passionate embrace, death found and claimed her.",
+      "sourceClause": "The last clung convulsively to her mother's breast; but, even in that fond mother's passionate embrace, death found and claimed her.",
+      "actor": null,
+      "action": "discover",
+      "sourceAction": "found",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The last clung convulsively to her mother's breast; but, even in that fond mother's passionate embrace, death found and claimed her.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Then the gods, touched by the sight of woe so intense, changed Niobe into stone, just as she stood, with upturned face, streaming eyes, and quivering lips.",
+      "sourceClause": "Then the gods, touched by the sight of woe so intense, changed Niobe into stone, just as she stood, with upturned face, streaming eyes, and quivering lips.",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "changed",
+      "object": null,
+      "target": "niobe",
+      "recipient": null,
+      "location": null,
+      "result": "Then the gods, touched by the sight of woe so intense, changed Niobe into stone, just as she stood, with upturned face, streaming eyes, and quivering lips.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "This statue was placed on Mount Sipylus, close to a stream of running water; and it was said that tears continually flowed down the marble cheeks, for, though changed, Niobe still felt, and wept for her great loss.",
+      "sourceClause": "This statue was placed on Mount Sipylus, close to a stream of running water; and it was said that tears continually flowed down the marble cheeks, for, though changed, Niobe still felt, and wept for her great loss.",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "changed",
+      "object": null,
+      "target": "niobe",
+      "recipient": null,
+      "location": null,
+      "result": "This statue was placed on Mount Sipylus, close to a stream of running water; and it was said that tears continually flowed down the marble cheeks, for, though changed, Niobe still",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:151.151.2-151.151.2:f963429b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "niobe",
+      "predicate": "outcome",
+      "object": "This statue was placed on Mount Sipylus, close to a stream of running water; and it was said that tears continually flowed down the marble cheeks, for, though changed, Niobe still",
+      "evidence": [
+        "gutenberg:ebooks:39250:151.151.2-151.151.2:f963429b"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The last clung convulsively to her mother's breast; but, even in that fond mother's passionate embrace, death found and claimed her.",
+      "Then the gods, touched by the sight of woe so intense, changed Niobe into stone, just as she stood, with upturned face, streaming eyes, and quivering lips.",
+      "This statue was placed on Mount Sipylus, close to a stream of running water; and it was said that tears continually flowed down the marble cheeks, for, though changed, Niobe still"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-989acf4e",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0151-50f83b",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Meleager.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c",
+        "gutenberg:ebooks:39250:151.151.2-151.151.2:f963429b"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 74,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.37,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "niobe"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

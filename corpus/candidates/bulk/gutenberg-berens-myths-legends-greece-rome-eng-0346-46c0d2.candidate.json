@@ -15,7 +15,7 @@
   "workingTitle": "KELLOGG'S TEXT-BOOK ON ENGLISH LITERATURE.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "non_story_material",
+  "candidateType": "biographical_material",
   "mythFamilyId": "kelloggs-text-book-on-english-literature",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-kelloggs-text-book-on-english-literature-240fe7",
   "characters": [],
@@ -24,5 +24,22 @@
   "duplicateOf": null,
   "qualityFlags": [
     "short-section"
-  ]
+  ],
+  "semanticQuality": {
+    "score": 6,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "actionBearingSentences": 0,
+      "conflictSignals": 0,
+      "paragraphCount": 1,
+      "knownMythFamily": true
+    }
+  }
 }

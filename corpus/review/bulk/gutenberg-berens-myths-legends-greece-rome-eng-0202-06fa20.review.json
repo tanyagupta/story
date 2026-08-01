@@ -1,0 +1,41 @@
+{
+  "reviewType": "semantic-quality",
+  "status": "requires-source-grounded-review",
+  "semanticQuality": {
+    "score": 158,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events"
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "items": [
+    {
+      "reviewId": "review-18bd3851",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0202-06fa20",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THE GORGONS.",
+      "suggestions": [
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5",
+        "gutenberg:ebooks:22381:202.202.2-202.202.2:10c71e57",
+        "gutenberg:ebooks:22381:202.202.3-202.202.3:7bb6f099"
+      ],
+      "status": "open"
+    }
+  ]
+}

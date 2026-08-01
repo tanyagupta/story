@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:265.265.3-265.265.3:7962d0b7",
     "gutenberg:ebooks:39250:265.265.4-265.265.4:78d2d69b"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -18,17 +18,36 @@
   "workingTitle": "Prior.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "dionysus-and-pirates",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-dionysus-and-pirates-c5cf90",
   "characters": [
     "Bacchus",
     "Juno",
     "Jupiter",
-    "Mercury"
+    "Mercury",
+    "Athamas",
+    "Ino"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 105,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "actionBearingSentences": 3,
+      "conflictSignals": 3,
+      "paragraphCount": 4,
+      "knownMythFamily": true
+    }
+  }
 }

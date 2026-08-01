@@ -1,0 +1,215 @@
+{
+  "mythId": "bulk-myth-0213",
+  "mythFamilyId": "little-bear",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-little-bear-03b372",
+  "title": "Little Bear.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:535.535.1-535.535.1:6bd3b9b4",
+      "gutenberg:ebooks:39250:535.535.2-535.535.2:975d80fc",
+      "gutenberg:ebooks:39250:535.535.3-535.535.3:811a5472"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Arcas changed into the constellation of the, 52. Nymph changed into a lotus blossom, 299.",
+    "openingSituation": "Arcas changed into the constellation of the, 52.",
+    "centralConflict": "Arcas changed into the constellation of the, 52.",
+    "resolution": "Nymph changed into a lotus blossom, 299.",
+    "outcome": "Nymph changed into a lotus blossom, 299.",
+    "storyline": [
+      "Arcas changed into the constellation of the, 52.",
+      "Nymph changed into a lotus blossom, 299."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:535.535.1-535.535.1:6bd3b9b4",
+        "gutenberg:ebooks:39250:535.535.2-535.535.2:975d80fc",
+        "gutenberg:ebooks:39250:535.535.3-535.535.3:811a5472"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:535.535.1-535.535.1:6bd3b9b4"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:535.535.1-535.535.1:6bd3b9b4"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:535.535.2-535.535.2:975d80fc"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:535.535.2-535.535.2:975d80fc"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:535.535.1-535.535.1:6bd3b9b4",
+      "excerpt": "Arcas changed into the constellation of the, 52.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:535.535.2-535.535.2:975d80fc",
+      "excerpt": "Lo´tis. Nymph changed into a lotus blossom, 299.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:535.535.3-535.535.3:811a5472",
+      "excerpt": "Lo-toph´a-gi. People whose food was the lotus; the Lotus-eaters, 338.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Arcas changed into the constellation of the, 52.",
+      "evidence": [
+        "gutenberg:ebooks:39250:535.535.1-535.535.1:6bd3b9b4"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Arcas changed into the constellation of the, 52.",
+      "sourceClause": "Arcas changed into the constellation of the, 52.",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "changed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Arcas changed into the constellation of the, 52.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:535.535.1-535.535.1:6bd3b9b4"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Nymph changed into a lotus blossom, 299.",
+      "sourceClause": "Nymph changed into a lotus blossom, 299.",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "changed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Nymph changed into a lotus blossom, 299.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:535.535.2-535.535.2:975d80fc"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Nymph changed into a lotus blossom, 299.",
+      "evidence": [
+        "gutenberg:ebooks:39250:535.535.3-535.535.3:811a5472"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Arcas changed into the constellation of the, 52.",
+      "Nymph changed into a lotus blossom, 299."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-3a6f2045",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0535-e27bfc",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Little Bear.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:535.535.1-535.535.1:6bd3b9b4",
+        "gutenberg:ebooks:39250:535.535.2-535.535.2:975d80fc",
+        "gutenberg:ebooks:39250:535.535.3-535.535.3:811a5472"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 55,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.275,
+  "failedGates": [
+    "no-mythological-characters",
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

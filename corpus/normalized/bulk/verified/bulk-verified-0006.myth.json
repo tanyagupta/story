@@ -1,0 +1,433 @@
+{
+  "mythId": "bulk-verified-0006",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Mercury deposits the box.",
+      "Pandora opens the box.",
+      "Evils fly out and sting Pandora and Epimetheus.",
+      "Hope remains inside.",
+      "Hope is released to aid humanity."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "The Story of Pandora",
+  "mythFamilyId": "pandora",
+  "variantId": "gutenberg-guerber-pandora-verified",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
+      "gutenberg:ebooks:39250:53.53.5-53.53.5:603cf055",
+      "gutenberg:ebooks:39250:53.53.6-53.53.6:b6b1fdda",
+      "gutenberg:ebooks:39250:53.53.7-53.53.7:c6d72898",
+      "gutenberg:ebooks:39250:53.53.9-53.53.9:88c95c92",
+      "gutenberg:ebooks:39250:53.53.12-53.53.12:260c01ce",
+      "gutenberg:ebooks:39250:53.53.13-53.53.13:8eb150bc"
+    ]
+  },
+  "scope": {
+    "type": "partial-section",
+    "description": "Selected Guerber Pandora passages cover Mercury's arrival, Pandora's opening of the box, the release of evils, Hope remaining, and Hope's later release.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
+      "gutenberg:ebooks:39250:53.53.5-53.53.5:603cf055",
+      "gutenberg:ebooks:39250:53.53.6-53.53.6:b6b1fdda",
+      "gutenberg:ebooks:39250:53.53.7-53.53.7:c6d72898",
+      "gutenberg:ebooks:39250:53.53.9-53.53.9:88c95c92",
+      "gutenberg:ebooks:39250:53.53.12-53.53.12:260c01ce",
+      "gutenberg:ebooks:39250:53.53.13-53.53.13:8eb150bc"
+    ],
+    "omittedPassages": [
+      "gutenberg:ebooks:39250:53.53.2-53.53.2:9b868300",
+      "gutenberg:ebooks:39250:53.53.3-53.53.3:64477d22",
+      "gutenberg:ebooks:39250:53.53.4-53.53.4:c518b6ab",
+      "gutenberg:ebooks:39250:53.53.8-53.53.8:16ef1ab6",
+      "gutenberg:ebooks:39250:53.53.10-53.53.10:ba0b7f57",
+      "gutenberg:ebooks:39250:53.53.11-53.53.11:f49d10a8",
+      "gutenberg:ebooks:39250:53.53.14-53.53.14:6a30a6d9"
+    ],
+    "boundaryRationale": "The record follows the core event sequence and explicitly lists omitted adjacent passages, including poetry and additional dialogue."
+  },
+  "entities": {
+    "characters": [
+      "pandora",
+      "epimetheus",
+      "hermes",
+      "zeus",
+      "hope",
+      "humanity",
+      "evils"
+    ],
+    "locations": [],
+    "objects": [
+      "box"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Pandora",
+      "normalizedId": "pandora",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
+          "sourceText": "Pandora immediately ceased dancing, to speculate with feminine curiosity upon the contents of the chest.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Epimetheus",
+      "normalizedId": "epimetheus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
+          "sourceText": "She nudged Epimetheus, and in a whisper begged him to ask Mercury what brought him thither.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "hermes",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
+          "sourceText": "One lovely evening, while dancing on the green, they saw Mercury, Jupiter's messenger, coming towards them.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.6-53.53.6:b6b1fdda",
+          "sourceText": "Now, Jupiter had malignantly crammed into this box all the diseases, sorrows, vices, and crimes that afflict poor humanity; and the box was no sooner opened, than all these ills flew out, in the guise of horrid little brown-winged creatures, closely resembling moths.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Hope",
+      "normalizedId": "hope",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.9-53.53.9:88c95c92",
+          "sourceText": "It was well for Pandora that she opened the box a second time, for the gods, with a sudden impulse of compassion, had concealed among the evil spirits one kindly creature, Hope, whose mission was to heal the wounds inflicted by her fellow-prisoners.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "pandora",
+      "sourceNames": [
+        "Pandora"
+      ],
+      "role": "opener of the box",
+      "reason": "She opens the box and later releases Hope.",
+      "evidence": [
+        "gutenberg:ebooks:39250:53.53.5-53.53.5:603cf055",
+        "gutenberg:ebooks:39250:53.53.9-53.53.9:88c95c92"
+      ]
+    },
+    {
+      "entityId": "epimetheus",
+      "sourceNames": [
+        "Epimetheus"
+      ],
+      "role": "affected companion",
+      "reason": "He receives the box with Pandora and is harmed by the released evils.",
+      "evidence": [
+        "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
+        "gutenberg:ebooks:39250:53.53.6-53.53.6:b6b1fdda",
+        "gutenberg:ebooks:39250:53.53.7-53.53.7:c6d72898"
+      ]
+    },
+    {
+      "entityId": "hope",
+      "sourceNames": [
+        "Hope"
+      ],
+      "role": "remaining good spirit",
+      "reason": "Hope remains in the box and later heals and cheers those harmed.",
+      "evidence": [
+        "gutenberg:ebooks:39250:53.53.9-53.53.9:88c95c92",
+        "gutenberg:ebooks:39250:53.53.12-53.53.12:260c01ce"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "hermes",
+      "relationship": "delivers",
+      "target": "box",
+      "sourceText": "One lovely evening, while dancing on the green, they saw Mercury, Jupiter's messenger, coming towards them.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
+        "sourceText": "One lovely evening, while dancing on the green, they saw Mercury, Jupiter's messenger, coming towards them."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Mercury leaves a mysterious box with Pandora and Epimetheus. Pandora opens it, releasing the evils Jupiter had placed there, but Hope remains and is later released to heal and comfort.",
+    "openingSituation": "Mercury asks to leave a heavy box with Pandora and Epimetheus.",
+    "centralConflict": "Pandora's curiosity leads her to open the mysterious box.",
+    "resolution": "Pandora opens the box again and releases Hope.",
+    "outcome": "Evil enters the world, but Hope follows to aid humanity.",
+    "storyline": [
+      "Mercury deposits the box.",
+      "Pandora opens the box.",
+      "Evils fly out and sting Pandora and Epimetheus.",
+      "Hope remains inside.",
+      "Hope is released to aid humanity."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
+      "sourceText": "One lovely evening, while dancing on the green, they saw Mercury, Jupiter's messenger, coming towards them.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:53.53.5-53.53.5:603cf055",
+      "sourceText": "Precipitately, therefore, she raised the lid to have one little peep before he came in.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:53.53.9-53.53.9:88c95c92",
+      "sourceText": "It was well for Pandora that she opened the box a second time, for the gods, with a sudden impulse of compassion, had concealed among the evil spirits one kindly creature, Hope, whose mission was to heal the wounds inflicted by her fellow-prisoners.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports resolution.",
+          "field": "resolution"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:53.53.13-53.53.13:8eb150bc",
+      "sourceText": "Thus, according to the ancients, evil entered into the world, bringing untold misery; but Hope followed closely in its footsteps, to aid struggling humanity, and point to a happier future.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "box",
+      "predicate": "stored_with",
+      "object": "pandora-and-epimetheus",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
+          "sourceText": "Mercury, with a sigh of relief, placed the box in one corner, and then departed, refusing all hospitable offers of rest and refreshment."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "give",
+      "target": null,
+      "object": "box",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Mercury, with a sigh of relief, placed the box in one corner, and then departed, refusing all hospitable offers of rest and refreshment.",
+      "normalizedStatement": "Mercury placed the box with Pandora and Epimetheus.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
+          "sourceText": "Mercury, with a sigh of relief, placed the box in one corner, and then departed, refusing all hospitable offers of rest and refreshment."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "hermes",
+      "action": "give"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "release",
+      "target": null,
+      "object": "box",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Precipitately, therefore, she raised the lid to have one little peep before he came in.",
+      "normalizedStatement": "Pandora opened the box.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.5-53.53.5:603cf055",
+          "sourceText": "Precipitately, therefore, she raised the lid to have one little peep before he came in."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "pandora",
+      "action": "release"
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "escape",
+      "target": null,
+      "object": "box",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Now, Jupiter had malignantly crammed into this box all the diseases, sorrows, vices, and crimes that afflict poor humanity; and the box was no sooner opened, than all these ills flew out, in the guise of horrid little brown-winged creatures, closely resembling moths.",
+      "normalizedStatement": "Evils flew out of the opened box.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.6-53.53.6:b6b1fdda",
+          "sourceText": "Now, Jupiter had malignantly crammed into this box all the diseases, sorrows, vices, and crimes that afflict poor humanity; and the box was no sooner opened, than all these ills flew out, in the guise of horrid little brown-winged creatures, closely resembling moths."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "evils",
+      "action": "escape"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "hide",
+      "target": null,
+      "object": "box",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "It was well for Pandora that she opened the box a second time, for the gods, with a sudden impulse of compassion, had concealed among the evil spirits one kindly creature, Hope, whose mission was to heal the wounds inflicted by her fellow-prisoners.",
+      "normalizedStatement": "The gods had placed Hope among the evils.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.9-53.53.9:88c95c92",
+          "sourceText": "It was well for Pandora that she opened the box a second time, for the gods, with a sudden impulse of compassion, had concealed among the evil spirits one kindly creature, Hope, whose mission was to heal the wounds inflicted by her fellow-prisoners."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "hope",
+      "action": "hide"
+    },
+    {
+      "eventId": "event-005",
+      "sourceAction": "assist",
+      "target": "pandora",
+      "object": null,
+      "recipient": "epimetheus",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Lightly fluttering hither and thither on her snowy pinions, Hope touched the punctured places on Pandora's and Epimetheus' creamy skin, and relieved their suffering, then quickly flew out of the open window, to perform the same gentle office for the other victims, and cheer their downcast spirits.",
+      "normalizedStatement": "Hope healed Pandora and Epimetheus.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.12-53.53.12:260c01ce",
+          "sourceText": "Lightly fluttering hither and thither on her snowy pinions, Hope touched the punctured places on Pandora's and Epimetheus' creamy skin, and relieved their suffering, then quickly flew out of the open window, to perform the same gentle office for the other victims, and cheer their downcast spirits."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "hope",
+      "action": "assist"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hope",
+      "predicate": "aids",
+      "object": "humanity",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:53.53.13-53.53.13:8eb150bc",
+          "sourceText": "Thus, according to the ancients, evil entered into the world, bringing untold misery; but Hope followed closely in its footsteps, to aid struggling humanity, and point to a happier future."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:53.53.1-53.53.1:cb450bad",
+      "gutenberg:ebooks:39250:53.53.5-53.53.5:603cf055",
+      "gutenberg:ebooks:39250:53.53.6-53.53.6:b6b1fdda",
+      "gutenberg:ebooks:39250:53.53.7-53.53.7:c6d72898",
+      "gutenberg:ebooks:39250:53.53.9-53.53.9:88c95c92",
+      "gutenberg:ebooks:39250:53.53.12-53.53.12:260c01ce",
+      "gutenberg:ebooks:39250:53.53.13-53.53.13:8eb150bc"
+    ],
+    "claimsChecked": [
+      "Mercury role",
+      "Pandora opening",
+      "Jupiter's contents",
+      "Hope remaining",
+      "Hope release",
+      "source's outcome statement"
+    ],
+    "correctionsMade": [
+      "Kept source container as box/chest wording from the selected source.",
+      "Removed generalized details not in this version.",
+      "Replaced paraphrase sourceSentence fields."
+    ],
+    "remainingUncertainties": []
+  }
+}

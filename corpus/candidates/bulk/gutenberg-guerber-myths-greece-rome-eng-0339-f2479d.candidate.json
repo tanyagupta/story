@@ -9,7 +9,7 @@
     "gutenberg:ebooks:39250:339.339.4-339.339.4:d96f060e",
     "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -23,10 +23,32 @@
   "mythFamilyId": "heracles-labors",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-heracles-labors-26e81a",
   "characters": [
-    "Hercules"
+    "Hercules",
+    "Juno",
+    "Jupiter"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 106,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 4,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

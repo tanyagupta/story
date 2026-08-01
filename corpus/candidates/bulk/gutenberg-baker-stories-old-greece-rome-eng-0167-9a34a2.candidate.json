@@ -13,7 +13,7 @@
     "gutenberg:ebooks:45489:167.167.8-167.167.8:d5c3bd93",
     "gutenberg:ebooks:45489:167.167.9-167.167.9:7216055e"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -28,11 +28,37 @@
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-theseus-and-minotaur-5f3dd6",
   "characters": [
     "Ariadne",
+    "Bacchus",
+    "Hercules",
+    "Hippolytus",
     "Minotaur",
-    "Theseus"
+    "Theseus",
+    "Argos",
+    "Minos"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 174,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

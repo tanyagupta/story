@@ -1,0 +1,285 @@
+{
+  "mythId": "bulk-myth-0155",
+  "mythFamilyId": "it-trickles-from-his-jaws-a-fluid-gold",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-it-trickles-from-his-jaws-a-fluid-gold-556db8",
+  "title": "It trickles from his jaws a fluid gold.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9",
+      "gutenberg:ebooks:39250:273.273.2-273.273.2:5ff97374",
+      "gutenberg:ebooks:39250:273.273.3-273.273.3:fefc952a",
+      "gutenberg:ebooks:39250:273.273.4-273.273.4:c5f320e7",
+      "gutenberg:ebooks:39250:273.273.5-273.273.5:b9d8c476"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "bacchus",
+      "midas"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Bacchus",
+      "normalizedId": "bacchus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9"
+        }
+      ]
+    },
+    {
+      "sourceName": "Midas",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "In the midst of plenty, the gnawing pangs of hunger now made themselves felt; and the precious gift, which prevented his allaying them, soon lost all its attractions. His distress seemed so real, that Bacchus bade him go and wash in the Pactolus River, if he would be rid of the power which had so soon turned into a curse.",
+    "openingSituation": "In the midst of plenty, the gnawing pangs of hunger now made themselves felt; and the precious gift, which prevented his allaying them, soon lost all its attractions.",
+    "centralConflict": "His distress seemed so real, that Bacchus bade him go and wash in the Pactolus River, if he would be rid of the power which had so soon turned into a curse.",
+    "resolution": "Midas hastened off to the river and plunged in its tide, noting that even its sands all turned to gold beneath his tread; since when, \"Pactolus singeth over golden sands.\"",
+    "outcome": "Midas hastened off to the river and plunged in its tide, noting that even its sands all turned to gold beneath his tread; since when, \"Pactolus singeth over golden sands.\"",
+    "storyline": [
+      "In the midst of plenty, the gnawing pangs of hunger now made themselves felt; and the precious gift, which prevented his allaying them, soon lost all its attractions.",
+      "His distress seemed so real, that Bacchus bade him go and wash in the Pactolus River, if he would be rid of the power which had so soon turned into a curse.",
+      "Midas hastened off to the river and plunged in its tide, noting that even its sands all turned to gold beneath his tread; since when, \"Pactolus singeth over golden sands.\""
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9",
+        "gutenberg:ebooks:39250:273.273.2-273.273.2:5ff97374",
+        "gutenberg:ebooks:39250:273.273.3-273.273.3:fefc952a"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:273.273.3-273.273.3:fefc952a"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:273.273.4-273.273.4:c5f320e7"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:273.273.4-273.273.4:c5f320e7",
+        "gutenberg:ebooks:39250:273.273.5-273.273.5:b9d8c476"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:273.273.4-273.273.4:c5f320e7",
+        "gutenberg:ebooks:39250:273.273.5-273.273.5:b9d8c476"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9",
+      "excerpt": "The rich poor fool, confounded with surprise, Starving in all his various plenty lies.\"",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:273.273.2-273.273.2:5ff97374",
+      "excerpt": "Ovid (Croxall's tr.).",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:273.273.3-273.273.3:fefc952a",
+      "excerpt": "In the midst of plenty, the gnawing pangs of hunger now made themselves felt; and the precious gift, which prevented his allaying them, soon lost all its attractions.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:273.273.4-273.273.4:c5f320e7",
+      "excerpt": "His distress seemed so real, that Bacchus bade him go and wash in the Pactolus River, if he would be rid of the power which had so soon turned into a curse.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:273.273.5-273.273.5:b9d8c476",
+      "excerpt": "\"Pactolus singeth over golden sands.\"",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "bacchus",
+      "predicate": "opening_situation",
+      "object": "In the midst of plenty, the gnawing pangs of hunger now made themselves felt; and the precious gift, which prevented his allaying them, soon lost all its attractions.",
+      "evidence": [
+        "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "In the midst of plenty, the gnawing pangs of hunger now made themselves felt; and the precious gift, which prevented his allaying them, soon lost all its attractions.",
+      "sourceClause": "In the midst of plenty, the gnawing pangs of hunger now made themselves felt; and the precious gift, which prevented his allaying them, soon lost all its attractions.",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "In the midst of plenty, the gnawing pangs of hunger now made themselves felt; and the precious gift, which prevented his allaying them, soon lost all its attractions.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:273.273.3-273.273.3:fefc952a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "His distress seemed so real, that Bacchus bade him go and wash in the Pactolus River, if he would be rid of the power which had so soon turned into a curse.",
+      "sourceClause": "His distress seemed so real, that Bacchus bade him go and wash in the Pactolus River, if he would be rid of the power which had so soon turned into a curse.",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "turned",
+      "object": null,
+      "target": "bacchus",
+      "recipient": null,
+      "location": null,
+      "result": "His distress seemed so real, that Bacchus bade him go and wash in the Pactolus River, if he would be rid of the power which had so soon turned into a curse.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:273.273.4-273.273.4:c5f320e7"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Midas hastened off to the river and plunged in its tide, noting that even its sands all turned to gold beneath his tread; since when, \"Pactolus singeth over golden sands.\"",
+      "sourceClause": "Midas hastened off to the river and plunged in its tide, noting that even its sands all turned to gold beneath his tread; since when, \"Pactolus singeth over golden sands.\"",
+      "actor": "midas",
+      "action": "transform",
+      "sourceAction": "turned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Midas hastened off to the river and plunged in its tide, noting that even its sands all turned to gold beneath his tread; since when, \"Pactolus singeth over golden sands.\"",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:273.273.4-273.273.4:c5f320e7"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:273.273.5-273.273.5:b9d8c476"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "bacchus",
+      "predicate": "outcome",
+      "object": "Midas hastened off to the river and plunged in its tide, noting that even its sands all turned to gold beneath his tread; since when, \"Pactolus singeth over golden sands.\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:273.273.5-273.273.5:b9d8c476"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "In the midst of plenty, the gnawing pangs of hunger now made themselves felt; and the precious gift, which prevented his allaying them, soon lost all its attractions.",
+      "His distress seemed so real, that Bacchus bade him go and wash in the Pactolus River, if he would be rid of the power which had so soon turned into a curse.",
+      "Midas hastened off to the river and plunged in its tide, noting that even its sands all turned to gold beneath his tread; since when, \"Pactolus singeth over golden sands.\""
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-78bd84f4",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0273-f437df",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "It trickles from his jaws a fluid gold.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9",
+        "gutenberg:ebooks:39250:273.273.2-273.273.2:5ff97374",
+        "gutenberg:ebooks:39250:273.273.3-273.273.3:fefc952a"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 87,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 3,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.435,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "bacchus",
+    "midas"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

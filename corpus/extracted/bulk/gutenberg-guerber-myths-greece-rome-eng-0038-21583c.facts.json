@@ -1,0 +1,68 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0038-21583c",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "found",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:38.38.3-38.38.3:1c7b9969"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had",
+      "evidence": [
+        "gutenberg:ebooks:39250:38.38.1-38.38.1:3e4c48b5"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "And far away, on the shore of this same marvelous river, according to some mythologists, were the beautiful Isles of the Blest, where mortals who had led virtuous lives, and had",
+      "evidence": [
+        "gutenberg:ebooks:39250:38.38.6-38.38.6:da976c52"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-1511ed5d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0038-21583c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Moore.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:38.38.1-38.38.1:3e4c48b5",
+        "gutenberg:ebooks:39250:38.38.2-38.38.2:665056df",
+        "gutenberg:ebooks:39250:38.38.3-38.38.3:1c7b9969"
+      ],
+      "status": "open"
+    }
+  ]
+}

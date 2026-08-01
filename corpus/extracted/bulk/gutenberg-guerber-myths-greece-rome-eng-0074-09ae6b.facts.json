@@ -1,0 +1,67 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0074-09ae6b",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "flight",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:74.74.2-74.74.2:d9c50536"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The goddess, who had thus joined the inhabitants of Olympus, was destined to preside over peace, defensive war, and needlework, to be the incarnation of wisdom, and to put to",
+      "evidence": [
+        "gutenberg:ebooks:39250:74.74.1-74.74.1:9b5ea3b1"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "The goddess, who had thus joined the inhabitants of Olympus, was destined to preside over peace, defensive war, and needlework, to be the incarnation of wisdom, and to put to",
+      "evidence": [
+        "gutenberg:ebooks:39250:74.74.2-74.74.2:d9c50536"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-c8e5490b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0074-09ae6b",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Shelley.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:74.74.1-74.74.1:9b5ea3b1",
+        "gutenberg:ebooks:39250:74.74.2-74.74.2:d9c50536"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     "gutenberg:ebooks:22381:209.209.6-209.209.6:e511f781",
     "gutenberg:ebooks:22381:209.209.7-209.209.7:9f2603f6"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,10 +25,33 @@
   "mythFamilyId": "prometheus",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-prometheus-748c1a",
   "characters": [
-    "Prometheus"
+    "Cupid",
+    "Prometheus",
+    "Psyche"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 134,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 7,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

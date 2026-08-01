@@ -1,0 +1,206 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0301-fc430c",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Jason",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "jason",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Poseidon",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Argonauts",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Chiron",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "chiron",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Phryxus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "phryxus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "transformed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "pursued",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "found",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "jason",
+      "predicate": "opening_situation",
+      "object": "But as he approached manhood he became filled with an unconquerable desire to regain his paternal inheritance.",
+      "evidence": [
+        "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "jason",
+      "predicate": "outcome",
+      "object": "On his arrival at Iolcus he found his uncle in the market-place, offering up a public sacrifice to Poseidon.",
+      "evidence": [
+        "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-883d38f9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0301-fc430c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THE ARGONAUTS.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd",
+        "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009",
+        "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a"
+      ],
+      "status": "open"
+    }
+  ]
+}

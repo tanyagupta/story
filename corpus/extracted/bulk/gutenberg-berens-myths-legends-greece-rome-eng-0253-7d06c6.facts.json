@@ -1,0 +1,68 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0253-7d06c6",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "loved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:253.253.2-253.253.2:1b83aa1d"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The change of seasons is symbolized in a myth which represents Vertumnus as metamorphosing himself into a variety of different forms in order to gain the affection of Pomona, who",
+      "evidence": [
+        "gutenberg:ebooks:22381:253.253.1-253.253.1:617ca087"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "The change of seasons is symbolized in a myth which represents Vertumnus as metamorphosing himself into a variety of different forms in order to gain the affection of Pomona, who",
+      "evidence": [
+        "gutenberg:ebooks:22381:253.253.3-253.253.3:c4955472"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-e304576d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0253-7d06c6",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "VERTUMNUS.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:253.253.1-253.253.1:617ca087",
+        "gutenberg:ebooks:22381:253.253.2-253.253.2:1b83aa1d",
+        "gutenberg:ebooks:22381:253.253.3-253.253.3:c4955472"
+      ],
+      "status": "open"
+    }
+  ]
+}

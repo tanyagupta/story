@@ -1,0 +1,113 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0235-2312ba",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Alpheus",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:235.235.1-235.235.1:c3c03c60"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "alpheus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Arethusa",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:235.235.1-235.235.1:c3c03c60"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "arethusa",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "went",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:235.235.1-235.235.1:c3c03c60"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:235.235.2-235.235.2:fb4a19ad"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "alpheus",
+      "predicate": "opening_situation",
+      "object": "She went ever singing, In murmurs as soft as sleep; The earth seemed to love her, And Heaven smiled above her, As she lingered toward the deep.\"",
+      "evidence": [
+        "gutenberg:ebooks:45489:235.235.1-235.235.1:c3c03c60"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "alpheus",
+      "predicate": "outcome",
+      "object": "It was said that the Sicilian fountain Arethusa was the same stream that, after passing under the sea, came up again in Sicily.",
+      "evidence": [
+        "gutenberg:ebooks:45489:235.235.2-235.235.2:fb4a19ad"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-59ea20d9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0235-2312ba",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "And gliding and springing",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:235.235.1-235.235.1:c3c03c60",
+        "gutenberg:ebooks:45489:235.235.2-235.235.2:fb4a19ad"
+      ],
+      "status": "open"
+    }
+  ]
+}

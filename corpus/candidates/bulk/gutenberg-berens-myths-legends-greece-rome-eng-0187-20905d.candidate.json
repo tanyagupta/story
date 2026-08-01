@@ -23,16 +23,36 @@
   "workingTitle": "Agave and her two sisters.",
   "sourceType": "public-domain-retelling",
   "author": "E. M. Berens",
-  "candidateType": "ritual_description",
+  "candidateType": "biographical_material",
   "mythFamilyId": "theseus-and-minotaur",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-theseus-and-minotaur-93c06e",
   "characters": [
+    "Apollo",
     "Ariadne",
     "Dionysus",
-    "Theseus"
+    "Midas",
+    "Theseus",
+    "Minos"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 162,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "actionBearingSentences": 10,
+      "conflictSignals": 4,
+      "paragraphCount": 9,
+      "knownMythFamily": true
+    }
+  }
 }

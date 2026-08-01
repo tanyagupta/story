@@ -15,7 +15,7 @@
     "gutenberg:ebooks:39250:218.218.10-218.218.10:a5c0ca50",
     "gutenberg:ebooks:39250:218.218.11-218.218.11:fd63bebb"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -25,12 +25,36 @@
   "workingTitle": "Shakespeare.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "shakespeare",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-shakespeare-402c99",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Apollo",
+    "Cupid",
+    "Diana",
+    "Mercury",
+    "Neptune",
+    "Venus"
+  ],
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 148,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "actionBearingSentences": 9,
+      "conflictSignals": 3,
+      "paragraphCount": 11,
+      "knownMythFamily": true
+    }
+  }
 }

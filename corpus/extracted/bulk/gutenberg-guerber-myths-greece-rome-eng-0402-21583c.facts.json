@@ -1,0 +1,117 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0402-21583c",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Atalanta",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:402.402.1-402.402.1:dc93807c"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "atalanta",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Venus",
+      "entityType": "character",
+      "roleInEpisode": "antagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:402.402.1-402.402.1:dc93807c"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "transformed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:402.402.1-402.402.1:dc93807c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:402.402.2-402.402.2:e47eba46"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:402.402.3-402.402.3:d3f095c3"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "atalanta",
+      "predicate": "opening_situation",
+      "object": "In his happiness at having won such a peerless bride, Hippomenes forgot to pay the promised thanks to Venus, for which offense he and his wife were severely punished by being",
+      "evidence": [
+        "gutenberg:ebooks:39250:402.402.1-402.402.1:dc93807c"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "atalanta",
+      "predicate": "outcome",
+      "object": "[Sidenote: Castor and Pollux.] The twin brothers Castor and Pollux, the Dioscuri, or Gemini, who had greatly distinguished themselves by their daring in the Calydonian Hunt, were",
+      "evidence": [
+        "gutenberg:ebooks:39250:402.402.4-402.402.4:8ef82c79"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-818812bb",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0402-21583c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Moore.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:402.402.1-402.402.1:dc93807c",
+        "gutenberg:ebooks:39250:402.402.2-402.402.2:e47eba46",
+        "gutenberg:ebooks:39250:402.402.3-402.402.3:d3f095c3"
+      ],
+      "status": "open"
+    }
+  ]
+}

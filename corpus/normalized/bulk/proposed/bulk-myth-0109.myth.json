@@ -1,0 +1,353 @@
+{
+  "mythId": "bulk-myth-0109",
+  "mythFamilyId": "jason-and-argonauts",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-jason-and-argonauts-b417db",
+  "title": "THE ARGONAUTS.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd",
+      "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009",
+      "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "jason",
+      "poseidon",
+      "argonauts",
+      "chiron",
+      "phryxus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jason",
+      "normalizedId": "jason",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ]
+    },
+    {
+      "sourceName": "Poseidon",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ]
+    },
+    {
+      "sourceName": "Argonauts",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ]
+    },
+    {
+      "sourceName": "Chiron",
+      "normalizedId": "chiron",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ]
+    },
+    {
+      "sourceName": "Phryxus",
+      "normalizedId": "phryxus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "But as he approached manhood he became filled with an unconquerable desire to regain his paternal inheritance. In the course of his journey he came to a broad and foaming river, on the banks of which he perceived an old woman, who implored him to help her across.",
+    "openingSituation": "But as he approached manhood he became filled with an unconquerable desire to regain his paternal inheritance.",
+    "centralConflict": "But as soon as her feet had touched the earth she became transformed into a beautiful woman, who, looking kindly at the bewildered youth, informed him that she was the goddess",
+    "resolution": "On his arrival at Iolcus he found his uncle in the market-place, offering up a public sacrifice to Poseidon.",
+    "outcome": "On his arrival at Iolcus he found his uncle in the market-place, offering up a public sacrifice to Poseidon.",
+    "storyline": [
+      "But as he approached manhood he became filled with an unconquerable desire to regain his paternal inheritance.",
+      "In the course of his journey he came to a broad and foaming river, on the banks of which he perceived an old woman, who implored him to help her across.",
+      "But as soon as her feet had touched the earth she became transformed into a beautiful woman, who, looking kindly at the bewildered youth, informed him that she was the goddess",
+      "She then disappeared, and, full of hope and courage at this divine manifestation, Jason pursued his journey.",
+      "On his arrival at Iolcus he found his uncle in the market-place, offering up a public sacrifice to Poseidon."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd",
+        "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009",
+        "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd",
+      "excerpt": "Aeson, king of Iolcus, was forced to fly from his dominions, which had been usurped by his younger brother, Pelias, and with difficulty succeeded in saving the life of his young son, Jason, who was at that time only ten years of age.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009",
+      "excerpt": "In the course of his journey he came to a broad and foaming river, on the banks of which he perceived an old woman, who implored him to help her across.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a",
+      "excerpt": "On his arrival at Iolcus he found his uncle in the market-place, offering up a public sacrifice to Poseidon.",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "jason",
+      "predicate": "opening_situation",
+      "object": "But as he approached manhood he became filled with an unconquerable desire to regain his paternal inheritance.",
+      "evidence": [
+        "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "But as he approached manhood he became filled with an unconquerable desire to regain his paternal inheritance.",
+      "sourceClause": "But as he approached manhood he became filled with an unconquerable desire to regain his paternal inheritance.",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "But as he approached manhood he became filled with an unconquerable desire to regain his paternal inheritance.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "In the course of his journey he came to a broad and foaming river, on the banks of which he perceived an old woman, who implored him to help her across.",
+      "sourceClause": "In the course of his journey he came to a broad and foaming river, on the banks of which he perceived an old woman, who implored him to help her across.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "In the course of his journey he came to a broad and foaming river, on the banks of which he perceived an old woman, who implored him to help her across.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "But as soon as her feet had touched the earth she became transformed into a beautiful woman, who, looking kindly at the bewildered youth, informed him that she was the goddess Hera, and that she would henceforth guide and protect him throughout his career.",
+      "sourceClause": "But as soon as her feet had touched the earth she became transformed into a beautiful woman, who, looking kindly at the bewildered youth, informed him that she was the goddess Hera, and that she would henceforth guide and protect him throughout his career.",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "transformed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "But as soon as her feet had touched the earth she became transformed into a beautiful woman, who, looking kindly at the bewildered youth, informed him that she was the goddess",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "She then disappeared, and, full of hope and courage at this divine manifestation, Jason pursued his journey.",
+      "sourceClause": "She then disappeared, and, full of hope and courage at this divine manifestation, Jason pursued his journey.",
+      "actor": null,
+      "action": "pursue",
+      "sourceAction": "pursued",
+      "object": null,
+      "target": "jason",
+      "recipient": null,
+      "location": null,
+      "result": "She then disappeared, and, full of hope and courage at this divine manifestation, Jason pursued his journey.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "sourceSentence": "On his arrival at Iolcus he found his uncle in the market-place, offering up a public sacrifice to Poseidon.",
+      "sourceClause": "On his arrival at Iolcus he found his uncle in the market-place, offering up a public sacrifice to Poseidon.",
+      "actor": null,
+      "action": "discover",
+      "sourceAction": "found",
+      "object": null,
+      "target": "poseidon",
+      "recipient": null,
+      "location": null,
+      "result": "On his arrival at Iolcus he found his uncle in the market-place, offering up a public sacrifice to Poseidon.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "jason",
+      "predicate": "outcome",
+      "object": "On his arrival at Iolcus he found his uncle in the market-place, offering up a public sacrifice to Poseidon.",
+      "evidence": [
+        "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "But as he approached manhood he became filled with an unconquerable desire to regain his paternal inheritance.",
+      "In the course of his journey he came to a broad and foaming river, on the banks of which he perceived an old woman, who implored him to help her across.",
+      "But as soon as her feet had touched the earth she became transformed into a beautiful woman, who, looking kindly at the bewildered youth, informed him that she was the goddess",
+      "She then disappeared, and, full of hope and courage at this divine manifestation, Jason pursued his journey.",
+      "On his arrival at Iolcus he found his uncle in the market-place, offering up a public sacrifice to Poseidon."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-883d38f9",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0301-fc430c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "THE ARGONAUTS.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:301.301.1-301.301.1:f669d3fd",
+        "gutenberg:ebooks:22381:301.301.2-301.301.2:c3241009",
+        "gutenberg:ebooks:22381:301.301.3-301.301.3:fa4bf51a"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 128,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 5,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.64,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "jason",
+    "poseidon",
+    "argonauts",
+    "chiron",
+    "phryxus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004",
+    "event-005"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_review"
+}

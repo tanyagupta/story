@@ -1,0 +1,102 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0112-42b034",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "made",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:112.112.1-112.112.1:6b70ffd0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "offered",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:112.112.8-112.112.8:8cdc14b0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "refused",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:112.112.8-112.112.8:8cdc14b0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "With promises that never are made good; But those which pass the doors of polished horn, And are beheld of men, are ever true.\"",
+      "evidence": [
+        "gutenberg:ebooks:45489:112.112.1-112.112.1:6b70ffd0"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "He was never represented in art except in a pleasing aspect, for although they believed him to have in reality the fearful appearance that tradition ascribed to him, yet the",
+      "evidence": [
+        "gutenberg:ebooks:45489:112.112.8-112.112.8:8cdc14b0"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-ce9bf9e7",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0112-42b034",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "That come through the carved ivory deceive",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:112.112.1-112.112.1:6b70ffd0",
+        "gutenberg:ebooks:45489:112.112.2-112.112.2:d9092575",
+        "gutenberg:ebooks:45489:112.112.3-112.112.3:862381cd"
+      ],
+      "status": "open"
+    }
+  ]
+}

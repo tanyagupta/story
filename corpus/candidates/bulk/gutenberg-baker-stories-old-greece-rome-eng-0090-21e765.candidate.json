@@ -9,7 +9,7 @@
     "gutenberg:ebooks:45489:90.90.4-90.90.4:fa4ef75c",
     "gutenberg:ebooks:45489:90.90.5-90.90.5:3062ee68"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -19,7 +19,7 @@
   "workingTitle": "Chapter XII",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "eros-and-psyche",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-eros-and-psyche-cdc210",
   "characters": [
@@ -27,8 +27,25 @@
     "Psyche",
     "Venus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 118,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 9,
+      "conflictSignals": 3,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

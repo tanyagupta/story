@@ -198,32 +198,119 @@ Emilie K. Baker, Stories of Old Greece and Rome, Project Gutenberg #45489
 
 Each raw UTF-8 text file is preserved unchanged under `corpus/sources/raw/gutenberg/`. The runner removes Project Gutenberg boilerplate only in deterministic derived TEI files under `corpus/sources/derived/`; it does not rewrite, modernize, summarize, or paraphrase the source prose. The manifests record ebook number, release/update dates where available, original publication year, source URL, retrieval date, Project Gutenberg License/public-domain basis in the United States, raw checksum, and derived conversion metadata.
 
-Candidate segmentation uses source structure first: headings, chapters, explicit section breaks, and non-story markers. Tables of contents, prefaces, illustration captions, indexes, footnotes, and other publishing matter are retained in the inventory as non-story material rather than treated as production episodes.
+Candidate segmentation uses source structure first: headings, chapters, explicit section breaks, and non-story markers. Tables of contents, prefaces, illustration captions, indexes, footnotes, biographies, literary commentary, deity profiles without an episode, and other publishing matter are retained in the inventory as non-story material rather than treated as production episodes.
+
+Bulk processing has distinct stages:
+
+```text
+ingestion -> candidate detection -> normalization -> semantic qualification -> review -> approval
+```
+
+Schema validation only proves that JSON has the expected shape. It does not prove that a record is a useful myth narrative. A nonempty field is not evidence that the field is correct. The bulk runner may propose candidate interpretations, but it must not approve them automatically.
+
+Bulk records now move through three separate stages:
+
+```text
+candidate detection
+machine-proposed extraction
+verified story record
+```
+
+Machine-generated extraction is never marked `approved`. Automated gates can decide whether a section is worth proposing, but a populated synopsis, event list, actor count, or evidence ID does not prove that the semantic interpretation is correct. Machine output remains `awaiting_review` until a stronger source-grounded review creates a separate verified record. Verified by source audit is not the same as human scholarly approval.
+
+A production-ready bulk myth must include source-supported narrative content:
+
+```text
+named mythological participants
+at least three meaningful ordered events unless the selected source is genuinely shorter
+at least two actor-bearing events
+a meaningful object, target, recipient, location, or event outcome
+a synopsis
+an opening situation
+a central conflict, task, transformation, danger, pursuit, loss, test, or other change
+a resolution or outcome
+storyline beats
+source evidence and short evidence excerpts
+```
+
+The runner does not count generic `was`, `were`, or `had` statements as primary plot events, and it does not create placeholder states such as `source-section`. It also avoids fixed-length narrative truncation: summaries and excerpts are shortened only at sentence boundaries, and likely fragments such as `and.`, `when.`, `to.`, `of.`, `the.`, or `,.` are blocked from verified records.
 
 The current batch output is:
 
 ```text
 total passages: 6292
 total candidate sections: 917
-valid narrative candidates: 316
-non-story candidates: 601
-fully normalized records: 50
-approved records: 50
+valid narrative candidates: 291
+non-story candidates: 626
+machine-proposed records: 291
+source-audited records: 6
+approved by human review: 0
+records awaiting review: 291
 open review items: probable duplicate and ambiguous family review queues
 ```
 
-The normalized production records are conservative automatic records. They preserve source provenance, candidate boundaries, evidence references, source-derived entity mappings, initial/final state placeholders tied to evidence, and ordered source-supported events. The batch runner does not synthesize a canonical narrative across books; overlapping retellings are grouped by myth family and kept as distinct source variants.
+The verified seed records currently cover: The Story of Proserpina; Phryxus, Helle, and the Golden Fleece; The Heraclidae; Perseus and Medusa; Daedalus and Icarus; and The Story of Pandora. These records use `reviewStatus = "verified_by_source_audit"` and include `verification.method = "Codex source-grounded implementation review"`. Source-audited means the record's claims and structured fields were checked against the cited source passages. Source-audited does not mean human scholarly approval.
+
+Verified records are built from `src/corpus/bulk/verified-records.js` and validated by `src/corpus/bulk/evidence-validator.js`. Each verified event separates exact source wording from normalized interpretation:
+
+```json
+{
+  "sourceText": "Exact verbatim source sentence or clause.",
+  "normalizedStatement": "Conservative normalized description."
+}
+```
+
+`sourceText` must occur verbatim in the cited passage. Entity evidence must cite a passage where the source name appears, or it must include an explicit coreference note. Evidence excerpts must be complete source sentences and every `supports` entry must include an evidence type and rationale. The audit report at `corpus/review/source-text-audit-report.json` fails the run if exact source text, sentence completeness, entity evidence, relationship endpoints, event references, alias normalization, boundary status, or substantive verification notes are invalid.
+
+Numeric semantic certainty scores are not used for verified records. Verified records keep a pass/fail provenance checklist under `semanticQuality`, including `verificationLevel = "source_audited"`, the checks passed, failed checks, and limitations. Proposed machine records may still contain extraction confidence or ranking values; those values are triage signals, not correctness claims.
+
+The normalized proposed records are deterministic automatic records. They preserve source provenance, candidate boundaries, evidence references, source-derived entity mappings, proposed narrative summaries, source excerpts, and ordered proposed events. The batch runner does not synthesize a canonical narrative across books; overlapping retellings are grouped by myth family and kept as distinct source variants.
+
+Records generated by automation default to `awaiting_review`. Records that are clearly not stories are marked as rejected non-story candidates in the catalog. Records with narrative signals remain available for review or correction. `approved` is reserved for a future explicit human review workflow.
+
+Relationships are extracted only when the selected source wording clearly states one, such as parentage, marriage, assistance, pursuit, or enmity. Missing relationships are not filled from general mythology.
 
 Bulk outputs are written to:
 
 ```text
 corpus/catalog/myth-inventory.json
 corpus/catalog/bulk-ingestion-summary.json
+corpus/catalog/approved-myths.json
+corpus/catalog/proposed-myths.json
+corpus/catalog/verified-myths.json
+corpus/catalog/myths-awaiting-review.json
+corpus/catalog/rejected-candidates.json
 corpus/catalog/duplicate-and-variant-report.json
 corpus/catalog/source-coverage-report.json
 corpus/candidates/bulk/
 corpus/extracted/bulk/
-corpus/normalized/bulk/
+corpus/normalized/bulk/proposed/
+corpus/normalized/bulk/verified/
 corpus/review/bulk-validation-report.json
+corpus/review/semantic-quality-report.json
+corpus/review/source-text-audit-report.json
+corpus/review/automated-structure-check.json
+corpus/review/codex-source-verification.json
 corpus/review/open-review-items.json
 ```
+
+The final normalized bulk directory has two committed record sets: `corpus/normalized/bulk/proposed/` for machine-proposed records awaiting review, and `corpus/normalized/bulk/verified/` for source-audited seed records. Top-level `corpus/normalized/bulk/bulk-myth-*.myth.json` files are stale duplicate outputs from earlier pipeline versions and are removed by the runner. `corpus/catalog/approved-myths.json` is intentionally empty until a human review workflow exists. Proposed machine records are listed in `corpus/catalog/proposed-myths.json` and `corpus/catalog/myths-awaiting-review.json`. Verified seed records are listed in `corpus/catalog/verified-myths.json`. Rejected non-story candidates are listed in `corpus/catalog/rejected-candidates.json`.
+
+Committed generated outputs include raw-source manifests, derived TEI, passages, candidates, extracted facts, proposed normalized records, source-audited verified records, catalogs, and review reports. They are retained for reproducibility, source traceability, review workflow, catalog browsing, and verified-record evidence checks. They are deterministic and can be regenerated with `npm run corpus:bulk`.
+
+To audit a verified record manually, open the record in `corpus/normalized/bulk/verified/`, then inspect each `sourceText` against the passage IDs in `corpus/passages/`. Check that scope describes omitted passages, that event actors are grammatical or explicitly resolved, that relationship endpoints are registered entities/objects/places, and that narrative fields cite evidence that actually supports the claim.
+
+Run the semantic quality audit with:
+
+```bash
+find corpus/normalized/bulk -name '*.myth.json' -print0 |
+  xargs -0 jq -s '{
+    total_records: length,
+    human_approved: ([.[] | select(.reviewStatus == "approved")] | length),
+    verified_by_source_audit: ([.[] | select(.reviewStatus == "verified_by_source_audit")] | length),
+    awaiting_review: ([.[] | select(.reviewStatus == "awaiting_review")] | length),
+    fragment_like_summaries: ([.[] | select(((.narrative.synopsis // "") | test("(and|when|to|of|the)\\\\.$|,\\\\.$"; "i")))] | length)
+  }'
+```
+
+The current deterministic extraction is still heuristic. It does not use a hosted model, it does not add unsupported facts from memory, and it may leave usable-looking but uncertain candidates in review when source-grounded verification has not been performed.

@@ -5,29 +5,29 @@
     {
       "sourceName": "Diana",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-diana",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "artemis",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Jupiter",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "participant",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-jupiter",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
       "normalizationStatus": "approved"
     }
   ],
@@ -35,7 +35,7 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-diana",
+      "actorSourceName": null,
       "sourceAction": "loved",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -49,48 +49,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:153.153.2-153.153.2:a3a5e4eb"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
-      "sourceAction": "was",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:153.153.3-153.153.3:93385692"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "roman-diana",
-      "predicate": "is introduced in",
-      "object": "Jupiter was forced to grant her request.",
+      "subject": "artemis",
+      "predicate": "opening_situation",
+      "object": "Every evening, as soon as the Sun had finished his course, Diana mounted her moon car, and drove her milk-white steeds across the heavens, watched over and loved by the countless",
       "evidence": [
         "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d"
       ]
@@ -98,15 +64,34 @@
   ],
   "finalState": [
     {
-      "subject": "roman-diana",
-      "predicate": "is last attested in selected candidate",
-      "object": "Jupiter was forced to grant her request.",
+      "subject": "artemis",
+      "predicate": "outcome",
+      "object": "Every evening, as soon as the Sun had finished his course, Diana mounted her moon car, and drove her milk-white steeds across the heavens, watched over and loved by the countless",
       "evidence": [
         "gutenberg:ebooks:39250:153.153.7-153.153.7:983b7ca9"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-b968f77d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0153-98843d",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Jupiter was forced to grant her request.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d",
+        "gutenberg:ebooks:39250:153.153.2-153.153.2:a3a5e4eb",
+        "gutenberg:ebooks:39250:153.153.3-153.153.3:93385692"
+      ],
+      "status": "open"
+    }
+  ]
 }

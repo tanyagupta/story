@@ -1,0 +1,68 @@
+{
+  "candidateId": "gutenberg-berens-myths-legends-greece-rome-eng-0199-36778d",
+  "extractionSourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "become",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:199.199.3-199.199.3:20d1ff54"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "She became united to Erebus, and their children were Aether and Hemera (Air and Daylight), evidently a simile of the poets, to indicate that darkness always precedes light.",
+      "evidence": [
+        "gutenberg:ebooks:22381:199.199.1-199.199.1:b03f5a82"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "She became united to Erebus, and their children were Aether and Hemera (Air and Daylight), evidently a simile of the poets, to indicate that darkness always precedes light.",
+      "evidence": [
+        "gutenberg:ebooks:22381:199.199.6-199.199.6:5edab9db"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-9d3a05dd",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0199-36778d",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "NIGHT AND HER CHILDREN.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:199.199.1-199.199.1:b03f5a82",
+        "gutenberg:ebooks:22381:199.199.2-199.199.2:beef1f3e",
+        "gutenberg:ebooks:22381:199.199.3-199.199.3:20d1ff54"
+      ],
+      "status": "open"
+    }
+  ]
+}

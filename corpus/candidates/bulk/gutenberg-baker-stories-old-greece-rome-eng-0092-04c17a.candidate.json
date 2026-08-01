@@ -26,6 +26,7 @@
   "mythFamilyId": "eros-and-psyche",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-eros-and-psyche-898cbb",
   "characters": [
+    "Ceres",
     "Cupid",
     "Psyche",
     "Venus"
@@ -33,5 +34,22 @@
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 223,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 23,
+      "conflictSignals": 4,
+      "paragraphCount": 8,
+      "knownMythFamily": true
+    }
+  }
 }

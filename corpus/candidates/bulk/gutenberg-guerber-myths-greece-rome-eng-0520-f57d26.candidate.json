@@ -51,7 +51,7 @@
     "gutenberg:ebooks:39250:520.520.46-520.520.46:fa74c1b5",
     "gutenberg:ebooks:39250:520.520.47-520.520.47:5455346f"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -65,11 +65,49 @@
   "mythFamilyId": "demeter-and-persephone",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-demeter-and-persephone-16d548",
   "characters": [
+    "Adonis",
+    "Bacchus",
     "Ceres",
-    "Proserpina"
+    "Circe",
+    "Cupid",
+    "Diana",
+    "Hades",
+    "Helen",
+    "Hercules",
+    "Io",
+    "Jupiter",
+    "Neptune",
+    "Orpheus",
+    "Pandora",
+    "Proserpina",
+    "Ulysses",
+    "Venus",
+    "Alpheus",
+    "Minos"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 169,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

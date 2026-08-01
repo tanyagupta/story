@@ -1,0 +1,144 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0293-a2645d",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Ceres",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:293.293.1-293.293.1:928e0f8b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "demeter",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Proserpina",
+      "entityType": "character",
+      "roleInEpisode": "helper",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:293.293.1-293.293.1:928e0f8b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "persephone",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Eleusis",
+      "entityType": "character",
+      "roleInEpisode": "helper",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:293.293.1-293.293.1:928e0f8b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "eleusis",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:293.293.1-293.293.1:928e0f8b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "gave",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:293.293.2-293.293.2:ea16d962"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "received",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:293.293.3-293.293.3:bc476864"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "demeter",
+      "predicate": "opening_situation",
+      "object": "Night came, and Ceres, kindling a torch at the volcanic fires of Mount Ætna, continued her search.",
+      "evidence": [
+        "gutenberg:ebooks:39250:293.293.1-293.293.1:928e0f8b"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "demeter",
+      "predicate": "outcome",
+      "object": "\"Long was thine anxious search For lovely Proserpine, nor didst thou break Thy mournful fast, till the far-fam'd Eleusis Received thee wandering.\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:293.293.3-293.293.3:bc476864"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-ac635086",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0293-a2645d",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Ingelow.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:293.293.1-293.293.1:928e0f8b",
+        "gutenberg:ebooks:39250:293.293.2-293.293.2:ea16d962",
+        "gutenberg:ebooks:39250:293.293.3-293.293.3:bc476864"
+      ],
+      "status": "open"
+    }
+  ]
+}

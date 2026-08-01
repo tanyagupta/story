@@ -1,0 +1,105 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0408-a833d2",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "revealed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:408.408.3-408.408.3:418112e2"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:408.408.4-408.408.4:b1e839b0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "knew",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:408.408.5-408.408.5:9a9c0333"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "went",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:408.408.5-408.408.5:9a9c0333"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Œdipus consults the oracle.] These words, coupled with a few meaning glances hastily exchanged by the guests, excited Œdipus' suspicions, and made him question the",
+      "evidence": [
+        "gutenberg:ebooks:39250:408.408.1-408.408.1:477d5713"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "He therefore went to this shrine; but, as usual, the oracle answered somewhat ambiguously, and merely warned him that fate had decreed he should kill his father, marry his mother",
+      "evidence": [
+        "gutenberg:ebooks:39250:408.408.6-408.408.6:0a2a3271"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-547831e3",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0408-a833d2",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "That I was only the supposed son",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:408.408.1-408.408.1:477d5713",
+        "gutenberg:ebooks:39250:408.408.2-408.408.2:aa73578c",
+        "gutenberg:ebooks:39250:408.408.3-408.408.3:418112e2"
+      ],
+      "status": "open"
+    }
+  ]
+}

@@ -31,7 +31,7 @@
     "gutenberg:ebooks:39250:395.395.26-395.395.26:4ccbee92",
     "gutenberg:ebooks:39250:395.395.27-395.395.27:00e24090"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -45,12 +45,40 @@
   "mythFamilyId": "jason-and-argonauts",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-jason-and-argonauts-758a52",
   "characters": [
+    "Cadmus",
+    "Hercules",
     "Jason",
     "Juno",
-    "Minerva"
+    "Medea",
+    "Minerva",
+    "Orpheus",
+    "Theseus",
+    "Vulcan",
+    "Argonauts",
+    "Chiron"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 189,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 4,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

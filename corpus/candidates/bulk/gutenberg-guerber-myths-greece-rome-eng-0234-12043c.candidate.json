@@ -15,7 +15,7 @@
     "gutenberg:ebooks:39250:234.234.10-234.234.10:a4fc5d00",
     "gutenberg:ebooks:39250:234.234.11-234.234.11:053d775f"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -29,10 +29,33 @@
   "mythFamilyId": "neptunes-wife",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-neptunes-wife-14d32c",
   "characters": [
+    "Apollo",
+    "Jupiter",
     "Neptune"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 139,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 7,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 7,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

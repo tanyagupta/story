@@ -31,10 +31,30 @@
   "mythFamilyId": "europa",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-europa-8d41e9",
   "characters": [
-    "Europa"
+    "Cadmus",
+    "Europa",
+    "Jupiter",
+    "Venus"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 158,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 13,
+      "conflictSignals": 3,
+      "paragraphCount": 13,
+      "knownMythFamily": true
+    }
+  }
 }

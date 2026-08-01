@@ -14,7 +14,7 @@
     "gutenberg:ebooks:39250:172.172.9-172.172.9:3338d8c8",
     "gutenberg:ebooks:39250:172.172.10-172.172.10:580cd5fc"
   ],
-  "status": "approved",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -24,15 +24,33 @@
   "workingTitle": "Tennyson.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "tennyson",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-tennyson-8a78c8",
   "characters": [
+    "Apollo",
     "Venus",
     "Vulcan"
   ],
-  "processingStatus": "approved",
-  "reviewStatus": "approved",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 125,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 6,
+      "conflictSignals": 5,
+      "paragraphCount": 10,
+      "knownMythFamily": true
+    }
+  }
 }

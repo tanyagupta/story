@@ -8,7 +8,7 @@
     "gutenberg:ebooks:45489:225.225.3-225.225.3:219d1123",
     "gutenberg:ebooks:45489:225.225.4-225.225.4:ec593398"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -21,9 +21,36 @@
   "candidateType": "narrative_episode",
   "mythFamilyId": "eros-and-psyche",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-eros-and-psyche-2e84f7",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Ceres",
+    "Juno",
+    "Jupiter",
+    "Neptune",
+    "Pluto"
+  ],
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 161,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 8,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

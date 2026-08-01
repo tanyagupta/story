@@ -1,0 +1,68 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0186-b1492f",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Apollo",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Hymn to Apollo JOHN KEATS",
+      "evidence": [
+        "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "Hymn to Apollo JOHN KEATS",
+      "evidence": [
+        "gutenberg:ebooks:45489:186.186.4-186.186.4:ab7398dc"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-647afde7",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0186-b1492f",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Hymn to Apollo JOHN KEATS",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de",
+        "gutenberg:ebooks:45489:186.186.2-186.186.2:c032adc1",
+        "gutenberg:ebooks:45489:186.186.3-186.186.3:b23c4967"
+      ],
+      "status": "open"
+    }
+  ]
+}

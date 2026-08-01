@@ -7,23 +7,6 @@
   "events": [
     {
       "actorSourceName": null,
-      "sourceAction": "was",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:32.32.1-32.32.1:8179ba06"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": null,
       "sourceAction": "came",
       "objectSourceName": null,
       "targetSourceName": null,
@@ -33,15 +16,15 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:32.32.2-32.32.2:f49d10a8"
+          "passageId": "gutenberg:ebooks:39250:32.32.5-32.32.5:947b1c4b"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
-      "sourceAction": "was",
+      "sourceAction": "created",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -50,18 +33,21 @@
       "causes": [],
       "evidence": [
         {
-          "passageId": "gutenberg:ebooks:39250:32.32.3-32.32.3:7dfa5ce8"
+          "passageId": "gutenberg:ebooks:39250:32.32.7-32.32.7:b18f5bc1"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:32.32.8-32.32.8:632227cd"
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "source-section",
-      "predicate": "is introduced in",
-      "object": "That he might sheltering compass her around",
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "\"In the dreary chaotical closet Of Erebus old, was a privy deposit, By Night the primæval in secrecy laid; A Mystical Egg, that in silence and shade Was brooded and hatched; till",
       "evidence": [
         "gutenberg:ebooks:39250:32.32.1-32.32.1:8179ba06"
       ]
@@ -69,15 +55,35 @@
   ],
   "finalState": [
     {
-      "subject": "source-section",
-      "predicate": "is last attested in selected candidate",
-      "object": "That he might sheltering compass her around",
+      "subject": null,
+      "predicate": "outcome",
+      "object": "[Sidenote: Mount Olympus and the river Oceanus.] The Earth thus created was supposed by the ancients to be a disk, instead of a sphere as science has proved.",
       "evidence": [
         "gutenberg:ebooks:39250:32.32.11-32.32.11:8966478f"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-ce8fb511",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0032-96177b",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "That he might sheltering compass her around",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:32.32.1-32.32.1:8179ba06",
+        "gutenberg:ebooks:39250:32.32.2-32.32.2:f49d10a8",
+        "gutenberg:ebooks:39250:32.32.3-32.32.3:7dfa5ce8"
+      ],
+      "status": "open"
+    }
+  ]
 }

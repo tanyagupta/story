@@ -1,0 +1,159 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0121-89da3c",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Bacchus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "bacchus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Juno",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hera",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Athamas",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athamas",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Ino",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ino",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "came",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "escaped",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:121.121.3-121.121.3:1ec25be6"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:121.121.4-121.121.4:ba6fa796"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "bacchus",
+      "predicate": "opening_situation",
+      "object": "The illustrous god, descending from his height, Came rushing on her in a storm of light.\"",
+      "evidence": [
+        "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "bacchus",
+      "predicate": "outcome",
+      "object": "The only person who escaped uninjured was the infant son of Jupiter and Semele, the golden-haired Bacchus.",
+      "evidence": [
+        "gutenberg:ebooks:45489:121.121.4-121.121.4:ba6fa796"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-d41a426b",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0121-89da3c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Thus dreadfully adorned with horror bright",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3",
+        "gutenberg:ebooks:45489:121.121.2-121.121.2:07de67ae",
+        "gutenberg:ebooks:45489:121.121.3-121.121.3:1ec25be6"
+      ],
+      "status": "open"
+    }
+  ]
+}

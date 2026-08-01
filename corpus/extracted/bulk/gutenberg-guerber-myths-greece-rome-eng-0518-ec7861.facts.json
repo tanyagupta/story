@@ -1,0 +1,96 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0518-ec7861",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Ariadne",
+      "entityType": "character",
+      "roleInEpisode": "protagonist",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "ariadne",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Narcissus",
+      "entityType": "character",
+      "roleInEpisode": "participant",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "narcissus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "ariadne",
+      "predicate": "opening_situation",
+      "object": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+      "evidence": [
+        "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "ariadne",
+      "predicate": "outcome",
+      "object": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+      "evidence": [
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-242041c8",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0518-ec7861",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Earth.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b",
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ],
+      "status": "open"
+    }
+  ]
+}

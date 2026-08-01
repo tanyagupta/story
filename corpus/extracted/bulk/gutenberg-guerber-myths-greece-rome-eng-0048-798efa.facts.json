@@ -5,28 +5,28 @@
     {
       "sourceName": "Minerva",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
-      "normalizedId": "roman-minerva",
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "athena",
       "normalizationStatus": "approved"
     },
     {
       "sourceName": "Prometheus",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "participant",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "prometheus",
       "normalizationStatus": "approved"
     }
@@ -35,25 +35,8 @@
   "goals": [],
   "events": [
     {
-      "actorSourceName": "roman-minerva",
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": "prometheus",
-      "sourceAction": "is described",
+      "actorSourceName": null,
+      "sourceAction": "knew",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -66,11 +49,11 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
-      "actorSourceName": "prometheus",
-      "sourceAction": "was",
+      "actorSourceName": null,
+      "sourceAction": "departed",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -83,14 +66,31 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "arrived",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
-      "subject": "roman-minerva",
-      "predicate": "is introduced in",
-      "object": "Horace.",
+      "subject": "athena",
+      "predicate": "opening_situation",
+      "object": "Fire alone, in his estimation, could effect this; but fire was the special possession and prerogative of the gods, and Prometheus knew they would never willingly share it with",
       "evidence": [
         "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed"
       ]
@@ -98,15 +98,33 @@
   ],
   "finalState": [
     {
-      "subject": "roman-minerva",
-      "predicate": "is last attested in selected candidate",
-      "object": "Horace.",
+      "subject": "athena",
+      "predicate": "outcome",
+      "object": "Arrived upon earth once more, he consigned the stolen treasure to the care of man, who immediately adapted it to various purposes, and eloquently expressed his gratitude to the",
       "evidence": [
         "gutenberg:ebooks:39250:48.48.4-48.48.4:ab8b6554"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-53f6bec6",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0048-798efa",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Horace.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:48.48.1-48.48.1:cf5cbbed",
+        "gutenberg:ebooks:39250:48.48.2-48.48.2:bd007584",
+        "gutenberg:ebooks:39250:48.48.3-48.48.3:0afa0bd0"
+      ],
+      "status": "open"
+    }
+  ]
 }

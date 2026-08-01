@@ -7,7 +7,7 @@
     "gutenberg:ebooks:39250:195.195.2-195.195.2:122979e7",
     "gutenberg:ebooks:39250:195.195.3-195.195.3:217d99fa"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -17,14 +17,31 @@
   "workingTitle": "Darwin.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "eros-and-psyche",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-eros-and-psyche-c714c7",
   "characters": [
     "Psyche"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 28,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "actionBearingSentences": 2,
+      "conflictSignals": 0,
+      "paragraphCount": 3,
+      "knownMythFamily": true
+    }
+  }
 }

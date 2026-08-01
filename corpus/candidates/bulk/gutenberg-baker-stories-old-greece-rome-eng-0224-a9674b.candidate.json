@@ -10,7 +10,7 @@
     "gutenberg:ebooks:45489:224.224.5-224.224.5:053e8834",
     "gutenberg:ebooks:45489:224.224.6-224.224.6:7cc2204d"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -20,7 +20,7 @@
   "workingTitle": "XXX",
   "sourceType": "public-domain-retelling",
   "author": "Emilie K. Baker",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "xxx",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-xxx-eff1c3",
   "characters": [
@@ -28,8 +28,25 @@
     "Jupiter",
     "Vulcan"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 69,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 4,
+      "conflictSignals": 1,
+      "paragraphCount": 6,
+      "knownMythFamily": true
+    }
+  }
 }

@@ -8,7 +8,7 @@
     "gutenberg:ebooks:39250:298.298.3-298.298.3:6d646620",
     "gutenberg:ebooks:39250:298.298.4-298.298.4:ae608afa"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -18,15 +18,35 @@
   "workingTitle": "Homeric Hymn.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "demeter-and-persephone",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-demeter-and-persephone-6ef1c5",
   "characters": [
     "Ceres",
-    "Proserpina"
+    "Diana",
+    "Proserpina",
+    "Alpheus",
+    "Arethusa"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 73,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 4,
+      "conflictSignals": 0,
+      "paragraphCount": 4,
+      "knownMythFamily": true
+    }
+  }
 }

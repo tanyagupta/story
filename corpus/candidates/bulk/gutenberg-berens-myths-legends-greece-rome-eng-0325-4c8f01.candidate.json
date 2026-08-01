@@ -8,7 +8,7 @@
     "gutenberg:ebooks:22381:325.325.3-325.325.3:1d6af1ec",
     "gutenberg:ebooks:22381:325.325.4-325.325.4:97b49943"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -22,10 +22,31 @@
   "mythFamilyId": "the-seven-against-thebes",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-the-seven-against-thebes-0cfd53",
   "characters": [
-    "Oedipus"
+    "Oedipus",
+    "Argos"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 115,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 6,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

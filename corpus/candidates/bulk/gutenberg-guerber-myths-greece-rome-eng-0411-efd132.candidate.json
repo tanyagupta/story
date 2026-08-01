@@ -53,10 +53,30 @@
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-60fcc9",
   "characters": [
-    "Paris"
+    "Antigone",
+    "Hades",
+    "Paris",
+    "Argos"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 298,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "actionBearingSentences": 21,
+      "conflictSignals": 10,
+      "paragraphCount": 35,
+      "knownMythFamily": true
+    }
+  }
 }

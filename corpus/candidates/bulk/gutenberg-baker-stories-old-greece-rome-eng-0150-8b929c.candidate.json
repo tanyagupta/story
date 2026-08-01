@@ -23,10 +23,31 @@
   "mythFamilyId": "bellerophon-and-pegasus",
   "variantId": "gutenberg-baker-stories-old-greece-rome-eng-bellerophon-and-pegasus-ba9e43",
   "characters": [
-    "Bellerophon"
+    "Apollo",
+    "Bellerophon",
+    "Minerva",
+    "Pegasus",
+    "Argos"
   ],
   "processingStatus": "rejected-non-story",
   "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 208,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "actionBearingSentences": 18,
+      "conflictSignals": 5,
+      "paragraphCount": 5,
+      "knownMythFamily": true
+    }
+  }
 }

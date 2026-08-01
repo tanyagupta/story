@@ -18,7 +18,7 @@
     "gutenberg:ebooks:39250:496.496.13-496.496.13:4bbc01a0",
     "gutenberg:ebooks:39250:496.496.14-496.496.14:1182be4a"
   ],
-  "status": "awaiting_extraction",
+  "status": "rejected",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -28,12 +28,33 @@
   "workingTitle": "Tomas de Iriarte.",
   "sourceType": "public-domain-retelling",
   "author": "H. A. Guerber",
-  "candidateType": "narrative_episode",
+  "candidateType": "biographical_material",
   "mythFamilyId": "tomas-de-iriarte",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-tomas-de-iriarte-78aac1",
-  "characters": [],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "characters": [
+    "Diana",
+    "Juno",
+    "Paris"
+  ],
+  "processingStatus": "rejected-non-story",
+  "reviewStatus": "dismissed",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 197,
+    "passed": false,
+    "reasons": [
+      "Pre-extraction gates failed: not-narrative-episode"
+    ],
+    "failedGates": [
+      "not-narrative-episode"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "actionBearingSentences": 14,
+      "conflictSignals": 7,
+      "paragraphCount": 14,
+      "knownMythFamily": true
+    }
+  }
 }

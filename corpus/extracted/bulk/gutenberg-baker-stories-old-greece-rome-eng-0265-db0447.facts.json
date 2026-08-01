@@ -1,0 +1,114 @@
+{
+  "candidateId": "gutenberg-baker-stories-old-greece-rome-eng-0265-db0447",
+  "extractionSourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Hades",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:265.265.1-265.265.1:f4c23f34"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hercules",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:265.265.1-265.265.1:f4c23f34"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "heracles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Jupiter",
+      "entityType": "character",
+      "roleInEpisode": "monster",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:265.265.1-265.265.1:f4c23f34"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "found",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:265.265.2-265.265.2:ba32a770"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:265.265.3-265.265.3:145cd1de"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hades",
+      "predicate": "opening_situation",
+      "object": "LI The story of Hercules's accepting Arete (Virtue) as his guide--the \"Choice of Hercules\"--may be found in The Tatler, No.",
+      "evidence": [
+        "gutenberg:ebooks:45489:265.265.1-265.265.1:f4c23f34"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hades",
+      "predicate": "outcome",
+      "object": "LI The story of Hercules's accepting Arete (Virtue) as his guide--the \"Choice of Hercules\"--may be found in The Tatler, No.",
+      "evidence": [
+        "gutenberg:ebooks:45489:265.265.7-265.265.7:42a24c89"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-d4775b64",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0265-db0447",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Floats up from those dim fields about the homes",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:265.265.1-265.265.1:f4c23f34",
+        "gutenberg:ebooks:45489:265.265.2-265.265.2:ba32a770",
+        "gutenberg:ebooks:45489:265.265.3-265.265.3:145cd1de"
+      ],
+      "status": "open"
+    }
+  ]
+}

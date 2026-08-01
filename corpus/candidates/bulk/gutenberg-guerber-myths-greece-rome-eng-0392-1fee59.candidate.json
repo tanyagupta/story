@@ -19,7 +19,7 @@
     "gutenberg:ebooks:39250:392.392.14-392.392.14:78a1d9c6",
     "gutenberg:ebooks:39250:392.392.15-392.392.15:d8d4cba3"
   ],
-  "status": "awaiting_extraction",
+  "status": "awaiting_review",
   "notes": [
     {
       "type": "bulk-segmentation",
@@ -33,10 +33,35 @@
   "mythFamilyId": "jason-and-argonauts",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-jason-and-argonauts-6126f2",
   "characters": [
-    "Jason"
+    "Jason",
+    "Juno",
+    "Neptune",
+    "Athamas",
+    "Chiron",
+    "Helle",
+    "Ino",
+    "Nephele",
+    "Phryxus"
   ],
-  "processingStatus": "candidate-only",
-  "reviewStatus": "pending",
+  "processingStatus": "machine-proposed-extraction",
+  "reviewStatus": "awaiting_review",
   "duplicateOf": null,
-  "qualityFlags": []
+  "qualityFlags": [],
+  "semanticQuality": {
+    "score": 184,
+    "passed": true,
+    "reasons": [
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [],
+    "components": {
+      "namedMythologicalEntities": 6,
+      "meaningfulEvents": 8,
+      "actorEvents": 3,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 8,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  }
 }

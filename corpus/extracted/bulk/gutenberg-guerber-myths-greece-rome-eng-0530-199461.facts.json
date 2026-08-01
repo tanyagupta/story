@@ -1,0 +1,203 @@
+{
+  "candidateId": "gutenberg-guerber-myths-greece-rome-eng-0530-199461",
+  "extractionSourceId": "gutenberg-guerber-myths-greece-rome-eng",
+  "entities": [
+    {
+      "sourceName": "Adonis",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:530.530.1-530.530.1:002af7f3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "adonis",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Bellerophon",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:530.530.1-530.530.1:002af7f3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "bellerophon",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Cadmus",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:530.530.1-530.530.1:002af7f3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "cadmus",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Diana",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:530.530.1-530.530.1:002af7f3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "artemis",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Hercules",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:530.530.1-530.530.1:002af7f3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "heracles",
+      "normalizationStatus": "approved"
+    },
+    {
+      "sourceName": "Io",
+      "entityType": "character",
+      "roleInEpisode": "ruler",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:530.530.1-530.530.1:002af7f3"
+        }
+      ],
+      "confidence": 0.72,
+      "reviewStatus": "awaiting_review",
+      "normalizedId": "io",
+      "normalizationStatus": "approved"
+    }
+  ],
+  "relationships": [],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:530.530.3-530.530.3:97baf45b"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "helped",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:530.530.5-530.530.5:f87e259f"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "loved",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:530.530.7-530.530.7:28972f66"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "sacrificed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:530.530.11-530.530.11:e825e496"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "adonis",
+      "predicate": "opening_situation",
+      "object": "Maiden loved by Jupiter; changed into a heifer, 134-137; significance, 385, 396.",
+      "evidence": [
+        "gutenberg:ebooks:39250:530.530.1-530.530.1:002af7f3"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "adonis",
+      "predicate": "outcome",
+      "object": "Daughter of Agamemnon; sacrificed to Diana, 315, 316; Orestes finds, 336.",
+      "evidence": [
+        "gutenberg:ebooks:39250:530.530.12-530.530.12:80054d94"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-8a799d14",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0530-199461",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Infernal Regions.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:530.530.1-530.530.1:002af7f3",
+        "gutenberg:ebooks:39250:530.530.2-530.530.2:7e75849e",
+        "gutenberg:ebooks:39250:530.530.3-530.530.3:97baf45b"
+      ],
+      "status": "open"
+    }
+  ]
+}

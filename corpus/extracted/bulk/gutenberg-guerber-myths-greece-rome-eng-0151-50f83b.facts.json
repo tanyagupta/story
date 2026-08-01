@@ -5,14 +5,14 @@
     {
       "sourceName": "Niobe",
       "entityType": "character",
-      "roleInEpisode": "mentioned",
+      "roleInEpisode": "protagonist",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c"
         }
       ],
       "confidence": 0.72,
-      "reviewStatus": "approved",
+      "reviewStatus": "awaiting_review",
       "normalizedId": "niobe",
       "normalizationStatus": "approved"
     }
@@ -22,7 +22,7 @@
   "events": [
     {
       "actorSourceName": null,
-      "sourceAction": "is described",
+      "sourceAction": "found",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -35,28 +35,28 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
-    },
-    {
-      "actorSourceName": "niobe",
-      "sourceAction": "is described",
-      "objectSourceName": null,
-      "targetSourceName": null,
-      "recipientSourceName": null,
-      "locationSourceName": null,
-      "causedBy": [],
-      "causes": [],
-      "evidence": [
-        {
-          "passageId": "gutenberg:ebooks:39250:151.151.2-151.151.2:f963429b"
-        }
-      ],
-      "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     },
     {
       "actorSourceName": null,
-      "sourceAction": "is described",
+      "sourceAction": "changed",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c"
+        }
+      ],
+      "confidence": 0.7,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": null,
+      "sourceAction": "changed",
       "objectSourceName": null,
       "targetSourceName": null,
       "recipientSourceName": null,
@@ -69,14 +69,14 @@
         }
       ],
       "confidence": 0.7,
-      "reviewStatus": "approved"
+      "reviewStatus": "awaiting_review"
     }
   ],
   "initialState": [
     {
       "subject": "niobe",
-      "predicate": "is introduced in",
-      "object": "Meleager.",
+      "predicate": "opening_situation",
+      "object": "The last clung convulsively to her mother's breast; but, even in that fond mother's passionate embrace, death found and claimed her.",
       "evidence": [
         "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c"
       ]
@@ -85,14 +85,31 @@
   "finalState": [
     {
       "subject": "niobe",
-      "predicate": "is last attested in selected candidate",
-      "object": "Meleager.",
+      "predicate": "outcome",
+      "object": "This statue was placed on Mount Sipylus, close to a stream of running water; and it was said that tears continually flowed down the marble cheeks, for, though changed, Niobe still",
       "evidence": [
         "gutenberg:ebooks:39250:151.151.2-151.151.2:f963429b"
       ]
     }
   ],
   "causalLinks": [],
-  "reviewStatus": "approved",
-  "review": []
+  "reviewStatus": "awaiting_review",
+  "review": [
+    {
+      "reviewId": "review-989acf4e",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0151-50f83b",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Meleager.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:151.151.1-151.151.1:f368168c",
+        "gutenberg:ebooks:39250:151.151.2-151.151.2:f963429b"
+      ],
+      "status": "open"
+    }
+  ]
 }
