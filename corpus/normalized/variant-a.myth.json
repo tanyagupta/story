@@ -8,7 +8,10 @@
     "passages": [
       "urn:cts:fixture:variant-a:1.1-1.1:2ce49760",
       "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
-    ]
+    ],
+    "extractionSourceId": "fixture-variant-a-source",
+    "witnessSourceIds": [],
+    "parallelSourceIds": []
   },
   "entities": {
     "characters": [
@@ -24,6 +27,69 @@
     ],
     "creatures": []
   },
+  "entityMappings": [
+    {
+      "sourceName": "Hermes",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hera",
+      "normalizedId": "hera",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ]
+    },
+    {
+      "sourceName": "golden apple",
+      "normalizedId": "golden-apple",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
+        }
+      ]
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hermes",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ]
+    },
+    {
+      "sourceName": "Olympus",
+      "normalizedId": "mount-olympus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
   "initialState": [],
   "events": [
     {
@@ -42,7 +108,9 @@
           "passageId": "urn:cts:fixture:variant-a:1.1-1.1:2ce49760"
         }
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_review",
+      "actorSourceName": "Hermes",
+      "objectSourceName": "golden apple"
     },
     {
       "eventId": "event-002",
@@ -60,7 +128,8 @@
           "passageId": "urn:cts:fixture:variant-a:1.2-1.2:759eada5"
         }
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_review",
+      "actorSourceName": "Zeus"
     }
   ],
   "finalState": [],

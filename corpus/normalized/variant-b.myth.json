@@ -8,7 +8,10 @@
     "passages": [
       "urn:cts:fixture:variant-b:1.1-1.1:dd2d4c6b",
       "urn:cts:fixture:variant-b:1.2-1.2:0075133c"
-    ]
+    ],
+    "extractionSourceId": "fixture-variant-b-source",
+    "witnessSourceIds": [],
+    "parallelSourceIds": []
   },
   "entities": {
     "characters": [
@@ -24,6 +27,69 @@
     ],
     "creatures": []
   },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.1-1.1:dd2d4c6b"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hera",
+      "normalizedId": "hera",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.1-1.1:dd2d4c6b"
+        }
+      ]
+    },
+    {
+      "sourceName": "golden apple",
+      "normalizedId": "golden-apple",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.1-1.1:dd2d4c6b"
+        }
+      ]
+    },
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.2-1.2:0075133c"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hermes",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.2-1.2:0075133c"
+        }
+      ]
+    },
+    {
+      "sourceName": "Olympus",
+      "normalizedId": "mount-olympus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:variant-b:1.2-1.2:0075133c"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
   "initialState": [],
   "events": [
     {
@@ -42,7 +108,9 @@
           "passageId": "urn:cts:fixture:variant-b:1.1-1.1:dd2d4c6b"
         }
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_review",
+      "actorSourceName": "Apollo",
+      "objectSourceName": "golden apple"
     },
     {
       "eventId": "event-002",
@@ -60,7 +128,8 @@
           "passageId": "urn:cts:fixture:variant-b:1.2-1.2:0075133c"
         }
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_review",
+      "actorSourceName": "Hermes"
     }
   ],
   "finalState": [],

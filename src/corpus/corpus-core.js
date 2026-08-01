@@ -17,6 +17,22 @@ const ENTITY_BUCKETS = {
   object: "objects",
   creature: "creatures"
 };
+const HEADER_TAGS = new Set([
+  "teiHeader",
+  "fileDesc",
+  "titleStmt",
+  "publicationStmt",
+  "sourceDesc",
+  "encodingDesc",
+  "profileDesc",
+  "revisionDesc",
+  "respStmt",
+  "langUsage",
+  "biblStruct",
+  "monogr",
+  "imprint",
+  "series"
+]);
 
 function readJson(file) {
   return JSON.parse(fs.readFileSync(file, "utf8"));
@@ -190,12 +206,19 @@ function extractPassages(opts) {
   let sequence = 0;
   const textBearing = new Set(["p", "l", "sp"]);
   const containers = new Set(["TEI", "teiHeader", "text", "body", "front", "back", "div", "lg", "sp"]);
-  const ignored = new Set(["head", "speaker", "milestone", "pb", "note", "bibl", "titleStmt", "publicationStmt", "sourceDesc", "fileDesc", "encodingDesc", "profileDesc"]);
+  const ignored = new Set(["head", "speaker", "milestone", "pb", "note", "bibl", "placeName", "gap"]);
+
+  function inHeader(ancestors) {
+    return ancestors.some((entry) => entry.__tag === "teiHeader");
+  }
+
+  function inNarrativeText(ancestors) {
+    return ancestors.some((entry) => entry.__tag === "text" || entry.__tag === "body");
+  }
 
   function visit(node, tag, ancestors, siblingIndex) {
     if (!node || typeof node !== "object") return;
     if (tag === "milestone" || tag === "pb") {
-      warnings.push({ level: "warning", type: "milestone", message: `<${tag}> retained as structural context only`, path: elementPath(ancestors, tag, siblingIndex, node) });
       return;
     }
     const current = Object.assign({ __tag: tag }, node);
@@ -206,7 +229,7 @@ function extractPassages(opts) {
         const speech = asArray(node.p).concat(asArray(node.l)).map(textOf).filter(Boolean).join(" ");
         text = normalizeText([speaker ? `${speaker}:` : "", speech || text].join(" "));
       }
-      if (text) {
+      if (text && !inHeader(ancestors)) {
         sequence += 1;
         const citation = citationFromAncestors(ancestors, node, sequence);
         passages.push({
@@ -232,7 +255,8 @@ function extractPassages(opts) {
       if (key.startsWith("@_") || key === "#text" || key === "#comment") return;
       const children = asArray(node[key]);
       children.forEach((child, index) => {
-        if (!containers.has(key) && !textBearing.has(key) && !ignored.has(key) && normalizeText(textOf(child))) {
+        const shouldWarn = inNarrativeText(ancestors.concat([current])) && !inHeader(ancestors.concat([current])) && !containers.has(key) && !textBearing.has(key) && !ignored.has(key) && !HEADER_TAGS.has(key) && normalizeText(textOf(child));
+        if (shouldWarn) {
           warnings.push({ level: "warning", type: "unsupported-text-element", message: `Unsupported text-bearing element <${key}> was inspected`, path: elementPath(ancestors.concat([current]), key, index + 1, child) });
         }
         visit(child, key, ancestors.concat([current]), index + 1);
@@ -271,7 +295,10 @@ function buildCandidate(opts) {
     title: opts.title || "Working title",
     passages: selected,
     status: opts.status || "awaiting_extraction",
-    notes: opts.notes || []
+    notes: opts.notes || [],
+    witnessSourceIds: opts.witnessSourceIds || [],
+    extractionSourceId: opts.extractionSourceId || opts.sourceId || passageDoc.sourceId,
+    parallelSourceIds: opts.parallelSourceIds || []
   };
   if (!CANDIDATE_STATUSES.has(candidate.status)) throw new Error(`Invalid candidate status: ${candidate.status}`);
   if (opts.out) writeJson(opts.out, candidate, { dryRun: opts.dryRun, noOverwrite: opts.noOverwrite });
@@ -288,6 +315,12 @@ function loadPassageMap(passagesFile) {
 }
 
 function extractFacts(opts) {
+  if (opts.manualFacts) {
+    const factDoc = typeof opts.manualFacts === "string" ? readJson(opts.manualFacts) : opts.manualFacts;
+    enforceEvidence(factDoc);
+    if (opts.out) writeJson(opts.out, factDoc, { dryRun: opts.dryRun, noOverwrite: opts.noOverwrite });
+    return factDoc;
+  }
   const candidate = readJson(opts.candidate);
   const passageMap = loadPassageMap(opts.passages);
   const registry = readJson(opts.registry);
@@ -382,6 +415,15 @@ function enforceEvidence(facts) {
   facts.events.forEach((event) => {
     if (!event.evidence || !event.evidence.length) throw new Error(`Event assertion lacks evidence: ${event.sourceAction}`);
   });
+  (facts.relationships || []).forEach((relationship) => {
+    if (!relationship.evidence || !relationship.evidence.length) throw new Error(`Relationship assertion lacks evidence: ${relationship.sourceRelation || relationship.relationshipType || "relationship"}`);
+  });
+  (facts.initialState || []).forEach((state) => {
+    if (!state.evidence || !state.evidence.length) throw new Error(`Initial state lacks evidence: ${state.predicate || "state"}`);
+  });
+  (facts.finalState || []).forEach((state) => {
+    if (!state.evidence || !state.evidence.length) throw new Error(`Final state lacks evidence: ${state.predicate || "state"}`);
+  });
 }
 
 function reviewItem(recordType, recordId, issueType, sourceValue, suggestions, evidence) {
@@ -470,6 +512,9 @@ function normalizeEvents(opts) {
       evidence: event.evidence,
       reviewStatus: normalizedAction ? event.reviewStatus || "awaiting_review" : "open"
     };
+    ["actorSourceName", "objectSourceName", "targetSourceName", "recipientSourceName", "locationSourceName"].forEach((field) => {
+      if (event[field]) normalized[field] = event[field];
+    });
     if (!normalized.evidence || !normalized.evidence.length) throw new Error(`Normalized event lacks evidence: ${normalized.eventId}`);
     return normalized;
   });
@@ -504,6 +549,12 @@ function buildMythRecord(opts) {
     const bucket = ENTITY_BUCKETS[registryById[entity.normalizedId].entityType] || "characters";
     if (buckets[bucket].indexOf(entity.normalizedId) < 0) buckets[bucket].push(entity.normalizedId);
   });
+  const entityMappings = normalized.entities.map((entity) => ({
+    sourceName: entity.sourceName,
+    normalizedId: entity.normalizedId || null,
+    normalizationStatus: entity.normalizationStatus || "unresolved",
+    evidence: entity.evidence || []
+  }));
   const unresolved = asArray(normalized.review).filter((item) => item.status === "open");
   const myth = {
     mythId: opts.mythId || `myth-${stableHash(candidate.candidateId, 8)}`,
@@ -512,9 +563,14 @@ function buildMythRecord(opts) {
     title: opts.title || candidate.title,
     source: {
       sourceId: candidate.sourceId,
-      passages: candidate.passages
+      passages: candidate.passages,
+      extractionSourceId: candidate.extractionSourceId || candidate.sourceId,
+      witnessSourceIds: candidate.witnessSourceIds || [],
+      parallelSourceIds: candidate.parallelSourceIds || []
     },
     entities: buckets,
+    entityMappings,
+    relationships: normalized.relationships || [],
     initialState: normalized.initialState || [],
     events: normalized.events,
     finalState: normalized.finalState || [],
@@ -562,7 +618,16 @@ function validateCorpus(opts) {
     validateFile(file, "source-manifest.schema.json");
     const manifest = readJson(file);
     if (!manifest.license) addError("missing-license", file, "Missing source license");
+    if (/unclear|unknown|tbd/i.test(String(manifest.license))) addError("unclear-license", file, "Source license is unclear");
     if (!manifest.commit) addError("missing-revision", file, "Missing exact source revision");
+    const isTranslationRecord = manifest.parallelSourceId || manifest.translationOf || manifest.translator;
+    if (manifest.language === "eng" && isTranslationRecord) {
+      if (!manifest.translator) addError("missing-translator", file, "English translation manifest must include translator");
+      if (!manifest.publicationDate && !String(manifest.edition || "").match(/\b\d{4}\b/)) addError("missing-publication-metadata", file, "Translation manifest must include publication metadata");
+    }
+    if (manifest.derivedTei === true && (!manifest.originalSource || !manifest.originalSource.url)) {
+      addError("missing-original-provenance", file, "Derived TEI wrapper must record original-source provenance");
+    }
     if (manifest.rawSource && manifest.rawSource.path && manifest.rawSource.checksum) {
       const rawPath = path.resolve(process.cwd(), manifest.rawSource.path);
       if (fs.existsSync(rawPath) && sha256File(rawPath) !== manifest.rawSource.checksum) {
@@ -607,6 +672,12 @@ function validateCorpus(opts) {
     facts.events.forEach((event) => {
       if (!event.evidence || !event.evidence.length) addError("missing-evidence", file, `Event ${event.sourceAction} lacks evidence`);
     });
+    (facts.relationships || []).forEach((relationship) => {
+      if (!relationship.evidence || !relationship.evidence.length) addError("missing-evidence", file, "Relationship lacks evidence");
+    });
+    (facts.initialState || []).concat(facts.finalState || []).forEach((state) => {
+      if (!state.evidence || !state.evidence.length) addError("missing-evidence", file, "State lacks evidence");
+    });
   });
   const mythIds = new Set();
   asArray(opts.myths).forEach((file) => {
@@ -623,9 +694,15 @@ function validateCorpus(opts) {
       ["actor", "object", "target", "recipient", "location"].forEach((field) => {
         if (event[field] && !entityIds.has(event[field])) addError("unknown-entity-id", file, `Unknown entity ${event[field]} in ${event.eventId}`);
       });
+      if (!event.action) addError("unsupported-action", file, `Unsupported action in ${event.eventId}: ${event.sourceAction}`);
       event.causedBy.concat(event.causes).forEach((id) => {
         if (!eventIds.has(id)) addError("invalid-event-reference", file, `Unknown event reference ${id}`);
       });
+    });
+    asArray(myth.normalizationWarnings).forEach((item) => {
+      if (item.issueType === "unresolved-person-name" || item.issueType === "unsupported-action" || item.issueType === "ambiguous-normalization") {
+        report.warnings.push({ type: item.issueType, file, message: `${item.sourceValue || item.recordId} remains open for review` });
+      }
     });
     if (!RECORD_REVIEW_STATUSES.has(myth.reviewStatus)) addError("invalid-review-status", file, `Invalid review status ${myth.reviewStatus}`);
   });

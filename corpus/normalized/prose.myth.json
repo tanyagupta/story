@@ -8,7 +8,10 @@
     "passages": [
       "urn:cts:fixture:prose:1.1-1.1:c7f92a2c",
       "urn:cts:fixture:prose:1.2-1.2:0f3159da"
-    ]
+    ],
+    "extractionSourceId": "fixture-prose-source",
+    "witnessSourceIds": [],
+    "parallelSourceIds": []
   },
   "entities": {
     "characters": [
@@ -24,6 +27,79 @@
     ],
     "creatures": []
   },
+  "entityMappings": [
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.1-1.1:c7f92a2c"
+        }
+      ]
+    },
+    {
+      "sourceName": "Olympus",
+      "normalizedId": "mount-olympus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.1-1.1:c7f92a2c"
+        }
+      ]
+    },
+    {
+      "sourceName": "thunderbolt",
+      "normalizedId": "thunderbolt",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.1-1.1:c7f92a2c"
+        }
+      ]
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ]
+    },
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ]
+    },
+    {
+      "sourceName": "Hermes",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ]
+    },
+    {
+      "sourceName": "thunderbolt",
+      "normalizedId": "thunderbolt",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
   "initialState": [],
   "events": [
     {
@@ -42,7 +118,9 @@
           "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
         }
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_review",
+      "actorSourceName": "Apollo",
+      "objectSourceName": "thunderbolt"
     },
     {
       "eventId": "event-002",
@@ -60,7 +138,9 @@
           "passageId": "urn:cts:fixture:prose:1.2-1.2:0f3159da"
         }
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_review",
+      "actorSourceName": "Hermes",
+      "objectSourceName": "thunderbolt"
     }
   ],
   "finalState": [],

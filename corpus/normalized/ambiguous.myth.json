@@ -8,7 +8,10 @@
     "passages": [
       "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f",
       "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
-    ]
+    ],
+    "extractionSourceId": "fixture-ambiguous-source",
+    "witnessSourceIds": [],
+    "parallelSourceIds": []
   },
   "entities": {
     "characters": [
@@ -22,6 +25,59 @@
     ],
     "creatures": []
   },
+  "entityMappings": [
+    {
+      "sourceName": "Olympus",
+      "normalizedId": "mount-olympus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
+        }
+      ]
+    },
+    {
+      "sourceName": "golden apple",
+      "normalizedId": "golden-apple",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Phoibos",
+      "normalizedId": null,
+      "normalizationStatus": "unresolved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
+        }
+      ]
+    },
+    {
+      "sourceName": "Phoibos",
+      "normalizedId": null,
+      "normalizationStatus": "unresolved",
+      "evidence": [
+        {
+          "passageId": "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
   "initialState": [],
   "events": [
     {
@@ -40,7 +96,9 @@
           "passageId": "urn:cts:fixture:ambiguous:1.1-1.1:bd88596f"
         }
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_review",
+      "actorSourceName": "Olympus",
+      "objectSourceName": "golden apple"
     },
     {
       "eventId": "event-002",
@@ -58,7 +116,8 @@
           "passageId": "urn:cts:fixture:ambiguous:1.2-1.2:214c0e3b"
         }
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_review",
+      "actorSourceName": "Zeus"
     }
   ],
   "finalState": [],

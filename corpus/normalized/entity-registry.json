@@ -4,7 +4,7 @@
       "id": "zeus",
       "preferredName": "Zeus",
       "greekName": "Ζεύς",
-      "aliases": ["Zeus", "Ζεύς", "Zeus pater"],
+      "aliases": ["Zeus", "Ζεύς", "Ζῆνα", "Zeus pater"],
       "entityType": "deity",
       "tradition": "greek"
     },
@@ -64,6 +64,182 @@
       "entityType": "deity",
       "tradition": "roman",
       "links": [{ "type": "parallel", "target": "zeus", "reviewStatus": "approved" }]
+    },
+    {
+      "id": "dionysus",
+      "preferredName": "Dionysus",
+      "greekName": "Διόνυσος",
+      "aliases": ["Dionysus", "Διόνυσος", "Διώνυσον"],
+      "entityType": "deity",
+      "tradition": "greek"
+    },
+    {
+      "id": "themis",
+      "preferredName": "Themis",
+      "greekName": "Θέμις",
+      "aliases": ["Themis", "Θέμιστι"],
+      "entityType": "deity",
+      "tradition": "greek"
+    },
+    {
+      "id": "cronus",
+      "preferredName": "Cronus",
+      "greekName": "Κρόνος",
+      "aliases": ["Cronos", "Cronus", "Κρονίδη"],
+      "entityType": "deity",
+      "tradition": "greek"
+    },
+    {
+      "id": "semele",
+      "preferredName": "Semele",
+      "greekName": "Σεμέλη",
+      "aliases": ["Semele", "Σεμέλης", "Σεμέλη"],
+      "entityType": "mortal",
+      "tradition": "greek"
+    },
+    {
+      "id": "poseidon",
+      "preferredName": "Poseidon",
+      "greekName": "Ποσειδάων",
+      "aliases": ["Poseidon", "Ποσειδάων"],
+      "entityType": "deity",
+      "tradition": "greek"
+    },
+    {
+      "id": "hymn-speaker",
+      "preferredName": "hymn speaker",
+      "greekName": null,
+      "aliases": ["I", "hymn speaker"],
+      "entityType": "character",
+      "tradition": "greek"
+    },
+    {
+      "id": "tyrsenian-pirates",
+      "preferredName": "Tyrsenian pirates",
+      "greekName": "Τυρσηνοί",
+      "aliases": ["Tyrsenian pirates", "pirates", "sailors", "seamen", "ναύτας", "Τυρσηνοί"],
+      "entityType": "character",
+      "tradition": "greek"
+    },
+    {
+      "id": "helmsman",
+      "preferredName": "helmsman",
+      "greekName": "κυβερνήτης",
+      "aliases": ["helmsman", "κυβερνήτης"],
+      "entityType": "character",
+      "tradition": "greek"
+    },
+    {
+      "id": "pirate-master",
+      "preferredName": "pirate master",
+      "greekName": "ἀρχός",
+      "aliases": ["master", "ἀρχὸς"],
+      "entityType": "character",
+      "tradition": "greek"
+    },
+    {
+      "id": "ship",
+      "preferredName": "ship",
+      "greekName": "νηῦς",
+      "aliases": ["ship", "νηὸς", "νηῦς"],
+      "entityType": "object",
+      "tradition": "greek"
+    },
+    {
+      "id": "sea",
+      "preferredName": "sea",
+      "greekName": "ἅλς",
+      "aliases": ["sea", "πόντον", "ἅλα"],
+      "entityType": "place",
+      "tradition": "greek"
+    },
+    {
+      "id": "shore",
+      "preferredName": "shore",
+      "greekName": "ἀκτή",
+      "aliases": ["shore", "headland", "ἀκτῇ"],
+      "entityType": "place",
+      "tradition": "greek"
+    },
+    {
+      "id": "bonds",
+      "preferredName": "bonds",
+      "greekName": "δεσμοί",
+      "aliases": ["bonds", "δεσμοῖς", "δεσμά"],
+      "entityType": "object",
+      "tradition": "greek"
+    },
+    {
+      "id": "wine",
+      "preferredName": "wine",
+      "greekName": "οἶνος",
+      "aliases": ["wine", "οἶνος"],
+      "entityType": "object",
+      "tradition": "greek"
+    },
+    {
+      "id": "vine",
+      "preferredName": "vine",
+      "greekName": "ἄμπελος",
+      "aliases": ["vine", "ἄμπελος"],
+      "entityType": "object",
+      "tradition": "greek"
+    },
+    {
+      "id": "ivy",
+      "preferredName": "ivy",
+      "greekName": "κισσός",
+      "aliases": ["ivy", "ivy-plant", "κισσός"],
+      "entityType": "object",
+      "tradition": "greek"
+    },
+    {
+      "id": "sail",
+      "preferredName": "sail",
+      "greekName": "ἱστίον",
+      "aliases": ["sail", "ἱστίον"],
+      "entityType": "object",
+      "tradition": "greek"
+    },
+    {
+      "id": "lion",
+      "preferredName": "lion",
+      "greekName": "λέων",
+      "aliases": ["lion", "λέων"],
+      "entityType": "creature",
+      "tradition": "greek"
+    },
+    {
+      "id": "bear",
+      "preferredName": "bear",
+      "greekName": "ἄρκτος",
+      "aliases": ["bear", "ἄρκτον"],
+      "entityType": "creature",
+      "tradition": "greek"
+    },
+    {
+      "id": "dolphins",
+      "preferredName": "dolphins",
+      "greekName": "δελφῖνες",
+      "aliases": ["dolphins", "δελφῖνες"],
+      "entityType": "creature",
+      "tradition": "greek"
+    },
+    {
+      "id": "egypt",
+      "preferredName": "Egypt",
+      "greekName": "Αἴγυπτος",
+      "aliases": ["Egypt", "Αἴγυπτον"],
+      "entityType": "place",
+      "tradition": "greek"
+    },
+    {
+      "id": "cyprus",
+      "preferredName": "Cyprus",
+      "greekName": "Κύπρος",
+      "aliases": ["Cyprus", "Κύπρον"],
+      "entityType": "place",
+      "tradition": "greek"
     }
   ]
 }

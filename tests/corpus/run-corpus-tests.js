@@ -1,4 +1,6 @@
 const assert = require("assert");
+const childProcess = require("child_process");
+const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 const {
@@ -56,6 +58,14 @@ function runOne(name) {
   return { dir, manifest, passages, candidate, facts, entityFacts, eventFacts, myth };
 }
 
+function hashFile(file) {
+  return crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex");
+}
+
+function runRealSources() {
+  childProcess.execFileSync(process.execPath, [path.join(root, "src/corpus/corpus-real-runner.js")], { cwd: root, stdio: "pipe" });
+}
+
 test("extracts TEI metadata, checksum, and prose passages", () => {
   const files = runOne("prose");
   const manifest = readJson(files.manifest);
@@ -73,6 +83,40 @@ test("extracts poetic lines in source order", () => {
   assert.strictEqual(passages[0].citation.start, "1");
   assert.strictEqual(passages[1].citation.start, "2");
   assert.ok(passages[0].text.includes("Ζεύς"));
+});
+
+test("TEI header metadata does not generate irrelevant passage warnings", () => {
+  const dir = prepare("tei-header-warnings");
+  const manifest = path.join(dir, "hymn23.manifest.json");
+  ingestSource({ manifest: path.join(root, "corpus/manifests/perseus-homeric-hymn-23-zeus-grc.json"), source: path.join(root, "corpus/sources/raw/perseus-homeric-hymn-23-zeus-grc.xml"), out: manifest });
+  const result = extractPassages({ manifest, source: path.join(root, "corpus/sources/raw/perseus-homeric-hymn-23-zeus-grc.xml") });
+  assert.strictEqual(result.passages.length, 4);
+  assert.strictEqual(result.warnings.filter((warning) => warning.type === "unsupported-text-element").length, 0);
+});
+
+test("genuine unsupported body text still generates a warning", () => {
+  const dir = prepare("unsupported-body");
+  const raw = path.join(dir, "unsupported.xml");
+  const manifest = path.join(dir, "unsupported.manifest.json");
+  fs.writeFileSync(raw, "<TEI><text><body><div n=\"1\"><ab n=\"1\">Body text in an unsupported element.</ab></div></body></text></TEI>\n");
+  writeJson(manifest, {
+    sourceId: "unsupported-body-fixture",
+    repository: "local-fixtures/story",
+    commit: "0000000000000000000000000000000000000999",
+    file: "unsupported.xml",
+    canonicalIdentifier: "urn:cts:fixture:unsupported",
+    language: "eng",
+    author: "Fixture Author",
+    work: "Unsupported Body Fixture",
+    edition: "Local fixture",
+    translator: null,
+    license: "CC0-1.0",
+    licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    retrievedAt: "2026-08-01T00:00:00.000Z"
+  });
+  ingestSource({ manifest, source: raw, out: manifest });
+  const result = extractPassages({ manifest, source: raw });
+  assert.ok(result.warnings.some((warning) => warning.type === "unsupported-text-element" && warning.path.includes("/ab[1]")));
 });
 
 test("generates deterministic passage IDs", () => {
@@ -201,6 +245,90 @@ test("runs an end-to-end fixture pipeline with valid report", () => {
   });
   assert.strictEqual(report.valid, true);
   assert.ok(readJson(files.myth).events.every((event) => event.evidence.length > 0));
+});
+
+test("real Hymn 23 extracts exactly four deterministic Greek passages", () => {
+  runRealSources();
+  const passages = readJson(path.join(root, "corpus/passages/perseus-homeric-hymn-23-zeus-grc.passages.json"));
+  const before = passages.passages.map((passage) => passage.passageId);
+  runRealSources();
+  const after = readJson(path.join(root, "corpus/passages/perseus-homeric-hymn-23-zeus-grc.passages.json")).passages.map((passage) => passage.passageId);
+  assert.strictEqual(passages.passages.length, 4);
+  assert.deepStrictEqual(before, after);
+  assert.strictEqual(passages.warnings.length, 0);
+});
+
+test("real Hymn 23 candidate, facts, and normalized record are valid", () => {
+  runRealSources();
+  const candidate = readJson(path.join(root, "corpus/candidates/homeric-hymn-23-zeus.candidate.json"));
+  const facts = readJson(path.join(root, "corpus/extracted/homeric-hymn-23-zeus.facts.json"));
+  const myth = readJson(path.join(root, "corpus/normalized/homeric-hymn-23-zeus.myth.json"));
+  const report = readJson(path.join(root, "corpus/review/homeric-hymn-23-zeus.validation-report.json"));
+  assert.strictEqual(candidate.candidateId, "homeric-hymn-23-zeus");
+  assert.strictEqual(candidate.passages.length, 4);
+  assert.ok(facts.entities.every((item) => item.evidence && item.evidence.length));
+  assert.ok(facts.events.every((item) => item.evidence && item.evidence.length));
+  assert.strictEqual(report.valid, true);
+  assert.ok(myth.events.every((item) => item.evidence && item.evidence.length));
+});
+
+test("real narrative source has complete candidate and evidence-backed facts", () => {
+  runRealSources();
+  const greek = readJson(path.join(root, "corpus/passages/perseus-homeric-hymn-7-dionysus-grc.passages.json"));
+  const english = readJson(path.join(root, "corpus/passages/perseus-homeric-hymn-7-dionysus-eng.passages.json"));
+  const candidate = readJson(path.join(root, "corpus/candidates/homeric-hymn-7-dionysus.candidate.json"));
+  const facts = readJson(path.join(root, "corpus/extracted/homeric-hymn-7-dionysus.facts.json"));
+  assert.strictEqual(greek.passages.length, 59);
+  assert.strictEqual(english.passages.length, 12);
+  assert.strictEqual(candidate.passages.length, greek.passages.length);
+  assert.ok(facts.entities.length > 0);
+  assert.ok(facts.events.length > 0);
+  assert.ok(facts.entities.every((item) => item.evidence && item.evidence.length));
+  assert.ok(facts.events.every((item) => item.evidence && item.evidence.length));
+});
+
+test("Greek and English real-source witnesses remain separate with translation provenance", () => {
+  runRealSources();
+  const greek = readJson(path.join(root, "corpus/manifests/perseus-homeric-hymn-7-dionysus-grc.json"));
+  const english = readJson(path.join(root, "corpus/manifests/perseus-homeric-hymn-7-dionysus-eng.json"));
+  const myth = readJson(path.join(root, "corpus/normalized/homeric-hymn-7-dionysus.myth.json"));
+  assert.strictEqual(greek.language, "grc");
+  assert.strictEqual(english.language, "eng");
+  assert.strictEqual(english.translator, "Hugh G. Evelyn-White");
+  assert.strictEqual(english.publicationDate, "1914");
+  assert.notStrictEqual(greek.sourceId, english.sourceId);
+  assert.deepStrictEqual(myth.source.witnessSourceIds, [greek.sourceId, english.sourceId]);
+});
+
+test("real-source review queue preserves ambiguous and uncertain items", () => {
+  runRealSources();
+  const review = readJson(path.join(root, "corpus/review/homeric-hymn-7-dionysus.review.json"));
+  assert.ok(review.items.some((item) => item.issueType === "ambiguous-normalization"));
+  assert.ok(review.items.some((item) => item.issueType === "uncertain-source-text"));
+});
+
+test("real-source controlled actions and event order are preserved", () => {
+  runRealSources();
+  const myth = readJson(path.join(root, "corpus/normalized/homeric-hymn-7-dionysus.myth.json"));
+  assert.deepStrictEqual(myth.events.map((event) => event.eventId), myth.events.map((event, index) => `event-${String(index + 1).padStart(3, "0")}`));
+  assert.ok(myth.events.some((event) => event.sourceAction === "changed into a dreadful lion" && event.action === "transform"));
+  assert.ok(myth.events.some((event) => event.sourceAction === "were changed into" && event.action === "become"));
+});
+
+test("complete real-source runner succeeds offline and is deterministic", () => {
+  runRealSources();
+  const files = [
+    "corpus/passages/perseus-homeric-hymn-23-zeus-grc.passages.json",
+    "corpus/passages/perseus-homeric-hymn-7-dionysus-grc.passages.json",
+    "corpus/extracted/homeric-hymn-7-dionysus.facts.json",
+    "corpus/normalized/homeric-hymn-7-dionysus.myth.json",
+    "corpus/review/real-sources.validation-report.json"
+  ].map((file) => path.join(root, file));
+  const before = files.map(hashFile);
+  runRealSources();
+  const after = files.map(hashFile);
+  assert.deepStrictEqual(before, after);
+  assert.strictEqual(readJson(path.join(root, "corpus/review/real-sources.validation-report.json")).valid, true);
 });
 
 fs.rmSync(tempRoot, { recursive: true, force: true });

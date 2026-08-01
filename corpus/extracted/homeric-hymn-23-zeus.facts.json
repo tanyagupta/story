@@ -1,0 +1,205 @@
+{
+  "candidateId": "homeric-hymn-23-zeus",
+  "extractionSourceId": "perseus-homeric-hymn-23-zeus-eng",
+  "entities": [
+    {
+      "sourceName": "Zeus",
+      "entityType": "deity",
+      "roleInEpisode": "invoked",
+      "evidence": [
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.1:0e7ff7fe",
+          "sourceRole": "original-language"
+        },
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-eng2:urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1:1b3e4d58",
+          "sourceRole": "translation"
+        }
+      ],
+      "confidence": 0.86,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "Ζῆνα",
+      "entityType": "deity",
+      "roleInEpisode": "invoked",
+      "evidence": [
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.1:0e7ff7fe",
+          "sourceRole": "original-language"
+        }
+      ],
+      "confidence": 0.86,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "Themis",
+      "entityType": "deity",
+      "roleInEpisode": "recipient",
+      "evidence": [
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.2-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.2:66edac54",
+          "sourceRole": "original-language"
+        },
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-eng2:urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1:1b3e4d58",
+          "sourceRole": "translation"
+        }
+      ],
+      "confidence": 0.86,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "Θέμιστι",
+      "entityType": "deity",
+      "roleInEpisode": "recipient",
+      "evidence": [
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.2-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.2:66edac54",
+          "sourceRole": "original-language"
+        }
+      ],
+      "confidence": 0.86,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "sourceName": "Cronos",
+      "entityType": "deity",
+      "roleInEpisode": "ancestor",
+      "evidence": [
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.4-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.4:768a867e",
+          "sourceRole": "original-language"
+        },
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-eng2:urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1:1b3e4d58",
+          "sourceRole": "translation"
+        }
+      ],
+      "confidence": 0.86,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "relationships": [
+    {
+      "subjectSourceName": "Zeus",
+      "sourceRelation": "Son of Cronos",
+      "objectSourceName": "Cronos",
+      "evidence": [
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.4-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.4:768a867e",
+          "sourceRole": "original-language"
+        },
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-eng2:urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1:1b3e4d58",
+          "sourceRole": "translation"
+        }
+      ],
+      "confidence": 0.83,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "goals": [],
+  "events": [
+    {
+      "actorSourceName": "hymn speaker",
+      "sourceAction": "will sing",
+      "objectSourceName": "Zeus",
+      "targetSourceName": null,
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.1:0e7ff7fe",
+          "sourceRole": "original-language"
+        },
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-eng2:urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1:1b3e4d58",
+          "sourceRole": "translation"
+        }
+      ],
+      "confidence": 0.86,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "Zeus",
+      "sourceAction": "whispers",
+      "objectSourceName": null,
+      "targetSourceName": null,
+      "recipientSourceName": "Themis",
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.2-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.2:66edac54",
+          "sourceRole": "original-language"
+        },
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-eng2:urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1:1b3e4d58",
+          "sourceRole": "translation"
+        }
+      ],
+      "confidence": 0.86,
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "actorSourceName": "hymn speaker",
+      "sourceAction": "be gracious",
+      "objectSourceName": null,
+      "targetSourceName": "Zeus",
+      "recipientSourceName": null,
+      "locationSourceName": null,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.4-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.4:768a867e",
+          "sourceRole": "original-language"
+        },
+        {
+          "passageId": "urn:cts:greekLit:tlg0013.tlg023.perseus-eng2:urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1:1b3e4d58",
+          "sourceRole": "translation"
+        }
+      ],
+      "confidence": 0.86,
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "Zeus",
+      "predicate": "is described as",
+      "object": "chiefest among the gods and greatest",
+      "evidence": [
+        "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.1:0e7ff7fe",
+        "urn:cts:greekLit:tlg0013.tlg023.perseus-eng2:urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1:1b3e4d58"
+      ]
+    },
+    {
+      "subject": "Themis",
+      "predicate": "sits leaning toward",
+      "object": "Zeus",
+      "evidence": [
+        "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.2-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.2:66edac54",
+        "urn:cts:greekLit:tlg0013.tlg023.perseus-eng2:urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1:1b3e4d58"
+      ]
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hymn speaker",
+      "predicate": "invokes",
+      "object": "Zeus",
+      "evidence": [
+        "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2:urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.4-urn:cts:greekLit:tlg0013.tlg023.perseus-grc2.4:768a867e",
+        "urn:cts:greekLit:tlg0013.tlg023.perseus-eng2:urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1-urn:cts:greekLit:tlg0013.tlg023.perseus-eng2.1:1b3e4d58"
+      ]
+    }
+  ],
+  "causalLinks": [],
+  "reviewStatus": "awaiting_review",
+  "review": []
+}
