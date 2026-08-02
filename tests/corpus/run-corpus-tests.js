@@ -480,13 +480,13 @@ test("bulk inventory meets candidate and production targets", () => {
   assert.strictEqual(validation.valid, true);
   assert.ok(summary.validNarrativeCandidates >= 100);
   assert.strictEqual(summary.narrativeCandidates, 291);
-  assert.strictEqual(summary.fullyNormalizedRecords, 258);
+  assert.strictEqual(summary.fullyNormalizedRecords, 248);
   assert.strictEqual(summary.approvedRecords, 0);
   assert.strictEqual(summary.humanApprovedRecords, 0);
-  assert.strictEqual(summary.verifiedBySourceAudit, 15);
-  assert.strictEqual(summary.machineProposedRecords, 258);
-  assert.strictEqual(summary.recordsAwaitingReview, 258);
-  assert.strictEqual(summary.awaitingSubstantiveSourceReviewRecords, 258);
+  assert.strictEqual(summary.verifiedBySourceAudit, 32);
+  assert.strictEqual(summary.machineProposedRecords, 248);
+  assert.strictEqual(summary.recordsAwaitingReview, 248);
+  assert.strictEqual(summary.awaitingSubstantiveSourceReviewRecords, 248);
   assert.strictEqual(summary.unresolvedRequiresHumanReviewRecords, 10);
   assert.ok(inventory.entries.some((entry) => entry.candidateType === "non_story_material"));
   assert.ok(inventory.entries.some((entry) => entry.candidateType === "biographical_material"));
@@ -506,7 +506,7 @@ test("bulk variants remain separate and probable duplicates are queued", () => {
 test("bulk production records have evidence and preserve event order", () => {
   runBulkSources();
   const myths = bulkMyths();
-  assert.strictEqual(myths.length, 293);
+  assert.strictEqual(myths.length, 300);
   myths.filter((myth) => myth.reviewStatus === "verified_by_source_audit").forEach((myth) => {
     assert.ok(myth.events.every((event) => event.evidence && event.evidence.length));
     assert.deepStrictEqual(myth.events.map((event) => event.eventId), myth.events.map((event, index) => `event-${String(index + 1).padStart(3, "0")}`));
@@ -520,8 +520,8 @@ test("bulk semantic gates prevent placeholder approvals", () => {
   const restored = myths.filter((myth) => myth.reviewStatus === "awaiting_substantive_source_review");
   const verified = myths.filter((myth) => myth.reviewStatus === "verified_by_source_audit");
   assert.strictEqual(proposed.length, 0);
-  assert.strictEqual(restored.length, 258);
-  assert.strictEqual(verified.length, 15);
+  assert.strictEqual(restored.length, 248);
+  assert.strictEqual(verified.length, 32);
   assert.strictEqual(myths.filter((myth) => myth.reviewStatus === "approved").length, 0);
   verified.forEach((myth) => {
     assert.ok(myth.entities.characters.length > 0);
@@ -551,7 +551,7 @@ test("bulk non-story and weak narrative candidates are not approved", () => {
   const ambiguous = readJson(path.join(root, "corpus/catalog/ambiguous-myths.json"));
   const humanReview = readJson(path.join(root, "corpus/catalog/human-review-required.json"));
   assert.strictEqual(approvedCatalog.entries.length, 0);
-  assert.strictEqual(verifiedCatalog.entries.length, 15);
+  assert.strictEqual(verifiedCatalog.entries.length, 32);
   assert.ok(verifiedCatalog.entries.every((entry) => entry.reviewStatus === "verified_by_source_audit"));
   assert.ok(verifiedCatalog.entries.every((entry) => entry.file.startsWith("corpus/normalized/bulk/verified/") && fs.existsSync(path.join(root, entry.file))));
   assert.ok(proposedCatalog.entries.every((entry) => entry.file.startsWith("corpus/normalized/bulk/proposed/") && fs.existsSync(path.join(root, entry.file))));
@@ -559,8 +559,8 @@ test("bulk non-story and weak narrative candidates are not approved", () => {
   assert.ok(!approvedCatalog.entries.some((entry) => entry.title === "Pindar."));
   assert.ok(rejectedCatalog.entries.some((entry) => entry.title === "Pindar." && entry.processingStatus === "rejected-non-story"));
   assert.strictEqual(rejectedCatalog.entries.filter((entry) => entry.processingStatus === "rejected-non-story-source-audit").length, 5);
-  assert.strictEqual(proposedCatalog.entries.length, 278);
-  assert.strictEqual(awaiting.entries.length, 258);
+  assert.strictEqual(proposedCatalog.entries.length, 268);
+  assert.strictEqual(awaiting.entries.length, 248);
   assert.ok(awaiting.entries.every((entry) => entry.reviewStatus === "awaiting_substantive_source_review"));
   assert.strictEqual(ambiguous.entries.length, 9);
   assert.strictEqual(humanReview.entries.length, 10);
@@ -577,15 +577,15 @@ test("bulk semantic report and review workflow are populated", () => {
   const sampleReview = fs.readdirSync(path.join(root, "corpus/review/bulk")).find((file) => file.endsWith(".review.json"));
   const review = readJson(path.join(root, "corpus/review/bulk", sampleReview));
   assert.strictEqual(semantic.approvedRecords, 0);
-  assert.strictEqual(semantic.verifiedBySourceAudit, 15);
+  assert.strictEqual(semantic.verifiedBySourceAudit, 32);
   assert.strictEqual(semantic.humanApprovedRecords, 0);
-  assert.strictEqual(semantic.awaitingReview, 258);
+  assert.strictEqual(semantic.awaitingReview, 248);
   assert.strictEqual(progress.baseline.verified, 15);
   assert.strictEqual(progress.baseline.awaitingReview, 278);
   assert.strictEqual(progress.neverReviewedRemaining, 0);
   assert.strictEqual(progress.deferredComplex, 0);
   assert.strictEqual(progress.unresolvedRequiresHumanReview, 10);
-  assert.strictEqual(progress.awaitingSubstantiveSourceReview, 258);
+  assert.strictEqual(progress.awaitingSubstantiveSourceReview, 248);
   assert.strictEqual(progress.programComplete, false);
   assert.ok(Object.keys(semantic.failedQualityGates).length > 0);
   assert.strictEqual(structureCheck.reviewType, "automated-structure-check");
@@ -637,11 +637,13 @@ test("verification batch 01 ranking, selection, and outcomes are deterministic",
 test("verification batch 01 reconciles catalogs and removes promoted proposed files", () => {
   runBulkSources();
   const results = readJson(path.join(root, "corpus/review/verification-batch-01-results.json"));
+  const batch02 = readJson(path.join(root, "corpus/review/reconstruction-batch-02-results.json"));
   const verifiedCatalog = readJson(path.join(root, "corpus/catalog/verified-myths.json"));
   const proposedCatalog = readJson(path.join(root, "corpus/catalog/proposed-myths.json"));
   const approvedCatalog = readJson(path.join(root, "corpus/catalog/approved-myths.json"));
   const verifiedIds = new Set(verifiedCatalog.entries.map((entry) => entry.mythId));
   const proposedIds = new Set(proposedCatalog.entries.map((entry) => entry.mythId));
+  const supersededLater = new Set(batch02.records.map((record) => record.mythId));
   assert.strictEqual(approvedCatalog.entries.length, 0);
   results.newlyVerifiedRecords.forEach((record) => {
     assert.ok(verifiedIds.has(record.mythId));
@@ -653,7 +655,13 @@ test("verification batch 01 reconciles catalogs and removes promoted proposed fi
     .forEach((record) => assert.ok(!proposedIds.has(record.mythId)));
   results.reviewedRecords
     .filter((record) => record.finalStatus === "awaiting_review")
-    .forEach((record) => assert.ok(proposedIds.has(record.mythId)));
+    .forEach((record) => {
+      if (supersededLater.has(record.mythId)) {
+        assert.ok(!proposedIds.has(record.mythId));
+      } else {
+        assert.ok(proposedIds.has(record.mythId));
+      }
+    });
 });
 
 test("remaining verification program reviews every unverified record once", () => {
@@ -663,16 +671,19 @@ test("remaining verification program reviews every unverified record once", () =
   const archiveRoot = path.join(root, "corpus/review/archive/failed-bulk-review");
   const archivedDeferred = readJson(path.join(archiveRoot, "deferred-complex-records.json"));
   const archivedFinalDeferred = readJson(path.join(archiveRoot, "verification-final-deferred-results.json"));
-  assert.strictEqual(ledger.entries.length, 278);
-  assert.strictEqual(new Set(ledger.entries.map((entry) => entry.mythId)).size, 278);
+  assert.strictEqual(ledger.entries.length, 295);
+  assert.strictEqual(new Set(ledger.entries.map((entry) => entry.mythId)).size, 295);
   assert.strictEqual(ledger.entries.filter((entry) => entry.firstReviewedInBatch === "verification-batch-01").length, 7);
+  assert.strictEqual(ledger.entries.filter((entry) => /^bulk-myth-/.test(entry.mythId)).length, 278);
+  assert.strictEqual(ledger.entries.filter((entry) => entry.reviewDepth === "derived_source_audited_record").length, 17);
   assert.ok(ledger.entries.every((entry) => entry.classification_reviewed === true));
-  assert.strictEqual(ledger.entries.filter((entry) => entry.substantive_reconstruction_complete === true).length, 0);
-  assert.strictEqual(ledger.entries.filter((entry) => entry.currentStatus === "awaiting_substantive_source_review").length, 258);
+  assert.strictEqual(ledger.entries.filter((entry) => entry.substantive_reconstruction_complete === true).length, 27);
+  assert.strictEqual(ledger.entries.filter((entry) => entry.currentStatus === "awaiting_substantive_source_review").length, 248);
+  assert.strictEqual(ledger.entries.filter((entry) => entry.superseded === true).length, 10);
   assert.strictEqual(progress.programComplete, false);
   assert.strictEqual(progress.neverReviewedRemaining, 0);
   assert.strictEqual(progress.deferredComplex, 0);
-  assert.strictEqual(progress.awaitingSubstantiveSourceReview, 258);
+  assert.strictEqual(progress.awaitingSubstantiveSourceReview, 248);
   assert.ok(!fs.existsSync(path.join(root, "corpus/review/verification-final-deferred-results.json")));
   assert.ok(!fs.existsSync(path.join(root, "corpus/review/verification-program-final-report.json")));
   assert.ok(!fs.existsSync(path.join(root, "corpus/review/verification-batch-02-results.json")));
@@ -722,8 +733,71 @@ test("PR12 audit restores proposed records and documents a record-specific sampl
   assert.ok(safeguards.substantiveReconstructionRequiredFields.includes("boundaryAnalysis"));
   assert.ok(safeguards.substantiveReconstructionRequiredFields.includes("exactPassageEvidence"));
   assert.ok(safeguards.rules.some((rule) => /Proposed records cannot be removed/.test(rule)));
-  assert.strictEqual(proposedCatalog.entries.length, 278);
+  assert.strictEqual(proposedCatalog.entries.length, 268);
   assert.ok(proposedCatalog.entries.every((entry) => entry.file && fs.existsSync(path.join(root, entry.file))));
+});
+
+test("reconstruction batch 02 processes exactly ten records with substantive outcomes", () => {
+  runBulkSources();
+  const selection = readJson(path.join(root, "corpus/review/reconstruction-batch-02-selection.json"));
+  const results = readJson(path.join(root, "corpus/review/reconstruction-batch-02-results.json"));
+  const derived = readJson(path.join(root, "corpus/review/reconstruction-batch-02-derived-records.json"));
+  const inspections = readJson(path.join(root, "corpus/review/reconstruction-batch-02-manual-inspection.json"));
+  const ledger = readJson(path.join(root, "corpus/review/verification-ledger.json"));
+  const proposedCatalog = readJson(path.join(root, "corpus/catalog/proposed-myths.json"));
+  const awaiting = readJson(path.join(root, "corpus/catalog/myths-awaiting-review.json"));
+  const verifiedCatalog = readJson(path.join(root, "corpus/catalog/verified-myths.json"));
+  const selectedIds = selection.selectedRecords.map((record) => record.mythId);
+  const resultIds = results.records.map((record) => record.mythId);
+  const generic = /Automatic verified promotion is not defensible|The record contains unclear boundaries|Reviewed source passage references|Source-grounded batch review found narrative signals/;
+  assert.strictEqual(selection.selectedCount, 10);
+  assert.strictEqual(selection.selectedRecords.length, 10);
+  assert.strictEqual(new Set(selectedIds).size, 10);
+  assert.deepStrictEqual(resultIds, selectedIds);
+  assert.strictEqual(results.verifiedCount, 1);
+  assert.strictEqual(results.splitCount, 8);
+  assert.strictEqual(results.mergedCount, 1);
+  assert.strictEqual(results.ambiguousCount, 0);
+  assert.strictEqual(results.rejectedCount, 0);
+  assert.strictEqual(results.humanReviewRequiredCount, 0);
+  assert.strictEqual(results.derivedVerifiedCount, 17);
+  assert.strictEqual(results.supersededProposalCount, 10);
+  assert.strictEqual(derived.originalProposalCount, 10);
+  assert.strictEqual(derived.derivedRecordCount, 20);
+  assert.ok(derived.records.every((record) => record.derivedFromProposalIds.length > 0));
+  derived.records
+    .filter((record) => record.recordId.startsWith("bulk-verified-00") && !["bulk-verified-0002", "bulk-verified-0004", "bulk-verified-0005"].includes(record.recordId))
+    .forEach((record) => assert.ok(fs.existsSync(path.join(root, `corpus/normalized/bulk/verified/${record.recordId}.myth.json`))));
+  assert.strictEqual(inspections.inspectedCount, 10);
+  assert.strictEqual(inspections.inspections.length, 10);
+  results.records.forEach((record) => {
+    assert.notStrictEqual(record.finalStatus, "awaiting_substantive_source_review");
+    assert.ok(["verified", "split", "merged"].includes(record.finalDisposition));
+    assert.ok(record.derivedRecordIds.length > 0);
+    assert.ok(record.boundaryAnalysis.specificProblems.length > 0);
+    assert.ok(record.exactEvidence.length > 0);
+    assert.ok(record.characterCorrections.length > 0);
+    assert.ok(record.aliasCorrections.length > 0);
+    assert.ok(record.eventCorrections.length > 0);
+    assert.ok(record.relationshipCorrections.length > 0);
+    assert.ok(record.narrativeCorrections.length > 0);
+    assert.ok(record.decisionRationale.includes(record.mythId));
+    assert.ok(!generic.test(record.decisionRationale));
+    record.exactEvidence.forEach((item) => assert.ok(item.passageId && item.sourceText && item.supports.includes(record.mythId)));
+  });
+  selectedIds.forEach((mythId) => {
+    const entry = ledger.entries.find((item) => item.mythId === mythId);
+    assert.ok(entry, mythId);
+    assert.strictEqual(entry.reconstructionBatch, "reconstruction-batch-02");
+    assert.strictEqual(entry.substantive_reconstruction_complete, true);
+    assert.strictEqual(entry.substantive_reconstruction_incomplete, false);
+  });
+  assert.ok(!awaiting.entries.some((entry) => selectedIds.includes(entry.mythId)));
+  assert.ok(!proposedCatalog.entries.some((entry) => selectedIds.includes(entry.mythId)));
+  assert.ok(!proposedCatalog.entries.some((entry) => entry.mythId === "bulk-myth-0044"));
+  assert.ok(verifiedCatalog.entries.some((entry) => entry.mythId === "bulk-verified-0016" && entry.file === "corpus/normalized/bulk/verified/bulk-verified-0016.myth.json"));
+  assert.ok(verifiedCatalog.entries.some((entry) => entry.mythId === "bulk-verified-0032" && entry.file === "corpus/normalized/bulk/verified/bulk-verified-0032.myth.json"));
+  assert.ok(fs.existsSync(path.join(root, "corpus/normalized/bulk/verified/bulk-verified-0016.myth.json")));
 });
 
 test("bulk runner removes stale generated normalized files", () => {
@@ -766,7 +840,11 @@ test("bulk semantic reports are portable and deterministic", () => {
     "corpus/review/pr12-reconstruction-sample.json",
     "corpus/review/pr12-reconstruction-sample-results.json",
     "corpus/review/pr12-audit-conclusion.json",
-    "corpus/review/pr12-templated-review-safeguards.json"
+    "corpus/review/pr12-templated-review-safeguards.json",
+    "corpus/review/reconstruction-batch-02-selection.json",
+    "corpus/review/reconstruction-batch-02-results.json",
+    "corpus/review/reconstruction-batch-02-derived-records.json",
+    "corpus/review/reconstruction-batch-02-manual-inspection.json"
   ].map((file) => path.join(root, file));
   const before = files.map(hashFile);
   runBulkSources();
@@ -823,7 +901,7 @@ test("bulk proposed extraction records actor resolution confidence and family ru
   runBulkSources();
   const proposed = bulkMyths().filter((myth) => myth.reviewStatus === "awaiting_substantive_source_review");
   const ledger = readJson(path.join(root, "corpus/review/verification-ledger.json"));
-  assert.strictEqual(proposed.length, 258);
+  assert.strictEqual(proposed.length, 248);
   assert.ok(ledger.entries.some((entry) => entry.mythId === "bulk-myth-0018"));
   assert.ok(ledger.entries.every((entry) => entry.currentStatus !== "awaiting_review"));
   assert.ok(ledger.entries.some((entry) => entry.currentStatus === "awaiting_substantive_source_review"));

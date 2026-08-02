@@ -1,0 +1,79 @@
+{
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "batchId": "reconstruction-batch-02",
+  "selectedCount": 10,
+  "selectionCriteria": [
+    "Start from records marked awaiting_substantive_source_review after PR #12 restoration.",
+    "Exclude PR #12's twenty-record audit sample.",
+    "Prioritize recognizable myth-family headings with contiguous or tractable passage spans.",
+    "Include records from Berens and Guerber.",
+    "Stop at exactly ten source proposals."
+  ],
+  "selectedRecords": [
+    {
+      "mythId": "bulk-myth-0020",
+      "title": "STORY OF THE GOLDEN FLEECE.",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0020.myth.json"
+    },
+    {
+      "mythId": "bulk-myth-0014",
+      "title": "PERSEUS.",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0014.myth.json"
+    },
+    {
+      "mythId": "bulk-myth-0032",
+      "title": "JASON.",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0032.myth.json"
+    },
+    {
+      "mythId": "bulk-myth-0087",
+      "title": "DAEDALUS and ICARUS.",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0087.myth.json"
+    },
+    {
+      "mythId": "bulk-myth-0085",
+      "title": "PERSEUS.",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0085.myth.json"
+    },
+    {
+      "mythId": "bulk-myth-0091",
+      "title": "BELLEROPHON.",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0091.myth.json"
+    },
+    {
+      "mythId": "bulk-myth-0102",
+      "title": "RETURN OF THE GREEKS FROM TROY.",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0102.myth.json"
+    },
+    {
+      "mythId": "bulk-myth-0105",
+      "title": "ADVENTURES OF ULYSSES.",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0105.myth.json"
+    },
+    {
+      "mythId": "bulk-myth-0044",
+      "title": "ALCMAEON AND THE NECKLACE.",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0044.myth.json",
+      "selectionReason": "Compact complete Berens narrative with clear title, protagonist, object, conflict, resolution, and final deposition of the necklace and veil.",
+      "knownRisks": [
+        "violent-revenge-episode",
+        "group-entity-endpoints"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0025",
+      "title": "Orphic Argonautics.",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0025.myth.json"
+    }
+  ]
+}

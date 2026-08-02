@@ -1,0 +1,237 @@
+{
+  "mythId": "bulk-verified-0029",
+  "mythFamilyId": "argonauts-hylas",
+  "variantId": "gutenberg-guerber-hylas-nymphs-verified",
+  "title": "Hylas Lost to the Nymphs",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Hylas is drawn underwater by nymphs while fetching water, and Hercules leaves the expedition while searching for him.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "One paragraph gives the complete Hylas incident before the next Argonautic stop."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0025"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "One paragraph gives the complete Hylas incident before the next Argonautic stop.",
+  "entities": {
+    "characters": [
+      "hylas",
+      "nymphs",
+      "heracles",
+      "argonauts"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Hylas",
+      "normalizedId": "hylas",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5",
+          "sourceText": "Once Hercules, having landed with a youth named Hylas to cut wood for new oars, bade the youth go to a neighboring spring and draw a pitcher of water to quench the thirst produced by his exertions.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "nymphs",
+      "normalizedId": "nymphs",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5",
+          "sourceText": "The youth promptly departed; but as he bent over the fountain, the nymphs, enamored with his beauty, drew him down into their moist abode to keep them company.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Hercules",
+      "normalizedId": "heracles",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5",
+          "sourceText": "Once Hercules, having landed with a youth named Hylas to cut wood for new oars, bade the youth go to a neighboring spring and draw a pitcher of water to quench the thirst produced by his exertions.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argonauts",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5",
+          "sourceText": "Hercules, after vainly waiting for Hylas' return, went in search of him, but could find no trace of him, and, in his grief and disappointment at the death of his young friend, refused to continue the expedition, and, deserting the Argonauts, made his way home alone and on foot.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "hylas",
+      "sourceNames": [
+        "Hylas"
+      ],
+      "role": "abducted companion",
+      "reason": "Hylas is seized by nymphs while getting water.",
+      "evidence": [
+        "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5"
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Hylas goes for water in Mysia, nymphs pull him underwater, and Hercules stays behind searching for him.",
+    "openingSituation": "The Argonauts stop in Mysia.",
+    "centralConflict": "Hylas disappears while fetching water.",
+    "resolution": "Hercules searches for Hylas.",
+    "outcome": "Hercules does not return to the vessel.",
+    "storyline": [
+      "The nymphs drew Hylas underwater.",
+      "Hercules left the Argonautic expedition while searching for Hylas."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5",
+      "sourceText": "The youth promptly departed; but as he bent over the fountain, the nymphs, enamored with his beauty, drew him down into their moist abode to keep them company.",
+      "supports": [
+        {
+          "field": "The nymphs drew Hylas underwater.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports The nymphs drew Hylas underwater.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5",
+      "sourceText": "Hercules, after vainly waiting for Hylas' return, went in search of him, but could find no trace of him, and, in his grief and disappointment at the death of his young friend, refused to continue the expedition, and, deserting the Argonauts, made his way home alone and on foot.",
+      "supports": [
+        {
+          "field": "Hercules left the Argonautic expedition while searching for Hylas.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Hercules left the Argonautic expedition while searching for Hylas.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "The youth promptly departed; but as he bent over the fountain, the nymphs, enamored with his beauty, drew him down into their moist abode to keep them company.",
+      "normalizedStatement": "The nymphs drew Hylas underwater.",
+      "actor": "nymphs",
+      "action": "abduct",
+      "sourceAction": "drew him down",
+      "target": "hylas",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5",
+          "sourceText": "The youth promptly departed; but as he bent over the fountain, the nymphs, enamored with his beauty, drew him down into their moist abode to keep them company."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5",
+      "needle": "drew him down into their moist abode"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "Hercules, after vainly waiting for Hylas' return, went in search of him, but could find no trace of him, and, in his grief and disappointment at the death of his young friend, refused to continue the expedition, and, deserting the Argonauts, made his way home alone and on foot.",
+      "normalizedStatement": "Hercules left the Argonautic expedition while searching for Hylas.",
+      "actor": "heracles",
+      "action": "leave",
+      "sourceAction": "refused",
+      "target": "argonauts",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5",
+          "sourceText": "Hercules, after vainly waiting for Hylas' return, went in search of him, but could find no trace of him, and, in his grief and disappointment at the death of his young friend, refused to continue the expedition, and, deserting the Argonauts, made his way home alone and on foot."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5",
+      "needle": "refused to continue the expedition"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5"
+    ],
+    "claimsChecked": [
+      "Hylas is drawn under by nymphs.",
+      "Hercules searches for Hylas.",
+      "Hercules leaves the expedition."
+    ],
+    "correctionsMade": [
+      "Split the Hylas paragraph from the longer travel sequence.",
+      "Preserved Hercules source form as Heracles normalized ID."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

@@ -1,0 +1,410 @@
+{
+  "mythId": "bulk-verified-0019",
+  "mythFamilyId": "birth-of-perseus",
+  "variantId": "gutenberg-berens-birth-exposure-perseus-verified",
+  "title": "Birth and Exposure of Perseus",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+      "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+      "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785",
+      "gutenberg:ebooks:22381:296.296.4-296.296.4:b9dbde32"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Perseus' origin from Io's descendants through Danae's confinement, Perseus' birth, and the sea-chest rescue.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+      "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+      "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785",
+      "gutenberg:ebooks:22381:296.296.4-296.296.4:b9dbde32"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The unit ends when Dictys rescues Danae and Perseus; the next cited material begins Perseus' later Medusa quest."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0014"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The unit ends when Dictys rescues Danae and Perseus; the next cited material begins Perseus' later Medusa quest.",
+  "entities": {
+    "characters": [
+      "perseus",
+      "danae",
+      "acrisius",
+      "zeus",
+      "dictys",
+      "polydectes"
+    ],
+    "locations": [
+      "argos",
+      "seriphus"
+    ],
+    "objects": [
+      "chest"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Perseus",
+      "normalizedId": "perseus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+          "sourceText": "Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae, daughter of Acrisius, king of Argos.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Danae",
+      "normalizedId": "danae",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+          "sourceText": "Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae, daughter of Acrisius, king of Argos.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Acrisius",
+      "normalizedId": "acrisius",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+          "sourceText": "Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae, daughter of Acrisius, king of Argos.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+          "sourceText": "Zeus, however, descended through the roof of the tower in the form of a shower of gold, and the lovely Danae became his bride.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Dictys",
+      "normalizedId": "dictys",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.4-296.296.4:b9dbde32",
+          "sourceText": "Dictys, brother of Polydectes, king of the island, was fishing on the sea-shore when he saw the chest stranded on the beach; and pitying the helpless condition of its unhappy occupants, he conducted them to the palace of the king, where they were treated with the greatest kindness.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Polydectes",
+      "normalizedId": "polydectes",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.4-296.296.4:b9dbde32",
+          "sourceText": "Dictys, brother of Polydectes, king of the island, was fishing on the sea-shore when he saw the chest stranded on the beach; and pitying the helpless condition of its unhappy occupants, he conducted them to the palace of the king, where they were treated with the greatest kindness.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argos",
+      "normalizedId": "argos",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+          "sourceText": "Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae, daughter of Acrisius, king of Argos.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Seriphus",
+      "normalizedId": "seriphus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.4-296.296.4:b9dbde32",
+          "sourceText": "He directed Poseidon to calm the troubled waters, and caused the chest to float safely to the island of Seriphus.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "chest",
+      "normalizedId": "chest",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785",
+          "sourceText": "Enraged at finding all his precautions unavailing, Acrisius commanded the mother and child to be placed in a chest and thrown into the sea.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "danae",
+      "sourceNames": [
+        "Danae"
+      ],
+      "role": "confined mother",
+      "reason": "Danae is shut up by Acrisius and set adrift with Perseus.",
+      "evidence": [
+        "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+        "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "acrisius",
+      "relationship": "parent_of",
+      "target": "danae",
+      "sourceText": "Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae, daughter of Acrisius, king of Argos.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+        "sourceText": "Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae, daughter of Acrisius, king of Argos."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "zeus",
+      "relationship": "parent_of",
+      "target": "perseus",
+      "sourceText": "Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae, daughter of Acrisius, king of Argos.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+        "sourceText": "Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae, daughter of Acrisius, king of Argos."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "danae",
+      "relationship": "parent_of",
+      "target": "perseus",
+      "sourceText": "Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae, daughter of Acrisius, king of Argos.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+        "sourceText": "Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae, daughter of Acrisius, king of Argos."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Acrisius receives an oracle that Danae's son will kill him, confines her, discovers Perseus, and casts Danae and Perseus adrift until Dictys rescues them.",
+    "openingSituation": "Acrisius rules Argos and fears the oracle concerning Danae's future son.",
+    "centralConflict": "Acrisius tries to prevent the oracle by confining and exposing Danae and Perseus.",
+    "resolution": "Zeus calms the waters and the chest reaches Seriphus.",
+    "outcome": "Dictys brings Danae and Perseus safely to Polydectes.",
+    "storyline": [
+      "Acrisius confined Danae in a tower of brass.",
+      "Zeus reached Danae through the tower roof in the form of gold.",
+      "Acrisius ordered Danae and Perseus placed in a chest and thrown into the sea.",
+      "Dictys brought Danae and Perseus to the palace of Polydectes after finding the chest."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+      "sourceText": "An oracle having foretold to Acrisius that a son of Danae would be the cause of his death, he imprisoned her in a tower of brass in order to keep her secluded from the world.",
+      "supports": [
+        {
+          "field": "Acrisius confined Danae in a tower of brass.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Acrisius confined Danae in a tower of brass.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+      "sourceText": "Zeus, however, descended through the roof of the tower in the form of a shower of gold, and the lovely Danae became his bride.",
+      "supports": [
+        {
+          "field": "Zeus reached Danae through the tower roof in the form of gold.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Zeus reached Danae through the tower roof in the form of gold.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785",
+      "sourceText": "Enraged at finding all his precautions unavailing, Acrisius commanded the mother and child to be placed in a chest and thrown into the sea.",
+      "supports": [
+        {
+          "field": "Acrisius ordered Danae and Perseus placed in a chest and thrown into the sea.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Acrisius ordered Danae and Perseus placed in a chest and thrown into the sea.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "An oracle having foretold to Acrisius that a son of Danae would be the cause of his death, he imprisoned her in a tower of brass in order to keep her secluded from the world.",
+      "normalizedStatement": "Acrisius confined Danae in a tower of brass.",
+      "actor": "acrisius",
+      "action": "confine",
+      "sourceAction": "imprisoned",
+      "target": "danae",
+      "object": null,
+      "recipient": null,
+      "location": "argos",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+          "sourceText": "An oracle having foretold to Acrisius that a son of Danae would be the cause of his death, he imprisoned her in a tower of brass in order to keep her secluded from the world."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+      "needle": "imprisoned her in a tower of brass"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "Zeus, however, descended through the roof of the tower in the form of a shower of gold, and the lovely Danae became his bride.",
+      "normalizedStatement": "Zeus reached Danae through the tower roof in the form of gold.",
+      "actor": "zeus",
+      "action": "approach",
+      "sourceAction": "descended",
+      "target": "danae",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+          "sourceText": "Zeus, however, descended through the roof of the tower in the form of a shower of gold, and the lovely Danae became his bride."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+      "needle": "descended through the roof of the tower"
+    },
+    {
+      "eventId": "event-003",
+      "sourceText": "Enraged at finding all his precautions unavailing, Acrisius commanded the mother and child to be placed in a chest and thrown into the sea.",
+      "normalizedStatement": "Acrisius ordered Danae and Perseus placed in a chest and thrown into the sea.",
+      "actor": "acrisius",
+      "action": "expose",
+      "sourceAction": "thrown into the sea",
+      "target": "danae",
+      "object": "chest",
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785",
+          "sourceText": "Enraged at finding all his precautions unavailing, Acrisius commanded the mother and child to be placed in a chest and thrown into the sea."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785",
+      "needle": "placed in a chest and thrown into the sea"
+    },
+    {
+      "eventId": "event-004",
+      "sourceText": "Dictys, brother of Polydectes, king of the island, was fishing on the sea-shore when he saw the chest stranded on the beach; and pitying the helpless condition of its unhappy occupants, he conducted them to the palace of the king, where they were treated with the greatest kindness.",
+      "normalizedStatement": "Dictys brought Danae and Perseus to the palace of Polydectes after finding the chest.",
+      "actor": "dictys",
+      "action": "rescue",
+      "sourceAction": "conducted",
+      "target": "danae",
+      "object": null,
+      "recipient": "polydectes",
+      "location": "seriphus",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.4-296.296.4:b9dbde32",
+          "sourceText": "Dictys, brother of Polydectes, king of the island, was fishing on the sea-shore when he saw the chest stranded on the beach; and pitying the helpless condition of its unhappy occupants, he conducted them to the palace of the king, where they were treated with the greatest kindness."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:296.296.4-296.296.4:b9dbde32",
+      "needle": "conducted them to the palace of the king"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+      "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+      "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785",
+      "gutenberg:ebooks:22381:296.296.4-296.296.4:b9dbde32"
+    ],
+    "claimsChecked": [
+      "Acrisius confines Danae.",
+      "Perseus is born to Zeus and Danae.",
+      "Acrisius exposes mother and child.",
+      "Dictys rescues them."
+    ],
+    "correctionsMade": [
+      "Split origin material from Medusa and Andromeda episodes.",
+      "Modeled Danae and Acrisius as principal source actors."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

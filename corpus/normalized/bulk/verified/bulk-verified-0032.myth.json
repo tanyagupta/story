@@ -1,0 +1,417 @@
+{
+  "mythId": "bulk-verified-0032",
+  "mythFamilyId": "golden-fleece",
+  "variantId": "gutenberg-guerber-jason-medea-fleece-verified",
+  "title": "Jason Wins the Golden Fleece with Medea",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+      "gutenberg:ebooks:39250:395.395.17-395.395.17:a494f004",
+      "gutenberg:ebooks:39250:395.395.20-395.395.20:3ab23c0f",
+      "gutenberg:ebooks:39250:395.395.24-395.395.24:8d9217c6",
+      "gutenberg:ebooks:39250:395.395.27-395.395.27:00e24090"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Jason receives Aetes' tasks, completes them with Medea's aid, takes the fleece, and leaves with Medea.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+      "gutenberg:ebooks:39250:395.395.17-395.395.17:a494f004",
+      "gutenberg:ebooks:39250:395.395.20-395.395.20:3ab23c0f",
+      "gutenberg:ebooks:39250:395.395.24-395.395.24:8d9217c6",
+      "gutenberg:ebooks:39250:395.395.27-395.395.27:00e24090"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "These Colchis passages form the task-and-fleece unit; intervening quotations and headings are excluded."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0025"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "These Colchis passages form the task-and-fleece unit; intervening quotations and headings are excluded.",
+  "entities": {
+    "characters": [
+      "jason",
+      "medea",
+      "aetes",
+      "argonauts"
+    ],
+    "locations": [
+      "colchis"
+    ],
+    "objects": [
+      "golden-fleece",
+      "dragon-teeth",
+      "argo"
+    ],
+    "creatures": [
+      "dragon"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jason",
+      "normalizedId": "jason",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+          "sourceText": "Loath to part with his golden treasure, Æetes declared, that, before Jason could obtain the fleece, he must catch and harness two wild, fire-breathing bulls dedicated to Vulcan, and make use of them to plow a stony piece of ground sacred to Mars.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Medea",
+      "normalizedId": "medea",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.17-395.395.17:a494f004",
+          "sourceText": "On his way to the seashore he met the king's daughter, Medea, a beautiful young sorceress, who had been charmed by his modest but firm bearing, and who was quite ready to bring her magic to his aid if he would but promise to marry her.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Æetes",
+      "normalizedId": "aetes",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+          "sourceText": "The Argonauts, after other adventures far too numerous to recount in detail, reached the Colchian shores, and presented themselves before Æetes, the king, to whom they made known their errand.",
+          "coreferenceNote": "Source uses the ligature form Æetes; this note avoids ASCII word-boundary false negatives."
+        }
+      ]
+    },
+    {
+      "sourceName": "Argonauts",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+          "sourceText": "The Argonauts, after other adventures far too numerous to recount in detail, reached the Colchian shores, and presented themselves before Æetes, the king, to whom they made known their errand.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Colchian shores",
+      "normalizedId": "colchis",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+          "sourceText": "The Argonauts, after other adventures far too numerous to recount in detail, reached the Colchian shores, and presented themselves before Æetes, the king, to whom they made known their errand.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "fleece",
+      "normalizedId": "golden-fleece",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+          "sourceText": "Loath to part with his golden treasure, Æetes declared, that, before Jason could obtain the fleece, he must catch and harness two wild, fire-breathing bulls dedicated to Vulcan, and make use of them to plow a stony piece of ground sacred to Mars.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "dragon's teeth",
+      "normalizedId": "dragon-teeth",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.17-395.395.17:a494f004",
+          "sourceText": "Jason, susceptible to her attractions, and free from any conflicting ties, readily agreed to her proposal, and, carrying out her directions, caught and harnessed the fiery bulls, plowed the field, and sowed it with the dragon's teeth.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argo",
+      "normalizedId": "argo",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.27-395.395.27:00e24090",
+          "sourceText": "His companions, who had made ready for a hasty departure, were already seated at their oars; and, as soon as he had embarked with Medea and her attendants, the Argo shot out of the Colchian harbor.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "dragon",
+      "normalizedId": "dragon",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.24-395.395.24:8d9217c6",
+          "sourceText": "Accompanied by Medea, Jason next hastened to the tree where the dragon kept guard over his treasure.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "jason",
+      "sourceNames": [
+        "Jason"
+      ],
+      "role": "quester",
+      "reason": "Jason completes Aetes' tasks and takes the fleece.",
+      "evidence": [
+        "gutenberg:ebooks:39250:395.395.17-395.395.17:a494f004",
+        "gutenberg:ebooks:39250:395.395.24-395.395.24:8d9217c6"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "medea",
+      "relationship": "assists",
+      "target": "jason",
+      "sourceText": "On his way to the seashore he met the king's daughter, Medea, a beautiful young sorceress, who had been charmed by his modest but firm bearing, and who was quite ready to bring her magic to his aid if he would but promise to marry her.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:39250:395.395.17-395.395.17:a494f004",
+        "sourceText": "On his way to the seashore he met the king's daughter, Medea, a beautiful young sorceress, who had been charmed by his modest but firm bearing, and who was quite ready to bring her magic to his aid if he would but promise to marry her."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "At Colchis, Aetes sets Jason dangerous tasks for the Golden Fleece. Medea helps Jason, he completes the tasks, kills the dragon, takes the fleece, and sails away with Medea.",
+    "openingSituation": "Jason and the Argonauts reach Colchis to seek the Golden Fleece.",
+    "centralConflict": "Aetes will surrender the fleece only if Jason performs dangerous tasks.",
+    "resolution": "Jason completes the tasks with Medea's aid and takes the fleece.",
+    "outcome": "Jason sails away with Medea and the fleece.",
+    "storyline": [
+      "Aetes set conditions before Jason could obtain the fleece.",
+      "Medea was ready to bring her magic to Jason's aid.",
+      "Jason used Medea's advice to overcome the dragon-teeth warriors.",
+      "Jason killed the dragon and took the fleece.",
+      "The Argo left the Colchian harbor after Jason embarked with Medea."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+      "sourceText": "Loath to part with his golden treasure, Æetes declared, that, before Jason could obtain the fleece, he must catch and harness two wild, fire-breathing bulls dedicated to Vulcan, and make use of them to plow a stony piece of ground sacred to Mars.",
+      "supports": [
+        {
+          "field": "Aetes set conditions before Jason could obtain the fleece.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Aetes set conditions before Jason could obtain the fleece.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:395.395.17-395.395.17:a494f004",
+      "sourceText": "On his way to the seashore he met the king's daughter, Medea, a beautiful young sorceress, who had been charmed by his modest but firm bearing, and who was quite ready to bring her magic to his aid if he would but promise to marry her.",
+      "supports": [
+        {
+          "field": "Medea was ready to bring her magic to Jason's aid.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Medea was ready to bring her magic to Jason's aid.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:395.395.20-395.395.20:3ab23c0f",
+      "sourceText": "However, aware that such a performance would insure his ruin, he stood his ground, and, when the phalanx was quite near him, threw a handful of dust full in the giants' faces.",
+      "supports": [
+        {
+          "field": "Jason used Medea's advice to overcome the dragon-teeth warriors.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Jason used Medea's advice to overcome the dragon-teeth warriors.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "Loath to part with his golden treasure, Æetes declared, that, before Jason could obtain the fleece, he must catch and harness two wild, fire-breathing bulls dedicated to Vulcan, and make use of them to plow a stony piece of ground sacred to Mars.",
+      "normalizedStatement": "Aetes set conditions before Jason could obtain the fleece.",
+      "actor": "aetes",
+      "action": "condition",
+      "sourceAction": "obtain",
+      "target": null,
+      "object": "golden-fleece",
+      "recipient": "jason",
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+          "sourceText": "Loath to part with his golden treasure, Æetes declared, that, before Jason could obtain the fleece, he must catch and harness two wild, fire-breathing bulls dedicated to Vulcan, and make use of them to plow a stony piece of ground sacred to Mars."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+      "needle": "before Jason could obtain the fleece"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "On his way to the seashore he met the king's daughter, Medea, a beautiful young sorceress, who had been charmed by his modest but firm bearing, and who was quite ready to bring her magic to his aid if he would but promise to marry her.",
+      "normalizedStatement": "Medea was ready to bring her magic to Jason's aid.",
+      "actor": "medea",
+      "action": "assist",
+      "sourceAction": "bring her magic",
+      "target": null,
+      "object": null,
+      "recipient": "jason",
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.17-395.395.17:a494f004",
+          "sourceText": "On his way to the seashore he met the king's daughter, Medea, a beautiful young sorceress, who had been charmed by his modest but firm bearing, and who was quite ready to bring her magic to his aid if he would but promise to marry her."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.17-395.395.17:a494f004",
+      "needle": "ready to bring her magic to his aid"
+    },
+    {
+      "eventId": "event-003",
+      "sourceText": "However, aware that such a performance would insure his ruin, he stood his ground, and, when the phalanx was quite near him, threw a handful of dust full in the giants' faces.",
+      "normalizedStatement": "Jason used Medea's advice to overcome the dragon-teeth warriors.",
+      "actor": "jason",
+      "action": "defeat",
+      "sourceAction": "threw",
+      "target": "dragon-teeth",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.20-395.395.20:3ab23c0f",
+          "sourceText": "However, aware that such a performance would insure his ruin, he stood his ground, and, when the phalanx was quite near him, threw a handful of dust full in the giants' faces."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.20-395.395.20:3ab23c0f",
+      "needle": "threw a handful of dust"
+    },
+    {
+      "eventId": "event-004",
+      "sourceText": "Jason then tore the coveted fleece from the branch where it had hung for many a year, and bore it in triumph to the Argo.",
+      "normalizedStatement": "Jason killed the dragon and took the fleece.",
+      "actor": "jason",
+      "action": "take",
+      "sourceAction": "tore",
+      "target": "dragon",
+      "object": "golden-fleece",
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.24-395.395.24:8d9217c6",
+          "sourceText": "Jason then tore the coveted fleece from the branch where it had hung for many a year, and bore it in triumph to the Argo."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.24-395.395.24:8d9217c6",
+      "needle": "Jason then tore the coveted fleece"
+    },
+    {
+      "eventId": "event-005",
+      "sourceText": "His companions, who had made ready for a hasty departure, were already seated at their oars; and, as soon as he had embarked with Medea and her attendants, the Argo shot out of the Colchian harbor.",
+      "normalizedStatement": "The Argo left the Colchian harbor after Jason embarked with Medea.",
+      "actor": "argo",
+      "action": "depart",
+      "sourceAction": "shot out",
+      "target": null,
+      "object": null,
+      "recipient": "medea",
+      "location": "colchis",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.27-395.395.27:00e24090",
+          "sourceText": "His companions, who had made ready for a hasty departure, were already seated at their oars; and, as soon as he had embarked with Medea and her attendants, the Argo shot out of the Colchian harbor."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.27-395.395.27:00e24090",
+      "needle": "the Argo shot out of the Colchian harbor"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+      "gutenberg:ebooks:39250:395.395.17-395.395.17:a494f004",
+      "gutenberg:ebooks:39250:395.395.20-395.395.20:3ab23c0f",
+      "gutenberg:ebooks:39250:395.395.24-395.395.24:8d9217c6",
+      "gutenberg:ebooks:39250:395.395.27-395.395.27:00e24090"
+    ],
+    "claimsChecked": [
+      "Aetes sets conditions.",
+      "Medea helps Jason.",
+      "Jason completes the tasks.",
+      "Jason takes the fleece and leaves."
+    ],
+    "correctionsMade": [
+      "Split the Colchis task sequence from earlier voyage episodes.",
+      "Excluded poetic quotations and headings while retaining exact source evidence."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

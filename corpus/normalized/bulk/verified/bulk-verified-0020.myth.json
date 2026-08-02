@@ -1,0 +1,288 @@
+{
+  "mythId": "bulk-verified-0020",
+  "mythFamilyId": "perseus-and-atlas",
+  "variantId": "gutenberg-berens-perseus-transforms-atlas-verified",
+  "title": "Perseus Transforms Atlas",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Perseus seeks rest from Atlas, is refused, and transforms Atlas with Medusa's head.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The single paragraph is a complete Atlas encounter and is separated from both Medusa aftermath and Andromeda setup."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0014"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The single paragraph is a complete Atlas encounter and is separated from both Medusa aftermath and Andromeda setup.",
+  "entities": {
+    "characters": [
+      "perseus",
+      "atlas",
+      "medusa"
+    ],
+    "locations": [
+      "atlas-kingdom"
+    ],
+    "objects": [
+      "medusa-head"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Perseus",
+      "normalizedId": "perseus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+          "sourceText": "Perseus continued his flight until he reached the kingdom of Atlas, of whom he begged rest and shelter.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Atlas",
+      "normalizedId": "atlas",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+          "sourceText": "Perseus continued his flight until he reached the kingdom of Atlas, of whom he begged rest and shelter.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Medusa",
+      "normalizedId": "medusa",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+          "sourceText": "But as this king possessed a valuable orchard, in which every tree bore golden fruit, he was fearful lest the slayer of the Medusa might destroy the dragon which guarded it, and then rob him of his treasures.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "kingdom of Atlas",
+      "normalizedId": "atlas-kingdom",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+          "sourceText": "Perseus continued his flight until he reached the kingdom of Atlas, of whom he begged rest and shelter.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "head of the Medusa",
+      "normalizedId": "medusa-head",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+          "sourceText": "He therefore refused to grant the hospitality which the hero demanded, whereupon Perseus, exasperated at the churlish repulse, produced from his wallet the head of the Medusa, and holding it towards the king, transformed him into a stony mountain.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "perseus",
+      "sourceNames": [
+        "Perseus"
+      ],
+      "role": "traveller",
+      "reason": "Perseus asks Atlas for rest and then uses Medusa's head.",
+      "evidence": [
+        "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d"
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Perseus asks Atlas for hospitality, receives a refusal, and transforms Atlas into a mountain by showing him Medusa's head.",
+    "openingSituation": "Perseus reaches Atlas' kingdom while travelling.",
+    "centralConflict": "Atlas refuses Perseus' request for rest and shelter.",
+    "resolution": "Perseus shows Atlas Medusa's head.",
+    "outcome": "Atlas is transformed into a mountain.",
+    "storyline": [
+      "Perseus asked Atlas for rest and shelter.",
+      "Atlas refused Perseus' request.",
+      "Perseus used Medusa's head to transform Atlas into a mountain."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+      "sourceText": "Perseus continued his flight until he reached the kingdom of Atlas, of whom he begged rest and shelter.",
+      "supports": [
+        {
+          "field": "Perseus asked Atlas for rest and shelter.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Perseus asked Atlas for rest and shelter.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+      "sourceText": "He therefore refused to grant the hospitality which the hero demanded, whereupon Perseus, exasperated at the churlish repulse, produced from his wallet the head of the Medusa, and holding it towards the king, transformed him into a stony mountain.",
+      "supports": [
+        {
+          "field": "Atlas refused Perseus' request.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Atlas refused Perseus' request.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+      "sourceText": "He therefore refused to grant the hospitality which the hero demanded, whereupon Perseus, exasperated at the churlish repulse, produced from his wallet the head of the Medusa, and holding it towards the king, transformed him into a stony mountain.",
+      "supports": [
+        {
+          "field": "Perseus used Medusa's head to transform Atlas into a mountain.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Perseus used Medusa's head to transform Atlas into a mountain.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "Perseus continued his flight until he reached the kingdom of Atlas, of whom he begged rest and shelter.",
+      "normalizedStatement": "Perseus asked Atlas for rest and shelter.",
+      "actor": "perseus",
+      "action": "request",
+      "sourceAction": "begged",
+      "target": null,
+      "object": null,
+      "recipient": "atlas",
+      "location": "atlas-kingdom",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+          "sourceText": "Perseus continued his flight until he reached the kingdom of Atlas, of whom he begged rest and shelter."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+      "needle": "begged rest and shelter"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "He therefore refused to grant the hospitality which the hero demanded, whereupon Perseus, exasperated at the churlish repulse, produced from his wallet the head of the Medusa, and holding it towards the king, transformed him into a stony mountain.",
+      "normalizedStatement": "Atlas refused Perseus' request.",
+      "actor": "atlas",
+      "action": "refuse",
+      "sourceAction": "refused",
+      "target": "perseus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+          "sourceText": "He therefore refused to grant the hospitality which the hero demanded, whereupon Perseus, exasperated at the churlish repulse, produced from his wallet the head of the Medusa, and holding it towards the king, transformed him into a stony mountain."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+      "needle": "refused to grant the hospitality"
+    },
+    {
+      "eventId": "event-003",
+      "sourceText": "He therefore refused to grant the hospitality which the hero demanded, whereupon Perseus, exasperated at the churlish repulse, produced from his wallet the head of the Medusa, and holding it towards the king, transformed him into a stony mountain.",
+      "normalizedStatement": "Perseus used Medusa's head to transform Atlas into a mountain.",
+      "actor": "perseus",
+      "action": "transform",
+      "sourceAction": "transformed",
+      "target": "atlas",
+      "object": "medusa-head",
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+          "sourceText": "He therefore refused to grant the hospitality which the hero demanded, whereupon Perseus, exasperated at the churlish repulse, produced from his wallet the head of the Medusa, and holding it towards the king, transformed him into a stony mountain."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d",
+      "needle": "transformed him into a stony mountain"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d"
+    ],
+    "claimsChecked": [
+      "Perseus asks Atlas for rest.",
+      "Atlas refuses.",
+      "Perseus transforms Atlas with Medusa's head."
+    ],
+    "correctionsMade": [
+      "Isolated the Atlas paragraph from the broader Perseus proposal.",
+      "Removed Andromeda and Phineus material from this record."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

@@ -1,0 +1,323 @@
+{
+  "mythId": "bulk-verified-0022",
+  "mythFamilyId": "birth-of-perseus",
+  "variantId": "gutenberg-guerber-acrisius-danae-tower-verified",
+  "title": "Acrisius Locks Danae in the Brazen Tower",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+      "gutenberg:ebooks:39250:363.363.3-363.363.3:03c48656",
+      "gutenberg:ebooks:39250:363.363.4-363.363.4:3c32fed7",
+      "gutenberg:ebooks:39250:363.363.6-363.363.6:ff384870"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Acrisius responds to the oracle by imprisoning Danae, and Jupiter reaches her despite the tower.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+      "gutenberg:ebooks:39250:363.363.3-363.363.3:03c48656",
+      "gutenberg:ebooks:39250:363.363.4-363.363.4:3c32fed7",
+      "gutenberg:ebooks:39250:363.363.6-363.363.6:ff384870"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The source passages form the pre-birth Perseus setup and exclude title/quotation passages."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0085"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The source passages form the pre-birth Perseus setup and exclude title/quotation passages.",
+  "entities": {
+    "characters": [
+      "acrisius",
+      "danae",
+      "zeus"
+    ],
+    "locations": [
+      "argos"
+    ],
+    "objects": [
+      "brazen-tower",
+      "golden-shower"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Acrisius",
+      "normalizedId": "acrisius",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+          "sourceText": "The life of Acrisius, King of Argos, had been a burden to him ever since the unfortunate day when an oracle had predicted that he would be killed by his grandson.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Danae",
+      "normalizedId": "danae",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+          "sourceText": "Until then the king had been very fond of his only child, Danae, and until then, too, had thought with pride of the time when he would bestow her hand in marriage upon the noblest of all who came to woo.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.4-363.363.4:3c32fed7",
+          "sourceText": "But, although safely concealed from the eyes of men, Danae was plainly seen by the everlasting gods; and Jupiter, looking down from Olympus, beheld her in all her loveliness and in all her loneliness.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argos",
+      "normalizedId": "argos",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+          "sourceText": "The life of Acrisius, King of Argos, had been a burden to him ever since the unfortunate day when an oracle had predicted that he would be killed by his grandson.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "brazen tower",
+      "normalizedId": "brazen-tower",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.3-363.363.3:03c48656",
+          "sourceText": "After much thought, Acrisius decided to lock Danae up in a brazen tower, around which he stationed guards to prevent any one from even approaching the captive princess.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "golden shower",
+      "normalizedId": "golden-shower",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.6-363.363.6:ff384870",
+          "sourceText": "To avoid being seen, he changed himself into a golden shower, and gently dropped down on the turret beside her, where his presence and spirited conversation soon won the maiden's heart.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "acrisius",
+      "sourceNames": [
+        "Acrisius"
+      ],
+      "role": "fearful ruler",
+      "reason": "Acrisius acts on the oracle by confining Danae.",
+      "evidence": [
+        "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+        "gutenberg:ebooks:39250:363.363.3-363.363.3:03c48656"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "acrisius",
+      "relationship": "parent_of",
+      "target": "danae",
+      "sourceText": "Until then the king had been very fond of his only child, Danae, and until then, too, had thought with pride of the time when he would bestow her hand in marriage upon the noblest of all who came to woo.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+        "sourceText": "Until then the king had been very fond of his only child, Danae, and until then, too, had thought with pride of the time when he would bestow her hand in marriage upon the noblest of all who came to woo."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Acrisius learns that Danae's son will supplant him, confines Danae in a brazen tower, and Jupiter reaches her by changing himself into a golden shower.",
+    "openingSituation": "Acrisius has one child, Danae, and fears an oracle.",
+    "centralConflict": "Acrisius tries to prevent Danae from having the son foretold by the oracle.",
+    "resolution": "Jupiter enters the tower in the form of a golden shower.",
+    "outcome": "The confinement fails to keep Danae beyond divine reach.",
+    "storyline": [
+      "Acrisius feared the oracle that he would be killed by his grandson.",
+      "Acrisius locked Danae in a brazen tower.",
+      "Jupiter changed himself into a golden shower to reach Danae."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+      "sourceText": "The life of Acrisius, King of Argos, had been a burden to him ever since the unfortunate day when an oracle had predicted that he would be killed by his grandson.",
+      "supports": [
+        {
+          "field": "Acrisius feared the oracle that he would be killed by his grandson.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Acrisius feared the oracle that he would be killed by his grandson.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:363.363.3-363.363.3:03c48656",
+      "sourceText": "After much thought, Acrisius decided to lock Danae up in a brazen tower, around which he stationed guards to prevent any one from even approaching the captive princess.",
+      "supports": [
+        {
+          "field": "Acrisius locked Danae in a brazen tower.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Acrisius locked Danae in a brazen tower.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:363.363.6-363.363.6:ff384870",
+      "sourceText": "To avoid being seen, he changed himself into a golden shower, and gently dropped down on the turret beside her, where his presence and spirited conversation soon won the maiden's heart.",
+      "supports": [
+        {
+          "field": "Jupiter changed himself into a golden shower to reach Danae.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Jupiter changed himself into a golden shower to reach Danae.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "The life of Acrisius, King of Argos, had been a burden to him ever since the unfortunate day when an oracle had predicted that he would be killed by his grandson.",
+      "normalizedStatement": "Acrisius feared the oracle that he would be killed by his grandson.",
+      "actor": "acrisius",
+      "action": "fear",
+      "sourceAction": "burden",
+      "target": "danae",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+          "sourceText": "The life of Acrisius, King of Argos, had been a burden to him ever since the unfortunate day when an oracle had predicted that he would be killed by his grandson."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+      "needle": "oracle had predicted that he would be killed by his grandson"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "After much thought, Acrisius decided to lock Danae up in a brazen tower, around which he stationed guards to prevent any one from even approaching the captive princess.",
+      "normalizedStatement": "Acrisius locked Danae in a brazen tower.",
+      "actor": "acrisius",
+      "action": "confine",
+      "sourceAction": "lock",
+      "target": "danae",
+      "object": "brazen-tower",
+      "recipient": null,
+      "location": "argos",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.3-363.363.3:03c48656",
+          "sourceText": "After much thought, Acrisius decided to lock Danae up in a brazen tower, around which he stationed guards to prevent any one from even approaching the captive princess."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:363.363.3-363.363.3:03c48656",
+      "needle": "lock Danae up in a brazen tower"
+    },
+    {
+      "eventId": "event-003",
+      "sourceText": "To avoid being seen, he changed himself into a golden shower, and gently dropped down on the turret beside her, where his presence and spirited conversation soon won the maiden's heart.",
+      "normalizedStatement": "Jupiter changed himself into a golden shower to reach Danae.",
+      "actor": "zeus",
+      "action": "transform",
+      "sourceAction": "changed",
+      "target": "danae",
+      "object": "golden-shower",
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:363.363.6-363.363.6:ff384870",
+          "sourceText": "To avoid being seen, he changed himself into a golden shower, and gently dropped down on the turret beside her, where his presence and spirited conversation soon won the maiden's heart."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:363.363.6-363.363.6:ff384870",
+      "needle": "changed himself into a golden shower"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+      "gutenberg:ebooks:39250:363.363.3-363.363.3:03c48656",
+      "gutenberg:ebooks:39250:363.363.4-363.363.4:3c32fed7",
+      "gutenberg:ebooks:39250:363.363.6-363.363.6:ff384870"
+    ],
+    "claimsChecked": [
+      "Acrisius fears the oracle.",
+      "Acrisius confines Danae.",
+      "Jupiter reaches Danae."
+    ],
+    "correctionsMade": [
+      "Converted the former ambiguous setup into a source-bounded birth-of-Perseus record.",
+      "Preserved Jupiter as source form while normalizing to Zeus."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

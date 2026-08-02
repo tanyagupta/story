@@ -1,0 +1,339 @@
+{
+  "mythId": "bulk-verified-0025",
+  "mythFamilyId": "agamemnon-return",
+  "variantId": "gutenberg-berens-agamemnon-return-murder-verified",
+  "title": "Agamemnon's Return and Murder",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:338.338.4-338.338.4:70d4701a",
+      "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+      "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Agamemnon returns to Mycenae, is murdered, and Electra saves Orestes.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:338.338.4-338.338.4:70d4701a",
+      "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+      "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The explicit Agamemnon heading starts this unit; the next passage opens a later Orestes revenge episode and is excluded."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0102"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The explicit Agamemnon heading starts this unit; the next passage opens a later Orestes revenge episode and is excluded.",
+  "entities": {
+    "characters": [
+      "agamemnon",
+      "clytemnestra",
+      "aegisthus",
+      "cassandra",
+      "electra",
+      "orestes"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Agamemnon",
+      "normalizedId": "agamemnon",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+          "sourceText": "His wife Clytemnestra, in revenge for the sacrifice of her beloved daughter Iphigenia, had formed a secret alliance during his absence with AEgisthus, the son of Thyestes, and on the return of Agamemnon they both conspired to compass his destruction.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Clytemnestra",
+      "normalizedId": "clytemnestra",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+          "sourceText": "His wife Clytemnestra, in revenge for the sacrifice of her beloved daughter Iphigenia, had formed a secret alliance during his absence with AEgisthus, the son of Thyestes, and on the return of Agamemnon they both conspired to compass his destruction.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "AEgisthus",
+      "normalizedId": "aegisthus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+          "sourceText": "His wife Clytemnestra, in revenge for the sacrifice of her beloved daughter Iphigenia, had formed a secret alliance during his absence with AEgisthus, the son of Thyestes, and on the return of Agamemnon they both conspired to compass his destruction.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Cassandra",
+      "normalizedId": "cassandra",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+          "sourceText": "Clytemnestra feigned the greatest joy on beholding her husband, and in spite of the urgent warnings of Cassandra, who was now a captive in his train, he received her protestations of affection with the most trusting confidence.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Electra",
+      "normalizedId": "electra",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f",
+          "sourceText": "During the massacre of the retainers of Agamemnon which followed, his daughter Electra, with great presence of mind, contrived to save her young brother Orestes.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Orestes",
+      "normalizedId": "orestes",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f",
+          "sourceText": "During the massacre of the retainers of Agamemnon which followed, his daughter Electra, with great presence of mind, contrived to save her young brother Orestes.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "agamemnon",
+      "sourceNames": [
+        "Agamemnon"
+      ],
+      "role": "returning king",
+      "reason": "Agamemnon returns home and is murdered.",
+      "evidence": [
+        "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "clytemnestra",
+      "relationship": "spouse_of",
+      "target": "agamemnon",
+      "sourceText": "His wife Clytemnestra, in revenge for the sacrifice of her beloved daughter Iphigenia, had formed a secret alliance during his absence with AEgisthus, the son of Thyestes, and on the return of Agamemnon they both conspired to compass his destruction.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+        "sourceText": "His wife Clytemnestra, in revenge for the sacrifice of her beloved daughter Iphigenia, had formed a secret alliance during his absence with AEgisthus, the son of Thyestes, and on the return of Agamemnon they both conspired to compass his destruction."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "agamemnon",
+      "relationship": "parent_of",
+      "target": "electra",
+      "sourceText": "During the massacre of the retainers of Agamemnon which followed, his daughter Electra, with great presence of mind, contrived to save her young brother Orestes.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f",
+        "sourceText": "During the massacre of the retainers of Agamemnon which followed, his daughter Electra, with great presence of mind, contrived to save her young brother Orestes."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "electra",
+      "relationship": "sibling_of",
+      "target": "orestes",
+      "sourceText": "During the massacre of the retainers of Agamemnon which followed, his daughter Electra, with great presence of mind, contrived to save her young brother Orestes.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f",
+        "sourceText": "During the massacre of the retainers of Agamemnon which followed, his daughter Electra, with great presence of mind, contrived to save her young brother Orestes."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Agamemnon ignores Cassandra's warnings, returns to Mycenae, and is murdered by Aegisthus with Clytemnestra's aid; Electra saves Orestes.",
+    "openingSituation": "Agamemnon returns from Troy.",
+    "centralConflict": "Aegisthus and Clytemnestra plot against him.",
+    "resolution": "Agamemnon is murdered.",
+    "outcome": "Electra saves Orestes, leaving revenge for a later episode.",
+    "storyline": [
+      "Agamemnon returned from Troy.",
+      "AEgisthus killed Agamemnon with Clytemnestra's aid.",
+      "Electra saved Orestes from Aegisthus."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+      "sourceText": "His wife Clytemnestra, in revenge for the sacrifice of her beloved daughter Iphigenia, had formed a secret alliance during his absence with AEgisthus, the son of Thyestes, and on the return of Agamemnon they both conspired to compass his destruction.",
+      "supports": [
+        {
+          "field": "Agamemnon returned from Troy.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Agamemnon returned from Troy.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+      "sourceText": "In her well-assumed anxiety for the comfort of the weary traveller, she prepared a warm bath for his refreshment, and at a given signal from the treacherous queen, AEgisthus, who was concealed in an adjoining chamber, rushed upon the defenceless hero and slew him.",
+      "supports": [
+        {
+          "field": "AEgisthus killed Agamemnon with Clytemnestra's aid.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports AEgisthus killed Agamemnon with Clytemnestra's aid.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f",
+      "sourceText": "During the massacre of the retainers of Agamemnon which followed, his daughter Electra, with great presence of mind, contrived to save her young brother Orestes.",
+      "supports": [
+        {
+          "field": "Electra saved Orestes from Aegisthus.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Electra saved Orestes from Aegisthus.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "His wife Clytemnestra, in revenge for the sacrifice of her beloved daughter Iphigenia, had formed a secret alliance during his absence with AEgisthus, the son of Thyestes, and on the return of Agamemnon they both conspired to compass his destruction.",
+      "normalizedStatement": "Agamemnon returned from Troy.",
+      "actor": "agamemnon",
+      "action": "return",
+      "sourceAction": "return",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+          "sourceText": "His wife Clytemnestra, in revenge for the sacrifice of her beloved daughter Iphigenia, had formed a secret alliance during his absence with AEgisthus, the son of Thyestes, and on the return of Agamemnon they both conspired to compass his destruction."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+      "needle": "on the return of Agamemnon"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "In her well-assumed anxiety for the comfort of the weary traveller, she prepared a warm bath for his refreshment, and at a given signal from the treacherous queen, AEgisthus, who was concealed in an adjoining chamber, rushed upon the defenceless hero and slew him.",
+      "normalizedStatement": "AEgisthus killed Agamemnon with Clytemnestra's aid.",
+      "actor": "aegisthus",
+      "action": "kill",
+      "sourceAction": "slew",
+      "target": "agamemnon",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+          "sourceText": "In her well-assumed anxiety for the comfort of the weary traveller, she prepared a warm bath for his refreshment, and at a given signal from the treacherous queen, AEgisthus, who was concealed in an adjoining chamber, rushed upon the defenceless hero and slew him."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+      "needle": "rushed upon the defenceless hero and slew him"
+    },
+    {
+      "eventId": "event-003",
+      "sourceText": "During the massacre of the retainers of Agamemnon which followed, his daughter Electra, with great presence of mind, contrived to save her young brother Orestes.",
+      "normalizedStatement": "Electra saved Orestes from Aegisthus.",
+      "actor": "electra",
+      "action": "rescue",
+      "sourceAction": "save",
+      "target": "orestes",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f",
+          "sourceText": "During the massacre of the retainers of Agamemnon which followed, his daughter Electra, with great presence of mind, contrived to save her young brother Orestes."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f",
+      "needle": "contrived to save her young brother Orestes"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:22381:338.338.4-338.338.4:70d4701a",
+      "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+      "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f"
+    ],
+    "claimsChecked": [
+      "Agamemnon returns.",
+      "Aegisthus murders him.",
+      "Electra saves Orestes."
+    ],
+    "correctionsMade": [
+      "Split Agamemnon from Ajax and the later Orestes revenge opening.",
+      "Modeled the murder and rescue as the final boundary."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}
