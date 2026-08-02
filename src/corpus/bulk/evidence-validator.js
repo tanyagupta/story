@@ -10,6 +10,11 @@ function extractSentences(text) {
 function buildPassageAccess(passageMap) {
   const ordered = Object.values(passageMap).sort((a, b) => a.sequence - b.sequence || a.passageId.localeCompare(b.passageId));
   const byId = Object.assign({}, passageMap);
+  const orderedBySource = {};
+  ordered.forEach((passage) => {
+    if (!orderedBySource[passage.sourceId]) orderedBySource[passage.sourceId] = [];
+    orderedBySource[passage.sourceId].push(passage);
+  });
   return {
     get(passageId) {
       const passage = byId[passageId];
@@ -40,7 +45,12 @@ function buildPassageAccess(passageMap) {
       return sourceText;
     },
     contiguous(ids) {
-      const positions = ids.map((id) => ordered.findIndex((passage) => passage.passageId === id));
+      const passages = ids.map((id) => byId[id]);
+      if (passages.some((passage) => !passage)) return false;
+      const sourceIds = Array.from(new Set(passages.map((passage) => passage.sourceId)));
+      if (sourceIds.length !== 1) return false;
+      const sourceOrdered = orderedBySource[sourceIds[0]] || [];
+      const positions = ids.map((id) => sourceOrdered.findIndex((passage) => passage.passageId === id));
       if (positions.some((index) => index < 0)) return false;
       const sorted = positions.slice().sort((a, b) => a - b);
       return sorted.every((position, index) => index === 0 || position === sorted[index - 1] + 1);
@@ -95,6 +105,7 @@ function validateVerifiedRecords(records, passageMap) {
     relationshipFailures: [],
     statusConsistencyFailures: [],
     misleadingScoreFailures: [],
+    unresolvedUncertaintyFailures: [],
     duplicateOutputFailures: []
   };
   const aliasGroups = [
@@ -202,6 +213,10 @@ function validateVerifiedRecords(records, passageMap) {
     if (!record.verification || record.verification.status !== "verified_by_source_audit") {
       report.crossFieldConsistencyFailures.push({ mythId: record.mythId, issue: "missing-source-audit-verification" });
     }
+    (record.verification && record.verification.remainingUncertainties || []).forEach((uncertainty) => {
+      const material = typeof uncertainty === "object" ? uncertainty.material === true : /^material:/i.test(String(uncertainty));
+      if (material) report.unresolvedUncertaintyFailures.push({ mythId: record.mythId, uncertainty });
+    });
     if (record.verification && (!(record.verification.claimsChecked || []).length || !(record.verification.correctionsMade || []).length)) {
       report.crossFieldConsistencyFailures.push({ mythId: record.mythId, issue: "verification-report-not-substantive" });
     }
@@ -219,6 +234,7 @@ function validateVerifiedRecords(records, passageMap) {
     "relationshipFailures",
     "statusConsistencyFailures",
     "misleadingScoreFailures",
+    "unresolvedUncertaintyFailures",
     "duplicateOutputFailures"
   ].every((field) => report[field].length === 0);
   return report;

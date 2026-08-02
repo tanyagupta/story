@@ -1,0 +1,498 @@
+{
+  "mythId": "bulk-verified-0009",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Jupiter gives Thetis to Peleus.",
+      "Eris arrives uninvited.",
+      "Eris throws the golden apple.",
+      "Juno, Minerva, and Venus dispute it.",
+      "Jupiter appoints Paris judge."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "The Apple of Discord at the Wedding",
+  "mythFamilyId": "apple-of-discord",
+  "variantId": "gutenberg-baker-apple-discord-verified",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:175.175.1-175.175.1:f7708a76",
+      "gutenberg:ebooks:45489:175.175.2-175.175.2:864e89b6",
+      "gutenberg:ebooks:45489:175.175.3-175.175.3:df33c925",
+      "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81",
+      "gutenberg:ebooks:45489:175.175.5-175.175.5:caec4f7c",
+      "gutenberg:ebooks:45489:175.175.6-175.175.6:74dbbb00"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "The wedding setting, Eris' apple, the goddess dispute, and Jupiter's appointment of Paris as judge.",
+    "includedPassages": [
+      "gutenberg:ebooks:45489:175.175.1-175.175.1:f7708a76",
+      "gutenberg:ebooks:45489:175.175.2-175.175.2:864e89b6",
+      "gutenberg:ebooks:45489:175.175.3-175.175.3:df33c925",
+      "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81",
+      "gutenberg:ebooks:45489:175.175.5-175.175.5:caec4f7c",
+      "gutenberg:ebooks:45489:175.175.6-175.175.6:74dbbb00"
+    ],
+    "omittedPassages": [
+      "gutenberg:ebooks:45489:175.175.7-175.175.7:dd2f49f1"
+    ],
+    "boundaryRationale": "The following Paris background passage is omitted from the normalized event chain because the selected subepisode ends with Paris appointed as judge."
+  },
+  "entities": {
+    "characters": [
+      "zeus",
+      "thetis",
+      "peleus",
+      "eris",
+      "hera",
+      "athena",
+      "aphrodite",
+      "paris",
+      "priam",
+      "nereus",
+      "doris"
+    ],
+    "locations": [
+      "olympus",
+      "mount-ida",
+      "troy"
+    ],
+    "objects": [
+      "golden-apple"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.1-175.175.1:f7708a76",
+          "sourceText": "Jupiter, father of the gods, once fell in love with the beautiful sea-nymph \"Thetis of the silver feet,\" the daughter of Nereus and Doris.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Thetis",
+      "normalizedId": "thetis",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.1-175.175.1:f7708a76",
+          "sourceText": "Jupiter, father of the gods, once fell in love with the beautiful sea-nymph \"Thetis of the silver feet,\" the daughter of Nereus and Doris.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Peleus",
+      "normalizedId": "peleus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.2-175.175.2:864e89b6",
+          "sourceText": "Although Jupiter could not imagine how any god could supplant him in Olympus, he was nevertheless unwilling to act in defiance of what the Fates decreed; so he gave Thetis in marriage to Peleus, king of Phthia, who had long loved her and had sought her hand in vain.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Eris",
+      "normalizedId": "eris",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.3-175.175.3:df33c925",
+          "sourceText": "This unexpected visitor was Eris (or Discordia), the goddess of discord, who had not been asked to the wedding because her hideous face, snaky hair, and vicious temper made Thetis fear that her presence would anger the other guests.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Juno",
+      "normalizedId": "hera",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81",
+          "sourceText": "At last all the contestants for the golden apple withdrew their claims except Juno, Minerva, and Venus,--each of whom disputed hotly for its possession.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Minerva",
+      "normalizedId": "athena",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81",
+          "sourceText": "At last all the contestants for the golden apple withdrew their claims except Juno, Minerva, and Venus,--each of whom disputed hotly for its possession.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Venus",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81",
+          "sourceText": "At last all the contestants for the golden apple withdrew their claims except Juno, Minerva, and Venus,--each of whom disputed hotly for its possession.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Paris",
+      "normalizedId": "paris",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.5-175.175.5:caec4f7c",
+          "sourceText": "So, at the suggestion of one of the company, the entire wedding party adjourned to Mount Ida, where the beautiful shepherd Paris was tending his flocks.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Priam",
+      "normalizedId": "priam",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.6-175.175.6:74dbbb00",
+          "sourceText": "Paris was not, however, an uncouth peasant lad, for although occupying the lowly position of shepherd, he was really the son of Priam and Hecuba, king and queen of Troy.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "eris",
+      "sourceNames": [
+        "Eris",
+        "Discordia"
+      ],
+      "role": "disruptor",
+      "reason": "She arrives uninvited and throws the golden apple.",
+      "evidence": [
+        "gutenberg:ebooks:45489:175.175.3-175.175.3:df33c925"
+      ]
+    },
+    {
+      "entityId": "hera",
+      "sourceNames": [
+        "Juno"
+      ],
+      "role": "contestant",
+      "reason": "Juno disputes possession of the apple.",
+      "evidence": [
+        "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81"
+      ]
+    },
+    {
+      "entityId": "athena",
+      "sourceNames": [
+        "Minerva"
+      ],
+      "role": "contestant",
+      "reason": "Minerva disputes possession of the apple.",
+      "evidence": [
+        "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81"
+      ]
+    },
+    {
+      "entityId": "aphrodite",
+      "sourceNames": [
+        "Venus"
+      ],
+      "role": "contestant",
+      "reason": "Venus disputes possession of the apple.",
+      "evidence": [
+        "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81"
+      ]
+    },
+    {
+      "entityId": "paris",
+      "sourceNames": [
+        "Paris"
+      ],
+      "role": "judge",
+      "reason": "Jupiter appoints Paris to judge the contest.",
+      "evidence": [
+        "gutenberg:ebooks:45489:175.175.5-175.175.5:caec4f7c"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "thetis",
+      "relationship": "spouse_of",
+      "target": "peleus",
+      "sourceText": "To induce her to consent to the marriage, Jupiter promised that he and the other gods would come down from high Olympus to attend the wedding; and the prospect of this great honor soothed the pride of Thetis so that she consented to marry Peleus.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:45489:175.175.2-175.175.2:864e89b6",
+        "sourceText": "To induce her to consent to the marriage, Jupiter promised that he and the other gods would come down from high Olympus to attend the wedding; and the prospect of this great honor soothed the pride of Thetis so that she consented to marry Peleus."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "priam",
+      "relationship": "parent_of",
+      "target": "paris",
+      "sourceText": "Paris was not, however, an uncouth peasant lad, for although occupying the lowly position of shepherd, he was really the son of Priam and Hecuba, king and queen of Troy.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:45489:175.175.6-175.175.6:74dbbb00",
+        "sourceText": "Paris was not, however, an uncouth peasant lad, for although occupying the lowly position of shepherd, he was really the son of Priam and Hecuba, king and queen of Troy."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Jupiter gives Thetis to Peleus and promises divine attendance at their wedding. Eris, excluded from the feast, throws a golden apple marked for the fairest; Juno, Minerva, and Venus contest it, and Jupiter appoints Paris as judge.",
+    "openingSituation": "Jupiter avoids marrying Thetis after the Fates say her son will be greater than his father.",
+    "centralConflict": "Eris disrupts the wedding with a golden apple and the goddesses dispute who should receive it.",
+    "resolution": "The gods refuse to judge the dispute themselves and go to Mount Ida.",
+    "outcome": "Jupiter appoints Paris to judge the contest.",
+    "storyline": [
+      "Jupiter gives Thetis to Peleus.",
+      "Eris arrives uninvited.",
+      "Eris throws the golden apple.",
+      "Juno, Minerva, and Venus dispute it.",
+      "Jupiter appoints Paris judge."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:175.175.2-175.175.2:864e89b6",
+      "sourceText": "Although Jupiter could not imagine how any god could supplant him in Olympus, he was nevertheless unwilling to act in defiance of what the Fates decreed; so he gave Thetis in marriage to Peleus, king of Phthia, who had long loved her and had sought her hand in vain.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:175.175.3-175.175.3:df33c925",
+      "sourceText": "Then she threw on the table a golden apple, and immediately vanished.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:175.175.5-175.175.5:caec4f7c",
+      "sourceText": "Jupiter appointed him to be the judge of the contest.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "thetis",
+      "predicate": "betrothed_to",
+      "object": "peleus",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.2-175.175.2:864e89b6",
+          "sourceText": "To induce her to consent to the marriage, Jupiter promised that he and the other gods would come down from high Olympus to attend the wedding; and the prospect of this great honor soothed the pride of Thetis so that she consented to marry Peleus."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "arrange",
+      "target": "thetis",
+      "object": null,
+      "recipient": "peleus",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Although Jupiter could not imagine how any god could supplant him in Olympus, he was nevertheless unwilling to act in defiance of what the Fates decreed; so he gave Thetis in marriage to Peleus, king of Phthia, who had long loved her and had sought her hand in vain.",
+      "normalizedStatement": "Jupiter gave Thetis in marriage to Peleus.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.2-175.175.2:864e89b6",
+          "sourceText": "Although Jupiter could not imagine how any god could supplant him in Olympus, he was nevertheless unwilling to act in defiance of what the Fates decreed; so he gave Thetis in marriage to Peleus, king of Phthia, who had long loved her and had sought her hand in vain."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "zeus",
+      "action": "arrange"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "arrive",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "There was nothing to mar the joy of the occasion until suddenly an uninvited guest appeared in the banquet-hall, and the laughter died away into an ominous silence.",
+      "normalizedStatement": "Eris appeared uninvited at the wedding feast.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.3-175.175.3:df33c925",
+          "sourceText": "There was nothing to mar the joy of the occasion until suddenly an uninvited guest appeared in the banquet-hall, and the laughter died away into an ominous silence."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "eris",
+      "action": "arrive"
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "throw",
+      "target": null,
+      "object": "golden-apple",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Then she threw on the table a golden apple, and immediately vanished.",
+      "normalizedStatement": "Eris threw a golden apple onto the table.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.3-175.175.3:df33c925",
+          "sourceText": "Then she threw on the table a golden apple, and immediately vanished."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "eris",
+      "action": "throw"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "dispute",
+      "target": "athena",
+      "object": "golden-apple",
+      "recipient": "aphrodite",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "At last all the contestants for the golden apple withdrew their claims except Juno, Minerva, and Venus,--each of whom disputed hotly for its possession.",
+      "normalizedStatement": "Juno, Minerva, and Venus disputed possession of the apple.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81",
+          "sourceText": "At last all the contestants for the golden apple withdrew their claims except Juno, Minerva, and Venus,--each of whom disputed hotly for its possession."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "hera",
+      "action": "dispute"
+    },
+    {
+      "eventId": "event-005",
+      "sourceAction": "appoint",
+      "target": "paris",
+      "object": "golden-apple",
+      "recipient": null,
+      "location": "mount-ida",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Jupiter appointed him to be the judge of the contest.",
+      "normalizedStatement": "Jupiter appointed Paris judge of the contest.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.5-175.175.5:caec4f7c",
+          "sourceText": "Jupiter appointed him to be the judge of the contest."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "zeus",
+      "action": "appoint"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "paris",
+      "predicate": "appointed_judge_of",
+      "object": "golden-apple",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:175.175.5-175.175.5:caec4f7c",
+          "sourceText": "Jupiter appointed him to be the judge of the contest."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:45489:175.175.1-175.175.1:f7708a76",
+      "gutenberg:ebooks:45489:175.175.2-175.175.2:864e89b6",
+      "gutenberg:ebooks:45489:175.175.3-175.175.3:df33c925",
+      "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81",
+      "gutenberg:ebooks:45489:175.175.5-175.175.5:caec4f7c",
+      "gutenberg:ebooks:45489:175.175.6-175.175.6:74dbbb00"
+    ],
+    "claimsChecked": [
+      "Thetis marriage context",
+      "Eris' exclusion",
+      "golden apple inscription",
+      "three contestants",
+      "Paris appointment"
+    ],
+    "correctionsMade": [
+      "Narrowed the section to the apple-dispute subepisode.",
+      "Retitled from generic Apple of Discord.",
+      "Omitted unsupported later judgment material."
+    ],
+    "remainingUncertainties": []
+  }
+}

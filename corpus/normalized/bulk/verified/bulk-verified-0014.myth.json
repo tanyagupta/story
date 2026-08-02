@@ -1,0 +1,596 @@
+{
+  "mythId": "bulk-verified-0014",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Laius exposes Oedipus.",
+      "Oedipus is raised at Corinth.",
+      "Oedipus kills Laius unknowingly.",
+      "Oedipus solves the Sphinx's riddle.",
+      "Oedipus becomes king and husband of Jocaste.",
+      "Tiresias reveals the truth.",
+      "Oedipus leaves Thebes."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "Oedipus and the Sphinx",
+  "mythFamilyId": "oedipus",
+  "variantId": "gutenberg-berens-oedipus-verified",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+      "gutenberg:ebooks:22381:324.324.2-324.324.2:ac3197eb",
+      "gutenberg:ebooks:22381:324.324.3-324.324.3:67ff147b",
+      "gutenberg:ebooks:22381:324.324.4-324.324.4:1bddd95a",
+      "gutenberg:ebooks:22381:324.324.5-324.324.5:24306cad",
+      "gutenberg:ebooks:22381:324.324.6-324.324.6:4b597425",
+      "gutenberg:ebooks:22381:324.324.7-324.324.7:8ef76d91",
+      "gutenberg:ebooks:22381:324.324.8-324.324.8:b5d81903",
+      "gutenberg:ebooks:22381:324.324.9-324.324.9:643d2cb9"
+    ]
+  },
+  "scope": {
+    "type": "complete-section",
+    "description": "Berens' Oedipus section from Laius' oracle through Oedipus' exile and refuge near Athens.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+      "gutenberg:ebooks:22381:324.324.2-324.324.2:ac3197eb",
+      "gutenberg:ebooks:22381:324.324.3-324.324.3:67ff147b",
+      "gutenberg:ebooks:22381:324.324.4-324.324.4:1bddd95a",
+      "gutenberg:ebooks:22381:324.324.5-324.324.5:24306cad",
+      "gutenberg:ebooks:22381:324.324.6-324.324.6:4b597425",
+      "gutenberg:ebooks:22381:324.324.7-324.324.7:8ef76d91",
+      "gutenberg:ebooks:22381:324.324.8-324.324.8:b5d81903",
+      "gutenberg:ebooks:22381:324.324.9-324.324.9:643d2cb9"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "All consecutive body passages in the section are included."
+  },
+  "entities": {
+    "characters": [
+      "oedipus",
+      "laius",
+      "jocaste",
+      "polybus",
+      "merope",
+      "creon",
+      "sphinx",
+      "hera",
+      "tiresias",
+      "antigone"
+    ],
+    "locations": [
+      "thebes",
+      "corinth",
+      "mount-cithaeron",
+      "delphi",
+      "colonus"
+    ],
+    "objects": [
+      "riddle",
+      "staff"
+    ],
+    "creatures": [
+      "sphinx"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Oedipus",
+      "normalizedId": "oedipus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.2-324.324.2:ac3197eb",
+          "sourceText": "Meanwhile the shepherd of king Polybus had unbound the feet of the infant, and in consequence of their being much swollen he called him Oedipus, or Swollen-foot.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Laius",
+      "normalizedId": "laius",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+          "sourceText": "Laius, king of Thebes, the son of Labdacus, and a direct descendant of Cadmus, was married to Jocaste, the daughter of a noble Theban.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Jocaste",
+      "normalizedId": "jocaste",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+          "sourceText": "Laius, king of Thebes, the son of Labdacus, and a direct descendant of Cadmus, was married to Jocaste, the daughter of a noble Theban.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Polybus",
+      "normalizedId": "polybus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.2-324.324.2:ac3197eb",
+          "sourceText": "Meanwhile the shepherd of king Polybus had unbound the feet of the infant, and in consequence of their being much swollen he called him Oedipus, or Swollen-foot.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Merope",
+      "normalizedId": "merope",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.2-324.324.2:ac3197eb",
+          "sourceText": "He then carried him to the king, his master, who, pitying the poor little waif, enlisted for him the kind offices of his wife, Merope.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Sphinx",
+      "normalizedId": "sphinx",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.4-324.324.4:1bddd95a",
+          "sourceText": "Not long after this occurrence the Sphinx (full details of whom have already been given) was sent by the goddess Hera as a punishment to the Thebans.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Hera",
+      "normalizedId": "hera",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.4-324.324.4:1bddd95a",
+          "sourceText": "Not long after this occurrence the Sphinx (full details of whom have already been given) was sent by the goddess Hera as a punishment to the Thebans.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Creon",
+      "normalizedId": "creon",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.5-324.324.5:24306cad",
+          "sourceText": "Now on the death of the old king Laius, Creon, the brother of the widowed queen, had seized the reins of government and mounted the vacant throne; and when at length his own son fell a victim to the Sphinx, he resolved at all costs to rid the country of this fearful scourge.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Tiresias",
+      "normalizedId": "tiresias",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.8-324.324.8:b5d81903",
+          "sourceText": "He then sent for the blind old seer Tiresias, and implored him, by means of his prophetic powers, to reveal to him the author of the crime.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Antigone",
+      "normalizedId": "antigone",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.9-324.324.9:643d2cb9",
+          "sourceText": "Accompanied by his faithful and devoted daughter Antigone, Oedipus quitted Thebes and became a miserable and homeless outcast, begging his bread from place to place.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "oedipus",
+      "sourceNames": [
+        "Oedipus"
+      ],
+      "role": "hero and sufferer",
+      "reason": "The section follows Oedipus from exposure to solving the Sphinx's riddle and later exile.",
+      "evidence": [
+        "gutenberg:ebooks:22381:324.324.2-324.324.2:ac3197eb",
+        "gutenberg:ebooks:22381:324.324.6-324.324.6:4b597425",
+        "gutenberg:ebooks:22381:324.324.9-324.324.9:643d2cb9"
+      ]
+    },
+    {
+      "entityId": "sphinx",
+      "sourceNames": [
+        "Sphinx"
+      ],
+      "role": "monster",
+      "reason": "The Sphinx kills those who fail her riddles and dies when Oedipus solves one.",
+      "evidence": [
+        "gutenberg:ebooks:22381:324.324.4-324.324.4:1bddd95a",
+        "gutenberg:ebooks:22381:324.324.6-324.324.6:4b597425"
+      ]
+    },
+    {
+      "entityId": "jocaste",
+      "sourceNames": [
+        "Jocaste"
+      ],
+      "role": "mother and queen",
+      "reason": "Jocaste consents to the infant's exposure and later dies after the revelation.",
+      "evidence": [
+        "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+        "gutenberg:ebooks:22381:324.324.8-324.324.8:b5d81903"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "laius",
+      "relationship": "spouse_of",
+      "target": "jocaste",
+      "sourceText": "Laius, king of Thebes, the son of Labdacus, and a direct descendant of Cadmus, was married to Jocaste, the daughter of a noble Theban.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+        "sourceText": "Laius, king of Thebes, the son of Labdacus, and a direct descendant of Cadmus, was married to Jocaste, the daughter of a noble Theban."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "laius",
+      "relationship": "parent_of",
+      "target": "oedipus",
+      "sourceText": "An oracle having foretold that he would perish by the hand of his own son, he determined to destroy the infant to whom Jocaste had just given birth.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+        "sourceText": "An oracle having foretold that he would perish by the hand of his own son, he determined to destroy the infant to whom Jocaste had just given birth."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "jocaste",
+      "relationship": "parent_of",
+      "target": "oedipus",
+      "sourceText": "Tiresias at first hesitated, but yielding to the earnest solicitations of the king, the old prophet thus addressed him: \"Thou thyself art the murderer of the old king Laius, who was thy father; and thou art wedded to his widow, thine own mother.\" In order to convince Oedipus of the truth of his words, he brought forward the old servant who had exposed him as a babe on Mount Cithaeron, and the shepherd who had conveyed him to king Polybus.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:324.324.8-324.324.8:b5d81903",
+        "sourceText": "Tiresias at first hesitated, but yielding to the earnest solicitations of the king, the old prophet thus addressed him: \"Thou thyself art the murderer of the old king Laius, who was thy father; and thou art wedded to his widow, thine own mother.\" In order to convince Oedipus of the truth of his words, he brought forward the old servant who had exposed him as a babe on Mount Cithaeron, and the shepherd who had conveyed him to king Polybus."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Laius tries to destroy the infant Oedipus because of an oracle, but Oedipus is raised at Corinth. He unknowingly kills Laius, defeats the Sphinx by solving her riddle, becomes king of Thebes and Jocaste's husband, and later blinds himself and goes into exile after Tiresias reveals the truth.",
+    "openingSituation": "An oracle foretells that Laius will die by his own son's hand.",
+    "centralConflict": "Oedipus unknowingly fulfills the oracle and Thebes suffers under the Sphinx and later a pestilence.",
+    "resolution": "Oedipus solves the Sphinx's riddle and later learns the truth from Tiresias.",
+    "outcome": "Jocaste hangs herself, Oedipus blinds himself, and he leaves Thebes with Antigone.",
+    "storyline": [
+      "Laius exposes Oedipus.",
+      "Oedipus is raised at Corinth.",
+      "Oedipus kills Laius unknowingly.",
+      "Oedipus solves the Sphinx's riddle.",
+      "Oedipus becomes king and husband of Jocaste.",
+      "Tiresias reveals the truth.",
+      "Oedipus leaves Thebes."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+      "sourceText": "An oracle having foretold that he would perish by the hand of his own son, he determined to destroy the infant to whom Jocaste had just given birth.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:324.324.4-324.324.4:1bddd95a",
+      "sourceText": "Stationed on a rocky height just outside the city, she propounded to the passers by riddles which she had been taught by the Muses, and whoever failed to solve them was torn in pieces and devoured by the monster, and in this manner great numbers of the inhabitants of Thebes had perished.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:324.324.6-324.324.6:4b597425",
+      "sourceText": "She proposed to him one which she deemed impossible of solution, but Oedipus at once solved it; whereupon the Sphinx, full of rage and despair, precipitated herself into the abyss and perished.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports resolution.",
+          "field": "resolution"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:324.324.8-324.324.8:b5d81903",
+      "sourceText": "Horrified at this awful revelation Oedipus, in a fit of despair, deprived himself of sight, and the unfortunate Jocaste, unable to survive her disgrace, hanged herself.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "laius",
+      "predicate": "warned_by_oracle",
+      "object": "oedipus",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+          "sourceText": "An oracle having foretold that he would perish by the hand of his own son, he determined to destroy the infant to whom Jocaste had just given birth."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "expose",
+      "target": "oedipus",
+      "object": null,
+      "recipient": null,
+      "location": "mount-cithaeron",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "With the consent of his wife, whose affection for her husband overcame her love for her child, he pierced the feet of the babe, bound them together, and handed the infant over to a servant, with instructions to expose him on Mount Cithaeron to perish.",
+      "normalizedStatement": "Laius handed the infant Oedipus over to be exposed.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+          "sourceText": "With the consent of his wife, whose affection for her husband overcame her love for her child, he pierced the feet of the babe, bound them together, and handed the infant over to a servant, with instructions to expose him on Mount Cithaeron to perish."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "laius",
+      "action": "expose"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "adopt",
+      "target": "oedipus",
+      "object": null,
+      "recipient": "merope",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Oedipus was adopted by the king and queen as their own son, and grew up in the belief that they were his parents, until one day a Corinthian noble taunted him at a banquet with not being the son of the king.",
+      "normalizedStatement": "Polybus and Merope adopted Oedipus.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.2-324.324.2:ac3197eb",
+          "sourceText": "Oedipus was adopted by the king and queen as their own son, and grew up in the belief that they were his parents, until one day a Corinthian noble taunted him at a banquet with not being the son of the king."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "polybus",
+      "action": "adopt"
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "kill",
+      "target": "laius",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "In the scuffle which ensued Oedipus struck the old man with his heavy stick, and he fell back dead on the seat of the chariot.",
+      "normalizedStatement": "Oedipus killed Laius without knowing his identity.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.3-324.324.3:67ff147b",
+          "sourceText": "In the scuffle which ensued Oedipus struck the old man with his heavy stick, and he fell back dead on the seat of the chariot."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "oedipus",
+      "action": "kill"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "solve",
+      "target": "sphinx",
+      "object": "riddle",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "She proposed to him one which she deemed impossible of solution, but Oedipus at once solved it; whereupon the Sphinx, full of rage and despair, precipitated herself into the abyss and perished.",
+      "normalizedStatement": "Oedipus solved the Sphinx's riddle.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.6-324.324.6:4b597425",
+          "sourceText": "She proposed to him one which she deemed impossible of solution, but Oedipus at once solved it; whereupon the Sphinx, full of rage and despair, precipitated herself into the abyss and perished."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "oedipus",
+      "action": "solve"
+    },
+    {
+      "eventId": "event-005",
+      "sourceAction": "die",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "She proposed to him one which she deemed impossible of solution, but Oedipus at once solved it; whereupon the Sphinx, full of rage and despair, precipitated herself into the abyss and perished.",
+      "normalizedStatement": "The Sphinx threw herself into the abyss and died.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.6-324.324.6:4b597425",
+          "sourceText": "She proposed to him one which she deemed impossible of solution, but Oedipus at once solved it; whereupon the Sphinx, full of rage and despair, precipitated herself into the abyss and perished."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "sphinx",
+      "action": "die"
+    },
+    {
+      "eventId": "event-006",
+      "sourceAction": "reveal",
+      "target": "oedipus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Tiresias at first hesitated, but yielding to the earnest solicitations of the king, the old prophet thus addressed him: \"Thou thyself art the murderer of the old king Laius, who was thy father; and thou art wedded to his widow, thine own mother.\" In order to convince Oedipus of the truth of his words, he brought forward the old servant who had exposed him as a babe on Mount Cithaeron, and the shepherd who had conveyed him to king Polybus.",
+      "normalizedStatement": "Tiresias revealed Oedipus as Laius' murderer.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.8-324.324.8:b5d81903",
+          "sourceText": "Tiresias at first hesitated, but yielding to the earnest solicitations of the king, the old prophet thus addressed him: \"Thou thyself art the murderer of the old king Laius, who was thy father; and thou art wedded to his widow, thine own mother.\" In order to convince Oedipus of the truth of his words, he brought forward the old servant who had exposed him as a babe on Mount Cithaeron, and the shepherd who had conveyed him to king Polybus."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "tiresias",
+      "action": "reveal"
+    },
+    {
+      "eventId": "event-007",
+      "sourceAction": "blind",
+      "target": "oedipus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Horrified at this awful revelation Oedipus, in a fit of despair, deprived himself of sight, and the unfortunate Jocaste, unable to survive her disgrace, hanged herself.",
+      "normalizedStatement": "Oedipus blinded himself.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.8-324.324.8:b5d81903",
+          "sourceText": "Horrified at this awful revelation Oedipus, in a fit of despair, deprived himself of sight, and the unfortunate Jocaste, unable to survive her disgrace, hanged herself."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "oedipus",
+      "action": "blind"
+    },
+    {
+      "eventId": "event-008",
+      "sourceAction": "leave",
+      "target": null,
+      "object": null,
+      "recipient": "antigone",
+      "location": "thebes",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Accompanied by his faithful and devoted daughter Antigone, Oedipus quitted Thebes and became a miserable and homeless outcast, begging his bread from place to place.",
+      "normalizedStatement": "Oedipus left Thebes with Antigone.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.9-324.324.9:643d2cb9",
+          "sourceText": "Accompanied by his faithful and devoted daughter Antigone, Oedipus quitted Thebes and became a miserable and homeless outcast, begging his bread from place to place."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "oedipus",
+      "action": "leave"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "oedipus",
+      "predicate": "exiled_from",
+      "object": "thebes",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:324.324.9-324.324.9:643d2cb9",
+          "sourceText": "Accompanied by his faithful and devoted daughter Antigone, Oedipus quitted Thebes and became a miserable and homeless outcast, begging his bread from place to place."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+      "gutenberg:ebooks:22381:324.324.2-324.324.2:ac3197eb",
+      "gutenberg:ebooks:22381:324.324.3-324.324.3:67ff147b",
+      "gutenberg:ebooks:22381:324.324.4-324.324.4:1bddd95a",
+      "gutenberg:ebooks:22381:324.324.5-324.324.5:24306cad",
+      "gutenberg:ebooks:22381:324.324.6-324.324.6:4b597425",
+      "gutenberg:ebooks:22381:324.324.7-324.324.7:8ef76d91",
+      "gutenberg:ebooks:22381:324.324.8-324.324.8:b5d81903",
+      "gutenberg:ebooks:22381:324.324.9-324.324.9:643d2cb9"
+    ],
+    "claimsChecked": [
+      "oracle",
+      "exposure",
+      "Corinth adoption",
+      "Laius killing",
+      "Sphinx riddle",
+      "Tiresias revelation",
+      "exile"
+    ],
+    "correctionsMade": [
+      "Corrected family from trojan-war to oedipus.",
+      "Kept the verified record as a complete section rather than a Trojan War fragment.",
+      "Removed unsupported machine-generated characters."
+    ],
+    "remainingUncertainties": []
+  }
+}

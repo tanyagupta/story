@@ -242,16 +242,16 @@ total passages: 6292
 total candidate sections: 917
 valid narrative candidates: 291
 non-story candidates: 626
-machine-proposed records: 291
-source-audited records: 6
+machine-proposed records awaiting review: 278
+source-audited records: 15
 approved by human review: 0
-records awaiting review: 291
+records awaiting review: 278
 open review items: probable duplicate and ambiguous family review queues
 ```
 
 The verified seed records currently cover: The Story of Proserpina; Phryxus, Helle, and the Golden Fleece; The Heraclidae; Perseus and Medusa; Daedalus and Icarus; and The Story of Pandora. These records use `reviewStatus = "verified_by_source_audit"` and include `verification.method = "Codex source-grounded implementation review"`. Source-audited means the record's claims and structured fields were checked against the cited source passages. Source-audited does not mean human scholarly approval.
 
-Verified records are built from `src/corpus/bulk/verified-records.js` and validated by `src/corpus/bulk/evidence-validator.js`. Each verified event separates exact source wording from normalized interpretation:
+Verified records are built from `src/corpus/bulk/verified-records.js` and `src/corpus/bulk/verification-batch-01.js`, then validated by `src/corpus/bulk/evidence-validator.js`. Each verified event separates exact source wording from normalized interpretation:
 
 ```json
 {
@@ -294,7 +294,30 @@ corpus/review/codex-source-verification.json
 corpus/review/open-review-items.json
 ```
 
-The final normalized bulk directory has two committed record sets: `corpus/normalized/bulk/proposed/` for machine-proposed records awaiting review, and `corpus/normalized/bulk/verified/` for source-audited seed records. Top-level `corpus/normalized/bulk/bulk-myth-*.myth.json` files are stale duplicate outputs from earlier pipeline versions and are removed by the runner. `corpus/catalog/approved-myths.json` is intentionally empty until a human review workflow exists. Proposed machine records are listed in `corpus/catalog/proposed-myths.json` and `corpus/catalog/myths-awaiting-review.json`. Verified seed records are listed in `corpus/catalog/verified-myths.json`. Rejected non-story candidates are listed in `corpus/catalog/rejected-candidates.json`.
+The final normalized bulk directory has two committed record sets: `corpus/normalized/bulk/proposed/` for machine-proposed records awaiting review, and `corpus/normalized/bulk/verified/` for source-audited records. Top-level `corpus/normalized/bulk/bulk-myth-*.myth.json` files are stale duplicate outputs from earlier pipeline versions and are removed by the runner. `corpus/catalog/approved-myths.json` is intentionally empty until a human review workflow exists. Proposed machine records are listed in `corpus/catalog/proposed-myths.json` and `corpus/catalog/myths-awaiting-review.json`. Source-audited records are listed in `corpus/catalog/verified-myths.json`. Rejected non-story candidates are listed in `corpus/catalog/rejected-candidates.json`.
+
+## Batch source verification
+
+The first controlled verification batch reviews exactly 20 machine-proposed records and writes its reproducible decision trail to:
+
+```text
+corpus/review/verification-priority.json
+corpus/review/verification-batch-01.json
+corpus/review/verification-batch-01-results.json
+corpus/review/verification-progress.json
+```
+
+`verification-priority.json` ranks all proposed records using source-grounded review-priority criteria: clear title, known myth family, manageable passage span, identifiable actors, at least three meaningful evidence-linked events, visible conflict or transformation, source-supported outcome, low alias ambiguity, and avoidance of commentary, genealogy, index, title-page, or deity-profile material. The priority score is only a review-ordering aid. It is not a semantic certainty score and does not imply correctness.
+
+`verification-batch-01.json` selects the first 20 records for manual source review. Selection favors short, self-contained or coherently bounded episodes from more than one source book, and it avoids spending batch slots on records already represented by the six seed verified stories. Selection for review does not imply that a record will pass verification.
+
+Each selected record receives one outcome: `verified_by_source_audit`, `awaiting_review`, `ambiguous`, or `rejected_non_story`. A record becomes `verified_by_source_audit` only when the source passages support the title, family, scope, characters, relationships, narrative fields, and every structured event. A record remains unverified whenever a material source or interpretation uncertainty remains.
+
+Batch 01 verified nine additional records: Cadmus Founds Thebes; Paris Abducts Helen; The Apple of Discord at the Wedding; Bacchus Lures Vulcan to Olympus; Diana and Endymion; Infant Hercules and the Serpents; The Calydonian Hunt; Oedipus and the Sphinx; and Bellerophon, Pegasus, and the Chimera. Seven selected records remain `awaiting_review` because their current source spans are partial openings or mislabeled fragments. Four selected records are marked `ambiguous` because their passage groups mix multiple episodes or embed a story inside taxonomy/profile material. No selected records were marked `approved`, and no human-approved records were created.
+
+The review checklist in `verification-batch-01-results.json` records boundary, title, family, character, alias, event, relationship, conflict, resolution, outcome, exact-source-text, and evidence-relevance checks for every selected record. It also documents five full manual inspections spanning different myth families. Subsequent batches should create a new deterministic selection report, review checklist, progress report, and source-audit update without changing the meaning of earlier batch records.
+
+Source-audited means the record’s claims and structured fields were checked against the cited source passages. Source-audited does not mean human scholarly approval. Numeric semantic certainty scores are not used for verified records.
 
 Committed generated outputs include raw-source manifests, derived TEI, passages, candidates, extracted facts, proposed normalized records, source-audited verified records, catalogs, and review reports. They are retained for reproducibility, source traceability, review workflow, catalog browsing, and verified-record evidence checks. They are deterministic and can be regenerated with `npm run corpus:bulk`.
 

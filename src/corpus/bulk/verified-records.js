@@ -413,5 +413,13 @@ function buildVerifiedSeeds(passageMap) {
 }
 
 module.exports = {
-  buildVerifiedSeeds
+  buildVerifiedSeeds,
+  ev,
+  mapEntity,
+  makeRecord,
+  rel,
+  scope,
+  summary,
+  verification,
+  event
 };

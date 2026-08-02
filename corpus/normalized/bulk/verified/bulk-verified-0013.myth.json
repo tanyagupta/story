@@ -1,0 +1,536 @@
+{
+  "mythId": "bulk-verified-0013",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The Fates bind Meleager's life to the brand.",
+      "Diana sends a boar.",
+      "Meleager gathers hunters.",
+      "Atalanta wounds the boar.",
+      "Meleager kills it.",
+      "Althaea burns the brand and Meleager dies."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "The Calydonian Hunt",
+  "mythFamilyId": "calydonian-hunt",
+  "variantId": "gutenberg-guerber-calydonian-hunt-verified",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+      "gutenberg:ebooks:39250:400.400.3-400.400.3:26c875d3",
+      "gutenberg:ebooks:39250:400.400.5-400.400.5:0f1f6abd",
+      "gutenberg:ebooks:39250:400.400.6-400.400.6:ed0b2b19",
+      "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
+    ]
+  },
+  "scope": {
+    "type": "partial-section",
+    "description": "The source's Calydonian Hunt sequence without sidenotes: Meleager's birth omen, Diana's boar, Atalanta's wound, Meleager's deathblow, and Althaea's revenge.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+      "gutenberg:ebooks:39250:400.400.3-400.400.3:26c875d3",
+      "gutenberg:ebooks:39250:400.400.5-400.400.5:0f1f6abd",
+      "gutenberg:ebooks:39250:400.400.6-400.400.6:ed0b2b19",
+      "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
+    ],
+    "omittedPassages": [
+      "gutenberg:ebooks:39250:400.400.1-400.400.1:ec8d9a76",
+      "gutenberg:ebooks:39250:400.400.4-400.400.4:4d48a9ec",
+      "gutenberg:ebooks:39250:400.400.7-400.400.7:2ac45975"
+    ],
+    "boundaryRationale": "Sidenote-only passages are omitted from the normalized event chain."
+  },
+  "entities": {
+    "characters": [
+      "meleager",
+      "althaea",
+      "oeneus",
+      "artemis",
+      "atalanta",
+      "jason",
+      "nestor",
+      "peleus",
+      "theseus"
+    ],
+    "locations": [
+      "calydon",
+      "aetolia"
+    ],
+    "objects": [
+      "brand",
+      "boar-skin"
+    ],
+    "creatures": [
+      "boar"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Meleager",
+      "normalizedId": "meleager",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+          "sourceText": "Œneus and Althæa, King and Queen of Calydon, in Ætolia, were very happy in the possession of a little son, Meleager, only a few days old, until they heard that the Fates had decreed the child should live only as long as the brand then smoking and crackling on the hearth.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Althæa",
+      "normalizedId": "althaea",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+          "sourceText": "Œneus and Althæa, King and Queen of Calydon, in Ætolia, were very happy in the possession of a little son, Meleager, only a few days old, until they heard that the Fates had decreed the child should live only as long as the brand then smoking and crackling on the hearth.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Œneus",
+      "normalizedId": "oeneus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+          "sourceText": "Œneus and Althæa, King and Queen of Calydon, in Ætolia, were very happy in the possession of a little son, Meleager, only a few days old, until they heard that the Fates had decreed the child should live only as long as the brand then smoking and crackling on the hearth.",
+          "coreferenceNote": "Unicode source form is preserved; normalized ID uses ASCII transliteration."
+        }
+      ]
+    },
+    {
+      "sourceName": "Diana",
+      "normalizedId": "artemis",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.3-400.400.3:26c875d3",
+          "sourceText": "While he was absent, his father omitted the yearly sacrifice to Diana, who, enraged at his neglect, sent a monstrous boar to devour his subjects and devastate his realm.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Atalanta",
+      "normalizedId": "atalanta",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.5-400.400.5:0f1f6abd",
+          "sourceText": "Jason, Nestor, Peleus, Admetus, Theseus, Pirithous, and many other noted heroes, came at his call; but the attention of all the spectators was specially attracted by Castor and Pollux, and by the fair Atalanta, daughter of Iasius, King of Arcadia.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Jason",
+      "normalizedId": "jason",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.5-400.400.5:0f1f6abd",
+          "sourceText": "Jason, Nestor, Peleus, Admetus, Theseus, Pirithous, and many other noted heroes, came at his call; but the attention of all the spectators was specially attracted by Castor and Pollux, and by the fair Atalanta, daughter of Iasius, King of Arcadia.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Nestor",
+      "normalizedId": "nestor",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.5-400.400.5:0f1f6abd",
+          "sourceText": "Jason, Nestor, Peleus, Admetus, Theseus, Pirithous, and many other noted heroes, came at his call; but the attention of all the spectators was specially attracted by Castor and Pollux, and by the fair Atalanta, daughter of Iasius, King of Arcadia.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Peleus",
+      "normalizedId": "peleus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.5-400.400.5:0f1f6abd",
+          "sourceText": "Jason, Nestor, Peleus, Admetus, Theseus, Pirithous, and many other noted heroes, came at his call; but the attention of all the spectators was specially attracted by Castor and Pollux, and by the fair Atalanta, daughter of Iasius, King of Arcadia.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Theseus",
+      "normalizedId": "theseus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.5-400.400.5:0f1f6abd",
+          "sourceText": "Jason, Nestor, Peleus, Admetus, Theseus, Pirithous, and many other noted heroes, came at his call; but the attention of all the spectators was specially attracted by Castor and Pollux, and by the fair Atalanta, daughter of Iasius, King of Arcadia.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "meleager",
+      "sourceNames": [
+        "Meleager"
+      ],
+      "role": "hunter",
+      "reason": "Meleager leads the hunt, gives the spoil to Atalanta, kills his uncles, and dies when the brand burns.",
+      "evidence": [
+        "gutenberg:ebooks:39250:400.400.3-400.400.3:26c875d3",
+        "gutenberg:ebooks:39250:400.400.6-400.400.6:ed0b2b19",
+        "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
+      ]
+    },
+    {
+      "entityId": "atalanta",
+      "sourceNames": [
+        "Atalanta"
+      ],
+      "role": "hunter",
+      "reason": "Atalanta mortally wounds the boar and receives its spoil.",
+      "evidence": [
+        "gutenberg:ebooks:39250:400.400.6-400.400.6:ed0b2b19",
+        "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
+      ]
+    },
+    {
+      "entityId": "althaea",
+      "sourceNames": [
+        "Althaea"
+      ],
+      "role": "mother and avenger",
+      "reason": "She saves Meleager as an infant and later burns the brand after he kills her brothers.",
+      "evidence": [
+        "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+        "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "oeneus",
+      "relationship": "parent_of",
+      "target": "meleager",
+      "sourceText": "Œneus and Althæa, King and Queen of Calydon, in Ætolia, were very happy in the possession of a little son, Meleager, only a few days old, until they heard that the Fates had decreed the child should live only as long as the brand then smoking and crackling on the hearth.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+        "sourceText": "Œneus and Althæa, King and Queen of Calydon, in Ætolia, were very happy in the possession of a little son, Meleager, only a few days old, until they heard that the Fates had decreed the child should live only as long as the brand then smoking and crackling on the hearth."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "althaea",
+      "relationship": "parent_of",
+      "target": "meleager",
+      "sourceText": "Œneus and Althæa, King and Queen of Calydon, in Ætolia, were very happy in the possession of a little son, Meleager, only a few days old, until they heard that the Fates had decreed the child should live only as long as the brand then smoking and crackling on the hearth.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+        "sourceText": "Œneus and Althæa, King and Queen of Calydon, in Ætolia, were very happy in the possession of a little son, Meleager, only a few days old, until they heard that the Fates had decreed the child should live only as long as the brand then smoking and crackling on the hearth."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "The Fates tie Meleager's life to a burning brand, which Althaea saves. Diana later sends a boar against Calydon; Meleager leads the hunt, Atalanta wounds the boar, and Meleager kills it, but his killing of his uncles leads Althaea to burn the brand and cause his death.",
+    "openingSituation": "Meleager's life depends on a brand saved by Althaea.",
+    "centralConflict": "Diana sends a monstrous boar to devastate Oeneus' realm.",
+    "resolution": "Atalanta wounds the boar and Meleager delivers the deathblow.",
+    "outcome": "Althaea burns the brand in revenge, Meleager dies, and Althaea kills herself.",
+    "storyline": [
+      "The Fates bind Meleager's life to the brand.",
+      "Diana sends a boar.",
+      "Meleager gathers hunters.",
+      "Atalanta wounds the boar.",
+      "Meleager kills it.",
+      "Althaea burns the brand and Meleager dies."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+      "sourceText": "Œneus and Althæa, King and Queen of Calydon, in Ætolia, were very happy in the possession of a little son, Meleager, only a few days old, until they heard that the Fates had decreed the child should live only as long as the brand then smoking and crackling on the hearth.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:400.400.3-400.400.3:26c875d3",
+      "sourceText": "While he was absent, his father omitted the yearly sacrifice to Diana, who, enraged at his neglect, sent a monstrous boar to devour his subjects and devastate his realm.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:400.400.6-400.400.6:ed0b2b19",
+      "sourceText": "But even in his dying struggles the boar would have killed her, had not Meleager come to her rescue and given him his deathblow.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports resolution.",
+          "field": "resolution"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd",
+      "sourceText": "When the last bit of the precious wood crumbled away into ashes, Meleager died.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "meleager",
+      "predicate": "life_bound_to",
+      "object": "brand",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+          "sourceText": "Œneus and Althæa, King and Queen of Calydon, in Ætolia, were very happy in the possession of a little son, Meleager, only a few days old, until they heard that the Fates had decreed the child should live only as long as the brand then smoking and crackling on the hearth."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "save",
+      "target": null,
+      "object": "brand",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "The parents were motionless with grief, until Althæa, with true mother's wit, snatched the brand from the fire, plunged it into an earthen jar filled with water, quenched the flames which were consuming it, and, carefully laying it aside, announced her intention to keep it forever.",
+      "normalizedStatement": "Althaea saved the brand from the fire.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+          "sourceText": "The parents were motionless with grief, until Althæa, with true mother's wit, snatched the brand from the fire, plunged it into an earthen jar filled with water, quenched the flames which were consuming it, and, carefully laying it aside, announced her intention to keep it forever."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "althaea",
+      "action": "save"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "send",
+      "target": "boar",
+      "object": null,
+      "recipient": null,
+      "location": "calydon",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "While he was absent, his father omitted the yearly sacrifice to Diana, who, enraged at his neglect, sent a monstrous boar to devour his subjects and devastate his realm.",
+      "normalizedStatement": "Diana sent a monstrous boar against Oeneus' realm.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.3-400.400.3:26c875d3",
+          "sourceText": "While he was absent, his father omitted the yearly sacrifice to Diana, who, enraged at his neglect, sent a monstrous boar to devour his subjects and devastate his realm."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "artemis",
+      "action": "send"
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "gather",
+      "target": "jason",
+      "object": null,
+      "recipient": "atalanta",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Meleager, on his return, gathered together all the brave men of the country, and instituted a great hunt, whose main object was the capture or death of the obnoxious boar.",
+      "normalizedStatement": "Meleager gathered hunters for the boar hunt.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.3-400.400.3:26c875d3",
+          "sourceText": "Meleager, on his return, gathered together all the brave men of the country, and instituted a great hunt, whose main object was the capture or death of the obnoxious boar."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "meleager",
+      "action": "gather"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "wound",
+      "target": "boar",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "From one end of the Calydonian forest to the other the boar fled, closely pursued by the hunt, and was at last brought to bay by Atalanta, who succeeded in dealing him a mortal wound.",
+      "normalizedStatement": "Atalanta dealt the boar a mortal wound.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.6-400.400.6:ed0b2b19",
+          "sourceText": "From one end of the Calydonian forest to the other the boar fled, closely pursued by the hunt, and was at last brought to bay by Atalanta, who succeeded in dealing him a mortal wound."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "atalanta",
+      "action": "wound"
+    },
+    {
+      "eventId": "event-005",
+      "sourceAction": "kill",
+      "target": "boar",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "But even in his dying struggles the boar would have killed her, had not Meleager come to her rescue and given him his deathblow.",
+      "normalizedStatement": "Meleager killed the boar.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.6-400.400.6:ed0b2b19",
+          "sourceText": "But even in his dying struggles the boar would have killed her, had not Meleager come to her rescue and given him his deathblow."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "meleager",
+      "action": "kill"
+    },
+    {
+      "eventId": "event-006",
+      "sourceAction": "burn",
+      "target": null,
+      "object": "brand",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "When Althæa saw her brothers' corpses, and heard that they had been slain by her son, she vowed to avenge their death, drew the carefully cherished brand from its hiding place, and threw it upon the fire burning brightly on her hearth.",
+      "normalizedStatement": "Althaea threw the brand into the fire.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd",
+          "sourceText": "When Althæa saw her brothers' corpses, and heard that they had been slain by her son, she vowed to avenge their death, drew the carefully cherished brand from its hiding place, and threw it upon the fire burning brightly on her hearth."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "althaea",
+      "action": "burn"
+    },
+    {
+      "eventId": "event-007",
+      "sourceAction": "die",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "When the last bit of the precious wood crumbled away into ashes, Meleager died.",
+      "normalizedStatement": "Meleager died when the brand burned away.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd",
+          "sourceText": "When the last bit of the precious wood crumbled away into ashes, Meleager died."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "meleager",
+      "action": "die"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "meleager",
+      "predicate": "dies_when",
+      "object": "brand",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd",
+          "sourceText": "When the last bit of the precious wood crumbled away into ashes, Meleager died."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+      "gutenberg:ebooks:39250:400.400.3-400.400.3:26c875d3",
+      "gutenberg:ebooks:39250:400.400.5-400.400.5:0f1f6abd",
+      "gutenberg:ebooks:39250:400.400.6-400.400.6:ed0b2b19",
+      "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
+    ],
+    "claimsChecked": [
+      "birth omen",
+      "Diana's boar",
+      "hunter list",
+      "Atalanta wound",
+      "Meleager deathblow",
+      "Althaea revenge"
+    ],
+    "correctionsMade": [
+      "Removed sidenote-only passages.",
+      "Retained Atalanta as principal source-supported participant.",
+      "Corrected outcome to include Althaea's revenge."
+    ],
+    "remainingUncertainties": []
+  }
+}

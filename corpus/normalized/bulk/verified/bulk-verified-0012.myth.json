@@ -1,0 +1,365 @@
+{
+  "mythId": "bulk-verified-0012",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Hercules is born.",
+      "Juno plots his destruction.",
+      "Serpents attack his cradle.",
+      "Hercules seizes the serpents.",
+      "Hercules strangles them."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "Infant Hercules and the Serpents",
+  "mythFamilyId": "infant-heracles-serpents",
+  "variantId": "gutenberg-guerber-infant-hercules-verified",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c",
+      "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Hercules' parentage and Juno's attempt to destroy him with serpents in infancy.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c",
+      "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
+    ],
+    "omittedPassages": [
+      "gutenberg:ebooks:39250:339.339.1-339.339.1:896736a0",
+      "gutenberg:ebooks:39250:339.339.2-339.339.2:d6f117fb",
+      "gutenberg:ebooks:39250:339.339.4-339.339.4:d96f060e"
+    ],
+    "boundaryRationale": "The prefatory quotation, translator attribution, and sidenote are omitted; the narrative subepisode is complete in the included passages."
+  },
+  "entities": {
+    "characters": [
+      "heracles",
+      "zeus",
+      "alcmene",
+      "hera"
+    ],
+    "locations": [
+      "olympus"
+    ],
+    "objects": [
+      "cradle"
+    ],
+    "creatures": [
+      "serpents"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Hercules",
+      "normalizedId": "heracles",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c",
+          "sourceText": "Foremost among these heroes--generally designated by the title of demigods--is Hercules (Heracles, Alcides), son of Jupiter and Alcmene, a mortal princess.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c",
+          "sourceText": "Foremost among these heroes--generally designated by the title of demigods--is Hercules (Heracles, Alcides), son of Jupiter and Alcmene, a mortal princess.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Alcmene",
+      "normalizedId": "alcmene",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c",
+          "sourceText": "Foremost among these heroes--generally designated by the title of demigods--is Hercules (Heracles, Alcides), son of Jupiter and Alcmene, a mortal princess.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Juno",
+      "normalizedId": "hera",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551",
+          "sourceText": "As soon as the tidings of Hercules' birth reached Olympus, Juno began to plot how to destroy her rival's child.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "heracles",
+      "sourceNames": [
+        "Hercules"
+      ],
+      "role": "infant hero",
+      "reason": "He strangles the serpents in his cradle.",
+      "evidence": [
+        "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
+      ]
+    },
+    {
+      "entityId": "hera",
+      "sourceNames": [
+        "Juno"
+      ],
+      "role": "attacker",
+      "reason": "Juno sends serpents to attack the infant Hercules.",
+      "evidence": [
+        "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "zeus",
+      "relationship": "parent_of",
+      "target": "heracles",
+      "sourceText": "Foremost among these heroes--generally designated by the title of demigods--is Hercules (Heracles, Alcides), son of Jupiter and Alcmene, a mortal princess.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c",
+        "sourceText": "Foremost among these heroes--generally designated by the title of demigods--is Hercules (Heracles, Alcides), son of Jupiter and Alcmene, a mortal princess."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "alcmene",
+      "relationship": "parent_of",
+      "target": "heracles",
+      "sourceText": "Foremost among these heroes--generally designated by the title of demigods--is Hercules (Heracles, Alcides), son of Jupiter and Alcmene, a mortal princess.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c",
+        "sourceText": "Foremost among these heroes--generally designated by the title of demigods--is Hercules (Heracles, Alcides), son of Jupiter and Alcmene, a mortal princess."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Juno plots to destroy the infant Hercules and sends two serpents to attack him in his cradle. Hercules seizes the serpents by the neck and strangles them.",
+    "openingSituation": "Hercules is named as the son of Jupiter and Alcmene.",
+    "centralConflict": "Juno tries to destroy Hercules shortly after his birth.",
+    "resolution": "The infant Hercules catches the serpents by their necks.",
+    "outcome": "Hercules strangles the serpents, showing his future strength.",
+    "storyline": [
+      "Hercules is born.",
+      "Juno plots his destruction.",
+      "Serpents attack his cradle.",
+      "Hercules seizes the serpents.",
+      "Hercules strangles them."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c",
+      "sourceText": "Foremost among these heroes--generally designated by the title of demigods--is Hercules (Heracles, Alcides), son of Jupiter and Alcmene, a mortal princess.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551",
+      "sourceText": "As soon as the tidings of Hercules' birth reached Olympus, Juno began to plot how to destroy her rival's child.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551",
+      "sourceText": "The monsters crept along noiselessly, entered the palace unseen, twined themselves around the cradle, and were about to crush the child to death in their folds, when, to the utter astonishment of the helpless attendants, little Hercules caught them fast by the neck in each tiny hand and strangled them, thus giving the first proof of the marvelous strength which was to make him famous.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "heracles",
+      "predicate": "child_of",
+      "object": "zeus-and-alcmene",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c",
+          "sourceText": "Foremost among these heroes--generally designated by the title of demigods--is Hercules (Heracles, Alcides), son of Jupiter and Alcmene, a mortal princess."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "plot",
+      "target": "heracles",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "As soon as the tidings of Hercules' birth reached Olympus, Juno began to plot how to destroy her rival's child.",
+      "normalizedStatement": "Juno plotted to destroy Hercules.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551",
+          "sourceText": "As soon as the tidings of Hercules' birth reached Olympus, Juno began to plot how to destroy her rival's child."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "hera",
+      "action": "plot"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "send",
+      "target": "serpents",
+      "object": null,
+      "recipient": "heracles",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Two colossal serpents with poisonous fangs were therefore dispatched by her orders to attack the babe in its cradle.",
+      "normalizedStatement": "Juno sent two serpents to attack Hercules.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551",
+          "sourceText": "Two colossal serpents with poisonous fangs were therefore dispatched by her orders to attack the babe in its cradle."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "hera",
+      "action": "send"
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "enter",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "The monsters crept along noiselessly, entered the palace unseen, twined themselves around the cradle, and were about to crush the child to death in their folds, when, to the utter astonishment of the helpless attendants, little Hercules caught them fast by the neck in each tiny hand and strangled them, thus giving the first proof of the marvelous strength which was to make him famous.",
+      "normalizedStatement": "The serpents entered the palace unseen.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551",
+          "sourceText": "The monsters crept along noiselessly, entered the palace unseen, twined themselves around the cradle, and were about to crush the child to death in their folds, when, to the utter astonishment of the helpless attendants, little Hercules caught them fast by the neck in each tiny hand and strangled them, thus giving the first proof of the marvelous strength which was to make him famous."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "serpents",
+      "action": "enter"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "kill",
+      "target": "serpents",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "The monsters crept along noiselessly, entered the palace unseen, twined themselves around the cradle, and were about to crush the child to death in their folds, when, to the utter astonishment of the helpless attendants, little Hercules caught them fast by the neck in each tiny hand and strangled them, thus giving the first proof of the marvelous strength which was to make him famous.",
+      "normalizedStatement": "Hercules strangled the serpents.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551",
+          "sourceText": "The monsters crept along noiselessly, entered the palace unseen, twined themselves around the cradle, and were about to crush the child to death in their folds, when, to the utter astonishment of the helpless attendants, little Hercules caught them fast by the neck in each tiny hand and strangled them, thus giving the first proof of the marvelous strength which was to make him famous."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "heracles",
+      "action": "kill"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "heracles",
+      "predicate": "shows_strength_by",
+      "object": "serpents",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551",
+          "sourceText": "The monsters crept along noiselessly, entered the palace unseen, twined themselves around the cradle, and were about to crush the child to death in their folds, when, to the utter astonishment of the helpless attendants, little Hercules caught them fast by the neck in each tiny hand and strangled them, thus giving the first proof of the marvelous strength which was to make him famous."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c",
+      "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
+    ],
+    "claimsChecked": [
+      "parentage sentence",
+      "Juno's plot",
+      "serpents' attack",
+      "infant Hercules' action",
+      "subepisode boundary"
+    ],
+    "correctionsMade": [
+      "Corrected title from broad HERCULES.",
+      "Excluded quotation and sidenote passages.",
+      "Normalized Roman source names to Greek canonical IDs."
+    ],
+    "remainingUncertainties": []
+  }
+}

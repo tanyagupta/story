@@ -1,0 +1,410 @@
+{
+  "mythId": "bulk-verified-0010",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Jupiter casts Vulcan from heaven.",
+      "Vulcan refuses Olympus.",
+      "Vulcan traps Juno in a golden throne.",
+      "Mercury fails to bring Vulcan back.",
+      "Bacchus lures Vulcan with wine.",
+      "Vulcan is led to Olympus."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "Bacchus Lures Vulcan to Olympus",
+  "mythFamilyId": "hephaestus-and-hera-throne",
+  "variantId": "gutenberg-baker-vulcan-throne-verified",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+      "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Vulcan's resentment of Juno, the golden throne trap, and Bacchus luring Vulcan back to Olympus.",
+    "includedPassages": [
+      "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+      "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The final sentence is truncated after Vulcan reaches Olympus, so the verified outcome stops at the last complete source sentence."
+  },
+  "entities": {
+    "characters": [
+      "hephaestus",
+      "hera",
+      "zeus",
+      "hermes",
+      "dionysus"
+    ],
+    "locations": [
+      "olympus",
+      "mount-etna"
+    ],
+    "objects": [
+      "golden-throne",
+      "chain",
+      "wine"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Vulcan",
+      "normalizedId": "hephaestus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+          "sourceText": "Vulcan,[34] god of fire and the forge, was not often seen in the halls of Olympus, for he knew that the gods despised him for his ungainly appearance, and he preferred to stay in his own sooty workshop.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Juno",
+      "normalizedId": "hera",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+          "sourceText": "Jupiter was once so angry with Juno for interfering in his love affairs that he fastened her to the end of a strong chain, and hung her out of heaven.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+          "sourceText": "Jupiter was once so angry with Juno for interfering in his love affairs that he fastened her to the end of a strong chain, and hung her out of heaven.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "hermes",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4",
+          "sourceText": "Then Jupiter sent Mercury to the grimy abode of Vulcan to beg politely that the god of fire would honor, with his presence, the feast that was that day to be held in Olympus; but Vulcan was not to be moved by any flattery, for he well knew why he was so much desired at this particular time.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Bacchus",
+      "normalizedId": "dionysus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4",
+          "sourceText": "This time he sent Bacchus, god of wine; and when the scowling deity of Etna saw Bacchus's jolly red face and heard his hearty laugh, he welcomed the jovial visitor and drank freely of the wine that Bacchus poured.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "hephaestus",
+      "sourceNames": [
+        "Vulcan"
+      ],
+      "role": "estranged craftsman",
+      "reason": "He traps Juno in a golden throne and refuses Mercury's invitation.",
+      "evidence": [
+        "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+      ]
+    },
+    {
+      "entityId": "hera",
+      "sourceNames": [
+        "Juno"
+      ],
+      "role": "trapped mother",
+      "reason": "She is caught in the throne sent by Vulcan.",
+      "evidence": [
+        "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+      ]
+    },
+    {
+      "entityId": "dionysus",
+      "sourceNames": [
+        "Bacchus"
+      ],
+      "role": "luring visitor",
+      "reason": "Jupiter sends Bacchus, who makes Vulcan drink and leads him to Olympus.",
+      "evidence": [
+        "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "hera",
+      "relationship": "parent_of",
+      "target": "hephaestus",
+      "sourceText": "He had also no desire for the society of his divine parents, since his mother had never shown anything but indifference toward him, and his father had been the cause of his deformity.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+        "sourceText": "He had also no desire for the society of his divine parents, since his mother had never shown anything but indifference toward him, and his father had been the cause of his deformity."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "zeus",
+      "relationship": "parent_of",
+      "target": "hephaestus",
+      "sourceText": "Full of wrath at this defiance of his wishes, Jupiter kicked his son out of heaven; and as the distance of the fall was so great, it was a whole day and night before Vulcan reached the earth.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+        "sourceText": "Full of wrath at this defiance of his wishes, Jupiter kicked his son out of heaven; and as the distance of the fall was so great, it was a whole day and night before Vulcan reached the earth."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "After Jupiter casts Vulcan from heaven and Juno shows indifference, Vulcan sends her a golden throne that traps her. Mercury cannot persuade him to return, but Bacchus wins him over with wine and leads him to Olympus.",
+    "openingSituation": "Vulcan avoids Olympus because he resents his parents' treatment of him.",
+    "centralConflict": "Vulcan traps Juno in a golden throne as revenge.",
+    "resolution": "Jupiter sends Bacchus, who makes Vulcan drink wine.",
+    "outcome": "Vulcan allows himself to be led to Olympus.",
+    "storyline": [
+      "Jupiter casts Vulcan from heaven.",
+      "Vulcan refuses Olympus.",
+      "Vulcan traps Juno in a golden throne.",
+      "Mercury fails to bring Vulcan back.",
+      "Bacchus lures Vulcan with wine.",
+      "Vulcan is led to Olympus."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+      "sourceText": "Full of wrath at this defiance of his wishes, Jupiter kicked his son out of heaven; and as the distance of the fall was so great, it was a whole day and night before Vulcan reached the earth.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4",
+      "sourceText": "Now Vulcan had contrived to hide some springs in the interior of the throne, and these were so skillfully arranged that the moment a person was seated, the entire structure quickly contracted and held the occupant prisoner.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4",
+      "sourceText": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought, until the sullen master of the forge was unable to tell what was happening, and allowed himself to be led unresistingly to Olympus.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hephaestus",
+      "predicate": "estranged_from",
+      "object": "olympus",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+          "sourceText": "When he learned that Juno was so unconcerned over his fate that she had never even inquired whether he was badly hurt, he would not go back to Olympus, but shut himself up in the heart of Mount Etna, where he established a mighty forge that poured out fire and smoke for many years after."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "banish",
+      "target": "hephaestus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Full of wrath at this defiance of his wishes, Jupiter kicked his son out of heaven; and as the distance of the fall was so great, it was a whole day and night before Vulcan reached the earth.",
+      "normalizedStatement": "Jupiter kicked Vulcan out of heaven.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+          "sourceText": "Full of wrath at this defiance of his wishes, Jupiter kicked his son out of heaven; and as the distance of the fall was so great, it was a whole day and night before Vulcan reached the earth."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "zeus",
+      "action": "banish"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "send",
+      "target": null,
+      "object": "golden-throne",
+      "recipient": "hera",
+      "location": "olympus",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Vulcan did not forget about his mother's heartless indifference; but none of the gods suspected him of harboring any revenge, until one day a beautiful golden throne arrived in Olympus as a present to Juno from her son.",
+      "normalizedStatement": "Vulcan sent a golden throne to Juno.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4",
+          "sourceText": "Vulcan did not forget about his mother's heartless indifference; but none of the gods suspected him of harboring any revenge, until one day a beautiful golden throne arrived in Olympus as a present to Juno from her son."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "hephaestus",
+      "action": "send"
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "capture",
+      "target": "hera",
+      "object": "golden-throne",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Now Vulcan had contrived to hide some springs in the interior of the throne, and these were so skillfully arranged that the moment a person was seated, the entire structure quickly contracted and held the occupant prisoner.",
+      "normalizedStatement": "The golden throne held Juno prisoner.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4",
+          "sourceText": "Now Vulcan had contrived to hide some springs in the interior of the throne, and these were so skillfully arranged that the moment a person was seated, the entire structure quickly contracted and held the occupant prisoner."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "hephaestus",
+      "action": "capture"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "send",
+      "target": "dionysus",
+      "object": null,
+      "recipient": "hephaestus",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "This time he sent Bacchus, god of wine; and when the scowling deity of Etna saw Bacchus's jolly red face and heard his hearty laugh, he welcomed the jovial visitor and drank freely of the wine that Bacchus poured.",
+      "normalizedStatement": "Jupiter sent Bacchus to Vulcan.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4",
+          "sourceText": "This time he sent Bacchus, god of wine; and when the scowling deity of Etna saw Bacchus's jolly red face and heard his hearty laugh, he welcomed the jovial visitor and drank freely of the wine that Bacchus poured."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "zeus",
+      "action": "send"
+    },
+    {
+      "eventId": "event-005",
+      "sourceAction": "lead",
+      "target": "hephaestus",
+      "object": null,
+      "recipient": null,
+      "location": "olympus",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought, until the sullen master of the forge was unable to tell what was happening, and allowed himself to be led unresistingly to Olympus.",
+      "normalizedStatement": "Bacchus led Vulcan to Olympus.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4",
+          "sourceText": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought, until the sullen master of the forge was unable to tell what was happening, and allowed himself to be led unresistingly to Olympus."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "dionysus",
+      "action": "lead"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hephaestus",
+      "predicate": "led_to",
+      "object": "olympus",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4",
+          "sourceText": "The roisterous god of revels, who dearly loved to see good wine flowing, beguiled Vulcan into taking draught after draught of the choice vintage that he had purposely brought, until the sullen master of the forge was unable to tell what was happening, and allowed himself to be led unresistingly to Olympus."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+      "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+    ],
+    "claimsChecked": [
+      "Vulcan's grievance",
+      "golden throne trap",
+      "Mercury failure",
+      "Bacchus wine stratagem",
+      "last complete outcome sentence"
+    ],
+    "correctionsMade": [
+      "Corrected myth family from dionysus-and-pirates.",
+      "Stopped before the truncated final sentence.",
+      "Mapped Roman names to Greek canonical IDs without claiming Roman identity collapse."
+    ],
+    "remainingUncertainties": []
+  }
+}
