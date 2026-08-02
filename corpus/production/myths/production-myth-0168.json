@@ -1,0 +1,225 @@
+{
+  "id": "production-myth-0168",
+  "title": "Narcissus and Echo",
+  "mythFamily": "Transformations",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
+    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Narcissus and Echo begins with Narcissus in a focused Transformations situation rather than a full-cycle summary. The episode closes once Narcissus's decisive action changes the condition of Echo and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Common production version chosen for coherence and recognizability.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Narcissus and Echo, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Narcissus and Echo begins with Narcissus in a focused Transformations situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Narcissus and Echo.",
+    "resolution": "The episode closes once Narcissus's decisive action changes the condition of Echo and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Narcissus and Echo, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Narcissus and Echo begins with Narcissus in a focused Transformations situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Narcissus and Echo."
+      },
+      {
+        "beat": "turn",
+        "text": "Narcissus takes the decisive confront action that defines Narcissus and Echo."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Narcissus and Echo, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "narcissus",
+      "name": "Narcissus",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "echo",
+      "name": "Echo",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "mortal",
+      "name": "Mortal",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "supportingCharacters": [
+    {
+      "id": "god",
+      "name": "God",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    },
+    {
+      "id": "witnesses",
+      "name": "Witnesses",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "entityMappings": [
+    {
+      "sourceName": "Narcissus",
+      "normalizedId": "narcissus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Echo",
+      "normalizedId": "echo",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Mortal",
+      "normalizedId": "mortal",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "God",
+      "normalizedId": "god",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Witnesses",
+      "normalizedId": "witnesses",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "narcissus",
+      "relationship": "central_to",
+      "target": "echo",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Narcissus and Echo define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0168-event-01",
+      "actor": "narcissus",
+      "action": "establish",
+      "target": "echo",
+      "object": null,
+      "recipient": null,
+      "location": "transformations-setting",
+      "normalizedStatement": "Narcissus and Echo begins with Narcissus in a focused Transformations situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0168-event-02",
+      "actor": "echo",
+      "action": "challenge",
+      "target": "narcissus",
+      "object": null,
+      "recipient": null,
+      "location": "transformations-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Narcissus and Echo.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0168-event-03",
+      "actor": "narcissus",
+      "action": "confront",
+      "target": "mortal",
+      "object": null,
+      "recipient": null,
+      "location": "transformations-setting",
+      "normalizedStatement": "Narcissus performs the decisive action associated with Narcissus and Echo.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0168-event-04",
+      "actor": "narcissus",
+      "action": "resolve",
+      "target": "echo",
+      "object": null,
+      "recipient": null,
+      "location": "transformations-setting",
+      "normalizedStatement": "The episode closes once Narcissus's decisive action changes the condition of Echo and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "transformations-setting",
+      "name": "Transformations setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "transformations",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Narcissus and Echo begins with Narcissus in a focused Transformations situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Narcissus and Echo.",
+      "The episode closes once Narcissus's decisive action changes the condition of Echo and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Narcissus and Echo.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

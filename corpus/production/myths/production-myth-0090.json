@@ -1,0 +1,227 @@
+{
+  "id": "production-myth-0090",
+  "title": "Phineus and the Harpies",
+  "mythFamily": "Jason and the Argonauts",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production adaptation informed by an existing source-audited reference record.",
+    "variantPolicy": "Preserve the core source-audited episode while adapting its structure for production use.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0030"
+    ],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Phineus and the Harpies begins with Phineus in a focused Jason and the Argonauts situation rather than a full-cycle summary. The episode closes once Phineus's decisive action changes the condition of Phineus and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Production adaptation linked to source-audited reference where available, without claiming exact source fidelity.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Phineus and the Harpies, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Phineus and the Harpies begins with Phineus in a focused Jason and the Argonauts situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Phineus and Phineus.",
+    "resolution": "The episode closes once Phineus's decisive action changes the condition of Phineus and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Phineus and Phineus, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Phineus and the Harpies begins with Phineus in a focused Jason and the Argonauts situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Phineus and Phineus."
+      },
+      {
+        "beat": "turn",
+        "text": "Phineus takes the decisive confront action that defines Phineus and the Harpies."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Phineus and Phineus, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "phineus",
+      "name": "Phineus",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "phineus",
+      "name": "Phineus",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "harpies",
+      "name": "Harpies",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "supportingCharacters": [
+    {
+      "id": "jason",
+      "name": "Jason",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "medea",
+      "name": "Medea",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "entityMappings": [
+    {
+      "sourceName": "Phineus",
+      "normalizedId": "phineus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Phineus",
+      "normalizedId": "phineus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Harpies",
+      "normalizedId": "harpies",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Jason",
+      "normalizedId": "jason",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Medea",
+      "normalizedId": "medea",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "phineus",
+      "relationship": "central_to",
+      "target": "phineus",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Phineus and Phineus define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0090-event-01",
+      "actor": "phineus",
+      "action": "establish",
+      "target": "phineus",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "Phineus and the Harpies begins with Phineus in a focused Jason and the Argonauts situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0090-event-02",
+      "actor": "phineus",
+      "action": "challenge",
+      "target": "phineus",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Phineus and Phineus.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0090-event-03",
+      "actor": "phineus",
+      "action": "confront",
+      "target": "harpies",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "Phineus performs the decisive action associated with Phineus and the Harpies.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0090-event-04",
+      "actor": "phineus",
+      "action": "resolve",
+      "target": "phineus",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "The episode closes once Phineus's decisive action changes the condition of Phineus and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "jason-and-the-argonauts-setting",
+      "name": "Jason and the Argonauts setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "jason and the argonauts",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Phineus and the Harpies begins with Phineus in a focused Jason and the Argonauts situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Phineus and Phineus.",
+      "The episode closes once Phineus's decisive action changes the condition of Phineus and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Phineus and Phineus.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

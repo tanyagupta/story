@@ -1,0 +1,204 @@
+{
+  "id": "production-myth-0043",
+  "title": "Danae and Perseus Cast Adrift",
+  "mythFamily": "Perseus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production adaptation informed by an existing source-audited reference record.",
+    "variantPolicy": "Preserve the core source-audited episode while adapting its structure for production use.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0019"
+    ],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Danae and Perseus Cast Adrift begins with Danae in a focused Perseus situation rather than a full-cycle summary. The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Production adaptation linked to source-audited reference where available, without claiming exact source fidelity.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Danae and Perseus Cast Adrift, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Danae and Perseus Cast Adrift begins with Danae in a focused Perseus situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Danae and Perseus.",
+    "resolution": "The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Danae and Perseus, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Danae and Perseus Cast Adrift begins with Danae in a focused Perseus situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Danae and Perseus."
+      },
+      {
+        "beat": "turn",
+        "text": "Danae takes the decisive confront action that defines Danae and Perseus Cast Adrift."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Danae and Perseus, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "danae",
+      "name": "Danae",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "athena",
+      "name": "Athena",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "supportingCharacters": [],
+  "entityMappings": [
+    {
+      "sourceName": "Danae",
+      "normalizedId": "danae",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Perseus",
+      "normalizedId": "perseus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Athena",
+      "normalizedId": "athena",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "danae",
+      "relationship": "central_to",
+      "target": "perseus",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Danae and Perseus define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0043-event-01",
+      "actor": "danae",
+      "action": "establish",
+      "target": "perseus",
+      "object": null,
+      "recipient": null,
+      "location": "perseus-setting",
+      "normalizedStatement": "Danae and Perseus Cast Adrift begins with Danae in a focused Perseus situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0043-event-02",
+      "actor": "perseus",
+      "action": "challenge",
+      "target": "danae",
+      "object": null,
+      "recipient": null,
+      "location": "perseus-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Danae and Perseus.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0043-event-03",
+      "actor": "danae",
+      "action": "confront",
+      "target": "athena",
+      "object": null,
+      "recipient": null,
+      "location": "perseus-setting",
+      "normalizedStatement": "Danae performs the decisive action associated with Danae and Perseus Cast Adrift.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0043-event-04",
+      "actor": "danae",
+      "action": "resolve",
+      "target": "perseus",
+      "object": null,
+      "recipient": null,
+      "location": "perseus-setting",
+      "normalizedStatement": "The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "perseus-setting",
+      "name": "Perseus setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "perseus",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Danae and Perseus Cast Adrift begins with Danae in a focused Perseus situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Danae and Perseus.",
+      "The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Danae and Perseus.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

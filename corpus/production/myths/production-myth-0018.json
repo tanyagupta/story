@@ -1,0 +1,214 @@
+{
+  "id": "production-myth-0018",
+  "title": "Artemis Protects Her Mother",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
+    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Artemis Protects Her Mother begins with Artemis in a focused Olympian Gods situation rather than a full-cycle summary. The episode closes once Artemis's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Common production version chosen for coherence and recognizability.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Artemis Protects Her Mother, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Artemis Protects Her Mother begins with Artemis in a focused Olympian Gods situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Artemis and Zeus.",
+    "resolution": "The episode closes once Artemis's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Artemis and Zeus, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Artemis Protects Her Mother begins with Artemis in a focused Olympian Gods situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Artemis and Zeus."
+      },
+      {
+        "beat": "turn",
+        "text": "Artemis takes the decisive confront action that defines Artemis Protects Her Mother."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Artemis and Zeus, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "artemis",
+      "name": "Artemis",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "olympians",
+      "name": "Olympians",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "supportingCharacters": [
+    {
+      "id": "mortals",
+      "name": "Mortals",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "entityMappings": [
+    {
+      "sourceName": "Artemis",
+      "normalizedId": "artemis",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Olympians",
+      "normalizedId": "olympians",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Mortals",
+      "normalizedId": "mortals",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "artemis",
+      "relationship": "central_to",
+      "target": "zeus",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Artemis and Zeus define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0018-event-01",
+      "actor": "artemis",
+      "action": "establish",
+      "target": "zeus",
+      "object": null,
+      "recipient": null,
+      "location": "olympian-gods-setting",
+      "normalizedStatement": "Artemis Protects Her Mother begins with Artemis in a focused Olympian Gods situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0018-event-02",
+      "actor": "zeus",
+      "action": "challenge",
+      "target": "artemis",
+      "object": null,
+      "recipient": null,
+      "location": "olympian-gods-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Artemis and Zeus.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0018-event-03",
+      "actor": "artemis",
+      "action": "confront",
+      "target": "olympians",
+      "object": null,
+      "recipient": null,
+      "location": "olympian-gods-setting",
+      "normalizedStatement": "Artemis performs the decisive action associated with Artemis Protects Her Mother.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0018-event-04",
+      "actor": "artemis",
+      "action": "resolve",
+      "target": "zeus",
+      "object": null,
+      "recipient": null,
+      "location": "olympian-gods-setting",
+      "normalizedStatement": "The episode closes once Artemis's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "olympian-gods-setting",
+      "name": "Olympian Gods setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "olympian gods",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Artemis Protects Her Mother begins with Artemis in a focused Olympian Gods situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Artemis and Zeus.",
+      "The episode closes once Artemis's decisive action changes the condition of Zeus and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Artemis and Zeus.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

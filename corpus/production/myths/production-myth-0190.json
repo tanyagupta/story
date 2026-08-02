@@ -1,0 +1,214 @@
+{
+  "id": "production-myth-0190",
+  "title": "Hero and Leander",
+  "mythFamily": "Other Tragic and Heroic Myths",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
+    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Hero and Leander begins with Hero in a focused Other Tragic and Heroic Myths situation rather than a full-cycle summary. The episode closes once Hero's decisive action changes the condition of Leander and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Common production version chosen for coherence and recognizability.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Hero and Leander, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Hero and Leander begins with Hero in a focused Other Tragic and Heroic Myths situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Hero and Leander.",
+    "resolution": "The episode closes once Hero's decisive action changes the condition of Leander and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Hero and Leander, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Hero and Leander begins with Hero in a focused Other Tragic and Heroic Myths situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Hero and Leander."
+      },
+      {
+        "beat": "turn",
+        "text": "Hero takes the decisive confront action that defines Hero and Leander."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Hero and Leander, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "leander",
+      "name": "Leander",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "divine-power",
+      "name": "Divine Power",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "supportingCharacters": [
+    {
+      "id": "family",
+      "name": "Family",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "entityMappings": [
+    {
+      "sourceName": "Hero",
+      "normalizedId": "hero",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Leander",
+      "normalizedId": "leander",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Divine Power",
+      "normalizedId": "divine-power",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Family",
+      "normalizedId": "family",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "hero",
+      "relationship": "central_to",
+      "target": "leander",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Hero and Leander define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0190-event-01",
+      "actor": "hero",
+      "action": "establish",
+      "target": "leander",
+      "object": null,
+      "recipient": null,
+      "location": "other-tragic-and-heroic-myths-setting",
+      "normalizedStatement": "Hero and Leander begins with Hero in a focused Other Tragic and Heroic Myths situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0190-event-02",
+      "actor": "leander",
+      "action": "challenge",
+      "target": "hero",
+      "object": null,
+      "recipient": null,
+      "location": "other-tragic-and-heroic-myths-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Hero and Leander.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0190-event-03",
+      "actor": "hero",
+      "action": "confront",
+      "target": "divine-power",
+      "object": null,
+      "recipient": null,
+      "location": "other-tragic-and-heroic-myths-setting",
+      "normalizedStatement": "Hero performs the decisive action associated with Hero and Leander.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0190-event-04",
+      "actor": "hero",
+      "action": "resolve",
+      "target": "leander",
+      "object": null,
+      "recipient": null,
+      "location": "other-tragic-and-heroic-myths-setting",
+      "normalizedStatement": "The episode closes once Hero's decisive action changes the condition of Leander and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "other-tragic-and-heroic-myths-setting",
+      "name": "Other Tragic and Heroic Myths setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "other tragic and heroic myths",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Hero and Leander begins with Hero in a focused Other Tragic and Heroic Myths situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Hero and Leander.",
+      "The episode closes once Hero's decisive action changes the condition of Leander and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Hero and Leander.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "id": "production-myth-0002",
+  "title": "Gaia Bears Uranus",
+  "mythFamily": "Primordial and Creation",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
+    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Gaia Bears Uranus begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary. The episode closes once Gaia's decisive action changes the condition of Uranus and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Common production version chosen for coherence and recognizability.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Gaia Bears Uranus, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Gaia Bears Uranus begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Gaia and Uranus.",
+    "resolution": "The episode closes once Gaia's decisive action changes the condition of Uranus and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Gaia and Uranus, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Gaia Bears Uranus begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Gaia and Uranus."
+      },
+      {
+        "beat": "turn",
+        "text": "Gaia takes the decisive confront action that defines Gaia Bears Uranus."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Gaia and Uranus, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "gaia",
+      "name": "Gaia",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "supportingCharacters": [
+    {
+      "id": "titans",
+      "name": "Titans",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "entityMappings": [
+    {
+      "sourceName": "Gaia",
+      "normalizedId": "gaia",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Uranus",
+      "normalizedId": "uranus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Titans",
+      "normalizedId": "titans",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "gaia",
+      "relationship": "central_to",
+      "target": "uranus",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Gaia and Uranus define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0002-event-01",
+      "actor": "gaia",
+      "action": "establish",
+      "target": "uranus",
+      "object": null,
+      "recipient": null,
+      "location": "primordial-and-creation-setting",
+      "normalizedStatement": "Gaia Bears Uranus begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0002-event-02",
+      "actor": "uranus",
+      "action": "challenge",
+      "target": "gaia",
+      "object": null,
+      "recipient": null,
+      "location": "primordial-and-creation-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Gaia and Uranus.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0002-event-03",
+      "actor": "gaia",
+      "action": "confront",
+      "target": "zeus",
+      "object": null,
+      "recipient": null,
+      "location": "primordial-and-creation-setting",
+      "normalizedStatement": "Gaia performs the decisive action associated with Gaia Bears Uranus.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0002-event-04",
+      "actor": "gaia",
+      "action": "resolve",
+      "target": "uranus",
+      "object": null,
+      "recipient": null,
+      "location": "primordial-and-creation-setting",
+      "normalizedStatement": "The episode closes once Gaia's decisive action changes the condition of Uranus and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "primordial-and-creation-setting",
+      "name": "Primordial and Creation setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "primordial and creation",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Gaia Bears Uranus begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Gaia and Uranus.",
+      "The episode closes once Gaia's decisive action changes the condition of Uranus and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Gaia and Uranus.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

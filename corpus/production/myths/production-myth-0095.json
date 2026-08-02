@@ -1,0 +1,204 @@
+{
+  "id": "production-myth-0095",
+  "title": "Medea Charms the Dragon",
+  "mythFamily": "Jason and the Argonauts",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production adaptation informed by an existing source-audited reference record.",
+    "variantPolicy": "Preserve the core source-audited episode while adapting its structure for production use.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0032"
+    ],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Medea Charms the Dragon begins with Medea in a focused Jason and the Argonauts situation rather than a full-cycle summary. The episode closes once Medea's decisive action changes the condition of Jason and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Production adaptation linked to source-audited reference where available, without claiming exact source fidelity.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Medea Charms the Dragon, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Medea Charms the Dragon begins with Medea in a focused Jason and the Argonauts situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Medea and Jason.",
+    "resolution": "The episode closes once Medea's decisive action changes the condition of Jason and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Medea and Jason, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Medea Charms the Dragon begins with Medea in a focused Jason and the Argonauts situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Medea and Jason."
+      },
+      {
+        "beat": "turn",
+        "text": "Medea takes the decisive confront action that defines Medea Charms the Dragon."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Medea and Jason, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "medea",
+      "name": "Medea",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "jason",
+      "name": "Jason",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "argonauts",
+      "name": "Argonauts",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "supportingCharacters": [],
+  "entityMappings": [
+    {
+      "sourceName": "Medea",
+      "normalizedId": "medea",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Jason",
+      "normalizedId": "jason",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Argonauts",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "medea",
+      "relationship": "central_to",
+      "target": "jason",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Medea and Jason define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0095-event-01",
+      "actor": "medea",
+      "action": "establish",
+      "target": "jason",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "Medea Charms the Dragon begins with Medea in a focused Jason and the Argonauts situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0095-event-02",
+      "actor": "jason",
+      "action": "challenge",
+      "target": "medea",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Medea and Jason.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0095-event-03",
+      "actor": "medea",
+      "action": "confront",
+      "target": "argonauts",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "Medea performs the decisive action associated with Medea Charms the Dragon.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0095-event-04",
+      "actor": "medea",
+      "action": "resolve",
+      "target": "jason",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "The episode closes once Medea's decisive action changes the condition of Jason and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "jason-and-the-argonauts-setting",
+      "name": "Jason and the Argonauts setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "jason and the argonauts",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Medea Charms the Dragon begins with Medea in a focused Jason and the Argonauts situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Medea and Jason.",
+      "The episode closes once Medea's decisive action changes the condition of Jason and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Medea and Jason.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

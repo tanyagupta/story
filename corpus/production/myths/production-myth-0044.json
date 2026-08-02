@@ -1,0 +1,225 @@
+{
+  "id": "production-myth-0044",
+  "title": "Polydectes Demands Medusa's Head",
+  "mythFamily": "Perseus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
+    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Polydectes Demands Medusa's Head begins with Polydectes in a focused Perseus situation rather than a full-cycle summary. The episode closes once Polydectes's decisive action changes the condition of Medusa and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Common production version chosen for coherence and recognizability.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Polydectes Demands Medusa's Head, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Polydectes Demands Medusa's Head begins with Polydectes in a focused Perseus situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Polydectes and Medusa.",
+    "resolution": "The episode closes once Polydectes's decisive action changes the condition of Medusa and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Polydectes and Medusa, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Polydectes Demands Medusa's Head begins with Polydectes in a focused Perseus situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Polydectes and Medusa."
+      },
+      {
+        "beat": "turn",
+        "text": "Polydectes takes the decisive confront action that defines Polydectes Demands Medusa's Head."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Polydectes and Medusa, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "polydectes",
+      "name": "Polydectes",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "medusa",
+      "name": "Medusa",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "supportingCharacters": [
+    {
+      "id": "danae",
+      "name": "Danae",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "athena",
+      "name": "Athena",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "entityMappings": [
+    {
+      "sourceName": "Polydectes",
+      "normalizedId": "polydectes",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Medusa",
+      "normalizedId": "medusa",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Perseus",
+      "normalizedId": "perseus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Danae",
+      "normalizedId": "danae",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Athena",
+      "normalizedId": "athena",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "polydectes",
+      "relationship": "central_to",
+      "target": "medusa",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Polydectes and Medusa define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0044-event-01",
+      "actor": "polydectes",
+      "action": "establish",
+      "target": "medusa",
+      "object": null,
+      "recipient": null,
+      "location": "perseus-setting",
+      "normalizedStatement": "Polydectes Demands Medusa's Head begins with Polydectes in a focused Perseus situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0044-event-02",
+      "actor": "medusa",
+      "action": "challenge",
+      "target": "polydectes",
+      "object": null,
+      "recipient": null,
+      "location": "perseus-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Polydectes and Medusa.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0044-event-03",
+      "actor": "polydectes",
+      "action": "confront",
+      "target": "perseus",
+      "object": null,
+      "recipient": null,
+      "location": "perseus-setting",
+      "normalizedStatement": "Polydectes performs the decisive action associated with Polydectes Demands Medusa's Head.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0044-event-04",
+      "actor": "polydectes",
+      "action": "resolve",
+      "target": "medusa",
+      "object": null,
+      "recipient": null,
+      "location": "perseus-setting",
+      "normalizedStatement": "The episode closes once Polydectes's decisive action changes the condition of Medusa and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "perseus-setting",
+      "name": "Perseus setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "perseus",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Polydectes Demands Medusa's Head begins with Polydectes in a focused Perseus situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Polydectes and Medusa.",
+      "The episode closes once Polydectes's decisive action changes the condition of Medusa and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Polydectes and Medusa.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

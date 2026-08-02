@@ -1,0 +1,202 @@
+{
+  "id": "production-myth-0041",
+  "title": "Triptolemus Receives the Grain",
+  "mythFamily": "Demeter and Persephone",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
+    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Triptolemus Receives the Grain begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary. The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Common production version chosen for coherence and recognizability.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Triptolemus Receives the Grain, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Triptolemus Receives the Grain begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the receive action named by the episode, involving Demeter and Persephone.",
+    "resolution": "The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Demeter and Persephone, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Triptolemus Receives the Grain begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the receive action named by the episode, involving Demeter and Persephone."
+      },
+      {
+        "beat": "turn",
+        "text": "Demeter takes the decisive receive action that defines Triptolemus Receives the Grain."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Demeter and Persephone, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "demeter",
+      "name": "Demeter",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "persephone",
+      "name": "Persephone",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "supportingCharacters": [],
+  "entityMappings": [
+    {
+      "sourceName": "Demeter",
+      "normalizedId": "demeter",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Persephone",
+      "normalizedId": "persephone",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Hades",
+      "normalizedId": "hades",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "demeter",
+      "relationship": "central_to",
+      "target": "persephone",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Demeter and Persephone define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0041-event-01",
+      "actor": "demeter",
+      "action": "establish",
+      "target": "persephone",
+      "object": null,
+      "recipient": null,
+      "location": "demeter-and-persephone-setting",
+      "normalizedStatement": "Triptolemus Receives the Grain begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0041-event-02",
+      "actor": "persephone",
+      "action": "challenge",
+      "target": "demeter",
+      "object": null,
+      "recipient": null,
+      "location": "demeter-and-persephone-setting",
+      "normalizedStatement": "The central pressure is the receive action named by the episode, involving Demeter and Persephone.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0041-event-03",
+      "actor": "demeter",
+      "action": "receive",
+      "target": "hades",
+      "object": null,
+      "recipient": null,
+      "location": "demeter-and-persephone-setting",
+      "normalizedStatement": "Demeter performs the decisive action associated with Triptolemus Receives the Grain.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0041-event-04",
+      "actor": "demeter",
+      "action": "resolve",
+      "target": "persephone",
+      "object": null,
+      "recipient": null,
+      "location": "demeter-and-persephone-setting",
+      "normalizedStatement": "The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "demeter-and-persephone-setting",
+      "name": "Demeter and Persephone setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "demeter and persephone",
+    "receive"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Triptolemus Receives the Grain begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary.",
+      "The central pressure is the receive action named by the episode, involving Demeter and Persephone.",
+      "The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Demeter and Persephone.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

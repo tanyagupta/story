@@ -1,0 +1,225 @@
+{
+  "id": "production-myth-0114",
+  "title": "Atreus and Thyestes Contest the Throne",
+  "mythFamily": "House of Atreus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
+    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Atreus and Thyestes Contest the Throne begins with Atreus in a focused House of Atreus situation rather than a full-cycle summary. The episode closes once Atreus's decisive action changes the condition of Thyestes and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Common production version chosen for coherence and recognizability.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Atreus and Thyestes Contest the Throne, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Atreus and Thyestes Contest the Throne begins with Atreus in a focused House of Atreus situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Atreus and Thyestes.",
+    "resolution": "The episode closes once Atreus's decisive action changes the condition of Thyestes and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Atreus and Thyestes, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Atreus and Thyestes Contest the Throne begins with Atreus in a focused House of Atreus situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Atreus and Thyestes."
+      },
+      {
+        "beat": "turn",
+        "text": "Atreus takes the decisive confront action that defines Atreus and Thyestes Contest the Throne."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Atreus and Thyestes, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "atreus",
+      "name": "Atreus",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "thyestes",
+      "name": "Thyestes",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "agamemnon",
+      "name": "Agamemnon",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "supportingCharacters": [
+    {
+      "id": "clytemnestra",
+      "name": "Clytemnestra",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "orestes",
+      "name": "Orestes",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "entityMappings": [
+    {
+      "sourceName": "Atreus",
+      "normalizedId": "atreus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Thyestes",
+      "normalizedId": "thyestes",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Agamemnon",
+      "normalizedId": "agamemnon",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Clytemnestra",
+      "normalizedId": "clytemnestra",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Orestes",
+      "normalizedId": "orestes",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "atreus",
+      "relationship": "central_to",
+      "target": "thyestes",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Atreus and Thyestes define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0114-event-01",
+      "actor": "atreus",
+      "action": "establish",
+      "target": "thyestes",
+      "object": null,
+      "recipient": null,
+      "location": "house-of-atreus-setting",
+      "normalizedStatement": "Atreus and Thyestes Contest the Throne begins with Atreus in a focused House of Atreus situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0114-event-02",
+      "actor": "thyestes",
+      "action": "challenge",
+      "target": "atreus",
+      "object": null,
+      "recipient": null,
+      "location": "house-of-atreus-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Atreus and Thyestes.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0114-event-03",
+      "actor": "atreus",
+      "action": "confront",
+      "target": "agamemnon",
+      "object": null,
+      "recipient": null,
+      "location": "house-of-atreus-setting",
+      "normalizedStatement": "Atreus performs the decisive action associated with Atreus and Thyestes Contest the Throne.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0114-event-04",
+      "actor": "atreus",
+      "action": "resolve",
+      "target": "thyestes",
+      "object": null,
+      "recipient": null,
+      "location": "house-of-atreus-setting",
+      "normalizedStatement": "The episode closes once Atreus's decisive action changes the condition of Thyestes and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "house-of-atreus-setting",
+      "name": "House of Atreus setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "house of atreus",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Atreus and Thyestes Contest the Throne begins with Atreus in a focused House of Atreus situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Atreus and Thyestes.",
+      "The episode closes once Atreus's decisive action changes the condition of Thyestes and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Atreus and Thyestes.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

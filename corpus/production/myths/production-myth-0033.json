@@ -1,0 +1,216 @@
+{
+  "id": "production-myth-0033",
+  "title": "Pandora Opens the Jar",
+  "mythFamily": "Prometheus and Early Mortals",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production adaptation informed by an existing source-audited reference record.",
+    "variantPolicy": "Preserve the core source-audited episode while adapting its structure for production use.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0006"
+    ],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Pandora Opens the Jar begins with Pandora in a focused Prometheus and Early Mortals situation rather than a full-cycle summary. The episode closes once Pandora's decisive action changes the condition of Prometheus and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Production adaptation linked to source-audited reference where available, without claiming exact source fidelity.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Pandora Opens the Jar, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Pandora Opens the Jar begins with Pandora in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the open action named by the episode, involving Pandora and Prometheus.",
+    "resolution": "The episode closes once Pandora's decisive action changes the condition of Prometheus and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Pandora and Prometheus, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Pandora Opens the Jar begins with Pandora in a focused Prometheus and Early Mortals situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the open action named by the episode, involving Pandora and Prometheus."
+      },
+      {
+        "beat": "turn",
+        "text": "Pandora takes the decisive open action that defines Pandora Opens the Jar."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Pandora and Prometheus, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "pandora",
+      "name": "Pandora",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "supportingCharacters": [
+    {
+      "id": "humans",
+      "name": "Humans",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "entityMappings": [
+    {
+      "sourceName": "Pandora",
+      "normalizedId": "pandora",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Prometheus",
+      "normalizedId": "prometheus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Humans",
+      "normalizedId": "humans",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "pandora",
+      "relationship": "central_to",
+      "target": "prometheus",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Pandora and Prometheus define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0033-event-01",
+      "actor": "pandora",
+      "action": "establish",
+      "target": "prometheus",
+      "object": null,
+      "recipient": null,
+      "location": "prometheus-and-early-mortals-setting",
+      "normalizedStatement": "Pandora Opens the Jar begins with Pandora in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0033-event-02",
+      "actor": "prometheus",
+      "action": "challenge",
+      "target": "pandora",
+      "object": null,
+      "recipient": null,
+      "location": "prometheus-and-early-mortals-setting",
+      "normalizedStatement": "The central pressure is the open action named by the episode, involving Pandora and Prometheus.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0033-event-03",
+      "actor": "pandora",
+      "action": "open",
+      "target": "zeus",
+      "object": null,
+      "recipient": null,
+      "location": "prometheus-and-early-mortals-setting",
+      "normalizedStatement": "Pandora performs the decisive action associated with Pandora Opens the Jar.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0033-event-04",
+      "actor": "pandora",
+      "action": "resolve",
+      "target": "prometheus",
+      "object": null,
+      "recipient": null,
+      "location": "prometheus-and-early-mortals-setting",
+      "normalizedStatement": "The episode closes once Pandora's decisive action changes the condition of Prometheus and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "prometheus-and-early-mortals-setting",
+      "name": "Prometheus and Early Mortals setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "prometheus and early mortals",
+    "open"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Pandora Opens the Jar begins with Pandora in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
+      "The central pressure is the open action named by the episode, involving Pandora and Prometheus.",
+      "The episode closes once Pandora's decisive action changes the condition of Prometheus and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Pandora and Prometheus.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}
