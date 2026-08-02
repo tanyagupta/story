@@ -1,0 +1,162 @@
+{
+  "id": "production-myth-0046",
+  "title": "Perseus Beheads Medusa",
+  "mythFamily": "Perseus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Source-aligned editorial adaptation of Perseus Beheads Medusa based only on the linked source-audited record; not a source edition.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0004"
+    ]
+  },
+  "scope": {
+    "beginning": "The episode begins when the slaying of Medusa is selected as the heroic deed Perseus will undertake.",
+    "ending": "It ends when Athena guides Perseus to cut off Medusa's head and he places it in his wallet.",
+    "boundaryRationale": "The production unit follows only actions stated in the linked Berens record; the reflective shield, sleeping Gorgons, Pegasus, Chrysaor, and an escape sequence are excluded."
+  },
+  "variant": {
+    "chosenVersion": "Berens' concise Medusa expedition: Hermes and Athena guide Perseus, and Athena guides the beheading.",
+    "materialAlternatives": [
+      "Reflective-shield tactics and births from Medusa's body are not included because they are absent from the linked record."
+    ]
+  },
+  "characters": [
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "role": "hero assigned the Medusa expedition",
+      "goal": "slay Medusa"
+    },
+    {
+      "id": "medusa",
+      "name": "Medusa",
+      "role": "Gorgon selected as the quest target",
+      "goal": "remain the dangerous object of the expedition"
+    },
+    {
+      "id": "athena",
+      "name": "Athena",
+      "role": "goddess guiding Perseus",
+      "goal": "guide the expedition and the beheading"
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes",
+      "role": "divine guide on the journey",
+      "goal": "guide Perseus toward the distant region"
+    },
+    {
+      "id": "polydectes",
+      "name": "Polydectes",
+      "role": "king who promotes the heroic quest",
+      "goal": "send Perseus toward a deed of renown"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "athena",
+      "relationship": "guide-of",
+      "target": "perseus",
+      "rationale": "Athena guides Perseus in the linked source."
+    },
+    {
+      "source": "hermes",
+      "relationship": "guide-of",
+      "target": "perseus",
+      "rationale": "Hermes guides Perseus on the expedition."
+    },
+    {
+      "source": "perseus",
+      "relationship": "enemy-of",
+      "target": "medusa",
+      "rationale": "Perseus cuts off Medusa's head."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Polydectes directs Perseus toward the slaying of Medusa as a deed of renown. Perseus begins the expedition under the guidance of Hermes and Athena; Athena then guides him as he cuts off Medusa's head and places it in his wallet.",
+    "openingSituation": "Perseus is encouraged to distinguish himself through a great heroic deed.",
+    "centralConflict": "The chosen deed is the slaying of the Gorgon Medusa in a far-off region.",
+    "resolution": "Guided by Athena, Perseus cuts off Medusa's head.",
+    "outcome": "Perseus places Medusa's head in his wallet; later uses of the head belong to other episodes."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "polydectes",
+      "action": "select-quest",
+      "target": "perseus",
+      "consequence": "The slaying of Medusa is chosen as the deed that will bring Perseus renown.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "perseus",
+      "action": "begin-expedition",
+      "target": "medusa",
+      "consequence": "Perseus starts the journey toward the Gorgon.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "hermes",
+      "action": "guide",
+      "target": "perseus",
+      "consequence": "Hermes helps guide Perseus to the far-off region.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "athena",
+      "action": "guide",
+      "target": "perseus",
+      "consequence": "Athena guides Perseus at the decisive moment.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "perseus",
+      "action": "behead",
+      "target": "medusa",
+      "consequence": "Perseus cuts off Medusa's head and places it in his wallet.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "far-off region near Oceanus"
+  ],
+  "themes": [
+    "heroic quest",
+    "divine guidance",
+    "monster slaying"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Polydectes points Perseus toward the Medusa quest.",
+      "Hermes and Athena guide the hero through a remote landscape.",
+      "Athena guides the beheading and Perseus secures the head in his wallet."
+    ],
+    "sensitiveContent": [
+      "beheading",
+      "mythic violence"
+    ],
+    "productionNotes": [
+      "Do not show a reflective shield, Pegasus, Chrysaor, sleeping Gorgons, or an escape sequence as facts from this linked record."
+    ]
+  }
+}

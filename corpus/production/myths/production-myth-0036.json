@@ -1,0 +1,169 @@
+{
+  "id": "production-myth-0036",
+  "title": "Phaethon Drives the Sun Chariot",
+  "mythFamily": "Prometheus and Early Mortals",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Phaethon Drives the Sun Chariot; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Phaethon seeks proof that Helios is truly his father.",
+    "ending": "Zeus strikes Phaethon down after the sun chariot threatens earth and sky.",
+    "boundaryRationale": "The episode begins with phaethon seeks proof that helios is truly his father and closes at zeus strikes phaethon down after the sun chariot threatens earth and sky, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Common Phaethon version in which the wish to drive the chariot becomes cosmic disaster.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "phaethon",
+      "name": "Phaethon",
+      "role": "son seeking proof",
+      "goal": "drive the sun chariot"
+    },
+    {
+      "id": "helios",
+      "name": "Helios",
+      "role": "sun god and father",
+      "goal": "grant a dangerous promise"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "cosmic protector",
+      "goal": "stop the runaway chariot"
+    },
+    {
+      "id": "clymene",
+      "name": "Clymene",
+      "role": "mother of Phaethon",
+      "goal": "send him toward Helios’ proof"
+    },
+    {
+      "id": "horses-of-the-sun",
+      "name": "Horses of the Sun",
+      "role": "uncontrollable team",
+      "goal": "drag the chariot off course"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "helios",
+      "relationship": "parent-of",
+      "target": "phaethon",
+      "rationale": "Helios parent of Phaethon during Phaethon Drives the Sun Chariot."
+    },
+    {
+      "source": "zeus",
+      "relationship": "punishes",
+      "target": "phaethon",
+      "rationale": "Zeus punishes Phaethon during Phaethon Drives the Sun Chariot."
+    },
+    {
+      "source": "clymene",
+      "relationship": "parent-of",
+      "target": "phaethon",
+      "rationale": "Clymene parent of Phaethon during Phaethon Drives the Sun Chariot."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Phaethon turns a demand for identity into a cosmic disaster. Helios’ promise gives him the sun chariot, but the horses sense an unready driver and Zeus kills him to save the world.",
+    "openingSituation": "Phaethon wants proof that his father is the sun god.",
+    "centralConflict": "A father’s oath collides with a task no inexperienced youth can survive.",
+    "resolution": "Zeus ends the runaway journey with a thunderbolt.",
+    "outcome": "Phaethon dies, and the world bears the scars of his failed ascent."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "phaethon",
+      "action": "seek",
+      "target": "helios",
+      "consequence": "Phaethon asks for proof of his father.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "helios",
+      "action": "swear",
+      "target": "phaethon",
+      "consequence": "Helios grants a binding promise.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "phaethon",
+      "action": "request",
+      "target": "horses-of-the-sun",
+      "consequence": "Phaethon asks for the chariot.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "horses-of-the-sun",
+      "action": "bolt",
+      "target": "phaethon",
+      "consequence": "The team runs beyond his control.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "zeus",
+      "action": "strike",
+      "target": "phaethon",
+      "consequence": "Zeus stops the chariot with lightning.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "zeus",
+      "action": "end",
+      "target": "phaethon",
+      "consequence": "The thunderbolt leaves Phaethon dead and the world marked by his failed ascent.",
+      "factIds": [
+        "fact-06"
+      ]
+    }
+  ],
+  "locations": [
+    "palace of Helios",
+    "sky road",
+    "scorched earth"
+  ],
+  "themes": [
+    "identity",
+    "overreach",
+    "cosmic order"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Phaethon wants proof that his father is the sun god.",
+      "A father’s oath collides with a task no inexperienced youth can survive.",
+      "Zeus ends the runaway journey with a thunderbolt."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "The chariot path should feel beautiful at first, then terrifyingly unstable."
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "id": "production-myth-0026",
+  "title": "Hermes Guides Priam",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Hermes Guides Priam; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Priam leaves Troy by night after deciding to beg Achilles for Hector’s body.",
+    "ending": "Priam returns with Hector’s body under truce for burial.",
+    "boundaryRationale": "The episode begins with priam leaves troy by night after deciding to beg achilles for hector’s body and closes at priam returns with hector’s body under truce for burial, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Iliadic ransom episode; Hermes acts as guide, not protagonist of the grief scene.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "hermes",
+      "name": "Hermes",
+      "role": "divine guide",
+      "goal": "lead Priam safely through the Greek camp"
+    },
+    {
+      "id": "priam",
+      "name": "Priam",
+      "role": "grieving Trojan king",
+      "goal": "ransom Hector’s body"
+    },
+    {
+      "id": "achilles",
+      "name": "Achilles",
+      "role": "Greek warrior holding Hector’s body",
+      "goal": "accept ransom and return the corpse"
+    },
+    {
+      "id": "hector",
+      "name": "Hector",
+      "role": "dead Trojan defender",
+      "goal": "receive burial rites"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "sender of divine instruction",
+      "goal": "authorize Priam’s dangerous mission"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "zeus",
+      "relationship": "protects",
+      "target": "priam",
+      "rationale": "Zeus protects Priam during Hermes Guides Priam."
+    },
+    {
+      "source": "hermes",
+      "relationship": "rescuer-of",
+      "target": "priam",
+      "rationale": "Hermes rescuer of Priam during Hermes Guides Priam."
+    },
+    {
+      "source": "achilles",
+      "relationship": "enemy-of",
+      "target": "hector",
+      "rationale": "Achilles enemy of Hector during Hermes Guides Priam."
+    },
+    {
+      "source": "priam",
+      "relationship": "parent-of",
+      "target": "hector",
+      "rationale": "Priam parent of Hector during Hermes Guides Priam."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Priam crosses enemy lines with Hermes as divine escort so he can beg Achilles for Hector’s body. The episode turns on grief shared between enemies and ends with a temporary mercy that allows Trojan burial rites.",
+    "openingSituation": "Hector is dead and Achilles still holds the body outside Troy.",
+    "centralConflict": "Priam must enter the camp of the man who killed his son and trust divine guidance rather than royal power.",
+    "resolution": "Achilles accepts ransom, returns Hector, and grants time for burial.",
+    "outcome": "The war pauses long enough for human grief to override rage."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "priam",
+      "action": "depart",
+      "target": "hermes",
+      "consequence": "Priam leaves Troy with ransom.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "zeus",
+      "action": "send",
+      "target": "hermes",
+      "consequence": "Zeus orders Hermes to guard the old king.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "hermes",
+      "action": "guide",
+      "target": "priam",
+      "consequence": "Hermes conducts Priam safely through the Greek camp.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "priam",
+      "action": "supplicate",
+      "target": "achilles",
+      "consequence": "Priam kneels before Achilles and pleads for Hector.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "achilles",
+      "action": "return",
+      "target": "hector",
+      "consequence": "Achilles gives Hector’s body back.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "priam",
+      "action": "bury",
+      "target": "hector",
+      "consequence": "Priam can bring his son home for funeral rites.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Troy",
+    "Greek camp",
+    "Achilles’ hut"
+  ],
+  "themes": [
+    "grief",
+    "supplication",
+    "mercy in war"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Hector is dead and Achilles still holds the body outside Troy.",
+      "Priam must enter the camp of the man who killed his son and trust divine guidance rather than royal power.",
+      "Achilles accepts ransom, returns Hector, and grants time for burial."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Stage Hermes as quiet protection, then shift the emotional center to Priam and Achilles."
+    ]
+  }
+}

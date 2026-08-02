@@ -1,0 +1,155 @@
+{
+  "id": "production-myth-0011",
+  "title": "Zeus Claims the Sky",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Zeus Claims the Sky; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins after the Titans have been defeated and the victorious brothers must order the cosmos.",
+    "ending": "It ends when Zeus receives the sky, Poseidon the sea, and Hades the underworld.",
+    "boundaryRationale": "The episode begins with the episode begins after the titans have been defeated and the victorious brothers must order the cosmos and closes at it ends when zeus receives the sky, poseidon the sea, and hades the underworld, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Common division-by-lot tradition after the Titanomachy.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "victorious brother",
+      "goal": "take rule of the sky"
+    },
+    {
+      "id": "poseidon",
+      "name": "Poseidon",
+      "role": "brother of Zeus",
+      "goal": "take rule of the sea"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "brother of Zeus",
+      "goal": "take rule of the underworld"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "zeus",
+      "relationship": "sibling-of",
+      "target": "poseidon",
+      "rationale": "Zeus sibling of Poseidon during Zeus Claims the Sky."
+    },
+    {
+      "source": "zeus",
+      "relationship": "sibling-of",
+      "target": "hades",
+      "rationale": "Zeus sibling of Hades during Zeus Claims the Sky."
+    },
+    {
+      "source": "zeus",
+      "relationship": "ruler-of",
+      "target": "sky",
+      "rationale": "Zeus ruler of sky during Zeus Claims the Sky."
+    },
+    {
+      "source": "poseidon",
+      "relationship": "ruler-of",
+      "target": "sea",
+      "rationale": "Poseidon ruler of sea during Zeus Claims the Sky."
+    },
+    {
+      "source": "hades",
+      "relationship": "ruler-of",
+      "target": "underworld",
+      "rationale": "Hades ruler of underworld during Zeus Claims the Sky."
+    }
+  ],
+  "narrative": {
+    "synopsis": "After victory over the Titans, Zeus and his brothers divide the universe into great realms. Zeus’ claim to the sky establishes his visible sovereignty without erasing Poseidon or Hades.",
+    "openingSituation": "The old rulers have fallen, but the new order needs boundaries.",
+    "centralConflict": "The brothers must divide power without beginning another succession war.",
+    "resolution": "Lots or agreement assign sky, sea, and underworld.",
+    "outcome": "Zeus becomes sky-ruler while his brothers govern their own realms."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "zeus",
+      "action": "assemble",
+      "target": "poseidon",
+      "consequence": "The brothers gather after victory.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "zeus",
+      "action": "divide",
+      "target": "hades",
+      "consequence": "Cosmic authority is apportioned among them.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "zeus",
+      "action": "claim",
+      "target": "poseidon",
+      "consequence": "Zeus receives the sky.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "poseidon",
+      "action": "claim",
+      "target": "zeus",
+      "consequence": "Poseidon receives the sea.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "hades",
+      "action": "claim",
+      "target": "zeus",
+      "consequence": "Hades receives the underworld.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Olympian realm"
+  ],
+  "themes": [
+    "divine authority",
+    "Olympian order",
+    "assemble"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "The old rulers have fallen, but the new order needs boundaries.",
+      "The brothers must divide power without beginning another succession war.",
+      "Lots or agreement assign sky, sea, and underworld."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: The brothers must divide power without beginning another succession war."
+    ]
+  }
+}

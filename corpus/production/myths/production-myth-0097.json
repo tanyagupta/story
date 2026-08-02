@@ -1,0 +1,214 @@
+{
+  "id": "production-myth-0097",
+  "title": "Talos Guards Crete",
+  "mythFamily": "Jason and the Argonauts",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
+    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Talos Guards Crete begins with Talos in a focused Jason and the Argonauts situation rather than a full-cycle summary. The episode closes once Talos's decisive action changes the condition of Jason and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Common production version chosen for coherence and recognizability.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Talos Guards Crete, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Talos Guards Crete begins with Talos in a focused Jason and the Argonauts situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Talos and Jason.",
+    "resolution": "The episode closes once Talos's decisive action changes the condition of Jason and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Talos and Jason, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Talos Guards Crete begins with Talos in a focused Jason and the Argonauts situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Talos and Jason."
+      },
+      {
+        "beat": "turn",
+        "text": "Talos takes the decisive confront action that defines Talos Guards Crete."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Talos and Jason, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "talos",
+      "name": "Talos",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "jason",
+      "name": "Jason",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "medea",
+      "name": "Medea",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "supportingCharacters": [
+    {
+      "id": "argonauts",
+      "name": "Argonauts",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "entityMappings": [
+    {
+      "sourceName": "Talos",
+      "normalizedId": "talos",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Jason",
+      "normalizedId": "jason",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Medea",
+      "normalizedId": "medea",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Argonauts",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "talos",
+      "relationship": "central_to",
+      "target": "jason",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Talos and Jason define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0097-event-01",
+      "actor": "talos",
+      "action": "establish",
+      "target": "jason",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "Talos Guards Crete begins with Talos in a focused Jason and the Argonauts situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0097-event-02",
+      "actor": "jason",
+      "action": "challenge",
+      "target": "talos",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Talos and Jason.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0097-event-03",
+      "actor": "talos",
+      "action": "confront",
+      "target": "medea",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "Talos performs the decisive action associated with Talos Guards Crete.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0097-event-04",
+      "actor": "talos",
+      "action": "resolve",
+      "target": "jason",
+      "object": null,
+      "recipient": null,
+      "location": "jason-and-the-argonauts-setting",
+      "normalizedStatement": "The episode closes once Talos's decisive action changes the condition of Jason and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "jason-and-the-argonauts-setting",
+      "name": "Jason and the Argonauts setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "jason and the argonauts",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Talos Guards Crete begins with Talos in a focused Jason and the Argonauts situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Talos and Jason.",
+      "The episode closes once Talos's decisive action changes the condition of Jason and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Talos and Jason.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

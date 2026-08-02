@@ -1,0 +1,163 @@
+{
+  "id": "production-myth-0008",
+  "title": "Rhea Saves Zeus",
+  "mythFamily": "Primordial and Creation",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Rhea Saves Zeus; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins with Rhea pregnant again after Cronus has swallowed her earlier children.",
+    "ending": "It ends with Zeus hidden in Crete while Cronus believes he has swallowed the newborn.",
+    "boundaryRationale": "The episode begins with the episode begins with rhea pregnant again after cronus has swallowed her earlier children and closes at it ends with zeus hidden in crete while cronus believes he has swallowed the newborn, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Cretan infancy version with Rhea substituting a wrapped stone for Zeus.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "rhea",
+      "name": "Rhea",
+      "role": "protective mother",
+      "goal": "save Zeus from Cronus"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "hidden infant",
+      "goal": "survive to challenge Cronus"
+    },
+    {
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "deceived father",
+      "goal": "swallow a substitute"
+    },
+    {
+      "id": "gaia",
+      "name": "Gaia",
+      "role": "counseling elder",
+      "goal": "help hide the child"
+    },
+    {
+      "id": "curetes",
+      "name": "Curetes",
+      "role": "noisy guardians",
+      "goal": "mask the infant cries"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "rhea",
+      "relationship": "parent-of",
+      "target": "zeus",
+      "rationale": "Rhea parent of Zeus during Rhea Saves Zeus."
+    },
+    {
+      "source": "cronus",
+      "relationship": "parent-of",
+      "target": "zeus",
+      "rationale": "Cronus parent of Zeus during Rhea Saves Zeus."
+    },
+    {
+      "source": "gaia",
+      "relationship": "ally-of",
+      "target": "rhea",
+      "rationale": "Gaia ally of Rhea during Rhea Saves Zeus."
+    },
+    {
+      "source": "curetes",
+      "relationship": "protects",
+      "target": "zeus",
+      "rationale": "Curetes protects Zeus during Rhea Saves Zeus."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Rhea refuses to lose another child to Cronus. With older divine help, she hides Zeus in Crete and gives Cronus a wrapped stone, preserving the child who will break Titan rule.",
+    "openingSituation": "Rhea has watched Cronus swallow every child before Zeus.",
+    "centralConflict": "The newborn must be hidden from a father who consumes his heirs.",
+    "resolution": "Cronus swallows the stone and is deceived.",
+    "outcome": "Zeus survives in secret, making the future revolt possible."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "rhea",
+      "action": "consult",
+      "target": "gaia",
+      "consequence": "Rhea seeks help before the birth.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "rhea",
+      "action": "bear",
+      "target": "zeus",
+      "consequence": "Zeus is born away from Cronus’ control.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "rhea",
+      "action": "hide",
+      "target": "zeus",
+      "consequence": "The infant is concealed in Crete.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "rhea",
+      "action": "substitute",
+      "target": "cronus",
+      "consequence": "A wrapped stone replaces the child.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "cronus",
+      "action": "swallow",
+      "target": "rhea",
+      "consequence": "Cronus consumes the stone and believes Zeus is gone.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "cosmic beginning"
+  ],
+  "themes": [
+    "primordial emergence",
+    "divine succession",
+    "consult"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Rhea has watched Cronus swallow every child before Zeus.",
+      "The newborn must be hidden from a father who consumes his heirs.",
+      "Cronus swallows the stone and is deceived."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: The newborn must be hidden from a father who consumes his heirs."
+    ]
+  }
+}

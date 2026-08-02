@@ -1,0 +1,144 @@
+{
+  "id": "production-myth-0041",
+  "title": "Triptolemus Receives the Grain",
+  "mythFamily": "Demeter and Persephone",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Triptolemus Receives the Grain; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "After Demeter’s reconciliation with Eleusis, she chooses Triptolemus as a bearer of grain knowledge.",
+    "ending": "Triptolemus departs to spread agriculture and Demeter’s gift among humans.",
+    "boundaryRationale": "The episode begins with after demeter’s reconciliation with eleusis, she chooses triptolemus as a bearer of grain knowledge and closes at triptolemus departs to spread agriculture and demeter’s gift among humans, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Eleusinian agricultural mission; winged chariot details vary.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "demeter",
+      "name": "Demeter",
+      "role": "giver of agriculture",
+      "goal": "teach grain cultivation"
+    },
+    {
+      "id": "triptolemus",
+      "name": "Triptolemus",
+      "role": "Eleusinian recipient",
+      "goal": "carry grain knowledge to mortals"
+    },
+    {
+      "id": "eleusinians",
+      "name": "Eleusinians",
+      "role": "first instructed community",
+      "goal": "preserve Demeter’s rites"
+    },
+    {
+      "id": "humans",
+      "name": "Humans",
+      "role": "future learners",
+      "goal": "receive agriculture"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "demeter",
+      "relationship": "protects",
+      "target": "triptolemus",
+      "rationale": "Demeter protects Triptolemus during Triptolemus Receives the Grain."
+    },
+    {
+      "source": "triptolemus",
+      "relationship": "ally-of",
+      "target": "eleusinians",
+      "rationale": "Triptolemus ally of Eleusinians during Triptolemus Receives the Grain."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Triptolemus turns Demeter’s restored favor into human culture. Given grain and instruction, he carries agriculture beyond Eleusis and makes the goddess’ gift visible in cultivated fields.",
+    "openingSituation": "Demeter’s grief has ended enough for fertility to return.",
+    "centralConflict": "The gift of grain must move from divine possession to human practice.",
+    "resolution": "Triptolemus receives the task and begins teaching.",
+    "outcome": "Agriculture becomes a sacred inheritance from Demeter."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "demeter",
+      "action": "teach",
+      "target": "triptolemus",
+      "consequence": "Demeter gives grain knowledge.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "triptolemus",
+      "action": "receive",
+      "target": "demeter",
+      "consequence": "Triptolemus accepts the sacred task.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "eleusinians",
+      "action": "honor",
+      "target": "demeter",
+      "consequence": "Eleusis preserves the goddess’ rites.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "triptolemus",
+      "action": "travel",
+      "target": "humans",
+      "consequence": "Triptolemus carries the teaching outward.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "humans",
+      "action": "cultivate",
+      "target": "triptolemus",
+      "consequence": "Mortals learn to grow grain.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Eleusis",
+    "cultivated fields"
+  ],
+  "themes": [
+    "agriculture",
+    "sacred teaching",
+    "renewal"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Demeter’s grief has ended enough for fertility to return.",
+      "The gift of grain must move from divine possession to human practice.",
+      "Triptolemus receives the task and begins teaching."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Use golden grain as a visual contrast to earlier barren-earth episodes."
+    ]
+  }
+}

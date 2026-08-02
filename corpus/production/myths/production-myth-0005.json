@@ -1,0 +1,157 @@
+{
+  "id": "production-myth-0005",
+  "title": "Cronus Overthrows Uranus",
+  "mythFamily": "Primordial and Creation",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Cronus Overthrows Uranus; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins with Cronus waiting in ambush after Gaia has armed him.",
+    "ending": "It ends when Uranus is overthrown and Cronus becomes the dominant Titan power.",
+    "boundaryRationale": "The episode begins with the episode begins with cronus waiting in ambush after gaia has armed him and closes at it ends when uranus is overthrown and cronus becomes the dominant titan power, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Hesiodic succession myth centered on Cronus’ ambush and castration of Uranus.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "ambitious Titan son",
+      "goal": "seize power from his father"
+    },
+    {
+      "id": "gaia",
+      "name": "Gaia",
+      "role": "plotting mother",
+      "goal": "end Uranus’ oppression"
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "role": "sky father",
+      "goal": "retain rule over Gaia and the children"
+    },
+    {
+      "id": "furies",
+      "name": "Furies",
+      "role": "vengeful powers",
+      "goal": "arise from blood"
+    },
+    {
+      "id": "giants",
+      "name": "Giants",
+      "role": "earth-born powers",
+      "goal": "emerge from violence"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "cronus",
+      "relationship": "child-of",
+      "target": "gaia",
+      "rationale": "Cronus child of Gaia during Cronus Overthrows Uranus."
+    },
+    {
+      "source": "cronus",
+      "relationship": "enemy-of",
+      "target": "uranus",
+      "rationale": "Cronus enemy of Uranus during Cronus Overthrows Uranus."
+    },
+    {
+      "source": "gaia",
+      "relationship": "enemy-of",
+      "target": "uranus",
+      "rationale": "Gaia enemy of Uranus during Cronus Overthrows Uranus."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Cronus uses Gaia’s sickle to ambush Uranus when the sky descends over the earth. The violent overthrow frees Gaia from Uranus’ immediate domination and begins the Titan phase of cosmic rule.",
+    "openingSituation": "Gaia’s revolt has a weapon and a willing son.",
+    "centralConflict": "Cronus must strike the seemingly untouchable sky father at the moment he covers Gaia.",
+    "resolution": "Uranus is wounded and displaced by his son.",
+    "outcome": "Cronus gains power, but the method of succession makes later retaliation inevitable."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "cronus",
+      "action": "ambush",
+      "target": "uranus",
+      "consequence": "Cronus waits with the sickle Gaia made.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "uranus",
+      "action": "descend",
+      "target": "gaia",
+      "consequence": "Uranus comes down over Gaia as before.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "cronus",
+      "action": "castrate",
+      "target": "uranus",
+      "consequence": "The attack breaks Uranus’ hold.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "furies",
+      "action": "arise",
+      "target": "uranus",
+      "consequence": "New avenging powers come from the spilled blood.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "cronus",
+      "action": "usurp",
+      "target": "uranus",
+      "consequence": "Cronus replaces his father as dominant ruler.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "cosmic beginning"
+  ],
+  "themes": [
+    "primordial emergence",
+    "divine succession",
+    "ambush"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Gaia’s revolt has a weapon and a willing son.",
+      "Cronus must strike the seemingly untouchable sky father at the moment he covers Gaia.",
+      "Uranus is wounded and displaced by his son."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: Cronus must strike the seemingly untouchable sky father at the moment he covers Gaia."
+    ]
+  }
+}

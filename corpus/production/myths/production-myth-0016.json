@@ -1,0 +1,151 @@
+{
+  "id": "production-myth-0016",
+  "title": "Apollo Slays Python",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Apollo Slays Python; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins when Apollo approaches the place guarded by the serpent Python.",
+    "ending": "It ends with Python dead and Delphi transformed into Apollo’s prophetic sanctuary.",
+    "boundaryRationale": "The episode begins with the episode begins when apollo approaches the place guarded by the serpent python and closes at it ends with python dead and delphi transformed into apollo’s prophetic sanctuary, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Delphic foundation version; Python may be linked to pursuit of Leto in some tellings.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "role": "young archer god",
+      "goal": "claim Delphi"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "role": "Delphic serpent",
+      "goal": "guard the old place"
+    },
+    {
+      "id": "leto",
+      "name": "Leto",
+      "role": "mother of Apollo",
+      "goal": "be avenged in some versions"
+    },
+    {
+      "id": "delphi",
+      "name": "Delphi",
+      "role": "prophetic site",
+      "goal": "become Apollo’s oracle"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "apollo",
+      "relationship": "enemy-of",
+      "target": "python",
+      "rationale": "Apollo enemy of Python during Apollo Slays Python."
+    },
+    {
+      "source": "apollo",
+      "relationship": "ruler-of",
+      "target": "delphi",
+      "rationale": "Apollo ruler of Delphi during Apollo Slays Python."
+    },
+    {
+      "source": "leto",
+      "relationship": "parent-of",
+      "target": "apollo",
+      "rationale": "Leto parent of Apollo during Apollo Slays Python."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Apollo’s Delphic myth begins with a serpent guarding an older power at the sacred site. By killing Python, Apollo claims Delphi and converts the place into his oracle.",
+    "openingSituation": "Python holds the ground that will become Apollo’s prophetic center.",
+    "centralConflict": "Apollo must displace the serpent before his oracle can be founded.",
+    "resolution": "Python is slain by Apollo’s divine weapon.",
+    "outcome": "Delphi becomes Apollo’s sanctuary, though the killing still requires ritual memory or purification."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "apollo",
+      "action": "approach",
+      "target": "python",
+      "consequence": "Apollo comes to the serpent’s place.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "python",
+      "action": "guard",
+      "target": "delphi",
+      "consequence": "Python blocks the future sanctuary.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "apollo",
+      "action": "shoot",
+      "target": "python",
+      "consequence": "Apollo attacks with divine force.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "apollo",
+      "action": "slay",
+      "target": "python",
+      "consequence": "The serpent dies.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "apollo",
+      "action": "claim",
+      "target": "delphi",
+      "consequence": "Delphi becomes Apollo’s prophetic seat.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Delphi"
+  ],
+  "themes": [
+    "divine authority",
+    "Olympian order",
+    "approach"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Python holds the ground that will become Apollo’s prophetic center.",
+      "Apollo must displace the serpent before his oracle can be founded.",
+      "Python is slain by Apollo’s divine weapon."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: Apollo must displace the serpent before his oracle can be founded."
+    ]
+  }
+}

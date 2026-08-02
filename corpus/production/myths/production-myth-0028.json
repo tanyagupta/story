@@ -1,0 +1,165 @@
+{
+  "id": "production-myth-0028",
+  "title": "Hera Sends the Madness of Heracles",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Hera Sends the Madness of Heracles; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Heracles has returned to domestic life with Megara and their children.",
+    "ending": "After the madness and oracle, Heracles enters service to Eurystheus as atonement.",
+    "boundaryRationale": "The episode begins with heracles has returned to domestic life with megara and their children and closes at after the madness and oracle, heracles enters service to eurystheus as atonement, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Common tragic prelude to the Labors; details of Megara’s fate vary by source.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "hera",
+      "name": "Hera",
+      "role": "hostile goddess",
+      "goal": "break Heracles through madness"
+    },
+    {
+      "id": "heracles",
+      "name": "Heracles",
+      "role": "hero and son of Zeus",
+      "goal": "survive guilt and seek atonement"
+    },
+    {
+      "id": "megara",
+      "name": "Megara",
+      "role": "wife of Heracles",
+      "goal": "become victim of the madness tradition"
+    },
+    {
+      "id": "children-of-heracles",
+      "name": "Children of Heracles",
+      "role": "household victims",
+      "goal": "make the catastrophe irreversible"
+    },
+    {
+      "id": "eurystheus",
+      "name": "Eurystheus",
+      "role": "king who imposes labors",
+      "goal": "receive Heracles after the oracle"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "hera",
+      "relationship": "enemy-of",
+      "target": "heracles",
+      "rationale": "Hera enemy of Heracles during Hera Sends the Madness of Heracles."
+    },
+    {
+      "source": "heracles",
+      "relationship": "spouse-of",
+      "target": "megara",
+      "rationale": "Heracles spouse of Megara during Hera Sends the Madness of Heracles."
+    },
+    {
+      "source": "heracles",
+      "relationship": "parent-of",
+      "target": "children-of-heracles",
+      "rationale": "Heracles parent of Children of Heracles during Hera Sends the Madness of Heracles."
+    },
+    {
+      "source": "eurystheus",
+      "relationship": "ruler-of",
+      "target": "heracles",
+      "rationale": "Eurystheus ruler of Heracles during Hera Sends the Madness of Heracles."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Hera’s persecution turns Heracles’ strength inward against his own house. When sanity returns, the hero’s guilt drives him to purification and to the labors that will define his life.",
+    "openingSituation": "Heracles appears victorious enough to have a family and future.",
+    "centralConflict": "A divine attack makes the hero himself the danger to those he loves.",
+    "resolution": "Heracles seeks divine instruction and submits to Eurystheus.",
+    "outcome": "The Labors become atonement rather than mere adventure."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "hera",
+      "action": "afflict",
+      "target": "heracles",
+      "consequence": "Hera sends destructive madness.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "heracles",
+      "action": "kill",
+      "target": "children-of-heracles",
+      "consequence": "Heracles destroys his household in madness.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "heracles",
+      "action": "recognize",
+      "target": "megara",
+      "consequence": "He returns to awareness and faces the ruin.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "heracles",
+      "action": "consult",
+      "target": "eurystheus",
+      "consequence": "He seeks a path of purification.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "eurystheus",
+      "action": "command",
+      "target": "heracles",
+      "consequence": "The service that frames the Labors begins.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Thebes",
+    "Delphi",
+    "Mycenae"
+  ],
+  "themes": [
+    "atonement",
+    "divine hostility",
+    "heroic guilt"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Heracles appears victorious enough to have a family and future.",
+      "A divine attack makes the hero himself the danger to those he loves.",
+      "Heracles seeks divine instruction and submits to Eurystheus."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Avoid heroic triumphalism; the episode should feel like a tragic origin for the Labors."
+    ]
+  }
+}

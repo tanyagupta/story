@@ -1,0 +1,214 @@
+{
+  "id": "production-myth-0142",
+  "title": "Ajax Claims the Armor",
+  "mythFamily": "Trojan War",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
+    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Ajax Claims the Armor begins with Ajax in a focused Trojan War situation rather than a full-cycle summary. The episode closes once Ajax's decisive action changes the condition of Achilles and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Common production version chosen for coherence and recognizability.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Ajax Claims the Armor, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Ajax Claims the Armor begins with Ajax in a focused Trojan War situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the claim action named by the episode, involving Ajax and Achilles.",
+    "resolution": "The episode closes once Ajax's decisive action changes the condition of Achilles and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Ajax and Achilles, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Ajax Claims the Armor begins with Ajax in a focused Trojan War situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the claim action named by the episode, involving Ajax and Achilles."
+      },
+      {
+        "beat": "turn",
+        "text": "Ajax takes the decisive claim action that defines Ajax Claims the Armor."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Ajax and Achilles, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "ajax",
+      "name": "Ajax",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "achilles",
+      "name": "Achilles",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "hector",
+      "name": "Hector",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "supportingCharacters": [
+    {
+      "id": "trojans",
+      "name": "Trojans",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "entityMappings": [
+    {
+      "sourceName": "Ajax",
+      "normalizedId": "ajax",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Achilles",
+      "normalizedId": "achilles",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Hector",
+      "normalizedId": "hector",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Trojans",
+      "normalizedId": "trojans",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ajax",
+      "relationship": "central_to",
+      "target": "achilles",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Ajax and Achilles define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0142-event-01",
+      "actor": "ajax",
+      "action": "establish",
+      "target": "achilles",
+      "object": null,
+      "recipient": null,
+      "location": "trojan-war-setting",
+      "normalizedStatement": "Ajax Claims the Armor begins with Ajax in a focused Trojan War situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0142-event-02",
+      "actor": "achilles",
+      "action": "challenge",
+      "target": "ajax",
+      "object": null,
+      "recipient": null,
+      "location": "trojan-war-setting",
+      "normalizedStatement": "The central pressure is the claim action named by the episode, involving Ajax and Achilles.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0142-event-03",
+      "actor": "ajax",
+      "action": "claim",
+      "target": "hector",
+      "object": null,
+      "recipient": null,
+      "location": "trojan-war-setting",
+      "normalizedStatement": "Ajax performs the decisive action associated with Ajax Claims the Armor.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0142-event-04",
+      "actor": "ajax",
+      "action": "resolve",
+      "target": "achilles",
+      "object": null,
+      "recipient": null,
+      "location": "trojan-war-setting",
+      "normalizedStatement": "The episode closes once Ajax's decisive action changes the condition of Achilles and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "trojan-war-setting",
+      "name": "Trojan War setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "trojan war",
+    "claim"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Ajax Claims the Armor begins with Ajax in a focused Trojan War situation rather than a full-cycle summary.",
+      "The central pressure is the claim action named by the episode, involving Ajax and Achilles.",
+      "The episode closes once Ajax's decisive action changes the condition of Achilles and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Ajax and Achilles.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

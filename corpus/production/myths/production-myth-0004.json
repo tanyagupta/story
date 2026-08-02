@@ -1,0 +1,163 @@
+{
+  "id": "production-myth-0004",
+  "title": "Uranus Imprisons His Children",
+  "mythFamily": "Primordial and Creation",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Uranus Imprisons His Children; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins when Uranus fears or hates the monstrous children born from Gaia.",
+    "ending": "It ends when Gaia, in pain, prepares a sickle and seeks a child willing to attack Uranus.",
+    "boundaryRationale": "The episode begins with the episode begins when uranus fears or hates the monstrous children born from gaia and closes at it ends when gaia, in pain, prepares a sickle and seeks a child willing to attack uranus, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Hesiodic oppression of Cyclopes and Hundred-Handers inside Gaia.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "role": "oppressive sky father",
+      "goal": "prevent threatening children from rising"
+    },
+    {
+      "id": "gaia",
+      "name": "Gaia",
+      "role": "burdened mother",
+      "goal": "free the children hidden inside her"
+    },
+    {
+      "id": "cyclopes",
+      "name": "Cyclopes",
+      "role": "imprisoned children",
+      "goal": "survive confinement"
+    },
+    {
+      "id": "hecatoncheires",
+      "name": "Hecatoncheires",
+      "role": "hundred-handed children",
+      "goal": "remain trapped beneath Uranus"
+    },
+    {
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "Titan son",
+      "goal": "listen to Gaia’s revolt"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "uranus",
+      "relationship": "captor-of",
+      "target": "cyclopes",
+      "rationale": "Uranus captor of Cyclopes during Uranus Imprisons His Children."
+    },
+    {
+      "source": "uranus",
+      "relationship": "captor-of",
+      "target": "hecatoncheires",
+      "rationale": "Uranus captor of Hecatoncheires during Uranus Imprisons His Children."
+    },
+    {
+      "source": "gaia",
+      "relationship": "protects",
+      "target": "cyclopes",
+      "rationale": "Gaia protects Cyclopes during Uranus Imprisons His Children."
+    },
+    {
+      "source": "cronus",
+      "relationship": "ally-of",
+      "target": "gaia",
+      "rationale": "Cronus ally of Gaia during Uranus Imprisons His Children."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Uranus refuses to let his fearsome children emerge and forces them back into Gaia. Gaia’s pain turns maternity into rebellion as she prepares a sickle and calls on her children for help.",
+    "openingSituation": "The first divine household is ruled by Uranus, who will not tolerate children who frighten him.",
+    "centralConflict": "Gaia is crushed by the children hidden inside her while Uranus keeps his dominance.",
+    "resolution": "Gaia arms a plan of revolt and Cronus becomes the child ready to carry it out.",
+    "outcome": "The conflict moves from silent imprisonment to open succession violence."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "uranus",
+      "action": "imprison",
+      "target": "cyclopes",
+      "consequence": "The Cyclopes are hidden away instead of honored as children.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "uranus",
+      "action": "imprison",
+      "target": "hecatoncheires",
+      "consequence": "The Hundred-Handers are forced into Gaia’s depths.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "gaia",
+      "action": "suffer",
+      "target": "uranus",
+      "consequence": "Gaia’s body bears the pain of Uranus’ control.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "gaia",
+      "action": "forge",
+      "target": "cronus",
+      "consequence": "Gaia prepares the sickle and seeks an attacker.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "cronus",
+      "action": "accept",
+      "target": "gaia",
+      "consequence": "Cronus agrees to act where the others hesitate.",
+      "factIds": [
+        "fact-04"
+      ]
+    }
+  ],
+  "locations": [
+    "cosmic beginning"
+  ],
+  "themes": [
+    "primordial emergence",
+    "divine succession",
+    "imprison"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "The first divine household is ruled by Uranus, who will not tolerate children who frighten him.",
+      "Gaia is crushed by the children hidden inside her while Uranus keeps his dominance.",
+      "Gaia arms a plan of revolt and Cronus becomes the child ready to carry it out."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: Gaia is crushed by the children hidden inside her while Uranus keeps his dominance."
+    ]
+  }
+}

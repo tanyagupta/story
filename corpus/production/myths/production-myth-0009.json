@@ -1,0 +1,169 @@
+{
+  "id": "production-myth-0009",
+  "title": "Zeus Frees His Siblings",
+  "mythFamily": "Primordial and Creation",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Zeus Frees His Siblings; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins when Zeus has grown strong enough to confront the fate of his swallowed siblings.",
+    "ending": "It ends with the children of Rhea released and able to stand with Zeus against Cronus.",
+    "boundaryRationale": "The episode begins with the episode begins when zeus has grown strong enough to confront the fate of his swallowed siblings and closes at it ends with the children of rhea released and able to stand with zeus against cronus, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Common version in which Metis helps Zeus make Cronus disgorge the swallowed Olympians.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "hidden son of Cronus",
+      "goal": "liberate the swallowed siblings"
+    },
+    {
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "Titan ruler",
+      "goal": "hold the children inside himself"
+    },
+    {
+      "id": "metis",
+      "name": "Metis",
+      "role": "counselor",
+      "goal": "supply the means of release"
+    },
+    {
+      "id": "hestia",
+      "name": "Hestia",
+      "role": "liberated sibling",
+      "goal": "join Zeus"
+    },
+    {
+      "id": "poseidon",
+      "name": "Poseidon",
+      "role": "liberated sibling",
+      "goal": "join Zeus"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "liberated sibling",
+      "goal": "join Zeus"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "zeus",
+      "relationship": "child-of",
+      "target": "cronus",
+      "rationale": "Zeus child of Cronus during Zeus Frees His Siblings."
+    },
+    {
+      "source": "metis",
+      "relationship": "ally-of",
+      "target": "zeus",
+      "rationale": "Metis ally of Zeus during Zeus Frees His Siblings."
+    },
+    {
+      "source": "poseidon",
+      "relationship": "sibling-of",
+      "target": "zeus",
+      "rationale": "Poseidon sibling of Zeus during Zeus Frees His Siblings."
+    },
+    {
+      "source": "hades",
+      "relationship": "sibling-of",
+      "target": "zeus",
+      "rationale": "Hades sibling of Zeus during Zeus Frees His Siblings."
+    }
+  ],
+  "narrative": {
+    "synopsis": "The hidden Zeus returns not merely to survive but to free the siblings Cronus swallowed. With Metis’ help, Cronus is forced to disgorge them, creating the Olympian alliance.",
+    "openingSituation": "Zeus has survived the deception that saved him as an infant.",
+    "centralConflict": "Cronus still contains the older children and still holds Titan power.",
+    "resolution": "The swallowed siblings emerge and stand with Zeus.",
+    "outcome": "A family revolt against Cronus can now begin."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "zeus",
+      "action": "mature",
+      "target": "cronus",
+      "consequence": "Zeus grows beyond the reach of the old deception.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "metis",
+      "action": "advise",
+      "target": "zeus",
+      "consequence": "Metis supplies the strategy for release.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "zeus",
+      "action": "drug",
+      "target": "cronus",
+      "consequence": "Zeus forces Cronus to disgorge what he swallowed.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "cronus",
+      "action": "release",
+      "target": "hestia",
+      "consequence": "The swallowed children emerge alive.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "poseidon",
+      "action": "ally",
+      "target": "zeus",
+      "consequence": "The liberated siblings become Zeus’ allies.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "cosmic beginning"
+  ],
+  "themes": [
+    "primordial emergence",
+    "divine succession",
+    "mature"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Zeus has survived the deception that saved him as an infant.",
+      "Cronus still contains the older children and still holds Titan power.",
+      "The swallowed siblings emerge and stand with Zeus."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: Cronus still contains the older children and still holds Titan power."
+    ]
+  }
+}

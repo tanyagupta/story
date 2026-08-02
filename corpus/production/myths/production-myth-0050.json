@@ -1,0 +1,144 @@
+{
+  "id": "production-myth-0050",
+  "title": "Infant Heracles Strangles the Serpents",
+  "mythFamily": "Heracles",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Source-aligned editorial adaptation of Infant Heracles Strangles the Serpents based only on the linked source-audited record; not a source edition.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0012"
+    ]
+  },
+  "scope": {
+    "beginning": "The episode begins when Hera sends serpents to destroy the infant Heracles.",
+    "ending": "It ends when Heracles grasps and strangles the serpents.",
+    "boundaryRationale": "The linked source supports Hera's attack and the infant's response only; Iphicles, Amphitryon, a Theban nursery, and a household interpretation of the event are excluded."
+  },
+  "variant": {
+    "chosenVersion": "The concise infancy episode in the linked source: Hera sends serpents and the infant Heracles strangles them.",
+    "materialAlternatives": [
+      "Versions adding Iphicles' fear, Amphitryon's arrival, or prophetic interpretation are excluded."
+    ]
+  },
+  "characters": [
+    {
+      "id": "heracles",
+      "name": "Heracles",
+      "role": "infant attacked by serpents",
+      "goal": "survive the attack"
+    },
+    {
+      "id": "hera",
+      "name": "Hera",
+      "role": "goddess sending the attack",
+      "goal": "destroy the infant Heracles"
+    },
+    {
+      "id": "serpents",
+      "name": "Serpents",
+      "role": "creatures sent against Heracles",
+      "goal": "attack the infant"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "hera",
+      "relationship": "punishes",
+      "target": "heracles",
+      "rationale": "Hera sends the serpents to destroy the infant Heracles."
+    },
+    {
+      "source": "heracles",
+      "relationship": "enemy-of",
+      "target": "serpents",
+      "rationale": "Heracles grasps and strangles the attacking serpents."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Hera sends serpents against the infant Heracles. The creatures enter his cradle and move to attack, but Heracles seizes them and strangles them with his bare hands.",
+    "openingSituation": "Heracles is still an infant when Hera directs an attack against him.",
+    "centralConflict": "Serpents enter the cradle to kill a child too young for ordinary defense.",
+    "resolution": "Heracles grasps the serpents and strangles them.",
+    "outcome": "The infant survives and the serpents are killed; no later interpretation is included in the linked episode."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "hera",
+      "action": "send",
+      "target": "heracles",
+      "consequence": "Hera sends serpents to destroy the infant.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "serpents",
+      "action": "enter",
+      "target": "heracles",
+      "consequence": "The serpents enter Heracles' cradle.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "serpents",
+      "action": "attack",
+      "target": "heracles",
+      "consequence": "The serpents move against the infant.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "heracles",
+      "action": "grasp",
+      "target": "serpents",
+      "consequence": "Heracles seizes the attacking serpents.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "heracles",
+      "action": "strangle",
+      "target": "serpents",
+      "consequence": "The infant kills the serpents with his hands.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Heracles' cradle"
+  ],
+  "themes": [
+    "infant strength",
+    "divine hostility",
+    "survival"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Hera sends two serpents into the infant's sleeping space.",
+      "The serpents coil toward Heracles in the cradle.",
+      "Heracles closes his hands around them and strangles them."
+    ],
+    "sensitiveContent": [
+      "infant endangerment",
+      "animal death"
+    ],
+    "productionNotes": [
+      "Keep the cast limited to Hera, Heracles, and the serpents; omit Iphicles, Alcmene, Amphitryon, and an omen-reading household."
+    ]
+  }
+}

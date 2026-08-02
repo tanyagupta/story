@@ -1,0 +1,158 @@
+{
+  "id": "production-myth-0045",
+  "title": "Perseus Receives the Divine Tools",
+  "mythFamily": "Perseus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Perseus Receives the Divine Tools; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Perseus leaves Seriphos without knowing how to reach or survive Medusa.",
+    "ending": "He gains the sandals, cap, pouch, blade, and reflective strategy needed to face her.",
+    "boundaryRationale": "The episode begins with perseus leaves seriphos without knowing how to reach or survive medusa and closes at he gains the sandals, cap, pouch, blade, and reflective strategy needed to face her, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Tool-gathering quest before the Gorgon slaying.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "role": "questing hero",
+      "goal": "obtain tools for the Gorgon quest"
+    },
+    {
+      "id": "graeae",
+      "name": "Graeae",
+      "role": "gray sisters",
+      "goal": "reveal the path under pressure"
+    },
+    {
+      "id": "nymphs",
+      "name": "Nymphs",
+      "role": "keepers of divine objects",
+      "goal": "give the quest equipment"
+    },
+    {
+      "id": "athena",
+      "name": "Athena",
+      "role": "divine patron",
+      "goal": "guide the method of avoiding Medusa’s gaze"
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes",
+      "role": "divine patron",
+      "goal": "provide blade or travel aid"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "athena",
+      "relationship": "ally-of",
+      "target": "perseus",
+      "rationale": "Athena ally of Perseus during Perseus Receives the Divine Tools."
+    },
+    {
+      "source": "hermes",
+      "relationship": "ally-of",
+      "target": "perseus",
+      "rationale": "Hermes ally of Perseus during Perseus Receives the Divine Tools."
+    },
+    {
+      "source": "graeae",
+      "relationship": "enemy-of",
+      "target": "perseus",
+      "rationale": "Graeae opposes Perseus during Perseus Receives the Divine Tools."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Perseus cannot fight Medusa by courage alone. His success depends on compelling the Graeae for directions and receiving divine tools that make the impossible approach survivable.",
+    "openingSituation": "The Gorgon quest has begun, but Perseus lacks path, equipment, and method.",
+    "centralConflict": "Knowledge and restraint matter more than ordinary heroic attack.",
+    "resolution": "The hero receives directions, tools, and the reflective tactic.",
+    "outcome": "Perseus is prepared to enter the Gorgons’ realm."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "perseus",
+      "action": "seek",
+      "target": "graeae",
+      "consequence": "Perseus searches for the route to the Gorgons.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "perseus",
+      "action": "compel",
+      "target": "graeae",
+      "consequence": "He gains directions from the gray sisters.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "nymphs",
+      "action": "give",
+      "target": "perseus",
+      "consequence": "The nymphs provide sandals, cap, and pouch.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "hermes",
+      "action": "arm",
+      "target": "perseus",
+      "consequence": "Hermes supplies or supports the killing blade.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "athena",
+      "action": "instruct",
+      "target": "perseus",
+      "consequence": "Athena teaches him to avoid Medusa’s gaze.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "road to the Graeae",
+    "home of the nymphs"
+  ],
+  "themes": [
+    "preparation",
+    "divine aid",
+    "cunning over force"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "The Gorgon quest has begun, but Perseus lacks path, equipment, and method.",
+      "Knowledge and restraint matter more than ordinary heroic attack.",
+      "The hero receives directions, tools, and the reflective tactic."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Show each tool as solving one concrete problem of the Gorgon encounter."
+    ]
+  }
+}

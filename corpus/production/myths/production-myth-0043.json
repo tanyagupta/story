@@ -1,0 +1,162 @@
+{
+  "id": "production-myth-0043",
+  "title": "Danae and Perseus Cast Adrift",
+  "mythFamily": "Perseus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Source-aligned editorial adaptation of Danae and Perseus Cast Adrift based only on the linked source-audited record; not a source edition.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0019"
+    ]
+  },
+  "scope": {
+    "beginning": "The episode begins when Acrisius finds that his precautions have failed and orders Danae and Perseus placed in a chest.",
+    "ending": "It ends when Dictys finds the stranded chest and conducts Danae and Perseus to the palace on Seriphus.",
+    "boundaryRationale": "The production unit follows the linked source's exposure-and-rescue sequence only; motives such as avoiding blood guilt and invented actions by Danae are excluded."
+  },
+  "variant": {
+    "chosenVersion": "Berens' Seriphus rescue version: Acrisius exposes mother and child in a chest, and Dictys finds them on the beach.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "danae",
+      "name": "Danae",
+      "role": "mother exposed at sea with Perseus",
+      "goal": "survive the journey in the chest"
+    },
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "role": "child exposed with Danae",
+      "goal": "survive until rescue"
+    },
+    {
+      "id": "acrisius",
+      "name": "Acrisius",
+      "role": "king ordering the exposure",
+      "goal": "remove Danae and Perseus from Argos"
+    },
+    {
+      "id": "dictys",
+      "name": "Dictys",
+      "role": "fisherman who finds the chest",
+      "goal": "bring its occupants to safety"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "danae",
+      "relationship": "parent-of",
+      "target": "perseus",
+      "rationale": "The linked source identifies Danae as Perseus' mother."
+    },
+    {
+      "source": "acrisius",
+      "relationship": "parent-of",
+      "target": "danae",
+      "rationale": "The linked source identifies Danae as Acrisius' daughter."
+    },
+    {
+      "source": "dictys",
+      "relationship": "rescuer-of",
+      "target": "danae",
+      "rationale": "Dictys finds the chest and conducts Danae to the palace."
+    },
+    {
+      "source": "dictys",
+      "relationship": "rescuer-of",
+      "target": "perseus",
+      "rationale": "Dictys finds the chest and conducts Perseus to the palace."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Acrisius orders Danae and Perseus shut in a chest and thrown into the sea. The chest reaches Seriphus and strands on the beach, where Dictys finds the helpless occupants and brings them to the king's palace.",
+    "openingSituation": "Acrisius discovers that confining Danae did not prevent the prophesied child from existing.",
+    "centralConflict": "Danae and Perseus are exposed to the sea inside a closed chest.",
+    "resolution": "The chest strands on Seriphus and Dictys finds it while fishing.",
+    "outcome": "Dictys conducts Danae and Perseus to the palace, where they are treated kindly."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "acrisius",
+      "action": "recognize-failure",
+      "target": "danae",
+      "consequence": "Acrisius finds that his precautions have been unavailing.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "acrisius",
+      "action": "confine-in-chest",
+      "target": "danae",
+      "consequence": "Danae and Perseus are placed together in a chest.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "acrisius",
+      "action": "expose-at-sea",
+      "target": "perseus",
+      "consequence": "The chest containing mother and child is thrown into the sea.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "danae",
+      "action": "arrive",
+      "target": null,
+      "consequence": "The chest carrying Danae and Perseus strands on the beach.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "dictys",
+      "action": "rescue",
+      "target": "danae",
+      "consequence": "Dictys finds the chest and conducts both occupants to the palace.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Argos",
+    "sea",
+    "Seriphus"
+  ],
+  "themes": [
+    "exposure",
+    "survival",
+    "rescue"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Acrisius orders mother and child sealed into a chest.",
+      "The chest moves across the sea and washes onto Seriphus.",
+      "Dictys opens the stranded chest and leads Danae and Perseus to safety."
+    ],
+    "sensitiveContent": [
+      "child endangerment",
+      "exposure at sea"
+    ],
+    "productionNotes": [
+      "Do not attribute a blood-guilt motive to Acrisius or invent protective actions by Danae that the linked passage does not state."
+    ]
+  }
+}

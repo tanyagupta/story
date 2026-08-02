@@ -1,0 +1,149 @@
+{
+  "id": "production-myth-0014",
+  "title": "Hera Claims Her Throne",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Hera Claims Her Throne; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins after Zeus’ kingship is established and Hera takes her place beside him.",
+    "ending": "It ends with Hera recognized as queen and guardian of marriage, though divine conflict remains possible.",
+    "boundaryRationale": "The episode begins with the episode begins after zeus’ kingship is established and hera takes her place beside him and closes at it ends with hera recognized as queen and guardian of marriage, though divine conflict remains possible, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of Hera’s enthronement as status episode, not a jealousy tale.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "hera",
+      "name": "Hera",
+      "role": "queen of Olympus",
+      "goal": "assert royal and marital authority"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "king of Olympus",
+      "goal": "share the divine throne uneasily"
+    },
+    {
+      "id": "olympians",
+      "name": "Olympians",
+      "role": "divine household",
+      "goal": "recognize Hera’s rank"
+    },
+    {
+      "id": "hebe",
+      "name": "Hebe",
+      "role": "daughter of Hera",
+      "goal": "embody household continuity"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "hera",
+      "relationship": "spouse-of",
+      "target": "zeus",
+      "rationale": "Hera spouse of Zeus during Hera Claims Her Throne."
+    },
+    {
+      "source": "hera",
+      "relationship": "ruler-of",
+      "target": "olympians",
+      "rationale": "Hera ruler of Olympians during Hera Claims Her Throne."
+    },
+    {
+      "source": "hebe",
+      "relationship": "child-of",
+      "target": "hera",
+      "rationale": "Hebe child of Hera during Hera Claims Her Throne."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Hera’s episode is a status-making myth rather than a battle. She takes the throne beside Zeus, making marriage, legitimacy, and queenly dignity part of Olympian rule.",
+    "openingSituation": "Zeus holds kingship, but Olympus also needs queenly authority.",
+    "centralConflict": "The divine household must balance Zeus’ sovereignty with Hera’s claim over marriage and legitimacy.",
+    "resolution": "Hera is recognized as queen of the Olympians.",
+    "outcome": "Olympus gains a formal queen whose dignity can become a source of order or conflict."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "hera",
+      "action": "ascend",
+      "target": "zeus",
+      "consequence": "Hera takes her place beside Zeus.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "zeus",
+      "action": "recognize",
+      "target": "hera",
+      "consequence": "Zeus’ kingship is paired with Hera’s queenly rank.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "olympians",
+      "action": "honor",
+      "target": "hera",
+      "consequence": "The divine household recognizes her authority.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "hera",
+      "action": "protect",
+      "target": "olympians",
+      "consequence": "Marriage and legitimate household order fall under Hera’s power.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "hebe",
+      "action": "continue",
+      "target": "hera",
+      "consequence": "Hebe represents continuity inside Hera’s household role.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Olympian realm"
+  ],
+  "themes": [
+    "divine authority",
+    "Olympian order",
+    "ascend"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Zeus holds kingship, but Olympus also needs queenly authority.",
+      "The divine household must balance Zeus’ sovereignty with Hera’s claim over marriage and legitimacy.",
+      "Hera is recognized as queen of the Olympians."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: The divine household must balance Zeus’ sovereignty with Hera’s claim over marriage and legitimacy."
+    ]
+  }
+}

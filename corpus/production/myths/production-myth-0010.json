@@ -1,0 +1,175 @@
+{
+  "id": "production-myth-0010",
+  "title": "The Olympians Defeat the Titans",
+  "mythFamily": "Primordial and Creation",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of The Olympians Defeat the Titans; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins after Zeus has freed his siblings and the conflict with Cronus becomes open war.",
+    "ending": "It ends when the Titans are defeated and the Olympians can divide power.",
+    "boundaryRationale": "The episode begins with the episode begins after zeus has freed his siblings and the conflict with cronus becomes open war and closes at it ends when the titans are defeated and the olympians can divide power, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Titanomachy focused on the Olympian victory, aided by freed Cyclopes and other imprisoned powers.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "Olympian leader",
+      "goal": "overthrow Cronus and the Titans"
+    },
+    {
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "Titan king",
+      "goal": "retain cosmic rule"
+    },
+    {
+      "id": "poseidon",
+      "name": "Poseidon",
+      "role": "Olympian ally",
+      "goal": "fight beside Zeus"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "Olympian ally",
+      "goal": "fight beside Zeus"
+    },
+    {
+      "id": "cyclopes",
+      "name": "Cyclopes",
+      "role": "freed smiths",
+      "goal": "arm Zeus with thunder"
+    },
+    {
+      "id": "titans",
+      "name": "Titans",
+      "role": "old ruling generation",
+      "goal": "resist the Olympians"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "zeus",
+      "relationship": "enemy-of",
+      "target": "cronus",
+      "rationale": "Zeus enemy of Cronus during The Olympians Defeat the Titans."
+    },
+    {
+      "source": "poseidon",
+      "relationship": "ally-of",
+      "target": "zeus",
+      "rationale": "Poseidon ally of Zeus during The Olympians Defeat the Titans."
+    },
+    {
+      "source": "hades",
+      "relationship": "ally-of",
+      "target": "zeus",
+      "rationale": "Hades ally of Zeus during The Olympians Defeat the Titans."
+    },
+    {
+      "source": "cyclopes",
+      "relationship": "ally-of",
+      "target": "zeus",
+      "rationale": "Cyclopes ally of Zeus during The Olympians Defeat the Titans."
+    },
+    {
+      "source": "titans",
+      "relationship": "enemy-of",
+      "target": "zeus",
+      "rationale": "Titans enemy of Zeus during The Olympians Defeat the Titans."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Zeus turns the liberation of his siblings into open war against Cronus. With thunder from the Cyclopes and allied divine forces, the Olympians defeat the Titans and end the old order.",
+    "openingSituation": "Two generations of gods face each other after Cronus’ children are freed.",
+    "centralConflict": "The Titans still possess the older claim to rule and must be displaced by force.",
+    "resolution": "Zeus’ side wins and the Titans lose control of the cosmos.",
+    "outcome": "The Olympian order can now be established."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "zeus",
+      "action": "lead",
+      "target": "poseidon",
+      "consequence": "Zeus gathers his siblings for war.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "cronus",
+      "action": "resist",
+      "target": "zeus",
+      "consequence": "Cronus and the Titans defend the old rule.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "zeus",
+      "action": "free",
+      "target": "cyclopes",
+      "consequence": "Zeus gains help from imprisoned powers.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "cyclopes",
+      "action": "arm",
+      "target": "zeus",
+      "consequence": "Thunder and lightning become Zeus’ weapons.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "zeus",
+      "action": "defeat",
+      "target": "titans",
+      "consequence": "The Olympians overcome the Titans.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "cosmic beginning"
+  ],
+  "themes": [
+    "primordial emergence",
+    "divine succession",
+    "lead"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Two generations of gods face each other after Cronus’ children are freed.",
+      "The Titans still possess the older claim to rule and must be displaced by force.",
+      "Zeus’ side wins and the Titans lose control of the cosmos."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: The Titans still possess the older claim to rule and must be displaced by force."
+    ]
+  }
+}

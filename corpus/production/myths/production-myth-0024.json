@@ -1,0 +1,139 @@
+{
+  "id": "production-myth-0024",
+  "title": "Athena and Arachne",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Athena and Arachne; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins when Arachne boasts that her weaving surpasses Athena’s.",
+    "ending": "It ends when Arachne is transformed into a spider and condemned to weave forever.",
+    "boundaryRationale": "The episode begins with the episode begins when arachne boasts that her weaving surpasses athena’s and closes at it ends when arachne is transformed into a spider and condemned to weave forever, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Ovidian contest version treated as Greek myth production adaptation with Roman literary transmission disclosed.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "arachne",
+      "name": "Arachne",
+      "role": "mortal weaver",
+      "goal": "prove her skill against a goddess"
+    },
+    {
+      "id": "athena",
+      "name": "Athena",
+      "role": "goddess of craft",
+      "goal": "defend divine authority"
+    },
+    {
+      "id": "nymphs",
+      "name": "Nymphs",
+      "role": "witnesses",
+      "goal": "observe the contest"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "athena",
+      "relationship": "punishes",
+      "target": "arachne",
+      "rationale": "Athena punishes Arachne during Athena and Arachne."
+    },
+    {
+      "source": "arachne",
+      "relationship": "enemy-of",
+      "target": "athena",
+      "rationale": "Arachne enemy of Athena during Athena and Arachne."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Arachne’s skill is real, but her boast turns craft into a direct challenge to Athena. The weaving contest exposes divine shame and mortal defiance, ending in transformation.",
+    "openingSituation": "Arachne’s reputation as a weaver has become a refusal to honor Athena.",
+    "centralConflict": "The contest is about artistry and authority: whether mortal truth-telling can survive divine anger.",
+    "resolution": "Athena destroys the boundary between punishment and craft by changing Arachne’s body.",
+    "outcome": "Arachne continues weaving as a spider, her art preserved and diminished at once."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "arachne",
+      "action": "boast",
+      "target": "athena",
+      "consequence": "Arachne denies Athena’s superiority in weaving.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "athena",
+      "action": "warn",
+      "target": "arachne",
+      "consequence": "Athena confronts the mortal craftswoman.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "arachne",
+      "action": "weave",
+      "target": "athena",
+      "consequence": "Arachne creates a provocative tapestry.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "athena",
+      "action": "punish",
+      "target": "arachne",
+      "consequence": "Athena answers the challenge with divine anger.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "arachne",
+      "action": "transform",
+      "target": "arachne",
+      "consequence": "Arachne becomes a spider and keeps weaving.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Arachne’s weaving room"
+  ],
+  "themes": [
+    "divine authority",
+    "Olympian order",
+    "boast"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Arachne’s reputation as a weaver has become a refusal to honor Athena.",
+      "The contest is about artistry and authority: whether mortal truth-telling can survive divine anger.",
+      "Athena destroys the boundary between punishment and craft by changing Arachne’s body."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: The contest is about artistry and authority: whether mortal truth-telling can survive divine anger."
+    ]
+  }
+}

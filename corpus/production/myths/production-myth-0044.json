@@ -1,0 +1,158 @@
+{
+  "id": "production-myth-0044",
+  "title": "Polydectes Demands Medusa's Head",
+  "mythFamily": "Perseus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Polydectes Demands Medusa's Head; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Polydectes wants Danae and sees Perseus as an obstacle.",
+    "ending": "Perseus is bound by his boast or promise to seek Medusa’s head.",
+    "boundaryRationale": "The episode begins with polydectes wants danae and sees perseus as an obstacle and closes at perseus is bound by his boast or promise to seek medusa’s head, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Seriphos demand episode before the divine tool quest.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "polydectes",
+      "name": "Polydectes",
+      "role": "king of Seriphos",
+      "goal": "remove Perseus and pressure Danae"
+    },
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "role": "young hero",
+      "goal": "accept the impossible demand"
+    },
+    {
+      "id": "danae",
+      "name": "Danae",
+      "role": "mother of Perseus",
+      "goal": "resist Polydectes’ pursuit"
+    },
+    {
+      "id": "medusa",
+      "name": "Medusa",
+      "role": "deadly Gorgon",
+      "goal": "become the demanded prize"
+    },
+    {
+      "id": "dictys",
+      "name": "Dictys",
+      "role": "protector",
+      "goal": "stand apart from Polydectes’ scheme"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "perseus",
+      "relationship": "protects",
+      "target": "danae",
+      "rationale": "Perseus protects Danae during Polydectes Demands Medusa's Head."
+    },
+    {
+      "source": "polydectes",
+      "relationship": "enemy-of",
+      "target": "perseus",
+      "rationale": "Polydectes enemy of Perseus during Polydectes Demands Medusa's Head."
+    },
+    {
+      "source": "dictys",
+      "relationship": "protects",
+      "target": "danae",
+      "rationale": "Dictys protects Danae during Polydectes Demands Medusa's Head."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Polydectes weaponizes hospitality and heroic pride to remove Perseus from Seriphos. By demanding Medusa’s head, he turns a courtly exchange into an apparent death sentence.",
+    "openingSituation": "Perseus protects Danae from Polydectes’ pressure.",
+    "centralConflict": "The king cannot seize Danae freely while Perseus remains present.",
+    "resolution": "Perseus accepts the demand for Medusa’s head.",
+    "outcome": "The Gorgon quest begins as a trap set by Polydectes."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "polydectes",
+      "action": "desire",
+      "target": "danae",
+      "consequence": "Polydectes pursues Danae.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "perseus",
+      "action": "protect",
+      "target": "danae",
+      "consequence": "Perseus blocks the king’s pressure.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "polydectes",
+      "action": "deceive",
+      "target": "perseus",
+      "consequence": "Polydectes sets up the fatal demand.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "perseus",
+      "action": "promise",
+      "target": "medusa",
+      "consequence": "Perseus accepts the Gorgon task.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "polydectes",
+      "action": "send",
+      "target": "perseus",
+      "consequence": "The king removes Perseus from Seriphos.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Seriphos",
+    "Polydectes’ hall"
+  ],
+  "themes": [
+    "coercion",
+    "heroic promise",
+    "false hospitality"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Perseus protects Danae from Polydectes’ pressure.",
+      "The king cannot seize Danae freely while Perseus remains present.",
+      "Perseus accepts the demand for Medusa’s head."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Make the feast or demand feel socially polite on the surface and lethal underneath."
+    ]
+  }
+}

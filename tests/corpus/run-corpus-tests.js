@@ -18,6 +18,7 @@ const {
   portablePath,
   portableReportValue
 } = require("../../src/corpus/corpus-core");
+const { validateProductionCorpus } = require("../../src/corpus/production-validate");
 
 const root = path.resolve(__dirname, "../..");
 const fixtureRoot = path.join(root, "tests/fixtures/corpus");
@@ -939,6 +940,32 @@ test("bulk verified records use exact sourceText and targeted entity evidence", 
       });
     });
   });
+});
+
+test("AI production mythology corpus is separate, complete, and internally valid", () => {
+  const report = validateProductionCorpus();
+  assert.strictEqual(report.valid, true, report.errors.join("\n"));
+  assert.strictEqual(report.productionRecords, 200);
+  assert.strictEqual(report.planRecords, 200);
+  assert.strictEqual(report.catalogRecords, 200);
+  assert.strictEqual(report.sourceAuditedReferenceRecords, 32);
+  assert.strictEqual(report.substantivelyRepaired, 50);
+  assert.strictEqual(report.remainingPlaceholders, 150);
+  assert.strictEqual(report.placeholderSelfCertifiedQualityCount, 150);
+
+  const productionCatalog = readJson(path.join(root, "corpus/production/catalog/production-myths.json"));
+  assert.strictEqual(productionCatalog.records.length, 200);
+  assert.ok(productionCatalog.records.every((record) => record.file.startsWith("corpus/production/myths/")));
+
+  const verifiedCatalog = readJson(path.join(root, "corpus/catalog/verified-myths.json"));
+  assert.ok(!verifiedCatalog.entries.some((record) => record.file && record.file.startsWith("corpus/production/")));
+
+  const firstRecord = readJson(path.join(root, "corpus/production/myths/production-myth-0001.json"));
+  assert.strictEqual(firstRecord.status, "ai_constructed_production");
+  assert.strictEqual(firstRecord.provenance.specificSourceVerified, false);
+  assert.ok(!firstRecord.qualityReview);
+  assert.strictEqual(firstRecord.characters[0].name, "Chaos");
+  assert.ok(!JSON.stringify(firstRecord).includes("verified_by_source_audit"));
 });
 
 fs.rmSync(tempRoot, { recursive: true, force: true });

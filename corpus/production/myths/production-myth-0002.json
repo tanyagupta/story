@@ -1,0 +1,149 @@
+{
+  "id": "production-myth-0002",
+  "title": "Gaia Bears Uranus",
+  "mythFamily": "Primordial and Creation",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Gaia Bears Uranus; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins with Gaia already formed as earth but lacking the sky above her.",
+    "ending": "It ends when Uranus covers Gaia and becomes the partner from whom later divine children descend.",
+    "boundaryRationale": "The episode begins with the episode begins with gaia already formed as earth but lacking the sky above her and closes at it ends when uranus covers gaia and becomes the partner from whom later divine children descend, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Hesiodic account in which Gaia bears Uranus herself before their union.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "gaia",
+      "name": "Gaia",
+      "role": "earth mother",
+      "goal": "create a covering sky"
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "role": "starry sky",
+      "goal": "cover Gaia and father children"
+    },
+    {
+      "id": "ourea",
+      "name": "Ourea",
+      "role": "mountains",
+      "goal": "rise from Gaia"
+    },
+    {
+      "id": "pontus",
+      "name": "Pontus",
+      "role": "sea",
+      "goal": "surround the earth"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "gaia",
+      "relationship": "parent-of",
+      "target": "uranus",
+      "rationale": "Gaia parent of Uranus during Gaia Bears Uranus."
+    },
+    {
+      "source": "gaia",
+      "relationship": "parent-of",
+      "target": "ourea",
+      "rationale": "Gaia parent of Ourea during Gaia Bears Uranus."
+    },
+    {
+      "source": "gaia",
+      "relationship": "parent-of",
+      "target": "pontus",
+      "rationale": "Gaia parent of Pontus during Gaia Bears Uranus."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Gaia, newly present as earth, brings forth the starry Uranus to cover her on every side. She also produces mountains and sea, and the earth-sky pairing becomes the foundation for the first divine household.",
+    "openingSituation": "Gaia exists before the sky has taken its place above her.",
+    "centralConflict": "The world needs height, horizon, and surrounding waters before divine generations can unfold.",
+    "resolution": "Uranus stretches over Gaia, while mountains and Pontus complete the first landscape.",
+    "outcome": "Earth and sky are joined, setting up both creation and later oppression."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "gaia",
+      "action": "bear",
+      "target": "uranus",
+      "consequence": "The starry sky comes from Gaia.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "gaia",
+      "action": "raise",
+      "target": "ourea",
+      "consequence": "Mountains give the earth visible height.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "gaia",
+      "action": "release",
+      "target": "pontus",
+      "consequence": "The sea takes its place around the land.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "uranus",
+      "action": "cover",
+      "target": "gaia",
+      "consequence": "Sky becomes Gaia’s enclosing counterpart.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "gaia",
+      "action": "join",
+      "target": "uranus",
+      "consequence": "Their union prepares the next generation.",
+      "factIds": [
+        "fact-04"
+      ]
+    }
+  ],
+  "locations": [
+    "cosmic beginning"
+  ],
+  "themes": [
+    "primordial emergence",
+    "divine succession",
+    "bear"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Gaia exists before the sky has taken its place above her.",
+      "The world needs height, horizon, and surrounding waters before divine generations can unfold.",
+      "Uranus stretches over Gaia, while mountains and Pontus complete the first landscape."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: The world needs height, horizon, and surrounding waters before divine generations can unfold."
+    ]
+  }
+}

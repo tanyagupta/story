@@ -1,0 +1,169 @@
+{
+  "id": "production-myth-0040",
+  "title": "Persephone Eats the Pomegranate",
+  "mythFamily": "Demeter and Persephone",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Persephone Eats the Pomegranate; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Hermes reaches Hades with Zeus’ order to release Persephone.",
+    "ending": "Persephone returns to Demeter but must spend part of each year below because she ate the pomegranate.",
+    "boundaryRationale": "The episode begins with hermes reaches hades with zeus’ order to release persephone and closes at persephone returns to demeter but must spend part of each year below because she ate the pomegranate, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Pomegranate-binding version of the seasonal compromise.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "persephone",
+      "name": "Persephone",
+      "role": "abducted daughter",
+      "goal": "return with a binding condition"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "underworld ruler",
+      "goal": "secure part of Persephone’s year"
+    },
+    {
+      "id": "demeter",
+      "name": "Demeter",
+      "role": "mother seeking reunion",
+      "goal": "recover her daughter incompletely"
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes",
+      "role": "messenger",
+      "goal": "escort Persephone upward"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "arbiter",
+      "goal": "accept the divided year"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "demeter",
+      "relationship": "parent-of",
+      "target": "persephone",
+      "rationale": "Demeter parent of Persephone during Persephone Eats the Pomegranate."
+    },
+    {
+      "source": "hades",
+      "relationship": "spouse-of",
+      "target": "persephone",
+      "rationale": "Hades spouse of Persephone during Persephone Eats the Pomegranate."
+    },
+    {
+      "source": "hermes",
+      "relationship": "rescuer-of",
+      "target": "persephone",
+      "rationale": "Hermes rescuer of Persephone during Persephone Eats the Pomegranate."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Persephone’s return is real but incomplete. Hades’ pomegranate makes reunion conditional, creating the divided rhythm between underworld marriage and Demeter’s upper-world joy.",
+    "openingSituation": "Zeus has ordered Persephone’s release from Hades.",
+    "centralConflict": "A small act of eating carries cosmic consequences for mother, daughter, and seasons.",
+    "resolution": "Persephone returns but is bound to come back below.",
+    "outcome": "The year is divided, explaining recurring loss and renewal."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "hermes",
+      "action": "summon",
+      "target": "hades",
+      "consequence": "Hermes delivers Zeus’ command.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "hades",
+      "action": "give",
+      "target": "persephone",
+      "consequence": "Hades offers the pomegranate seeds.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "persephone",
+      "action": "eat",
+      "target": "hades",
+      "consequence": "Persephone eats the binding food.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "hermes",
+      "action": "escort",
+      "target": "persephone",
+      "consequence": "Hermes leads her back upward.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "demeter",
+      "action": "reunite",
+      "target": "persephone",
+      "consequence": "Mother and daughter meet again.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "zeus",
+      "action": "divide",
+      "target": "persephone",
+      "consequence": "Zeus accepts the divided year.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "underworld",
+    "upper world",
+    "Demeter’s sanctuary"
+  ],
+  "themes": [
+    "seasonal cycle",
+    "conditional return",
+    "mother and daughter"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Zeus has ordered Persephone’s release from Hades.",
+      "A small act of eating carries cosmic consequences for mother, daughter, and seasons.",
+      "Persephone returns but is bound to come back below."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Show the pomegranate as quiet, small, and more binding than chains."
+    ]
+  }
+}

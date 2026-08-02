@@ -1,0 +1,155 @@
+{
+  "id": "production-myth-0017",
+  "title": "Hermes Steals Apollo's Cattle",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Hermes Steals Apollo's Cattle; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins on the day Hermes is born, when he slips from Maia’s cave.",
+    "ending": "It ends when Hermes reconciles with Apollo through music and exchange, gaining a place among the gods.",
+    "boundaryRationale": "The episode begins with the episode begins on the day hermes is born, when he slips from maia’s cave and closes at it ends when hermes reconciles with apollo through music and exchange, gaining a place among the gods, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Homeric Hymn style version centered on theft, denial, lyre, and reconciliation.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "hermes",
+      "name": "Hermes",
+      "role": "newborn trickster",
+      "goal": "prove his cunning and win status"
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "role": "wronged cattle owner",
+      "goal": "recover the stolen herd"
+    },
+    {
+      "id": "maia",
+      "name": "Maia",
+      "role": "mother of Hermes",
+      "goal": "protect the infant’s appearance of innocence"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "divine judge",
+      "goal": "settle the quarrel"
+    },
+    {
+      "id": "cattle",
+      "name": "Cattle",
+      "role": "stolen herd",
+      "goal": "reveal Hermes’ trick"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "hermes",
+      "relationship": "child-of",
+      "target": "maia",
+      "rationale": "Hermes child of Maia during Hermes Steals Apollo's Cattle."
+    },
+    {
+      "source": "hermes",
+      "relationship": "enemy-of",
+      "target": "apollo",
+      "rationale": "Hermes enemy of Apollo during Hermes Steals Apollo's Cattle."
+    },
+    {
+      "source": "zeus",
+      "relationship": "parent-of",
+      "target": "hermes",
+      "rationale": "Zeus parent of Hermes during Hermes Steals Apollo's Cattle."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Newborn Hermes refuses to remain a helpless infant. He steals Apollo’s cattle, hides the evidence, and then turns conflict into alliance by offering music Apollo cannot resist.",
+    "openingSituation": "Hermes is newly born in Maia’s cave, apparently too young for divine mischief.",
+    "centralConflict": "Apollo’s stolen cattle expose Hermes as a trickster before he has an official Olympian role.",
+    "resolution": "Hermes’ lyre transforms accusation into exchange.",
+    "outcome": "Apollo gains music, Hermes gains recognition, and trickery becomes part of divine order."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "hermes",
+      "action": "escape",
+      "target": "maia",
+      "consequence": "Hermes leaves the cradle on his birth day.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "hermes",
+      "action": "steal",
+      "target": "cattle",
+      "consequence": "He drives away Apollo’s herd.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "hermes",
+      "action": "conceal",
+      "target": "apollo",
+      "consequence": "He hides tracks and evidence.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "apollo",
+      "action": "accuse",
+      "target": "hermes",
+      "consequence": "Apollo brings the theft before Zeus.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "hermes",
+      "action": "exchange",
+      "target": "apollo",
+      "consequence": "Hermes offers the lyre and wins reconciliation.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Olympian realm"
+  ],
+  "themes": [
+    "divine authority",
+    "Olympian order",
+    "escape"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Hermes is newly born in Maia’s cave, apparently too young for divine mischief.",
+      "Apollo’s stolen cattle expose Hermes as a trickster before he has an official Olympian role.",
+      "Hermes’ lyre transforms accusation into exchange."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: Apollo’s stolen cattle expose Hermes as a trickster before he has an official Olympian role."
+    ]
+  }
+}

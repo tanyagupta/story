@@ -1,0 +1,145 @@
+{
+  "id": "production-myth-0021",
+  "title": "Dionysus and the Pirates",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Dionysus and the Pirates; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins when pirates seize a beautiful youth they do not recognize as Dionysus.",
+    "ending": "It ends when Dionysus transforms the pirates into dolphins and spares the helmsman who warned them.",
+    "boundaryRationale": "The episode begins with the episode begins when pirates seize a beautiful youth they do not recognize as dionysus and closes at it ends when dionysus transforms the pirates into dolphins and spares the helmsman who warned them, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Homeric Hymn to Dionysus version with ship miracles, vine imagery, and dolphin transformation.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "dionysus",
+      "name": "Dionysus",
+      "role": "disguised god",
+      "goal": "reveal divinity at sea"
+    },
+    {
+      "id": "pirates",
+      "name": "Pirates",
+      "role": "kidnappers",
+      "goal": "profit from a captive they misunderstand"
+    },
+    {
+      "id": "helmsman",
+      "name": "Helmsman",
+      "role": "cautious sailor",
+      "goal": "warn the crew"
+    },
+    {
+      "id": "ship",
+      "name": "Ship",
+      "role": "miracle-filled vessel",
+      "goal": "display divine signs"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "dionysus",
+      "relationship": "punishes",
+      "target": "pirates",
+      "rationale": "Dionysus punishes Pirates during Dionysus and the Pirates."
+    },
+    {
+      "source": "helmsman",
+      "relationship": "protects",
+      "target": "dionysus",
+      "rationale": "Helmsman protects Dionysus during Dionysus and the Pirates."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Pirates think Dionysus is a rich captive, but their ship becomes the stage for revelation. Vines, broken bonds, and terror expose the god, and the kidnappers become dolphins.",
+    "openingSituation": "A pirate crew finds a beautiful youth and imagines ransom or sale.",
+    "centralConflict": "Only the helmsman recognizes the danger of treating the stranger as ordinary prey.",
+    "resolution": "Dionysus fills the ship with divine signs and transforms the attackers.",
+    "outcome": "The helmsman survives, while the pirates live on as dolphins."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "pirates",
+      "action": "seize",
+      "target": "dionysus",
+      "consequence": "The crew captures the disguised god.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "helmsman",
+      "action": "warn",
+      "target": "pirates",
+      "consequence": "The helmsman suspects divinity.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "ship",
+      "action": "bloom",
+      "target": "dionysus",
+      "consequence": "Miraculous vines and signs cover the vessel.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "dionysus",
+      "action": "terrify",
+      "target": "pirates",
+      "consequence": "The captive reveals divine power.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "dionysus",
+      "action": "transform",
+      "target": "pirates",
+      "consequence": "The kidnappers become dolphins.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Aegean ship"
+  ],
+  "themes": [
+    "divine authority",
+    "Olympian order",
+    "seize"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "A pirate crew finds a beautiful youth and imagines ransom or sale.",
+      "Only the helmsman recognizes the danger of treating the stranger as ordinary prey.",
+      "Dionysus fills the ship with divine signs and transforms the attackers."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: Only the helmsman recognizes the danger of treating the stranger as ordinary prey."
+    ]
+  }
+}

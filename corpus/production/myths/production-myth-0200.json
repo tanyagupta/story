@@ -1,0 +1,214 @@
+{
+  "id": "production-myth-0200",
+  "title": "The Dioscuri Rescue Helen",
+  "mythFamily": "Other Tragic and Heroic Myths",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
+    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "The Dioscuri Rescue Helen begins with Helen in a focused Other Tragic and Heroic Myths situation rather than a full-cycle summary. The episode closes once Helen's decisive action changes the condition of Hero and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Common production version chosen for coherence and recognizability.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of The Dioscuri Rescue Helen, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "The Dioscuri Rescue Helen begins with Helen in a focused Other Tragic and Heroic Myths situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Helen and Hero.",
+    "resolution": "The episode closes once Helen's decisive action changes the condition of Hero and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Helen and Hero, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "The Dioscuri Rescue Helen begins with Helen in a focused Other Tragic and Heroic Myths situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Helen and Hero."
+      },
+      {
+        "beat": "turn",
+        "text": "Helen takes the decisive confront action that defines The Dioscuri Rescue Helen."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Helen and Hero, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "helen",
+      "name": "Helen",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "hero",
+      "name": "Hero",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "divine-power",
+      "name": "Divine Power",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "supportingCharacters": [
+    {
+      "id": "family",
+      "name": "Family",
+      "role": "supporting",
+      "entityType": "group-or-concept"
+    }
+  ],
+  "entityMappings": [
+    {
+      "sourceName": "Helen",
+      "normalizedId": "helen",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Hero",
+      "normalizedId": "hero",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Divine Power",
+      "normalizedId": "divine-power",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Family",
+      "normalizedId": "family",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "helen",
+      "relationship": "central_to",
+      "target": "hero",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Helen and Hero define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0200-event-01",
+      "actor": "helen",
+      "action": "establish",
+      "target": "hero",
+      "object": null,
+      "recipient": null,
+      "location": "other-tragic-and-heroic-myths-setting",
+      "normalizedStatement": "The Dioscuri Rescue Helen begins with Helen in a focused Other Tragic and Heroic Myths situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0200-event-02",
+      "actor": "hero",
+      "action": "challenge",
+      "target": "helen",
+      "object": null,
+      "recipient": null,
+      "location": "other-tragic-and-heroic-myths-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Helen and Hero.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0200-event-03",
+      "actor": "helen",
+      "action": "confront",
+      "target": "divine-power",
+      "object": null,
+      "recipient": null,
+      "location": "other-tragic-and-heroic-myths-setting",
+      "normalizedStatement": "Helen performs the decisive action associated with The Dioscuri Rescue Helen.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0200-event-04",
+      "actor": "helen",
+      "action": "resolve",
+      "target": "hero",
+      "object": null,
+      "recipient": null,
+      "location": "other-tragic-and-heroic-myths-setting",
+      "normalizedStatement": "The episode closes once Helen's decisive action changes the condition of Hero and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "other-tragic-and-heroic-myths-setting",
+      "name": "Other Tragic and Heroic Myths setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "other tragic and heroic myths",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "The Dioscuri Rescue Helen begins with Helen in a focused Other Tragic and Heroic Myths situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Helen and Hero.",
+      "The episode closes once Helen's decisive action changes the condition of Hero and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Helen and Hero.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

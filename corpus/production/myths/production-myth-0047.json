@@ -1,0 +1,174 @@
+{
+  "id": "production-myth-0047",
+  "title": "Perseus Rescues Andromeda",
+  "mythFamily": "Perseus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Perseus Rescues Andromeda; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Perseus sees Andromeda chained to a rock as an offering to the sea monster.",
+    "ending": "Perseus kills the monster and wins Andromeda’s release and marriage promise.",
+    "boundaryRationale": "The episode begins with perseus sees andromeda chained to a rock as an offering to the sea monster and closes at perseus kills the monster and wins andromeda’s release and marriage promise, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Andromeda rescue episode; the later Phineus wedding fight is excluded.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "role": "returning hero",
+      "goal": "rescue Andromeda"
+    },
+    {
+      "id": "andromeda",
+      "name": "Andromeda",
+      "role": "chained princess",
+      "goal": "survive sacrifice to the sea monster"
+    },
+    {
+      "id": "cepheus",
+      "name": "Cepheus",
+      "role": "father and king",
+      "goal": "agree to Perseus’ terms"
+    },
+    {
+      "id": "cassiopeia",
+      "name": "Cassiopeia",
+      "role": "boastful queen",
+      "goal": "cause the punishment in many versions"
+    },
+    {
+      "id": "sea-monster",
+      "name": "Sea monster",
+      "role": "divine punishment",
+      "goal": "threaten Andromeda"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "cepheus",
+      "relationship": "parent-of",
+      "target": "andromeda",
+      "rationale": "Cepheus parent of Andromeda during Perseus Rescues Andromeda."
+    },
+    {
+      "source": "cassiopeia",
+      "relationship": "parent-of",
+      "target": "andromeda",
+      "rationale": "Cassiopeia parent of Andromeda during Perseus Rescues Andromeda."
+    },
+    {
+      "source": "perseus",
+      "relationship": "rescuer-of",
+      "target": "andromeda",
+      "rationale": "Perseus rescuer of Andromeda during Perseus Rescues Andromeda."
+    },
+    {
+      "source": "sea-monster",
+      "relationship": "enemy-of",
+      "target": "andromeda",
+      "rationale": "Sea monster enemy of Andromeda during Perseus Rescues Andromeda."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Perseus’ return from the Gorgon quest becomes a rescue when he finds Andromeda chained for a monster. The episode closes with the monster defeated and Andromeda released, before later wedding conflict begins.",
+    "openingSituation": "Andromeda has been exposed because her family’s offense has fallen on her body.",
+    "centralConflict": "Perseus must decide whether to risk his prize and life for a stranger’s rescue.",
+    "resolution": "The sea monster is killed and Andromeda is freed.",
+    "outcome": "A rescue becomes a marriage alliance, while later rival claims remain outside this record."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "cassiopeia",
+      "action": "offend",
+      "target": "sea-monster",
+      "consequence": "Cassiopeia’s boast triggers divine punishment.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "andromeda",
+      "action": "suffer",
+      "target": "cassiopeia",
+      "consequence": "Andromeda is chained for sacrifice.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "perseus",
+      "action": "find",
+      "target": "andromeda",
+      "consequence": "Perseus sees her on the rock.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "perseus",
+      "action": "bargain",
+      "target": "cepheus",
+      "consequence": "Perseus secures terms for rescue.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "perseus",
+      "action": "slay",
+      "target": "sea-monster",
+      "consequence": "Perseus kills the monster.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "perseus",
+      "action": "rescue",
+      "target": "andromeda",
+      "consequence": "Andromeda is released.",
+      "factIds": [
+        "fact-06"
+      ]
+    }
+  ],
+  "locations": [
+    "Ethiopian coast",
+    "sacrificial rock"
+  ],
+  "themes": [
+    "rescue",
+    "innocent victim",
+    "monster combat"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Andromeda has been exposed because her family’s offense has fallen on her body.",
+      "Perseus must decide whether to risk his prize and life for a stranger’s rescue.",
+      "The sea monster is killed and Andromeda is freed."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Frame Andromeda’s chains and the sea horizon before Perseus enters."
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "id": "production-myth-0023",
+  "title": "Aphrodite and Anchises",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Aphrodite and Anchises; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins when Zeus causes Aphrodite herself to desire the mortal Anchises.",
+    "ending": "It ends when Aphrodite reveals herself, foretells Aeneas, and warns Anchises not to boast.",
+    "boundaryRationale": "The episode begins with the episode begins when zeus causes aphrodite herself to desire the mortal anchises and closes at it ends when aphrodite reveals herself, foretells aeneas, and warns anchises not to boast, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Homeric Hymn to Aphrodite version centered on Anchises and the birth prophecy of Aeneas.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "aphrodite",
+      "name": "Aphrodite",
+      "role": "goddess compelled by desire",
+      "goal": "bear a mortal-linked child"
+    },
+    {
+      "id": "anchises",
+      "name": "Anchises",
+      "role": "Trojan shepherd",
+      "goal": "encounter the disguised goddess"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "divine cause",
+      "goal": "humble Aphrodite through desire"
+    },
+    {
+      "id": "aeneas",
+      "name": "Aeneas",
+      "role": "future son",
+      "goal": "continue Trojan lineage"
+    },
+    {
+      "id": "nymphs",
+      "name": "Nymphs",
+      "role": "fosterers",
+      "goal": "raise the child in some accounts"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "zeus",
+      "relationship": "punishes",
+      "target": "aphrodite",
+      "rationale": "Zeus punishes Aphrodite during Aphrodite and Anchises."
+    },
+    {
+      "source": "aphrodite",
+      "relationship": "spouse-of",
+      "target": "anchises",
+      "rationale": "Aphrodite spouse of Anchises during Aphrodite and Anchises."
+    },
+    {
+      "source": "aphrodite",
+      "relationship": "parent-of",
+      "target": "aeneas",
+      "rationale": "Aphrodite parent of Aeneas during Aphrodite and Anchises."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Aphrodite, who has made gods and mortals desire one another, is herself overcome by desire for Anchises. The encounter produces the prophecy of Aeneas and a warning against boasting of divine intimacy.",
+    "openingSituation": "Aphrodite’s power over desire is turned back upon her by Zeus.",
+    "centralConflict": "Anchises cannot safely understand the difference between a disguised goddess and a mortal bride.",
+    "resolution": "Aphrodite reveals the truth and sets terms for the child’s future.",
+    "outcome": "Aeneas’ birth is foretold, but Anchises must keep silent or suffer."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "zeus",
+      "action": "compel",
+      "target": "aphrodite",
+      "consequence": "Zeus turns desire back on Aphrodite.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "aphrodite",
+      "action": "approach",
+      "target": "anchises",
+      "consequence": "The goddess comes to Anchises in disguise.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "anchises",
+      "action": "welcome",
+      "target": "aphrodite",
+      "consequence": "Anchises receives her as a possible bride.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "aphrodite",
+      "action": "reveal",
+      "target": "anchises",
+      "consequence": "Aphrodite discloses her divinity.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "aphrodite",
+      "action": "foretell",
+      "target": "aeneas",
+      "consequence": "She announces the child and warns Anchises.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Mount Ida"
+  ],
+  "themes": [
+    "divine authority",
+    "Olympian order",
+    "compel"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Aphrodite’s power over desire is turned back upon her by Zeus.",
+      "Anchises cannot safely understand the difference between a disguised goddess and a mortal bride.",
+      "Aphrodite reveals the truth and sets terms for the child’s future."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: Anchises cannot safely understand the difference between a disguised goddess and a mortal bride."
+    ]
+  }
+}

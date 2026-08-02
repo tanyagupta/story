@@ -1,0 +1,145 @@
+{
+  "id": "production-myth-0042",
+  "title": "Danae and the Golden Rain",
+  "mythFamily": "Perseus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Source-aligned editorial adaptation of Danae and the Golden Rain based only on the linked source-audited record; not a source edition.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0022"
+    ]
+  },
+  "scope": {
+    "beginning": "The episode begins when an oracle tells Acrisius that a future son of Danae will cause his death.",
+    "ending": "It ends when Zeus descends through the brass tower's roof in a shower of gold and reaches Danae.",
+    "boundaryRationale": "The linked source record stops at Zeus' arrival and Danae becoming his bride; Perseus' conception and birth are excluded from this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Berens' brass-tower version in which Zeus descends through the roof as a shower of gold.",
+    "materialAlternatives": [
+      "Perseus' conception, birth, and later exposure at sea are reserved for other episodes."
+    ]
+  },
+  "characters": [
+    {
+      "id": "danae",
+      "name": "Danae",
+      "role": "princess confined in a brass tower",
+      "goal": "endure the isolation imposed by Acrisius"
+    },
+    {
+      "id": "acrisius",
+      "name": "Acrisius",
+      "role": "king attempting to prevent an oracle",
+      "goal": "keep Danae separated from the world"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "god entering the tower as golden rain",
+      "goal": "reach Danae despite the confinement"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "acrisius",
+      "relationship": "parent-of",
+      "target": "danae",
+      "rationale": "The linked source identifies Danae as Acrisius' daughter."
+    },
+    {
+      "source": "zeus",
+      "relationship": "spouse-of",
+      "target": "danae",
+      "rationale": "The linked source says Danae became the bride of Zeus."
+    }
+  ],
+  "narrative": {
+    "synopsis": "An oracle warns Acrisius that Danae's future son will cause his death. Acrisius imprisons Danae in a brass tower, but Zeus descends through the roof in a shower of gold and reaches her.",
+    "openingSituation": "Acrisius receives an oracle concerning a future son of Danae.",
+    "centralConflict": "Acrisius tries to defeat the oracle by sealing Danae away from the world.",
+    "resolution": "Zeus passes through the tower roof in the form of golden rain.",
+    "outcome": "The confinement fails to prevent Zeus from reaching Danae; the linked episode ends before Perseus' birth."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "acrisius",
+      "action": "receive-oracle",
+      "target": "danae",
+      "consequence": "He learns that a future son of Danae will cause his death.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "acrisius",
+      "action": "imprison",
+      "target": "danae",
+      "consequence": "Danae is shut in a tower of brass.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "zeus",
+      "action": "descend",
+      "target": "danae",
+      "consequence": "Zeus passes through the tower roof.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "zeus",
+      "action": "take-form",
+      "target": null,
+      "consequence": "He appears as a shower of gold inside the tower.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "danae",
+      "action": "become-bride",
+      "target": "zeus",
+      "consequence": "The source describes Danae as becoming Zeus' bride.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Argos",
+    "brass tower"
+  ],
+  "themes": [
+    "prophecy",
+    "confinement",
+    "divine entry"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "The oracle's words drive Acrisius to isolate his daughter.",
+      "Danae stands alone inside the sealed brass tower.",
+      "Golden light pours through the roof as Zeus descends."
+    ],
+    "sensitiveContent": [
+      "confinement",
+      "unequal divine-mortal relationship"
+    ],
+    "productionNotes": [
+      "End with Zeus reaching Danae; do not depict conception, pregnancy, or Perseus' birth as part of this linked episode."
+    ]
+  }
+}

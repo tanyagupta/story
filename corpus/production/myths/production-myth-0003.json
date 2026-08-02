@@ -1,0 +1,161 @@
+{
+  "id": "production-myth-0003",
+  "title": "The Titans Are Born",
+  "mythFamily": "Primordial and Creation",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of The Titans Are Born; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins after Gaia and Uranus are joined as earth and sky.",
+    "ending": "It ends with the Titan generation present, including Cronus, the child who will later challenge Uranus.",
+    "boundaryRationale": "The episode begins with the episode begins after gaia and uranus are joined as earth and sky and closes at it ends with the titan generation present, including cronus, the child who will later challenge uranus, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Hesiodic Titan genealogy treated as a bounded birth episode, not a profile of every Titan.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "gaia",
+      "name": "Gaia",
+      "role": "mother of the Titans",
+      "goal": "bring forth powerful children"
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "role": "father of the Titans",
+      "goal": "hold authority over the household"
+    },
+    {
+      "id": "oceanus",
+      "name": "Oceanus",
+      "role": "Titan child",
+      "goal": "embody encircling waters"
+    },
+    {
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "youngest Titan",
+      "goal": "become the dangerous heir"
+    },
+    {
+      "id": "rhea",
+      "name": "Rhea",
+      "role": "Titan daughter",
+      "goal": "continue the divine line"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "gaia",
+      "relationship": "parent-of",
+      "target": "oceanus",
+      "rationale": "Gaia parent of Oceanus during The Titans Are Born."
+    },
+    {
+      "source": "gaia",
+      "relationship": "parent-of",
+      "target": "cronus",
+      "rationale": "Gaia parent of Cronus during The Titans Are Born."
+    },
+    {
+      "source": "uranus",
+      "relationship": "parent-of",
+      "target": "rhea",
+      "rationale": "Uranus parent of Rhea during The Titans Are Born."
+    },
+    {
+      "source": "cronus",
+      "relationship": "sibling-of",
+      "target": "rhea",
+      "rationale": "Cronus sibling of Rhea during The Titans Are Born."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Gaia and Uranus produce the Titans, a powerful generation that includes Oceanus, Rhea, and the youngest child Cronus. The birth episode matters because one child already carries the threat of succession.",
+    "openingSituation": "Earth and sky have become a divine household capable of producing children.",
+    "centralConflict": "A generation powerful enough to inherit the cosmos is born under Uranus’ authority.",
+    "resolution": "The Titans stand as a complete sibling group, with Cronus marked as the future danger.",
+    "outcome": "The first ruling household now contains the force that will break it."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "gaia",
+      "action": "bear",
+      "target": "oceanus",
+      "consequence": "The Titan generation begins with children of earth and sky.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "uranus",
+      "action": "father",
+      "target": "rhea",
+      "consequence": "Uranus becomes patriarch of a powerful divine family.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "gaia",
+      "action": "bear",
+      "target": "cronus",
+      "consequence": "Cronus arrives as the youngest Titan.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "cronus",
+      "action": "threaten",
+      "target": "uranus",
+      "consequence": "Cronus’ nature creates danger for Uranus.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "rhea",
+      "action": "belong",
+      "target": "cronus",
+      "consequence": "Rhea and Cronus link this generation to later Olympian succession.",
+      "factIds": [
+        "fact-04"
+      ]
+    }
+  ],
+  "locations": [
+    "cosmic beginning"
+  ],
+  "themes": [
+    "primordial emergence",
+    "divine succession",
+    "bear"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Earth and sky have become a divine household capable of producing children.",
+      "A generation powerful enough to inherit the cosmos is born under Uranus’ authority.",
+      "The Titans stand as a complete sibling group, with Cronus marked as the future danger."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: A generation powerful enough to inherit the cosmos is born under Uranus’ authority."
+    ]
+  }
+}

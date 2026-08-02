@@ -1,0 +1,175 @@
+{
+  "id": "production-myth-0007",
+  "title": "Cronus Swallows His Children",
+  "mythFamily": "Primordial and Creation",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Cronus Swallows His Children; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins when Cronus learns that one of his children is fated to overthrow him.",
+    "ending": "It ends with Rhea grieving the swallowed children and seeking a way to save the next birth.",
+    "boundaryRationale": "The episode begins with the episode begins when cronus learns that one of his children is fated to overthrow him and closes at it ends with rhea grieving the swallowed children and seeking a way to save the next birth, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Hesiodic succession version in which Cronus swallows the children born from Rhea.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "fearful Titan king",
+      "goal": "prevent a child from replacing him"
+    },
+    {
+      "id": "rhea",
+      "name": "Rhea",
+      "role": "mother of the Olympians",
+      "goal": "preserve her children"
+    },
+    {
+      "id": "hestia",
+      "name": "Hestia",
+      "role": "swallowed child",
+      "goal": "survive inside Cronus"
+    },
+    {
+      "id": "demeter",
+      "name": "Demeter",
+      "role": "swallowed child",
+      "goal": "survive inside Cronus"
+    },
+    {
+      "id": "hera",
+      "name": "Hera",
+      "role": "swallowed child",
+      "goal": "survive inside Cronus"
+    },
+    {
+      "id": "poseidon",
+      "name": "Poseidon",
+      "role": "swallowed child",
+      "goal": "survive inside Cronus"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "swallowed child",
+      "goal": "survive inside Cronus"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "cronus",
+      "relationship": "spouse-of",
+      "target": "rhea",
+      "rationale": "Cronus spouse of Rhea during Cronus Swallows His Children."
+    },
+    {
+      "source": "cronus",
+      "relationship": "captor-of",
+      "target": "hestia",
+      "rationale": "Cronus captor of Hestia during Cronus Swallows His Children."
+    },
+    {
+      "source": "cronus",
+      "relationship": "captor-of",
+      "target": "poseidon",
+      "rationale": "Cronus captor of Poseidon during Cronus Swallows His Children."
+    },
+    {
+      "source": "rhea",
+      "relationship": "parent-of",
+      "target": "hestia",
+      "rationale": "Rhea parent of Hestia during Cronus Swallows His Children."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Cronus repeats the logic of succession fear by swallowing each child Rhea bears. Hestia, Demeter, Hera, Hades, and Poseidon disappear into him, but Rhea’s grief turns toward rescue.",
+    "openingSituation": "Cronus rules after overthrowing Uranus but fears suffering the same fate.",
+    "centralConflict": "Each birth threatens his throne, and each act of swallowing deepens Rhea’s desperation.",
+    "resolution": "The older children are trapped alive inside Cronus.",
+    "outcome": "Rhea is driven to protect Zeus before Cronus can swallow him too."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "cronus",
+      "action": "fear",
+      "target": "rhea",
+      "consequence": "Cronus fears the prophecy attached to his children.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "rhea",
+      "action": "bear",
+      "target": "hestia",
+      "consequence": "Rhea begins bearing the future Olympians.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "cronus",
+      "action": "swallow",
+      "target": "hestia",
+      "consequence": "Cronus consumes each newborn child.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "hades",
+      "action": "remain",
+      "target": "cronus",
+      "consequence": "The swallowed children continue hidden inside him.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "rhea",
+      "action": "seek-help",
+      "target": "cronus",
+      "consequence": "Rhea turns toward a plan for the next child.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "cosmic beginning"
+  ],
+  "themes": [
+    "primordial emergence",
+    "divine succession",
+    "fear"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Cronus rules after overthrowing Uranus but fears suffering the same fate.",
+      "Each birth threatens his throne, and each act of swallowing deepens Rhea’s desperation.",
+      "The older children are trapped alive inside Cronus."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: Each birth threatens his throne, and each act of swallowing deepens Rhea’s desperation."
+    ]
+  }
+}

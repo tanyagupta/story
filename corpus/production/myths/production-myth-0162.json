@@ -1,0 +1,202 @@
+{
+  "id": "production-myth-0162",
+  "title": "Orpheus Charms the Stones",
+  "mythFamily": "Orpheus and Underworld",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
+    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [],
+    "relatedSourceProposalIds": []
+  },
+  "scope": {
+    "type": "complete-episode",
+    "boundaryRationale": "Orpheus Charms the Stones begins with Orpheus in a focused Orpheus and Underworld situation rather than a full-cycle summary. The episode closes once Orpheus's decisive action changes the condition of Eurydice and leaves later cycle material outside this record.",
+    "excludedMaterial": [
+      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
+    ]
+  },
+  "variantPolicy": {
+    "chosenVersion": "Common production version chosen for coherence and recognizability.",
+    "materialAlternatives": [],
+    "mixedVariants": false,
+    "variantNotes": []
+  },
+  "narrative": {
+    "synopsis": "A coherent production adaptation of Orpheus Charms the Stones, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
+    "openingSituation": "Orpheus Charms the Stones begins with Orpheus in a focused Orpheus and Underworld situation rather than a full-cycle summary.",
+    "centralConflict": "The central pressure is the confront action named by the episode, involving Orpheus and Eurydice.",
+    "resolution": "The episode closes once Orpheus's decisive action changes the condition of Eurydice and leaves later cycle material outside this record.",
+    "outcome": "The result is a changed mythic situation for Orpheus and Eurydice, suitable for future adaptation without claiming source verification.",
+    "storyline": [
+      {
+        "beat": "setup",
+        "text": "Orpheus Charms the Stones begins with Orpheus in a focused Orpheus and Underworld situation rather than a full-cycle summary."
+      },
+      {
+        "beat": "conflict",
+        "text": "The central pressure is the confront action named by the episode, involving Orpheus and Eurydice."
+      },
+      {
+        "beat": "turn",
+        "text": "Orpheus takes the decisive confront action that defines Orpheus Charms the Stones."
+      },
+      {
+        "beat": "outcome",
+        "text": "The result is a changed mythic situation for Orpheus and Eurydice, suitable for future adaptation without claiming source verification."
+      }
+    ]
+  },
+  "mainCharacters": [
+    {
+      "id": "orpheus",
+      "name": "Orpheus",
+      "role": "principal",
+      "entityType": "character"
+    },
+    {
+      "id": "eurydice",
+      "name": "Eurydice",
+      "role": "supporting",
+      "entityType": "character"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "supporting",
+      "entityType": "character"
+    }
+  ],
+  "supportingCharacters": [],
+  "entityMappings": [
+    {
+      "sourceName": "Orpheus",
+      "normalizedId": "orpheus",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Eurydice",
+      "normalizedId": "eurydice",
+      "normalizationStatus": "production_canonical"
+    },
+    {
+      "sourceName": "Hades",
+      "normalizedId": "hades",
+      "normalizationStatus": "production_canonical"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "orpheus",
+      "relationship": "central_to",
+      "target": "eurydice",
+      "evidence": null,
+      "sourceText": null,
+      "rationale": "Orpheus and Eurydice define the central production pressure.",
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "production-myth-0162-event-01",
+      "actor": "orpheus",
+      "action": "establish",
+      "target": "eurydice",
+      "object": null,
+      "recipient": null,
+      "location": "orpheus-and-underworld-setting",
+      "normalizedStatement": "Orpheus Charms the Stones begins with Orpheus in a focused Orpheus and Underworld situation rather than a full-cycle summary.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 1,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0162-event-02",
+      "actor": "eurydice",
+      "action": "challenge",
+      "target": "orpheus",
+      "object": null,
+      "recipient": null,
+      "location": "orpheus-and-underworld-setting",
+      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Orpheus and Eurydice.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 2,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0162-event-03",
+      "actor": "orpheus",
+      "action": "confront",
+      "target": "hades",
+      "object": null,
+      "recipient": null,
+      "location": "orpheus-and-underworld-setting",
+      "normalizedStatement": "Orpheus performs the decisive action associated with Orpheus Charms the Stones.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 3,
+      "reviewStatus": "ai_constructed_production"
+    },
+    {
+      "eventId": "production-myth-0162-event-04",
+      "actor": "orpheus",
+      "action": "resolve",
+      "target": "eurydice",
+      "object": null,
+      "recipient": null,
+      "location": "orpheus-and-underworld-setting",
+      "normalizedStatement": "The episode closes once Orpheus's decisive action changes the condition of Eurydice and leaves later cycle material outside this record.",
+      "sourceText": null,
+      "evidence": [],
+      "sequence": 4,
+      "reviewStatus": "ai_constructed_production"
+    }
+  ],
+  "locations": [
+    {
+      "id": "orpheus-and-underworld-setting",
+      "name": "Orpheus and Underworld setting",
+      "role": "primary setting"
+    }
+  ],
+  "themes": [
+    "production adaptation",
+    "orpheus and underworld",
+    "confront"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualMoments": [
+      "Orpheus Charms the Stones begins with Orpheus in a focused Orpheus and Underworld situation rather than a full-cycle summary.",
+      "The central pressure is the confront action named by the episode, involving Orpheus and Eurydice.",
+      "The episode closes once Orpheus's decisive action changes the condition of Eurydice and leaves later cycle material outside this record."
+    ],
+    "dialogueOpportunities": [
+      "A charged exchange between Orpheus and Eurydice.",
+      "A closing line that clarifies the changed mythic condition."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Editorial adaptation for future story use; not an ancient quotation.",
+      "Do not present this production wording as source-audited or scholarly verified."
+    ]
+  },
+  "qualityReview": {
+    "internalConsistencyPassed": true,
+    "variantConsistencyPassed": true,
+    "characterConsistencyPassed": true,
+    "eventSequencePassed": true,
+    "boundaryReviewPassed": true,
+    "duplicateReviewPassed": true,
+    "reviewNotes": [
+      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "id": "production-myth-0049",
+  "title": "Perseus Fulfills the Oracle",
+  "mythFamily": "Perseus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Perseus Fulfills the Oracle; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Perseus has survived his quests and returns to Greek society as an honored hero.",
+    "ending": "A discus thrown by Perseus strikes Acrisius, fulfilling the oracle without intentional murder.",
+    "boundaryRationale": "The episode begins with perseus has survived his quests and returns to greek society as an honored hero and closes at a discus thrown by perseus strikes acrisius, fulfilling the oracle without intentional murder, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Accidental fulfillment version; location varies by tradition, often games at Larissa.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "role": "hero unaware of his grandfather’s presence",
+      "goal": "fulfill the prophecy accidentally"
+    },
+    {
+      "id": "acrisius",
+      "name": "Acrisius",
+      "role": "fearful grandfather",
+      "goal": "fail to escape fate"
+    },
+    {
+      "id": "danae",
+      "name": "Danae",
+      "role": "mother of Perseus",
+      "goal": "link the separated generations"
+    },
+    {
+      "id": "athletes",
+      "name": "Athletes",
+      "role": "contest participants",
+      "goal": "frame the accidental death"
+    },
+    {
+      "id": "discus",
+      "name": "Discus",
+      "role": "athletic implement",
+      "goal": "carry the fatal accident"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "acrisius",
+      "relationship": "parent-of",
+      "target": "danae",
+      "rationale": "Acrisius parent of Danae during Perseus Fulfills the Oracle."
+    },
+    {
+      "source": "danae",
+      "relationship": "parent-of",
+      "target": "perseus",
+      "rationale": "Danae parent of Perseus during Perseus Fulfills the Oracle."
+    },
+    {
+      "source": "acrisius",
+      "relationship": "enemy-of",
+      "target": "perseus",
+      "rationale": "Acrisius enemy of Perseus during Perseus Fulfills the Oracle."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Perseus does not hunt Acrisius; fate completes itself through an athletic accident. The discus fulfills the prophecy more powerfully because both men had lived as if distance could defeat it.",
+    "openingSituation": "The family has been separated by Acrisius’ fear of the oracle.",
+    "centralConflict": "The question is whether avoidance can undo a prophecy already woven through the family.",
+    "resolution": "Perseus’ discus kills Acrisius by accident.",
+    "outcome": "The oracle is fulfilled without deliberate revenge."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "acrisius",
+      "action": "fear",
+      "target": "perseus",
+      "consequence": "Acrisius has long feared the prophecy.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "perseus",
+      "action": "compete",
+      "target": "athletes",
+      "consequence": "Perseus joins athletic games.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "perseus",
+      "action": "throw",
+      "target": "discus",
+      "consequence": "Perseus releases the fatal discus.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "discus",
+      "action": "strike",
+      "target": "acrisius",
+      "consequence": "The discus hits Acrisius.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "perseus",
+      "action": "fulfill",
+      "target": "acrisius",
+      "consequence": "The oracle comes true unintentionally.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "athletic games",
+    "Larissa tradition"
+  ],
+  "themes": [
+    "fate",
+    "accident",
+    "prophecy"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "The family has been separated by Acrisius’ fear of the oracle.",
+      "The question is whether avoidance can undo a prophecy already woven through the family.",
+      "Perseus’ discus kills Acrisius by accident."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Keep the death accidental; do not turn it into revenge."
+    ]
+  }
+}

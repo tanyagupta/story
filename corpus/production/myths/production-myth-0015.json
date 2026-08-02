@@ -1,0 +1,151 @@
+{
+  "id": "production-myth-0015",
+  "title": "Athena Springs from Zeus",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Athena Springs from Zeus; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "The episode begins when Zeus swallows Metis because a prophecy warns of a child who may surpass him.",
+    "ending": "It ends when Athena springs fully armed from Zeus’ head and is accepted among the gods.",
+    "boundaryRationale": "The episode begins with the episode begins when zeus swallows metis because a prophecy warns of a child who may surpass him and closes at it ends when athena springs fully armed from zeus’ head and is accepted among the gods, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Common birth of Athena from Zeus after the swallowing of Metis.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "father carrying the unborn goddess",
+      "goal": "prevent a threatening succession"
+    },
+    {
+      "id": "metis",
+      "name": "Metis",
+      "role": "swallowed mother of Athena",
+      "goal": "embody cunning wisdom"
+    },
+    {
+      "id": "athena",
+      "name": "Athena",
+      "role": "armed wisdom goddess",
+      "goal": "emerge from Zeus"
+    },
+    {
+      "id": "hephaestus",
+      "name": "Hephaestus",
+      "role": "divine smith",
+      "goal": "split Zeus’ head"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "zeus",
+      "relationship": "parent-of",
+      "target": "athena",
+      "rationale": "Zeus parent of Athena during Athena Springs from Zeus."
+    },
+    {
+      "source": "metis",
+      "relationship": "parent-of",
+      "target": "athena",
+      "rationale": "Metis parent of Athena during Athena Springs from Zeus."
+    },
+    {
+      "source": "hephaestus",
+      "relationship": "ally-of",
+      "target": "zeus",
+      "rationale": "Hephaestus ally of Zeus during Athena Springs from Zeus."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Zeus tries to master succession by swallowing Metis, but wisdom cannot be erased. Athena bursts from his head fully armed, becoming a daughter of Zeus and a goddess of strategy.",
+    "openingSituation": "A prophecy makes Metis’ pregnancy dangerous to Zeus’ rule.",
+    "centralConflict": "Zeus seeks to contain both mother and child inside himself.",
+    "resolution": "Athena emerges from Zeus’ head despite the attempt at containment.",
+    "outcome": "Wisdom and war-craft enter Olympus as Athena’s domain."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "zeus",
+      "action": "swallow",
+      "target": "metis",
+      "consequence": "Zeus consumes Metis to avoid the prophecy.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "metis",
+      "action": "carry",
+      "target": "athena",
+      "consequence": "Athena remains unborn within the swallowed mother.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "zeus",
+      "action": "suffer",
+      "target": "athena",
+      "consequence": "A splitting pain seizes Zeus’ head.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "hephaestus",
+      "action": "open",
+      "target": "zeus",
+      "consequence": "Hephaestus opens the way for the birth.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "athena",
+      "action": "emerge",
+      "target": "zeus",
+      "consequence": "Athena appears fully armed.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Olympian realm"
+  ],
+  "themes": [
+    "divine authority",
+    "Olympian order",
+    "swallow"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "A prophecy makes Metis’ pregnancy dangerous to Zeus’ rule.",
+      "Zeus seeks to contain both mother and child inside himself.",
+      "Athena emerges from Zeus’ head despite the attempt at containment."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Emphasize the specific mythic turn: Zeus seeks to contain both mother and child inside himself."
+    ]
+  }
+}

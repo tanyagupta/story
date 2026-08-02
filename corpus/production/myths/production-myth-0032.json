@@ -1,0 +1,158 @@
+{
+  "id": "production-myth-0032",
+  "title": "Prometheus Bound to the Rock",
+  "mythFamily": "Prometheus and Early Mortals",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Prometheus Bound to the Rock; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Zeus orders Prometheus chained after the fire theft.",
+    "ending": "Prometheus remains bound, tormented by the eagle, and still refuses complete submission.",
+    "boundaryRationale": "The episode begins with zeus orders prometheus chained after the fire theft and closes at prometheus remains bound, tormented by the eagle, and still refuses complete submission, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Prometheus Bound tradition; release by Heracles is excluded for a later episode.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "role": "punished Titan",
+      "goal": "endure Zeus’ sentence"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "ruler enforcing punishment",
+      "goal": "break Prometheus’ defiance"
+    },
+    {
+      "id": "hephaestus",
+      "name": "Hephaestus",
+      "role": "reluctant smith",
+      "goal": "fasten the chains"
+    },
+    {
+      "id": "eagle",
+      "name": "Eagle",
+      "role": "tormenting creature",
+      "goal": "devour Prometheus’ liver"
+    },
+    {
+      "id": "oceanids",
+      "name": "Oceanids",
+      "role": "witnesses",
+      "goal": "lament his suffering"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "zeus",
+      "relationship": "punishes",
+      "target": "prometheus",
+      "rationale": "Zeus punishes Prometheus during Prometheus Bound to the Rock."
+    },
+    {
+      "source": "hephaestus",
+      "relationship": "serves",
+      "target": "zeus",
+      "rationale": "Hephaestus serves Zeus during Prometheus Bound to the Rock."
+    },
+    {
+      "source": "eagle",
+      "relationship": "enemy-of",
+      "target": "prometheus",
+      "rationale": "Eagle enemy of Prometheus during Prometheus Bound to the Rock."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Prometheus’ punishment turns divine rebellion into a public spectacle of suffering. Bound by Hephaestus and tormented by Zeus’ eagle, he remains dangerous because endurance and knowledge survive pain.",
+    "openingSituation": "The fire theft has exposed Zeus’ authority to challenge.",
+    "centralConflict": "Zeus can chain Prometheus’ body but cannot easily erase his knowledge or will.",
+    "resolution": "Prometheus remains bound and suffering.",
+    "outcome": "The conflict is suspended in torment until a later liberating episode."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "zeus",
+      "action": "sentence",
+      "target": "prometheus",
+      "consequence": "Zeus orders punishment for the fire theft.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "hephaestus",
+      "action": "chain",
+      "target": "prometheus",
+      "consequence": "Hephaestus fastens Prometheus to the rock.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "eagle",
+      "action": "torment",
+      "target": "prometheus",
+      "consequence": "The eagle devours his liver.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "oceanids",
+      "action": "lament",
+      "target": "prometheus",
+      "consequence": "Witnesses register the scale of suffering.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "prometheus",
+      "action": "withhold",
+      "target": "zeus",
+      "consequence": "Prometheus keeps dangerous knowledge from Zeus.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Caucasus rock",
+    "remote sky"
+  ],
+  "themes": [
+    "punishment",
+    "endurance",
+    "knowledge"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "The fire theft has exposed Zeus’ authority to challenge.",
+      "Zeus can chain Prometheus’ body but cannot easily erase his knowledge or will.",
+      "Prometheus remains bound and suffering."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Hold release by Heracles outside this episode."
+    ]
+  }
+}

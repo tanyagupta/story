@@ -1,0 +1,152 @@
+{
+  "id": "production-myth-0029",
+  "title": "Prometheus Shapes Humanity",
+  "mythFamily": "Prometheus and Early Mortals",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Prometheus Shapes Humanity; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Prometheus sees that mortal creatures need form and capacities.",
+    "ending": "Humanity stands upright and receives intelligence or craft, though it remains fragile.",
+    "boundaryRationale": "The episode begins with prometheus sees that mortal creatures need form and capacities and closes at humanity stands upright and receives intelligence or craft, though it remains fragile, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Production synthesis of Prometheus as maker and Athena as animating helper; not all ancient versions include the same maker role.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "role": "Titan craftsman",
+      "goal": "shape vulnerable humans"
+    },
+    {
+      "id": "athena",
+      "name": "Athena",
+      "role": "divine helper",
+      "goal": "animate or teach the new beings"
+    },
+    {
+      "id": "humans",
+      "name": "Humans",
+      "role": "new mortal race",
+      "goal": "enter the world without natural defenses"
+    },
+    {
+      "id": "epimetheus",
+      "name": "Epimetheus",
+      "role": "afterthought Titan",
+      "goal": "spend gifts on animals first"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "prometheus",
+      "relationship": "protects",
+      "target": "humans",
+      "rationale": "Prometheus protects Humans during Prometheus Shapes Humanity."
+    },
+    {
+      "source": "athena",
+      "relationship": "ally-of",
+      "target": "prometheus",
+      "rationale": "Athena ally of Prometheus during Prometheus Shapes Humanity."
+    },
+    {
+      "source": "epimetheus",
+      "relationship": "sibling-of",
+      "target": "prometheus",
+      "rationale": "Epimetheus sibling of Prometheus during Prometheus Shapes Humanity."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Prometheus’ care for humans begins before the quarrel over fire. After Epimetheus leaves mortals defenseless, Prometheus shapes or equips them, and Athena’s aid gives the new race mind and posture.",
+    "openingSituation": "Animals have received claws, wings, speed, and hides, while humans remain exposed.",
+    "centralConflict": "Prometheus must compensate for human weakness without making mortals divine.",
+    "resolution": "Humans receive form, intelligence, and the need for craft.",
+    "outcome": "The race is prepared for civilization but also for dependence on stolen fire."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "epimetheus",
+      "action": "distribute",
+      "target": "humans",
+      "consequence": "Epimetheus gives protective gifts to animals first.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "humans",
+      "action": "lack",
+      "target": "prometheus",
+      "consequence": "Humans remain physically vulnerable.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "prometheus",
+      "action": "shape",
+      "target": "humans",
+      "consequence": "Prometheus forms or improves the human race.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "athena",
+      "action": "animate",
+      "target": "humans",
+      "consequence": "Athena contributes life, mind, or skill.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "humans",
+      "action": "stand",
+      "target": "prometheus",
+      "consequence": "Humans become upright and craft-dependent.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "early earth",
+    "workshop of Prometheus"
+  ],
+  "themes": [
+    "human fragility",
+    "craft",
+    "divine aid"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Animals have received claws, wings, speed, and hides, while humans remain exposed.",
+      "Prometheus must compensate for human weakness without making mortals divine.",
+      "Humans receive form, intelligence, and the need for craft."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Show animals receiving gifts before the camera finds the unprotected human figures."
+    ]
+  }
+}

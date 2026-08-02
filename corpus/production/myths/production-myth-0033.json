@@ -1,0 +1,167 @@
+{
+  "id": "production-myth-0033",
+  "title": "Pandora Opens the Box",
+  "mythFamily": "Prometheus and Early Mortals",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Source-aligned editorial adaptation of Pandora Opens the Box based only on the linked source-audited record; not a source edition.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0006"
+    ]
+  },
+  "scope": {
+    "beginning": "The episode begins when Hermes leaves a heavy box with Pandora and Epimetheus.",
+    "ending": "It ends after Pandora opens the box a second time and Hope heals the wounds caused by the escaped evils.",
+    "boundaryRationale": "The linked Guerber record is a box-version household episode; Pandora's creation, Prometheus' theft, and a Hesiodic jar are outside this source boundary."
+  },
+  "variant": {
+    "chosenVersion": "Guerber's box version: Hermes leaves the box, Pandora opens it, evils escape, and Hope is later released.",
+    "materialAlternatives": [
+      "The Hesiodic jar version and the creation of Pandora as Zeus' retaliation are excluded."
+    ]
+  },
+  "characters": [
+    {
+      "id": "pandora",
+      "name": "Pandora",
+      "role": "curious keeper of the box",
+      "goal": "look inside the mysterious box"
+    },
+    {
+      "id": "epimetheus",
+      "name": "Epimetheus",
+      "role": "Pandora's companion in the household",
+      "goal": "respond to the evils released into the room"
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes",
+      "role": "messenger who leaves the box",
+      "goal": "deposit the box and depart"
+    },
+    {
+      "id": "evils",
+      "name": "Evils",
+      "role": "afflictions confined in the box",
+      "goal": "escape when the lid is raised"
+    },
+    {
+      "id": "hope",
+      "name": "Hope",
+      "role": "kindly spirit concealed among the evils",
+      "goal": "heal wounds and comfort the afflicted"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "hope",
+      "relationship": "protects",
+      "target": "pandora",
+      "rationale": "Hope relieves Pandora’s suffering after the evils escape."
+    },
+    {
+      "source": "hope",
+      "relationship": "protects",
+      "target": "epimetheus",
+      "rationale": "Hope relieves Epimetheus’s suffering after the evils escape."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Hermes leaves a mysterious box with Pandora and Epimetheus. Pandora raises the lid, releasing evils that sting them; when she opens it again, Hope emerges, heals their wounds, and goes out to aid other sufferers.",
+    "openingSituation": "Pandora and Epimetheus are entrusted with a heavy box whose contents are unknown.",
+    "centralConflict": "Pandora's curiosity leads her to raise the lid and release the evils confined inside.",
+    "resolution": "Pandora opens the box a second time and releases Hope.",
+    "outcome": "Evils enter the world, but Hope follows them to heal and encourage humanity."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "hermes",
+      "action": "place",
+      "target": "pandora",
+      "consequence": "Hermes leaves the heavy box with Pandora and Epimetheus.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "pandora",
+      "action": "open",
+      "target": "evils",
+      "consequence": "Pandora raises the lid for a brief look.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "evils",
+      "action": "escape",
+      "target": "pandora",
+      "consequence": "Diseases, sorrows, vices, and crimes fly out of the box.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "evils",
+      "action": "sting",
+      "target": "epimetheus",
+      "consequence": "The escaped creatures wound Pandora and Epimetheus.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "pandora",
+      "action": "open-again",
+      "target": "hope",
+      "consequence": "Pandora opens the box a second time and Hope emerges.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "hope",
+      "action": "heal",
+      "target": "pandora",
+      "consequence": "Hope heals Pandora and Epimetheus, then goes to aid others.",
+      "factIds": [
+        "fact-06"
+      ]
+    }
+  ],
+  "locations": [
+    "Pandora and Epimetheus' home",
+    "mortal world"
+  ],
+  "themes": [
+    "curiosity",
+    "human suffering",
+    "hope"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Hermes sets the unexplained box in the household and leaves.",
+      "The lifted lid releases a swarm of winged evils.",
+      "Hope emerges on white wings and heals the wounds left behind."
+    ],
+    "sensitiveContent": [
+      "stinging creatures",
+      "human suffering"
+    ],
+    "productionNotes": [
+      "Use a box, not a jar, and omit Pandora's divine manufacture and Prometheus' warning because they are not in the linked record."
+    ]
+  }
+}

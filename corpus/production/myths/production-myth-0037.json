@@ -1,0 +1,159 @@
+{
+  "id": "production-myth-0037",
+  "title": "Persephone Gathers Flowers",
+  "mythFamily": "Demeter and Persephone",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Persephone Gathers Flowers; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Persephone gathers flowers in a meadow with companions.",
+    "ending": "The earth opens and Hades carries Persephone into the underworld.",
+    "boundaryRationale": "The episode begins with persephone gathers flowers in a meadow with companions and closes at the earth opens and hades carries persephone into the underworld, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Homeric Hymn meadow abduction sequence; the later search is outside this record.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "persephone",
+      "name": "Persephone",
+      "role": "daughter gathering flowers",
+      "goal": "be taken from the meadow"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "underworld ruler",
+      "goal": "abduct Persephone"
+    },
+    {
+      "id": "gaia",
+      "name": "Gaia",
+      "role": "earth power",
+      "goal": "produce the wondrous flower"
+    },
+    {
+      "id": "demeter",
+      "name": "Demeter",
+      "role": "absent mother",
+      "goal": "lose her daughter"
+    },
+    {
+      "id": "nymphs",
+      "name": "Nymph companions",
+      "role": "companions in the meadow",
+      "goal": "fail to prevent the abduction"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "hades",
+      "relationship": "captor-of",
+      "target": "persephone",
+      "rationale": "Hades captor of Persephone during Persephone Gathers Flowers."
+    },
+    {
+      "source": "demeter",
+      "relationship": "parent-of",
+      "target": "persephone",
+      "rationale": "Demeter parent of Persephone during Persephone Gathers Flowers."
+    },
+    {
+      "source": "gaia",
+      "relationship": "ally-of",
+      "target": "hades",
+      "rationale": "Gaia ally of Hades during Persephone Gathers Flowers."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Persephone’s flower-gathering turns from play to rupture when a miraculous bloom draws her away from companions. Hades rises through the opened earth and carries her into the underworld.",
+    "openingSituation": "Persephone is in the upper world among flowers and companions.",
+    "centralConflict": "A beautiful lure masks the violence of crossing into Hades’ realm.",
+    "resolution": "Hades takes Persephone below before Demeter can intervene.",
+    "outcome": "The loss that will drive Demeter’s grief has occurred."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "persephone",
+      "action": "gather",
+      "target": "nymphs",
+      "consequence": "Persephone plays among flowers.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "gaia",
+      "action": "produce",
+      "target": "persephone",
+      "consequence": "A wondrous flower draws her aside.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "hades",
+      "action": "emerge",
+      "target": "persephone",
+      "consequence": "Hades rises through the opened earth.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "hades",
+      "action": "abduct",
+      "target": "persephone",
+      "consequence": "He carries Persephone below.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "demeter",
+      "action": "lose",
+      "target": "persephone",
+      "consequence": "Demeter’s daughter is gone from the upper world.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "flower meadow",
+    "opening earth",
+    "road to underworld"
+  ],
+  "themes": [
+    "abduction",
+    "seasonal rupture",
+    "lost daughter"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Persephone is in the upper world among flowers and companions.",
+      "A beautiful lure masks the violence of crossing into Hades’ realm.",
+      "Hades takes Persephone below before Demeter can intervene."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Start with bright flowers, then break the frame with the opening earth."
+    ]
+  }
+}

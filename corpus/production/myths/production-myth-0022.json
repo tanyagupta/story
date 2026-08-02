@@ -1,0 +1,145 @@
+{
+  "id": "production-myth-0022",
+  "title": "Demeter Searches the Earth",
+  "mythFamily": "Olympian Gods",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Source-aligned editorial adaptation of Demeter Searches the Earth based only on the linked source-audited record; not a source edition.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0001"
+    ]
+  },
+  "scope": {
+    "beginning": "The episode begins when Hades seizes Persephone and drives toward the underworld before Demeter can intervene.",
+    "ending": "It ends when Demeter discovers Persephone's girdle beside the River Cyane, the first material trace found during her search.",
+    "boundaryRationale": "This production unit adapts only the abduction and early search passages in the linked Baker record; the pomegranate and final compromise are left for a separate episode."
+  },
+  "variant": {
+    "chosenVersion": "Baker's Ceres-and-Proserpina version, using the River Cyane and the lost girdle rather than the Hecate-Helios search sequence.",
+    "materialAlternatives": [
+      "The Homeric Hymn sequence involving Hecate, Helios, and Zeus' prior consent is excluded."
+    ]
+  },
+  "characters": [
+    {
+      "id": "demeter",
+      "name": "Demeter",
+      "role": "mother searching for Persephone",
+      "goal": "find her missing daughter"
+    },
+    {
+      "id": "persephone",
+      "name": "Persephone",
+      "role": "abducted daughter",
+      "goal": "survive Hades' seizure"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "abductor driving toward the underworld",
+      "goal": "reach Hades before Demeter arrives"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "demeter",
+      "relationship": "parent-of",
+      "target": "persephone",
+      "rationale": "The linked source identifies Demeter as Persephone's mother."
+    },
+    {
+      "source": "hades",
+      "relationship": "captor-of",
+      "target": "persephone",
+      "rationale": "Hades seizes Persephone and drives toward the underworld."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Hades seizes Persephone and drives away before her cries can bring Demeter. Unable to learn what happened, Demeter begins a desperate search and eventually finds Persephone's girdle beside the River Cyane.",
+    "openingSituation": "Persephone is seized and carried away while Demeter is absent.",
+    "centralConflict": "Demeter searches without knowing whether her daughter is alive or where she has been taken.",
+    "resolution": "At the River Cyane, Demeter discovers the girdle Persephone dropped during the flight.",
+    "outcome": "Demeter gains her first concrete trace of Persephone, but the search is not yet resolved."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "hades",
+      "action": "seize",
+      "target": "persephone",
+      "consequence": "Hades takes Persephone in his arms.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "hades",
+      "action": "drive-away",
+      "target": "persephone",
+      "consequence": "He urges the chariot toward Hades before Demeter can rescue her.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "demeter",
+      "action": "search",
+      "target": "persephone",
+      "consequence": "Demeter begins searching without knowing what became of her daughter.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "demeter",
+      "action": "reach",
+      "target": null,
+      "consequence": "Her search brings her to the water's edge.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "demeter",
+      "action": "discover",
+      "target": "persephone",
+      "consequence": "She finds the girdle Persephone dropped in flight.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Earth",
+    "River Cyane"
+  ],
+  "themes": [
+    "maternal search",
+    "abduction",
+    "evidence of loss"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Hades lifts Persephone into the chariot and races away.",
+      "Demeter crosses the earth with no reliable witness or direction.",
+      "A girdle at the River Cyane becomes the first trace of Persephone."
+    ],
+    "sensitiveContent": [
+      "abduction",
+      "parental grief"
+    ],
+    "productionNotes": [
+      "Do not introduce Hecate, Helios, or Zeus' consent; those belong to a different source variant."
+    ]
+  }
+}

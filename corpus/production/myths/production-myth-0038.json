@@ -1,0 +1,168 @@
+{
+  "id": "production-myth-0038",
+  "title": "Demeter at Eleusis",
+  "mythFamily": "Demeter and Persephone",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Demeter at Eleusis; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Demeter arrives at Eleusis disguised as an old woman during her search for Persephone.",
+    "ending": "Demeter reveals herself after Metaneira interrupts the fire ritual and commands Eleusis to honor her.",
+    "boundaryRationale": "The episode begins with demeter arrives at eleusis disguised as an old woman during her search for persephone and closes at demeter reveals herself after metaneira interrupts the fire ritual and commands eleusis to honor her, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Homeric Hymn Eleusis episode; it stops before the final return of Persephone.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "demeter",
+      "name": "Demeter",
+      "role": "disguised grieving goddess",
+      "goal": "find shelter and nearly immortalize a child"
+    },
+    {
+      "id": "metaneira",
+      "name": "Metaneira",
+      "role": "queen of Eleusis",
+      "goal": "interrupt the hidden rite"
+    },
+    {
+      "id": "demophon",
+      "name": "Demophon",
+      "role": "royal infant",
+      "goal": "almost receive immortality"
+    },
+    {
+      "id": "celeus",
+      "name": "Celeus",
+      "role": "king of Eleusis",
+      "goal": "host the disguised goddess"
+    },
+    {
+      "id": "eleusinians",
+      "name": "Eleusinians",
+      "role": "people of Eleusis",
+      "goal": "receive Demeter’s revelation"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "demeter",
+      "relationship": "protects",
+      "target": "demophon",
+      "rationale": "Demeter protects Demophon during Demeter at Eleusis."
+    },
+    {
+      "source": "metaneira",
+      "relationship": "parent-of",
+      "target": "demophon",
+      "rationale": "Metaneira parent of Demophon during Demeter at Eleusis."
+    },
+    {
+      "source": "celeus",
+      "relationship": "spouse-of",
+      "target": "metaneira",
+      "rationale": "Celeus spouse of Metaneira during Demeter at Eleusis."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Demeter’s grief enters a mortal house at Eleusis. Her hidden attempt to make Demophon immortal fails when Metaneira interrupts, but the failure becomes the origin of Eleusinian honor for the goddess.",
+    "openingSituation": "Demeter is wandering in disguise, withdrawn from Olympus and from the harvest.",
+    "centralConflict": "A mortal mother’s fear interrupts a divine attempt to change a child’s fate.",
+    "resolution": "Demeter reveals herself and commands worship.",
+    "outcome": "Eleusis becomes bound to Demeter’s mysteries and favor."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "demeter",
+      "action": "arrive",
+      "target": "eleusinians",
+      "consequence": "Demeter comes to Eleusis in disguise.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "celeus",
+      "action": "host",
+      "target": "demeter",
+      "consequence": "The royal house receives her.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "demeter",
+      "action": "nurse",
+      "target": "demophon",
+      "consequence": "Demeter cares for the child.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "demeter",
+      "action": "immerse",
+      "target": "demophon",
+      "consequence": "She places him in fire to make him deathless.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "metaneira",
+      "action": "interrupt",
+      "target": "demeter",
+      "consequence": "Metaneira cries out and stops the rite.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "demeter",
+      "action": "reveal",
+      "target": "eleusinians",
+      "consequence": "Demeter discloses her divinity.",
+      "factIds": [
+        "fact-06"
+      ]
+    }
+  ],
+  "locations": [
+    "Eleusis",
+    "house of Celeus"
+  ],
+  "themes": [
+    "hidden divinity",
+    "mortality",
+    "sacred rites"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Demeter is wandering in disguise, withdrawn from Olympus and from the harvest.",
+      "A mortal mother’s fear interrupts a divine attempt to change a child’s fate.",
+      "Demeter reveals herself and commands worship."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Play the fire ritual as frightening and holy rather than villainous."
+    ]
+  }
+}

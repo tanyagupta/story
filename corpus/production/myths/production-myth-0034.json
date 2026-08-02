@@ -1,0 +1,174 @@
+{
+  "id": "production-myth-0034",
+  "title": "Deucalion and Pyrrha Survive the Flood",
+  "mythFamily": "Prometheus and Early Mortals",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Deucalion and Pyrrha Survive the Flood; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Zeus decides to flood a corrupt human age, while Deucalion and Pyrrha prepare to survive.",
+    "ending": "After the waters recede, Deucalion and Pyrrha throw stones behind them and renew humankind.",
+    "boundaryRationale": "The episode begins with zeus decides to flood a corrupt human age, while deucalion and pyrrha prepare to survive and closes at after the waters recede, deucalion and pyrrha throw stones behind them and renew humankind, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Greek flood renewal myth; the “bones of the mother” riddle refers to stones of Gaia.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "deucalion",
+      "name": "Deucalion",
+      "role": "pious survivor",
+      "goal": "preserve humanity through the flood"
+    },
+    {
+      "id": "pyrrha",
+      "name": "Pyrrha",
+      "role": "pious survivor",
+      "goal": "renew humanity with Deucalion"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "sender of the flood",
+      "goal": "destroy a corrupt age"
+    },
+    {
+      "id": "themis",
+      "name": "Themis",
+      "role": "oracle goddess",
+      "goal": "give the riddle of renewal"
+    },
+    {
+      "id": "stones",
+      "name": "Stones",
+      "role": "earth bones",
+      "goal": "become new humans"
+    },
+    {
+      "id": "humans",
+      "name": "Humans",
+      "role": "renewed race",
+      "goal": "return after the flood"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "deucalion",
+      "relationship": "spouse-of",
+      "target": "pyrrha",
+      "rationale": "Deucalion spouse of Pyrrha during Deucalion and Pyrrha Survive the Flood."
+    },
+    {
+      "source": "themis",
+      "relationship": "rescuer-of",
+      "target": "deucalion",
+      "rationale": "Themis rescuer of Deucalion during Deucalion and Pyrrha Survive the Flood."
+    },
+    {
+      "source": "zeus",
+      "relationship": "punishes",
+      "target": "humans",
+      "rationale": "Zeus punishes humans during Deucalion and Pyrrha Survive the Flood."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Deucalion and Pyrrha survive Zeus’ flood not as conquerors but as pious remnants. Their obedience to Themis’ riddle turns stones of Earth into the ancestors of renewed humanity.",
+    "openingSituation": "A corrupt age faces destruction by flood.",
+    "centralConflict": "The survivors must understand an oracle without violating reverence for their actual mothers.",
+    "resolution": "They interpret the riddle as stones of Gaia and cast them behind themselves.",
+    "outcome": "Humanity begins again from earth’s bones."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "zeus",
+      "action": "flood",
+      "target": "humans",
+      "consequence": "Zeus destroys the corrupt age with water.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "deucalion",
+      "action": "survive",
+      "target": "zeus",
+      "consequence": "Deucalion rides out the flood.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "pyrrha",
+      "action": "survive",
+      "target": "zeus",
+      "consequence": "Pyrrha survives with him.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "themis",
+      "action": "instruct",
+      "target": "deucalion",
+      "consequence": "Themis gives the riddle of the mother’s bones.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "deucalion",
+      "action": "throw",
+      "target": "stones",
+      "consequence": "Deucalion casts stones behind him.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "stones",
+      "action": "transform",
+      "target": "pyrrha",
+      "consequence": "The stones become new humans.",
+      "factIds": [
+        "fact-06"
+      ]
+    }
+  ],
+  "locations": [
+    "flooded earth",
+    "oracle of Themis"
+  ],
+  "themes": [
+    "renewal",
+    "piety",
+    "flood"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "A corrupt age faces destruction by flood.",
+      "The survivors must understand an oracle without violating reverence for their actual mothers.",
+      "They interpret the riddle as stones of Gaia and cast them behind themselves."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Make the riddle visual: survivors hesitate, then lift stones from the earth."
+    ]
+  }
+}

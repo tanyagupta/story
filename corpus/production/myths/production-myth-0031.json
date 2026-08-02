@@ -1,0 +1,146 @@
+{
+  "id": "production-myth-0031",
+  "title": "Prometheus Steals Fire",
+  "mythFamily": "Prometheus and Early Mortals",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "AI editorial adaptation of Prometheus Steals Fire; not a source edition.",
+    "basedOnSourceAuditedReference": false
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": []
+  },
+  "scope": {
+    "beginning": "Zeus withholds fire from humans after Prometheus’ earlier trick.",
+    "ending": "Prometheus succeeds in bringing hidden fire back to humans, provoking Zeus’ next punishment.",
+    "boundaryRationale": "The episode begins with zeus withholds fire from humans after prometheus’ earlier trick and closes at prometheus succeeds in bringing hidden fire back to humans, provoking zeus’ next punishment, leaving surrounding cycle material outside this production unit."
+  },
+  "variant": {
+    "chosenVersion": "Hesiodic fire theft with the fire hidden in a fennel stalk.",
+    "materialAlternatives": []
+  },
+  "characters": [
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "role": "defiant benefactor",
+      "goal": "restore fire to humans"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "angry king",
+      "goal": "withhold fire as punishment"
+    },
+    {
+      "id": "humans",
+      "name": "Humans",
+      "role": "cold and powerless mortals",
+      "goal": "regain craft and warmth"
+    },
+    {
+      "id": "fennel-stalk",
+      "name": "Fennel stalk",
+      "role": "hidden carrier",
+      "goal": "conceal the stolen fire"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "prometheus",
+      "relationship": "protects",
+      "target": "humans",
+      "rationale": "Prometheus protects Humans during Prometheus Steals Fire."
+    },
+    {
+      "source": "zeus",
+      "relationship": "enemy-of",
+      "target": "prometheus",
+      "rationale": "Zeus enemy of Prometheus during Prometheus Steals Fire."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Prometheus answers Zeus’ punishment by stealing fire for humanity. The theft restores warmth and craft to mortals, but it also turns Zeus’ anger toward a harsher revenge.",
+    "openingSituation": "Humans suffer because Zeus has withheld fire.",
+    "centralConflict": "Prometheus must choose between obedience to Zeus and loyalty to vulnerable mortals.",
+    "resolution": "Fire reaches human hands again.",
+    "outcome": "Human civilization is preserved, but Zeus escalates the conflict."
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "zeus",
+      "action": "withhold",
+      "target": "humans",
+      "consequence": "Zeus deprives mortals of fire.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "humans",
+      "action": "suffer",
+      "target": "zeus",
+      "consequence": "Humans lack warmth and craft.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "prometheus",
+      "action": "steal",
+      "target": "zeus",
+      "consequence": "Prometheus takes fire from the gods.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "prometheus",
+      "action": "hide",
+      "target": "fennel-stalk",
+      "consequence": "The flame is concealed in a stalk.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "humans",
+      "action": "receive",
+      "target": "prometheus",
+      "consequence": "Mortals regain fire.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "Olympus",
+    "earth"
+  ],
+  "themes": [
+    "fire",
+    "rebellion",
+    "human craft"
+  ],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Humans suffer because Zeus has withheld fire.",
+      "Prometheus must choose between obedience to Zeus and loyalty to vulnerable mortals.",
+      "Fire reaches human hands again."
+    ],
+    "sensitiveContent": [
+      "mythic violence or distress"
+    ],
+    "productionNotes": [
+      "Use darkness and cold before the stolen ember appears."
+    ]
+  }
+}
