@@ -1,0 +1,238 @@
+{
+  "mythId": "bulk-verified-0030",
+  "mythFamilyId": "argonauts-phineus",
+  "variantId": "gutenberg-guerber-phineus-harpies-verified",
+  "title": "Phineus and the Harpies",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "The Argonauts find Phineus tormented by Harpies, and Boreas' sons drive them away.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "One paragraph gives Phineus' affliction and the Harpies' pursuit before the Symplegades unit."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0025"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "One paragraph gives Phineus' affliction and the Harpies' pursuit before the Symplegades unit.",
+  "entities": {
+    "characters": [
+      "argonauts",
+      "phineus",
+      "boreads"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": [
+      "harpies"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "companions",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a",
+          "sourceText": "Having repeated this tale to his companions, the two sons of Boreas, who were also in the Argo, begged permission to drive them away.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Phineus",
+      "normalizedId": "phineus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a",
+          "sourceText": "On another occasion, when Jason visited Phineus, the blind king of Thrace, he heard that this monarch's life was imbittered by the Harpies, vile monsters, part woman, part bird, who ate or befouled all the food placed before him, and never let him eat a mouthful in peace.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "sons of Boreas",
+      "normalizedId": "boreads",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a",
+          "sourceText": "Having repeated this tale to his companions, the two sons of Boreas, who were also in the Argo, begged permission to drive them away.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Harpies",
+      "normalizedId": "harpies",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a",
+          "sourceText": "On another occasion, when Jason visited Phineus, the blind king of Thrace, he heard that this monarch's life was imbittered by the Harpies, vile monsters, part woman, part bird, who ate or befouled all the food placed before him, and never let him eat a mouthful in peace.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "phineus",
+      "sourceNames": [
+        "Phineus"
+      ],
+      "role": "afflicted host",
+      "reason": "Phineus suffers from the Harpies until the Boreads pursue them.",
+      "evidence": [
+        "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a"
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The Argonauts find Phineus tormented by Harpies, and the winged sons of Boreas pursue the Harpies to the Strophades.",
+    "openingSituation": "The Argonauts reach Phineus.",
+    "centralConflict": "The Harpies prevent Phineus from eating.",
+    "resolution": "The sons of Boreas chase the Harpies away.",
+    "outcome": "The pursuit ends at the Strophades, where Iris forbids further pursuit.",
+    "storyline": [
+      "The Harpies afflicted Phineus by ruining his food.",
+      "The sons of Boreas pursued the Harpies."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a",
+      "sourceText": "On another occasion, when Jason visited Phineus, the blind king of Thrace, he heard that this monarch's life was imbittered by the Harpies, vile monsters, part woman, part bird, who ate or befouled all the food placed before him, and never let him eat a mouthful in peace.",
+      "supports": [
+        {
+          "field": "The Harpies afflicted Phineus by ruining his food.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports The Harpies afflicted Phineus by ruining his food.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a",
+      "sourceText": "Jason could not refuse their request; and the two youths, with drawn swords, pursued the Harpies to the Strophades Islands, where the birds promised to remain.",
+      "supports": [
+        {
+          "field": "The sons of Boreas pursued the Harpies.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports The sons of Boreas pursued the Harpies.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "On another occasion, when Jason visited Phineus, the blind king of Thrace, he heard that this monarch's life was imbittered by the Harpies, vile monsters, part woman, part bird, who ate or befouled all the food placed before him, and never let him eat a mouthful in peace.",
+      "normalizedStatement": "The Harpies afflicted Phineus by ruining his food.",
+      "actor": "harpies",
+      "action": "afflict",
+      "sourceAction": "ate or befouled",
+      "target": "phineus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a",
+          "sourceText": "On another occasion, when Jason visited Phineus, the blind king of Thrace, he heard that this monarch's life was imbittered by the Harpies, vile monsters, part woman, part bird, who ate or befouled all the food placed before him, and never let him eat a mouthful in peace."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a",
+      "needle": "ate or befouled all the food placed before him"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "Jason could not refuse their request; and the two youths, with drawn swords, pursued the Harpies to the Strophades Islands, where the birds promised to remain.",
+      "normalizedStatement": "The sons of Boreas pursued the Harpies.",
+      "actor": "boreads",
+      "action": "pursue",
+      "sourceAction": "pursued",
+      "target": "harpies",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a",
+          "sourceText": "Jason could not refuse their request; and the two youths, with drawn swords, pursued the Harpies to the Strophades Islands, where the birds promised to remain."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a",
+      "needle": "pursued the Harpies"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a"
+    ],
+    "claimsChecked": [
+      "Phineus is tormented by Harpies.",
+      "The Boreads pursue the Harpies.",
+      "Iris stops the pursuit."
+    ],
+    "correctionsMade": [
+      "Split Phineus from surrounding Argonautic stops.",
+      "Modeled Harpies as creatures and Boreads as a group actor."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

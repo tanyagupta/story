@@ -1,0 +1,251 @@
+{
+  "mythId": "bulk-verified-0031",
+  "mythFamilyId": "argonauts-symplegades",
+  "variantId": "gutenberg-guerber-symplegades-verified",
+  "title": "The Argonauts Pass the Symplegades",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "The Argonauts send a dove through the Symplegades and then row the Argo through safely.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The paragraph contains the complete Symplegades test and successful passage."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0025"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The paragraph contains the complete Symplegades test and successful passage.",
+  "entities": {
+    "characters": [
+      "jason",
+      "argonauts"
+    ],
+    "locations": [],
+    "objects": [
+      "argo",
+      "dove",
+      "symplegades"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jason",
+      "normalizedId": "jason",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf",
+          "sourceText": "Jason knew he was obliged to pass between these rocks or give up the expedition: so, calculating that the speed of his vessel was equal to that of a dove on the wing, he sent one out before him.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argonauts",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf",
+          "sourceText": "Some time during the course of their journey the Argonauts came to the Symplegades,--floating rocks which continually crashed together, and ground to powder all objects caught between them.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argo",
+      "normalizedId": "argo",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf",
+          "sourceText": "The Argo darted through the opening, and, when the rocks again came into contact, they merely grazed the rudder.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "dove",
+      "normalizedId": "dove",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf",
+          "sourceText": "Jason knew he was obliged to pass between these rocks or give up the expedition: so, calculating that the speed of his vessel was equal to that of a dove on the wing, he sent one out before him.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Symplegades",
+      "normalizedId": "symplegades",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf",
+          "sourceText": "Some time during the course of their journey the Argonauts came to the Symplegades,--floating rocks which continually crashed together, and ground to powder all objects caught between them.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "argonauts",
+      "sourceNames": [
+        "Argonauts"
+      ],
+      "role": "voyagers",
+      "reason": "The Argonauts send the dove and row through the rocks.",
+      "evidence": [
+        "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf"
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The Argonauts test the Symplegades with a dove and drive the Argo through as the rocks close, after which the rocks remain fixed.",
+    "openingSituation": "The Argo approaches the moving rocks.",
+    "centralConflict": "The Symplegades threaten to crush the vessel.",
+    "resolution": "The Argo passes through the opening.",
+    "outcome": "The rocks remain fixed by decree of the gods.",
+    "storyline": [
+      "Jason sent a dove before the Argo through the Symplegades.",
+      "The Argo passed through the Symplegades."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf",
+      "sourceText": "Jason knew he was obliged to pass between these rocks or give up the expedition: so, calculating that the speed of his vessel was equal to that of a dove on the wing, he sent one out before him.",
+      "supports": [
+        {
+          "field": "Jason sent a dove before the Argo through the Symplegades.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Jason sent a dove before the Argo through the Symplegades.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf",
+      "sourceText": "The Argo darted through the opening, and, when the rocks again came into contact, they merely grazed the rudder.",
+      "supports": [
+        {
+          "field": "The Argo passed through the Symplegades.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports The Argo passed through the Symplegades.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "Jason knew he was obliged to pass between these rocks or give up the expedition: so, calculating that the speed of his vessel was equal to that of a dove on the wing, he sent one out before him.",
+      "normalizedStatement": "Jason sent a dove before the Argo through the Symplegades.",
+      "actor": "jason",
+      "action": "test",
+      "sourceAction": "sent",
+      "target": "symplegades",
+      "object": "dove",
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf",
+          "sourceText": "Jason knew he was obliged to pass between these rocks or give up the expedition: so, calculating that the speed of his vessel was equal to that of a dove on the wing, he sent one out before him."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf",
+      "needle": "he sent one out before him"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "The Argo darted through the opening, and, when the rocks again came into contact, they merely grazed the rudder.",
+      "normalizedStatement": "The Argo passed through the Symplegades.",
+      "actor": "argonauts",
+      "action": "pass",
+      "sourceAction": "darted",
+      "target": "symplegades",
+      "object": "argo",
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf",
+          "sourceText": "The Argo darted through the opening, and, when the rocks again came into contact, they merely grazed the rudder."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf",
+      "needle": "The Argo darted through the opening"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf"
+    ],
+    "claimsChecked": [
+      "The dove tests the passage.",
+      "The Argo passes through.",
+      "The rocks remain fixed."
+    ],
+    "correctionsMade": [
+      "Split Symplegades from the Argonautic travel span.",
+      "Excluded intervening headings and quotations."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

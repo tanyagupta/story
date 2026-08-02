@@ -1,0 +1,280 @@
+{
+  "mythId": "bulk-verified-0026",
+  "mythFamilyId": "odysseus-return",
+  "variantId": "gutenberg-guerber-ulysses-ismarus-verified",
+  "title": "Ulysses at Ismarus",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7",
+      "gutenberg:ebooks:39250:463.463.4-463.463.4:3e5f412a",
+      "gutenberg:ebooks:39250:463.463.5-463.463.5:8e514817"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Ulysses raids Ismarus, delays, and escapes after the Ciconians attack.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7",
+      "gutenberg:ebooks:39250:463.463.4-463.463.4:3e5f412a",
+      "gutenberg:ebooks:39250:463.463.5-463.463.5:8e514817"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The Ismarus raid resolves with escape to the ships before the later Lotus-Eater unit."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0105"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The Ismarus raid resolves with escape to the ships before the later Lotus-Eater unit.",
+  "entities": {
+    "characters": [
+      "odysseus",
+      "ulysses-men",
+      "ciconians"
+    ],
+    "locations": [
+      "ismarus"
+    ],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Ulysses",
+      "normalizedId": "odysseus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7",
+          "sourceText": "After leaving Troy in ruins, Ulysses embarked with his men and spoils, and, favored by a good wind, soon came within sight of Ismarus, the home of the worthy and wealthy Ciconians.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "men",
+      "normalizedId": "ulysses-men",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7",
+          "sourceText": "After leaving Troy in ruins, Ulysses embarked with his men and spoils, and, favored by a good wind, soon came within sight of Ismarus, the home of the worthy and wealthy Ciconians.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Ciconians",
+      "normalizedId": "ciconians",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.4-463.463.4:3e5f412a",
+          "sourceText": "While they were thus employed and entirely off their guard, the neighbors and allies of the Ciconians came upon them unawares, and put many to death.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Ismarus",
+      "normalizedId": "ismarus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7",
+          "sourceText": "After leaving Troy in ruins, Ulysses embarked with his men and spoils, and, favored by a good wind, soon came within sight of Ismarus, the home of the worthy and wealthy Ciconians.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "odysseus",
+      "sourceNames": [
+        "Ulysses"
+      ],
+      "role": "commander",
+      "reason": "Ulysses proposes the raid and escapes with his men.",
+      "evidence": [
+        "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7"
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Ulysses raids Ismarus after leaving Troy, but his men delay until Ciconian allies attack, forcing the Greeks to escape.",
+    "openingSituation": "Ulysses reaches Ismarus after leaving Troy.",
+    "centralConflict": "His men delay instead of departing after the raid.",
+    "resolution": "They fight the Ciconians.",
+    "outcome": "They escape to their vessels.",
+    "storyline": [
+      "Ulysses proposed attacking Ismarus.",
+      "Ciconian allies attacked Ulysses' men.",
+      "The Greeks embarked and left the Ciconian shores."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7",
+      "sourceText": "To increase the riches he was carrying home, he proposed to his army to land and storm the city,--a proposal which was enthusiastically received and immediately carried out.",
+      "supports": [
+        {
+          "field": "Ulysses proposed attacking Ismarus.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Ulysses proposed attacking Ismarus.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:463.463.4-463.463.4:3e5f412a",
+      "sourceText": "While they were thus employed and entirely off their guard, the neighbors and allies of the Ciconians came upon them unawares, and put many to death.",
+      "supports": [
+        {
+          "field": "Ciconian allies attacked Ulysses' men.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Ciconian allies attacked Ulysses' men.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:463.463.5-463.463.5:8e514817",
+      "sourceText": "The Greeks, although taken by surprise, fought bravely; but it was only when the sun was fast sinking, that they finally embarked, and left the fatal Ciconian shores.",
+      "supports": [
+        {
+          "field": "The Greeks embarked and left the Ciconian shores.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports The Greeks embarked and left the Ciconian shores.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "To increase the riches he was carrying home, he proposed to his army to land and storm the city,--a proposal which was enthusiastically received and immediately carried out.",
+      "normalizedStatement": "Ulysses proposed attacking Ismarus.",
+      "actor": "odysseus",
+      "action": "attack",
+      "sourceAction": "storm",
+      "target": "ismarus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7",
+          "sourceText": "To increase the riches he was carrying home, he proposed to his army to land and storm the city,--a proposal which was enthusiastically received and immediately carried out."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7",
+      "needle": "proposed to his army to land and storm the city"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "While they were thus employed and entirely off their guard, the neighbors and allies of the Ciconians came upon them unawares, and put many to death.",
+      "normalizedStatement": "Ciconian allies attacked Ulysses' men.",
+      "actor": "ciconians",
+      "action": "attack",
+      "sourceAction": "came upon",
+      "target": "ulysses-men",
+      "object": null,
+      "recipient": null,
+      "location": "ismarus",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.4-463.463.4:3e5f412a",
+          "sourceText": "While they were thus employed and entirely off their guard, the neighbors and allies of the Ciconians came upon them unawares, and put many to death."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:463.463.4-463.463.4:3e5f412a",
+      "needle": "came upon them unawares"
+    },
+    {
+      "eventId": "event-003",
+      "sourceText": "The Greeks, although taken by surprise, fought bravely; but it was only when the sun was fast sinking, that they finally embarked, and left the fatal Ciconian shores.",
+      "normalizedStatement": "The Greeks embarked and left the Ciconian shores.",
+      "actor": "ulysses-men",
+      "action": "escape",
+      "sourceAction": "embarked",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": "ismarus",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.5-463.463.5:8e514817",
+          "sourceText": "The Greeks, although taken by surprise, fought bravely; but it was only when the sun was fast sinking, that they finally embarked, and left the fatal Ciconian shores."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:463.463.5-463.463.5:8e514817",
+      "needle": "finally embarked, and left the fatal Ciconian shores"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7",
+      "gutenberg:ebooks:39250:463.463.4-463.463.4:3e5f412a",
+      "gutenberg:ebooks:39250:463.463.5-463.463.5:8e514817"
+    ],
+    "claimsChecked": [
+      "Ulysses proposes the raid.",
+      "Ciconians attack.",
+      "The Greeks escape."
+    ],
+    "correctionsMade": [
+      "Split Ismarus from Lotus-Eater and quotation passages.",
+      "Modeled Ulysses' men as a group entity."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

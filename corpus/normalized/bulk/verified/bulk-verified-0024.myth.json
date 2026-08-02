@@ -1,0 +1,252 @@
+{
+  "mythId": "bulk-verified-0024",
+  "mythFamilyId": "trojan-war-returns",
+  "variantId": "gutenberg-berens-ajax-lesser-shipwreck-verified",
+  "title": "Ajax the Lesser Shipwrecked",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Ajax the Lesser survives shipwreck, boasts, and is drowned when Poseidon splits the rock beneath him.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The single paragraph is a complete Ajax return subepisode, and the next heading begins Agamemnon's separate return."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0102"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The single paragraph is a complete Ajax return subepisode, and the next heading begins Agamemnon's separate return.",
+  "entities": {
+    "characters": [
+      "ajax-the-lesser",
+      "athena",
+      "poseidon"
+    ],
+    "locations": [
+      "cape-caphareus"
+    ],
+    "objects": [
+      "rock"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Ajax the Lesser",
+      "normalizedId": "ajax-the-lesser",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6",
+          "sourceText": "Ajax the Lesser having offended Pallas-Athene by desecrating her temple on the night of the destruction of Troy, was shipwrecked off Cape Caphareus.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Pallas-Athene",
+      "normalizedId": "athena",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6",
+          "sourceText": "Ajax the Lesser having offended Pallas-Athene by desecrating her temple on the night of the destruction of Troy, was shipwrecked off Cape Caphareus.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Poseidon",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6",
+          "sourceText": "No sooner had he uttered the sacrilegious words than Poseidon, enraged at his audacity, split with his trident the rock to which the hero was clinging, and the unfortunate Ajax was overwhelmed by the waves.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Cape Caphareus",
+      "normalizedId": "cape-caphareus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6",
+          "sourceText": "Ajax the Lesser having offended Pallas-Athene by desecrating her temple on the night of the destruction of Troy, was shipwrecked off Cape Caphareus.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "rock",
+      "normalizedId": "rock",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6",
+          "sourceText": "He succeeded, however, in clinging to a rock, and his life might have been spared but for his impious boast that he needed not the help of the gods.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "ajax-the-lesser",
+      "sourceNames": [
+        "Ajax the Lesser"
+      ],
+      "role": "boasting survivor",
+      "reason": "Ajax survives shipwreck, boasts, and is drowned.",
+      "evidence": [
+        "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6"
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Ajax the Lesser survives a storm, boasts against divine help, and dies when Poseidon splits the rock beneath him.",
+    "openingSituation": "Ajax has offended Pallas-Athene during Troy's sack.",
+    "centralConflict": "His boast after shipwreck provokes further divine punishment.",
+    "resolution": "Poseidon splits the rock.",
+    "outcome": "Ajax falls into the sea and is drowned.",
+    "storyline": [
+      "Ajax boasted that he did not need the gods' help.",
+      "Poseidon split the rock and Ajax was overwhelmed by the waves."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6",
+      "sourceText": "He succeeded, however, in clinging to a rock, and his life might have been spared but for his impious boast that he needed not the help of the gods.",
+      "supports": [
+        {
+          "field": "Ajax boasted that he did not need the gods' help.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Ajax boasted that he did not need the gods' help.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6",
+      "sourceText": "No sooner had he uttered the sacrilegious words than Poseidon, enraged at his audacity, split with his trident the rock to which the hero was clinging, and the unfortunate Ajax was overwhelmed by the waves.",
+      "supports": [
+        {
+          "field": "Poseidon split the rock and Ajax was overwhelmed by the waves.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Poseidon split the rock and Ajax was overwhelmed by the waves.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "He succeeded, however, in clinging to a rock, and his life might have been spared but for his impious boast that he needed not the help of the gods.",
+      "normalizedStatement": "Ajax boasted that he did not need the gods' help.",
+      "actor": "ajax-the-lesser",
+      "action": "boast",
+      "sourceAction": "boast",
+      "target": "poseidon",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6",
+          "sourceText": "He succeeded, however, in clinging to a rock, and his life might have been spared but for his impious boast that he needed not the help of the gods."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6",
+      "needle": "impious boast that he needed not the help of the gods"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "No sooner had he uttered the sacrilegious words than Poseidon, enraged at his audacity, split with his trident the rock to which the hero was clinging, and the unfortunate Ajax was overwhelmed by the waves.",
+      "normalizedStatement": "Poseidon split the rock and Ajax was overwhelmed by the waves.",
+      "actor": "poseidon",
+      "action": "drown",
+      "sourceAction": "split",
+      "target": "ajax-the-lesser",
+      "object": "rock",
+      "recipient": null,
+      "location": "cape-caphareus",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6",
+          "sourceText": "No sooner had he uttered the sacrilegious words than Poseidon, enraged at his audacity, split with his trident the rock to which the hero was clinging, and the unfortunate Ajax was overwhelmed by the waves."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6",
+      "needle": "split with his trident the rock"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6"
+    ],
+    "claimsChecked": [
+      "Ajax boasts.",
+      "Poseidon splits the rock.",
+      "Ajax drowns."
+    ],
+    "correctionsMade": [
+      "Split Ajax from the broader returns survey.",
+      "Excluded Agamemnon and Orestes material."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

@@ -215,16 +215,23 @@
       "currentFile": null,
       "firstReviewedInBatch": "verification-batch-02",
       "reviewAttempts": 2,
-      "currentStatus": "unresolved_requires_human_review",
+      "currentStatus": "superseded_by_derived_records",
       "deferredReason": "The record has narrative signals but requires source-boundary reconstruction, cross-record comparison, or larger manual correction beyond the normal batch.",
       "lastReviewedAt": "1970-01-01T00:00:00.000Z",
       "classification_reviewed": true,
       "substantive_reconstruction_complete": true,
       "substantive_reconstruction_incomplete": false,
-      "reviewDepth": "substantive_reconstruction_final_status",
-      "actualFinalAuditOutcome": "unresolved_requires_human_review",
-      "auditFinding": "Batch 02 performed record-specific reconstruction; Leave unverified until the section is split or explicitly accepted as a multi-episode Perseus record.",
-      "reconstructionBatch": "reconstruction-batch-02"
+      "reviewDepth": "substantive_reconstruction_split",
+      "actualFinalAuditOutcome": "superseded_by_derived_records",
+      "auditFinding": "Batch 02 performed record-specific reconstruction; undefined",
+      "reconstructionBatch": "reconstruction-batch-02",
+      "finalDisposition": "split",
+      "derivedRecordIds": [
+        "bulk-verified-0019",
+        "bulk-verified-0004",
+        "bulk-verified-0020"
+      ],
+      "superseded": true
     },
     {
       "mythId": "bulk-myth-0015",
@@ -312,16 +319,23 @@
       "currentFile": null,
       "firstReviewedInBatch": "verification-batch-02",
       "reviewAttempts": 2,
-      "currentStatus": "unresolved_requires_human_review",
+      "currentStatus": "superseded_by_derived_records",
       "deferredReason": "The record has narrative signals but requires source-boundary reconstruction, cross-record comparison, or larger manual correction beyond the normal batch.",
       "lastReviewedAt": "1970-01-01T00:00:00.000Z",
       "classification_reviewed": true,
       "substantive_reconstruction_complete": true,
       "substantive_reconstruction_incomplete": false,
-      "reviewDepth": "substantive_reconstruction_final_status",
-      "actualFinalAuditOutcome": "unresolved_requires_human_review",
-      "auditFinding": "Batch 02 performed record-specific reconstruction; Keep the restored proposal unverified; a human reviewer must choose whether to split the Phryxus/Helle origin, Jason's launch, Lemnos, and Doliones into separate records.",
-      "reconstructionBatch": "reconstruction-batch-02"
+      "reviewDepth": "substantive_reconstruction_split",
+      "actualFinalAuditOutcome": "superseded_by_derived_records",
+      "auditFinding": "Batch 02 performed record-specific reconstruction; undefined",
+      "reconstructionBatch": "reconstruction-batch-02",
+      "finalDisposition": "split",
+      "derivedRecordIds": [
+        "bulk-verified-0002",
+        "bulk-verified-0017",
+        "bulk-verified-0018"
+      ],
+      "superseded": true
     },
     {
       "mythId": "bulk-myth-0021",
@@ -393,16 +407,25 @@
       "currentFile": null,
       "firstReviewedInBatch": "verification-batch-02",
       "reviewAttempts": 1,
-      "currentStatus": "ambiguous",
+      "currentStatus": "superseded_by_derived_records",
       "deferredReason": null,
       "lastReviewedAt": "1970-01-01T00:00:00.000Z",
       "classification_reviewed": true,
       "substantive_reconstruction_complete": true,
       "substantive_reconstruction_incomplete": false,
-      "reviewDepth": "substantive_reconstruction_final_status",
-      "actualFinalAuditOutcome": "ambiguous",
-      "auditFinding": "Batch 02 performed record-specific reconstruction; Classify as ambiguous because it needs split decisions around Argo launch, intervening adventures, and arrival at Colchis.",
-      "reconstructionBatch": "reconstruction-batch-02"
+      "reviewDepth": "substantive_reconstruction_split",
+      "actualFinalAuditOutcome": "superseded_by_derived_records",
+      "auditFinding": "Batch 02 performed record-specific reconstruction; undefined",
+      "reconstructionBatch": "reconstruction-batch-02",
+      "finalDisposition": "split",
+      "derivedRecordIds": [
+        "bulk-verified-0028",
+        "bulk-verified-0029",
+        "bulk-verified-0030",
+        "bulk-verified-0031",
+        "bulk-verified-0032"
+      ],
+      "superseded": true
     },
     {
       "mythId": "bulk-myth-0026",
@@ -506,16 +529,21 @@
       "currentFile": null,
       "firstReviewedInBatch": "verification-batch-01",
       "reviewAttempts": 2,
-      "currentStatus": "ambiguous",
+      "currentStatus": "superseded_by_derived_records",
       "deferredReason": "The Jason proposal ends inside the Phryxus and Helle recital and needs a larger Golden Fleece boundary reconstruction.",
       "lastReviewedAt": "1970-01-01T00:00:00.000Z",
       "classification_reviewed": true,
       "substantive_reconstruction_complete": true,
       "substantive_reconstruction_incomplete": false,
-      "reviewDepth": "substantive_reconstruction_final_status",
-      "actualFinalAuditOutcome": "ambiguous",
-      "auditFinding": "Batch 02 performed record-specific reconstruction; Classify as ambiguous because the record can be read either as Jason's origin subepisode or as the setup to the Argonaut quest.",
-      "reconstructionBatch": "reconstruction-batch-02"
+      "reviewDepth": "substantive_reconstruction_split",
+      "actualFinalAuditOutcome": "superseded_by_derived_records",
+      "auditFinding": "Batch 02 performed record-specific reconstruction; undefined",
+      "reconstructionBatch": "reconstruction-batch-02",
+      "finalDisposition": "split",
+      "derivedRecordIds": [
+        "bulk-verified-0021"
+      ],
+      "superseded": true
     },
     {
       "mythId": "bulk-myth-0034",
@@ -676,7 +704,12 @@
       "reviewDepth": "substantive_reconstruction_verified",
       "actualFinalAuditOutcome": "verified_by_source_audit",
       "auditFinding": "Batch 02 performed record-specific reconstruction; Promote as a complete-section verified record after rebuilding entities, relationships, events, narrative fields, and exact evidence.",
-      "reconstructionBatch": "reconstruction-batch-02"
+      "reconstructionBatch": "reconstruction-batch-02",
+      "finalDisposition": "verified",
+      "derivedRecordIds": [
+        "bulk-verified-0016"
+      ],
+      "superseded": true
     },
     {
       "mythId": "bulk-myth-0045",
@@ -1228,16 +1261,21 @@
       "currentFile": null,
       "firstReviewedInBatch": "verification-batch-01",
       "reviewAttempts": 2,
-      "currentStatus": "ambiguous",
+      "currentStatus": "superseded_by_derived_records",
       "deferredReason": "The Guerber Perseus opening stops after Danae's confinement and rescue setup, before a complete episode outcome.",
       "lastReviewedAt": "1970-01-01T00:00:00.000Z",
       "classification_reviewed": true,
       "substantive_reconstruction_complete": true,
       "substantive_reconstruction_incomplete": false,
-      "reviewDepth": "substantive_reconstruction_final_status",
-      "actualFinalAuditOutcome": "ambiguous",
-      "auditFinding": "Batch 02 performed record-specific reconstruction; Classify as ambiguous because it is a coherent birth/setup fragment but not the Perseus-and-Medusa story implied by the family.",
-      "reconstructionBatch": "reconstruction-batch-02"
+      "reviewDepth": "substantive_reconstruction_split",
+      "actualFinalAuditOutcome": "superseded_by_derived_records",
+      "auditFinding": "Batch 02 performed record-specific reconstruction; undefined",
+      "reconstructionBatch": "reconstruction-batch-02",
+      "finalDisposition": "split",
+      "derivedRecordIds": [
+        "bulk-verified-0022"
+      ],
+      "superseded": true
     },
     {
       "mythId": "bulk-myth-0086",
@@ -1261,16 +1299,21 @@
       "currentFile": null,
       "firstReviewedInBatch": "verification-batch-02",
       "reviewAttempts": 2,
-      "currentStatus": "unresolved_requires_human_review",
+      "currentStatus": "superseded_by_derived_records",
       "deferredReason": "The record has narrative signals but requires source-boundary reconstruction, cross-record comparison, or larger manual correction beyond the normal batch.",
       "lastReviewedAt": "1970-01-01T00:00:00.000Z",
       "classification_reviewed": true,
       "substantive_reconstruction_complete": true,
       "substantive_reconstruction_incomplete": false,
-      "reviewDepth": "substantive_reconstruction_final_status",
-      "actualFinalAuditOutcome": "unresolved_requires_human_review",
-      "auditFinding": "Batch 02 performed record-specific reconstruction; Do not verify a duplicate; the corpus already has a source-audited Daedalus and Icarus record, so this proposal needs an explicit duplicate-or-variant decision.",
-      "reconstructionBatch": "reconstruction-batch-02"
+      "reviewDepth": "substantive_reconstruction_merged",
+      "actualFinalAuditOutcome": "superseded_by_derived_records",
+      "auditFinding": "Batch 02 performed record-specific reconstruction; undefined",
+      "reconstructionBatch": "reconstruction-batch-02",
+      "finalDisposition": "merged",
+      "derivedRecordIds": [
+        "bulk-verified-0005"
+      ],
+      "superseded": true
     },
     {
       "mythId": "bulk-myth-0088",
@@ -1326,16 +1369,21 @@
       "currentFile": null,
       "firstReviewedInBatch": "verification-batch-01",
       "reviewAttempts": 2,
-      "currentStatus": "unresolved_requires_human_review",
+      "currentStatus": "superseded_by_derived_records",
       "deferredReason": "The Guerber Bellerophon setup stops at Minerva's bridle and should be reviewed with the following Chimera passages.",
       "lastReviewedAt": "1970-01-01T00:00:00.000Z",
       "classification_reviewed": true,
       "substantive_reconstruction_complete": true,
       "substantive_reconstruction_incomplete": false,
-      "reviewDepth": "substantive_reconstruction_final_status",
-      "actualFinalAuditOutcome": "unresolved_requires_human_review",
-      "auditFinding": "Batch 02 performed record-specific reconstruction; Leave unverified until the boundary is expanded to include the Chimera outcome or narrowed to a bridle-receipt subepisode.",
-      "reconstructionBatch": "reconstruction-batch-02"
+      "reviewDepth": "substantive_reconstruction_split",
+      "actualFinalAuditOutcome": "superseded_by_derived_records",
+      "auditFinding": "Batch 02 performed record-specific reconstruction; undefined",
+      "reconstructionBatch": "reconstruction-batch-02",
+      "finalDisposition": "split",
+      "derivedRecordIds": [
+        "bulk-verified-0023"
+      ],
+      "superseded": true
     },
     {
       "mythId": "bulk-myth-0092",
@@ -1471,16 +1519,22 @@
       "currentFile": null,
       "firstReviewedInBatch": "verification-batch-02",
       "reviewAttempts": 2,
-      "currentStatus": "ambiguous",
+      "currentStatus": "superseded_by_derived_records",
       "deferredReason": "The record has narrative signals but requires source-boundary reconstruction, cross-record comparison, or larger manual correction beyond the normal batch.",
       "lastReviewedAt": "1970-01-01T00:00:00.000Z",
       "classification_reviewed": true,
       "substantive_reconstruction_complete": true,
       "substantive_reconstruction_incomplete": false,
-      "reviewDepth": "substantive_reconstruction_final_status",
-      "actualFinalAuditOutcome": "ambiguous",
-      "auditFinding": "Batch 02 performed record-specific reconstruction; Classify as ambiguous because the source section is narrative but bundles several homecoming episodes.",
-      "reconstructionBatch": "reconstruction-batch-02"
+      "reviewDepth": "substantive_reconstruction_split",
+      "actualFinalAuditOutcome": "superseded_by_derived_records",
+      "auditFinding": "Batch 02 performed record-specific reconstruction; undefined",
+      "reconstructionBatch": "reconstruction-batch-02",
+      "finalDisposition": "split",
+      "derivedRecordIds": [
+        "bulk-verified-0024",
+        "bulk-verified-0025"
+      ],
+      "superseded": true
     },
     {
       "mythId": "bulk-myth-0103",
@@ -1520,16 +1574,22 @@
       "currentFile": null,
       "firstReviewedInBatch": "verification-batch-02",
       "reviewAttempts": 2,
-      "currentStatus": "unresolved_requires_human_review",
+      "currentStatus": "superseded_by_derived_records",
       "deferredReason": "The record has narrative signals but requires source-boundary reconstruction, cross-record comparison, or larger manual correction beyond the normal batch.",
       "lastReviewedAt": "1970-01-01T00:00:00.000Z",
       "classification_reviewed": true,
       "substantive_reconstruction_complete": true,
       "substantive_reconstruction_incomplete": false,
-      "reviewDepth": "substantive_reconstruction_final_status",
-      "actualFinalAuditOutcome": "unresolved_requires_human_review",
-      "auditFinding": "Batch 02 performed record-specific reconstruction; Leave unverified pending a split into Cicones, Lotus-Eaters, Cyclops, or another bounded Odyssey subepisode.",
-      "reconstructionBatch": "reconstruction-batch-02"
+      "reviewDepth": "substantive_reconstruction_split",
+      "actualFinalAuditOutcome": "superseded_by_derived_records",
+      "auditFinding": "Batch 02 performed record-specific reconstruction; undefined",
+      "reconstructionBatch": "reconstruction-batch-02",
+      "finalDisposition": "split",
+      "derivedRecordIds": [
+        "bulk-verified-0026",
+        "bulk-verified-0027"
+      ],
+      "superseded": true
     },
     {
       "mythId": "bulk-myth-0106",
@@ -4458,6 +4518,344 @@
       "reviewDepth": "classification_reviewed_only",
       "actualFinalAuditOutcome": "awaiting_substantive_source_review",
       "auditFinding": "PR #12 classification audit found generic rationale; restored for substantive source review."
+    },
+    {
+      "mythId": "bulk-verified-0016",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0016.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0017",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0017.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0020"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0018",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0018.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0020"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0019",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0019.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0014"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0020",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0020.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0014"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0021",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0021.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0032"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0022",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0022.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0085"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0023",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0023.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0091"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0024",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0024.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0102"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0025",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0025.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0102"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0026",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0026.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0105"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0027",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0027.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0105"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0028",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0028.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0025"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0029",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0029.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0025"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0030",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0030.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0025"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0031",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0031.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0025"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "mythId": "bulk-verified-0032",
+      "originalFile": null,
+      "currentFile": "corpus/normalized/bulk/verified/bulk-verified-0032.myth.json",
+      "firstReviewedInBatch": "reconstruction-batch-02",
+      "reviewAttempts": 1,
+      "currentStatus": "verified_by_source_audit",
+      "deferredReason": null,
+      "classification_reviewed": true,
+      "substantive_reconstruction_complete": true,
+      "substantive_reconstruction_incomplete": false,
+      "reconstructionBatch": "reconstruction-batch-02",
+      "reviewDepth": "derived_source_audited_record",
+      "actualFinalAuditOutcome": "verified_by_source_audit",
+      "derivedFromProposalIds": [
+        "bulk-myth-0025"
+      ],
+      "superseded": false,
+      "lastReviewedAt": "1970-01-01T00:00:00.000Z"
     }
   ]
 }

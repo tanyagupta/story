@@ -1,0 +1,363 @@
+{
+  "mythId": "bulk-verified-0018",
+  "mythFamilyId": "jason-and-argonauts",
+  "variantId": "gutenberg-berens-argonauts-at-lemnos-verified",
+  "title": "The Argonauts at Lemnos",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:302.302.8-302.302.8:4fd223df",
+      "gutenberg:ebooks:22381:302.302.9-302.302.9:2f84908e",
+      "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+      "gutenberg:ebooks:22381:302.302.11-302.302.11:3132f7fe",
+      "gutenberg:ebooks:22381:302.302.12-302.302.12:4cec3351"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "The Argonauts arrive at Lemnos, are received by Hypsipyle, linger at a feast, and are recalled by Heracles.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:302.302.8-302.302.8:4fd223df",
+      "gutenberg:ebooks:22381:302.302.9-302.302.9:2f84908e",
+      "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+      "gutenberg:ebooks:22381:302.302.11-302.302.11:3132f7fe",
+      "gutenberg:ebooks:22381:302.302.12-302.302.12:4cec3351"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The unit starts at the explicit Lemnos heading and ends when Heracles urges the Argonauts to resume their purpose."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0020"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The unit starts at the explicit Lemnos heading and ends when Heracles urges the Argonauts to resume their purpose.",
+  "entities": {
+    "characters": [
+      "jason",
+      "argonauts",
+      "hypsipyle",
+      "heracles",
+      "lemnian-women"
+    ],
+    "locations": [
+      "lemnos"
+    ],
+    "objects": [
+      "argo"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jason",
+      "normalizedId": "jason",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+          "sourceText": "Robed in his purple mantle, the gift of Pallas-Athene, Jason, accompanied by some of his companions, stepped on shore, where he was met by a deputation consisting of the most beautiful of the Lemnian women, and, as commander of the expedition, was invited into the palace of the queen.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argonauts",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+          "sourceText": "On arriving in port the Argonauts, astonished at beholding an armed crowd of women, despatched a herald in one of their boats, bearing the staff of peace and friendship.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Hypsipyle",
+      "normalizedId": "hypsipyle",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+          "sourceText": "Hypsipyle, the queen, proposed that food and presents should be sent to the strangers, in order to prevent their landing; but her old nurse, who stood beside her, suggested that this would be a good opportunity to provide themselves with noble husbands, who would act as their defenders, and thus put an end to their constant fears.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Heracles",
+      "normalizedId": "heracles",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.11-302.302.11:3132f7fe",
+          "sourceText": "Heracles, with a few chosen comrades, alone remained on board.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "women",
+      "normalizedId": "lemnian-women",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.9-302.302.9:2f84908e",
+          "sourceText": "This island was inhabited by women only, who, the year before, in a fit of mad jealousy, had killed all the male population of the island, with the exception of the father of their queen, Hypsipyle.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "LEMNOS",
+      "normalizedId": "lemnos",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.8-302.302.8:4fd223df",
+          "sourceText": "ARRIVAL AT LEMNOS.--The Argo, with her brave crew of fifty heroes, was soon out of sight, and the sea-breeze only wafted to the shore a faint echo of the sweet strains of Orpheus.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argo",
+      "normalizedId": "argo",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.9-302.302.9:2f84908e",
+          "sourceText": "When, therefore, they sighted the Argo from afar they armed themselves and rushed to the shore, determined to repel any invasion of their territory.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "jason",
+      "sourceNames": [
+        "Jason"
+      ],
+      "role": "visitor",
+      "reason": "Jason enters Hypsipyle's palace and represents the Argonauts.",
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "hypsipyle",
+      "relationship": "rules",
+      "target": "lemnos",
+      "sourceText": "Hypsipyle, the queen, proposed that food and presents should be sent to the strangers, in order to prevent their landing; but her old nurse, who stood beside her, suggested that this would be a good opportunity to provide themselves with noble husbands, who would act as their defenders, and thus put an end to their constant fears.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+        "sourceText": "Hypsipyle, the queen, proposed that food and presents should be sent to the strangers, in order to prevent their landing; but her old nurse, who stood beside her, suggested that this would be a good opportunity to provide themselves with noble husbands, who would act as their defenders, and thus put an end to their constant fears."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "The Argonauts land at Lemnos, where Hypsipyle and the Lemnian women receive them after initial alarm. The visitors are feasted until Heracles recalls them to their voyage.",
+    "openingSituation": "The Argo reaches Lemnos after departure.",
+    "centralConflict": "A stop at Lemnos delays the voyage toward the Golden Fleece.",
+    "resolution": "Heracles recalls the Argonauts to their duty.",
+    "outcome": "The Lemnos stay is treated as a delay before the voyage resumes.",
+    "storyline": [
+      "The women of Lemnos armed themselves to oppose the arriving Argo.",
+      "The Argonauts sent a herald from their boats.",
+      "Hypsipyle decided to invite the strangers into the city.",
+      "Heracles recalled the Argonauts to their duty."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:302.302.9-302.302.9:2f84908e",
+      "sourceText": "When, therefore, they sighted the Argo from afar they armed themselves and rushed to the shore, determined to repel any invasion of their territory.",
+      "supports": [
+        {
+          "field": "The women of Lemnos armed themselves to oppose the arriving Argo.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports The women of Lemnos armed themselves to oppose the arriving Argo.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+      "sourceText": "On arriving in port the Argonauts, astonished at beholding an armed crowd of women, despatched a herald in one of their boats, bearing the staff of peace and friendship.",
+      "supports": [
+        {
+          "field": "The Argonauts sent a herald from their boats.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports The Argonauts sent a herald from their boats.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+      "sourceText": "Hypsipyle listened attentively to the advice of her nurse, and after some consultation, decided to invite the strangers into the city.",
+      "supports": [
+        {
+          "field": "Hypsipyle decided to invite the strangers into the city.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Hypsipyle decided to invite the strangers into the city.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "When, therefore, they sighted the Argo from afar they armed themselves and rushed to the shore, determined to repel any invasion of their territory.",
+      "normalizedStatement": "The women of Lemnos armed themselves to oppose the arriving Argo.",
+      "actor": "lemnian-women",
+      "action": "oppose",
+      "sourceAction": "armed themselves",
+      "target": "argonauts",
+      "object": null,
+      "recipient": null,
+      "location": "lemnos",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.9-302.302.9:2f84908e",
+          "sourceText": "When, therefore, they sighted the Argo from afar they armed themselves and rushed to the shore, determined to repel any invasion of their territory."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:302.302.9-302.302.9:2f84908e",
+      "needle": "armed themselves and rushed to the shore"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "On arriving in port the Argonauts, astonished at beholding an armed crowd of women, despatched a herald in one of their boats, bearing the staff of peace and friendship.",
+      "normalizedStatement": "The Argonauts sent a herald from their boats.",
+      "actor": "argonauts",
+      "action": "send",
+      "sourceAction": "despatched",
+      "target": null,
+      "object": null,
+      "recipient": "hypsipyle",
+      "location": "lemnos",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+          "sourceText": "On arriving in port the Argonauts, astonished at beholding an armed crowd of women, despatched a herald in one of their boats, bearing the staff of peace and friendship."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+      "needle": "despatched a herald in one of their boats"
+    },
+    {
+      "eventId": "event-003",
+      "sourceText": "Hypsipyle listened attentively to the advice of her nurse, and after some consultation, decided to invite the strangers into the city.",
+      "normalizedStatement": "Hypsipyle decided to invite the strangers into the city.",
+      "actor": "hypsipyle",
+      "action": "invite",
+      "sourceAction": "invite",
+      "target": "argonauts",
+      "object": null,
+      "recipient": null,
+      "location": "lemnos",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+          "sourceText": "Hypsipyle listened attentively to the advice of her nurse, and after some consultation, decided to invite the strangers into the city."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+      "needle": "decided to invite the strangers into the city"
+    },
+    {
+      "eventId": "event-004",
+      "sourceText": "From day to day their departure was delayed, and the Argonauts, in their new life of dissipation, had almost forgotten the object of the expedition, when Heracles suddenly appeared amongst them, and at last recalled them to a sense of their duty.",
+      "normalizedStatement": "Heracles recalled the Argonauts to their duty.",
+      "actor": "heracles",
+      "action": "warn",
+      "sourceAction": "recalled",
+      "target": "argonauts",
+      "object": "argo",
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.12-302.302.12:4cec3351",
+          "sourceText": "From day to day their departure was delayed, and the Argonauts, in their new life of dissipation, had almost forgotten the object of the expedition, when Heracles suddenly appeared amongst them, and at last recalled them to a sense of their duty."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:302.302.12-302.302.12:4cec3351",
+      "needle": "recalled them to a sense of their duty"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:22381:302.302.8-302.302.8:4fd223df",
+      "gutenberg:ebooks:22381:302.302.9-302.302.9:2f84908e",
+      "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+      "gutenberg:ebooks:22381:302.302.11-302.302.11:3132f7fe",
+      "gutenberg:ebooks:22381:302.302.12-302.302.12:4cec3351"
+    ],
+    "claimsChecked": [
+      "The Argonauts arrive at Lemnos.",
+      "Hypsipyle invites them.",
+      "Heracles recalls them to the expedition."
+    ],
+    "correctionsMade": [
+      "Split Lemnos from the launch and Doliones material.",
+      "Excluded the following Doliones opening."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

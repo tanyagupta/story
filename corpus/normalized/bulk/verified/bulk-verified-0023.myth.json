@@ -1,0 +1,401 @@
+{
+  "mythId": "bulk-verified-0023",
+  "mythFamilyId": "bellerophon-and-pegasus",
+  "variantId": "gutenberg-guerber-bellerophon-chimera-commission-verified",
+  "title": "Bellerophon Sent Against the Chimera",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3",
+      "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a",
+      "gutenberg:ebooks:39250:414.414.4-414.414.4:f2c9dcf8",
+      "gutenberg:ebooks:39250:414.414.5-414.414.5:ba76c5e5",
+      "gutenberg:ebooks:39250:414.414.7-414.414.7:50399fe3",
+      "gutenberg:ebooks:39250:414.414.10-414.414.10:d203b51d",
+      "gutenberg:ebooks:39250:414.414.11-414.414.11:f208d60d",
+      "gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Bellerophon's false accusation leads to a deadly commission against the Chimera and divine aid from Minerva.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3",
+      "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a",
+      "gutenberg:ebooks:39250:414.414.4-414.414.4:f2c9dcf8",
+      "gutenberg:ebooks:39250:414.414.5-414.414.5:ba76c5e5",
+      "gutenberg:ebooks:39250:414.414.7-414.414.7:50399fe3",
+      "gutenberg:ebooks:39250:414.414.10-414.414.10:d203b51d",
+      "gutenberg:ebooks:39250:414.414.11-414.414.11:f208d60d",
+      "gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The selected passages stop at Minerva's bridle; the later Chimera fight is not inferred."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0091"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The selected passages stop at Minerva's bridle; the later Chimera fight is not inferred.",
+  "entities": {
+    "characters": [
+      "bellerophon",
+      "anteia",
+      "proetus",
+      "iobates",
+      "athena",
+      "pegasus"
+    ],
+    "locations": [
+      "lycia"
+    ],
+    "objects": [
+      "golden-bridle"
+    ],
+    "creatures": [
+      "chimera"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Bellerophon",
+      "normalizedId": "bellerophon",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3",
+          "sourceText": "Bellerophon, a brave young prince, the grandson of Sisyphus, King of Corinth, had the great misfortune to kill his own brother while hunting in the forest.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Anteia",
+      "normalizedId": "anteia",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a",
+          "sourceText": "He had not sojourned there very long, before Anteia, the queen, fell in love with him; and although her husband, Prœtus, treated her with the utmost kindness, she made up her mind to desert him, and tried to induce Bellerophon to elope with her.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Prœtus",
+      "normalizedId": "proetus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a",
+          "sourceText": "He had not sojourned there very long, before Anteia, the queen, fell in love with him; and although her husband, Prœtus, treated her with the utmost kindness, she made up her mind to desert him, and tried to induce Bellerophon to elope with her.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Iobates",
+      "normalizedId": "iobates",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.4-414.414.4:f2c9dcf8",
+          "sourceText": "Prœtus, indignant at what he deemed deep treachery on the part of an honored guest, yet reluctant to punish him with his own hand as he deserved, sent Bellerophon to Iobates, King of Lycia, with a sealed message bidding him put the bearer to death.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Minerva",
+      "normalizedId": "athena",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710",
+          "sourceText": "While thus inwardly bewailing the ill luck which had so persistently dogged his footsteps, Bellerophon suddenly saw Minerva appear before him in all her splendor, and heard her inquire in gentle tones the cause of his too evident dejection.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Pegasus",
+      "normalizedId": "pegasus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710",
+          "sourceText": "He had no sooner apprised her of the difficult task appointed him, than she promised him her aid, and before she vanished gave him a beautiful golden bridle, which she bade him use to control Pegasus.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Lycia",
+      "normalizedId": "lycia",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.4-414.414.4:f2c9dcf8",
+          "sourceText": "Prœtus, indignant at what he deemed deep treachery on the part of an honored guest, yet reluctant to punish him with his own hand as he deserved, sent Bellerophon to Iobates, King of Lycia, with a sealed message bidding him put the bearer to death.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "golden bridle",
+      "normalizedId": "golden-bridle",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710",
+          "sourceText": "He had no sooner apprised her of the difficult task appointed him, than she promised him her aid, and before she vanished gave him a beautiful golden bridle, which she bade him use to control Pegasus.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Chimæra",
+      "normalizedId": "chimera",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.7-414.414.7:50399fe3",
+          "sourceText": "He did not like to take a stranger's life, and still could not refuse to comply with Prœtus' urgent request: so, after much thought, he decided to send Bellerophon to attack the Chimæra, a terrible monster with a lion's head, a goat's body, and a dragon's tail.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "bellerophon",
+      "sourceNames": [
+        "Bellerophon"
+      ],
+      "role": "accused hero",
+      "reason": "Bellerophon is sent to Iobates and then assigned the Chimera task.",
+      "evidence": [
+        "gutenberg:ebooks:39250:414.414.4-414.414.4:f2c9dcf8",
+        "gutenberg:ebooks:39250:414.414.7-414.414.7:50399fe3"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "anteia",
+      "relationship": "spouse_of",
+      "target": "proetus",
+      "sourceText": "He had not sojourned there very long, before Anteia, the queen, fell in love with him; and although her husband, Prœtus, treated her with the utmost kindness, she made up her mind to desert him, and tried to induce Bellerophon to elope with her.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a",
+        "sourceText": "He had not sojourned there very long, before Anteia, the queen, fell in love with him; and although her husband, Prœtus, treated her with the utmost kindness, she made up her mind to desert him, and tried to induce Bellerophon to elope with her."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "After Anteia falsely accuses Bellerophon, Proetus sends him to Iobates with a deadly letter. Iobates assigns him the Chimera, and Minerva gives him a bridle for Pegasus.",
+    "openingSituation": "Bellerophon is received by Proetus after fleeing Corinth.",
+    "centralConflict": "False accusation turns royal hospitality into a death commission.",
+    "resolution": "Minerva supplies the bridle needed to control Pegasus.",
+    "outcome": "Bellerophon is prepared for the Chimera task, but the fight itself lies outside this source boundary.",
+    "storyline": [
+      "Anteia falsely accused Bellerophon to Proetus.",
+      "Proetus sent Bellerophon to Iobates with a death-letter.",
+      "Iobates commanded Bellerophon to attack the Chimera.",
+      "Minerva gave Bellerophon a golden bridle to control Pegasus."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a",
+      "sourceText": "His refusal was to cost him dear, however; for, when Anteia saw that the youth would never yield to her wishes, she became very angry indeed, sought her husband, and accused the young stranger of crimes he had never even dreamed of committing.",
+      "supports": [
+        {
+          "field": "Anteia falsely accused Bellerophon to Proetus.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Anteia falsely accused Bellerophon to Proetus.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:414.414.4-414.414.4:f2c9dcf8",
+      "sourceText": "Prœtus, indignant at what he deemed deep treachery on the part of an honored guest, yet reluctant to punish him with his own hand as he deserved, sent Bellerophon to Iobates, King of Lycia, with a sealed message bidding him put the bearer to death.",
+      "supports": [
+        {
+          "field": "Proetus sent Bellerophon to Iobates with a death-letter.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Proetus sent Bellerophon to Iobates with a death-letter.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:414.414.7-414.414.7:50399fe3",
+      "sourceText": "He did not like to take a stranger's life, and still could not refuse to comply with Prœtus' urgent request: so, after much thought, he decided to send Bellerophon to attack the Chimæra, a terrible monster with a lion's head, a goat's body, and a dragon's tail.",
+      "supports": [
+        {
+          "field": "Iobates commanded Bellerophon to attack the Chimera.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Iobates commanded Bellerophon to attack the Chimera.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "His refusal was to cost him dear, however; for, when Anteia saw that the youth would never yield to her wishes, she became very angry indeed, sought her husband, and accused the young stranger of crimes he had never even dreamed of committing.",
+      "normalizedStatement": "Anteia falsely accused Bellerophon to Proetus.",
+      "actor": "anteia",
+      "action": "accuse",
+      "sourceAction": "accused",
+      "target": "bellerophon",
+      "object": null,
+      "recipient": "proetus",
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a",
+          "sourceText": "His refusal was to cost him dear, however; for, when Anteia saw that the youth would never yield to her wishes, she became very angry indeed, sought her husband, and accused the young stranger of crimes he had never even dreamed of committing."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a",
+      "needle": "accused the young stranger of crimes"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "Prœtus, indignant at what he deemed deep treachery on the part of an honored guest, yet reluctant to punish him with his own hand as he deserved, sent Bellerophon to Iobates, King of Lycia, with a sealed message bidding him put the bearer to death.",
+      "normalizedStatement": "Proetus sent Bellerophon to Iobates with a death-letter.",
+      "actor": "proetus",
+      "action": "send",
+      "sourceAction": "sent",
+      "target": "bellerophon",
+      "object": null,
+      "recipient": "iobates",
+      "location": "lycia",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.4-414.414.4:f2c9dcf8",
+          "sourceText": "Prœtus, indignant at what he deemed deep treachery on the part of an honored guest, yet reluctant to punish him with his own hand as he deserved, sent Bellerophon to Iobates, King of Lycia, with a sealed message bidding him put the bearer to death."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:414.414.4-414.414.4:f2c9dcf8",
+      "needle": "sent Bellerophon to Iobates"
+    },
+    {
+      "eventId": "event-003",
+      "sourceText": "He did not like to take a stranger's life, and still could not refuse to comply with Prœtus' urgent request: so, after much thought, he decided to send Bellerophon to attack the Chimæra, a terrible monster with a lion's head, a goat's body, and a dragon's tail.",
+      "normalizedStatement": "Iobates commanded Bellerophon to attack the Chimera.",
+      "actor": "iobates",
+      "action": "command",
+      "sourceAction": "send",
+      "target": "bellerophon",
+      "object": "chimera",
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.7-414.414.7:50399fe3",
+          "sourceText": "He did not like to take a stranger's life, and still could not refuse to comply with Prœtus' urgent request: so, after much thought, he decided to send Bellerophon to attack the Chimæra, a terrible monster with a lion's head, a goat's body, and a dragon's tail."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:414.414.7-414.414.7:50399fe3",
+      "needle": "send Bellerophon to attack the Chimæra"
+    },
+    {
+      "eventId": "event-004",
+      "sourceText": "He had no sooner apprised her of the difficult task appointed him, than she promised him her aid, and before she vanished gave him a beautiful golden bridle, which she bade him use to control Pegasus.",
+      "normalizedStatement": "Minerva gave Bellerophon a golden bridle to control Pegasus.",
+      "actor": "athena",
+      "action": "assist",
+      "sourceAction": "gave",
+      "target": null,
+      "object": "golden-bridle",
+      "recipient": "bellerophon",
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710",
+          "sourceText": "He had no sooner apprised her of the difficult task appointed him, than she promised him her aid, and before she vanished gave him a beautiful golden bridle, which she bade him use to control Pegasus."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710",
+      "needle": "gave him a beautiful golden bridle"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3",
+      "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a",
+      "gutenberg:ebooks:39250:414.414.4-414.414.4:f2c9dcf8",
+      "gutenberg:ebooks:39250:414.414.5-414.414.5:ba76c5e5",
+      "gutenberg:ebooks:39250:414.414.7-414.414.7:50399fe3",
+      "gutenberg:ebooks:39250:414.414.10-414.414.10:d203b51d",
+      "gutenberg:ebooks:39250:414.414.11-414.414.11:f208d60d",
+      "gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710"
+    ],
+    "claimsChecked": [
+      "Anteia accuses Bellerophon.",
+      "Proetus sends Bellerophon to Iobates.",
+      "Iobates assigns the Chimera.",
+      "Minerva gives the bridle."
+    ],
+    "correctionsMade": [
+      "Verified a coherent commission-and-aid subepisode instead of deferring for missing battle outcome.",
+      "Excluded quoted and heading passages."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

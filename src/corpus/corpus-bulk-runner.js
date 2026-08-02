@@ -1299,6 +1299,7 @@ function cleanBulkOutputs() {
     "corpus/review/verification-program-final-report.json",
     "corpus/review/reconstruction-batch-02-selection.json",
     "corpus/review/reconstruction-batch-02-results.json",
+    "corpus/review/reconstruction-batch-02-derived-records.json",
     "corpus/review/reconstruction-batch-02-manual-inspection.json"
   ].forEach((file) => fs.rmSync(rel(file), { force: true }));
   for (let index = 2; index <= 7; index += 1) {
@@ -1518,8 +1519,8 @@ runCli(async (args) => {
     record.myth.variantLinks.forEach((link) => {
       link.reviewStatus = result.finalStatus;
     });
-    record.myth.normalizationWarnings = record.myth.normalizationWarnings.concat(reviewItem("myth", record.myth.mythId, `reconstruction-batch-02-${result.finalStatus}`, record.myth.title, result.boundaryAnalysis.specificProblems.concat(result.remainingUncertainties), record.myth.source.passages.slice(0, 3)));
-    if (result.finalStatus === "verified_by_source_audit") {
+    record.myth.normalizationWarnings = record.myth.normalizationWarnings.concat(reviewItem("myth", record.myth.mythId, `reconstruction-batch-02-${result.finalDisposition}`, record.myth.title, result.boundaryAnalysis.specificProblems.concat(result.remainingUncertainties), record.myth.source.passages.slice(0, 3)));
+    if (["verified", "split", "merged"].includes(result.finalDisposition)) {
       fs.rmSync(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), { force: true });
     } else {
       writeJson(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), record.myth);
@@ -1538,9 +1539,33 @@ runCli(async (args) => {
     entry.substantive_reconstruction_complete = true;
     entry.substantive_reconstruction_incomplete = false;
     entry.reconstructionBatch = "reconstruction-batch-02";
-    entry.reviewDepth = result.finalStatus === "verified_by_source_audit" ? "substantive_reconstruction_verified" : "substantive_reconstruction_final_status";
+    entry.reviewDepth = result.finalDisposition === "verified" ? "substantive_reconstruction_verified" : `substantive_reconstruction_${result.finalDisposition}`;
     entry.actualFinalAuditOutcome = result.finalStatus;
+    entry.finalDisposition = result.finalDisposition;
+    entry.derivedRecordIds = result.derivedRecordIds;
+    entry.superseded = ["verified", "split", "merged"].includes(result.finalDisposition);
     entry.auditFinding = `Batch 02 performed record-specific reconstruction; ${result.boundaryAnalysis.resolution}`;
+  });
+  reconstructionBatch02.verifiedRecords.forEach((myth) => {
+    if (program.ledger.entries.some((entry) => entry.mythId === myth.mythId)) return;
+    program.ledger.entries.push({
+      mythId: myth.mythId,
+      originalFile: null,
+      currentFile: `corpus/normalized/bulk/verified/${myth.mythId}.myth.json`,
+      firstReviewedInBatch: "reconstruction-batch-02",
+      reviewAttempts: 1,
+      currentStatus: "verified_by_source_audit",
+      deferredReason: null,
+      classification_reviewed: true,
+      substantive_reconstruction_complete: true,
+      substantive_reconstruction_incomplete: false,
+      reconstructionBatch: "reconstruction-batch-02",
+      reviewDepth: "derived_source_audited_record",
+      actualFinalAuditOutcome: "verified_by_source_audit",
+      derivedFromProposalIds: myth.derivedFromProposalIds || [],
+      superseded: false,
+      lastReviewedAt: GENERATED_AT
+    });
   });
   program.progress.batchesCompleted = [{
     batchId: "pr12-audit-restoration",
@@ -1551,6 +1576,10 @@ runCli(async (args) => {
     batchId: "reconstruction-batch-02",
     selectedCount: reconstructionBatch02.selection.selectedCount,
     verified: reconstructionBatch02.results.verifiedCount,
+    split: reconstructionBatch02.results.splitCount,
+    merged: reconstructionBatch02.results.mergedCount,
+    derivedVerified: reconstructionBatch02.results.derivedVerifiedCount,
+    supersededProposals: reconstructionBatch02.results.supersededProposalCount,
     ambiguous: reconstructionBatch02.results.ambiguousCount,
     rejectedNonStory: reconstructionBatch02.results.rejectedCount,
     unresolvedRequiresHumanReview: reconstructionBatch02.results.humanReviewRequiredCount
@@ -1570,6 +1599,7 @@ runCli(async (args) => {
   writeJson(rel("corpus/review/pr12-audit-conclusion.json"), pr12Audit.conclusion);
   writeJson(rel("corpus/review/reconstruction-batch-02-selection.json"), reconstructionBatch02.selection);
   writeJson(rel("corpus/review/reconstruction-batch-02-results.json"), reconstructionBatch02.results);
+  writeJson(rel("corpus/review/reconstruction-batch-02-derived-records.json"), reconstructionBatch02.derivedReport);
   writeJson(rel("corpus/review/reconstruction-batch-02-manual-inspection.json"), reconstructionBatch02.manualInspection);
   writeJson(rel("corpus/review/pr12-templated-review-safeguards.json"), {
     generatedAt: GENERATED_AT,

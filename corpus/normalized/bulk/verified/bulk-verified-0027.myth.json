@@ -1,0 +1,304 @@
+{
+  "mythId": "bulk-verified-0027",
+  "mythFamilyId": "odysseus-return",
+  "variantId": "gutenberg-guerber-ulysses-lotus-eaters-verified",
+  "title": "Ulysses and the Lotus-Eaters",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:463.463.9-463.463.9:8bfe8549",
+      "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "A storm drives Ulysses to the Lotus-Eaters, where scouts eat lotus and forget home.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:463.463.9-463.463.9:8bfe8549",
+      "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The Lotus-Eater heading begins this unit, and the following quotation fragment is excluded."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0105"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The Lotus-Eater heading begins this unit, and the following quotation fragment is excluded.",
+  "entities": {
+    "characters": [
+      "odysseus",
+      "ulysses-men",
+      "lotus-eaters"
+    ],
+    "locations": [
+      "lotus-eater-land"
+    ],
+    "objects": [
+      "lotus",
+      "homeward-return"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Ulysses",
+      "normalizedId": "odysseus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e",
+          "sourceText": "Three of Ulysses' best men were sent ashore to reconnoiter: but they had not gone very far before they met the natives, seated under their favorite trees, banqueting on their sweet food.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "men",
+      "normalizedId": "ulysses-men",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e",
+          "sourceText": "Three of Ulysses' best men were sent ashore to reconnoiter: but they had not gone very far before they met the natives, seated under their favorite trees, banqueting on their sweet food.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Lotophagi",
+      "normalizedId": "lotus-eaters",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.9-463.463.9:8bfe8549",
+          "sourceText": "The vessels, with broken masts and torn sails, were driven far out of their course, and, after ten days, reached the land of the Lotophagi or Lotus-eaters,--a people whose sole food consisted of lotus fruit and blossoms.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "land of the Lotophagi",
+      "normalizedId": "lotus-eater-land",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.9-463.463.9:8bfe8549",
+          "sourceText": "The vessels, with broken masts and torn sails, were driven far out of their course, and, after ten days, reached the land of the Lotophagi or Lotus-eaters,--a people whose sole food consisted of lotus fruit and blossoms.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "lotus",
+      "normalizedId": "lotus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e",
+          "sourceText": "These received the strangers hospitably, and made them partake of the lotus blossoms; but no sooner had the three men done so, than all recollection of their waiting companions or distant homes passed from their minds, while a dreamy, lethargic sensation stole over them, and made them long to recline there and feast forever.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "distant homes",
+      "normalizedId": "homeward-return",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e",
+          "sourceText": "These received the strangers hospitably, and made them partake of the lotus blossoms; but no sooner had the three men done so, than all recollection of their waiting companions or distant homes passed from their minds, while a dreamy, lethargic sensation stole over them, and made them long to recline there and feast forever.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "odysseus",
+      "sourceNames": [
+        "Ulysses"
+      ],
+      "role": "leader",
+      "reason": "Ulysses sends scouts into the Lotus-Eater land.",
+      "evidence": [
+        "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e"
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "A storm carries Ulysses to the Lotus-Eaters, and the scouts who taste lotus forget their desire to return home.",
+    "openingSituation": "A storm delays Ulysses' voyage.",
+    "centralConflict": "The lotus threatens the homeward journey by making men forget home.",
+    "resolution": "The source reports the men's loss of desire to return.",
+    "outcome": "The party faces delay in Lotus-Eater land.",
+    "storyline": [
+      "Ulysses reached the land of the Lotus-Eaters.",
+      "The Lotus-Eaters made the men partake of lotus blossoms.",
+      "The men forgot their companions and distant homes."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:463.463.9-463.463.9:8bfe8549",
+      "sourceText": "The vessels, with broken masts and torn sails, were driven far out of their course, and, after ten days, reached the land of the Lotophagi or Lotus-eaters,--a people whose sole food consisted of lotus fruit and blossoms.",
+      "supports": [
+        {
+          "field": "Ulysses reached the land of the Lotus-Eaters.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Ulysses reached the land of the Lotus-Eaters.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e",
+      "sourceText": "These received the strangers hospitably, and made them partake of the lotus blossoms; but no sooner had the three men done so, than all recollection of their waiting companions or distant homes passed from their minds, while a dreamy, lethargic sensation stole over them, and made them long to recline there and feast forever.",
+      "supports": [
+        {
+          "field": "The Lotus-Eaters made the men partake of lotus blossoms.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports The Lotus-Eaters made the men partake of lotus blossoms.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e",
+      "sourceText": "These received the strangers hospitably, and made them partake of the lotus blossoms; but no sooner had the three men done so, than all recollection of their waiting companions or distant homes passed from their minds, while a dreamy, lethargic sensation stole over them, and made them long to recline there and feast forever.",
+      "supports": [
+        {
+          "field": "The men forgot their companions and distant homes.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports The men forgot their companions and distant homes.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "The vessels, with broken masts and torn sails, were driven far out of their course, and, after ten days, reached the land of the Lotophagi or Lotus-eaters,--a people whose sole food consisted of lotus fruit and blossoms.",
+      "normalizedStatement": "Ulysses reached the land of the Lotus-Eaters.",
+      "actor": "odysseus",
+      "action": "travel",
+      "sourceAction": "reached",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": "lotus-eater-land",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.9-463.463.9:8bfe8549",
+          "sourceText": "The vessels, with broken masts and torn sails, were driven far out of their course, and, after ten days, reached the land of the Lotophagi or Lotus-eaters,--a people whose sole food consisted of lotus fruit and blossoms."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:463.463.9-463.463.9:8bfe8549",
+      "needle": "reached the land of the Lotophagi"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "These received the strangers hospitably, and made them partake of the lotus blossoms; but no sooner had the three men done so, than all recollection of their waiting companions or distant homes passed from their minds, while a dreamy, lethargic sensation stole over them, and made them long to recline there and feast forever.",
+      "normalizedStatement": "The Lotus-Eaters made the men partake of lotus blossoms.",
+      "actor": "lotus-eaters",
+      "action": "feed",
+      "sourceAction": "made them partake",
+      "target": "ulysses-men",
+      "object": "lotus",
+      "recipient": null,
+      "location": "lotus-eater-land",
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e",
+          "sourceText": "These received the strangers hospitably, and made them partake of the lotus blossoms; but no sooner had the three men done so, than all recollection of their waiting companions or distant homes passed from their minds, while a dreamy, lethargic sensation stole over them, and made them long to recline there and feast forever."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e",
+      "needle": "made them partake of the lotus blossoms"
+    },
+    {
+      "eventId": "event-003",
+      "sourceText": "These received the strangers hospitably, and made them partake of the lotus blossoms; but no sooner had the three men done so, than all recollection of their waiting companions or distant homes passed from their minds, while a dreamy, lethargic sensation stole over them, and made them long to recline there and feast forever.",
+      "normalizedStatement": "The men forgot their companions and distant homes.",
+      "actor": "ulysses-men",
+      "action": "forget",
+      "sourceAction": "passed from their minds",
+      "target": null,
+      "object": "homeward-return",
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e",
+          "sourceText": "These received the strangers hospitably, and made them partake of the lotus blossoms; but no sooner had the three men done so, than all recollection of their waiting companions or distant homes passed from their minds, while a dreamy, lethargic sensation stole over them, and made them long to recline there and feast forever."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e",
+      "needle": "all recollection of their waiting companions or distant homes passed from their minds"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:463.463.9-463.463.9:8bfe8549",
+      "gutenberg:ebooks:39250:463.463.10-463.463.10:0814060e"
+    ],
+    "claimsChecked": [
+      "Ulysses reaches the Lotophagi.",
+      "Scouts taste lotus.",
+      "The lotus makes them forget home."
+    ],
+    "correctionsMade": [
+      "Split Lotus-Eaters from the broad Odyssey survey.",
+      "Excluded the quotation fragment."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

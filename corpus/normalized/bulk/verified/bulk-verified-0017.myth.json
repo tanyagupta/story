@@ -1,0 +1,351 @@
+{
+  "mythId": "bulk-verified-0017",
+  "mythFamilyId": "golden-fleece",
+  "variantId": "gutenberg-berens-jason-launches-argo-verified",
+  "title": "Jason Launches the Argo",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:302.302.3-302.302.3:8296fb5e",
+      "gutenberg:ebooks:22381:302.302.4-302.302.4:bef557c3",
+      "gutenberg:ebooks:22381:302.302.5-302.302.5:fed2fc57",
+      "gutenberg:ebooks:22381:302.302.6-302.302.6:6198f7f3",
+      "gutenberg:ebooks:22381:302.302.7-302.302.7:1e4d9de5"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Jason gathers the Argonauts, the Argo is built, sacrifices are offered, and the expedition departs.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:302.302.3-302.302.3:8296fb5e",
+      "gutenberg:ebooks:22381:302.302.4-302.302.4:bef557c3",
+      "gutenberg:ebooks:22381:302.302.5-302.302.5:fed2fc57",
+      "gutenberg:ebooks:22381:302.302.6-302.302.6:6198f7f3",
+      "gutenberg:ebooks:22381:302.302.7-302.302.7:1e4d9de5"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The explicit source heading 'BUILDING AND LAUNCH OF THE ARGO.' begins this unit; the next heading, 'ARRIVAL AT LEMNOS.', begins a separate episode."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0020"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The explicit source heading 'BUILDING AND LAUNCH OF THE ARGO.' begins this unit; the next heading, 'ARRIVAL AT LEMNOS.', begins a separate episode.",
+  "entities": {
+    "characters": [
+      "jason",
+      "argonauts",
+      "athena",
+      "argus-shipwright",
+      "tiphys",
+      "poseidon",
+      "zeus"
+    ],
+    "locations": [],
+    "objects": [
+      "argo"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jason",
+      "normalizedId": "jason",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.4-302.302.4:bef557c3",
+          "sourceText": "Jason accordingly began to arrange his plans without delay, and invited the young heroes whose friendship he {216} had formed whilst under the care of Chiron, to join him in the perilous expedition.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argonauts",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.5-302.302.5:fed2fc57",
+          "sourceText": "When the vessel was completed, the Argonauts (so called after their ship) assembled, and their places were distributed by lot.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Pallas-Athene",
+      "normalizedId": "athena",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.5-302.302.5:fed2fc57",
+          "sourceText": "Jason now applied to Argos, one of the cleverest ship-builders of his time, who, under the guidance of Pallas-Athene, built for him a splendid fifty-oared galley, which was called the Argo, after the builder.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argos",
+      "normalizedId": "argus-shipwright",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.5-302.302.5:fed2fc57",
+          "sourceText": "Jason now applied to Argos, one of the cleverest ship-builders of his time, who, under the guidance of Pallas-Athene, built for him a splendid fifty-oared galley, which was called the Argo, after the builder.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Tiphys",
+      "normalizedId": "tiphys",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.6-302.302.6:6198f7f3",
+          "sourceText": "Jason was appointed commander-in-chief of the expedition, Tiphys acted as steersman, Lynceus as pilot.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Poseidon",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.7-302.302.7:1e4d9de5",
+          "sourceText": "Before their departure Jason offered a solemn sacrifice to Poseidon and all the other sea-deities; he also invoked the protection of Zeus and the Fates, and then, Mopsus having taken the auguries, and found them auspicious, the heroes stepped on board.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.7-302.302.7:1e4d9de5",
+          "sourceText": "Before their departure Jason offered a solemn sacrifice to Poseidon and all the other sea-deities; he also invoked the protection of Zeus and the Fates, and then, Mopsus having taken the auguries, and found them auspicious, the heroes stepped on board.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argo",
+      "normalizedId": "argo",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.5-302.302.5:fed2fc57",
+          "sourceText": "Jason now applied to Argos, one of the cleverest ship-builders of his time, who, under the guidance of Pallas-Athene, built for him a splendid fifty-oared galley, which was called the Argo, after the builder.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "jason",
+      "sourceNames": [
+        "Jason"
+      ],
+      "role": "expedition leader",
+      "reason": "Jason arranges the plans and commands the expedition.",
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.4-302.302.4:bef557c3",
+        "gutenberg:ebooks:22381:302.302.6-302.302.6:6198f7f3"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "jason",
+      "relationship": "commands",
+      "target": "argonauts",
+      "sourceText": "Jason was appointed commander-in-chief of the expedition, Tiphys acted as steersman, Lynceus as pilot.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:302.302.6-302.302.6:6198f7f3",
+        "sourceText": "Jason was appointed commander-in-chief of the expedition, Tiphys acted as steersman, Lynceus as pilot."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Jason summons heroes for the Golden Fleece expedition, receives the newly built Argo, distributes the crew's places, offers sacrifice, and launches the voyage.",
+    "openingSituation": "Jason begins plans to recover the Golden Fleece.",
+    "centralConflict": "The expedition must be organized and launched before the heroes can seek the fleece.",
+    "resolution": "The crew takes its assigned places in the Argo.",
+    "outcome": "The Argo departs under Jason's command.",
+    "storyline": [
+      "Jason arranged plans for the perilous expedition proposed by his uncle.",
+      "Argos built the Argo for Jason under Pallas-Athene's guidance.",
+      "The Argonauts took their places in the Argo and departed."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:302.302.4-302.302.4:bef557c3",
+      "sourceText": "Jason accordingly began to arrange his plans without delay, and invited the young heroes whose friendship he {216} had formed whilst under the care of Chiron, to join him in the perilous expedition.",
+      "supports": [
+        {
+          "field": "Jason arranged plans for the perilous expedition proposed by his uncle.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Jason arranged plans for the perilous expedition proposed by his uncle.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:302.302.5-302.302.5:fed2fc57",
+      "sourceText": "Jason now applied to Argos, one of the cleverest ship-builders of his time, who, under the guidance of Pallas-Athene, built for him a splendid fifty-oared galley, which was called the Argo, after the builder.",
+      "supports": [
+        {
+          "field": "Argos built the Argo for Jason under Pallas-Athene's guidance.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Argos built the Argo for Jason under Pallas-Athene's guidance.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:302.302.7-302.302.7:1e4d9de5",
+      "sourceText": "And now a favourable breeze having sprung up, they take their allotted places, {217} the anchor is weighed, and the ship glides like a bird out of the harbour into the waters of the great sea.",
+      "supports": [
+        {
+          "field": "The Argonauts took their places in the Argo and departed.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports The Argonauts took their places in the Argo and departed.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "Jason accordingly began to arrange his plans without delay, and invited the young heroes whose friendship he {216} had formed whilst under the care of Chiron, to join him in the perilous expedition.",
+      "normalizedStatement": "Jason arranged plans for the perilous expedition proposed by his uncle.",
+      "actor": "jason",
+      "action": "organize",
+      "sourceAction": "arrange",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.4-302.302.4:bef557c3",
+          "sourceText": "Jason accordingly began to arrange his plans without delay, and invited the young heroes whose friendship he {216} had formed whilst under the care of Chiron, to join him in the perilous expedition."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:302.302.4-302.302.4:bef557c3",
+      "needle": "Jason accordingly began to arrange his plans"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "Jason now applied to Argos, one of the cleverest ship-builders of his time, who, under the guidance of Pallas-Athene, built for him a splendid fifty-oared galley, which was called the Argo, after the builder.",
+      "normalizedStatement": "Argos built the Argo for Jason under Pallas-Athene's guidance.",
+      "actor": "argus-shipwright",
+      "action": "build",
+      "sourceAction": "built",
+      "target": null,
+      "object": "argo",
+      "recipient": "jason",
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.5-302.302.5:fed2fc57",
+          "sourceText": "Jason now applied to Argos, one of the cleverest ship-builders of his time, who, under the guidance of Pallas-Athene, built for him a splendid fifty-oared galley, which was called the Argo, after the builder."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:302.302.5-302.302.5:fed2fc57",
+      "needle": "built for him a splendid fifty-oared galley"
+    },
+    {
+      "eventId": "event-003",
+      "sourceText": "And now a favourable breeze having sprung up, they take their allotted places, {217} the anchor is weighed, and the ship glides like a bird out of the harbour into the waters of the great sea.",
+      "normalizedStatement": "The Argonauts took their places in the Argo and departed.",
+      "actor": "argonauts",
+      "action": "depart",
+      "sourceAction": "take their allotted places",
+      "target": null,
+      "object": "argo",
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:302.302.7-302.302.7:1e4d9de5",
+          "sourceText": "And now a favourable breeze having sprung up, they take their allotted places, {217} the anchor is weighed, and the ship glides like a bird out of the harbour into the waters of the great sea."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:22381:302.302.7-302.302.7:1e4d9de5",
+      "needle": "they take their allotted places"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:22381:302.302.3-302.302.3:8296fb5e",
+      "gutenberg:ebooks:22381:302.302.4-302.302.4:bef557c3",
+      "gutenberg:ebooks:22381:302.302.5-302.302.5:fed2fc57",
+      "gutenberg:ebooks:22381:302.302.6-302.302.6:6198f7f3",
+      "gutenberg:ebooks:22381:302.302.7-302.302.7:1e4d9de5"
+    ],
+    "claimsChecked": [
+      "Jason plans the Golden Fleece expedition.",
+      "Argos builds the Argo under Pallas-Athene.",
+      "The crew departs after sacrifices."
+    ],
+    "correctionsMade": [
+      "Split launch material from Phryxus/Helle and Lemnos.",
+      "Rebuilt events around planning, shipbuilding, and departure."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

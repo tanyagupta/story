@@ -1,0 +1,267 @@
+{
+  "mythId": "bulk-verified-0028",
+  "mythFamilyId": "jason-and-argonauts",
+  "variantId": "gutenberg-guerber-speaking-oak-argo-verified",
+  "title": "Jason Builds the Argo with the Speaking Oak",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+      "gutenberg:ebooks:39250:395.395.4-395.395.4:7fcc7593"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "The Speaking Oak instructs Jason and the Argo is built with a speaking figurehead.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+      "gutenberg:ebooks:39250:395.395.4-395.395.4:7fcc7593"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The source heading and two narrative paragraphs form the ship-building setup before later voyage episodes."
+  },
+  "derivedFromProposalIds": [
+    "bulk-myth-0025"
+  ],
+  "reconstructionBatch": "reconstruction-batch-02",
+  "derivationType": "split",
+  "sourceBoundaryDecision": "The source heading and two narrative paragraphs form the ship-building setup before later voyage episodes.",
+  "entities": {
+    "characters": [
+      "jason",
+      "hera",
+      "athena",
+      "argonauts"
+    ],
+    "locations": [],
+    "objects": [
+      "speaking-oak",
+      "argo"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jason",
+      "normalizedId": "jason",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+          "sourceText": "When Jason, sobered and refreshed by a long night's rest, perceived how foolish had been his vow, he would fain have recalled it; but, mindful of Chiron's teachings ever to be true to his word, he resolved to depart for Colchis.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Juno",
+      "normalizedId": "hera",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+          "sourceText": "To secure Juno's assistance, he began by visiting her shrine at Dodona, where the oracle, a Speaking Oak, assured him of the goddess's good will and efficacious protection.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Minerva",
+      "normalizedId": "athena",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+          "sourceText": "Next the Speaking Oak bade him cut off one of its own mighty limbs, and carve from it a figurehead for the swift-sailing vessel which Minerva, at Juno's request, would build for his use from pine trees grown on Mount Pelion.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "heroes",
+      "normalizedId": "argonauts",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.4-395.395.4:7fcc7593",
+          "sourceText": "When quite completed, Jason called his vessel the Argo (swift-sailing), and speedily collected a crew of heroes as brave as himself, among whom were Hercules, Castor, Pollux, Peleus, Admetus, Theseus, and Orpheus, who were all glad to undertake the perilous journey to lands unknown.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Speaking Oak",
+      "normalizedId": "speaking-oak",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+          "sourceText": "To secure Juno's assistance, he began by visiting her shrine at Dodona, where the oracle, a Speaking Oak, assured him of the goddess's good will and efficacious protection.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Argo",
+      "normalizedId": "argo",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.4-395.395.4:7fcc7593",
+          "sourceText": "When quite completed, Jason called his vessel the Argo (swift-sailing), and speedily collected a crew of heroes as brave as himself, among whom were Hercules, Castor, Pollux, Peleus, Admetus, Theseus, and Orpheus, who were all glad to undertake the perilous journey to lands unknown.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "jason",
+      "sourceNames": [
+        "Jason"
+      ],
+      "role": "quest leader",
+      "reason": "Jason seeks instruction and receives the ship for the voyage.",
+      "evidence": [
+        "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf"
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The Speaking Oak directs Jason to use its wood, Minerva provides a speaking figurehead, and the Argo is completed for the expedition.",
+    "openingSituation": "Jason seeks guidance at Dodona.",
+    "centralConflict": "The voyage needs a divinely sanctioned ship.",
+    "resolution": "The Argo is finished with the speaking figurehead.",
+    "outcome": "Jason gathers the Greek heroes for the voyage.",
+    "storyline": [
+      "The Speaking Oak instructed Jason to use one of its limbs for the Argo.",
+      "Jason collected a crew of heroes after the Argo was finished."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+      "sourceText": "Next the Speaking Oak bade him cut off one of its own mighty limbs, and carve from it a figurehead for the swift-sailing vessel which Minerva, at Juno's request, would build for his use from pine trees grown on Mount Pelion.",
+      "supports": [
+        {
+          "field": "The Speaking Oak instructed Jason to use one of its limbs for the Argo.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports The Speaking Oak instructed Jason to use one of its limbs for the Argo.."
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:395.395.4-395.395.4:7fcc7593",
+      "sourceText": "When quite completed, Jason called his vessel the Argo (swift-sailing), and speedily collected a crew of heroes as brave as himself, among whom were Hercules, Castor, Pollux, Peleus, Admetus, Theseus, and Orpheus, who were all glad to undertake the perilous journey to lands unknown.",
+      "supports": [
+        {
+          "field": "Jason collected a crew of heroes after the Argo was finished.",
+          "evidenceType": "direct",
+          "rationale": "The exact source sentence directly supports Jason collected a crew of heroes after the Argo was finished.."
+        }
+      ]
+    }
+  ],
+  "initialState": [],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceText": "Next the Speaking Oak bade him cut off one of its own mighty limbs, and carve from it a figurehead for the swift-sailing vessel which Minerva, at Juno's request, would build for his use from pine trees grown on Mount Pelion.",
+      "normalizedStatement": "The Speaking Oak instructed Jason to use one of its limbs for the Argo.",
+      "actor": "speaking-oak",
+      "action": "instruct",
+      "sourceAction": "bade",
+      "target": null,
+      "object": "argo",
+      "recipient": "jason",
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+          "sourceText": "Next the Speaking Oak bade him cut off one of its own mighty limbs, and carve from it a figurehead for the swift-sailing vessel which Minerva, at Juno's request, would build for his use from pine trees grown on Mount Pelion."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+      "needle": "bade him cut off one of its own mighty limbs"
+    },
+    {
+      "eventId": "event-002",
+      "sourceText": "When quite completed, Jason called his vessel the Argo (swift-sailing), and speedily collected a crew of heroes as brave as himself, among whom were Hercules, Castor, Pollux, Peleus, Admetus, Theseus, and Orpheus, who were all glad to undertake the perilous journey to lands unknown.",
+      "normalizedStatement": "Jason collected a crew of heroes after the Argo was finished.",
+      "actor": "jason",
+      "action": "assemble",
+      "sourceAction": "collected",
+      "target": "argonauts",
+      "object": "argo",
+      "recipient": null,
+      "location": null,
+      "confidence": 0.9,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:395.395.4-395.395.4:7fcc7593",
+          "sourceText": "When quite completed, Jason called his vessel the Argo (swift-sailing), and speedily collected a crew of heroes as brave as himself, among whom were Hercules, Castor, Pollux, Peleus, Admetus, Theseus, and Orpheus, who were all glad to undertake the perilous journey to lands unknown."
+        }
+      ],
+      "reviewStatus": "verified_by_source_audit",
+      "passageId": "gutenberg:ebooks:39250:395.395.4-395.395.4:7fcc7593",
+      "needle": "speedily collected a crew of heroes"
+    }
+  ],
+  "finalState": [],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+      "gutenberg:ebooks:39250:395.395.4-395.395.4:7fcc7593"
+    ],
+    "claimsChecked": [
+      "The Speaking Oak instructs Jason.",
+      "The Argo is completed.",
+      "The heroes assemble."
+    ],
+    "correctionsMade": [
+      "Split ship-building setup from later Argonautic travel.",
+      "Excluded headings and poetic quotations."
+    ],
+    "remainingUncertainties": []
+  },
+  "reviewStatus": "verified_by_source_audit"
+}

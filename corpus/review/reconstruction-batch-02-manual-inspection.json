@@ -6,16 +6,16 @@
     {
       "mythId": "bulk-myth-0020",
       "inspectedAt": "1970-01-01T00:00:00.000Z",
-      "finalStatus": "unresolved_requires_human_review",
+      "finalStatus": "superseded_by_derived_records",
       "findings": [
-        "Boundary: Keep the restored proposal unverified; a human reviewer must choose whether to split the Phryxus/Helle origin, Jason's launch, Lemnos, and Doliones into separate records.",
-        "Title/family: \"STORY OF THE GOLDEN FLEECE.\" was reviewed as \"Golden Fleece Cycle: Phryxus, Jason, and Early Argonaut Voyage\" in golden-fleece.",
-        "Characters/entities: Remove Achilles, Apollo, Echo, Orpheus, and Hermes as principal characters for the complete span; the first passage supports Athamas, Nephele, Ino, Helle, and Phryxus, while later passages introduce Jason and the Argonauts.",
-        "Aliases: No Greek/Roman alias normalization was accepted; Jason and Phryxus sections must be normalized separately.",
-        "Events: The machine events are not a single episode sequence because the first cited paragraph resolves Helle and Phryxus while later paragraphs start Jason's voyage.",
-        "Relationships: Athamas/Nephele parentage is source-supported in the opening paragraph, but it should not be attached to Jason departure events without a split.",
-        "Narrative: The synopsis must be rebuilt as separate source-supported arcs before any record can be verified.",
-        "Evidence: gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f => Athamas, king of Boeotia, had married Nephele, a cloud-nymph, and their children were Helle and Phryxus. | gutenberg:ebooks:22381:302.302.13-302.302.13:da49e13c => GIANTS AND DOLIONES.--The Argonauts now pursued their voyage, till contrary winds drove them towards an."
+        "Boundary: undefined",
+        "Title/family: \"STORY OF THE GOLDEN FLEECE.\" was reviewed as \"Golden Fleece Cycle Split into Source-Supported Units\" in golden-fleece.",
+        "Characters/entities: Episode-specific character lists replace the machine list: Phryxus/Helle are covered by bulk-verified-0002, Jason/Argonauts by bulk-verified-0017, and Jason/Hypsipyle/Heracles by bulk-verified-0018.",
+        "Aliases: Greek and Roman source forms are preserved within each derived record; no broad alias merge is applied across the entire cycle.",
+        "Events: Events are rebuilt separately for expedition launch and Lemnos delay instead of chaining all Golden Fleece material into one plot.",
+        "Relationships: Athamas/Nephele relationships remain with the existing Phryxus verified record; Jason/Lemnos material does not inherit them.",
+        "Narrative: The broad Golden Fleece synopsis is replaced by derived source-bounded records.",
+        "Evidence: gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01 => Phryxus arrived safely at Colchis, where he was hospitably received by king Aetes, who gave him one of his. | gutenberg:ebooks:22381:302.302.4-302.302.4:bef557c3 => Jason accordingly began to arrange his plans without delay, and invited the young heroes whose friendship he. | gutenberg:ebooks:22381:302.302.8-302.302.8:4fd223df => ARRIVAL AT LEMNOS.--The Argo, with her brave crew of fifty heroes, was soon out of sight, and the sea-breeze."
       ],
       "sourceBoundaryConfirmed": false,
       "proposedFileReviewed": "corpus/normalized/bulk/proposed/bulk-myth-0020.myth.json"
@@ -23,16 +23,16 @@
     {
       "mythId": "bulk-myth-0014",
       "inspectedAt": "1970-01-01T00:00:00.000Z",
-      "finalStatus": "unresolved_requires_human_review",
+      "finalStatus": "superseded_by_derived_records",
       "findings": [
-        "Boundary: Leave unverified until the section is split or explicitly accepted as a multi-episode Perseus record.",
-        "Title/family: \"PERSEUS.\" was reviewed as \"Perseus: Medusa, Atlas, Andromeda, and Phineus\" in perseus-and-medusa.",
-        "Characters/entities: Danae, Acrisius, Perseus, Medusa, Atlas, Andromeda, Cepheus, Cassiopeia, and Phineus need episode-specific roles; the machine list omits several principals and includes Jupiter in a Greek-source normalized context.",
-        "Aliases: Jupiter should not be automatically collapsed with Zeus for this English retelling without preserving the Roman source form.",
-        "Events: The final cited passage begins a Phineus banquet conflict after Andromeda's rescue, so the extracted event chain crosses a boundary.",
-        "Relationships: Perseus/Andromeda betrothal and Phineus prior betrothal require exact sentence evidence before normalization.",
-        "Narrative: The title is too broad for the cited subevents unless a multi-episode scope is explicitly documented.",
-        "Evidence: gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f => Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae,. | gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65 => But the young hero was not to bear away his lovely bride uncontested; for in the midst of the banquet,."
+        "Boundary: undefined",
+        "Title/family: \"PERSEUS.\" was reviewed as \"Perseus Section Split into Origin, Medusa/Andromeda, and Atlas Units\" in perseus-and-medusa.",
+        "Characters/entities: Danae and Acrisius are restored to the origin unit; Atlas is isolated in the Atlas unit; Medusa/Andromeda material remains covered by bulk-verified-0004.",
+        "Aliases: Zeus is preserved in the Berens origin unit; Jupiter-Ammon remains excluded with the Andromeda setup rather than normalized into the origin record.",
+        "Events: The broad event chain is split into birth/exposure and Atlas transformation events.",
+        "Relationships: Zeus/Danae/Perseus and Acrisius/Danae relationships are modeled only in the origin unit.",
+        "Narrative: The broad Perseus title is replaced by source-bounded derived titles.",
+        "Evidence: gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f => Perseus, one of the most renowned of the legendary heroes of antiquity, was the son of Zeus and Danae,. | gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d => Perseus continued his flight until he reached the kingdom of Atlas, of whom he begged rest and shelter. | gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65 => But the young hero was not to bear away his lovely bride uncontested; for in the midst of the banquet,."
       ],
       "sourceBoundaryConfirmed": false,
       "proposedFileReviewed": "corpus/normalized/bulk/proposed/bulk-myth-0014.myth.json"
@@ -40,16 +40,16 @@
     {
       "mythId": "bulk-myth-0032",
       "inspectedAt": "1970-01-01T00:00:00.000Z",
-      "finalStatus": "ambiguous",
+      "finalStatus": "superseded_by_derived_records",
       "findings": [
-        "Boundary: Classify as ambiguous because the record can be read either as Jason's origin subepisode or as the setup to the Argonaut quest.",
-        "Title/family: \"JASON.\" was reviewed as \"Jason's Exile, Return, and the One-Sandaled Prophecy\" in jason-and-argonauts.",
-        "Characters/entities: Keep Jason, Pelias, Aeson, Alcimede, Chiron, and Juno as reviewed participants; Neptune and Helle are contextual rather than central in this boundary.",
-        "Aliases: Juno remains the source form; no Hera normalization was accepted in this batch.",
-        "Events: The event sequence should end at Juno's promise or Pelias' demand, not at the Helle quotation, unless the record is widened to quest setup.",
-        "Relationships: Aeson and Alcimede's parent relation to Jason is supported by the opening sentence and should replace unrelated relationship guesses.",
-        "Narrative: The title 'JASON.' is too broad; the reconstructed title names the source-supported origin and one-sandaled prophecy boundary.",
-        "Evidence: gutenberg:ebooks:39250:392.392.1-392.392.1:0faf5a96 => At Iolcus, in Thessaly, there once reigned a virtuous king, Æson, with his good wife, Alcimede. | gutenberg:ebooks:39250:392.392.15-392.392.15:d8d4cba3 => \"Where beauteous Helle found a watery grave.\""
+        "Boundary: undefined",
+        "Title/family: \"JASON.\" was reviewed as \"Jason and the One Sandal\" in jason-and-argonauts.",
+        "Characters/entities: Jason, Pelias, Aeson, Alcimede, Chiron, and Juno remain; Helle and Neptune are excluded with the later banquet tale.",
+        "Aliases: Juno remains the Roman source form with no Hera merge.",
+        "Events: Events end with Pelias recognizing the oracle-signaled one-sandaled man.",
+        "Relationships: Aeson and Alcimede are modeled as Jason's parents from the source wording.",
+        "Narrative: The title and scope are narrowed to Jason's return rather than the whole Argonaut quest.",
+        "Evidence: gutenberg:ebooks:39250:392.392.1-392.392.1:0faf5a96 => Their happiness, however, was soon disturbed by Pelias, the king's brother, who, aided by an armed host,. | gutenberg:ebooks:39250:392.392.8-392.392.8:9b208582 => After many an effort, breathless and almost exhausted, Jason reached the opposite bank, and, after. | gutenberg:ebooks:39250:392.392.11-392.392.11:8d53cca9 => His eyes suddenly fell upon Jason's naked foot, and he grew pale with horror as there flashed into his."
       ],
       "sourceBoundaryConfirmed": false,
       "proposedFileReviewed": "corpus/normalized/bulk/proposed/bulk-myth-0032.myth.json"
@@ -57,16 +57,16 @@
     {
       "mythId": "bulk-myth-0087",
       "inspectedAt": "1970-01-01T00:00:00.000Z",
-      "finalStatus": "unresolved_requires_human_review",
+      "finalStatus": "superseded_by_derived_records",
       "findings": [
-        "Boundary: Do not verify a duplicate; the corpus already has a source-audited Daedalus and Icarus record, so this proposal needs an explicit duplicate-or-variant decision.",
-        "Title/family: \"DAEDALUS and ICARUS.\" was reviewed as \"Daedalus and Icarus: Escape from Crete\" in daedalus-and-icarus.",
-        "Characters/entities: Minotaur and Minos are contextual for Daedalus' imprisonment; the flight event centers on Daedalus and Icarus.",
-        "Aliases: No alias correction is needed, but the duplicate relationship to the existing verified record must be recorded.",
-        "Events: The verified chain would begin with Daedalus' imprisonment/escape plan, not with his artisan biography.",
-        "Relationships: Daedalus and Icarus father/son relationship is source-supported by 'his young son Icarus' and should be used if this becomes a separate witness.",
-        "Narrative: Biography and aftermath should be omitted from a focused escape record or explicitly included in scope.",
-        "Evidence: gutenberg:ebooks:22381:300.300.1-300.300.1:295772a7 => Daedalus, a descendant of Erechtheus, was an Athenian architect, sculptor, and mechanician. | gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33 => The consequence was that the wax, by means of which his wings were attached, melted, and he fell into the."
+        "Boundary: undefined",
+        "Title/family: \"DAEDALUS and ICARUS.\" was reviewed as \"Daedalus and Icarus Covered by Existing Verified Record\" in daedalus-and-icarus.",
+        "Characters/entities: Daedalus and Icarus remain the central characters in the existing verified record; Minotaur and Minos stay contextual.",
+        "Aliases: No alias ambiguity remains.",
+        "Events: The existing verified event chain already covers the flight and drowning.",
+        "Relationships: The existing verified record already preserves the father/son relation from source wording.",
+        "Narrative: Biography and Sicily aftermath are excluded from active story output.",
+        "Evidence: gutenberg:ebooks:22381:300.300.4-300.300.4:0a74ba33 => The consequence was that the wax, by means of which his wings were attached, melted, and he fell into the. | gutenberg:ebooks:22381:300.300.6-300.300.6:dc9830e7 => Daedalus passed the remainder of his life tranquilly in the island of Sicily, where he occupied himself in."
       ],
       "sourceBoundaryConfirmed": false,
       "proposedFileReviewed": "corpus/normalized/bulk/proposed/bulk-myth-0087.myth.json"
@@ -74,16 +74,16 @@
     {
       "mythId": "bulk-myth-0085",
       "inspectedAt": "1970-01-01T00:00:00.000Z",
-      "finalStatus": "ambiguous",
+      "finalStatus": "superseded_by_derived_records",
       "findings": [
-        "Boundary: Classify as ambiguous because it is a coherent birth/setup fragment but not the Perseus-and-Medusa story implied by the family.",
-        "Title/family: \"PERSEUS.\" was reviewed as \"Acrisius, Danae, and the Birth of Perseus\" in perseus-and-medusa.",
-        "Characters/entities: Perseus is not the acting protagonist in the cited setup; Acrisius, Danae, and Jupiter/Jove are the source-supported participants.",
-        "Aliases: Jupiter/Jove must preserve the Roman-form source witness and not be silently collapsed to Zeus.",
-        "Events: Events should cover Acrisius confining Danae and Jupiter seeing her, not Perseus' later quest.",
-        "Relationships: Danae as daughter of Acrisius and mother of Perseus need exact evidence from surrounding passages before verification.",
-        "Narrative: The scope should be renamed as a birth/setup fragment rather than a complete Perseus story.",
-        "Evidence: gutenberg:ebooks:39250:363.363.1-363.363.1:6f094fbe => [Sidenote: Acrisius and Danae.] | gutenberg:ebooks:39250:363.363.7-363.363.7:8b0100ac => \"Danae, in a brazen tower Where no love was, loved a shower.\""
+        "Boundary: undefined",
+        "Title/family: \"PERSEUS.\" was reviewed as \"Acrisius Locks Danae in the Brazen Tower\" in birth-of-perseus.",
+        "Characters/entities: Acrisius, Danae, Jupiter, and God of Love replace the prior Perseus-centered list.",
+        "Aliases: Jupiter is preserved as the Roman source form and normalized to zeus with source-name provenance.",
+        "Events: Events cover oracle fear, confinement, divine sight, and Jupiter's golden-shower approach.",
+        "Relationships: Acrisius' parent relationship to Danae is modeled from 'his only child, Danae'.",
+        "Narrative: The source-supported title is a Perseus-origin setup, not a Medusa quest.",
+        "Evidence: gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c => The life of Acrisius, King of Argos, had been a burden to him ever since the unfortunate day when an oracle. | gutenberg:ebooks:39250:363.363.3-363.363.3:03c48656 => After much thought, Acrisius decided to lock Danae up in a brazen tower, around which he stationed guards to. | gutenberg:ebooks:39250:363.363.6-363.363.6:ff384870 => To avoid being seen, he changed himself into a golden shower, and gently dropped down on the turret beside."
       ],
       "sourceBoundaryConfirmed": false,
       "proposedFileReviewed": "corpus/normalized/bulk/proposed/bulk-myth-0085.myth.json"
@@ -91,16 +91,16 @@
     {
       "mythId": "bulk-myth-0091",
       "inspectedAt": "1970-01-01T00:00:00.000Z",
-      "finalStatus": "unresolved_requires_human_review",
+      "finalStatus": "superseded_by_derived_records",
       "findings": [
-        "Boundary: Leave unverified until the boundary is expanded to include the Chimera outcome or narrowed to a bridle-receipt subepisode.",
-        "Title/family: \"BELLEROPHON.\" was reviewed as \"Bellerophon Receives Minerva's Bridle\" in bellerophon-and-pegasus.",
-        "Characters/entities: Bellerophon, Proetus, Iobates, Minerva, Pegasus, and the Chimera require role separation; Argos is a location/court context, not a principal character.",
-        "Aliases: Minerva should remain a Roman-form source witness unless a later normalization review maps it to Athena with provenance.",
-        "Events: The final cited event is the bridle gift; killing or defeating the Chimera is not supported within the selected span.",
-        "Relationships: Bellerophon's kinship to Sisyphus and relation to Proetus are stated but need exact relationship modeling before verification.",
-        "Narrative: Conflict is assigned, but resolution is absent from the selected passages.",
-        "Evidence: gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3 => Bellerophon, a brave young prince, the grandson of Sisyphus, King of Corinth, had the great misfortune to. | gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710 => He had no sooner apprised her of the difficult task appointed him, than she promised him her aid, and before."
+        "Boundary: undefined",
+        "Title/family: \"BELLEROPHON.\" was reviewed as \"Bellerophon Sent Against the Chimera\" in bellerophon-and-pegasus.",
+        "Characters/entities: Bellerophon, Anteia, Proetus, Iobates, Minerva, Pegasus, and Chimera are source-supported; Argos is location context only.",
+        "Aliases: Minerva is preserved as a Roman source form while normalized to athena with provenance.",
+        "Events: Events now stop at the bridle gift and do not infer the Chimera's defeat.",
+        "Relationships: Anteia/Proetus spouse relation and Proetus/Iobates commission are modeled only from exact source wording.",
+        "Narrative: The record is a coherent subepisode with explicit omitted battle outcome.",
+        "Evidence: gutenberg:ebooks:39250:414.414.4-414.414.4:f2c9dcf8 => Prœtus, indignant at what he deemed deep treachery on the part of an honored guest, yet reluctant to punish. | gutenberg:ebooks:39250:414.414.7-414.414.7:50399fe3 => He did not like to take a stranger's life, and still could not refuse to comply with Prœtus' urgent request:. | gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710 => He had no sooner apprised her of the difficult task appointed him, than she promised him her aid, and before."
       ],
       "sourceBoundaryConfirmed": false,
       "proposedFileReviewed": "corpus/normalized/bulk/proposed/bulk-myth-0091.myth.json"
@@ -108,16 +108,16 @@
     {
       "mythId": "bulk-myth-0102",
       "inspectedAt": "1970-01-01T00:00:00.000Z",
-      "finalStatus": "ambiguous",
+      "finalStatus": "superseded_by_derived_records",
       "findings": [
-        "Boundary: Classify as ambiguous because the source section is narrative but bundles several homecoming episodes.",
-        "Title/family: \"RETURN OF THE GREEKS FROM TROY.\" was reviewed as \"Returns from Troy: Agamemnon, Orestes, and Other Greek Homecomings\" in trojan-war.",
-        "Characters/entities: Cassandra, Agamemnon, Clytemnestra, Aegisthus, Orestes, and Pylades must be separated by subepisode; Helen and Poseidon are not principal in the cited Orestes passage.",
-        "Aliases: Aegisthus spelling and Clytemnestra source forms need preservation; no alias merge was accepted.",
-        "Events: The proposed event sequence should not treat all Greek returns as one protagonist-driven plot.",
-        "Relationships: Orestes' father relation to Agamemnon is source-supported, but it belongs to the Orestes revenge subepisode.",
-        "Narrative: A single synopsis would either overgeneralize Greek homecomings or omit the Agamemnon/Orestes substory.",
-        "Evidence: gutenberg:ebooks:22381:338.338.1-338.338.1:e252c4e0 => During the sacking of the city of Troy the Greeks, in the hour of victory, committed many acts of. | gutenberg:ebooks:22381:338.338.7-338.338.7:1fea6d1d => As Orestes grew up to manhood, his one great all-absorbing desire was to avenge the death of his father."
+        "Boundary: undefined",
+        "Title/family: \"RETURN OF THE GREEKS FROM TROY.\" was reviewed as \"Returns from Troy Split into Ajax and Agamemnon Units\" in trojan-war.",
+        "Characters/entities: Ajax/Pallas-Athene/Poseidon belong to one derived record; Agamemnon/Clytemnestra/Aegisthus/Cassandra/Electra/Orestes belong to another.",
+        "Aliases: Pallas-Athene and AEgisthus source spellings are preserved with normalized IDs.",
+        "Events: Events no longer treat all Greek returns as one plot.",
+        "Relationships: Agamemnon/Clytemnestra spouse and Agamemnon/Orestes parent relations are modeled only in the Agamemnon unit.",
+        "Narrative: The survey title is replaced by two source-bounded outcomes.",
+        "Evidence: gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6 => Ajax the Lesser having offended Pallas-Athene by desecrating her temple on the night of the destruction of. | gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6 => His wife Clytemnestra, in revenge for the sacrifice of her beloved daughter Iphigenia, had formed a secret. | gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f => During the massacre of the retainers of Agamemnon which followed, his daughter Electra, with great presence."
       ],
       "sourceBoundaryConfirmed": false,
       "proposedFileReviewed": "corpus/normalized/bulk/proposed/bulk-myth-0102.myth.json"
@@ -125,16 +125,16 @@
     {
       "mythId": "bulk-myth-0105",
       "inspectedAt": "1970-01-01T00:00:00.000Z",
-      "finalStatus": "unresolved_requires_human_review",
+      "finalStatus": "superseded_by_derived_records",
       "findings": [
-        "Boundary: Leave unverified pending a split into Cicones, Lotus-Eaters, Cyclops, or another bounded Odyssey subepisode.",
-        "Title/family: \"ADVENTURES OF ULYSSES.\" was reviewed as \"Ulysses' Early Wanderings after Troy\" in odysseus-return.",
-        "Characters/entities: Ulysses/Odysseus is the central identity; companions are collective participants and need a stable group entity if used.",
-        "Aliases: Ulysses and Odysseus must be preserved as source aliases with one normalized Greek identity only after explicit review.",
-        "Events: The selected events should not claim the full return to Ithaca because the cited span only begins the wanderings.",
-        "Relationships: No relationship should be promoted from this source span without exact wording.",
-        "Narrative: The narrative must be narrowed from 'Adventures of Ulysses' to a specific early wandering episode.",
-        "Evidence: gutenberg:ebooks:39250:463.463.1-463.463.1:c661f780 => The Greek chiefs, on their return from Troy, were, as we have seen, all more or less visited by the wrath of. | gutenberg:ebooks:39250:463.463.11-463.463.11:ef69efa7 => \"Whoever tasted once of that sweet food Wished not to see his native country more, Nor give his friends the."
+        "Boundary: undefined",
+        "Title/family: \"ADVENTURES OF ULYSSES.\" was reviewed as \"Ulysses' Early Wanderings Split into Ismarus and Lotus-Eaters\" in odysseus-return.",
+        "Characters/entities: Ulysses/Odysseus and his men are modeled as the relevant actors; the broad Greek-chief frame is excluded.",
+        "Aliases: Ulysses is preserved as the source form and normalized to odysseus with explicit alias provenance.",
+        "Events: Events are rebuilt separately for Ciconian attack and Lotus-Eater forgetting.",
+        "Relationships: No relationship is promoted because the selected source sentences do not state one.",
+        "Narrative: The broad Odyssey survey becomes two narrow source-supported subepisodes.",
+        "Evidence: gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7 => After leaving Troy in ruins, Ulysses embarked with his men and spoils, and, favored by a good wind, soon. | gutenberg:ebooks:39250:463.463.5-463.463.5:8e514817 => The Greeks, although taken by surprise, fought bravely; but it was only when the sun was fast sinking, that. | gutenberg:ebooks:39250:463.463.9-463.463.9:8bfe8549 => The vessels, with broken masts and torn sails, were driven far out of their course, and, after ten days,."
       ],
       "sourceBoundaryConfirmed": false,
       "proposedFileReviewed": "corpus/normalized/bulk/proposed/bulk-myth-0105.myth.json"
@@ -159,16 +159,16 @@
     {
       "mythId": "bulk-myth-0025",
       "inspectedAt": "1970-01-01T00:00:00.000Z",
-      "finalStatus": "ambiguous",
+      "finalStatus": "superseded_by_derived_records",
       "findings": [
-        "Boundary: Classify as ambiguous because it needs split decisions around Argo launch, intervening adventures, and arrival at Colchis.",
-        "Title/family: \"Orphic Argonautics.\" was reviewed as \"Argonauts from the Speaking Oak to Colchis\" in jason-and-argonauts.",
-        "Characters/entities: Cadmus is not a principal Argonaut in this span; Jason, Medea, Hercules, Juno, and Minerva require event-specific roles if retained.",
-        "Aliases: Juno and Minerva source forms should not be silently converted to Greek names.",
-        "Events: Arrival at Colchis cannot serve as the resolution for earlier Speaking Oak or intervening island episodes without documented scope.",
-        "Relationships: Jason/Medea relationship evidence belongs near the Colchis passages and should not be retrofitted to earlier travel passages.",
-        "Narrative: The title 'Orphic Argonautics' is bibliographic/contextual; the source-supported title should name the actual included travel span.",
-        "Evidence: gutenberg:ebooks:39250:395.395.1-395.395.1:84ee2aaf => [Sidenote: The Speaking Oak.] | gutenberg:ebooks:39250:395.395.14-395.395.14:7203847a => [Sidenote: Arrival at Colchis.]"
+        "Boundary: undefined",
+        "Title/family: \"Orphic Argonautics.\" was reviewed as \"Argonautic Voyage Split into Source-Supported Units\" in jason-and-argonauts.",
+        "Characters/entities: Jason, Hercules, Hylas, Phineus, Boreas' sons, Medea, Aetes, and the Argonauts are assigned only to the records where the source supports them.",
+        "Aliases: Juno and Minerva source forms are preserved in the Argo setup; Medea and Aetes source spellings are preserved in the Colchis unit.",
+        "Events: Events are rebuilt per subepisode instead of one travel-sequence chain.",
+        "Relationships: Jason/Medea promise is modeled only in the fleece-capture unit.",
+        "Narrative: The bibliographic title is replaced by five source-bounded story outputs.",
+        "Evidence: gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf => Next the Speaking Oak bade him cut off one of its own mighty limbs, and carve from it a figurehead for the. | gutenberg:ebooks:39250:395.395.8-395.395.8:7f026ac5 => The youth promptly departed; but as he bent over the fountain, the nymphs, enamored with his beauty, drew. | gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a => Jason could not refuse their request; and the two youths, with drawn swords, pursued the Harpies to the. | gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf => The Argo darted through the opening, and, when the rocks again came into contact, they merely grazed the. | gutenberg:ebooks:39250:395.395.24-395.395.24:8d9217c6 => Jason then tore the coveted fleece from the branch where it had hung for many a year, and bore it in triumph."
       ],
       "sourceBoundaryConfirmed": false,
       "proposedFileReviewed": "corpus/normalized/bulk/proposed/bulk-myth-0025.myth.json"
