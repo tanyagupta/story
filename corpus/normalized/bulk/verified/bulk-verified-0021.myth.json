@@ -191,7 +191,7 @@
     "storyline": [
       "Pelias seized Aeson's throne at Iolcus.",
       "Aeson and Alcimede entrusted Jason to Chiron.",
-      "Disguised Juno caused Jason to lose one sandal.",
+      "Jason lost one golden sandal while carrying disguised Juno across the torrent.",
       "Pelias recognized Jason as the one-sandaled man warned of by the oracle."
     ]
   },
@@ -223,7 +223,7 @@
       "sourceText": "After many an effort, breathless and almost exhausted, Jason reached the opposite bank, and, after depositing his burden there, scrambled up beside her, casting a rueful glance at the torrent, which had wrenched off one of his golden sandals.",
       "supports": [
         {
-          "field": "Disguised Juno caused Jason to lose one sandal.",
+          "field": "Jason lost one golden sandal while carrying disguised Juno across the torrent.",
           "evidenceType": "direct",
           "rationale": "The exact source sentence directly supports Disguised Juno caused Jason to lose one sandal.."
         }
@@ -283,11 +283,11 @@
     {
       "eventId": "event-003",
       "sourceText": "After many an effort, breathless and almost exhausted, Jason reached the opposite bank, and, after depositing his burden there, scrambled up beside her, casting a rueful glance at the torrent, which had wrenched off one of his golden sandals.",
-      "normalizedStatement": "Disguised Juno caused Jason to lose one sandal.",
-      "actor": "hera",
-      "action": "test",
+      "normalizedStatement": "Jason lost one golden sandal while carrying disguised Juno across the torrent.",
+      "actor": "jason",
+      "action": "lose",
       "sourceAction": "wrenched off",
-      "target": "jason",
+      "target": null,
       "object": "golden-sandal",
       "recipient": null,
       "location": null,

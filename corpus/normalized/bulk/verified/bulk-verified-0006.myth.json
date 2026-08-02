@@ -281,7 +281,7 @@
   "events": [
     {
       "eventId": "event-001",
-      "sourceAction": "give",
+      "sourceAction": "placed",
       "target": null,
       "object": "box",
       "recipient": null,
@@ -299,11 +299,11 @@
       ],
       "confidence": 0.9,
       "actor": "hermes",
-      "action": "give"
+      "action": "place"
     },
     {
       "eventId": "event-002",
-      "sourceAction": "release",
+      "sourceAction": "raised the lid",
       "target": null,
       "object": "box",
       "recipient": null,
@@ -321,7 +321,7 @@
       ],
       "confidence": 0.9,
       "actor": "pandora",
-      "action": "release"
+      "action": "open"
     },
     {
       "eventId": "event-003",
@@ -347,7 +347,7 @@
     },
     {
       "eventId": "event-004",
-      "sourceAction": "hide",
+      "sourceAction": "concealed",
       "target": null,
       "object": "box",
       "recipient": null,
@@ -356,7 +356,7 @@
       "causes": [],
       "reviewStatus": "verified_by_source_audit",
       "sourceText": "It was well for Pandora that she opened the box a second time, for the gods, with a sudden impulse of compassion, had concealed among the evil spirits one kindly creature, Hope, whose mission was to heal the wounds inflicted by her fellow-prisoners.",
-      "normalizedStatement": "The gods had placed Hope among the evils.",
+      "normalizedStatement": "Hope remained concealed among the evils.",
       "evidence": [
         {
           "passageId": "gutenberg:ebooks:39250:53.53.9-53.53.9:88c95c92",
@@ -365,7 +365,7 @@
       ],
       "confidence": 0.9,
       "actor": "hope",
-      "action": "hide"
+      "action": "remain"
     },
     {
       "eventId": "event-005",
