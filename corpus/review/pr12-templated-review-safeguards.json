@@ -1,0 +1,25 @@
+{
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "valid": true,
+  "genericTemplatesRejected": [
+    "Reviewed source passage references and determined that automatic verified promotion is not defensible without further source-boundary work.",
+    "Source-grounded batch review found narrative signals mixed with structural headings, commentary, profile material, or unclear boundaries.",
+    "Final deferred pass retained the source passages as unresolved because verification would require human interpretive judgment."
+  ],
+  "substantiveReconstructionRequiredFields": [
+    "boundaryAnalysis",
+    "titleOrFamilyDecision",
+    "characterEntityReview",
+    "eventReview",
+    "relationshipReview",
+    "exactPassageEvidence",
+    "recordSpecificRationale"
+  ],
+  "rules": [
+    "Generic rationale templates do not count as substantive source reconstruction.",
+    "Identical correctionsMade across unrelated records do not count as substantive source reconstruction.",
+    "A record cannot be marked verified_by_source_audit without entity, event, relationship, and exact passage evidence review.",
+    "A record cannot be marked unresolved_requires_human_review without an explicit human decision question.",
+    "Proposed records cannot be removed without an authoritative final outcome."
+  ]
+}

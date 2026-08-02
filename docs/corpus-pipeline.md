@@ -318,25 +318,21 @@ Each selected record receives one outcome: `verified_by_source_audit`, `awaiting
 
 Batch 01 verified nine additional records: Cadmus Founds Thebes; Paris Abducts Helen; The Apple of Discord at the Wedding; Bacchus Lures Vulcan to Olympus; Diana and Endymion; Infant Hercules and the Serpents; The Calydonian Hunt; Oedipus and the Sphinx; and Bellerophon, Pegasus, and the Chimera. Seven selected records required later boundary work, and four selected records were marked `ambiguous` because their passage groups mix multiple episodes or embed a story inside taxonomy/profile material. No selected records were marked `approved`, and no human-approved records were created.
 
-After Batch 01, the remaining verification program reviews all remaining machine proposals in deterministic batches 02 through 07, each with no more than 50 records and internal groups of no more than 10. The program maintains `corpus/review/verification-ledger.json` so a record is not selected as new work twice. Batch result files live beside the Batch 01 reports:
+PR #12 later attempted a large continuous review of the remaining machine proposals in deterministic batches 02 through 07. That methodology failed: it changed statuses in bulk, but did not provide enough record-specific source reconstruction to support those statuses. The failed output files are archived, not current corpus decision files:
 
 ```text
-corpus/review/verification-batch-02.json
-corpus/review/verification-batch-02-results.json
+corpus/review/archive/failed-bulk-review/verification-batch-02.json
+corpus/review/archive/failed-bulk-review/verification-batch-02-results.json
 ...
-corpus/review/verification-batch-07.json
-corpus/review/verification-batch-07-results.json
+corpus/review/archive/failed-bulk-review/verification-batch-07.json
+corpus/review/archive/failed-bulk-review/verification-batch-07-results.json
+corpus/review/archive/failed-bulk-review/verification-final-deferred-results.json
+corpus/review/archive/failed-bulk-review/verification-program-final-report.json
 ```
 
-Normal batch outcomes are `verified_by_source_audit`, `ambiguous`, `rejected_non_story`, or `deferred_complex`. The final deferred pass then resolves all `deferred_complex` records into final statuses and writes:
+The archive includes a README stating that the files are historical evidence only, are not authoritative, and must not be consumed by catalogs, audits, or downstream story-generation logic.
 
-```text
-corpus/review/deferred-complex-records.json
-corpus/review/verification-final-deferred-results.json
-corpus/review/verification-program-final-report.json
-```
-
-No record remains `deferred_complex` after the final deferred pass. Records that have plausible narrative material but still require a human to decide source boundaries, split/merge behavior, or interpretation are marked `unresolved_requires_human_review`. These are listed in `corpus/catalog/human-review-required.json`; ambiguous records are listed in `corpus/catalog/ambiguous-myths.json`.
+Future verification work should use small record-specific batches. Ten records per branch is the recommended maximum. A record is not source-verified merely because its passages were listed or its status was changed. Substantive source reconstruction requires record-specific corrections and exact passage evidence, including boundary analysis, title/family decision, character/entity review, event review, relationship review, and a rationale that names the specific record and source problem.
 
 ### PR #12 Audit Repair
 
@@ -348,6 +344,7 @@ corpus/review/pr12-methodology-audit.json
 corpus/review/pr12-reconstruction-sample.json
 corpus/review/pr12-reconstruction-sample-results.json
 corpus/review/pr12-audit-conclusion.json
+corpus/review/pr12-templated-review-safeguards.json
 ```
 
 The methodology audit records 278 reviewed records, 278 generic rationales, 278 generic correction sets, and zero substantive structured corrections in the PR #12 batch reports. It also records that the claimed manual inspections were mostly checklist-level findings rather than passage-specific reconstruction.
@@ -357,6 +354,8 @@ The repair selects a representative 20-record sample from PR #12 outcomes: five 
 Because the sample and methodology audit show a high templated-classification risk, `pr12-audit-conclusion.json` sets `recommendedAction = "fully_rebuild"` and `pr12BulkClassificationsTrustworthy = false`. The runner restores 258 non-sample records to `awaiting_substantive_source_review`; they remain proposed, recoverable records and are not treated as verified, ambiguous, rejected, or human-review-required until a later source-reconstruction method reviews them with record-specific evidence.
 
 `awaiting_substantive_source_review` means the record is not never-seen, but the previous classification was not substantive enough to support a final semantic status. Future verification batches should begin from this queue and must document exact boundary, title, family, entity, event, relationship, and narrative corrections for each record reviewed.
+
+Classification is not equivalent to reconstruction. A record remains unverified unless the reviewer reconstructs the source boundary and verifies the structured fields against exact cited passages. Records marked `unresolved_requires_human_review` must state the specific human decision needed; the status must not be used as a substitute for difficult reconstruction work.
 
 The review checklist in `verification-batch-01-results.json` records boundary, title, family, character, alias, event, relationship, conflict, resolution, outcome, exact-source-text, and evidence-relevance checks for every selected record. It also documents five full manual inspections spanning different myth families. Subsequent batches should create a new deterministic selection report, review checklist, progress report, and source-audit update without changing the meaning of earlier batch records.
 

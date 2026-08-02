@@ -21,6 +21,7 @@ const RETRIEVED_AT = "2026-08-01T00:00:00Z";
 const CONVERSION_VERSION = "bulk-gutenberg-tei-v1";
 const PRODUCTION_LIMIT = 50;
 const GENERATED_AT = new Date(0).toISOString();
+const FAILED_REVIEW_ARCHIVE = "corpus/review/archive/failed-bulk-review";
 
 const SOURCES = [
   {
@@ -1289,7 +1290,44 @@ function cleanBulkOutputs() {
   });
   fs.mkdirSync(rel("corpus/normalized/bulk/proposed"), { recursive: true });
   fs.mkdirSync(rel("corpus/normalized/bulk/verified"), { recursive: true });
+  fs.rmSync(rel(FAILED_REVIEW_ARCHIVE), { recursive: true, force: true });
+  fs.mkdirSync(rel(FAILED_REVIEW_ARCHIVE), { recursive: true });
+  [
+    "corpus/review/deferred-complex-records.json",
+    "corpus/review/verification-final-deferred-results.json",
+    "corpus/review/verification-program-final-report.json"
+  ].forEach((file) => fs.rmSync(rel(file), { force: true }));
+  for (let index = 2; index <= 7; index += 1) {
+    const batchId = `verification-batch-${String(index).padStart(2, "0")}`;
+    fs.rmSync(rel(`corpus/review/${batchId}.json`), { force: true });
+    fs.rmSync(rel(`corpus/review/${batchId}-results.json`), { force: true });
+  }
   fs.rmSync(rel("corpus/review/manual-semantic-spot-check.json"), { force: true });
+}
+
+function archiveFailedBulkReview(program) {
+  const archive = (file, content) => writeJson(rel(`${FAILED_REVIEW_ARCHIVE}/${file}`), Object.assign({
+    authoritative: false,
+    status: "superseded_by_pr12_audit",
+    doNotUseForCorpusDecisions: true,
+    archiveNote: "Retained only as historical evidence for the failed PR #12 bulk-review methodology."
+  }, content));
+  program.selectionReports.forEach((report) => archive(`${report.batchId}.json`, report));
+  program.batchReports.forEach((report) => archive(`${report.batchId}-results.json`, report));
+  archive("deferred-complex-records.json", program.deferred);
+  archive("verification-final-deferred-results.json", program.finalDeferred);
+  archive("verification-program-final-report.json", program.finalReport);
+  fs.writeFileSync(rel(`${FAILED_REVIEW_ARCHIVE}/README.md`), [
+    "# Failed Bulk Review Archive",
+    "",
+    "These files are retained only as historical evidence for the failed PR #12 bulk-review methodology.",
+    "",
+    "They are not authoritative corpus review outputs. Their classifications were superseded by the PR #12 audit reports in `corpus/review/pr12-*.json`.",
+    "",
+    "The audit found that the Batch 02-07 rationales and corrections were templated, did not document substantive record-by-record source reconstruction, and must not be consumed by catalogs, audits, or downstream story-generation logic.",
+    "",
+    "Use `corpus/catalog/proposed-myths.json`, `corpus/catalog/myths-awaiting-review.json`, and the PR #12 audit reports for current review state."
+  ].join("\n"));
 }
 
 runCli(async (args) => {
@@ -1447,7 +1485,13 @@ runCli(async (args) => {
   program.ledger.entries.forEach((entry) => {
     const repairedStatus = pr12Audit.finalStatusById.get(entry.mythId);
     if (!repairedStatus) return;
+    const sampleResult = pr12Audit.sampleResultById.get(entry.mythId);
     entry.currentStatus = repairedStatus;
+    entry.classification_reviewed = true;
+    entry.substantive_reconstruction_complete = false;
+    entry.substantive_reconstruction_incomplete = true;
+    entry.reviewDepth = sampleResult ? "audit_sample_record_specific_analysis" : "classification_reviewed_only";
+    entry.actualFinalAuditOutcome = repairedStatus;
     entry.auditFinding = repairedStatus === RESTORED_STATUS
       ? "PR #12 classification audit found generic rationale; restored for substantive source review."
       : "PR #12 classification audit sample retained this record-specific outcome while preserving the proposed record.";
@@ -1460,18 +1504,39 @@ runCli(async (args) => {
   program.progress.unresolvedRequiresHumanReview = productionRecords.filter((record) => record.myth.reviewStatus === "unresolved_requires_human_review").length;
   program.progress.awaitingSubstantiveSourceReview = productionRecords.filter((record) => record.myth.reviewStatus === RESTORED_STATUS).length;
   program.progress.programComplete = false;
-  program.selectionReports.forEach((report) => writeJson(rel(`corpus/review/${report.batchId}.json`), report));
-  program.batchReports.forEach((report) => writeJson(rel(`corpus/review/${report.batchId}-results.json`), report));
-  writeJson(rel("corpus/review/deferred-complex-records.json"), program.deferred);
-  writeJson(rel("corpus/review/verification-final-deferred-results.json"), program.finalDeferred);
+  archiveFailedBulkReview(program);
   writeJson(rel("corpus/review/verification-ledger.json"), program.ledger);
-  writeJson(rel("corpus/review/verification-program-final-report.json"), program.finalReport);
   writeJson(rel("corpus/review/verification-progress.json"), program.progress);
   writeJson(rel("corpus/review/pr12-audit-baseline.json"), pr12Audit.baseline);
   writeJson(rel("corpus/review/pr12-methodology-audit.json"), pr12Audit.methodologyAudit);
   writeJson(rel("corpus/review/pr12-reconstruction-sample.json"), pr12Audit.sample);
   writeJson(rel("corpus/review/pr12-reconstruction-sample-results.json"), pr12Audit.sampleResults);
   writeJson(rel("corpus/review/pr12-audit-conclusion.json"), pr12Audit.conclusion);
+  writeJson(rel("corpus/review/pr12-templated-review-safeguards.json"), {
+    generatedAt: GENERATED_AT,
+    valid: true,
+    genericTemplatesRejected: [
+      "Reviewed source passage references and determined that automatic verified promotion is not defensible without further source-boundary work.",
+      "Source-grounded batch review found narrative signals mixed with structural headings, commentary, profile material, or unclear boundaries.",
+      "Final deferred pass retained the source passages as unresolved because verification would require human interpretive judgment."
+    ],
+    substantiveReconstructionRequiredFields: [
+      "boundaryAnalysis",
+      "titleOrFamilyDecision",
+      "characterEntityReview",
+      "eventReview",
+      "relationshipReview",
+      "exactPassageEvidence",
+      "recordSpecificRationale"
+    ],
+    rules: [
+      "Generic rationale templates do not count as substantive source reconstruction.",
+      "Identical correctionsMade across unrelated records do not count as substantive source reconstruction.",
+      "A record cannot be marked verified_by_source_audit without entity, event, relationship, and exact passage evidence review.",
+      "A record cannot be marked unresolved_requires_human_review without an explicit human decision question.",
+      "Proposed records cannot be removed without an authoritative final outcome."
+    ]
+  });
   const verifiedAudit = validateVerifiedRecords(verifiedRecords, passageMap);
   const validation = validateBulk(outputs, allCandidates, productionRecords, verifiedRecords, duplicateData, reviewItems, batch.results);
   if (!verifiedAudit.valid) {

@@ -331,7 +331,7 @@ function buildVerificationProgram({ productionRecords, batch01SelectedIds, batch
       deferredComplex: 0,
       unresolvedRequiresHumanReview: finalCounts.unresolved_requires_human_review || 0,
       humanApproved: 0,
-      programComplete: true
+      programComplete: false
     },
     finalReport: {
       generatedAt: GENERATED_AT,

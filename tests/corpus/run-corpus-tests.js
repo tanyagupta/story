@@ -660,21 +660,27 @@ test("remaining verification program reviews every unverified record once", () =
   runBulkSources();
   const ledger = readJson(path.join(root, "corpus/review/verification-ledger.json"));
   const progress = readJson(path.join(root, "corpus/review/verification-progress.json"));
-  const deferred = readJson(path.join(root, "corpus/review/deferred-complex-records.json"));
-  const finalDeferred = readJson(path.join(root, "corpus/review/verification-final-deferred-results.json"));
-  const finalReport = readJson(path.join(root, "corpus/review/verification-program-final-report.json"));
+  const archiveRoot = path.join(root, "corpus/review/archive/failed-bulk-review");
+  const archivedDeferred = readJson(path.join(archiveRoot, "deferred-complex-records.json"));
+  const archivedFinalDeferred = readJson(path.join(archiveRoot, "verification-final-deferred-results.json"));
   assert.strictEqual(ledger.entries.length, 278);
   assert.strictEqual(new Set(ledger.entries.map((entry) => entry.mythId)).size, 278);
   assert.strictEqual(ledger.entries.filter((entry) => entry.firstReviewedInBatch === "verification-batch-01").length, 7);
+  assert.ok(ledger.entries.every((entry) => entry.classification_reviewed === true));
+  assert.strictEqual(ledger.entries.filter((entry) => entry.substantive_reconstruction_complete === true).length, 0);
+  assert.strictEqual(ledger.entries.filter((entry) => entry.currentStatus === "awaiting_substantive_source_review").length, 258);
   assert.strictEqual(progress.programComplete, false);
   assert.strictEqual(progress.neverReviewedRemaining, 0);
   assert.strictEqual(progress.deferredComplex, 0);
-  assert.strictEqual(finalDeferred.remainingDeferredComplex, 0);
-  assert.strictEqual(deferred.entries.length, 83);
-  assert.strictEqual(finalDeferred.reviewedCount, 83);
-  assert.ok(finalDeferred.records.every((record) => record.finalStatus === "unresolved_requires_human_review"));
+  assert.strictEqual(progress.awaitingSubstantiveSourceReview, 258);
+  assert.ok(!fs.existsSync(path.join(root, "corpus/review/verification-final-deferred-results.json")));
+  assert.ok(!fs.existsSync(path.join(root, "corpus/review/verification-program-final-report.json")));
+  assert.ok(!fs.existsSync(path.join(root, "corpus/review/verification-batch-02-results.json")));
+  assert.strictEqual(archivedDeferred.authoritative, false);
+  assert.strictEqual(archivedDeferred.doNotUseForCorpusDecisions, true);
+  assert.strictEqual(archivedFinalDeferred.authoritative, false);
+  assert.strictEqual(archivedFinalDeferred.reviewedCount, 83);
   assert.ok(ledger.entries.every((entry) => entry.currentStatus !== "deferred_complex"));
-  assert.ok(finalReport.manualInspections.length >= 3 * progress.batchesCompleted.length + 10);
 });
 
 test("PR12 audit restores proposed records and documents a record-specific sample", () => {
@@ -684,6 +690,7 @@ test("PR12 audit restores proposed records and documents a record-specific sampl
   const sample = readJson(path.join(root, "corpus/review/pr12-reconstruction-sample.json"));
   const sampleResults = readJson(path.join(root, "corpus/review/pr12-reconstruction-sample-results.json"));
   const conclusion = readJson(path.join(root, "corpus/review/pr12-audit-conclusion.json"));
+  const safeguards = readJson(path.join(root, "corpus/review/pr12-templated-review-safeguards.json"));
   const proposedCatalog = readJson(path.join(root, "corpus/catalog/proposed-myths.json"));
   assert.strictEqual(baseline.prNumber, 12);
   assert.strictEqual(baseline.proposedBeforePr12, 278);
@@ -711,6 +718,10 @@ test("PR12 audit restores proposed records and documents a record-specific sampl
   assert.strictEqual(conclusion.pr12BulkClassificationsTrustworthy, false);
   assert.strictEqual(conclusion.recommendedAction, "fully_rebuild");
   assert.strictEqual(conclusion.recordsRestoredToSubstantiveReview, 258);
+  assert.strictEqual(safeguards.valid, true);
+  assert.ok(safeguards.substantiveReconstructionRequiredFields.includes("boundaryAnalysis"));
+  assert.ok(safeguards.substantiveReconstructionRequiredFields.includes("exactPassageEvidence"));
+  assert.ok(safeguards.rules.some((rule) => /Proposed records cannot be removed/.test(rule)));
   assert.strictEqual(proposedCatalog.entries.length, 278);
   assert.ok(proposedCatalog.entries.every((entry) => entry.file && fs.existsSync(path.join(root, entry.file))));
 });
@@ -745,14 +756,17 @@ test("bulk semantic reports are portable and deterministic", () => {
     "corpus/review/verification-batch-01-results.json",
     "corpus/review/verification-progress.json",
     "corpus/review/verification-ledger.json",
-    "corpus/review/deferred-complex-records.json",
-    "corpus/review/verification-final-deferred-results.json",
-    "corpus/review/verification-program-final-report.json",
+    "corpus/review/archive/failed-bulk-review/README.md",
+    "corpus/review/archive/failed-bulk-review/deferred-complex-records.json",
+    "corpus/review/archive/failed-bulk-review/verification-final-deferred-results.json",
+    "corpus/review/archive/failed-bulk-review/verification-program-final-report.json",
+    "corpus/review/archive/failed-bulk-review/verification-batch-02-results.json",
     "corpus/review/pr12-audit-baseline.json",
     "corpus/review/pr12-methodology-audit.json",
     "corpus/review/pr12-reconstruction-sample.json",
     "corpus/review/pr12-reconstruction-sample-results.json",
-    "corpus/review/pr12-audit-conclusion.json"
+    "corpus/review/pr12-audit-conclusion.json",
+    "corpus/review/pr12-templated-review-safeguards.json"
   ].map((file) => path.join(root, file));
   const before = files.map(hashFile);
   runBulkSources();
