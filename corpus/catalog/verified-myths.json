@@ -734,6 +734,63 @@
       "eventCount": 7,
       "reviewStatus": "verified_by_source_audit",
       "file": "corpus/normalized/bulk/verified/bulk-verified-0015.myth.json"
+    },
+    {
+      "mythId": "bulk-verified-0016",
+      "title": "Alcmaeon and the Necklace",
+      "mythFamilyId": "alcmaeon-and-the-necklace",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "mainCharacters": [
+        {
+          "entityId": "alcmaeon",
+          "sourceNames": [
+            "Alcmaeon"
+          ],
+          "role": "doomed protagonist",
+          "reason": "He kills Eriphyle, wanders under punishment, deceives Arsinoe, and is killed by Phegeus' sons.",
+          "evidence": [
+            "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c",
+            "gutenberg:ebooks:22381:330.330.7-330.330.7:3f00a61f"
+          ]
+        },
+        {
+          "entityId": "eriphyle",
+          "sourceNames": [
+            "Eriphyle"
+          ],
+          "role": "victim of vengeance",
+          "reason": "Alcmaeon kills her for betraying Amphiaraus.",
+          "evidence": [
+            "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c"
+          ]
+        },
+        {
+          "entityId": "calirrhoe",
+          "sourceNames": [
+            "Calirrhoe"
+          ],
+          "role": "second wife and petitioner",
+          "reason": "She asks Zeus to mature her sons so they can avenge Alcmaeon.",
+          "evidence": [
+            "gutenberg:ebooks:22381:330.330.9-330.330.9:4a265311"
+          ]
+        },
+        {
+          "entityId": "sons-of-phegeus",
+          "sourceNames": [
+            "sons of Phegeus"
+          ],
+          "role": "killers of Alcmaeon",
+          "reason": "They ambush and kill Alcmaeon after learning of his treachery.",
+          "evidence": [
+            "gutenberg:ebooks:22381:330.330.7-330.330.7:3f00a61f"
+          ]
+        }
+      ],
+      "synopsis": "Alcmaeon kills his mother Eriphyle to avenge Amphiaraus and is punished with madness and pursuit by a Fury. After Achelous purifies him, he marries Calirrhoe, deceives Arsinoe to recover Harmonia's necklace and veil, and is killed by the sons of Phegeus. Calirrhoe asks Zeus to mature her sons, who avenge Alcmaeon and deposit the fatal treasures in Apollo's temple at Delphi.",
+      "eventCount": 10,
+      "reviewStatus": "verified_by_source_audit",
+      "file": "corpus/normalized/bulk/verified/bulk-verified-0016.myth.json"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "mythId": "bulk-myth-0105",
-  "mythFamilyId": "trojan-war",
+  "mythFamilyId": "odysseus-return",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-trojan-war-be9797",
-  "title": "ADVENTURES OF ULYSSES.",
+  "title": "Ulysses' Early Wanderings after Troy",
   "source": {
     "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
     "passages": [
@@ -371,7 +371,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_substantive_source_review"
+      "reviewStatus": "unresolved_requires_human_review"
     }
   ],
   "normalizationWarnings": [
@@ -422,6 +422,23 @@
         "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7"
       ],
       "status": "open"
+    },
+    {
+      "reviewId": "review-46377bb5",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0105",
+      "issueType": "reconstruction-batch-02-unresolved_requires_human_review",
+      "sourceValue": "Ulysses' Early Wanderings after Troy",
+      "suggestions": [
+        "The source introduces the whole Odyssey arc, then moves through early wanderings and quoted verse without a complete return-home outcome in the selected passages.",
+        "Which Odyssey subepisode should this proposed span represent, and should quotation-only tail passages be excluded?"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:463.463.1-463.463.1:c661f780",
+        "gutenberg:ebooks:39250:463.463.2-463.463.2:e6fc8f4c",
+        "gutenberg:ebooks:39250:463.463.3-463.463.3:2f4b6ed7"
+      ],
+      "status": "open"
     }
   ],
   "semanticQuality": {
@@ -463,5 +480,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_substantive_source_review"
+  "reviewStatus": "unresolved_requires_human_review"
 }

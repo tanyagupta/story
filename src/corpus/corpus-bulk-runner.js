@@ -15,6 +15,7 @@ const { buildVerifiedSeeds } = require("./bulk/verified-records");
 const { buildVerificationBatch01 } = require("./bulk/verification-batch-01");
 const { buildVerificationProgram } = require("./bulk/verification-program");
 const { RESTORED_STATUS, buildPr12AuditRepair } = require("./bulk/pr12-audit-repair");
+const { buildReconstructionBatch02 } = require("./bulk/reconstruction-batch-02");
 const { printResult, runCli } = require("./cli");
 
 const RETRIEVED_AT = "2026-08-01T00:00:00Z";
@@ -1295,7 +1296,10 @@ function cleanBulkOutputs() {
   [
     "corpus/review/deferred-complex-records.json",
     "corpus/review/verification-final-deferred-results.json",
-    "corpus/review/verification-program-final-report.json"
+    "corpus/review/verification-program-final-report.json",
+    "corpus/review/reconstruction-batch-02-selection.json",
+    "corpus/review/reconstruction-batch-02-results.json",
+    "corpus/review/reconstruction-batch-02-manual-inspection.json"
   ].forEach((file) => fs.rmSync(rel(file), { force: true }));
   for (let index = 2; index <= 7; index += 1) {
     const batchId = `verification-batch-${String(index).padStart(2, "0")}`;
@@ -1432,7 +1436,7 @@ runCli(async (args) => {
       writeJson(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), record.myth);
     }
   });
-  const verifiedRecords = verifiedSeedRecords.concat(batch.verifiedRecords);
+  let verifiedRecords = verifiedSeedRecords.concat(batch.verifiedRecords);
   verifiedRecords.forEach((myth) => {
     writeJson(rel(`corpus/normalized/bulk/verified/${myth.mythId}.myth.json`), myth);
   });
@@ -1504,6 +1508,58 @@ runCli(async (args) => {
   program.progress.unresolvedRequiresHumanReview = productionRecords.filter((record) => record.myth.reviewStatus === "unresolved_requires_human_review").length;
   program.progress.awaitingSubstantiveSourceReview = productionRecords.filter((record) => record.myth.reviewStatus === RESTORED_STATUS).length;
   program.progress.programComplete = false;
+  const reconstructionBatch02 = buildReconstructionBatch02({ productionRecords, passageMap });
+  productionRecords.forEach((record) => {
+    const result = reconstructionBatch02.resultById.get(record.myth.mythId);
+    if (!result) return;
+    record.myth.title = result.titleAfter;
+    record.myth.mythFamilyId = result.mythFamilyAfter;
+    record.myth.reviewStatus = result.finalStatus;
+    record.myth.variantLinks.forEach((link) => {
+      link.reviewStatus = result.finalStatus;
+    });
+    record.myth.normalizationWarnings = record.myth.normalizationWarnings.concat(reviewItem("myth", record.myth.mythId, `reconstruction-batch-02-${result.finalStatus}`, record.myth.title, result.boundaryAnalysis.specificProblems.concat(result.remainingUncertainties), record.myth.source.passages.slice(0, 3)));
+    if (result.finalStatus === "verified_by_source_audit") {
+      fs.rmSync(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), { force: true });
+    } else {
+      writeJson(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), record.myth);
+    }
+  });
+  verifiedRecords = verifiedRecords.concat(reconstructionBatch02.verifiedRecords);
+  reconstructionBatch02.verifiedRecords.forEach((myth) => {
+    writeJson(rel(`corpus/normalized/bulk/verified/${myth.mythId}.myth.json`), myth);
+  });
+  writeJson(rel("corpus/normalized/bulk-entity-registry.json"), bulkEntityRegistry(verifiedRecords.map((myth) => ({ myth }))));
+  program.ledger.entries.forEach((entry) => {
+    const result = reconstructionBatch02.resultById.get(entry.mythId);
+    if (!result) return;
+    entry.currentStatus = result.finalStatus;
+    entry.classification_reviewed = true;
+    entry.substantive_reconstruction_complete = true;
+    entry.substantive_reconstruction_incomplete = false;
+    entry.reconstructionBatch = "reconstruction-batch-02";
+    entry.reviewDepth = result.finalStatus === "verified_by_source_audit" ? "substantive_reconstruction_verified" : "substantive_reconstruction_final_status";
+    entry.actualFinalAuditOutcome = result.finalStatus;
+    entry.auditFinding = `Batch 02 performed record-specific reconstruction; ${result.boundaryAnalysis.resolution}`;
+  });
+  program.progress.batchesCompleted = [{
+    batchId: "pr12-audit-restoration",
+    restoredForSubstantiveReview: pr12Audit.conclusion.recordsRestoredToSubstantiveReview,
+    auditSampleSize: pr12Audit.conclusion.sampleSize,
+    authoritative: true
+  }, {
+    batchId: "reconstruction-batch-02",
+    selectedCount: reconstructionBatch02.selection.selectedCount,
+    verified: reconstructionBatch02.results.verifiedCount,
+    ambiguous: reconstructionBatch02.results.ambiguousCount,
+    rejectedNonStory: reconstructionBatch02.results.rejectedCount,
+    unresolvedRequiresHumanReview: reconstructionBatch02.results.humanReviewRequiredCount
+  }];
+  program.progress.verifiedBySourceAudit = verifiedRecords.length;
+  program.progress.ambiguous = productionRecords.filter((record) => record.myth.reviewStatus === "ambiguous").length;
+  program.progress.rejectedNonStory = productionRecords.filter((record) => record.myth.reviewStatus === "rejected_non_story").length;
+  program.progress.unresolvedRequiresHumanReview = productionRecords.filter((record) => record.myth.reviewStatus === "unresolved_requires_human_review").length;
+  program.progress.awaitingSubstantiveSourceReview = productionRecords.filter((record) => record.myth.reviewStatus === RESTORED_STATUS).length;
   archiveFailedBulkReview(program);
   writeJson(rel("corpus/review/verification-ledger.json"), program.ledger);
   writeJson(rel("corpus/review/verification-progress.json"), program.progress);
@@ -1512,6 +1568,9 @@ runCli(async (args) => {
   writeJson(rel("corpus/review/pr12-reconstruction-sample.json"), pr12Audit.sample);
   writeJson(rel("corpus/review/pr12-reconstruction-sample-results.json"), pr12Audit.sampleResults);
   writeJson(rel("corpus/review/pr12-audit-conclusion.json"), pr12Audit.conclusion);
+  writeJson(rel("corpus/review/reconstruction-batch-02-selection.json"), reconstructionBatch02.selection);
+  writeJson(rel("corpus/review/reconstruction-batch-02-results.json"), reconstructionBatch02.results);
+  writeJson(rel("corpus/review/reconstruction-batch-02-manual-inspection.json"), reconstructionBatch02.manualInspection);
   writeJson(rel("corpus/review/pr12-templated-review-safeguards.json"), {
     generatedAt: GENERATED_AT,
     valid: true,

@@ -6,62 +6,28 @@
   },
   "batchesCompleted": [
     {
-      "batchId": "verification-batch-02",
-      "selectedCount": 50,
-      "verifiedCount": 0,
-      "ambiguousCount": 21,
-      "rejectedCount": 0,
-      "deferredComplexCount": 29
+      "batchId": "pr12-audit-restoration",
+      "restoredForSubstantiveReview": 258,
+      "auditSampleSize": 20,
+      "authoritative": true
     },
     {
-      "batchId": "verification-batch-03",
-      "selectedCount": 50,
-      "verifiedCount": 0,
-      "ambiguousCount": 43,
-      "rejectedCount": 0,
-      "deferredComplexCount": 7
-    },
-    {
-      "batchId": "verification-batch-04",
-      "selectedCount": 50,
-      "verifiedCount": 0,
-      "ambiguousCount": 25,
-      "rejectedCount": 0,
-      "deferredComplexCount": 25
-    },
-    {
-      "batchId": "verification-batch-05",
-      "selectedCount": 50,
-      "verifiedCount": 0,
-      "ambiguousCount": 36,
-      "rejectedCount": 2,
-      "deferredComplexCount": 12
-    },
-    {
-      "batchId": "verification-batch-06",
-      "selectedCount": 50,
-      "verifiedCount": 0,
-      "ambiguousCount": 40,
-      "rejectedCount": 8,
-      "deferredComplexCount": 2
-    },
-    {
-      "batchId": "verification-batch-07",
-      "selectedCount": 21,
-      "verifiedCount": 0,
-      "ambiguousCount": 9,
-      "rejectedCount": 11,
-      "deferredComplexCount": 1
+      "batchId": "reconstruction-batch-02",
+      "selectedCount": 10,
+      "verified": 1,
+      "ambiguous": 4,
+      "rejectedNonStory": 0,
+      "unresolvedRequiresHumanReview": 5
     }
   ],
   "currentBatch": null,
   "neverReviewedRemaining": 0,
-  "verifiedBySourceAudit": 15,
-  "ambiguous": 9,
+  "verifiedBySourceAudit": 16,
+  "ambiguous": 13,
   "rejectedNonStory": 5,
   "deferredComplex": 0,
-  "unresolvedRequiresHumanReview": 10,
+  "unresolvedRequiresHumanReview": 15,
   "humanApproved": 0,
   "programComplete": false,
-  "awaitingSubstantiveSourceReview": 258
+  "awaitingSubstantiveSourceReview": 248
 }

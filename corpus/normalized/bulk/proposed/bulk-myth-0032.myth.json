@@ -2,7 +2,7 @@
   "mythId": "bulk-myth-0032",
   "mythFamilyId": "jason-and-argonauts",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-jason-and-argonauts-6126f2",
-  "title": "JASON.",
+  "title": "Jason's Exile, Return, and the One-Sandaled Prophecy",
   "source": {
     "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
     "passages": [
@@ -418,7 +418,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_substantive_source_review"
+      "reviewStatus": "ambiguous"
     }
   ],
   "normalizationWarnings": [
@@ -485,6 +485,22 @@
         "gutenberg:ebooks:39250:392.392.3-392.392.3:853791f9"
       ],
       "status": "open"
+    },
+    {
+      "reviewId": "review-bdb85437",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0032",
+      "issueType": "reconstruction-batch-02-ambiguous",
+      "sourceValue": "Jason's Exile, Return, and the One-Sandaled Prophecy",
+      "suggestions": [
+        "The span starts with Jason's displacement by Pelias, continues through Juno's disguised test, and ends in contextual Helle quotation material before the Argonautic voyage fully begins."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:392.392.1-392.392.1:0faf5a96",
+        "gutenberg:ebooks:39250:392.392.2-392.392.2:ff6ad89c",
+        "gutenberg:ebooks:39250:392.392.3-392.392.3:853791f9"
+      ],
+      "status": "open"
     }
   ],
   "semanticQuality": {
@@ -522,5 +538,5 @@
     "event-007"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_substantive_source_review"
+  "reviewStatus": "ambiguous"
 }

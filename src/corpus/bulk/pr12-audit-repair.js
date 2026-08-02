@@ -3,6 +3,8 @@ const { execFileSync } = require("child_process");
 const GENERATED_AT = new Date(0).toISOString();
 const RESTORED_STATUS = "awaiting_substantive_source_review";
 const PR12_HEAD_SUBJECT = "Complete remaining mythology source verification";
+const PR12_AUDITED_HEAD_SHA = "bdac2b7b0a61b66545ab80b24b9c3f2b67c08343";
+const PR12_AUDITED_BASE_SHA = "6f9cb83a2b77995005e7bfaae8b853cfe2d94d3b";
 
 const GENERIC_PHRASES = [
   "Reviewed source passage references and determined that automatic verified promotion is not defensible without further source-boundary work.",
@@ -21,11 +23,11 @@ function gitValue(args, fallback) {
 }
 
 function pr12HeadSha() {
-  return gitValue(["rev-list", "--grep", PR12_HEAD_SUBJECT, "-n", "1", "HEAD"], gitValue(["rev-parse", "HEAD"], "unknown"));
+  return gitValue(["rev-list", "--grep", PR12_HEAD_SUBJECT, "-n", "1", "HEAD"], PR12_AUDITED_HEAD_SHA);
 }
 
 function baseSha() {
-  return gitValue(["merge-base", "main", "HEAD"], "unknown");
+  return PR12_AUDITED_BASE_SHA;
 }
 
 function textSnippet(text, max) {

@@ -1,0 +1,124 @@
+{
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "batchId": "reconstruction-batch-02",
+  "selectedCount": 10,
+  "selectionCriteria": [
+    "Start from records marked awaiting_substantive_source_review after PR #12 restoration.",
+    "Exclude PR #12's twenty-record audit sample.",
+    "Prioritize recognizable myth-family headings with contiguous or tractable passage spans.",
+    "Include records from Berens and Guerber.",
+    "Stop at exactly ten source proposals."
+  ],
+  "selectedRecords": [
+    {
+      "mythId": "bulk-myth-0020",
+      "title": "STORY OF THE GOLDEN FLEECE.",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0020.myth.json",
+      "selectionReason": "Recognizable Golden Fleece material with rich events, but it overlaps an existing verified seed and combines several subepisodes.",
+      "knownRisks": [
+        "overlaps-existing-verified-golden-fleece-origin",
+        "multi-episode-span"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0014",
+      "title": "PERSEUS.",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0014.myth.json",
+      "selectionReason": "Clear myth family and characters, but the cited boundary covers several recognizable Perseus episodes.",
+      "knownRisks": [
+        "multi-episode-span",
+        "overlaps-existing-perseus-verified-seed"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0032",
+      "title": "JASON.",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0032.myth.json",
+      "selectionReason": "Known Jason cycle from Guerber with contiguous passages and a clear central protagonist.",
+      "knownRisks": [
+        "origin-versus-quest-boundary",
+        "poetic-quotation-tail"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0087",
+      "title": "DAEDALUS and ICARUS.",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0087.myth.json",
+      "selectionReason": "Short, recognizable episode likely to be usable after duplicate handling.",
+      "knownRisks": [
+        "duplicate-of-existing-verified-record",
+        "profile-material-in-boundary"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0085",
+      "title": "PERSEUS.",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0085.myth.json",
+      "selectionReason": "Contiguous early Perseus material from Guerber with low passage count.",
+      "knownRisks": [
+        "partial-section",
+        "title-family-too-broad"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0091",
+      "title": "BELLEROPHON.",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0091.myth.json",
+      "selectionReason": "Recognizable Bellerophon/Pegasus source material with clear protagonist and manageable length.",
+      "knownRisks": [
+        "partial-before-resolution",
+        "missing-chimera-outcome"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0102",
+      "title": "RETURN OF THE GREEKS FROM TROY.",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0102.myth.json",
+      "selectionReason": "Trojan War aftermath material from Berens with clear source heading but several subepisodes.",
+      "knownRisks": [
+        "survey-section",
+        "multi-episode-homecoming"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0105",
+      "title": "ADVENTURES OF ULYSSES.",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0105.myth.json",
+      "selectionReason": "Recognizable Ulysses/Odysseus source material from Guerber, but with a broad survey boundary.",
+      "knownRisks": [
+        "broad-odyssey-survey",
+        "quotation-tail"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0044",
+      "title": "ALCMAEON AND THE NECKLACE.",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0044.myth.json",
+      "selectionReason": "Compact complete Berens narrative with clear title, protagonist, object, conflict, resolution, and final deposition of the necklace and veil.",
+      "knownRisks": [
+        "violent-revenge-episode",
+        "group-entity-endpoints"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0025",
+      "title": "Orphic Argonautics.",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0025.myth.json",
+      "selectionReason": "High-scoring Jason material from Guerber with contiguous passages but substantial internal boundaries.",
+      "knownRisks": [
+        "long-travel-sequence",
+        "multiple-subepisode-boundaries"
+      ]
+    }
+  ]
+}

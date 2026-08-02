@@ -2,7 +2,7 @@
   "mythId": "bulk-myth-0020",
   "mythFamilyId": "golden-fleece",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-golden-fleece-b78e7f",
-  "title": "STORY OF THE GOLDEN FLEECE.",
+  "title": "Golden Fleece Cycle: Phryxus, Jason, and Early Argonaut Voyage",
   "source": {
     "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
     "passages": [
@@ -413,7 +413,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_substantive_source_review"
+      "reviewStatus": "unresolved_requires_human_review"
     }
   ],
   "normalizationWarnings": [
@@ -464,6 +464,23 @@
         "gutenberg:ebooks:22381:302.302.3-302.302.3:8296fb5e"
       ],
       "status": "open"
+    },
+    {
+      "reviewId": "review-770b6a85",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0020",
+      "issueType": "reconstruction-batch-02-unresolved_requires_human_review",
+      "sourceValue": "Golden Fleece Cycle: Phryxus, Jason, and Early Argonaut Voyage",
+      "suggestions": [
+        "The cited span begins with Athamas, Nephele, Helle, and Phryxus, then shifts through Jason's sacrifice and departure into Doliones material.",
+        "Should this span be split into multiple source-audited records rather than treated as one Golden Fleece episode?"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+        "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01",
+        "gutenberg:ebooks:22381:302.302.3-302.302.3:8296fb5e"
+      ],
+      "status": "open"
     }
   ],
   "semanticQuality": {
@@ -500,5 +517,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_substantive_source_review"
+  "reviewStatus": "unresolved_requires_human_review"
 }

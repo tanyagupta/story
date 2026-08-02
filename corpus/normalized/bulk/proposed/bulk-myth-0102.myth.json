@@ -2,7 +2,7 @@
   "mythId": "bulk-myth-0102",
   "mythFamilyId": "trojan-war",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-trojan-war-0cca55",
-  "title": "RETURN OF THE GREEKS FROM TROY.",
+  "title": "Returns from Troy: Agamemnon, Orestes, and Other Greek Homecomings",
   "source": {
     "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
     "passages": [
@@ -358,7 +358,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_substantive_source_review"
+      "reviewStatus": "ambiguous"
     }
   ],
   "normalizationWarnings": [
@@ -409,6 +409,22 @@
         "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6"
       ],
       "status": "open"
+    },
+    {
+      "reviewId": "review-384b71b3",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0102",
+      "issueType": "reconstruction-batch-02-ambiguous",
+      "sourceValue": "Returns from Troy: Agamemnon, Orestes, and Other Greek Homecomings",
+      "suggestions": [
+        "The section is a survey of several post-Troy returns and shifts from general Greek punishment to Agamemnon and Orestes."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:338.338.1-338.338.1:e252c4e0",
+        "gutenberg:ebooks:22381:338.338.2-338.338.2:0a02006e",
+        "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6"
+      ],
+      "status": "open"
     }
   ],
   "semanticQuality": {
@@ -451,5 +467,5 @@
     "event-007"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_substantive_source_review"
+  "reviewStatus": "ambiguous"
 }

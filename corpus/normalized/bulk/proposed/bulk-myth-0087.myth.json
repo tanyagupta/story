@@ -2,7 +2,7 @@
   "mythId": "bulk-myth-0087",
   "mythFamilyId": "daedalus-and-icarus",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-daedalus-and-icarus-d97202",
-  "title": "DAEDALUS and ICARUS.",
+  "title": "Daedalus and Icarus: Escape from Crete",
   "source": {
     "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
     "passages": [
@@ -358,7 +358,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_substantive_source_review"
+      "reviewStatus": "unresolved_requires_human_review"
     }
   ],
   "normalizationWarnings": [
@@ -409,6 +409,23 @@
         "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7"
       ],
       "status": "open"
+    },
+    {
+      "reviewId": "review-d3fa6cf5",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0087",
+      "issueType": "reconstruction-batch-02-unresolved_requires_human_review",
+      "sourceValue": "Daedalus and Icarus: Escape from Crete",
+      "suggestions": [
+        "The cited section includes Daedalus' artisan profile, the Minotaur/Labyrinth context, the Icarus flight, and Sicily aftermath.",
+        "Should this Berens proposal be merged with the existing verified Daedalus and Icarus seed or retained as a separate witness variant with profile material omitted?"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.1-300.300.1:295772a7",
+        "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+        "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7"
+      ],
+      "status": "open"
     }
   ],
   "semanticQuality": {
@@ -452,5 +469,5 @@
     "event-007"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_substantive_source_review"
+  "reviewStatus": "unresolved_requires_human_review"
 }

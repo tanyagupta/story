@@ -2,7 +2,7 @@
   "mythId": "bulk-myth-0025",
   "mythFamilyId": "jason-and-argonauts",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-jason-and-argonauts-758a52",
-  "title": "Orphic Argonautics.",
+  "title": "Argonauts from the Speaking Oak to Colchis",
   "source": {
     "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
     "passages": [
@@ -436,7 +436,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_substantive_source_review"
+      "reviewStatus": "ambiguous"
     }
   ],
   "normalizationWarnings": [
@@ -487,6 +487,22 @@
         "gutenberg:ebooks:39250:395.395.3-395.395.3:22a496a3"
       ],
       "status": "open"
+    },
+    {
+      "reviewId": "review-ec7615b1",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0025",
+      "issueType": "reconstruction-batch-02-ambiguous",
+      "sourceValue": "Argonauts from the Speaking Oak to Colchis",
+      "suggestions": [
+        "The span runs from the Speaking Oak through multiple Argonaut stops and reaches Colchis, so it is a travel sequence rather than one compact story."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:395.395.1-395.395.1:84ee2aaf",
+        "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+        "gutenberg:ebooks:39250:395.395.3-395.395.3:22a496a3"
+      ],
+      "status": "open"
     }
   ],
   "semanticQuality": {
@@ -528,5 +544,5 @@
     "event-004"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_substantive_source_review"
+  "reviewStatus": "ambiguous"
 }

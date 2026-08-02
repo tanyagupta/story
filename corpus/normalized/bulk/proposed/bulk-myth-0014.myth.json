@@ -2,7 +2,7 @@
   "mythId": "bulk-myth-0014",
   "mythFamilyId": "perseus-and-medusa",
   "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-perseus-and-medusa-bb09c9",
-  "title": "PERSEUS.",
+  "title": "Perseus: Medusa, Atlas, Andromeda, and Phineus",
   "source": {
     "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
     "passages": [
@@ -414,7 +414,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_substantive_source_review"
+      "reviewStatus": "unresolved_requires_human_review"
     }
   ],
   "normalizationWarnings": [
@@ -465,6 +465,23 @@
         "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785"
       ],
       "status": "open"
+    },
+    {
+      "reviewId": "review-afd54d7b",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0014",
+      "issueType": "reconstruction-batch-02-unresolved_requires_human_review",
+      "sourceValue": "Perseus: Medusa, Atlas, Andromeda, and Phineus",
+      "suggestions": [
+        "The cited Perseus span includes genealogy, the Medusa quest, Atlas, Andromeda's rescue, and the opening of the Phineus conflict.",
+        "Should this source section be reconstructed as one multi-episode Perseus record or split into Medusa, Atlas, Andromeda, and Phineus records?"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+        "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+        "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785"
+      ],
+      "status": "open"
     }
   ],
   "semanticQuality": {
@@ -501,5 +518,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_substantive_source_review"
+  "reviewStatus": "unresolved_requires_human_review"
 }

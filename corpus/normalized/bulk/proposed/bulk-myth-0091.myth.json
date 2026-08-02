@@ -2,7 +2,7 @@
   "mythId": "bulk-myth-0091",
   "mythFamilyId": "bellerophon-and-pegasus",
   "variantId": "gutenberg-guerber-myths-greece-rome-eng-bellerophon-and-pegasus-e0d677",
-  "title": "BELLEROPHON.",
+  "title": "Bellerophon Receives Minerva's Bridle",
   "source": {
     "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
     "passages": [
@@ -394,7 +394,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_substantive_source_review"
+      "reviewStatus": "unresolved_requires_human_review"
     }
   ],
   "normalizationWarnings": [
@@ -461,6 +461,23 @@
         "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a"
       ],
       "status": "open"
+    },
+    {
+      "reviewId": "review-1d5e50c1",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0091",
+      "issueType": "reconstruction-batch-02-unresolved_requires_human_review",
+      "sourceValue": "Bellerophon Receives Minerva's Bridle",
+      "suggestions": [
+        "The cited span reaches Minerva's gift of the bridle but stops before Pegasus is captured and before the Chimera episode resolves.",
+        "Should this record be a partial bridle subepisode or should adjacent passages be added for the Chimera conflict and outcome?"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3",
+        "gutenberg:ebooks:39250:414.414.2-414.414.2:2df4dd68",
+        "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a"
+      ],
+      "status": "open"
     }
   ],
   "semanticQuality": {
@@ -504,5 +521,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_substantive_source_review"
+  "reviewStatus": "unresolved_requires_human_review"
 }

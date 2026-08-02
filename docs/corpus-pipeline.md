@@ -242,13 +242,13 @@ total passages: 6292
 total candidate sections: 917
 valid narrative candidates: 291
 non-story candidates: 626
-machine-proposed records awaiting substantive source review: 258
-source-audited records: 15
+machine-proposed records awaiting substantive source review: 248
+source-audited records: 16
 approved by human review: 0
-ambiguous source-reviewed records: 9
+ambiguous source-reviewed records: 13
 rejected non-story source-reviewed records: 5
-unresolved records requiring human review: 10
-records restored for substantive review: 258
+unresolved records requiring human review: 15
+records restored for substantive review by PR #12: 258
 open review items: probable duplicate and ambiguous family review queues
 ```
 
@@ -356,6 +356,35 @@ Because the sample and methodology audit show a high templated-classification ri
 `awaiting_substantive_source_review` means the record is not never-seen, but the previous classification was not substantive enough to support a final semantic status. Future verification batches should begin from this queue and must document exact boundary, title, family, entity, event, relationship, and narrative corrections for each record reviewed.
 
 Classification is not equivalent to reconstruction. A record remains unverified unless the reviewer reconstructs the source boundary and verifies the structured fields against exact cited passages. Records marked `unresolved_requires_human_review` must state the specific human decision needed; the status must not be used as a substitute for difficult reconstruction work.
+
+### Reconstruction Batch 02
+
+The first post-restoration reconstruction branch processes exactly ten source proposals from `awaiting_substantive_source_review` and stops. Its reports are:
+
+```text
+corpus/review/reconstruction-batch-02-selection.json
+corpus/review/reconstruction-batch-02-results.json
+corpus/review/reconstruction-batch-02-manual-inspection.json
+```
+
+The batch deliberately avoids PR #12's twenty-record audit sample. Selection favors recognizable, contiguous, tractable source sections from Berens and Guerber, but selection is not verification. Each selected record receives record-specific boundary analysis, title/family review, character/entity review, alias review, event review, relationship review, narrative correction notes, exact passage evidence, and a manual inspection entry.
+
+Batch 02 outcomes:
+
+```text
+selected source proposals: 10
+new source-audited records: 1
+ambiguous records: 4
+rejected non-story records: 0
+unresolved records requiring human review: 5
+remaining awaiting substantive source review: 248
+```
+
+The newly source-audited record is `bulk-verified-0016`, "Alcmaeon and the Necklace", reconstructed as a complete Berens section from ten contiguous passages. It rebuilds the machine proposal's sparse Apollo/Zeus extraction into source-supported entities, relationships, events, and narrative fields for Alcmaeon's revenge, punishment, deception, death, Calirrhoe's prayer, and the final deposition of Harmonia's necklace and veil at Delphi.
+
+The other nine selected records are not discarded and are not treated as verified. They receive substantive final outcomes with specific reasons: multi-episode Golden Fleece and Perseus spans require human split decisions; Jason, the early Perseus setup, Greek returns from Troy, and a long Argonautic travel sequence are ambiguous boundaries; Daedalus/Icarus, Bellerophon, and Ulysses require human decisions about duplicate handling, omitted outcomes, or subepisode boundaries.
+
+Only the ten selected source proposals leave the substantive-review queue. Unselected restored records remain unchanged. The approved catalog remains empty, and human-approved count remains zero.
 
 The review checklist in `verification-batch-01-results.json` records boundary, title, family, character, alias, event, relationship, conflict, resolution, outcome, exact-source-text, and evidence-relevance checks for every selected record. It also documents five full manual inspections spanning different myth families. Subsequent batches should create a new deterministic selection report, review checklist, progress report, and source-audit update without changing the meaning of earlier batch records.
 
