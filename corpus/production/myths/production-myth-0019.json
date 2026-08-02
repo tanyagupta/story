@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation of Hephaestus Returns to Olympus; not a source edition.",
+    "constructionPolicy": "Source-aligned editorial adaptation of Hephaestus Returns to Olympus based only on the linked source-audited record; not a source edition.",
     "basedOnSourceAuditedReference": true
   },
   "referenceLinks": {
@@ -15,80 +15,82 @@
     ]
   },
   "scope": {
-    "beginning": "The episode begins after Hephaestus has been cast from Olympus and nurses resentment against Hera.",
-    "ending": "It ends when Dionysus brings Hephaestus back and Hera is released from the binding throne.",
-    "boundaryRationale": "The episode begins with the episode begins after hephaestus has been cast from olympus and nurses resentment against hera and closes at it ends when dionysus brings hephaestus back and hera is released from the binding throne, leaving surrounding cycle material outside this production unit."
+    "beginning": "The episode begins with Zeus casting Hephaestus from heaven and Hephaestus refusing to return to Olympus.",
+    "ending": "It ends when Dionysus uses wine to lure Hephaestus back and Hephaestus is led to Olympus.",
+    "boundaryRationale": "The linked source ends after Hephaestus reaches Olympus; Hera's release and any later settlement are excluded because the surviving source sentence is truncated."
   },
   "variant": {
-    "chosenVersion": "Return-to-Olympus version in which Hephaestus traps Hera with a golden throne and Dionysus persuades him back.",
-    "materialAlternatives": []
+    "chosenVersion": "Baker's Vulcan-and-Bacchus version: the golden throne traps Hera, Hermes fails, and Dionysus lures Hephaestus back with wine.",
+    "materialAlternatives": [
+      "Later versions in which Hera is explicitly released or Hephaestus receives a formal restoration are excluded."
+    ]
   },
   "characters": [
     {
       "id": "hephaestus",
       "name": "Hephaestus",
       "role": "estranged smith god",
-      "goal": "win recognition after rejection"
+      "goal": "remain apart from Olympus until Dionysus brings him back"
     },
     {
       "id": "hera",
       "name": "Hera",
-      "role": "trapped mother",
-      "goal": "be forced to acknowledge him"
-    },
-    {
-      "id": "dionysus",
-      "name": "Dionysus",
-      "role": "persuasive mediator",
-      "goal": "bring Hephaestus back"
+      "role": "mother trapped by the golden throne",
+      "goal": "escape the throne's hidden restraint"
     },
     {
       "id": "zeus",
       "name": "Zeus",
-      "role": "Olympian king",
-      "goal": "accept the settlement"
+      "role": "father who banishes Hephaestus and seeks his return",
+      "goal": "bring Hephaestus back to Olympus"
     },
     {
-      "id": "golden-throne",
-      "name": "Golden throne",
-      "role": "cunning device",
-      "goal": "hold Hera fast"
+      "id": "hermes",
+      "name": "Hermes",
+      "role": "unsuccessful envoy",
+      "goal": "persuade Hephaestus to attend Olympus"
+    },
+    {
+      "id": "dionysus",
+      "name": "Dionysus",
+      "role": "successful luring visitor",
+      "goal": "lead Hephaestus back to Olympus"
     }
   ],
   "relationships": [
     {
-      "source": "hephaestus",
-      "relationship": "child-of",
-      "target": "hera",
-      "rationale": "Hephaestus child of Hera during Hephaestus Returns to Olympus."
+      "source": "hera",
+      "relationship": "parent-of",
+      "target": "hephaestus",
+      "rationale": "The linked source identifies Hera as Hephaestus' mother."
+    },
+    {
+      "source": "zeus",
+      "relationship": "parent-of",
+      "target": "hephaestus",
+      "rationale": "The linked source identifies Zeus as Hephaestus' father."
     },
     {
       "source": "dionysus",
-      "relationship": "rescuer-of",
-      "target": "hera",
-      "rationale": "Dionysus rescuer of Hera during Hephaestus Returns to Olympus."
-    },
-    {
-      "source": "golden-throne",
-      "relationship": "captor-of",
-      "target": "hera",
-      "rationale": "Golden throne captor of Hera during Hephaestus Returns to Olympus."
+      "relationship": "guide-of",
+      "target": "hephaestus",
+      "rationale": "Dionysus lures Hephaestus with wine and leads him to Olympus."
     }
   ],
   "narrative": {
-    "synopsis": "Hephaestus answers rejection with craft rather than open war. His golden throne traps Hera until Dionysus brings the estranged smith back to Olympus, where release and recognition become linked.",
-    "openingSituation": "Hephaestus has been excluded from the divine household that still needs his craft.",
-    "centralConflict": "Hera is trapped by a gift only Hephaestus can undo.",
-    "resolution": "Dionysus returns with Hephaestus, and the smith releases Hera.",
-    "outcome": "Hephaestus’ craft gains power and his place among the gods is restored."
+    "synopsis": "After Zeus casts Hephaestus from heaven, the smith god refuses Olympus and later sends Hera a golden throne whose hidden springs trap her. Hermes cannot persuade him to return, but Dionysus makes him drink and leads him back to Olympus.",
+    "openingSituation": "Hephaestus has been cast from heaven and refuses to return to the gods who treated him badly.",
+    "centralConflict": "Hera is trapped in Hephaestus' golden throne, but Hephaestus rejects Hermes' invitation to Olympus.",
+    "resolution": "Dionysus wins Hephaestus' welcome with wine and continues pouring until Hephaestus can be led away.",
+    "outcome": "Hephaestus is led back to Olympus; the linked source does not complete Hera's release."
   },
   "events": [
     {
       "sequence": 1,
-      "actor": "hephaestus",
-      "action": "resent",
-      "target": "hera",
-      "consequence": "Hephaestus remembers being rejected.",
+      "actor": "zeus",
+      "action": "banish",
+      "target": "hephaestus",
+      "consequence": "Hephaestus falls from heaven and withdraws from Olympus.",
       "factIds": [
         "fact-01"
       ]
@@ -96,64 +98,77 @@
     {
       "sequence": 2,
       "actor": "hephaestus",
-      "action": "send",
-      "target": "golden-throne",
-      "consequence": "He crafts the beautiful trap.",
+      "action": "refuse-return",
+      "target": null,
+      "consequence": "Hephaestus remains at his forge in Mount Etna.",
       "factIds": [
         "fact-02"
       ]
     },
     {
       "sequence": 3,
-      "actor": "golden-throne",
-      "action": "bind",
+      "actor": "hephaestus",
+      "action": "send",
       "target": "hera",
-      "consequence": "Hera is held fast.",
+      "consequence": "A golden throne arrives for Hera as a gift.",
       "factIds": [
         "fact-03"
       ]
     },
     {
       "sequence": 4,
-      "actor": "dionysus",
-      "action": "persuade",
-      "target": "hephaestus",
-      "consequence": "Dionysus brings him back to Olympus.",
+      "actor": "hephaestus",
+      "action": "trap",
+      "target": "hera",
+      "consequence": "Hidden springs contract and hold Hera prisoner.",
       "factIds": [
         "fact-04"
       ]
     },
     {
       "sequence": 5,
-      "actor": "hephaestus",
-      "action": "release",
-      "target": "hera",
-      "consequence": "He frees Hera and gains recognition.",
+      "actor": "hermes",
+      "action": "invite",
+      "target": "hephaestus",
+      "consequence": "Hermes' polite appeal fails to move Hephaestus.",
       "factIds": [
         "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "dionysus",
+      "action": "lure",
+      "target": "hephaestus",
+      "consequence": "Dionysus gives him wine and leads him to Olympus.",
+      "factIds": [
+        "fact-06"
       ]
     }
   ],
   "locations": [
-    "Olympian realm"
+    "Olympus",
+    "Mount Etna"
   ],
   "themes": [
-    "divine authority",
-    "Olympian order",
-    "resent"
+    "estrangement",
+    "craft as retaliation",
+    "persuasion"
   ],
   "adaptation": {
-    "recommendedSceneCount": 5,
+    "recommendedSceneCount": 6,
     "visualBeats": [
-      "Hephaestus has been excluded from the divine household that still needs his craft.",
-      "Hera is trapped by a gift only Hephaestus can undo.",
-      "Dionysus returns with Hephaestus, and the smith releases Hera."
+      "Zeus casts Hephaestus from heaven and the smith withdraws to Mount Etna.",
+      "Hera sits in the golden throne and its hidden mechanism closes around her.",
+      "Dionysus pours wine until Hephaestus can be led back toward Olympus."
     ],
     "sensitiveContent": [
-      "mythic violence or distress"
+      "parental rejection",
+      "coercive intoxication",
+      "confinement"
     ],
     "productionNotes": [
-      "Emphasize the specific mythic turn: Hera is trapped by a gift only Hephaestus can undo."
+      "End at Hephaestus' arrival in Olympus; do not show Hera's release or a restored divine status as completed facts."
     ]
   }
 }
