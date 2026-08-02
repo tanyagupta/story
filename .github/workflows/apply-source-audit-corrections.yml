@@ -1,0 +1,199 @@
+name: Apply source audit semantic corrections
+
+on:
+  push:
+    branches:
+      - fix/source-audit-semantic-corrections
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    if: ${{ !contains(github.event.head_commit.message, 'Apply source audit semantic corrections') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/source-audit-semantic-corrections
+          fetch-depth: 0
+      - name: Apply audited corrections
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          ROOT = Path("corpus/normalized/bulk/verified")
+
+          def load(n):
+              p = ROOT / f"bulk-verified-{n}.myth.json"
+              return p, json.loads(p.read_text())
+
+          def save(p, d):
+              p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n")
+
+          def event(d, eid):
+              return next(x for x in d["events"] if x["eventId"] == eid)
+
+          def replace_all(obj, old, new):
+              if isinstance(obj, dict):
+                  for k, v in list(obj.items()):
+                      if isinstance(v, str) and v == old:
+                          obj[k] = new
+                      else:
+                          replace_all(v, old, new)
+              elif isinstance(obj, list):
+                  for i, v in enumerate(obj):
+                      if isinstance(v, str) and v == old:
+                          obj[i] = new
+                      else:
+                          replace_all(v, old, new)
+
+          changed = []
+
+          p,d=load("0001")
+          event(d,"event-003").update(sourceAction="search", action="search")
+          event(d,"event-005").update(sourceAction="made a compromise", action="compromise", target="persephone", object=None)
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0002")
+          event(d,"event-002").update(target=None, object=None)
+          event(d,"event-003").update(target=None)
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0003")
+          r=next(x for x in d["relationships"] if x["source"]=="hyllus" and x["target"]=="heraclidae")
+          r["relationship"]="assists"
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0004")
+          actual = ("gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65",
+          "Lashing his tail furiously from side to side, he leaped forward to seize his victim; but the gallant hero, watching his opportunity, suddenly darted down, and producing the head of the Medusa from his wallet, held it before the eyes of the dragon, whose hideous body became gradually transformed into a huge black rock, which remained for ever a silent witness of the miraculous deliverance of Andromeda.")
+          r=next(x for x in d["relationships"] if x["source"]=="perseus" and x["target"]=="andromeda")
+          r["sourceText"]=actual[1]; r["evidence"]={"passageId":actual[0],"sourceText":actual[1]}
+          d["narrative"]["centralConflict"]="Perseus must carry out the dangerous Medusa quest with divine guidance."
+          e=event(d,"event-003"); e.update(action="propose", sourceAction="proposed", target="dragon", recipient="cepheus")
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0006")
+          event(d,"event-001").update(sourceAction="placed", action="place")
+          event(d,"event-002").update(sourceAction="raised the lid", action="open")
+          e=event(d,"event-004")
+          e.update(actor="hope", action="remain", sourceAction="concealed", target=None, object="box",
+                   normalizedStatement="Hope remained concealed among the evils.")
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0007")
+          event(d,"event-003")["target"]=None
+          d["narrative"]["outcome"]="Cadmus builds Thebes with the surviving warriors."
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0008")
+          d["title"]="Paris from Exposure to Helen's Abduction"
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0013")
+          event(d,"event-003").update(target=None, recipient=None)
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0014")
+          d["title"]="The Life of Oedipus"
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0018")
+          event(d,"event-002")["recipient"]=None
+          event(d,"event-004").update(action="recall", sourceAction="recalled", object=None)
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0019")
+          event(d,"event-003")["target"]=None
+          event(d,"event-004").update(target=None, recipient=None)
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0021")
+          old="Disguised Juno caused Jason to lose one sandal."
+          new="Jason lost one golden sandal while carrying disguised Juno across the torrent."
+          replace_all(d, old, new)
+          e=event(d,"event-003")
+          e.update(actor="jason", action="lose", sourceAction="wrenched off", target=None, object="golden-sandal")
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0022")
+          event(d,"event-001")["target"]=None
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0024")
+          event(d,"event-001")["target"]=None
+          e=event(d,"event-002")
+          e.update(action="split", sourceAction="split", target="rock", object=None,
+                   normalizedStatement="Poseidon split the rock, after which Ajax was overwhelmed by the waves.")
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0025")
+          old="Electra saved Orestes from Aegisthus."
+          new="Electra saved Orestes during the massacre."
+          replace_all(d, old, new)
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0028")
+          d["title"]="The Speaking Oak and the Building of the Argo"
+          d["narrative"]["synopsis"]="The Speaking Oak directs Jason to carve a figurehead from its wood, Minerva builds the vessel at Juno's request, and Jason gathers a crew after the Argo is completed."
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0030")
+          d["narrative"]["synopsis"]="The Argonauts find Phineus tormented by Harpies, and the winged sons of Boreas pursue the Harpies to the Strophades."
+          d["narrative"]["outcome"]="The Harpies reach the Strophades and promise to remain there."
+          d["verification"]["claimsChecked"]=[x for x in d["verification"]["claimsChecked"] if "Iris" not in x]
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0031")
+          d["narrative"]["synopsis"]="The Argonauts test the Symplegades with a dove and drive the Argo through as the rocks close."
+          d["narrative"]["outcome"]="The Argo passes through with only its rudder grazed."
+          d["verification"]["claimsChecked"]=[x for x in d["verification"]["claimsChecked"] if "remain fixed" not in x]
+          save(p,d); changed.append(str(p))
+
+          p,d=load("0032")
+          event(d,"event-003")["target"]=None
+          old="Jason killed the dragon and took the fleece."
+          new="Jason took the Golden Fleece and carried it to the Argo."
+          replace_all(d, old, new)
+          e=event(d,"event-004")
+          e.update(action="take", sourceAction="tore", target=None, object="golden-fleece")
+          save(p,d); changed.append(str(p))
+
+          all_files = sorted(ROOT.glob("*.json"))
+          for f in all_files:
+              json.loads(f.read_text())
+          assert len(changed) == 19, changed
+          print("\n".join(changed))
+          PY
+      - name: Validate and commit
+        shell: bash
+        run: |
+          python -m json.tool corpus/normalized/bulk/verified/bulk-verified-0001.myth.json >/dev/null
+          rm .github/workflows/apply-source-audit-corrections.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- corpus/normalized/bulk/verified/bulk-verified-0001.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0002.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0003.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0004.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0006.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0007.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0008.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0013.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0014.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0018.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0019.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0021.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0022.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0024.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0025.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0028.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0030.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0031.myth.json \
+            corpus/normalized/bulk/verified/bulk-verified-0032.myth.json \
+            .github/workflows/apply-source-audit-corrections.yml
+          git commit -m "Apply source audit semantic corrections"
+          git push origin HEAD:fix/source-audit-semantic-corrections
