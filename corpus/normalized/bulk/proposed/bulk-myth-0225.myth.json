@@ -192,7 +192,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -206,6 +206,38 @@
         "no-mythological-characters",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:487.487.1-487.487.1:203e1b93",
+        "gutenberg:ebooks:39250:487.487.2-487.487.2:2a2698af",
+        "gutenberg:ebooks:39250:487.487.3-487.487.3:9ce2f313"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-7722c1fb",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0225",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Such load my strength shall never tire.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:487.487.1-487.487.1:203e1b93",
+        "gutenberg:ebooks:39250:487.487.2-487.487.2:2a2698af",
+        "gutenberg:ebooks:39250:487.487.3-487.487.3:9ce2f313"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-42e88dd2",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0225",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Such load my strength shall never tire.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:487.487.1-487.487.1:203e1b93",
@@ -250,5 +282,5 @@
     "event-003"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

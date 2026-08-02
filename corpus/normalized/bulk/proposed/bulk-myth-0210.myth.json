@@ -195,7 +195,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -208,6 +208,36 @@
       "suggestions": [
         "no-mythological-characters",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985",
+        "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-62bb8a0e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0210",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Edwin Arnold.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985",
+        "gutenberg:ebooks:39250:182.182.2-182.182.2:560cd9c6"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-1cbf3d3a",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0210",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Edwin Arnold.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:182.182.1-182.182.1:0952c985",
@@ -250,5 +280,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

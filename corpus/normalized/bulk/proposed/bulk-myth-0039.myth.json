@@ -436,7 +436,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -449,6 +449,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:449.449.1-449.449.1:28390546",
+        "gutenberg:ebooks:39250:449.449.2-449.449.2:63cfe222",
+        "gutenberg:ebooks:39250:449.449.3-449.449.3:79f03266"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-15df746f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0039",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Briseis.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:449.449.1-449.449.1:28390546",
+        "gutenberg:ebooks:39250:449.449.2-449.449.2:63cfe222",
+        "gutenberg:ebooks:39250:449.449.3-449.449.3:79f03266"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-54a58e44",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0039",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Briseis.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:449.449.1-449.449.1:28390546",
@@ -503,5 +535,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

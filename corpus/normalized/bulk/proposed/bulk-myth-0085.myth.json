@@ -371,7 +371,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -399,6 +399,38 @@
       "sourceValue": "PERSEUS.",
       "suggestions": [
         "The Guerber Perseus opening stops after Danae's confinement and rescue setup, before a complete episode outcome."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:363.363.1-363.363.1:6f094fbe",
+        "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+        "gutenberg:ebooks:39250:363.363.3-363.363.3:03c48656"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-44ceb94d",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0085",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "PERSEUS.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:363.363.1-363.363.1:6f094fbe",
+        "gutenberg:ebooks:39250:363.363.2-363.363.2:d76cea9c",
+        "gutenberg:ebooks:39250:363.363.3-363.363.3:03c48656"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ddbc5af4",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0085",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "PERSEUS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:363.363.1-363.363.1:6f094fbe",
@@ -449,5 +481,5 @@
     "event-007"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

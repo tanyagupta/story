@@ -13,12 +13,15 @@ const { validateVerifiedRecords } = require("./bulk/evidence-validator");
 const { canonicalEntityId } = require("./bulk/entity-normalization");
 const { buildVerifiedSeeds } = require("./bulk/verified-records");
 const { buildVerificationBatch01 } = require("./bulk/verification-batch-01");
+const { buildVerificationProgram } = require("./bulk/verification-program");
+const { RESTORED_STATUS, buildPr12AuditRepair } = require("./bulk/pr12-audit-repair");
 const { printResult, runCli } = require("./cli");
 
 const RETRIEVED_AT = "2026-08-01T00:00:00Z";
 const CONVERSION_VERSION = "bulk-gutenberg-tei-v1";
 const PRODUCTION_LIMIT = 50;
 const GENERATED_AT = new Date(0).toISOString();
+const FAILED_REVIEW_ARCHIVE = "corpus/review/archive/failed-bulk-review";
 
 const SOURCES = [
   {
@@ -1032,7 +1035,7 @@ function semanticQualityReport(candidates, productionRecords, verifiedRecords, p
       failedQualityGates[failure] = (failedQualityGates[failure] || 0) + 1;
     });
     if (record.myth.reviewStatus === "approved") approvedRecordIds.push(record.myth.mythId);
-    if (record.myth.reviewStatus === "awaiting_review") recordsRequiringReview.push(record.myth.mythId);
+    if (record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS) recordsRequiringReview.push(record.myth.mythId);
     if (record.myth.reviewStatus === "rejected" || record.myth.reviewStatus === "rejected_non_story") rejectedRecordIds.push(record.myth.mythId);
   });
   return {
@@ -1083,7 +1086,8 @@ function reviewCatalog(productionRecords) {
   return {
     generatedAt: GENERATED_AT,
     entries: productionRecords
-      .filter((record) => record.myth.reviewStatus === "awaiting_review")
+      .filter((record) => ["awaiting_review", RESTORED_STATUS, "ambiguous", "unresolved_requires_human_review", "rejected_non_story"].includes(record.myth.reviewStatus))
+      .filter((record) => fs.existsSync(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`)))
       .map((record) => ({
         mythId: record.myth.mythId,
         title: record.myth.title,
@@ -1097,7 +1101,46 @@ function reviewCatalog(productionRecords) {
   };
 }
 
-function rejectedCatalog(candidates, batchResults) {
+function awaitingCatalog(productionRecords) {
+  return {
+    generatedAt: GENERATED_AT,
+    entries: productionRecords
+      .filter((record) => record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS)
+      .map((record) => ({
+        mythId: record.myth.mythId,
+        title: record.myth.title,
+        mythFamilyId: record.myth.mythFamilyId,
+        sourceId: record.myth.source.sourceId,
+        failedGates: record.myth.semanticQuality.failedGates,
+        synopsis: record.myth.narrative.synopsis,
+        reviewStatus: record.myth.reviewStatus,
+        file: `corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`
+      }))
+  };
+}
+
+function statusCatalog(productionRecords, status, label) {
+  return {
+    generatedAt: GENERATED_AT,
+    status,
+    note: label,
+    entries: productionRecords
+      .filter((record) => record.myth.reviewStatus === status)
+      .map((record) => ({
+        mythId: record.myth.mythId,
+        title: record.myth.title,
+        mythFamilyId: record.myth.mythFamilyId,
+        sourceId: record.myth.source.sourceId,
+        reviewStatus: record.myth.reviewStatus,
+        file: fs.existsSync(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`))
+          ? `corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`
+          : null,
+        passages: record.myth.source.passages
+      }))
+  };
+}
+
+function rejectedCatalog(candidates, batchResults, productionRecords) {
   const batchRejected = batchResults.reviewedRecords
     .filter((record) => record.finalStatus === "rejected_non_story")
     .map((record) => ({
@@ -1109,6 +1152,18 @@ function rejectedCatalog(candidates, batchResults) {
       failedGates: ["source-audited-non-story"],
       passages: [],
       reason: record.reason
+    }));
+  const programRejected = productionRecords
+    .filter((record) => record.myth.reviewStatus === "rejected_non_story")
+    .map((record) => ({
+      candidateId: record.myth.mythId,
+      title: record.myth.title,
+      sourceId: record.myth.source.sourceId,
+      candidateType: "source-reviewed-record",
+      processingStatus: "rejected-non-story-source-audit",
+      failedGates: ["source-reviewed-non-story"],
+      passages: record.myth.source.passages,
+      reason: "Source review determined this proposed record is not a coherent mythology narrative episode."
     }));
   return {
     generatedAt: GENERATED_AT,
@@ -1123,7 +1178,7 @@ function rejectedCatalog(candidates, batchResults) {
         failedGates: (candidate.semanticQuality && candidate.semanticQuality.failedGates) || [],
         passages: candidate.passages
       }))
-      .concat(batchRejected)
+      .concat(batchRejected, programRejected)
   };
 }
 
@@ -1235,7 +1290,44 @@ function cleanBulkOutputs() {
   });
   fs.mkdirSync(rel("corpus/normalized/bulk/proposed"), { recursive: true });
   fs.mkdirSync(rel("corpus/normalized/bulk/verified"), { recursive: true });
+  fs.rmSync(rel(FAILED_REVIEW_ARCHIVE), { recursive: true, force: true });
+  fs.mkdirSync(rel(FAILED_REVIEW_ARCHIVE), { recursive: true });
+  [
+    "corpus/review/deferred-complex-records.json",
+    "corpus/review/verification-final-deferred-results.json",
+    "corpus/review/verification-program-final-report.json"
+  ].forEach((file) => fs.rmSync(rel(file), { force: true }));
+  for (let index = 2; index <= 7; index += 1) {
+    const batchId = `verification-batch-${String(index).padStart(2, "0")}`;
+    fs.rmSync(rel(`corpus/review/${batchId}.json`), { force: true });
+    fs.rmSync(rel(`corpus/review/${batchId}-results.json`), { force: true });
+  }
   fs.rmSync(rel("corpus/review/manual-semantic-spot-check.json"), { force: true });
+}
+
+function archiveFailedBulkReview(program) {
+  const archive = (file, content) => writeJson(rel(`${FAILED_REVIEW_ARCHIVE}/${file}`), Object.assign({
+    authoritative: false,
+    status: "superseded_by_pr12_audit",
+    doNotUseForCorpusDecisions: true,
+    archiveNote: "Retained only as historical evidence for the failed PR #12 bulk-review methodology."
+  }, content));
+  program.selectionReports.forEach((report) => archive(`${report.batchId}.json`, report));
+  program.batchReports.forEach((report) => archive(`${report.batchId}-results.json`, report));
+  archive("deferred-complex-records.json", program.deferred);
+  archive("verification-final-deferred-results.json", program.finalDeferred);
+  archive("verification-program-final-report.json", program.finalReport);
+  fs.writeFileSync(rel(`${FAILED_REVIEW_ARCHIVE}/README.md`), [
+    "# Failed Bulk Review Archive",
+    "",
+    "These files are retained only as historical evidence for the failed PR #12 bulk-review methodology.",
+    "",
+    "They are not authoritative corpus review outputs. Their classifications were superseded by the PR #12 audit reports in `corpus/review/pr12-*.json`.",
+    "",
+    "The audit found that the Batch 02-07 rationales and corrections were templated, did not document substantive record-by-record source reconstruction, and must not be consumed by catalogs, audits, or downstream story-generation logic.",
+    "",
+    "Use `corpus/catalog/proposed-myths.json`, `corpus/catalog/myths-awaiting-review.json`, and the PR #12 audit reports for current review state."
+  ].join("\n"));
 }
 
 runCli(async (args) => {
@@ -1368,7 +1460,83 @@ runCli(async (args) => {
   writeJson(rel("corpus/review/verification-priority.json"), batch.priority);
   writeJson(rel("corpus/review/verification-batch-01.json"), batch.selection);
   writeJson(rel("corpus/review/verification-batch-01-results.json"), batch.results);
-  writeJson(rel("corpus/review/verification-progress.json"), batch.progress);
+  const program = buildVerificationProgram({ productionRecords, batch01SelectedIds: batch.selectedIds, batch01Results: batch.results, existingVerifiedCount: verifiedRecords.length });
+  productionRecords.forEach((record) => {
+    const finalStatus = program.finalStatusById.get(record.myth.mythId);
+    if (!finalStatus) return;
+    record.myth.reviewStatus = finalStatus;
+    record.myth.variantLinks.forEach((link) => {
+      link.reviewStatus = finalStatus;
+    });
+    record.myth.normalizationWarnings = record.myth.normalizationWarnings.concat(reviewItem("myth", record.myth.mythId, `verification-program-${finalStatus}`, record.myth.title, [finalStatus], record.myth.source.passages.slice(0, 3)));
+    fs.rmSync(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), { force: true });
+  });
+  const pr12Audit = buildPr12AuditRepair({ productionRecords, program, verifiedRecords, passageMap });
+  productionRecords.forEach((record) => {
+    const repairedStatus = pr12Audit.finalStatusById.get(record.myth.mythId);
+    if (!repairedStatus) return;
+    record.myth.reviewStatus = repairedStatus;
+    record.myth.variantLinks.forEach((link) => {
+      link.reviewStatus = repairedStatus;
+    });
+    record.myth.normalizationWarnings = record.myth.normalizationWarnings.concat(reviewItem("myth", record.myth.mythId, `pr12-audit-${repairedStatus}`, record.myth.title, ["PR #12 audit restored this record for substantive source reconstruction."], record.myth.source.passages.slice(0, 3)));
+    writeJson(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), record.myth);
+  });
+  program.ledger.entries.forEach((entry) => {
+    const repairedStatus = pr12Audit.finalStatusById.get(entry.mythId);
+    if (!repairedStatus) return;
+    const sampleResult = pr12Audit.sampleResultById.get(entry.mythId);
+    entry.currentStatus = repairedStatus;
+    entry.classification_reviewed = true;
+    entry.substantive_reconstruction_complete = false;
+    entry.substantive_reconstruction_incomplete = true;
+    entry.reviewDepth = sampleResult ? "audit_sample_record_specific_analysis" : "classification_reviewed_only";
+    entry.actualFinalAuditOutcome = repairedStatus;
+    entry.auditFinding = repairedStatus === RESTORED_STATUS
+      ? "PR #12 classification audit found generic rationale; restored for substantive source review."
+      : "PR #12 classification audit sample retained this record-specific outcome while preserving the proposed record.";
+  });
+  program.progress.neverReviewedRemaining = 0;
+  program.progress.verifiedBySourceAudit = verifiedRecords.length;
+  program.progress.ambiguous = productionRecords.filter((record) => record.myth.reviewStatus === "ambiguous").length;
+  program.progress.rejectedNonStory = productionRecords.filter((record) => record.myth.reviewStatus === "rejected_non_story").length;
+  program.progress.deferredComplex = 0;
+  program.progress.unresolvedRequiresHumanReview = productionRecords.filter((record) => record.myth.reviewStatus === "unresolved_requires_human_review").length;
+  program.progress.awaitingSubstantiveSourceReview = productionRecords.filter((record) => record.myth.reviewStatus === RESTORED_STATUS).length;
+  program.progress.programComplete = false;
+  archiveFailedBulkReview(program);
+  writeJson(rel("corpus/review/verification-ledger.json"), program.ledger);
+  writeJson(rel("corpus/review/verification-progress.json"), program.progress);
+  writeJson(rel("corpus/review/pr12-audit-baseline.json"), pr12Audit.baseline);
+  writeJson(rel("corpus/review/pr12-methodology-audit.json"), pr12Audit.methodologyAudit);
+  writeJson(rel("corpus/review/pr12-reconstruction-sample.json"), pr12Audit.sample);
+  writeJson(rel("corpus/review/pr12-reconstruction-sample-results.json"), pr12Audit.sampleResults);
+  writeJson(rel("corpus/review/pr12-audit-conclusion.json"), pr12Audit.conclusion);
+  writeJson(rel("corpus/review/pr12-templated-review-safeguards.json"), {
+    generatedAt: GENERATED_AT,
+    valid: true,
+    genericTemplatesRejected: [
+      "Reviewed source passage references and determined that automatic verified promotion is not defensible without further source-boundary work.",
+      "Source-grounded batch review found narrative signals mixed with structural headings, commentary, profile material, or unclear boundaries.",
+      "Final deferred pass retained the source passages as unresolved because verification would require human interpretive judgment."
+    ],
+    substantiveReconstructionRequiredFields: [
+      "boundaryAnalysis",
+      "titleOrFamilyDecision",
+      "characterEntityReview",
+      "eventReview",
+      "relationshipReview",
+      "exactPassageEvidence",
+      "recordSpecificRationale"
+    ],
+    rules: [
+      "Generic rationale templates do not count as substantive source reconstruction.",
+      "Identical correctionsMade across unrelated records do not count as substantive source reconstruction.",
+      "A record cannot be marked verified_by_source_audit without entity, event, relationship, and exact passage evidence review.",
+      "A record cannot be marked unresolved_requires_human_review without an explicit human decision question.",
+      "Proposed records cannot be removed without an authoritative final outcome."
+    ]
+  });
   const verifiedAudit = validateVerifiedRecords(verifiedRecords, passageMap);
   const validation = validateBulk(outputs, allCandidates, productionRecords, verifiedRecords, duplicateData, reviewItems, batch.results);
   if (!verifiedAudit.valid) {
@@ -1382,8 +1550,10 @@ runCli(async (args) => {
   writeJson(rel("corpus/catalog/approved-myths.json"), approvedCatalog());
   writeJson(rel("corpus/catalog/verified-myths.json"), verifiedCatalog(verifiedRecords));
   writeJson(rel("corpus/catalog/proposed-myths.json"), reviewCatalog(productionRecords));
-  writeJson(rel("corpus/catalog/myths-awaiting-review.json"), reviewCatalog(productionRecords));
-  writeJson(rel("corpus/catalog/rejected-candidates.json"), rejectedCatalog(allCandidates, batch.results));
+  writeJson(rel("corpus/catalog/myths-awaiting-review.json"), awaitingCatalog(productionRecords));
+  writeJson(rel("corpus/catalog/ambiguous-myths.json"), statusCatalog(productionRecords, "ambiguous", "Records source-reviewed as ambiguous; they are not verified and not approved."));
+  writeJson(rel("corpus/catalog/human-review-required.json"), statusCatalog(productionRecords, "unresolved_requires_human_review", "Records receiving a final deferred pass that still require human interpretive review."));
+  writeJson(rel("corpus/catalog/rejected-candidates.json"), rejectedCatalog(allCandidates, batch.results, productionRecords));
   writeJson(rel("corpus/review/automated-structure-check.json"), automatedStructureCheck(productionRecords, verifiedRecords));
   writeJson(rel("corpus/review/codex-source-verification.json"), codexSourceVerification(verifiedRecords));
   const summary = {
@@ -1398,19 +1568,21 @@ runCli(async (args) => {
     nonStoryCandidates: allCandidates.filter((candidate) => candidate.candidateType !== "narrative_episode").length,
     rejectedNonStoryCandidates: allCandidates.filter((candidate) => candidate.processingStatus === "rejected-non-story").length,
     semanticallyQualifiedCandidates: verifiedRecords.length,
-    normalizedAwaitingReviewRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
+    normalizedAwaitingReviewRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS).length,
     rejectedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "rejected_non_story").length,
     ambiguousRecords: allCandidates.filter((candidate) => candidate.candidateType === "ambiguous").length + productionRecords.filter((record) => record.myth.reviewStatus === "ambiguous").length,
+    unresolvedRequiresHumanReviewRecords: productionRecords.filter((record) => record.myth.reviewStatus === "unresolved_requires_human_review").length,
     exactDuplicates: duplicateData.exactDuplicates.length,
     probableDuplicates: duplicateData.probableDuplicates.length,
     distinctSourceVariants: duplicateData.distinctSourceVariants.reduce((sum, item) => sum + item.variantCount, 0),
     uniqueMythFamilies: new Set(allCandidates.map((candidate) => candidate.mythFamilyId)).size,
-    fullyNormalizedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
+    fullyNormalizedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS).length,
     approvedRecords: 0,
     humanApprovedRecords: 0,
     verifiedBySourceAudit: verifiedRecords.length,
-    machineProposedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
-    recordsAwaitingReview: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
+    machineProposedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS).length,
+    recordsAwaitingReview: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS).length,
+    awaitingSubstantiveSourceReviewRecords: productionRecords.filter((record) => record.myth.reviewStatus === RESTORED_STATUS).length,
     rejectedPoorQualityRecords: 0,
     unresolvedEntities: 0,
     unresolvedActions: 0,

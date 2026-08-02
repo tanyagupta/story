@@ -318,7 +318,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -330,6 +330,38 @@
       "sourceValue": "Cupid's love-inspiring darts.",
       "suggestions": [
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:225.225.1-225.225.1:f0631bf7",
+        "gutenberg:ebooks:39250:225.225.2-225.225.2:febfbde3",
+        "gutenberg:ebooks:39250:225.225.3-225.225.3:5b7e0906"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-0d5bae97",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0118",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Cupid's love-inspiring darts.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:225.225.1-225.225.1:f0631bf7",
+        "gutenberg:ebooks:39250:225.225.2-225.225.2:febfbde3",
+        "gutenberg:ebooks:39250:225.225.3-225.225.3:5b7e0906"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ec2dd73c",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0118",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Cupid's love-inspiring darts.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:225.225.1-225.225.1:f0631bf7",
@@ -376,5 +408,5 @@
     "event-003"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

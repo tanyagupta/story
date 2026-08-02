@@ -268,7 +268,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -280,6 +280,38 @@
       "sourceValue": "THE TROJAN WAR.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:429.429.1-429.429.1:1f3b66cd",
+        "gutenberg:ebooks:39250:429.429.2-429.429.2:15a4ed7e",
+        "gutenberg:ebooks:39250:429.429.3-429.429.3:79f03266"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-6d07096e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0177",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "THE TROJAN WAR.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:429.429.1-429.429.1:1f3b66cd",
+        "gutenberg:ebooks:39250:429.429.2-429.429.2:15a4ed7e",
+        "gutenberg:ebooks:39250:429.429.3-429.429.3:79f03266"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-13367090",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0177",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "THE TROJAN WAR.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:429.429.1-429.429.1:1f3b66cd",
@@ -324,5 +356,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

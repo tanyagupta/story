@@ -414,7 +414,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -427,6 +427,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:475.475.1-475.475.1:3e6b031b",
+        "gutenberg:ebooks:39250:475.475.2-475.475.2:9bb70818",
+        "gutenberg:ebooks:39250:475.475.3-475.475.3:79f03266"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-634963a6",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0069",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Ulysses could make them leave the Trinacrian shores.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:475.475.1-475.475.1:3e6b031b",
+        "gutenberg:ebooks:39250:475.475.2-475.475.2:9bb70818",
+        "gutenberg:ebooks:39250:475.475.3-475.475.3:79f03266"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-90dd3f1f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0069",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Ulysses could make them leave the Trinacrian shores.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:475.475.1-475.475.1:3e6b031b",
@@ -480,5 +512,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

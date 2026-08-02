@@ -206,7 +206,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -219,6 +219,38 @@
       "suggestions": [
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:277.277.1-277.277.1:29db6e2c",
+        "gutenberg:ebooks:45489:277.277.2-277.277.2:1b3f3ef5",
+        "gutenberg:ebooks:45489:277.277.3-277.277.3:bf9ddbf0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-65d836d5",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0189",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Andromeda CHARLES KINGSLEY",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:277.277.1-277.277.1:29db6e2c",
+        "gutenberg:ebooks:45489:277.277.2-277.277.2:1b3f3ef5",
+        "gutenberg:ebooks:45489:277.277.3-277.277.3:bf9ddbf0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-158c604a",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0189",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Andromeda CHARLES KINGSLEY",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:277.277.1-277.277.1:29db6e2c",
@@ -264,5 +296,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -224,7 +224,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -237,6 +237,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9",
+        "gutenberg:ebooks:39250:273.273.2-273.273.2:5ff97374",
+        "gutenberg:ebooks:39250:273.273.3-273.273.3:fefc952a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-428da224",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0155",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "It trickles from his jaws a fluid gold.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9",
+        "gutenberg:ebooks:39250:273.273.2-273.273.2:5ff97374",
+        "gutenberg:ebooks:39250:273.273.3-273.273.3:fefc952a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ab32ca56",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0155",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "It trickles from his jaws a fluid gold.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:273.273.1-273.273.1:8e8f07d9",
@@ -281,5 +313,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

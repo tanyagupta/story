@@ -246,7 +246,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -259,6 +259,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:555.555.1-555.555.1:c71c4155",
+        "gutenberg:ebooks:39250:555.555.2-555.555.2:69394a71",
+        "gutenberg:ebooks:39250:555.555.3-555.555.3:ddbfc3a1"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-adeafd56",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0128",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Sphinx.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:555.555.1-555.555.1:c71c4155",
+        "gutenberg:ebooks:39250:555.555.2-555.555.2:69394a71",
+        "gutenberg:ebooks:39250:555.555.3-555.555.3:ddbfc3a1"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-6e86ee81",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0128",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Sphinx.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:555.555.1-555.555.1:c71c4155",
@@ -305,5 +337,5 @@
     "event-003"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

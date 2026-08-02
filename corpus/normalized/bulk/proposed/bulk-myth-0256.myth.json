@@ -203,7 +203,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -218,6 +218,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:32.32.1-32.32.1:8179ba06",
+        "gutenberg:ebooks:39250:32.32.2-32.32.2:f49d10a8",
+        "gutenberg:ebooks:39250:32.32.3-32.32.3:7dfa5ce8"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-32bbdab8",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0256",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "That he might sheltering compass her around",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:32.32.1-32.32.1:8179ba06",
+        "gutenberg:ebooks:39250:32.32.2-32.32.2:f49d10a8",
+        "gutenberg:ebooks:39250:32.32.3-32.32.3:7dfa5ce8"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-f313ee0f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0256",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "That he might sheltering compass her around",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:32.32.1-32.32.1:8179ba06",
@@ -263,5 +295,5 @@
     "event-002"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

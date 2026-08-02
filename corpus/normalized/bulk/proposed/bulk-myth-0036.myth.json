@@ -371,7 +371,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -384,6 +384,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147",
+        "gutenberg:ebooks:22381:340.340.2-340.340.2:4821d1dd",
+        "gutenberg:ebooks:22381:340.340.3-340.340.3:62d1507a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-9f9957cf",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0036",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Ithaca.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147",
+        "gutenberg:ebooks:22381:340.340.2-340.340.2:4821d1dd",
+        "gutenberg:ebooks:22381:340.340.3-340.340.3:62d1507a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-59c4d756",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0036",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Ithaca.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:340.340.1-340.340.1:86e87147",
@@ -433,5 +465,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

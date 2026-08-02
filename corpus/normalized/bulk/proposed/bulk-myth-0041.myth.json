@@ -404,7 +404,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -417,6 +417,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:304.304.1-304.304.1:cbbcf328",
+        "gutenberg:ebooks:22381:304.304.2-304.304.2:0fb2f7c7",
+        "gutenberg:ebooks:22381:304.304.3-304.304.3:15d90edd"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-801066a2",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0041",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "PELOPS.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:304.304.1-304.304.1:cbbcf328",
+        "gutenberg:ebooks:22381:304.304.2-304.304.2:0fb2f7c7",
+        "gutenberg:ebooks:22381:304.304.3-304.304.3:15d90edd"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ff95c4cd",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0041",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "PELOPS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:304.304.1-304.304.1:cbbcf328",
@@ -469,5 +501,5 @@
     "event-007"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

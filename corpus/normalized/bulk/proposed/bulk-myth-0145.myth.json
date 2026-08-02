@@ -225,7 +225,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -238,6 +238,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17",
+        "gutenberg:ebooks:39250:109.109.2-109.109.2:adbd7a53",
+        "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-5d7a936d",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0145",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "By summer hid in green reeds' jointed cells",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17",
+        "gutenberg:ebooks:39250:109.109.2-109.109.2:adbd7a53",
+        "gutenberg:ebooks:39250:109.109.3-109.109.3:b37598e9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-a75a2454",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0145",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "By summer hid in green reeds' jointed cells",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:109.109.1-109.109.1:79d0fb17",
@@ -283,5 +315,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

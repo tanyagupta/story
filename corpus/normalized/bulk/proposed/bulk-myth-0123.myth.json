@@ -304,7 +304,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -316,6 +316,38 @@
       "sourceValue": "Athenians.",
       "suggestions": [
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:386.386.1-386.386.1:0c9a22a0",
+        "gutenberg:ebooks:39250:386.386.2-386.386.2:ec870ca7",
+        "gutenberg:ebooks:39250:386.386.3-386.386.3:b781d944"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-a7438f6e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0123",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Athenians.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:386.386.1-386.386.1:0c9a22a0",
+        "gutenberg:ebooks:39250:386.386.2-386.386.2:ec870ca7",
+        "gutenberg:ebooks:39250:386.386.3-386.386.3:b781d944"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-051e23c8",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0123",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Athenians.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:386.386.1-386.386.1:0c9a22a0",
@@ -360,5 +392,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -274,7 +274,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -286,6 +286,38 @@
       "sourceValue": "SATURN.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:122.122.1-122.122.1:107c3eea",
+        "gutenberg:ebooks:22381:122.122.2-122.122.2:8f69d520",
+        "gutenberg:ebooks:22381:122.122.3-122.122.3:87d9181f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-859a3a2e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0162",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "SATURN.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:122.122.1-122.122.1:107c3eea",
+        "gutenberg:ebooks:22381:122.122.2-122.122.2:8f69d520",
+        "gutenberg:ebooks:22381:122.122.3-122.122.3:87d9181f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-75e21469",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0162",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "SATURN.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:122.122.1-122.122.1:107c3eea",
@@ -330,5 +362,5 @@
     "event-005"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

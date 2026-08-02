@@ -300,7 +300,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -313,6 +313,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:556.556.1-556.556.1:e3391835",
+        "gutenberg:ebooks:39250:556.556.2-556.556.2:3268ad3e",
+        "gutenberg:ebooks:39250:556.556.3-556.556.3:5dbb1ce4"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-3e352d3c",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0063",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Styx.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:556.556.1-556.556.1:e3391835",
+        "gutenberg:ebooks:39250:556.556.2-556.556.2:3268ad3e",
+        "gutenberg:ebooks:39250:556.556.3-556.556.3:5dbb1ce4"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d94200a3",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0063",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Styx.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:556.556.1-556.556.1:e3391835",
@@ -362,5 +394,5 @@
     "event-003"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

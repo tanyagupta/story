@@ -227,7 +227,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -241,6 +241,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:370.370.1-370.370.1:d18be6f9",
+        "gutenberg:ebooks:39250:370.370.2-370.370.2:4061372b",
+        "gutenberg:ebooks:39250:370.370.3-370.370.3:3c0f0546"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-4797406a",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0129",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "To petrify the mortal clay",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:370.370.1-370.370.1:d18be6f9",
+        "gutenberg:ebooks:39250:370.370.2-370.370.2:4061372b",
+        "gutenberg:ebooks:39250:370.370.3-370.370.3:3c0f0546"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-5ccb84c8",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0129",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "To petrify the mortal clay",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:370.370.1-370.370.1:d18be6f9",
@@ -289,5 +321,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

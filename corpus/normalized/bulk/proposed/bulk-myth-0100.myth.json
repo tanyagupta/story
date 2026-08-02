@@ -359,7 +359,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -372,6 +372,38 @@
       "suggestions": [
         "no-mythological-characters",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:30.30.1-30.30.1:5cb71c13",
+        "gutenberg:ebooks:39250:30.30.2-30.30.2:c7b7ef27",
+        "gutenberg:ebooks:39250:30.30.3-30.30.3:9181238f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-650a204f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0100",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "THE BEGINNING OF ALL THINGS.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:30.30.1-30.30.1:5cb71c13",
+        "gutenberg:ebooks:39250:30.30.2-30.30.2:c7b7ef27",
+        "gutenberg:ebooks:39250:30.30.3-30.30.3:9181238f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-6ee89813",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0100",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "THE BEGINNING OF ALL THINGS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:30.30.1-30.30.1:5cb71c13",
@@ -419,5 +451,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

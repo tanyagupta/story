@@ -119,7 +119,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -136,6 +136,36 @@
         "no-central-conflict-or-change",
         "no-outcome",
         "no-storyline"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89",
+        "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-22ae8c12",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0248",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Orphic Hymn.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89",
+        "gutenberg:ebooks:39250:294.294.2-294.294.2:b57bcd39"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-219ecbc4",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0248",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Orphic Hymn.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:294.294.1-294.294.1:aa93ab89",
@@ -185,5 +215,5 @@
   ],
   "uncertainEvents": [],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

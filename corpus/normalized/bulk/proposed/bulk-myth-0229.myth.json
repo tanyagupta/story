@@ -178,7 +178,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -192,6 +192,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
+        "gutenberg:ebooks:39250:295.295.2-295.295.2:230516c3",
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-3d1af378",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0229",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Triptolemus.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
+        "gutenberg:ebooks:39250:295.295.2-295.295.2:230516c3",
+        "gutenberg:ebooks:39250:295.295.3-295.295.3:7e23d988"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-f30fd18e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0229",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Triptolemus.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:295.295.1-295.295.1:82029fa1",
@@ -237,5 +269,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

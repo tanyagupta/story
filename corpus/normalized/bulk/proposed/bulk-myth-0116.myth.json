@@ -339,7 +339,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -351,6 +351,38 @@
       "sourceValue": "While o'er their backs their straight white hair hung down",
       "suggestions": [
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:147.147.1-147.147.1:fad73a39",
+        "gutenberg:ebooks:45489:147.147.2-147.147.2:7e9533f2",
+        "gutenberg:ebooks:45489:147.147.3-147.147.3:6dfd707a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-c894f24b",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0116",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "While o'er their backs their straight white hair hung down",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:147.147.1-147.147.1:fad73a39",
+        "gutenberg:ebooks:45489:147.147.2-147.147.2:7e9533f2",
+        "gutenberg:ebooks:45489:147.147.3-147.147.3:6dfd707a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-767c4f63",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0116",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "While o'er their backs their straight white hair hung down",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:147.147.1-147.147.1:fad73a39",
@@ -396,5 +428,5 @@
     "event-006"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

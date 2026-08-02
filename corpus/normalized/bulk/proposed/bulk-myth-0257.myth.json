@@ -167,7 +167,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -180,6 +180,38 @@
       "suggestions": [
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0",
+        "gutenberg:ebooks:39250:180.180.2-180.180.2:c362d486",
+        "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-51e1d5a9",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0257",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Landon.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0",
+        "gutenberg:ebooks:39250:180.180.2-180.180.2:c362d486",
+        "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-53f24734",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0257",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Landon.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0",
@@ -223,5 +255,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

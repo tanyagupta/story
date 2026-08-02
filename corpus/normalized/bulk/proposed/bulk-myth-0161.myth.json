@@ -257,7 +257,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -270,6 +270,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:480.480.1-480.480.1:252d5c9f",
+        "gutenberg:ebooks:39250:480.480.2-480.480.2:79f03266",
+        "gutenberg:ebooks:39250:480.480.3-480.480.3:8abf067e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-b3fd5e58",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0161",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "With thine own eyes what thou hast pined for long.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:480.480.1-480.480.1:252d5c9f",
+        "gutenberg:ebooks:39250:480.480.2-480.480.2:79f03266",
+        "gutenberg:ebooks:39250:480.480.3-480.480.3:8abf067e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-b2bb07aa",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0161",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "With thine own eyes what thou hast pined for long.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:480.480.1-480.480.1:252d5c9f",
@@ -315,5 +347,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

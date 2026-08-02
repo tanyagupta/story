@@ -345,7 +345,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -358,6 +358,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:560.560.1-560.560.1:78e653fb",
+        "gutenberg:ebooks:39250:560.560.2-560.560.2:edfd9264",
+        "gutenberg:ebooks:39250:560.560.3-560.560.3:096f3724"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ddd97eb8",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0083",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Tyre.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:560.560.1-560.560.1:78e653fb",
+        "gutenberg:ebooks:39250:560.560.2-560.560.2:edfd9264",
+        "gutenberg:ebooks:39250:560.560.3-560.560.3:096f3724"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-a4680c81",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0083",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Tyre.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:560.560.1-560.560.1:78e653fb",
@@ -409,5 +441,5 @@
     "event-005"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

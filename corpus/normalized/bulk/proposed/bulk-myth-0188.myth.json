@@ -180,7 +180,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -194,6 +194,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9",
+        "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667",
+        "gutenberg:ebooks:39250:543.543.3-543.543.3:2f66d8c4"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-e1e5c8d6",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0188",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Nightmares.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9",
+        "gutenberg:ebooks:39250:543.543.2-543.543.2:5c14f667",
+        "gutenberg:ebooks:39250:543.543.3-543.543.3:2f66d8c4"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d3193dc3",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0188",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Nightmares.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:543.543.1-543.543.1:31c8f4d9",
@@ -240,5 +272,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

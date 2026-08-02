@@ -445,7 +445,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -458,6 +458,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:526.526.1-526.526.1:21a5a9ee",
+        "gutenberg:ebooks:39250:526.526.2-526.526.2:9c70e7d5",
+        "gutenberg:ebooks:39250:526.526.3-526.526.3:79d3f2fd"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-164b8265",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0011",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Greeks.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:526.526.1-526.526.1:21a5a9ee",
+        "gutenberg:ebooks:39250:526.526.2-526.526.2:9c70e7d5",
+        "gutenberg:ebooks:39250:526.526.3-526.526.3:79d3f2fd"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-b8aadf29",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0011",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Greeks.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:526.526.1-526.526.1:21a5a9ee",
@@ -512,5 +544,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

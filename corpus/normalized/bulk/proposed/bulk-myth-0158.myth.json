@@ -207,7 +207,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -220,6 +220,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6",
+        "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7",
+        "gutenberg:ebooks:45489:129.129.3-129.129.3:f6b4947b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-00b58f0e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0158",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Minor Deities",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6",
+        "gutenberg:ebooks:45489:129.129.2-129.129.2:803b28d7",
+        "gutenberg:ebooks:45489:129.129.3-129.129.3:f6b4947b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-dbe18f65",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0158",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Minor Deities",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:129.129.1-129.129.1:456811d6",
@@ -264,5 +296,5 @@
     "event-003"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

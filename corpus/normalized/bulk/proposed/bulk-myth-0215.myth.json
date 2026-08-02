@@ -144,7 +144,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -158,6 +158,36 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b",
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d7142709",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0215",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Earth.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b",
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-41ff9315",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0215",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Earth.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b",
@@ -202,5 +232,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

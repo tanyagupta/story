@@ -382,7 +382,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -395,6 +395,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:442.442.1-442.442.1:20c7769c",
+        "gutenberg:ebooks:39250:442.442.2-442.442.2:719f9496",
+        "gutenberg:ebooks:39250:442.442.3-442.442.3:2277a92c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-8c527acc",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0096",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "At Aulis the assembled army with unanimous consent elected",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:442.442.1-442.442.1:20c7769c",
+        "gutenberg:ebooks:39250:442.442.2-442.442.2:719f9496",
+        "gutenberg:ebooks:39250:442.442.3-442.442.3:2277a92c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-12a0768a",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0096",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "At Aulis the assembled army with unanimous consent elected",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:442.442.1-442.442.1:20c7769c",
@@ -446,5 +478,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -120,7 +120,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -134,6 +134,36 @@
         "no-mythological-characters",
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028",
+        "gutenberg:ebooks:39250:49.49.2-49.49.2:1816f076"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-9d8d84ab",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0290",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "On Olympus' shining bastions",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028",
+        "gutenberg:ebooks:39250:49.49.2-49.49.2:1816f076"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-fb2f8329",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0290",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "On Olympus' shining bastions",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:49.49.1-49.49.1:0049e028",
@@ -175,5 +205,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

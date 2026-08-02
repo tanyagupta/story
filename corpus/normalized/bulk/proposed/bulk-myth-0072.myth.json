@@ -316,7 +316,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -329,6 +329,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:530.530.1-530.530.1:002af7f3",
+        "gutenberg:ebooks:39250:530.530.2-530.530.2:7e75849e",
+        "gutenberg:ebooks:39250:530.530.3-530.530.3:97baf45b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-91c7b8c8",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0072",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Infernal Regions.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:530.530.1-530.530.1:002af7f3",
+        "gutenberg:ebooks:39250:530.530.2-530.530.2:7e75849e",
+        "gutenberg:ebooks:39250:530.530.3-530.530.3:97baf45b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d99dd4b1",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0072",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Infernal Regions.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:530.530.1-530.530.1:002af7f3",
@@ -379,5 +411,5 @@
     "event-004"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

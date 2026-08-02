@@ -436,7 +436,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -448,6 +448,38 @@
       "sourceValue": "Orphic Argonautics.",
       "suggestions": [
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:395.395.1-395.395.1:84ee2aaf",
+        "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+        "gutenberg:ebooks:39250:395.395.3-395.395.3:22a496a3"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-902fa92e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0025",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Orphic Argonautics.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:395.395.1-395.395.1:84ee2aaf",
+        "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+        "gutenberg:ebooks:39250:395.395.3-395.395.3:22a496a3"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-5aba5a19",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0025",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Orphic Argonautics.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:395.395.1-395.395.1:84ee2aaf",
@@ -496,5 +528,5 @@
     "event-004"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

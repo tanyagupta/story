@@ -258,7 +258,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -287,6 +287,38 @@
       "sourceValue": "Orpheus broken-hearted.",
       "suggestions": [
         "The Orpheus passage starts after Eurydice's death and stops before the underworld bargain is resolved."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96",
+        "gutenberg:ebooks:39250:117.117.2-117.117.2:bac1f913",
+        "gutenberg:ebooks:39250:117.117.3-117.117.3:c5e95095"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-004acf04",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0115",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Orpheus broken-hearted.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96",
+        "gutenberg:ebooks:39250:117.117.2-117.117.2:bac1f913",
+        "gutenberg:ebooks:39250:117.117.3-117.117.3:c5e95095"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-2cc5e4b2",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0115",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Orpheus broken-hearted.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:117.117.1-117.117.1:8a18ce96",
@@ -335,5 +367,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

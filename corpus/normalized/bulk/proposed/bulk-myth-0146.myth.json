@@ -263,7 +263,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -276,6 +276,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:155.155.1-155.155.1:b1fc60b2",
+        "gutenberg:ebooks:22381:155.155.2-155.155.2:168cab91",
+        "gutenberg:ebooks:22381:155.155.3-155.155.3:a4e98559"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-356c1974",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0146",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "ARCADIAN ARTEMIS.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:155.155.1-155.155.1:b1fc60b2",
+        "gutenberg:ebooks:22381:155.155.2-155.155.2:168cab91",
+        "gutenberg:ebooks:22381:155.155.3-155.155.3:a4e98559"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-0e8c6c5d",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0146",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "ARCADIAN ARTEMIS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:155.155.1-155.155.1:b1fc60b2",
@@ -323,5 +355,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

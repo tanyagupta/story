@@ -412,7 +412,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "ambiguous"
     }
   ],
   "normalizationWarnings": [
@@ -425,6 +425,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0",
+        "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103",
+        "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-acef58ef",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0007",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Chapter XX",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0",
+        "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103",
+        "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-249596ff",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0007",
+      "issueType": "pr12-audit-ambiguous",
+      "sourceValue": "Chapter XX",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0",
@@ -479,5 +511,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "ambiguous"
 }

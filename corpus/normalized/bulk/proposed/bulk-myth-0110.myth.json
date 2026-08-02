@@ -316,7 +316,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -328,6 +328,38 @@
       "sourceValue": "Echidna.",
       "suggestions": [
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:314.314.1-314.314.1:3914e516",
+        "gutenberg:ebooks:22381:314.314.2-314.314.2:4b505826",
+        "gutenberg:ebooks:22381:314.314.3-314.314.3:b0ca9e2a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-bde8aa7a",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0110",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Echidna.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:314.314.1-314.314.1:3914e516",
+        "gutenberg:ebooks:22381:314.314.2-314.314.2:4b505826",
+        "gutenberg:ebooks:22381:314.314.3-314.314.3:b0ca9e2a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-bb736b7e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0110",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Echidna.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:314.314.1-314.314.1:3914e516",
@@ -374,5 +406,5 @@
     "event-005"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

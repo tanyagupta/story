@@ -244,7 +244,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -257,6 +257,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:477.477.1-477.477.1:4f5de995",
+        "gutenberg:ebooks:39250:477.477.2-477.477.2:79f03266",
+        "gutenberg:ebooks:39250:477.477.3-477.477.3:2b25f847"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-db7b368e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0149",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Came suddenly as soon as he had seen",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:477.477.1-477.477.1:4f5de995",
+        "gutenberg:ebooks:39250:477.477.2-477.477.2:79f03266",
+        "gutenberg:ebooks:39250:477.477.3-477.477.3:2b25f847"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-00c95d22",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0149",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Came suddenly as soon as he had seen",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:477.477.1-477.477.1:4f5de995",
@@ -301,5 +333,5 @@
     "event-003"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

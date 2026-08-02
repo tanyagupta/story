@@ -418,7 +418,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -446,6 +446,38 @@
       "sourceValue": "JASON.",
       "suggestions": [
         "The Jason proposal ends inside the Phryxus and Helle recital and needs a larger Golden Fleece boundary reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:392.392.1-392.392.1:0faf5a96",
+        "gutenberg:ebooks:39250:392.392.2-392.392.2:ff6ad89c",
+        "gutenberg:ebooks:39250:392.392.3-392.392.3:853791f9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-99cfc3fe",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0032",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "JASON.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:392.392.1-392.392.1:0faf5a96",
+        "gutenberg:ebooks:39250:392.392.2-392.392.2:ff6ad89c",
+        "gutenberg:ebooks:39250:392.392.3-392.392.3:853791f9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-582db564",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0032",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "JASON.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:392.392.1-392.392.1:0faf5a96",
@@ -490,5 +522,5 @@
     "event-007"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

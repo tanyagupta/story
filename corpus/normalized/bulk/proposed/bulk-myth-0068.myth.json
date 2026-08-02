@@ -391,7 +391,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -403,6 +403,38 @@
       "sourceValue": "THE GORGONS.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5",
+        "gutenberg:ebooks:22381:202.202.2-202.202.2:10c71e57",
+        "gutenberg:ebooks:22381:202.202.3-202.202.3:7bb6f099"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-dbae5019",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0068",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "THE GORGONS.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5",
+        "gutenberg:ebooks:22381:202.202.2-202.202.2:10c71e57",
+        "gutenberg:ebooks:22381:202.202.3-202.202.3:7bb6f099"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-fda9d0f7",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0068",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "THE GORGONS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:202.202.1-202.202.1:144575d5",
@@ -451,5 +483,5 @@
     "event-008"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

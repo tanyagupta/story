@@ -150,7 +150,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -163,6 +163,38 @@
       "suggestions": [
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:490.490.1-490.490.1:2a271332",
+        "gutenberg:ebooks:39250:490.490.2-490.490.2:2a2698af",
+        "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-9cd6cd4d",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0269",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Anchises.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:490.490.1-490.490.1:2a271332",
+        "gutenberg:ebooks:39250:490.490.2-490.490.2:2a2698af",
+        "gutenberg:ebooks:39250:490.490.3-490.490.3:db10c333"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-935788cd",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0269",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Anchises.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:490.490.1-490.490.1:2a271332",
@@ -203,5 +235,5 @@
   ],
   "uncertainEvents": [],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

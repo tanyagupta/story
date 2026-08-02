@@ -271,7 +271,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -284,6 +284,38 @@
       "suggestions": [
         "no-mythological-characters",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:234.234.1-234.234.1:2f6d8d4f",
+        "gutenberg:ebooks:22381:234.234.2-234.234.2:8436d031",
+        "gutenberg:ebooks:22381:234.234.3-234.234.3:429e08e4"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-c6e1e979",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0170",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "THE NAIADES.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:234.234.1-234.234.1:2f6d8d4f",
+        "gutenberg:ebooks:22381:234.234.2-234.234.2:8436d031",
+        "gutenberg:ebooks:22381:234.234.3-234.234.3:429e08e4"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d4c455bf",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0170",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "THE NAIADES.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:234.234.1-234.234.1:2f6d8d4f",
@@ -328,5 +360,5 @@
     "event-005"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

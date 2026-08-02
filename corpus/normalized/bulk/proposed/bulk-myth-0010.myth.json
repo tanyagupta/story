@@ -445,7 +445,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -458,6 +458,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:515.515.1-515.515.1:3be8a455",
+        "gutenberg:ebooks:39250:515.515.2-515.515.2:591317cb",
+        "gutenberg:ebooks:39250:515.515.3-515.515.3:7e44f489"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ccb3d031",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0010",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Crete.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:515.515.1-515.515.1:3be8a455",
+        "gutenberg:ebooks:39250:515.515.2-515.515.2:591317cb",
+        "gutenberg:ebooks:39250:515.515.3-515.515.3:7e44f489"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-fda3adf1",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0010",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Crete.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:515.515.1-515.515.1:3be8a455",
@@ -512,5 +544,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

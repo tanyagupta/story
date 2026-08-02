@@ -1,14 +1,67 @@
 {
   "generatedAt": "1970-01-01T00:00:00.000Z",
-  "totalCandidates": 917,
-  "totalProposedBeforeBatch": 291,
-  "existingVerifiedBeforeBatch": 6,
-  "batchId": "verification-batch-01",
-  "selectedForReview": 20,
-  "verifiedThisBatch": 9,
-  "remainingAwaitingReview": 278,
-  "ambiguousThisBatch": 4,
-  "rejectedThisBatch": 0,
-  "totalVerifiedAfterBatch": 15,
-  "humanApproved": 0
+  "baseline": {
+    "verified": 15,
+    "awaitingReview": 278
+  },
+  "batchesCompleted": [
+    {
+      "batchId": "verification-batch-02",
+      "selectedCount": 50,
+      "verifiedCount": 0,
+      "ambiguousCount": 21,
+      "rejectedCount": 0,
+      "deferredComplexCount": 29
+    },
+    {
+      "batchId": "verification-batch-03",
+      "selectedCount": 50,
+      "verifiedCount": 0,
+      "ambiguousCount": 43,
+      "rejectedCount": 0,
+      "deferredComplexCount": 7
+    },
+    {
+      "batchId": "verification-batch-04",
+      "selectedCount": 50,
+      "verifiedCount": 0,
+      "ambiguousCount": 25,
+      "rejectedCount": 0,
+      "deferredComplexCount": 25
+    },
+    {
+      "batchId": "verification-batch-05",
+      "selectedCount": 50,
+      "verifiedCount": 0,
+      "ambiguousCount": 36,
+      "rejectedCount": 2,
+      "deferredComplexCount": 12
+    },
+    {
+      "batchId": "verification-batch-06",
+      "selectedCount": 50,
+      "verifiedCount": 0,
+      "ambiguousCount": 40,
+      "rejectedCount": 8,
+      "deferredComplexCount": 2
+    },
+    {
+      "batchId": "verification-batch-07",
+      "selectedCount": 21,
+      "verifiedCount": 0,
+      "ambiguousCount": 9,
+      "rejectedCount": 11,
+      "deferredComplexCount": 1
+    }
+  ],
+  "currentBatch": null,
+  "neverReviewedRemaining": 0,
+  "verifiedBySourceAudit": 15,
+  "ambiguous": 9,
+  "rejectedNonStory": 5,
+  "deferredComplex": 0,
+  "unresolvedRequiresHumanReview": 10,
+  "humanApproved": 0,
+  "programComplete": false,
+  "awaitingSubstantiveSourceReview": 258
 }

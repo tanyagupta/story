@@ -479,7 +479,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "unresolved_requires_human_review"
     }
   ],
   "normalizationWarnings": [
@@ -491,6 +491,38 @@
       "sourceValue": "Brass Age.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:514.514.1-514.514.1:b21f0d21",
+        "gutenberg:ebooks:39250:514.514.2-514.514.2:c03c6c25",
+        "gutenberg:ebooks:39250:514.514.3-514.514.3:5e7689b9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-42f2b5d3",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0005",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Brass Age.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:514.514.1-514.514.1:b21f0d21",
+        "gutenberg:ebooks:39250:514.514.2-514.514.2:c03c6c25",
+        "gutenberg:ebooks:39250:514.514.3-514.514.3:5e7689b9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d62fa1ac",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0005",
+      "issueType": "pr12-audit-unresolved_requires_human_review",
+      "sourceValue": "Brass Age.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:514.514.1-514.514.1:b21f0d21",
@@ -543,5 +575,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "unresolved_requires_human_review"
 }

@@ -400,7 +400,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "unresolved_requires_human_review"
     }
   ],
   "normalizationWarnings": [
@@ -428,6 +428,38 @@
       "sourceValue": "Perseus",
       "suggestions": [
         "The Baker Perseus proposal is a valid narrative opening but stops before Medusa is reached."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:146.146.1-146.146.1:2e29cf8f",
+        "gutenberg:ebooks:45489:146.146.2-146.146.2:76765a3c",
+        "gutenberg:ebooks:45489:146.146.3-146.146.3:1f0871ca"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-afa5b055",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0030",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Perseus",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:146.146.1-146.146.1:2e29cf8f",
+        "gutenberg:ebooks:45489:146.146.2-146.146.2:76765a3c",
+        "gutenberg:ebooks:45489:146.146.3-146.146.3:1f0871ca"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-2ae8a0a2",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0030",
+      "issueType": "pr12-audit-unresolved_requires_human_review",
+      "sourceValue": "Perseus",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:146.146.1-146.146.1:2e29cf8f",
@@ -479,5 +511,5 @@
     "event-008"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "unresolved_requires_human_review"
 }

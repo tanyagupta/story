@@ -160,7 +160,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -175,6 +175,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:323.323.1-323.323.1:5c56fa2f",
+        "gutenberg:ebooks:39250:323.323.2-323.323.2:c8888b92",
+        "gutenberg:ebooks:39250:323.323.3-323.323.3:ec7813d7"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-95359d7a",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0238",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Whose friendly shores concealed the latent god.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:323.323.1-323.323.1:5c56fa2f",
+        "gutenberg:ebooks:39250:323.323.2-323.323.2:c8888b92",
+        "gutenberg:ebooks:39250:323.323.3-323.323.3:ec7813d7"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-4a92ae70",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0238",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Whose friendly shores concealed the latent god.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:323.323.1-323.323.1:5c56fa2f",
@@ -219,5 +251,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

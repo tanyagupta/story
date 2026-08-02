@@ -200,7 +200,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -214,6 +214,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf",
+        "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4",
+        "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-321cf2b6",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0179",
+      "issueType": "verification-program-rejected_non_story",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "rejected_non_story"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf",
+        "gutenberg:ebooks:39250:118.118.2-118.118.2:9d0d26a4",
+        "gutenberg:ebooks:39250:118.118.3-118.118.3:6d910d32"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ac36dd69",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0179",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:118.118.1-118.118.1:29f61abf",
@@ -261,5 +293,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

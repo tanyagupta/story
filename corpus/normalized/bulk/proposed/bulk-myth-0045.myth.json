@@ -406,7 +406,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -419,6 +419,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:118.118.1-118.118.1:08ff7e02",
+        "gutenberg:ebooks:45489:118.118.2-118.118.2:9e12d2df",
+        "gutenberg:ebooks:45489:118.118.3-118.118.3:932eaaf5"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-cb33c97b",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0045",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "That he has passed by Scylla with a crew",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:118.118.1-118.118.1:08ff7e02",
+        "gutenberg:ebooks:45489:118.118.2-118.118.2:9e12d2df",
+        "gutenberg:ebooks:45489:118.118.3-118.118.3:932eaaf5"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d2b80ace",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0045",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "That he has passed by Scylla with a crew",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:118.118.1-118.118.1:08ff7e02",
@@ -472,5 +504,5 @@
     "event-008"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

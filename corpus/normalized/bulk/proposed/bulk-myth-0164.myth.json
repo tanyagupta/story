@@ -236,7 +236,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -264,6 +264,38 @@
       "sourceValue": "Meleager.",
       "suggestions": [
         "The proposal is mislabeled as Meleager but is actually a Jason and Golden Fleece fragment that needs boundary correction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:393.393.1-393.393.1:2625da19",
+        "gutenberg:ebooks:39250:393.393.2-393.393.2:dd5760ce",
+        "gutenberg:ebooks:39250:393.393.3-393.393.3:9de3df75"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-835b364a",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0164",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Meleager.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:393.393.1-393.393.1:2625da19",
+        "gutenberg:ebooks:39250:393.393.2-393.393.2:dd5760ce",
+        "gutenberg:ebooks:39250:393.393.3-393.393.3:9de3df75"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-0996e903",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0164",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Meleager.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:393.393.1-393.393.1:2625da19",
@@ -307,5 +339,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

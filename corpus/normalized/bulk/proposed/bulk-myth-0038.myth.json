@@ -376,7 +376,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -389,6 +389,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:326.326.1-326.326.1:b17c135a",
+        "gutenberg:ebooks:22381:326.326.2-326.326.2:66927b7d",
+        "gutenberg:ebooks:22381:326.326.3-326.326.3:19e6d980"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-318d2125",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0038",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Eriphyle.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:326.326.1-326.326.1:b17c135a",
+        "gutenberg:ebooks:22381:326.326.2-326.326.2:66927b7d",
+        "gutenberg:ebooks:22381:326.326.3-326.326.3:19e6d980"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-1d4dae6f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0038",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Eriphyle.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:326.326.1-326.326.1:b17c135a",
@@ -440,5 +472,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -274,7 +274,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -286,6 +286,38 @@
       "sourceValue": "I left my father's hospitable roof",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:354.354.1-354.354.1:f763f8a7",
+        "gutenberg:ebooks:39250:354.354.2-354.354.2:aa73578c",
+        "gutenberg:ebooks:39250:354.354.3-354.354.3:1d3630eb"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-8ece38b1",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0186",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "I left my father's hospitable roof",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:354.354.1-354.354.1:f763f8a7",
+        "gutenberg:ebooks:39250:354.354.2-354.354.2:aa73578c",
+        "gutenberg:ebooks:39250:354.354.3-354.354.3:1d3630eb"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-12d7984f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0186",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "I left my father's hospitable roof",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:354.354.1-354.354.1:f763f8a7",
@@ -329,5 +361,5 @@
     "event-005"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

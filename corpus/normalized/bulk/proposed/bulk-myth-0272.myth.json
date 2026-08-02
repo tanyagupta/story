@@ -133,7 +133,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -147,6 +147,36 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b",
+        "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-96fb0521",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0272",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "PLUTUS.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b",
+        "gutenberg:ebooks:22381:193.193.2-193.193.2:821d0a6b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ed6af542",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0272",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "PLUTUS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:193.193.1-193.193.1:734b351b",
@@ -190,5 +220,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

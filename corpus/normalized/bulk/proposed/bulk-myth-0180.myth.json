@@ -238,7 +238,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -252,6 +252,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:494.494.1-494.494.1:7445ffcb",
+        "gutenberg:ebooks:39250:494.494.2-494.494.2:2a2698af",
+        "gutenberg:ebooks:39250:494.494.3-494.494.3:f848b2f7"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-2be26c37",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0180",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "If still thine ancient faithfulness",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:494.494.1-494.494.1:7445ffcb",
+        "gutenberg:ebooks:39250:494.494.2-494.494.2:2a2698af",
+        "gutenberg:ebooks:39250:494.494.3-494.494.3:f848b2f7"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-dabe0510",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0180",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "If still thine ancient faithfulness",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:494.494.1-494.494.1:7445ffcb",
@@ -299,5 +331,5 @@
     "event-002"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

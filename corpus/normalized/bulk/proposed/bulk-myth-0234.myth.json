@@ -166,7 +166,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -180,6 +180,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f",
+        "gutenberg:ebooks:39250:329.329.2-329.329.2:01315c12",
+        "gutenberg:ebooks:39250:329.329.3-329.329.3:1bb2093f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-55464bc4",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0234",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "On creaking hinges turn'd to break his sleep.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f",
+        "gutenberg:ebooks:39250:329.329.2-329.329.2:01315c12",
+        "gutenberg:ebooks:39250:329.329.3-329.329.3:1bb2093f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-18b0a7c3",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0234",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "On creaking hinges turn'd to break his sleep.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f",
@@ -224,5 +256,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

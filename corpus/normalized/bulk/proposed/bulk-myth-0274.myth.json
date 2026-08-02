@@ -162,7 +162,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -177,6 +177,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17",
+        "gutenberg:ebooks:39250:229.229.2-229.229.2:affaea89",
+        "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-a64bdf8e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0274",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Whose graceful green hair circles all the earth.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17",
+        "gutenberg:ebooks:39250:229.229.2-229.229.2:affaea89",
+        "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-0f225576",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0274",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Whose graceful green hair circles all the earth.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17",
@@ -222,5 +254,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

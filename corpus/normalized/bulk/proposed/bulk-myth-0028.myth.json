@@ -414,7 +414,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -427,6 +427,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:130.130.1-130.130.1:c6b3ba71",
+        "gutenberg:ebooks:22381:130.130.2-130.130.2:095642dc",
+        "gutenberg:ebooks:22381:130.130.3-130.130.3:b0e25bc3"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-aadd4ae8",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0028",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Agriculture.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:130.130.1-130.130.1:c6b3ba71",
+        "gutenberg:ebooks:22381:130.130.2-130.130.2:095642dc",
+        "gutenberg:ebooks:22381:130.130.3-130.130.3:b0e25bc3"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ac927f50",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0028",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Agriculture.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:130.130.1-130.130.1:c6b3ba71",
@@ -480,5 +512,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

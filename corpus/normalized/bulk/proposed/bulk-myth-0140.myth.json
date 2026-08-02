@@ -292,7 +292,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -305,6 +305,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:264.264.1-264.264.1:7d65956f",
+        "gutenberg:ebooks:39250:264.264.2-264.264.2:41fe5651",
+        "gutenberg:ebooks:39250:264.264.3-264.264.3:c6696357"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-8e013c3f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0140",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "They call it thunder of a second-rate.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:264.264.1-264.264.1:7d65956f",
+        "gutenberg:ebooks:39250:264.264.2-264.264.2:41fe5651",
+        "gutenberg:ebooks:39250:264.264.3-264.264.3:c6696357"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-548fa680",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0140",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "They call it thunder of a second-rate.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:264.264.1-264.264.1:7d65956f",
@@ -352,5 +384,5 @@
     "event-005"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

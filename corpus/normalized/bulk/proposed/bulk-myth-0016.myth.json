@@ -422,7 +422,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -435,6 +435,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:317.317.1-317.317.1:c5080a61",
+        "gutenberg:ebooks:22381:317.317.2-317.317.2:a5cb02e8",
+        "gutenberg:ebooks:22381:317.317.3-317.317.3:d65ae8c9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-c407a3e9",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0016",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Argolia.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:317.317.1-317.317.1:c5080a61",
+        "gutenberg:ebooks:22381:317.317.2-317.317.2:a5cb02e8",
+        "gutenberg:ebooks:22381:317.317.3-317.317.3:d65ae8c9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-7a6ab679",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0016",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Argolia.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:317.317.1-317.317.1:c5080a61",
@@ -488,5 +520,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

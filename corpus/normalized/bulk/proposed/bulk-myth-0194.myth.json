@@ -155,7 +155,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -169,6 +169,36 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337",
+        "gutenberg:ebooks:39250:241.241.2-241.241.2:2e3f6d06"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-25372478",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0194",
+      "issueType": "verification-program-rejected_non_story",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "rejected_non_story"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337",
+        "gutenberg:ebooks:39250:241.241.2-241.241.2:2e3f6d06"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-6cef340c",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0194",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Saxe.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:241.241.1-241.241.1:4e726337",
@@ -214,5 +244,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -179,7 +179,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -193,6 +193,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:105.105.1-105.105.1:2315da65",
+        "gutenberg:ebooks:39250:105.105.2-105.105.2:22543ab4",
+        "gutenberg:ebooks:39250:105.105.3-105.105.3:6b567f2e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-3aaf8871",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0214",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Owen Meredith.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:105.105.1-105.105.1:2315da65",
+        "gutenberg:ebooks:39250:105.105.2-105.105.2:22543ab4",
+        "gutenberg:ebooks:39250:105.105.3-105.105.3:6b567f2e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ad269e29",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0214",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Owen Meredith.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:105.105.1-105.105.1:2315da65",
@@ -238,5 +270,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

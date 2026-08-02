@@ -203,7 +203,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -217,6 +217,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:265.265.1-265.265.1:f4c23f34",
+        "gutenberg:ebooks:45489:265.265.2-265.265.2:ba32a770",
+        "gutenberg:ebooks:45489:265.265.3-265.265.3:145cd1de"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-18fe1c97",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0205",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Floats up from those dim fields about the homes",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:265.265.1-265.265.1:f4c23f34",
+        "gutenberg:ebooks:45489:265.265.2-265.265.2:ba32a770",
+        "gutenberg:ebooks:45489:265.265.3-265.265.3:145cd1de"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-2710e3c6",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0205",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Floats up from those dim fields about the homes",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:265.265.1-265.265.1:f4c23f34",
@@ -263,5 +295,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

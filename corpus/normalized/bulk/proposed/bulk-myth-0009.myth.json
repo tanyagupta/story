@@ -420,7 +420,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "ambiguous"
     }
   ],
   "normalizationWarnings": [
@@ -432,6 +432,38 @@
       "sourceValue": "The trident--summoned all the hurricanes",
       "suggestions": [
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:115.115.1-115.115.1:0ef832f4",
+        "gutenberg:ebooks:45489:115.115.2-115.115.2:3be9c6f1",
+        "gutenberg:ebooks:45489:115.115.3-115.115.3:8e0a443e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-9e9fed02",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0009",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "The trident--summoned all the hurricanes",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:115.115.1-115.115.1:0ef832f4",
+        "gutenberg:ebooks:45489:115.115.2-115.115.2:3be9c6f1",
+        "gutenberg:ebooks:45489:115.115.3-115.115.3:8e0a443e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-1a6c8753",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0009",
+      "issueType": "pr12-audit-ambiguous",
+      "sourceValue": "The trident--summoned all the hurricanes",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:115.115.1-115.115.1:0ef832f4",
@@ -482,5 +514,5 @@
     "event-007"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "ambiguous"
 }

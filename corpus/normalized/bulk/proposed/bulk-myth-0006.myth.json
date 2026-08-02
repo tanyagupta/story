@@ -411,7 +411,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "unresolved_requires_human_review"
     }
   ],
   "normalizationWarnings": [
@@ -423,6 +423,38 @@
       "sourceValue": "The Story of Proserpina",
       "suggestions": [
         "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+        "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+        "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-3f544805",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0006",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "The Story of Proserpina",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+        "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+        "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-abc4039d",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0006",
+      "issueType": "pr12-audit-unresolved_requires_human_review",
+      "sourceValue": "The Story of Proserpina",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
@@ -466,5 +498,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "unresolved_requires_human_review"
 }

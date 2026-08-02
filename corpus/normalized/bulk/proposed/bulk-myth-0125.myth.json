@@ -234,7 +234,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -247,6 +247,38 @@
       "suggestions": [
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:506.506.1-506.506.1:89e34445",
+        "gutenberg:ebooks:39250:506.506.2-506.506.2:d4ddb629",
+        "gutenberg:ebooks:39250:506.506.3-506.506.3:7129811f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-af414766",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0125",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "CLOUD MYTHS.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:506.506.1-506.506.1:89e34445",
+        "gutenberg:ebooks:39250:506.506.2-506.506.2:d4ddb629",
+        "gutenberg:ebooks:39250:506.506.3-506.506.3:7129811f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-746c3215",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0125",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "CLOUD MYTHS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:506.506.1-506.506.1:89e34445",
@@ -295,5 +327,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

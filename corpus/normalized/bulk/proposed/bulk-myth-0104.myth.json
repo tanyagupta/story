@@ -348,7 +348,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -361,6 +361,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d",
+        "gutenberg:ebooks:39250:439.439.2-439.439.2:790d0b10",
+        "gutenberg:ebooks:39250:439.439.3-439.439.3:e921ccf5"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-61522ff7",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0104",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "King of Sparta.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d",
+        "gutenberg:ebooks:39250:439.439.2-439.439.2:790d0b10",
+        "gutenberg:ebooks:39250:439.439.3-439.439.3:e921ccf5"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-dccec8db",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0104",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "King of Sparta.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:439.439.1-439.439.1:b133594d",
@@ -411,5 +443,5 @@
     "event-006"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

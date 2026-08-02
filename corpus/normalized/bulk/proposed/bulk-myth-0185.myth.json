@@ -214,7 +214,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -227,6 +227,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:293.293.1-293.293.1:928e0f8b",
+        "gutenberg:ebooks:39250:293.293.2-293.293.2:ea16d962",
+        "gutenberg:ebooks:39250:293.293.3-293.293.3:bc476864"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d0e472c8",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0185",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Ingelow.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:293.293.1-293.293.1:928e0f8b",
+        "gutenberg:ebooks:39250:293.293.2-293.293.2:ea16d962",
+        "gutenberg:ebooks:39250:293.293.3-293.293.3:bc476864"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d8bad5e5",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0185",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Ingelow.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:293.293.1-293.293.1:928e0f8b",
@@ -273,5 +305,5 @@
     "event-003"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

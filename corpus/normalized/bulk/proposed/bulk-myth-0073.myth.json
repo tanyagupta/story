@@ -416,7 +416,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -429,6 +429,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:349.349.1-349.349.1:289272a4",
+        "gutenberg:ebooks:39250:349.349.2-349.349.2:f24a2699",
+        "gutenberg:ebooks:39250:349.349.3-349.349.3:1b69933b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-5cf27e02",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0073",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Hesiod.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:349.349.1-349.349.1:289272a4",
+        "gutenberg:ebooks:39250:349.349.2-349.349.2:f24a2699",
+        "gutenberg:ebooks:39250:349.349.3-349.349.3:1b69933b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-3be9b6a1",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0073",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Hesiod.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:349.349.1-349.349.1:289272a4",
@@ -482,5 +514,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

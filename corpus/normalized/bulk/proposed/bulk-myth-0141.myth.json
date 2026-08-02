@@ -221,7 +221,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -234,6 +234,38 @@
       "suggestions": [
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:504.504.1-504.504.1:44ed8d3a",
+        "gutenberg:ebooks:39250:504.504.2-504.504.2:126323a0",
+        "gutenberg:ebooks:39250:504.504.3-504.504.3:6233db9c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-7ddce4bd",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0141",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "EARTH MYTHS.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:504.504.1-504.504.1:44ed8d3a",
+        "gutenberg:ebooks:39250:504.504.2-504.504.2:126323a0",
+        "gutenberg:ebooks:39250:504.504.3-504.504.3:6233db9c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-16d8a679",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0141",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "EARTH MYTHS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:504.504.1-504.504.1:44ed8d3a",
@@ -281,5 +313,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

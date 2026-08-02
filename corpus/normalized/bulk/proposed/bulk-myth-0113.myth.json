@@ -296,7 +296,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -309,6 +309,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:312.312.1-312.312.1:1a4242d6",
+        "gutenberg:ebooks:22381:312.312.2-312.312.2:50f2b807",
+        "gutenberg:ebooks:22381:312.312.3-312.312.3:8a8dddb5"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-7ccc7af7",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0113",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Mycenae.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:312.312.1-312.312.1:1a4242d6",
+        "gutenberg:ebooks:22381:312.312.2-312.312.2:50f2b807",
+        "gutenberg:ebooks:22381:312.312.3-312.312.3:8a8dddb5"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-5291aa15",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0113",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Mycenae.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:312.312.1-312.312.1:1a4242d6",
@@ -356,5 +388,5 @@
     "event-005"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

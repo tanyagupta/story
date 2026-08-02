@@ -216,7 +216,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -230,6 +230,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0",
+        "gutenberg:ebooks:39250:364.364.2-364.364.2:5b6aaac3",
+        "gutenberg:ebooks:39250:364.364.3-364.364.3:e70deb5f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-feb19791",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0156",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Shelley.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0",
+        "gutenberg:ebooks:39250:364.364.2-364.364.2:5b6aaac3",
+        "gutenberg:ebooks:39250:364.364.3-364.364.3:e70deb5f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d1294f87",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0156",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Shelley.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0",
@@ -277,5 +309,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

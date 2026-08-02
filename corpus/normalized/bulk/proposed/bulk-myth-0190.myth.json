@@ -199,7 +199,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -213,6 +213,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:93.93.1-93.93.1:92599cd3",
+        "gutenberg:ebooks:39250:93.93.2-93.93.2:2a2698af",
+        "gutenberg:ebooks:39250:93.93.3-93.93.3:0ec0530b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-b6070c99",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0190",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "The leech that wrought such healing hurled",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:93.93.1-93.93.1:92599cd3",
+        "gutenberg:ebooks:39250:93.93.2-93.93.2:2a2698af",
+        "gutenberg:ebooks:39250:93.93.3-93.93.3:0ec0530b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-f4066889",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0190",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "The leech that wrought such healing hurled",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:93.93.1-93.93.1:92599cd3",
@@ -260,5 +292,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

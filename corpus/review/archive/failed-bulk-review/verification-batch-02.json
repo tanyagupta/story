@@ -1,0 +1,616 @@
+{
+  "authoritative": false,
+  "status": "superseded_by_pr12_audit",
+  "doNotUseForCorpusDecisions": true,
+  "archiveNote": "Retained only as historical evidence for the failed PR #12 bulk-review methodology.",
+  "batchId": "verification-batch-02",
+  "selectedCount": 50,
+  "selectionMethod": [
+    "Excluded records already reviewed in Batch 01.",
+    "Ranked remaining records by title clarity, family signal, actor/event structure, passage span, and boundary risk.",
+    "Selected the next highest-priority records, with no batch exceeding 50 and no internal group exceeding 10."
+  ],
+  "selectedRecords": [
+    {
+      "mythId": "bulk-myth-0006",
+      "title": "The Story of Proserpina",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0006.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 36,
+      "knownRisks": [
+        "requires-boundary-review"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0043",
+      "title": "Chapter XIV",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0043.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 36,
+      "knownRisks": [
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0116",
+      "title": "While o'er their backs their straight white hair hung down",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0116.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 36,
+      "knownRisks": [
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0008",
+      "title": "Part I",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0008.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 26,
+      "knownRisks": [
+        "requires-boundary-review",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0082",
+      "title": "Then with thick shades are lofty mountains crown'd.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0082.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 26,
+      "knownRisks": [
+        "requires-boundary-review",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0014",
+      "title": "PERSEUS.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0014.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 22,
+      "knownRisks": [
+        "large-or-compound-span",
+        "requires-boundary-review"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0020",
+      "title": "STORY OF THE GOLDEN FLEECE.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0020.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 22,
+      "knownRisks": [
+        "large-or-compound-span",
+        "requires-boundary-review"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0021",
+      "title": "Eurystheus to report his success.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0021.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 21,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0057",
+      "title": "Mars and Vulcan",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0057.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 21,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0068",
+      "title": "THE GORGONS.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0068.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 21,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0087",
+      "title": "DAEDALUS and ICARUS.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0087.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 21,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0102",
+      "title": "RETURN OF THE GREEKS FROM TROY.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0102.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 21,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0122",
+      "title": "THE WINDS.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0122.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 21,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0130",
+      "title": "THE SEVEN AGAINST THEBES.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0130.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 21,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0134",
+      "title": "Silver Age.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0134.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 21,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0151",
+      "title": "Worsley.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0151.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 21,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0177",
+      "title": "THE TROJAN WAR.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0177.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 21,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0200",
+      "title": "Spenser.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0200.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 21,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0023",
+      "title": "Part II",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0023.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0034",
+      "title": "Part II",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0034.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0047",
+      "title": "Field of Mars.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0047.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0056",
+      "title": "The Story of Pandora",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0056.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "requires-boundary-review"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0110",
+      "title": "Echidna.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0110.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0117",
+      "title": "Jupiter's favor.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0117.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0118",
+      "title": "Cupid's love-inspiring darts.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0118.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0123",
+      "title": "Athenians.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0123.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0125",
+      "title": "CLOUD MYTHS.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0125.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0141",
+      "title": "EARTH MYTHS.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0141.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0157",
+      "title": "Saturnian Jove.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0157.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0166",
+      "title": "Dreams.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0166.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0167",
+      "title": "Helen proceeded to Troy.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0167.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0171",
+      "title": "CERES AND PROSERPINA.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0171.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0189",
+      "title": "Andromeda CHARLES KINGSLEY",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0189.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0199",
+      "title": "Sprang a scourging race from thee--",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0199.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0204",
+      "title": "Troy.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0204.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0233",
+      "title": "Spenser.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0233.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0239",
+      "title": "Achilles before his departure.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0239.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0240",
+      "title": "She flies and waxes every hour.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0240.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 16,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0012",
+      "title": "Famous Lovers",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0012.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 12,
+      "knownRisks": [
+        "large-or-compound-span",
+        "requires-boundary-review",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0025",
+      "title": "Orphic Argonautics.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0025.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 12,
+      "knownRisks": [
+        "large-or-compound-span",
+        "requires-boundary-review",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0031",
+      "title": "Iron Ages.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0031.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 11,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0044",
+      "title": "ALCMAEON AND THE NECKLACE.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0044.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 11,
+      "knownRisks": [
+        "thin-event-structure",
+        "requires-boundary-review",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0045",
+      "title": "That he has passed by Scylla with a crew",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0045.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 11,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0061",
+      "title": "Heracles substituting two more labours in their place.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0061.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 11,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0074",
+      "title": "XXXI",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0074.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 11,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0076",
+      "title": "Diana",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0076.myth.json",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "priorityScore": 11,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0095",
+      "title": "Minyans.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0095.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 11,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0104",
+      "title": "King of Sparta.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0104.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 11,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0105",
+      "title": "ADVENTURES OF ULYSSES.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0105.myth.json",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "priorityScore": 11,
+      "knownRisks": [
+        "thin-event-structure",
+        "requires-boundary-review",
+        "fewer-than-two-actor-events"
+      ]
+    },
+    {
+      "mythId": "bulk-myth-0109",
+      "title": "THE ARGONAUTS.",
+      "file": "corpus/normalized/bulk/proposed/bulk-myth-0109.myth.json",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "priorityScore": 11,
+      "knownRisks": [
+        "thin-event-structure",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ]
+    }
+  ],
+  "excludedPreviouslyReviewed": [
+    "bulk-myth-0030",
+    "bulk-myth-0032",
+    "bulk-myth-0033",
+    "bulk-myth-0042",
+    "bulk-myth-0050",
+    "bulk-myth-0058",
+    "bulk-myth-0062",
+    "bulk-myth-0065",
+    "bulk-myth-0075",
+    "bulk-myth-0084",
+    "bulk-myth-0085",
+    "bulk-myth-0091",
+    "bulk-myth-0097",
+    "bulk-myth-0101",
+    "bulk-myth-0115",
+    "bulk-myth-0147",
+    "bulk-myth-0154",
+    "bulk-myth-0164",
+    "bulk-myth-0169",
+    "bulk-myth-0175"
+  ],
+  "knownRisks": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "large-or-compound-span",
+    "requires-boundary-review",
+    "thin-event-structure",
+    "weak-or-literary-title"
+  ]
+}

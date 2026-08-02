@@ -209,7 +209,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -222,6 +222,38 @@
       "suggestions": [
         "no-mythological-characters",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:159.159.1-159.159.1:c86f4e20",
+        "gutenberg:ebooks:39250:159.159.2-159.159.2:644ca529",
+        "gutenberg:ebooks:39250:159.159.3-159.159.3:9ceea39c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-346968e7",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0207",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Hemans.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:159.159.1-159.159.1:c86f4e20",
+        "gutenberg:ebooks:39250:159.159.2-159.159.2:644ca529",
+        "gutenberg:ebooks:39250:159.159.3-159.159.3:9ceea39c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ccc54ada",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0207",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Hemans.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:159.159.1-159.159.1:c86f4e20",
@@ -265,5 +297,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

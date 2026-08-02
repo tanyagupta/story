@@ -185,7 +185,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -199,6 +199,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d",
+        "gutenberg:ebooks:39250:153.153.2-153.153.2:a3a5e4eb",
+        "gutenberg:ebooks:39250:153.153.3-153.153.3:93385692"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ea125de0",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0236",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Jupiter was forced to grant her request.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d",
+        "gutenberg:ebooks:39250:153.153.2-153.153.2:a3a5e4eb",
+        "gutenberg:ebooks:39250:153.153.3-153.153.3:93385692"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-84260009",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0236",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Jupiter was forced to grant her request.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:153.153.1-153.153.1:4b864b0d",
@@ -244,5 +276,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

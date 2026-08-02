@@ -394,7 +394,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -422,6 +422,38 @@
       "sourceValue": "BELLEROPHON.",
       "suggestions": [
         "The Guerber Bellerophon setup stops at Minerva's bridle and should be reviewed with the following Chimera passages."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3",
+        "gutenberg:ebooks:39250:414.414.2-414.414.2:2df4dd68",
+        "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-445aa217",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0091",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "BELLEROPHON.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3",
+        "gutenberg:ebooks:39250:414.414.2-414.414.2:2df4dd68",
+        "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-cc1cd814",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0091",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "BELLEROPHON.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3",
@@ -472,5 +504,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

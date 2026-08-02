@@ -192,7 +192,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -204,6 +204,38 @@
       "sourceValue": "Edwin Arnold.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c",
+        "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584",
+        "gutenberg:ebooks:39250:177.177.3-177.177.3:92480a38"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-7c883fb9",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0202",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Edwin Arnold.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c",
+        "gutenberg:ebooks:39250:177.177.2-177.177.2:1912d584",
+        "gutenberg:ebooks:39250:177.177.3-177.177.3:92480a38"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ecdef889",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0202",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Edwin Arnold.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:177.177.1-177.177.1:f58ed75c",
@@ -246,5 +278,5 @@
     "event-003"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

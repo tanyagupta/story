@@ -225,7 +225,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -239,6 +239,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3",
+        "gutenberg:ebooks:45489:121.121.2-121.121.2:07de67ae",
+        "gutenberg:ebooks:45489:121.121.3-121.121.3:1ec25be6"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-21d0e4a9",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0144",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Thus dreadfully adorned with horror bright",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3",
+        "gutenberg:ebooks:45489:121.121.2-121.121.2:07de67ae",
+        "gutenberg:ebooks:45489:121.121.3-121.121.3:1ec25be6"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-456c3e07",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0144",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Thus dreadfully adorned with horror bright",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:121.121.1-121.121.1:6bc0ffc3",
@@ -288,5 +320,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

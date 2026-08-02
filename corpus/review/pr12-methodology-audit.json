@@ -1,0 +1,20 @@
+{
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "recordsAudited": 278,
+  "genericRationaleCount": 278,
+  "genericCorrectionCount": 278,
+  "recordSpecificBoundaryAnalysisCount": 0,
+  "exactPassageConflictCount": 0,
+  "actualStructuredCorrectionCount": 0,
+  "classifiedWithoutSubstantiveFieldReconstruction": 278,
+  "manualInspectionCountClaimed": 92,
+  "manualInspectionCountWithSpecificFindings": 10,
+  "finalDeferredPerformedReconstruction": false,
+  "templatedClassificationRisk": "high",
+  "findings": [
+    "Most PR #12 batch records use duplicated rationale or correction language rather than record-specific reconstruction.",
+    "The claimed manual inspections primarily report generic checklist outcomes, not passage-specific findings.",
+    "The final deferred pass changed statuses without documenting split, merge, event, relationship, or boundary reconstruction.",
+    "The original proposed records remain recoverable and should be restored for substantive review."
+  ]
+}

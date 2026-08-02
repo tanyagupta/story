@@ -269,7 +269,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -282,6 +282,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:127.127.1-127.127.1:164a5eeb",
+        "gutenberg:ebooks:22381:127.127.2-127.127.2:8ff7a40e",
+        "gutenberg:ebooks:22381:127.127.3-127.127.3:4b73b474"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-08f06126",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0153",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "THIRD DYNASTY--OLYMPIAN DIVINITIES.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:127.127.1-127.127.1:164a5eeb",
+        "gutenberg:ebooks:22381:127.127.2-127.127.2:8ff7a40e",
+        "gutenberg:ebooks:22381:127.127.3-127.127.3:4b73b474"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-8d6a6b38",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0153",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "THIRD DYNASTY--OLYMPIAN DIVINITIES.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:127.127.1-127.127.1:164a5eeb",
@@ -328,5 +360,5 @@
     "event-004"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

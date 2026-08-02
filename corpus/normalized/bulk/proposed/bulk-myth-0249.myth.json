@@ -182,7 +182,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -196,6 +196,38 @@
         "no-mythological-characters",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:187.187.1-187.187.1:fc7607f0",
+        "gutenberg:ebooks:45489:187.187.2-187.187.2:e10b995c",
+        "gutenberg:ebooks:45489:187.187.3-187.187.3:86169761"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-49e0e369",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0249",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "As the sunflower turns on her god when he sets",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:187.187.1-187.187.1:fc7607f0",
+        "gutenberg:ebooks:45489:187.187.2-187.187.2:e10b995c",
+        "gutenberg:ebooks:45489:187.187.3-187.187.3:86169761"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-85a2dd69",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0249",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "As the sunflower turns on her god when he sets",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:187.187.1-187.187.1:fc7607f0",
@@ -240,5 +272,5 @@
     "event-003"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

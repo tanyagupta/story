@@ -285,7 +285,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -297,6 +297,38 @@
       "sourceValue": "THE WINDS.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:238.238.1-238.238.1:d32afc6e",
+        "gutenberg:ebooks:22381:238.238.2-238.238.2:69544c47",
+        "gutenberg:ebooks:22381:238.238.3-238.238.3:c9dba8ff"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-3391ac89",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0122",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "THE WINDS.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:238.238.1-238.238.1:d32afc6e",
+        "gutenberg:ebooks:22381:238.238.2-238.238.2:69544c47",
+        "gutenberg:ebooks:22381:238.238.3-238.238.3:c9dba8ff"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-3c8cc941",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0122",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "THE WINDS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:238.238.1-238.238.1:d32afc6e",
@@ -341,5 +373,5 @@
     "event-005"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

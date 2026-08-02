@@ -184,7 +184,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -198,6 +198,38 @@
         "no-mythological-characters",
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+        "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+        "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ef0ce226",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0267",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Aulis.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+        "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+        "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-160f70ff",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0267",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Aulis.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
@@ -241,5 +273,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

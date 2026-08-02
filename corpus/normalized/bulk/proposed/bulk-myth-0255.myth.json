@@ -207,7 +207,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -221,6 +221,38 @@
         "no-mythological-characters",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:408.408.1-408.408.1:477d5713",
+        "gutenberg:ebooks:39250:408.408.2-408.408.2:aa73578c",
+        "gutenberg:ebooks:39250:408.408.3-408.408.3:418112e2"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-499b7cf2",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0255",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "That I was only the supposed son",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:408.408.1-408.408.1:477d5713",
+        "gutenberg:ebooks:39250:408.408.2-408.408.2:aa73578c",
+        "gutenberg:ebooks:39250:408.408.3-408.408.3:418112e2"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-4df02705",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0255",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "That I was only the supposed son",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:408.408.1-408.408.1:477d5713",
@@ -265,5 +297,5 @@
     "event-003"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

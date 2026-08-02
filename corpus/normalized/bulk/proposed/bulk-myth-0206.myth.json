@@ -199,7 +199,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -212,6 +212,38 @@
       "suggestions": [
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:178.178.1-178.178.1:fb2e98aa",
+        "gutenberg:ebooks:22381:178.178.2-178.178.2:3ec9cfa4",
+        "gutenberg:ebooks:22381:178.178.3-178.178.3:dbb3b87c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-1a6d2094",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0206",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "THE SIRENS.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:178.178.1-178.178.1:fb2e98aa",
+        "gutenberg:ebooks:22381:178.178.2-178.178.2:3ec9cfa4",
+        "gutenberg:ebooks:22381:178.178.3-178.178.3:dbb3b87c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-caf112b6",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0206",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "THE SIRENS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:178.178.1-178.178.1:fb2e98aa",
@@ -255,5 +287,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

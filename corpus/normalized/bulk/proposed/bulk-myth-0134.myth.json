@@ -243,7 +243,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -255,6 +255,38 @@
       "sourceValue": "Silver Age.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8",
+        "gutenberg:ebooks:39250:553.553.2-553.553.2:ea31c643",
+        "gutenberg:ebooks:39250:553.553.3-553.553.3:8995b3db"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-25d71980",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0134",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Silver Age.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8",
+        "gutenberg:ebooks:39250:553.553.2-553.553.2:ea31c643",
+        "gutenberg:ebooks:39250:553.553.3-553.553.3:8995b3db"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-f131d517",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0134",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Silver Age.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:553.553.1-553.553.1:330cb5d8",
@@ -298,5 +330,5 @@
     "event-003"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

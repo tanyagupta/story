@@ -158,7 +158,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -172,6 +172,36 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99",
+        "gutenberg:ebooks:45489:287.287.2-287.287.2:d183ba31"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-c1199240",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0258",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "LXIV",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99",
+        "gutenberg:ebooks:45489:287.287.2-287.287.2:d183ba31"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-16bcdcb1",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0258",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "LXIV",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:287.287.1-287.287.1:56082d99",
@@ -215,5 +245,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

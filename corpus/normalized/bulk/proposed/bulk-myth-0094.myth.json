@@ -332,7 +332,7 @@
       "sourceIds": [
         "gutenberg-baker-stories-old-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -345,6 +345,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2",
+        "gutenberg:ebooks:45489:116.116.2-116.116.2:406a4dc5",
+        "gutenberg:ebooks:45489:116.116.3-116.116.3:427a0c2f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-e4f56412",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0094",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "III",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2",
+        "gutenberg:ebooks:45489:116.116.2-116.116.2:406a4dc5",
+        "gutenberg:ebooks:45489:116.116.3-116.116.3:427a0c2f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-2531e6d4",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0094",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "III",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:45489:116.116.1-116.116.1:506b60f2",
@@ -394,5 +426,5 @@
     "event-008"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

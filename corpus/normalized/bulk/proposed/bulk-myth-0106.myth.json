@@ -331,7 +331,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -343,6 +343,38 @@
       "sourceValue": "Inhaling in thy milky-breathing breast",
       "suggestions": [
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6",
+        "gutenberg:ebooks:39250:367.367.2-367.367.2:54eb21d3",
+        "gutenberg:ebooks:39250:367.367.3-367.367.3:224c154b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-e46a234b",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0106",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Inhaling in thy milky-breathing breast",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6",
+        "gutenberg:ebooks:39250:367.367.2-367.367.2:54eb21d3",
+        "gutenberg:ebooks:39250:367.367.3-367.367.3:224c154b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-4181eb4d",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0106",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Inhaling in thy milky-breathing breast",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:367.367.1-367.367.1:3d7dbcb6",
@@ -389,5 +421,5 @@
     "event-005"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

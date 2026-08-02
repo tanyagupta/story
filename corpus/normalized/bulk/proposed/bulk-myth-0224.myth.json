@@ -216,7 +216,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -229,6 +229,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283",
+        "gutenberg:ebooks:39250:353.353.2-353.353.2:aa73578c",
+        "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-8cba0e7f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0224",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Deep was the animated strife",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283",
+        "gutenberg:ebooks:39250:353.353.2-353.353.2:aa73578c",
+        "gutenberg:ebooks:39250:353.353.3-353.353.3:6a78503b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-32d0b5ab",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0224",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Deep was the animated strife",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:353.353.1-353.353.1:033c2283",
@@ -273,5 +305,5 @@
     "event-003"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

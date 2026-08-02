@@ -287,7 +287,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -300,6 +300,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848",
+        "gutenberg:ebooks:39250:557.557.2-557.557.2:acc17ed2",
+        "gutenberg:ebooks:39250:557.557.3-557.557.3:9ceec5e0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-bdaabe6a",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0120",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Thebes.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848",
+        "gutenberg:ebooks:39250:557.557.2-557.557.2:acc17ed2",
+        "gutenberg:ebooks:39250:557.557.3-557.557.3:9ceec5e0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ade85155",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0120",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Thebes.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:557.557.1-557.557.1:022e6848",
@@ -349,5 +381,5 @@
     "event-003"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

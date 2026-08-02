@@ -356,7 +356,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -369,6 +369,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:501.501.1-501.501.1:544794d8",
+        "gutenberg:ebooks:39250:501.501.2-501.501.2:c6e7fe6b",
+        "gutenberg:ebooks:39250:501.501.3-501.501.3:49c5aa29"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-54e89d4b",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0078",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "SUN AND DAWN MYTHS.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:501.501.1-501.501.1:544794d8",
+        "gutenberg:ebooks:39250:501.501.2-501.501.2:c6e7fe6b",
+        "gutenberg:ebooks:39250:501.501.3-501.501.3:49c5aa29"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-afaa8219",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0078",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "SUN AND DAWN MYTHS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:501.501.1-501.501.1:544794d8",
@@ -419,5 +451,5 @@
     "event-004"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -241,7 +241,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -254,6 +254,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604",
+        "gutenberg:ebooks:39250:474.474.2-474.474.2:3ea3c7f4",
+        "gutenberg:ebooks:39250:474.474.3-474.474.3:af1ba93e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-1b1f9552",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0143",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Scylla's den.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604",
+        "gutenberg:ebooks:39250:474.474.2-474.474.2:3ea3c7f4",
+        "gutenberg:ebooks:39250:474.474.3-474.474.3:af1ba93e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-0aed81e1",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0143",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Scylla's den.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:474.474.1-474.474.1:0b380604",
@@ -299,5 +331,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

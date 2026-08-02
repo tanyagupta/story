@@ -167,7 +167,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -180,6 +180,38 @@
       "suggestions": [
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:345.345.1-345.345.1:f3a704fd",
+        "gutenberg:ebooks:39250:345.345.2-345.345.2:2a2698af",
+        "gutenberg:ebooks:39250:345.345.3-345.345.3:8b288450"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-f35b9ed9",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0218",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "In painted arms of radiant sheen",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:345.345.1-345.345.1:f3a704fd",
+        "gutenberg:ebooks:39250:345.345.2-345.345.2:2a2698af",
+        "gutenberg:ebooks:39250:345.345.3-345.345.3:8b288450"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-f199248a",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0218",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "In painted arms of radiant sheen",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:345.345.1-345.345.1:f3a704fd",
@@ -223,5 +255,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

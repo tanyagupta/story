@@ -1,0 +1,20 @@
+{
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "sampleSize": 20,
+  "originalStatusesConfirmed": 16,
+  "statusesChanged": 4,
+  "newlyVerified": 0,
+  "confirmedAmbiguous": 5,
+  "confirmedRejected": 5,
+  "confirmedHumanReviewRequired": 6,
+  "materialReconstructionRequired": 20,
+  "pr12BulkClassificationsTrustworthy": false,
+  "recommendedAction": "fully_rebuild",
+  "recordsRestoredToSubstantiveReview": 258,
+  "rationale": [
+    "278 of 278 reviewed records retain generic or duplicated rationale language.",
+    "0 records document substantive title, family, entity, event, relationship, split, merge, or boundary correction in the PR #12 batch reports.",
+    "The 20-record sample found no defensibly verified records and showed that PR #12 deleted recoverable proposed records prematurely.",
+    "The safe repair is to restore the proposed records and require a redesigned source-reconstruction workflow."
+  ]
+}

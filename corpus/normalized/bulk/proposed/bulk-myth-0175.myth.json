@@ -192,7 +192,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -220,6 +220,38 @@
       "sourceValue": "BELLEROPHON.",
       "suggestions": [
         "The Berens Bellerophon proposal contains only the accusation and dangerous-mission setup, not the completed Chimera episode."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420",
+        "gutenberg:ebooks:22381:318.318.2-318.318.2:15f887e5",
+        "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-cf7e6c3d",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0175",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "BELLEROPHON.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420",
+        "gutenberg:ebooks:22381:318.318.2-318.318.2:15f887e5",
+        "gutenberg:ebooks:22381:318.318.3-318.318.3:cfa70345"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-8a22598f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0175",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "BELLEROPHON.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:318.318.1-318.318.1:4561b420",
@@ -255,5 +287,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

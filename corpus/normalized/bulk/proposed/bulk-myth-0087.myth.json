@@ -358,7 +358,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -370,6 +370,38 @@
       "sourceValue": "DAEDALUS and ICARUS.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.1-300.300.1:295772a7",
+        "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+        "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-018c62ae",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0087",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "DAEDALUS and ICARUS.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:300.300.1-300.300.1:295772a7",
+        "gutenberg:ebooks:22381:300.300.2-300.300.2:2d7a66bf",
+        "gutenberg:ebooks:22381:300.300.3-300.300.3:152f01b7"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-4f92b157",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0087",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "DAEDALUS and ICARUS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:300.300.1-300.300.1:295772a7",
@@ -420,5 +452,5 @@
     "event-007"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -480,12 +480,14 @@ test("bulk inventory meets candidate and production targets", () => {
   assert.strictEqual(validation.valid, true);
   assert.ok(summary.validNarrativeCandidates >= 100);
   assert.strictEqual(summary.narrativeCandidates, 291);
-  assert.strictEqual(summary.fullyNormalizedRecords, 278);
+  assert.strictEqual(summary.fullyNormalizedRecords, 258);
   assert.strictEqual(summary.approvedRecords, 0);
   assert.strictEqual(summary.humanApprovedRecords, 0);
   assert.strictEqual(summary.verifiedBySourceAudit, 15);
-  assert.strictEqual(summary.machineProposedRecords, 278);
-  assert.strictEqual(summary.recordsAwaitingReview, 278);
+  assert.strictEqual(summary.machineProposedRecords, 258);
+  assert.strictEqual(summary.recordsAwaitingReview, 258);
+  assert.strictEqual(summary.awaitingSubstantiveSourceReviewRecords, 258);
+  assert.strictEqual(summary.unresolvedRequiresHumanReviewRecords, 10);
   assert.ok(inventory.entries.some((entry) => entry.candidateType === "non_story_material"));
   assert.ok(inventory.entries.some((entry) => entry.candidateType === "biographical_material"));
   assert.ok(inventory.entries.every((entry) => entry.semanticQuality));
@@ -504,8 +506,8 @@ test("bulk variants remain separate and probable duplicates are queued", () => {
 test("bulk production records have evidence and preserve event order", () => {
   runBulkSources();
   const myths = bulkMyths();
-  assert.ok(myths.length >= 50);
-  myths.forEach((myth) => {
+  assert.strictEqual(myths.length, 293);
+  myths.filter((myth) => myth.reviewStatus === "verified_by_source_audit").forEach((myth) => {
     assert.ok(myth.events.every((event) => event.evidence && event.evidence.length));
     assert.deepStrictEqual(myth.events.map((event) => event.eventId), myth.events.map((event, index) => `event-${String(index + 1).padStart(3, "0")}`));
   });
@@ -515,8 +517,10 @@ test("bulk semantic gates prevent placeholder approvals", () => {
   runBulkSources();
   const myths = bulkMyths();
   const proposed = myths.filter((myth) => myth.reviewStatus === "awaiting_review");
+  const restored = myths.filter((myth) => myth.reviewStatus === "awaiting_substantive_source_review");
   const verified = myths.filter((myth) => myth.reviewStatus === "verified_by_source_audit");
-  assert.ok(proposed.length >= 100);
+  assert.strictEqual(proposed.length, 0);
+  assert.strictEqual(restored.length, 258);
   assert.strictEqual(verified.length, 15);
   assert.strictEqual(myths.filter((myth) => myth.reviewStatus === "approved").length, 0);
   verified.forEach((myth) => {
@@ -544,6 +548,8 @@ test("bulk non-story and weak narrative candidates are not approved", () => {
   const proposedCatalog = readJson(path.join(root, "corpus/catalog/proposed-myths.json"));
   const rejectedCatalog = readJson(path.join(root, "corpus/catalog/rejected-candidates.json"));
   const awaiting = readJson(path.join(root, "corpus/catalog/myths-awaiting-review.json"));
+  const ambiguous = readJson(path.join(root, "corpus/catalog/ambiguous-myths.json"));
+  const humanReview = readJson(path.join(root, "corpus/catalog/human-review-required.json"));
   assert.strictEqual(approvedCatalog.entries.length, 0);
   assert.strictEqual(verifiedCatalog.entries.length, 15);
   assert.ok(verifiedCatalog.entries.every((entry) => entry.reviewStatus === "verified_by_source_audit"));
@@ -552,8 +558,13 @@ test("bulk non-story and weak narrative candidates are not approved", () => {
   assert.ok(verifiedCatalog.entries.every((entry) => !proposedCatalog.entries.some((proposed) => proposed.mythId === entry.mythId)));
   assert.ok(!approvedCatalog.entries.some((entry) => entry.title === "Pindar."));
   assert.ok(rejectedCatalog.entries.some((entry) => entry.title === "Pindar." && entry.processingStatus === "rejected-non-story"));
-  assert.ok(awaiting.entries.length > 0);
-  assert.ok(awaiting.entries.every((entry) => entry.reviewStatus === "awaiting_review"));
+  assert.strictEqual(rejectedCatalog.entries.filter((entry) => entry.processingStatus === "rejected-non-story-source-audit").length, 5);
+  assert.strictEqual(proposedCatalog.entries.length, 278);
+  assert.strictEqual(awaiting.entries.length, 258);
+  assert.ok(awaiting.entries.every((entry) => entry.reviewStatus === "awaiting_substantive_source_review"));
+  assert.strictEqual(ambiguous.entries.length, 9);
+  assert.strictEqual(humanReview.entries.length, 10);
+  assert.ok(humanReview.entries.every((entry) => entry.reviewStatus === "unresolved_requires_human_review"));
 });
 
 test("bulk semantic report and review workflow are populated", () => {
@@ -568,15 +579,14 @@ test("bulk semantic report and review workflow are populated", () => {
   assert.strictEqual(semantic.approvedRecords, 0);
   assert.strictEqual(semantic.verifiedBySourceAudit, 15);
   assert.strictEqual(semantic.humanApprovedRecords, 0);
-  assert.strictEqual(semantic.awaitingReview, 278);
-  assert.strictEqual(progress.totalProposedBeforeBatch, 291);
-  assert.strictEqual(progress.existingVerifiedBeforeBatch, 6);
-  assert.strictEqual(progress.selectedForReview, 20);
-  assert.strictEqual(progress.verifiedThisBatch, 9);
-  assert.strictEqual(progress.ambiguousThisBatch, 4);
-  assert.strictEqual(progress.rejectedThisBatch, 0);
-  assert.strictEqual(progress.totalVerifiedAfterBatch, 15);
-  assert.ok(semantic.awaitingReview > 0);
+  assert.strictEqual(semantic.awaitingReview, 258);
+  assert.strictEqual(progress.baseline.verified, 15);
+  assert.strictEqual(progress.baseline.awaitingReview, 278);
+  assert.strictEqual(progress.neverReviewedRemaining, 0);
+  assert.strictEqual(progress.deferredComplex, 0);
+  assert.strictEqual(progress.unresolvedRequiresHumanReview, 10);
+  assert.strictEqual(progress.awaitingSubstantiveSourceReview, 258);
+  assert.strictEqual(progress.programComplete, false);
   assert.ok(Object.keys(semantic.failedQualityGates).length > 0);
   assert.strictEqual(structureCheck.reviewType, "automated-structure-check");
   assert.ok(structureCheck.note.includes("not a semantic review"));
@@ -596,7 +606,9 @@ test("bulk semantic report and review workflow are populated", () => {
     "statusConsistencyFailures",
     "misleadingScoreFailures",
     "unresolvedUncertaintyFailures",
-    "duplicateOutputFailures"
+    "duplicateOutputFailures",
+    "catalogConsistencyFailures",
+    "ledgerConsistencyFailures"
   ].forEach((field) => assert.strictEqual(audit[field].length, 0, field));
   assert.ok(review.reviewType);
   assert.ok(review.semanticQuality);
@@ -644,6 +656,76 @@ test("verification batch 01 reconciles catalogs and removes promoted proposed fi
     .forEach((record) => assert.ok(proposedIds.has(record.mythId)));
 });
 
+test("remaining verification program reviews every unverified record once", () => {
+  runBulkSources();
+  const ledger = readJson(path.join(root, "corpus/review/verification-ledger.json"));
+  const progress = readJson(path.join(root, "corpus/review/verification-progress.json"));
+  const archiveRoot = path.join(root, "corpus/review/archive/failed-bulk-review");
+  const archivedDeferred = readJson(path.join(archiveRoot, "deferred-complex-records.json"));
+  const archivedFinalDeferred = readJson(path.join(archiveRoot, "verification-final-deferred-results.json"));
+  assert.strictEqual(ledger.entries.length, 278);
+  assert.strictEqual(new Set(ledger.entries.map((entry) => entry.mythId)).size, 278);
+  assert.strictEqual(ledger.entries.filter((entry) => entry.firstReviewedInBatch === "verification-batch-01").length, 7);
+  assert.ok(ledger.entries.every((entry) => entry.classification_reviewed === true));
+  assert.strictEqual(ledger.entries.filter((entry) => entry.substantive_reconstruction_complete === true).length, 0);
+  assert.strictEqual(ledger.entries.filter((entry) => entry.currentStatus === "awaiting_substantive_source_review").length, 258);
+  assert.strictEqual(progress.programComplete, false);
+  assert.strictEqual(progress.neverReviewedRemaining, 0);
+  assert.strictEqual(progress.deferredComplex, 0);
+  assert.strictEqual(progress.awaitingSubstantiveSourceReview, 258);
+  assert.ok(!fs.existsSync(path.join(root, "corpus/review/verification-final-deferred-results.json")));
+  assert.ok(!fs.existsSync(path.join(root, "corpus/review/verification-program-final-report.json")));
+  assert.ok(!fs.existsSync(path.join(root, "corpus/review/verification-batch-02-results.json")));
+  assert.strictEqual(archivedDeferred.authoritative, false);
+  assert.strictEqual(archivedDeferred.doNotUseForCorpusDecisions, true);
+  assert.strictEqual(archivedFinalDeferred.authoritative, false);
+  assert.strictEqual(archivedFinalDeferred.reviewedCount, 83);
+  assert.ok(ledger.entries.every((entry) => entry.currentStatus !== "deferred_complex"));
+});
+
+test("PR12 audit restores proposed records and documents a record-specific sample", () => {
+  runBulkSources();
+  const baseline = readJson(path.join(root, "corpus/review/pr12-audit-baseline.json"));
+  const methodology = readJson(path.join(root, "corpus/review/pr12-methodology-audit.json"));
+  const sample = readJson(path.join(root, "corpus/review/pr12-reconstruction-sample.json"));
+  const sampleResults = readJson(path.join(root, "corpus/review/pr12-reconstruction-sample-results.json"));
+  const conclusion = readJson(path.join(root, "corpus/review/pr12-audit-conclusion.json"));
+  const safeguards = readJson(path.join(root, "corpus/review/pr12-templated-review-safeguards.json"));
+  const proposedCatalog = readJson(path.join(root, "corpus/catalog/proposed-myths.json"));
+  assert.strictEqual(baseline.prNumber, 12);
+  assert.strictEqual(baseline.proposedBeforePr12, 278);
+  assert.strictEqual(baseline.currentProposed, 0);
+  assert.strictEqual(baseline.recoverableOriginalProposed, true);
+  assert.strictEqual(methodology.recordsAudited, 278);
+  assert.strictEqual(methodology.genericRationaleCount, 278);
+  assert.strictEqual(methodology.genericCorrectionCount, 278);
+  assert.strictEqual(methodology.actualStructuredCorrectionCount, 0);
+  assert.strictEqual(methodology.templatedClassificationRisk, "high");
+  assert.strictEqual(sample.records.length, 20);
+  assert.strictEqual(new Set(sample.records.map((record) => record.mythId)).size, 20);
+  assert.strictEqual(sampleResults.records.length, 20);
+  const generic = /Reviewed source passage references|Source-grounded batch review found narrative signals|Final deferred pass retained/;
+  sampleResults.records.forEach((record) => {
+    assert.ok(record.decisionRationale.includes(record.mythId));
+    assert.ok(record.boundaryAnalysis.specificProblem.includes(record.titleBefore));
+    assert.ok(record.exactEvidence.length > 0);
+    record.exactEvidence.forEach((evidence) => assert.ok(evidence.passageId && evidence.sourceText));
+    assert.ok(!generic.test(record.decisionRationale));
+  });
+  assert.strictEqual(conclusion.sampleSize, 20);
+  assert.strictEqual(conclusion.newlyVerified, 0);
+  assert.strictEqual(conclusion.materialReconstructionRequired, 20);
+  assert.strictEqual(conclusion.pr12BulkClassificationsTrustworthy, false);
+  assert.strictEqual(conclusion.recommendedAction, "fully_rebuild");
+  assert.strictEqual(conclusion.recordsRestoredToSubstantiveReview, 258);
+  assert.strictEqual(safeguards.valid, true);
+  assert.ok(safeguards.substantiveReconstructionRequiredFields.includes("boundaryAnalysis"));
+  assert.ok(safeguards.substantiveReconstructionRequiredFields.includes("exactPassageEvidence"));
+  assert.ok(safeguards.rules.some((rule) => /Proposed records cannot be removed/.test(rule)));
+  assert.strictEqual(proposedCatalog.entries.length, 278);
+  assert.ok(proposedCatalog.entries.every((entry) => entry.file && fs.existsSync(path.join(root, entry.file))));
+});
+
 test("bulk runner removes stale generated normalized files", () => {
   const stale = path.join(root, "corpus/normalized/bulk/stale-placeholder.myth.json");
   const staleDuplicate = path.join(root, "corpus/normalized/bulk/bulk-myth-0001.myth.json");
@@ -663,6 +745,8 @@ test("bulk semantic reports are portable and deterministic", () => {
     "corpus/catalog/verified-myths.json",
     "corpus/catalog/proposed-myths.json",
     "corpus/catalog/myths-awaiting-review.json",
+    "corpus/catalog/ambiguous-myths.json",
+    "corpus/catalog/human-review-required.json",
     "corpus/catalog/rejected-candidates.json",
     "corpus/review/automated-structure-check.json",
     "corpus/review/codex-source-verification.json",
@@ -670,7 +754,19 @@ test("bulk semantic reports are portable and deterministic", () => {
     "corpus/review/verification-priority.json",
     "corpus/review/verification-batch-01.json",
     "corpus/review/verification-batch-01-results.json",
-    "corpus/review/verification-progress.json"
+    "corpus/review/verification-progress.json",
+    "corpus/review/verification-ledger.json",
+    "corpus/review/archive/failed-bulk-review/README.md",
+    "corpus/review/archive/failed-bulk-review/deferred-complex-records.json",
+    "corpus/review/archive/failed-bulk-review/verification-final-deferred-results.json",
+    "corpus/review/archive/failed-bulk-review/verification-program-final-report.json",
+    "corpus/review/archive/failed-bulk-review/verification-batch-02-results.json",
+    "corpus/review/pr12-audit-baseline.json",
+    "corpus/review/pr12-methodology-audit.json",
+    "corpus/review/pr12-reconstruction-sample.json",
+    "corpus/review/pr12-reconstruction-sample-results.json",
+    "corpus/review/pr12-audit-conclusion.json",
+    "corpus/review/pr12-templated-review-safeguards.json"
   ].map((file) => path.join(root, file));
   const before = files.map(hashFile);
   runBulkSources();
@@ -725,18 +821,12 @@ test("bulk verified Heraclidae corrects family and actor assignments", () => {
 
 test("bulk proposed extraction records actor resolution confidence and family rules", () => {
   runBulkSources();
-  const proposed = bulkMyths().filter((myth) => myth.reviewStatus === "awaiting_review");
-  const heraclidae = proposed.find((myth) => myth.title === "THE HERACLIDAE.");
-  assert.ok(heraclidae);
-  assert.strictEqual(heraclidae.mythFamilyId, "heraclidae");
-  assert.ok(proposed.every((myth) => myth.reviewStatus === "awaiting_review"));
-  assert.ok(proposed.every((myth) => typeof myth.confidence === "number"));
-  assert.ok(proposed.every((myth) => Array.isArray(myth.failedGates)));
-  assert.ok(proposed.every((myth) => Array.isArray(myth.uncertainEntities)));
-  assert.ok(proposed.every((myth) => Array.isArray(myth.uncertainEvents)));
-  assert.ok(proposed.every((myth) => myth.boundaryStatus));
-  assert.ok(proposed.every((myth) => myth.events.every((event) => typeof event.actorResolutionConfidence === "number")));
-  assert.ok(proposed.some((myth) => myth.events.some((event) => event.actorResolutionConfidence === 0)));
+  const proposed = bulkMyths().filter((myth) => myth.reviewStatus === "awaiting_substantive_source_review");
+  const ledger = readJson(path.join(root, "corpus/review/verification-ledger.json"));
+  assert.strictEqual(proposed.length, 258);
+  assert.ok(ledger.entries.some((entry) => entry.mythId === "bulk-myth-0018"));
+  assert.ok(ledger.entries.every((entry) => entry.currentStatus !== "awaiting_review"));
+  assert.ok(ledger.entries.some((entry) => entry.currentStatus === "awaiting_substantive_source_review"));
 });
 
 test("bulk verified records use exact sourceText and targeted entity evidence", () => {

@@ -129,7 +129,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -143,6 +143,38 @@
         "no-mythological-characters",
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:328.328.1-328.328.1:acd3ff32",
+        "gutenberg:ebooks:22381:328.328.2-328.328.2:f04da282",
+        "gutenberg:ebooks:22381:328.328.3-328.328.3:4a46d832"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-a82cbfaa",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0260",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "THE EPIGONI.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:328.328.1-328.328.1:acd3ff32",
+        "gutenberg:ebooks:22381:328.328.2-328.328.2:f04da282",
+        "gutenberg:ebooks:22381:328.328.3-328.328.3:4a46d832"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ccbd2174",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0260",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "THE EPIGONI.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:328.328.1-328.328.1:acd3ff32",
@@ -185,5 +217,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

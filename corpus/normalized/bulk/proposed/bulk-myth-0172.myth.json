@@ -206,7 +206,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -219,6 +219,38 @@
       "suggestions": [
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:507.507.1-507.507.1:774db575",
+        "gutenberg:ebooks:39250:507.507.2-507.507.2:f81d602e",
+        "gutenberg:ebooks:39250:507.507.3-507.507.3:5a95536c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-53ab4ec1",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0172",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "FIRE MYTHS.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:507.507.1-507.507.1:774db575",
+        "gutenberg:ebooks:39250:507.507.2-507.507.2:f81d602e",
+        "gutenberg:ebooks:39250:507.507.3-507.507.3:5a95536c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-b9bfb099",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0172",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "FIRE MYTHS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:507.507.1-507.507.1:774db575",
@@ -263,5 +295,5 @@
     "event-001"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

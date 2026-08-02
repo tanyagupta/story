@@ -300,7 +300,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -313,6 +313,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:259.259.1-259.259.1:5cc98bc0",
+        "gutenberg:ebooks:39250:259.259.2-259.259.2:ab21eb03",
+        "gutenberg:ebooks:39250:259.259.3-259.259.3:a197d280"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-f4af4c4c",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0108",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "A rav'nous vulture in his open side",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:259.259.1-259.259.1:5cc98bc0",
+        "gutenberg:ebooks:39250:259.259.2-259.259.2:ab21eb03",
+        "gutenberg:ebooks:39250:259.259.3-259.259.3:a197d280"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-99d544fa",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0108",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "A rav'nous vulture in his open side",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:259.259.1-259.259.1:5cc98bc0",
@@ -360,5 +392,5 @@
     "event-005"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -230,7 +230,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -244,6 +244,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:43.43.1-43.43.1:56b058ec",
+        "gutenberg:ebooks:39250:43.43.2-43.43.2:1b18ee5a",
+        "gutenberg:ebooks:39250:43.43.3-43.43.3:12360ad8"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-887d3594",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0163",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "With opposite oaths that they would have no Zeus",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:43.43.1-43.43.1:56b058ec",
+        "gutenberg:ebooks:39250:43.43.2-43.43.2:1b18ee5a",
+        "gutenberg:ebooks:39250:43.43.3-43.43.3:12360ad8"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-0921155a",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0163",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "With opposite oaths that they would have no Zeus",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:43.43.1-43.43.1:56b058ec",
@@ -291,5 +323,5 @@
     "event-002"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

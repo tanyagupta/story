@@ -415,7 +415,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -428,6 +428,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628",
+        "gutenberg:ebooks:22381:331.331.2-331.331.2:39926778",
+        "gutenberg:ebooks:22381:331.331.3-331.331.3:245b0c1b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-84cdc796",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0018",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "THE HERACLIDAE.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628",
+        "gutenberg:ebooks:22381:331.331.2-331.331.2:39926778",
+        "gutenberg:ebooks:22381:331.331.3-331.331.3:245b0c1b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-7e4d0715",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0018",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "THE HERACLIDAE.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628",
@@ -481,5 +513,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -182,7 +182,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -196,6 +196,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
+        "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c",
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-16c3aac6",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0228",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "VENUS.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
+        "gutenberg:ebooks:39250:165.165.2-165.165.2:4600fc0c",
+        "gutenberg:ebooks:39250:165.165.3-165.165.3:4d1dd50a"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-77d09c04",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0228",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "VENUS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:165.165.1-165.165.1:1c08b454",
@@ -242,5 +274,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

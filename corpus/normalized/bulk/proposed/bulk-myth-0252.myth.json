@@ -153,7 +153,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -167,6 +167,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2",
+        "gutenberg:ebooks:39250:466.466.2-466.466.2:f49d10a8",
+        "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-1b2ec5ab",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0252",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "For that one circular eye was broad infix'd",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2",
+        "gutenberg:ebooks:39250:466.466.2-466.466.2:f49d10a8",
+        "gutenberg:ebooks:39250:466.466.3-466.466.3:4a7f08a0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-c18b8d24",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0252",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "For that one circular eye was broad infix'd",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:466.466.1-466.466.1:b68b8ae2",
@@ -212,5 +244,5 @@
     "event-001"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

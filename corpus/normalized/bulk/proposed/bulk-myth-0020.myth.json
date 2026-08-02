@@ -413,7 +413,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -425,6 +425,38 @@
       "sourceValue": "STORY OF THE GOLDEN FLEECE.",
       "suggestions": [
         "machine-generated-extraction"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+        "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01",
+        "gutenberg:ebooks:22381:302.302.3-302.302.3:8296fb5e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-49647e5c",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0020",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "STORY OF THE GOLDEN FLEECE.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+        "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01",
+        "gutenberg:ebooks:22381:302.302.3-302.302.3:8296fb5e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-b62f9ac1",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0020",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "STORY OF THE GOLDEN FLEECE.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
@@ -468,5 +500,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -372,7 +372,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -385,6 +385,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:421.421.1-421.421.1:5cb6dab7",
+        "gutenberg:ebooks:39250:421.421.2-421.421.2:f988899f",
+        "gutenberg:ebooks:39250:421.421.3-421.421.3:41758eb9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-9bf19d01",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0090",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Whose verdant summit fragrant myrtles crown'd.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:421.421.1-421.421.1:5cb6dab7",
+        "gutenberg:ebooks:39250:421.421.2-421.421.2:f988899f",
+        "gutenberg:ebooks:39250:421.421.3-421.421.3:41758eb9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-0c5abda2",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0090",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Whose verdant summit fragrant myrtles crown'd.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:421.421.1-421.421.1:5cb6dab7",
@@ -435,5 +467,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

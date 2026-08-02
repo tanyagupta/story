@@ -266,7 +266,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -279,6 +279,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:174.174.1-174.174.1:03d2ec00",
+        "gutenberg:ebooks:22381:174.174.2-174.174.2:f7bd19a7",
+        "gutenberg:ebooks:22381:174.174.3-174.174.3:a8390f72"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d7fd5486",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0135",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "THETIS.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:174.174.1-174.174.1:03d2ec00",
+        "gutenberg:ebooks:22381:174.174.2-174.174.2:f7bd19a7",
+        "gutenberg:ebooks:22381:174.174.3-174.174.3:a8390f72"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-3f9349e6",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0135",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "THETIS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:174.174.1-174.174.1:03d2ec00",
@@ -327,5 +359,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -186,7 +186,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -200,6 +200,38 @@
         "fewer-than-three-meaningful-events",
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30",
+        "gutenberg:ebooks:39250:483.483.2-483.483.2:a9133f04",
+        "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-e5875888",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0197",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "CHAPTER XXIX.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30",
+        "gutenberg:ebooks:39250:483.483.2-483.483.2:a9133f04",
+        "gutenberg:ebooks:39250:483.483.3-483.483.3:6fbd4374"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-cb79ce92",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0197",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "CHAPTER XXIX.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:483.483.1-483.483.1:7b989a30",
@@ -246,5 +278,5 @@
     "event-002"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

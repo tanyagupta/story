@@ -342,7 +342,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -354,6 +354,38 @@
       "sourceValue": "THE HESPERIDES.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:228.228.1-228.228.1:fc5994bd",
+        "gutenberg:ebooks:22381:228.228.2-228.228.2:22cdacfc",
+        "gutenberg:ebooks:22381:228.228.3-228.228.3:d678ea38"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-5b5b352f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0114",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "THE HESPERIDES.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:228.228.1-228.228.1:fc5994bd",
+        "gutenberg:ebooks:22381:228.228.2-228.228.2:22cdacfc",
+        "gutenberg:ebooks:22381:228.228.3-228.228.3:d678ea38"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-cad79d07",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0114",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "THE HESPERIDES.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:228.228.1-228.228.1:fc5994bd",
@@ -402,5 +434,5 @@
     "event-005"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

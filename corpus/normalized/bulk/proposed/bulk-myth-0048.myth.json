@@ -414,7 +414,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -427,6 +427,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:335.335.1-335.335.1:f7d57266",
+        "gutenberg:ebooks:22381:335.335.2-335.335.2:5967abef",
+        "gutenberg:ebooks:22381:335.335.3-335.335.3:9a5a36b9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-54d77f73",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0048",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Menelaus experience any difficulty.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:335.335.1-335.335.1:f7d57266",
+        "gutenberg:ebooks:22381:335.335.2-335.335.2:5967abef",
+        "gutenberg:ebooks:22381:335.335.3-335.335.3:9a5a36b9"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-60ec75dc",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0048",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Menelaus experience any difficulty.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:335.335.1-335.335.1:f7d57266",
@@ -480,5 +512,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

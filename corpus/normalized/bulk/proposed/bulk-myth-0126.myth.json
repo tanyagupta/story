@@ -239,7 +239,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -252,6 +252,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e",
+        "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97",
+        "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-61161e02",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0126",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Polynices.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e",
+        "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97",
+        "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-5b3bcea8",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0126",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Polynices.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e",
@@ -299,5 +331,5 @@
     "event-004"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

@@ -406,7 +406,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "rejected_non_story"
     }
   ],
   "normalizationWarnings": [
@@ -419,6 +419,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:344.344.1-344.344.1:8b3bff11",
+        "gutenberg:ebooks:39250:344.344.2-344.344.2:4259c075",
+        "gutenberg:ebooks:39250:344.344.3-344.344.3:348dd4a8"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-a06c9c80",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0066",
+      "issueType": "verification-program-rejected_non_story",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "rejected_non_story"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:344.344.1-344.344.1:8b3bff11",
+        "gutenberg:ebooks:39250:344.344.2-344.344.2:4259c075",
+        "gutenberg:ebooks:39250:344.344.3-344.344.3:348dd4a8"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-fcd68677",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0066",
+      "issueType": "pr12-audit-rejected_non_story",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:344.344.1-344.344.1:8b3bff11",
@@ -471,5 +503,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "rejected_non_story"
 }

@@ -411,7 +411,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -424,6 +424,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:539.539.1-539.539.1:426ce2c9",
+        "gutenberg:ebooks:39250:539.539.2-539.539.2:7a2df40b",
+        "gutenberg:ebooks:39250:539.539.3-539.539.3:dff78da3"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-3d5547a9",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0017",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Mars.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:539.539.1-539.539.1:426ce2c9",
+        "gutenberg:ebooks:39250:539.539.2-539.539.2:7a2df40b",
+        "gutenberg:ebooks:39250:539.539.3-539.539.3:dff78da3"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-efd41f4f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0017",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Mars.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:539.539.1-539.539.1:426ce2c9",
@@ -477,5 +509,5 @@
     "event-007"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

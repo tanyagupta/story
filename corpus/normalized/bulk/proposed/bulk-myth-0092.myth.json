@@ -370,7 +370,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -383,6 +383,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:330.330.1-330.330.1:6b70ffd0",
+        "gutenberg:ebooks:39250:330.330.2-330.330.2:79f03266",
+        "gutenberg:ebooks:39250:330.330.3-330.330.3:1e96559c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d9ce06a5",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0092",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "That come through the carved ivory deceive",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:330.330.1-330.330.1:6b70ffd0",
+        "gutenberg:ebooks:39250:330.330.2-330.330.2:79f03266",
+        "gutenberg:ebooks:39250:330.330.3-330.330.3:1e96559c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d53ee99e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0092",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "That come through the carved ivory deceive",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:330.330.1-330.330.1:6b70ffd0",
@@ -433,5 +465,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

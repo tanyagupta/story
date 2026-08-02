@@ -265,7 +265,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -277,6 +277,38 @@
       "sourceValue": "Worsley.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd",
+        "gutenberg:ebooks:39250:137.137.2-137.137.2:719193d5",
+        "gutenberg:ebooks:39250:137.137.3-137.137.3:80eda73e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-432435cb",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0151",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Worsley.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd",
+        "gutenberg:ebooks:39250:137.137.2-137.137.2:719193d5",
+        "gutenberg:ebooks:39250:137.137.3-137.137.3:80eda73e"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-961c9cb6",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0151",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Worsley.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:137.137.1-137.137.1:ca16cacd",
@@ -321,5 +353,5 @@
     "event-005"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

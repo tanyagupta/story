@@ -297,7 +297,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -310,6 +310,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:486.486.1-486.486.1:a9c5151b",
+        "gutenberg:ebooks:39250:486.486.2-486.486.2:2a2698af",
+        "gutenberg:ebooks:39250:486.486.3-486.486.3:08b2d1ef"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-348c4cf0",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0112",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Who once o'er land and peoples proud",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:486.486.1-486.486.1:a9c5151b",
+        "gutenberg:ebooks:39250:486.486.2-486.486.2:2a2698af",
+        "gutenberg:ebooks:39250:486.486.3-486.486.3:08b2d1ef"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-e053e2ae",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0112",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Who once o'er land and peoples proud",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:486.486.1-486.486.1:a9c5151b",
@@ -359,5 +391,5 @@
     "event-003"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

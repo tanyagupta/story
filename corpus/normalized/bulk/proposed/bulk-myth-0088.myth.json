@@ -382,7 +382,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -394,6 +394,38 @@
       "sourceValue": "The lonely hope of Sestos' daughter.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:186.186.1-186.186.1:d1e7d467",
+        "gutenberg:ebooks:39250:186.186.2-186.186.2:6e1750c7",
+        "gutenberg:ebooks:39250:186.186.3-186.186.3:551b92b0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-863b70e6",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0088",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "The lonely hope of Sestos' daughter.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:186.186.1-186.186.1:d1e7d467",
+        "gutenberg:ebooks:39250:186.186.2-186.186.2:6e1750c7",
+        "gutenberg:ebooks:39250:186.186.3-186.186.3:551b92b0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-edff35dd",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0088",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "The lonely hope of Sestos' daughter.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:186.186.1-186.186.1:d1e7d467",
@@ -443,5 +475,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

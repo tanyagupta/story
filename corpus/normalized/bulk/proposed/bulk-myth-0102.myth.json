@@ -358,7 +358,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -370,6 +370,38 @@
       "sourceValue": "RETURN OF THE GREEKS FROM TROY.",
       "suggestions": [
         "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:338.338.1-338.338.1:e252c4e0",
+        "gutenberg:ebooks:22381:338.338.2-338.338.2:0a02006e",
+        "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-98b18712",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0102",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "RETURN OF THE GREEKS FROM TROY.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:338.338.1-338.338.1:e252c4e0",
+        "gutenberg:ebooks:22381:338.338.2-338.338.2:0a02006e",
+        "gutenberg:ebooks:22381:338.338.3-338.338.3:e123c4d6"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-9eb3aa5d",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0102",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "RETURN OF THE GREEKS FROM TROY.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:338.338.1-338.338.1:e252c4e0",
@@ -419,5 +451,5 @@
     "event-007"
   ],
   "boundaryStatus": "machine-proposed-section-boundary",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

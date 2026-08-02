@@ -392,7 +392,7 @@
       "sourceIds": [
         "gutenberg-guerber-myths-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "awaiting_substantive_source_review"
     }
   ],
   "normalizationWarnings": [
@@ -404,6 +404,38 @@
       "sourceValue": "Then with thick shades are lofty mountains crown'd.",
       "suggestions": [
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:312.312.1-312.312.1:8885a9b0",
+        "gutenberg:ebooks:39250:312.312.2-312.312.2:c8888b92",
+        "gutenberg:ebooks:39250:312.312.3-312.312.3:49f23c4c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-e4d7c375",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0082",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Then with thick shades are lofty mountains crown'd.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:312.312.1-312.312.1:8885a9b0",
+        "gutenberg:ebooks:39250:312.312.2-312.312.2:c8888b92",
+        "gutenberg:ebooks:39250:312.312.3-312.312.3:49f23c4c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-95adda7b",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0082",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Then with thick shades are lofty mountains crown'd.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:39250:312.312.1-312.312.1:8885a9b0",
@@ -451,5 +483,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "awaiting_substantive_source_review"
 }

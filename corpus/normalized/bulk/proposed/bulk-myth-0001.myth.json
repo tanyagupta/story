@@ -453,7 +453,7 @@
       "sourceIds": [
         "gutenberg-berens-myths-legends-greece-rome-eng"
       ],
-      "reviewStatus": "awaiting_review"
+      "reviewStatus": "unresolved_requires_human_review"
     }
   ],
   "normalizationWarnings": [
@@ -466,6 +466,38 @@
       "suggestions": [
         "fewer-than-two-actor-events",
         "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:303.303.1-303.303.1:e1f37167",
+        "gutenberg:ebooks:22381:303.303.2-303.303.2:56c72cc1",
+        "gutenberg:ebooks:22381:303.303.3-303.303.3:fcec818c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-9c6ae4be",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0001",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Giants--monsters with six arms.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:303.303.1-303.303.1:e1f37167",
+        "gutenberg:ebooks:22381:303.303.2-303.303.2:56c72cc1",
+        "gutenberg:ebooks:22381:303.303.3-303.303.3:fcec818c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-085895d8",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0001",
+      "issueType": "pr12-audit-unresolved_requires_human_review",
+      "sourceValue": "Giants--monsters with six arms.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
       ],
       "evidence": [
         "gutenberg:ebooks:22381:303.303.1-303.303.1:e1f37167",
@@ -520,5 +552,5 @@
     "event-008"
   ],
   "boundaryStatus": "requires-boundary-review",
-  "reviewStatus": "awaiting_review"
+  "reviewStatus": "unresolved_requires_human_review"
 }
