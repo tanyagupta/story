@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation of Perseus Beheads Medusa; not a source edition.",
+    "constructionPolicy": "Source-aligned editorial adaptation of Perseus Beheads Medusa based only on the linked source-audited record; not a source edition.",
     "basedOnSourceAuditedReference": true
   },
   "referenceLinks": {
@@ -15,149 +15,148 @@
     ]
   },
   "scope": {
-    "beginning": "Perseus reaches the sleeping Gorgons with Athena’s guidance and divine tools.",
-    "ending": "Medusa is beheaded and Perseus escapes with the head as Pegasus and Chrysaor spring forth.",
-    "boundaryRationale": "The episode begins with perseus reaches the sleeping gorgons with athena’s guidance and divine tools and closes at medusa is beheaded and perseus escapes with the head as pegasus and chrysaor spring forth, leaving surrounding cycle material outside this production unit."
+    "beginning": "The episode begins when the slaying of Medusa is selected as the heroic deed Perseus will undertake.",
+    "ending": "It ends when Athena guides Perseus to cut off Medusa's head and he places it in his wallet.",
+    "boundaryRationale": "The production unit follows only actions stated in the linked Berens record; the reflective shield, sleeping Gorgons, Pegasus, Chrysaor, and an escape sequence are excluded."
   },
   "variant": {
-    "chosenVersion": "Standard reflective-shield Medusa episode; later use of the head is excluded.",
-    "materialAlternatives": []
+    "chosenVersion": "Berens' concise Medusa expedition: Hermes and Athena guide Perseus, and Athena guides the beheading.",
+    "materialAlternatives": [
+      "Reflective-shield tactics and births from Medusa's body are not included because they are absent from the linked record."
+    ]
   },
   "characters": [
     {
       "id": "perseus",
       "name": "Perseus",
-      "role": "armed hero",
-      "goal": "kill Medusa without meeting her gaze"
+      "role": "hero assigned the Medusa expedition",
+      "goal": "slay Medusa"
     },
     {
       "id": "medusa",
       "name": "Medusa",
-      "role": "mortal Gorgon",
-      "goal": "guard her deadly power even in sleep"
+      "role": "Gorgon selected as the quest target",
+      "goal": "remain the dangerous object of the expedition"
     },
     {
       "id": "athena",
       "name": "Athena",
-      "role": "guiding goddess",
-      "goal": "aid the reflective approach"
+      "role": "goddess guiding Perseus",
+      "goal": "guide the expedition and the beheading"
     },
     {
-      "id": "pegasus",
-      "name": "Pegasus",
-      "role": "winged horse born from Medusa",
-      "goal": "emerge after the beheading"
+      "id": "hermes",
+      "name": "Hermes",
+      "role": "divine guide on the journey",
+      "goal": "guide Perseus toward the distant region"
     },
     {
-      "id": "chrysaor",
-      "name": "Chrysaor",
-      "role": "being born from Medusa",
-      "goal": "emerge after the beheading"
+      "id": "polydectes",
+      "name": "Polydectes",
+      "role": "king who promotes the heroic quest",
+      "goal": "send Perseus toward a deed of renown"
     }
   ],
   "relationships": [
     {
       "source": "athena",
-      "relationship": "ally-of",
+      "relationship": "guide-of",
       "target": "perseus",
-      "rationale": "Athena ally of Perseus during Perseus Beheads Medusa."
+      "rationale": "Athena guides Perseus in the linked source."
+    },
+    {
+      "source": "hermes",
+      "relationship": "guide-of",
+      "target": "perseus",
+      "rationale": "Hermes guides Perseus on the expedition."
     },
     {
       "source": "perseus",
       "relationship": "enemy-of",
       "target": "medusa",
-      "rationale": "Perseus enemy of Medusa during Perseus Beheads Medusa."
+      "rationale": "Perseus cuts off Medusa's head."
     }
   ],
   "narrative": {
-    "synopsis": "Perseus kills Medusa by disciplined indirection rather than a direct stare. The beheading produces both the terrible Gorgon head and the wondrous births of Pegasus and Chrysaor.",
-    "openingSituation": "Perseus has reached the Gorgons with tools meant for stealth and restraint.",
-    "centralConflict": "The challenge is that seeing Medusa directly would destroy him.",
-    "resolution": "Medusa is beheaded while Perseus avoids her gaze.",
-    "outcome": "Perseus leaves with the head, and new beings spring from the violence."
+    "synopsis": "Polydectes directs Perseus toward the slaying of Medusa as a deed of renown. Perseus begins the expedition under the guidance of Hermes and Athena; Athena then guides him as he cuts off Medusa's head and places it in his wallet.",
+    "openingSituation": "Perseus is encouraged to distinguish himself through a great heroic deed.",
+    "centralConflict": "The chosen deed is the slaying of the Gorgon Medusa in a far-off region.",
+    "resolution": "Guided by Athena, Perseus cuts off Medusa's head.",
+    "outcome": "Perseus places Medusa's head in his wallet; later uses of the head belong to other episodes."
   },
   "events": [
     {
       "sequence": 1,
-      "actor": "perseus",
-      "action": "approach",
-      "target": "medusa",
-      "consequence": "Perseus reaches the sleeping Gorgons.",
+      "actor": "polydectes",
+      "action": "select-quest",
+      "target": "perseus",
+      "consequence": "The slaying of Medusa is chosen as the deed that will bring Perseus renown.",
       "factIds": [
         "fact-01"
       ]
     },
     {
       "sequence": 2,
-      "actor": "athena",
-      "action": "guide",
-      "target": "perseus",
-      "consequence": "Athena enables the reflective tactic.",
+      "actor": "perseus",
+      "action": "begin-expedition",
+      "target": "medusa",
+      "consequence": "Perseus starts the journey toward the Gorgon.",
       "factIds": [
         "fact-02"
       ]
     },
     {
       "sequence": 3,
-      "actor": "perseus",
-      "action": "avoid",
-      "target": "medusa",
-      "consequence": "Perseus does not meet Medusa’s gaze.",
+      "actor": "hermes",
+      "action": "guide",
+      "target": "perseus",
+      "consequence": "Hermes helps guide Perseus to the far-off region.",
       "factIds": [
         "fact-03"
       ]
     },
     {
       "sequence": 4,
-      "actor": "perseus",
-      "action": "behead",
-      "target": "medusa",
-      "consequence": "Medusa is killed.",
+      "actor": "athena",
+      "action": "guide",
+      "target": "perseus",
+      "consequence": "Athena guides Perseus at the decisive moment.",
       "factIds": [
         "fact-04"
       ]
     },
     {
       "sequence": 5,
-      "actor": "pegasus",
-      "action": "emerge",
+      "actor": "perseus",
+      "action": "behead",
       "target": "medusa",
-      "consequence": "Pegasus springs from Medusa.",
+      "consequence": "Perseus cuts off Medusa's head and places it in his wallet.",
       "factIds": [
         "fact-05"
-      ]
-    },
-    {
-      "sequence": 6,
-      "actor": "perseus",
-      "action": "escape",
-      "target": "medusa",
-      "consequence": "Perseus carries the head away.",
-      "factIds": [
-        "fact-06"
       ]
     }
   ],
   "locations": [
-    "Gorgons’ lair"
+    "far-off region near Oceanus"
   ],
   "themes": [
-    "indirection",
-    "monster slaying",
-    "dangerous trophy"
+    "heroic quest",
+    "divine guidance",
+    "monster slaying"
   ],
   "adaptation": {
-    "recommendedSceneCount": 6,
+    "recommendedSceneCount": 5,
     "visualBeats": [
-      "Perseus has reached the Gorgons with tools meant for stealth and restraint.",
-      "The challenge is that seeing Medusa directly would destroy him.",
-      "Medusa is beheaded while Perseus avoids her gaze."
+      "Polydectes points Perseus toward the Medusa quest.",
+      "Hermes and Athena guide the hero through a remote landscape.",
+      "Athena guides the beheading and Perseus secures the head in his wallet."
     ],
     "sensitiveContent": [
-      "mythic violence or distress"
+      "beheading",
+      "mythic violence"
     ],
     "productionNotes": [
-      "Keep the reflective shield central; the scene should not become a simple sword duel."
+      "Do not show a reflective shield, Pegasus, Chrysaor, sleeping Gorgons, or an escape sequence as facts from this linked record."
     ]
   }
 }
