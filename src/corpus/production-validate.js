@@ -7,6 +7,7 @@ const ROOT = path.resolve(__dirname, "..", "..");
 const PRODUCTION_ROOT = path.join(ROOT, "corpus", "production");
 const MYTH_DIR = path.join(PRODUCTION_ROOT, "myths");
 const PLAN_FILE = path.join(PRODUCTION_ROOT, "plans", "production-myth-plan.json");
+const PLAN_OVERRIDE_FILE = path.join(PRODUCTION_ROOT, "plans", "production-myth-plan-source-aligned-overrides.json");
 const CATALOG_FILE = path.join(PRODUCTION_ROOT, "catalog", "production-myths.json");
 const FAMILY_FILE = path.join(PRODUCTION_ROOT, "catalog", "production-myth-families.json");
 const SOURCE_LINK_FILE = path.join(PRODUCTION_ROOT, "catalog", "production-source-links.json");
@@ -145,6 +146,7 @@ function validateProductionCorpus() {
   if (mythFiles.length !== TARGET_COUNT) errors.push(`expected ${TARGET_COUNT} production myth files, found ${mythFiles.length}`);
 
   const plan = readJson(PLAN_FILE);
+  const planOverrides = readJson(PLAN_OVERRIDE_FILE);
   const catalog = readJson(CATALOG_FILE);
   const familyCatalog = readJson(FAMILY_FILE);
   const sourceLinks = readJson(SOURCE_LINK_FILE);
@@ -168,6 +170,9 @@ function validateProductionCorpus() {
   );
 
   if (!Array.isArray(plan.records) || plan.records.length !== TARGET_COUNT) errors.push("production plan must contain exactly 200 records");
+  if (!Array.isArray(planOverrides.records) || planOverrides.records.length !== 7) {
+    errors.push("source-aligned plan overrides must contain exactly seven records");
+  }
   if (!Array.isArray(catalog.records) || catalog.records.length !== TARGET_COUNT) errors.push("production catalog must contain exactly 200 records");
   if (repairedRecords.length !== 50) errors.push(`expected 50 substantively repaired records, found ${repairedRecords.length}`);
   if (placeholderRecords.length !== 150) errors.push(`expected 150 remaining placeholders, found ${placeholderRecords.length}`);
@@ -184,7 +189,27 @@ function validateProductionCorpus() {
     titles.add(record.title);
   });
 
-  const planByRecord = new Map((plan.records || []).map((item) => [item.productionRecordId, item]));
+  const effectivePlanRecords = [...(plan.records || [])];
+  const effectivePlanIndexes = new Map(
+    effectivePlanRecords.map((item, index) => [item.productionRecordId, index])
+  );
+  const overrideIds = new Set();
+  for (const item of planOverrides.records || []) {
+    if (overrideIds.has(item.productionRecordId)) {
+      errors.push(`duplicate source-aligned plan override ${item.productionRecordId}`);
+      continue;
+    }
+    overrideIds.add(item.productionRecordId);
+    const index = effectivePlanIndexes.get(item.productionRecordId);
+    if (index === undefined) {
+      errors.push(`source-aligned plan override references unknown record ${item.productionRecordId}`);
+      continue;
+    }
+    effectivePlanRecords[index] = item;
+  }
+  const planByRecord = new Map(
+    effectivePlanRecords.map((item) => [item.productionRecordId, item])
+  );
   const reviewByRecord = new Map();
   for (const repairReview of repairReviews) {
     const approvedReviewCount = (repairReview.records || []).filter((item) => item.approved === true).length;
@@ -247,7 +272,7 @@ function validateProductionCorpus() {
       }
       if (relationship.relationship === "mythic-tension-with") errors.push(`${record.id} uses forbidden mythic-tension-with relationship`);
       if (!ALLOWED_RELATIONSHIPS.has(relationship.relationship)) errors.push(`${record.id} uses unsupported relationship ${relationship.relationship}`);
-      if (/shape .*\\.$/.test(relationship.rationale || "")) errors.push(`${record.id} has generated title-based relationship rationale`);
+      if (/shape .*\.$/.test(relationship.rationale || "")) errors.push(`${record.id} has generated title-based relationship rationale`);
     });
     if ((record.themes || []).includes("bounded myth episode")) errors.push(`${record.id} contains generic theme bounded myth episode`);
     (record.adaptation.productionNotes || []).forEach((note) => {
@@ -306,7 +331,8 @@ function validateProductionCorpus() {
   return {
     valid: errors.length === 0,
     productionRecords: records.length,
-    planRecords: (plan.records || []).length,
+    planRecords: effectivePlanRecords.length,
+    planOverrideRecords: (planOverrides.records || []).length,
     catalogRecords: (catalog.records || []).length,
     substantivelyRepaired: repairedRecords.length,
     remainingPlaceholders: placeholderRecords.length,
