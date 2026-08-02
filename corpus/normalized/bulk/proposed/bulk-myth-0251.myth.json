@@ -1,0 +1,255 @@
+{
+  "mythId": "bulk-myth-0251",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-f91f05",
+  "title": "Moore.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe",
+      "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87",
+      "gutenberg:ebooks:39250:107.107.3-107.107.3:06f669c7"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "athena"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe"
+        }
+      ]
+    },
+    {
+      "sourceName": "Minerva",
+      "normalizedId": "athena",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
+    "openingSituation": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
+    "centralConflict": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
+    "resolution": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
+    "outcome": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
+    "storyline": [
+      "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe",
+        "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87",
+        "gutenberg:ebooks:39250:107.107.3-107.107.3:06f669c7"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe",
+        "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe",
+        "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe",
+        "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe",
+        "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe",
+      "excerpt": "[Sidenote: Apollo and Marsyas.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87",
+      "excerpt": "A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly held his breath to listen.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:107.107.3-107.107.3:06f669c7",
+      "excerpt": "\"Hence, ye banes of beauty, hence! What? shall I my charms disgrace By making such an odious face?\"",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
+      "evidence": [
+        "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly held his breath to listen.",
+      "sourceClause": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly held his breath to listen.",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": "apollo",
+      "recipient": null,
+      "location": null,
+      "result": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly",
+      "evidence": [
+        "gutenberg:ebooks:39250:107.107.3-107.107.3:06f669c7"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "[Sidenote: Apollo and Marsyas.] A young shepherd, lying in the cool grass one summer afternoon, became aware of a distant sound of music, so sweet, so thrilling, that he fairly"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-76f19870",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0107-21583c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Moore.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe",
+        "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87",
+        "gutenberg:ebooks:39250:107.107.3-107.107.3:06f669c7"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-bbd811d0",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0251",
+      "issueType": "verification-program-rejected_non_story",
+      "sourceValue": "Moore.",
+      "suggestions": [
+        "rejected_non_story"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe",
+        "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87",
+        "gutenberg:ebooks:39250:107.107.3-107.107.3:06f669c7"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-0255d605",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0251",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Moore.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:107.107.1-107.107.1:bd6a27fe",
+        "gutenberg:ebooks:39250:107.107.2-107.107.2:3998da87",
+        "gutenberg:ebooks:39250:107.107.3-107.107.3:06f669c7"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.3,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "athena"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

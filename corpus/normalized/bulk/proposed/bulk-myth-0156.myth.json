@@ -1,0 +1,313 @@
+{
+  "mythId": "bulk-myth-0156",
+  "mythFamilyId": "perseus-and-medusa",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-perseus-and-medusa-145dad",
+  "title": "Shelley.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0",
+      "gutenberg:ebooks:39250:364.364.2-364.364.2:5b6aaac3",
+      "gutenberg:ebooks:39250:364.364.3-364.364.3:e70deb5f",
+      "gutenberg:ebooks:39250:364.364.4-364.364.4:d0e1ad06",
+      "gutenberg:ebooks:39250:364.364.5-364.364.5:e5348dea"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "zeus",
+      "perseus",
+      "acrisius",
+      "danae"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ]
+    },
+    {
+      "sourceName": "Perseus",
+      "normalizedId": "perseus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ]
+    },
+    {
+      "sourceName": "Acrisius",
+      "normalizedId": "acrisius",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ]
+    },
+    {
+      "sourceName": "Danae",
+      "normalizedId": "danae",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with",
+    "openingSituation": "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most",
+    "centralConflict": "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with",
+    "resolution": "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with",
+    "outcome": "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with",
+    "storyline": [
+      "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most",
+      "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0",
+        "gutenberg:ebooks:39250:364.364.2-364.364.2:5b6aaac3",
+        "gutenberg:ebooks:39250:364.364.3-364.364.3:e70deb5f"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:364.364.4-364.364.4:d0e1ad06"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:364.364.4-364.364.4:d0e1ad06"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:364.364.4-364.364.4:d0e1ad06"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0",
+      "excerpt": "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most diligently, and finally winning her to a secret marriage, to which",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:364.364.2-364.364.2:5b6aaac3",
+      "excerpt": "[Sidenote: Birth of Perseus.]",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:364.364.3-364.364.3:e70deb5f",
+      "excerpt": "But one morning the guards rushed in terror to Acrisius' palace to announce that Danae, his daughter, had given birth to a son, who, on account of his beauty, was called Perseus.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:364.364.4-364.364.4:d0e1ad06",
+      "excerpt": "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with her helpless infant, and exposed to the fury of the waves.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:364.364.5-364.364.5:e5348dea",
+      "excerpt": "\"When round the well-fram'd ark the blowing blast Roar'd, and the heaving whirlpools of the deep",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "zeus",
+      "predicate": "opening_situation",
+      "object": "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most",
+      "evidence": [
+        "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most diligently, and finally winning her to a secret marriage, to which no one offered the slightest objection, as no one suspected his visits, which he continued quite unmolested.",
+      "sourceClause": "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most diligently, and finally winning her to a secret marriage, to which no one offered the slightest objection, as no one suspected his visits, which he continued quite unmolested.",
+      "actor": null,
+      "action": "sacrifice",
+      "sourceAction": "offered",
+      "object": null,
+      "target": "zeus",
+      "recipient": null,
+      "location": null,
+      "result": "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with her helpless infant, and exposed to the fury of the waves.",
+      "sourceClause": "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with her helpless infant, and exposed to the fury of the waves.",
+      "actor": "acrisius",
+      "action": "command",
+      "sourceAction": "ordered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:364.364.4-364.364.4:d0e1ad06"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "zeus",
+      "predicate": "outcome",
+      "object": "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with",
+      "evidence": [
+        "gutenberg:ebooks:39250:364.364.5-364.364.5:e5348dea"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "This first successful visit was frequently repeated, and Danae no longer felt lonely and deserted, for Jupiter spent most of his time with her, pursuing his courtship most",
+      "Acrisius, however, was not cruel enough to stain his own hands with his child's blood, or to witness her execution: so he ordered that she should be placed in an empty cask with"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-a7f9ec36",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0364-09ae6b",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Shelley.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0",
+        "gutenberg:ebooks:39250:364.364.2-364.364.2:5b6aaac3",
+        "gutenberg:ebooks:39250:364.364.3-364.364.3:e70deb5f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-feb19791",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0156",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Shelley.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0",
+        "gutenberg:ebooks:39250:364.364.2-364.364.2:5b6aaac3",
+        "gutenberg:ebooks:39250:364.364.3-364.364.3:e70deb5f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d1294f87",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0156",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Shelley.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:364.364.1-364.364.1:7bcc88b0",
+        "gutenberg:ebooks:39250:364.364.2-364.364.2:5b6aaac3",
+        "gutenberg:ebooks:39250:364.364.3-364.364.3:e70deb5f"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 92,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 2,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.46,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "zeus",
+    "perseus",
+    "acrisius",
+    "danae"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

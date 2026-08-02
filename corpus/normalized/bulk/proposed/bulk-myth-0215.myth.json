@@ -1,0 +1,236 @@
+{
+  "mythId": "bulk-myth-0215",
+  "mythFamilyId": "theseus-and-minotaur",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-theseus-and-minotaur-e3bde9",
+  "title": "Earth.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b",
+      "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "ariadne",
+      "narcissus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Ariadne",
+      "normalizedId": "ariadne",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b"
+        }
+      ]
+    },
+    {
+      "sourceName": "Narcissus",
+      "normalizedId": "narcissus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+    "openingSituation": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+    "centralConflict": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+    "resolution": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+    "outcome": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+    "storyline": [
+      "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b",
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b",
+      "excerpt": "Æther and Hemera create the, 13; divisions of the, 15; realm of the, 25; the mother of all, 38; oath by the, 172; Antæus, son of the, 228; significance, 398.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1",
+      "excerpt": "E´cho. Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "ariadne",
+      "predicate": "opening_situation",
+      "object": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+      "evidence": [
+        "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+      "sourceClause": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "changed",
+      "object": null,
+      "target": "ariadne",
+      "recipient": null,
+      "location": null,
+      "result": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "ariadne",
+      "predicate": "outcome",
+      "object": "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179.",
+      "evidence": [
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Nymph who pined for love of Narcissus; changed to a voice, 118, 119; answers Cephalus, 71; mocks Ariadne, 179."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-242041c8",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0518-ec7861",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Earth.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b",
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d7142709",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0215",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Earth.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b",
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-41ff9315",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0215",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Earth.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:518.518.1-518.518.1:a76a551b",
+        "gutenberg:ebooks:39250:518.518.2-518.518.2:f3d974c1"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 60,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.3,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "ariadne",
+    "narcissus"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

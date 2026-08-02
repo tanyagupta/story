@@ -1,0 +1,277 @@
+{
+  "mythId": "bulk-myth-0267",
+  "mythFamilyId": "aulis",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-aulis-c4c4bc",
+  "title": "Aulis.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+      "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+      "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b",
+      "gutenberg:ebooks:39250:443.443.4-443.443.4:03e576d0",
+      "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215",
+      "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels. [Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given",
+    "openingSituation": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+    "centralConflict": "[Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given",
+    "resolution": "[Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given",
+    "outcome": "[Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given",
+    "storyline": [
+      "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "[Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+        "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+        "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:443.443.4-443.443.4:03e576d0",
+        "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:443.443.4-443.443.4:03e576d0",
+        "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:443.443.4-443.443.4:03e576d0",
+        "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+      "excerpt": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+      "excerpt": "\"The troops Collected and imbodied, here we sit Inactive, and from Aulis wish to sail In vain.\"",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b",
+      "excerpt": "Euripides (Potter's tr.).",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.4-443.443.4:03e576d0",
+      "excerpt": "[Sidenote: Sacrifice of Iphigenia.]",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215",
+      "excerpt": "Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given purported that no favorable wind would blow until Iphigenia, daughter of Agamemnon, was offered",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37",
+      "excerpt": "Many other propitiatory methods were tried; but as they all proved ineffective, Agamemnon, urged by his companions, sent for his daughter, feigning that he wished to celebrate her nuptials with",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "sourceClause": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "[Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given purported that no favorable wind would blow until Iphigenia, daughter of Agamemnon, was offered up in sacrifice to appease the everlasting gods.",
+      "sourceClause": "[Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given purported that no favorable wind would blow until Iphigenia, daughter of Agamemnon, was offered up in sacrifice to appease the everlasting gods.",
+      "actor": null,
+      "action": "sacrifice",
+      "sourceAction": "offered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "[Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:443.443.4-443.443.4:03e576d0"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:443.443.5-443.443.5:fae98215"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "[Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given",
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.6-443.443.6:6f10df37"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The Greeks were now ready to embark; but no favorable wind came to swell the sails, which day after day hung limp and motionless against the tall masts of their vessels.",
+      "[Sidenote: Sacrifice of Iphigenia.] Calchas, the soothsayer of the expedition, was again consulted, to discover how they might best win the favor of the gods; and the reply given"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-47ce8889",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0443-ab2fec",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Aulis.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+        "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+        "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ef0ce226",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0267",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Aulis.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+        "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+        "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-160f70ff",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0267",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Aulis.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:443.443.1-443.443.1:ec3e7ede",
+        "gutenberg:ebooks:39250:443.443.2-443.443.2:1894511e",
+        "gutenberg:ebooks:39250:443.443.3-443.443.3:f7125e9b"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 55,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.275,
+  "failedGates": [
+    "no-mythological-characters",
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

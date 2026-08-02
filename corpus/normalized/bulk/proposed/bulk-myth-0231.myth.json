@@ -1,0 +1,262 @@
+{
+  "mythId": "bulk-myth-0231",
+  "mythFamilyId": "eros-and-psyche",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-eros-and-psyche-16c93a",
+  "title": "XXII",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:207.207.1-207.207.1:c6146355",
+      "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "cupid",
+      "psyche"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Cupid",
+      "normalizedId": "cupid",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:207.207.1-207.207.1:c6146355"
+        }
+      ]
+    },
+    {
+      "sourceName": "Psyche",
+      "normalizedId": "psyche",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:207.207.1-207.207.1:c6146355"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The story is told in the Mahabharata, an ancient epic of India. Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three",
+    "openingSituation": "The story is told in the Mahabharata, an ancient epic of India.",
+    "centralConflict": "Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three",
+    "resolution": "Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three",
+    "outcome": "Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three",
+    "storyline": [
+      "The story is told in the Mahabharata, an ancient epic of India.",
+      "Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:207.207.1-207.207.1:c6146355",
+        "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:207.207.1-207.207.1:c6146355"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:207.207.1-207.207.1:c6146355",
+      "excerpt": "There is a very old story of a woman's love for her husband and her efforts to win him back from Death which is known in every part of India. On a certain night in the year millions of Hindu women celebrate a rite in honor of Savitri.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959",
+      "excerpt": "Walter Pater, in \"Marius the Epicurean,\" gives the story of Cupid and Psyche as contained in Apuleius.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "cupid",
+      "predicate": "opening_situation",
+      "object": "The story is told in the Mahabharata, an ancient epic of India.",
+      "evidence": [
+        "gutenberg:ebooks:45489:207.207.1-207.207.1:c6146355"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "The story is told in the Mahabharata, an ancient epic of India.",
+      "sourceClause": "The story is told in the Mahabharata, an ancient epic of India.",
+      "actor": null,
+      "action": "reveal",
+      "sourceAction": "told",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The story is told in the Mahabharata, an ancient epic of India.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:207.207.1-207.207.1:c6146355"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three Daughters of King O'Hara,\" \"Fair, Brown and Trembling,\" \"The Daughter of the Skies\"; and the Norse tale, \"East of the Sun and West of the Moon.\"",
+      "sourceClause": "Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three Daughters of King O'Hara,\" \"Fair, Brown and Trembling,\" \"The Daughter of the Skies\"; and the Norse tale, \"East of the Sun and West of the Moon.\"",
+      "actor": null,
+      "action": "discover",
+      "sourceAction": "found",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "cupid",
+      "predicate": "outcome",
+      "object": "Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three",
+      "evidence": [
+        "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The story is told in the Mahabharata, an ancient epic of India.",
+      "Many of the incidents of the story will be found in modern fairy tales and romances such as \"Beauty and the Beast\"; Grimm's \"Twelve Brothers\"; the Gaelic stories: \"The Three"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-f852245d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0207-71624b",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "XXII",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:207.207.1-207.207.1:c6146355",
+        "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-9abc04ed",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0231",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "XXII",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:207.207.1-207.207.1:c6146355",
+        "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-f4f962f0",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0231",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "XXII",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:207.207.1-207.207.1:c6146355",
+        "gutenberg:ebooks:45489:207.207.2-207.207.2:e6a1d959"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 71,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.355,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "cupid",
+    "psyche"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

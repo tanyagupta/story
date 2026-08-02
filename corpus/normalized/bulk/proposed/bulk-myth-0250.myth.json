@@ -1,0 +1,302 @@
+{
+  "mythId": "bulk-myth-0250",
+  "mythFamilyId": "manes",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-manes-4d6b32",
+  "title": "MANES.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:268.268.1-268.268.1:11e042b4",
+      "gutenberg:ebooks:22381:268.268.2-268.268.2:5e28f334",
+      "gutenberg:ebooks:22381:268.268.3-268.268.3:9d772f9d",
+      "gutenberg:ebooks:22381:268.268.4-268.268.4:af08572b",
+      "gutenberg:ebooks:22381:268.268.5-268.268.5:348789c9",
+      "gutenberg:ebooks:22381:268.268.6-268.268.6:5e099d3c",
+      "gutenberg:ebooks:22381:268.268.7-268.268.7:d14af741"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The Manes were the spirits of the departed, and were of two kinds, viz., Lemures (or Larvae) and Lares.",
+    "openingSituation": "The Manes were the spirits of the departed, and were of two kinds, viz., Lemures (or Larvae) and Lares.",
+    "centralConflict": "Before starting on any expedition the master of the house saluted the statue of the Lar, and, on his return, a solemn thanksgiving was offered to this, the presiding deity of his",
+    "resolution": "Their temples were always open for any pious worshipper to enter, and on their altars public sacrifices were offered for the welfare of the state or city.",
+    "outcome": "Their temples were always open for any pious worshipper to enter, and on their altars public sacrifices were offered for the welfare of the state or city.",
+    "storyline": [
+      "The Manes were the spirits of the departed, and were of two kinds, viz., Lemures (or Larvae) and Lares.",
+      "Before starting on any expedition the master of the house saluted the statue of the Lar, and, on his return, a solemn thanksgiving was offered to this, the presiding deity of his",
+      "Their temples were always open for any pious worshipper to enter, and on their altars public sacrifices were offered for the welfare of the state or city."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:268.268.1-268.268.1:11e042b4",
+        "gutenberg:ebooks:22381:268.268.2-268.268.2:5e28f334",
+        "gutenberg:ebooks:22381:268.268.3-268.268.3:9d772f9d"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:268.268.2-268.268.2:5e28f334"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:268.268.5-268.268.5:348789c9"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:268.268.7-268.268.7:d14af741"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:268.268.7-268.268.7:d14af741"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:268.268.1-268.268.1:11e042b4",
+      "excerpt": "LEMURES (LARVAE) AND LARES.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:268.268.2-268.268.2:5e28f334",
+      "excerpt": "The Manes were the spirits of the departed, and were of two kinds, viz., Lemures (or Larvae) and Lares. {186}",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:268.268.3-268.268.3:9d772f9d",
+      "excerpt": "The Lemures were those Manes who haunted their former abodes on earth as evil spirits, appearing at night under awful forms and hideous shapes, greatly to the alarm of their friends and relatives.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:268.268.4-268.268.4:af08572b",
+      "excerpt": "It appears extremely probable that the superstitions with regard to ghosts, haunted houses, &c., which exist even at the present day, owe their origin to this very ancient pagan source.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:268.268.5-268.268.5:348789c9",
+      "excerpt": "The Lares Familiares were a much more pleasing conception.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:268.268.6-268.268.6:5e099d3c",
+      "excerpt": "The first act of a bride on entering her new abode was to do homage to the Lar, in the belief that he would exercise over her a protecting influence and shield her from evil.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:268.268.7-268.268.7:d14af741",
+      "excerpt": "In addition to those above enumerated there were also public Lares, who were guardians of the state, highroads, country, and sea.",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "The Manes were the spirits of the departed, and were of two kinds, viz., Lemures (or Larvae) and Lares.",
+      "evidence": [
+        "gutenberg:ebooks:22381:268.268.1-268.268.1:11e042b4"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "The Manes were the spirits of the departed, and were of two kinds, viz., Lemures (or Larvae) and Lares.",
+      "sourceClause": "The Manes were the spirits of the departed, and were of two kinds, viz., Lemures (or Larvae) and Lares.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "departed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "The Manes were the spirits of the departed, and were of two kinds, viz., Lemures (or Larvae) and Lares.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:268.268.2-268.268.2:5e28f334"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Before starting on any expedition the master of the house saluted the statue of the Lar, and, on his return, a solemn thanksgiving was offered to this, the presiding deity of his hearth and home, in grateful acknowledgment of his protection; whereupon the statue was crowned with garlands of flowers, these being the favourite offerings to the Lares on all occasions of especial family rejoicing.",
+      "sourceClause": "Before starting on any expedition the master of the house saluted the statue of the Lar, and, on his return, a solemn thanksgiving was offered to this, the presiding deity of his hearth and home, in grateful acknowledgment of his protection; whereupon the statue was crowned with garlands of flowers, these being the favourite offerings to the Lares on all occasions of especial family rejoicing.",
+      "actor": null,
+      "action": "sacrifice",
+      "sourceAction": "offered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Before starting on any expedition the master of the house saluted the statue of the Lar, and, on his return, a solemn thanksgiving was offered to this, the presiding deity of his",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:268.268.5-268.268.5:348789c9"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Their temples were always open for any pious worshipper to enter, and on their altars public sacrifices were offered for the welfare of the state or city.",
+      "sourceClause": "Their temples were always open for any pious worshipper to enter, and on their altars public sacrifices were offered for the welfare of the state or city.",
+      "actor": null,
+      "action": "sacrifice",
+      "sourceAction": "offered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Their temples were always open for any pious worshipper to enter, and on their altars public sacrifices were offered for the welfare of the state or city.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:268.268.7-268.268.7:d14af741"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Their temples were always open for any pious worshipper to enter, and on their altars public sacrifices were offered for the welfare of the state or city.",
+      "evidence": [
+        "gutenberg:ebooks:22381:268.268.7-268.268.7:d14af741"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "The Manes were the spirits of the departed, and were of two kinds, viz., Lemures (or Larvae) and Lares.",
+      "Before starting on any expedition the master of the house saluted the statue of the Lar, and, on his return, a solemn thanksgiving was offered to this, the presiding deity of his",
+      "Their temples were always open for any pious worshipper to enter, and on their altars public sacrifices were offered for the welfare of the state or city."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-5f5167ec",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0268-e6b7eb",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "MANES.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:268.268.1-268.268.1:11e042b4",
+        "gutenberg:ebooks:22381:268.268.2-268.268.2:5e28f334",
+        "gutenberg:ebooks:22381:268.268.3-268.268.3:9d772f9d"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d7f97a7c",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0250",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "MANES.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:268.268.1-268.268.1:11e042b4",
+        "gutenberg:ebooks:22381:268.268.2-268.268.2:5e28f334",
+        "gutenberg:ebooks:22381:268.268.3-268.268.3:9d772f9d"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-b69ad014",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0250",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "MANES.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:268.268.1-268.268.1:11e042b4",
+        "gutenberg:ebooks:22381:268.268.2-268.268.2:5e28f334",
+        "gutenberg:ebooks:22381:268.268.3-268.268.3:9d772f9d"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 66,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 3,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 3,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.33,
+  "failedGates": [
+    "no-mythological-characters",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

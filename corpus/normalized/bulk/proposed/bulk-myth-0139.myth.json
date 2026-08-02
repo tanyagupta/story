@@ -1,0 +1,358 @@
+{
+  "mythId": "bulk-myth-0139",
+  "mythFamilyId": "orpheus-and-eurydice",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-orpheus-and-eurydice-8743a6",
+  "title": "Horace.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f",
+      "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1",
+      "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4",
+      "gutenberg:ebooks:39250:112.112.4-112.112.4:f272bbbb"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "eurydice",
+      "midas",
+      "orpheus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Eurydice",
+      "normalizedId": "eurydice",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Midas",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Orpheus",
+      "normalizedId": "orpheus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Unspeakably relieved by this performance, the barber returned home. Reeds grew over the hole, and, as they bent before the wind which rustled through their leaves, they were heard to murmur, \"Midas, King Midas, has ass's ears! [Sidenote: Orpheus and Eurydice.",
+    "openingSituation": "Unspeakably relieved by this performance, the barber returned home.",
+    "centralConflict": "Reeds grew over the hole, and, as they bent before the wind which rustled through their leaves, they were heard to murmur, \"Midas, King Midas, has ass's ears!",
+    "resolution": "This being the state of her feelings, she readily consented to their union, and became the proud mother of Orpheus, who inherited his parents' musical and poetical gifts.",
+    "outcome": "This being the state of her feelings, she readily consented to their union, and became the proud mother of Orpheus, who inherited his parents' musical and poetical gifts.",
+    "storyline": [
+      "Unspeakably relieved by this performance, the barber returned home.",
+      "Reeds grew over the hole, and, as they bent before the wind which rustled through their leaves, they were heard to murmur, \"Midas, King Midas, has ass's ears!",
+      "[Sidenote: Orpheus and Eurydice.] As Apollo had frequent opportunities of meeting the Muses, it is not to be wondered at that he fell a victim to the charms of the fair Calliope",
+      "This being the state of her feelings, she readily consented to their union, and became the proud mother of Orpheus, who inherited his parents' musical and poetical gifts."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f",
+        "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1",
+        "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f",
+      "excerpt": "Unspeakably relieved by this performance, the barber returned home. Time passed. Reeds grew over the hole, and, as they bent before the wind which rustled through their leaves, they were heard to murmur, \"Midas, King Midas, has ass's ears!",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1",
+      "excerpt": "[Sidenote: Orpheus and Eurydice.]",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4",
+      "excerpt": "As Apollo had frequent opportunities of meeting the Muses, it is not to be wondered at that he fell a victim to the charms of the fair Calliope, who, in her turn, loved him passionately, and even wrote verses in his honor.",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:112.112.4-112.112.4:f272bbbb",
+      "excerpt": "\"Orpheus with his lute made trees, And the mountain-tops, that freeze, Bow themselves when he did sing:",
+      "supports": [
+        "event-004"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Unspeakably relieved by this performance, the barber returned home.",
+      "evidence": [
+        "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Unspeakably relieved by this performance, the barber returned home.",
+      "sourceClause": "Unspeakably relieved by this performance, the barber returned home.",
+      "actor": null,
+      "action": "return",
+      "sourceAction": "returned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Unspeakably relieved by this performance, the barber returned home.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Reeds grew over the hole, and, as they bent before the wind which rustled through their leaves, they were heard to murmur, \"Midas, King Midas, has ass's ears!\" and all who passed by caught the whisper, and noised it abroad, so that the secret became the general topic of all conversations.",
+      "sourceClause": "Reeds grew over the hole, and, as they bent before the wind which rustled through their leaves, they were heard to murmur, \"Midas, King Midas, has ass's ears!\" and all who passed by caught the whisper, and noised it abroad, so that the secret became the general topic of all conversations.",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "caught",
+      "object": null,
+      "target": "midas",
+      "recipient": null,
+      "location": null,
+      "result": "Reeds grew over the hole, and, as they bent before the wind which rustled through their leaves, they were heard to murmur, \"Midas, King Midas, has ass's ears!",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "[Sidenote: Orpheus and Eurydice.] As Apollo had frequent opportunities of meeting the Muses, it is not to be wondered at that he fell a victim to the charms of the fair Calliope, who, in her turn, loved him passionately, and even wrote verses in his honor.",
+      "sourceClause": "[Sidenote: Orpheus and Eurydice.] As Apollo had frequent opportunities of meeting the Muses, it is not to be wondered at that he fell a victim to the charms of the fair Calliope, who, in her turn, loved him passionately, and even wrote verses in his honor.",
+      "actor": null,
+      "action": "love",
+      "sourceAction": "loved",
+      "object": null,
+      "target": "apollo",
+      "recipient": null,
+      "location": null,
+      "result": "[Sidenote: Orpheus and Eurydice.] As Apollo had frequent opportunities of meeting the Muses, it is not to be wondered at that he fell a victim to the charms of the fair Calliope",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "This being the state of her feelings, she readily consented to their union, and became the proud mother of Orpheus, who inherited his parents' musical and poetical gifts.",
+      "sourceClause": "This being the state of her feelings, she readily consented to their union, and became the proud mother of Orpheus, who inherited his parents' musical and poetical gifts.",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": "orpheus",
+      "recipient": null,
+      "location": null,
+      "result": "This being the state of her feelings, she readily consented to their union, and became the proud mother of Orpheus, who inherited his parents' musical and poetical gifts.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "This being the state of her feelings, she readily consented to their union, and became the proud mother of Orpheus, who inherited his parents' musical and poetical gifts.",
+      "evidence": [
+        "gutenberg:ebooks:39250:112.112.4-112.112.4:f272bbbb"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Unspeakably relieved by this performance, the barber returned home.",
+      "Reeds grew over the hole, and, as they bent before the wind which rustled through their leaves, they were heard to murmur, \"Midas, King Midas, has ass's ears!",
+      "[Sidenote: Orpheus and Eurydice.] As Apollo had frequent opportunities of meeting the Muses, it is not to be wondered at that he fell a victim to the charms of the fair Calliope",
+      "This being the state of her feelings, she readily consented to their union, and became the proud mother of Orpheus, who inherited his parents' musical and poetical gifts."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "rejected_non_story"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-4fbe983d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0112-798efa",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Horace.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f",
+        "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1",
+        "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-f9d84f1f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0139",
+      "issueType": "verification-program-rejected_non_story",
+      "sourceValue": "Horace.",
+      "suggestions": [
+        "rejected_non_story"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f",
+        "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1",
+        "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-59880cfc",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0139",
+      "issueType": "pr12-audit-rejected_non_story",
+      "sourceValue": "Horace.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f",
+        "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1",
+        "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 109,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 4,
+      "meaningfulEvents": 4,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.545,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "eurydice",
+    "midas",
+    "orpheus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "rejected_non_story"
+}

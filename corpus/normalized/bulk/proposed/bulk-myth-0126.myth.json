@@ -1,0 +1,335 @@
+{
+  "mythId": "bulk-myth-0126",
+  "mythFamilyId": "orpheus-and-eurydice",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-orpheus-and-eurydice-ac97db",
+  "title": "Polynices.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e",
+      "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97",
+      "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "antigone",
+      "eurydice",
+      "theseus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Antigone",
+      "normalizedId": "antigone",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+        }
+      ]
+    },
+    {
+      "sourceName": "Eurydice",
+      "normalizedId": "eurydice",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+        }
+      ]
+    },
+    {
+      "sourceName": "Theseus",
+      "normalizedId": "theseus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "When Creon discovered that his commands had been set at defiance, he inhumanly condemned the devoted maiden to be entombed alive in a subterranean vault.",
+    "openingSituation": "When Creon discovered that his commands had been set at defiance, he inhumanly condemned the devoted maiden to be entombed alive in a subterranean vault.",
+    "centralConflict": "When Creon discovered that his commands had been set at defiance, he inhumanly condemned the devoted maiden to be entombed alive in a subterranean vault.",
+    "resolution": "This undertaking was successfully accomplished, and the remains of the fallen heroes were interred with due honours.",
+    "outcome": "This undertaking was successfully accomplished, and the remains of the fallen heroes were interred with due honours.",
+    "storyline": [
+      "When Creon discovered that his commands had been set at defiance, he inhumanly condemned the devoted maiden to be entombed alive in a subterranean vault.",
+      "Hardly had the news of the tragic fate of his son reached the king, before another messenger appeared, bearing the tidings that his wife Eurydice, on hearing of the death of",
+      "Nor did he succeed in the execution of his vindictive designs; for Adrastus, who, after his flight from Thebes, had taken refuge at Athens, induced Theseus to lead an army against",
+      "This undertaking was successfully accomplished, and the remains of the fallen heroes were interred with due honours."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e",
+        "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97",
+        "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e",
+      "excerpt": "When Creon discovered that his commands had been set at defiance, he inhumanly condemned the devoted maiden to be entombed alive in a subterranean vault. {276} But retribution was at hand.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97",
+      "excerpt": "Hardly had the news of the tragic fate of his son reached the king, before another messenger appeared, bearing the tidings that his wife Eurydice, on hearing of the death of Haemon, had put an end to her existence, and thus the king found",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0",
+      "excerpt": "Nor did he succeed in the execution of his vindictive designs; for Adrastus, who, after his flight from Thebes, had taken refuge at Athens, induced Theseus to lead an army against the Thebans, to compel them to restore the dead bodies of",
+      "supports": [
+        "event-003"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "antigone",
+      "predicate": "opening_situation",
+      "object": "When Creon discovered that his commands had been set at defiance, he inhumanly condemned the devoted maiden to be entombed alive in a subterranean vault.",
+      "evidence": [
+        "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "When Creon discovered that his commands had been set at defiance, he inhumanly condemned the devoted maiden to be entombed alive in a subterranean vault.",
+      "sourceClause": "When Creon discovered that his commands had been set at defiance, he inhumanly condemned the devoted maiden to be entombed alive in a subterranean vault.",
+      "actor": null,
+      "action": "punish",
+      "sourceAction": "condemned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "When Creon discovered that his commands had been set at defiance, he inhumanly condemned the devoted maiden to be entombed alive in a subterranean vault.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Hardly had the news of the tragic fate of his son reached the king, before another messenger appeared, bearing the tidings that his wife Eurydice, on hearing of the death of Haemon, had put an end to her existence, and thus the king found himself in his old age both widowed and childless.",
+      "sourceClause": "Hardly had the news of the tragic fate of his son reached the king, before another messenger appeared, bearing the tidings that his wife Eurydice, on hearing of the death of Haemon, had put an end to her existence, and thus the king found himself in his old age both widowed and childless.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "reached",
+      "object": null,
+      "target": "eurydice",
+      "recipient": null,
+      "location": null,
+      "result": "Hardly had the news of the tragic fate of his son reached the king, before another messenger appeared, bearing the tidings that his wife Eurydice, on hearing of the death of",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Nor did he succeed in the execution of his vindictive designs; for Adrastus, who, after his flight from Thebes, had taken refuge at Athens, induced Theseus to lead an army against the Thebans, to compel them to restore the dead bodies of the Argive warriors to their friends, in order that they might perform due funereal rites in honour of the slain.",
+      "sourceClause": "Nor did he succeed in the execution of his vindictive designs; for Adrastus, who, after his flight from Thebes, had taken refuge at Athens, induced Theseus to lead an army against the Thebans, to compel them to restore the dead bodies of the Argive warriors to their friends, in order that they might perform due funereal rites in honour of the slain.",
+      "actor": null,
+      "action": "flee",
+      "sourceAction": "flight",
+      "object": null,
+      "target": "theseus",
+      "recipient": null,
+      "location": "athens",
+      "result": "Nor did he succeed in the execution of his vindictive designs; for Adrastus, who, after his flight from Thebes, had taken refuge at Athens, induced Theseus to lead an army against",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "This undertaking was successfully accomplished, and the remains of the fallen heroes were interred with due honours.",
+      "sourceClause": "This undertaking was successfully accomplished, and the remains of the fallen heroes were interred with due honours.",
+      "actor": null,
+      "action": "complete_task",
+      "sourceAction": "accomplished",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "This undertaking was successfully accomplished, and the remains of the fallen heroes were interred with due honours.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "antigone",
+      "predicate": "outcome",
+      "object": "This undertaking was successfully accomplished, and the remains of the fallen heroes were interred with due honours.",
+      "evidence": [
+        "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "When Creon discovered that his commands had been set at defiance, he inhumanly condemned the devoted maiden to be entombed alive in a subterranean vault.",
+      "Hardly had the news of the tragic fate of his son reached the king, before another messenger appeared, bearing the tidings that his wife Eurydice, on hearing of the death of",
+      "Nor did he succeed in the execution of his vindictive designs; for Adrastus, who, after his flight from Thebes, had taken refuge at Athens, induced Theseus to lead an army against",
+      "This undertaking was successfully accomplished, and the remains of the fallen heroes were interred with due honours."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-c6b9c0a7",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0327-f7e08c",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Polynices.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e",
+        "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97",
+        "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-61161e02",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0126",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Polynices.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e",
+        "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97",
+        "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-5b3bcea8",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0126",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Polynices.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:327.327.1-327.327.1:1c3de09e",
+        "gutenberg:ebooks:22381:327.327.2-327.327.2:aadd9b97",
+        "gutenberg:ebooks:22381:327.327.3-327.327.3:28fa01f0"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 101,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 3,
+      "meaningfulEvents": 4,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 4,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.505,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "antigone",
+    "eurydice",
+    "theseus"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

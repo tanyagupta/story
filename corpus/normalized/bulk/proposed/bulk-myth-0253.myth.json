@@ -1,0 +1,235 @@
+{
+  "mythId": "bulk-myth-0253",
+  "mythFamilyId": "glaucus",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-glaucus-b78f03",
+  "title": "GLAUCUS.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815",
+      "gutenberg:ebooks:22381:173.173.2-173.173.2:5ad73706"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "While angling one day, he observed that the fish he caught and threw on the bank, at once nibbled at the grass and then leaped back into the water. No sooner was this done than, obeying an irresistible impulse, he precipitated himself into the deep, and became a sea-god.",
+    "openingSituation": "While angling one day, he observed that the fish he caught and threw on the bank, at once nibbled at the grass and then leaped back into the water.",
+    "centralConflict": "While angling one day, he observed that the fish he caught and threw on the bank, at once nibbled at the grass and then leaped back into the water.",
+    "resolution": "No sooner was this done than, obeying an irresistible impulse, he precipitated himself into the deep, and became a sea-god.",
+    "outcome": "No sooner was this done than, obeying an irresistible impulse, he precipitated himself into the deep, and became a sea-god.",
+    "storyline": [
+      "While angling one day, he observed that the fish he caught and threw on the bank, at once nibbled at the grass and then leaped back into the water.",
+      "No sooner was this done than, obeying an irresistible impulse, he precipitated himself into the deep, and became a sea-god."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815",
+        "gutenberg:ebooks:22381:173.173.2-173.173.2:5ad73706"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815",
+      "excerpt": "Glaucus is said to have become a sea-divinity in the following manner. While angling one day, he observed that the fish he caught and threw on the bank, at once nibbled at the grass and then leaped back into the water.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:173.173.2-173.173.2:5ad73706",
+      "excerpt": "Like most sea-divinities he was gifted with prophetic power, and each year visited all the islands and coasts with a train of marine monsters, foretelling all kinds of evil.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "While angling one day, he observed that the fish he caught and threw on the bank, at once nibbled at the grass and then leaped back into the water.",
+      "evidence": [
+        "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "While angling one day, he observed that the fish he caught and threw on the bank, at once nibbled at the grass and then leaped back into the water.",
+      "sourceClause": "While angling one day, he observed that the fish he caught and threw on the bank, at once nibbled at the grass and then leaped back into the water.",
+      "actor": null,
+      "action": "capture",
+      "sourceAction": "caught",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "While angling one day, he observed that the fish he caught and threw on the bank, at once nibbled at the grass and then leaped back into the water.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "No sooner was this done than, obeying an irresistible impulse, he precipitated himself into the deep, and became a sea-god.",
+      "sourceClause": "No sooner was this done than, obeying an irresistible impulse, he precipitated himself into the deep, and became a sea-god.",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "No sooner was this done than, obeying an irresistible impulse, he precipitated himself into the deep, and became a sea-god.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "No sooner was this done than, obeying an irresistible impulse, he precipitated himself into the deep, and became a sea-god.",
+      "evidence": [
+        "gutenberg:ebooks:22381:173.173.2-173.173.2:5ad73706"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "While angling one day, he observed that the fish he caught and threw on the bank, at once nibbled at the grass and then leaped back into the water.",
+      "No sooner was this done than, obeying an irresistible impulse, he precipitated himself into the deep, and became a sea-god."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-a996ea62",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0173-4718c7",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "GLAUCUS.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815",
+        "gutenberg:ebooks:22381:173.173.2-173.173.2:5ad73706"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-8899f176",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0253",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "GLAUCUS.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815",
+        "gutenberg:ebooks:22381:173.173.2-173.173.2:5ad73706"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-e7a30ddb",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0253",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "GLAUCUS.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:173.173.1-173.173.1:f5304815",
+        "gutenberg:ebooks:22381:173.173.2-173.173.2:5ad73706"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 55,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.275,
+  "failedGates": [
+    "no-mythological-characters",
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

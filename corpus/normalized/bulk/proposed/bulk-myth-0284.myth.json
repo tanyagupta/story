@@ -1,0 +1,229 @@
+{
+  "mythId": "bulk-myth-0284",
+  "mythFamilyId": "pales",
+  "variantId": "gutenberg-berens-myths-legends-greece-rome-eng-pales-e45e57",
+  "title": "PALES.",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:254.254.1-254.254.1:3636b8f8",
+      "gutenberg:ebooks:22381:254.254.2-254.254.2:60bbb5d7",
+      "gutenberg:ebooks:22381:254.254.3-254.254.3:90f2dd77",
+      "gutenberg:ebooks:22381:254.254.4-254.254.4:576a8057"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded.",
+    "openingSituation": "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded.",
+    "centralConflict": "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded.",
+    "resolution": "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded.",
+    "outcome": "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded.",
+    "storyline": [
+      "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:22381:254.254.1-254.254.1:3636b8f8",
+        "gutenberg:ebooks:22381:254.254.2-254.254.2:60bbb5d7",
+        "gutenberg:ebooks:22381:254.254.3-254.254.3:90f2dd77"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:22381:254.254.3-254.254.3:90f2dd77"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:22381:254.254.3-254.254.3:90f2dd77"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:22381:254.254.3-254.254.3:90f2dd77"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:22381:254.254.3-254.254.3:90f2dd77"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:254.254.1-254.254.1:3636b8f8",
+      "excerpt": "Pales, a very ancient Italian divinity, is represented sometimes as a male, sometimes as a female power.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:254.254.2-254.254.2:60bbb5d7",
+      "excerpt": "As a male divinity he is more particularly the god of shepherds and flocks.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:254.254.3-254.254.3:90f2dd77",
+      "excerpt": "As a female deity, Pales presides over husbandry and the fruitfulness of herds. Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:254.254.4-254.254.4:576a8057",
+      "excerpt": "The name Palatine, which originally signified a pastoral colony, is derived from this divinity. Her offerings were cakes and milk.",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded.",
+      "evidence": [
+        "gutenberg:ebooks:22381:254.254.1-254.254.1:3636b8f8"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded.",
+      "sourceClause": "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded.",
+      "actor": null,
+      "action": "found",
+      "sourceAction": "founded",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:254.254.3-254.254.3:90f2dd77"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded.",
+      "evidence": [
+        "gutenberg:ebooks:22381:254.254.4-254.254.4:576a8057"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Her festivals, the Palilia, were celebrated on the 21st of April, the day on which the city of Rome was founded."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-fe619d4a",
+      "recordType": "candidate",
+      "recordId": "gutenberg-berens-myths-legends-greece-rome-eng-0254-129943",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "PALES.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:254.254.1-254.254.1:3636b8f8",
+        "gutenberg:ebooks:22381:254.254.2-254.254.2:60bbb5d7",
+        "gutenberg:ebooks:22381:254.254.3-254.254.3:90f2dd77"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-79009bab",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0284",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "PALES.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:254.254.1-254.254.1:3636b8f8",
+        "gutenberg:ebooks:22381:254.254.2-254.254.2:60bbb5d7",
+        "gutenberg:ebooks:22381:254.254.3-254.254.3:90f2dd77"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-76f87fe3",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0284",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "PALES.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:22381:254.254.1-254.254.1:3636b8f8",
+        "gutenberg:ebooks:22381:254.254.2-254.254.2:60bbb5d7",
+        "gutenberg:ebooks:22381:254.254.3-254.254.3:90f2dd77"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 44,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.22,
+  "failedGates": [
+    "no-mythological-characters",
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

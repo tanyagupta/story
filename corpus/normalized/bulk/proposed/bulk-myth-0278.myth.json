@@ -1,0 +1,215 @@
+{
+  "mythId": "bulk-myth-0278",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-apollo-and-daphne-de7ca6",
+  "title": "Hymn to Apollo JOHN KEATS",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de",
+      "gutenberg:ebooks:45489:186.186.2-186.186.2:c032adc1",
+      "gutenberg:ebooks:45489:186.186.3-186.186.3:b23c4967",
+      "gutenberg:ebooks:45489:186.186.4-186.186.4:ab7398dc"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "",
+    "openingSituation": "",
+    "centralConflict": "",
+    "resolution": "",
+    "outcome": "",
+    "storyline": [],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de",
+        "gutenberg:ebooks:45489:186.186.2-186.186.2:c032adc1",
+        "gutenberg:ebooks:45489:186.186.3-186.186.3:b23c4967"
+      ],
+      "openingSituation": [],
+      "centralConflict": [],
+      "resolution": [],
+      "outcome": []
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de",
+      "excerpt": "Hymn to Apollo PERCY B. SHELLEY",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:186.186.2-186.186.2:c032adc1",
+      "excerpt": "X",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:186.186.3-186.186.3:b23c4967",
+      "excerpt": "The story of Clytie is frequently alluded to in poetry, and the sunflower is often used as an emblem of constancy. Moore's lines are well known:--",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:186.186.4-186.186.4:ab7398dc",
+      "excerpt": "\"The heart that has truly loved never forgets, But as truly loves on to the close;",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Hymn to Apollo JOHN KEATS",
+      "evidence": [
+        "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de"
+      ]
+    }
+  ],
+  "events": [],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "Hymn to Apollo JOHN KEATS",
+      "evidence": [
+        "gutenberg:ebooks:45489:186.186.4-186.186.4:ab7398dc"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-647afde7",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0186-b1492f",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Hymn to Apollo JOHN KEATS",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de",
+        "gutenberg:ebooks:45489:186.186.2-186.186.2:c032adc1",
+        "gutenberg:ebooks:45489:186.186.3-186.186.3:b23c4967"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-6b24d47f",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0278",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Hymn to Apollo JOHN KEATS",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de",
+        "gutenberg:ebooks:45489:186.186.2-186.186.2:c032adc1",
+        "gutenberg:ebooks:45489:186.186.3-186.186.3:b23c4967"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-a067a6f9",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0278",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Hymn to Apollo JOHN KEATS",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:186.186.1-186.186.1:6ddda2de",
+        "gutenberg:ebooks:45489:186.186.2-186.186.2:c032adc1",
+        "gutenberg:ebooks:45489:186.186.3-186.186.3:b23c4967"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 14,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, no-object-target-recipient-location-or-outcome, no-central-conflict-or-change, no-outcome, no-storyline",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "no-object-target-recipient-location-or-outcome",
+      "no-central-conflict-or-change",
+      "no-outcome",
+      "no-storyline"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 0,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 0,
+      "hasCentralConflictOrChange": false,
+      "hasOutcome": false,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.07,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "no-object-target-recipient-location-or-outcome",
+    "no-central-conflict-or-change",
+    "no-outcome",
+    "no-storyline"
+  ],
+  "uncertainEntities": [
+    "apollo"
+  ],
+  "uncertainEvents": [],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

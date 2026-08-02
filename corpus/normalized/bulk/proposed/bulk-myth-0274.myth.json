@@ -1,0 +1,258 @@
+{
+  "mythId": "bulk-myth-0274",
+  "mythFamilyId": "whose-graceful-green-hair-circles-all-the-earth",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-whose-graceful-green-hair-circles-all-the-earth-9e7ad3",
+  "title": "Whose graceful green hair circles all the earth.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17",
+      "gutenberg:ebooks:39250:229.229.2-229.229.2:affaea89",
+      "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597",
+      "gutenberg:ebooks:39250:229.229.4-229.229.4:1910667d"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Before this new ruler made his appearance, the Titan Oceanus had wielded the scepter of the sea; and regretfully he now resigned it to his youthful supplanter, whom he Have ye beheld his chariot, foam'd along By noble winged creatures he hath made?",
+    "openingSituation": "Before this new ruler made his appearance, the Titan Oceanus had wielded the scepter of the sea; and regretfully he now resigned it to his youthful supplanter, whom he",
+    "centralConflict": "Have ye beheld his chariot, foam'd along By noble winged creatures he hath made?",
+    "resolution": "Have ye beheld his chariot, foam'd along By noble winged creatures he hath made?",
+    "outcome": "Have ye beheld his chariot, foam'd along By noble winged creatures he hath made?",
+    "storyline": [
+      "Before this new ruler made his appearance, the Titan Oceanus had wielded the scepter of the sea; and regretfully he now resigned it to his youthful supplanter, whom he",
+      "Have ye beheld his chariot, foam'd along By noble winged creatures he hath made?"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17",
+        "gutenberg:ebooks:39250:229.229.2-229.229.2:affaea89",
+        "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:229.229.4-229.229.4:1910667d"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:229.229.4-229.229.4:1910667d"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:229.229.4-229.229.4:1910667d"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17",
+      "excerpt": "Bear a benign mind; and thy helpful hand Lend all, submitted to thy dread command.\"",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:229.229.2-229.229.2:affaea89",
+      "excerpt": "Homer (Chapman's tr.).",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597",
+      "excerpt": "Before this new ruler made his appearance, the Titan Oceanus had wielded the scepter of the sea; and regretfully he now resigned it to his youthful supplanter, whom he nevertheless admired sincerely, and described in glowing colors to his",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:229.229.4-229.229.4:1910667d",
+      "excerpt": "\"Have ye beheld the young God of the Seas, My dispossessor? Have ye seen his face? Have ye beheld his chariot, foam'd along By noble winged creatures he hath made? I saw him on the calmed waters scud, With such a glow of beauty in his eyes,",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Before this new ruler made his appearance, the Titan Oceanus had wielded the scepter of the sea; and regretfully he now resigned it to his youthful supplanter, whom he",
+      "evidence": [
+        "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Before this new ruler made his appearance, the Titan Oceanus had wielded the scepter of the sea; and regretfully he now resigned it to his youthful supplanter, whom he nevertheless admired sincerely, and described in glowing colors to his brothers.",
+      "sourceClause": "Before this new ruler made his appearance, the Titan Oceanus had wielded the scepter of the sea; and regretfully he now resigned it to his youthful supplanter, whom he nevertheless admired sincerely, and described in glowing colors to his brothers.",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Before this new ruler made his appearance, the Titan Oceanus had wielded the scepter of the sea; and regretfully he now resigned it to his youthful supplanter, whom he",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Have ye beheld his chariot, foam'd along By noble winged creatures he hath made?",
+      "sourceClause": "Have ye beheld his chariot, foam'd along By noble winged creatures he hath made?",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Have ye beheld his chariot, foam'd along By noble winged creatures he hath made?",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:229.229.4-229.229.4:1910667d"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "Have ye beheld his chariot, foam'd along By noble winged creatures he hath made?",
+      "evidence": [
+        "gutenberg:ebooks:39250:229.229.4-229.229.4:1910667d"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Before this new ruler made his appearance, the Titan Oceanus had wielded the scepter of the sea; and regretfully he now resigned it to his youthful supplanter, whom he",
+      "Have ye beheld his chariot, foam'd along By noble winged creatures he hath made?"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-8a30dfd2",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0229-ee35a3",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Whose graceful green hair circles all the earth.",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17",
+        "gutenberg:ebooks:39250:229.229.2-229.229.2:affaea89",
+        "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-a64bdf8e",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0274",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Whose graceful green hair circles all the earth.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17",
+        "gutenberg:ebooks:39250:229.229.2-229.229.2:affaea89",
+        "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-0f225576",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0274",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Whose graceful green hair circles all the earth.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:229.229.1-229.229.1:b4f57a17",
+        "gutenberg:ebooks:39250:229.229.2-229.229.2:affaea89",
+        "gutenberg:ebooks:39250:229.229.3-229.229.3:51838597"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 55,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.275,
+  "failedGates": [
+    "no-mythological-characters",
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

@@ -1,0 +1,394 @@
+{
+  "mythId": "bulk-myth-0117",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-apollo-and-daphne-4145e3",
+  "title": "Jupiter's favor.",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2",
+      "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "cupid",
+      "zeus",
+      "aphrodite",
+      "hephaestus"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ]
+    },
+    {
+      "sourceName": "Cupid",
+      "normalizedId": "cupid",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ]
+    },
+    {
+      "sourceName": "Venus",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ]
+    },
+    {
+      "sourceName": "Vulcan",
+      "normalizedId": "hephaestus",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Though Vulcan grudgingly complied with these requests, he would not consent to live in Olympus, but returned to his workshop in Mount Etna. There he made many things out of gold and precious stones and gave them to the gods as an evidence that he no longer bore them any ill will.",
+    "openingSituation": "Though Vulcan grudgingly complied with these requests, he would not consent to live in Olympus, but returned to his workshop in Mount Etna.",
+    "centralConflict": "He also forged Jupiter's thunderbolts and fashioned the weapons that the gods used in battle.",
+    "resolution": "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was",
+    "outcome": "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was",
+    "storyline": [
+      "Though Vulcan grudgingly complied with these requests, he would not consent to live in Olympus, but returned to his workshop in Mount Etna.",
+      "There he made many things out of gold and precious stones and gave them to the gods as an evidence that he no longer bore them any ill will.",
+      "Their golden thrones were made by Vulcan's crafty hands, and the wonderful palaces, with all their costly furnishings, were the best result of his skill.",
+      "He also forged Jupiter's thunderbolts and fashioned the weapons that the gods used in battle.",
+      "He made Apollo's marvelous sun-chariot, and even deigned to use his skill in shaping the arrows that Cupid used in his golden bow.",
+      "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2",
+        "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2",
+      "excerpt": "Though Vulcan grudgingly complied with these requests, he would not consent to live in Olympus, but returned to his workshop in Mount Etna.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0",
+      "excerpt": "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was amused at the unusual sights and sounds that greeted her in her",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "Though Vulcan grudgingly complied with these requests, he would not consent to live in Olympus, but returned to his workshop in Mount Etna.",
+      "evidence": [
+        "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Though Vulcan grudgingly complied with these requests, he would not consent to live in Olympus, but returned to his workshop in Mount Etna.",
+      "sourceClause": "Though Vulcan grudgingly complied with these requests, he would not consent to live in Olympus, but returned to his workshop in Mount Etna.",
+      "actor": "hephaestus",
+      "action": "return",
+      "sourceAction": "returned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "olympus",
+      "result": "Though Vulcan grudgingly complied with these requests, he would not consent to live in Olympus, but returned to his workshop in Mount Etna.",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "There he made many things out of gold and precious stones and gave them to the gods as an evidence that he no longer bore them any ill will.",
+      "sourceClause": "There he made many things out of gold and precious stones and gave them to the gods as an evidence that he no longer bore them any ill will.",
+      "actor": null,
+      "action": "birth",
+      "sourceAction": "bore",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "There he made many things out of gold and precious stones and gave them to the gods as an evidence that he no longer bore them any ill will.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "Their golden thrones were made by Vulcan's crafty hands, and the wonderful palaces, with all their costly furnishings, were the best result of his skill.",
+      "sourceClause": "Their golden thrones were made by Vulcan's crafty hands, and the wonderful palaces, with all their costly furnishings, were the best result of his skill.",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": "hephaestus",
+      "recipient": null,
+      "location": null,
+      "result": "Their golden thrones were made by Vulcan's crafty hands, and the wonderful palaces, with all their costly furnishings, were the best result of his skill.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "He also forged Jupiter's thunderbolts and fashioned the weapons that the gods used in battle.",
+      "sourceClause": "He also forged Jupiter's thunderbolts and fashioned the weapons that the gods used in battle.",
+      "actor": null,
+      "action": "fight",
+      "sourceAction": "battle",
+      "object": null,
+      "target": "zeus",
+      "recipient": null,
+      "location": null,
+      "result": "He also forged Jupiter's thunderbolts and fashioned the weapons that the gods used in battle.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "sourceSentence": "He made Apollo's marvelous sun-chariot, and even deigned to use his skill in shaping the arrows that Cupid used in his golden bow.",
+      "sourceClause": "He made Apollo's marvelous sun-chariot, and even deigned to use his skill in shaping the arrows that Cupid used in his golden bow.",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": "apollo",
+      "recipient": null,
+      "location": null,
+      "result": "He made Apollo's marvelous sun-chariot, and even deigned to use his skill in shaping the arrows that Cupid used in his golden bow.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-006",
+      "sourceSentence": "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was amused at the unusual sights and sounds that greeted her in her new home; but she soon wearied of the dirt and darkness, and left the society of her surly husband to return to Olympus, where there was plenty to delight her pleasure-loving soul.",
+      "sourceClause": "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was amused at the unusual sights and sounds that greeted her in her new home; but she soon wearied of the dirt and darkness, and left the society of her surly husband to return to Olympus, where there was plenty to delight her pleasure-loving soul.",
+      "actor": "zeus",
+      "action": "marry",
+      "sourceAction": "wed",
+      "object": null,
+      "target": "aphrodite",
+      "recipient": null,
+      "location": "olympus",
+      "result": "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was",
+      "evidence": [
+        "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Though Vulcan grudgingly complied with these requests, he would not consent to live in Olympus, but returned to his workshop in Mount Etna.",
+      "There he made many things out of gold and precious stones and gave them to the gods as an evidence that he no longer bore them any ill will.",
+      "Their golden thrones were made by Vulcan's crafty hands, and the wonderful palaces, with all their costly furnishings, were the best result of his skill.",
+      "He also forged Jupiter's thunderbolts and fashioned the weapons that the gods used in battle.",
+      "He made Apollo's marvelous sun-chariot, and even deigned to use his skill in shaping the arrows that Cupid used in his golden bow.",
+      "When Jupiter decreed[35] that laughter-loving Venus should wed his misshapen son, Vulcan took his reluctant wife to the smoky workshop in Mount Etna, and for a while Venus was"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-832b0fbb",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0104-432c01",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Jupiter's favor.",
+      "suggestions": [
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2",
+        "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-92461ac2",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0117",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Jupiter's favor.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2",
+        "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-be09d90d",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0117",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Jupiter's favor.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:104.104.1-104.104.1:aced9bc2",
+        "gutenberg:ebooks:45489:104.104.2-104.104.2:b575d7c0"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 149,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 5,
+      "meaningfulEvents": 6,
+      "actorEvents": 2,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 6,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.65,
+  "failedGates": [
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "cupid",
+    "zeus",
+    "aphrodite",
+    "hephaestus"
+  ],
+  "uncertainEvents": [
+    "event-002",
+    "event-003",
+    "event-004",
+    "event-005"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

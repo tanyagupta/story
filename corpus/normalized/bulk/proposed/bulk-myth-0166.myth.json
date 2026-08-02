@@ -1,0 +1,287 @@
+{
+  "mythId": "bulk-myth-0166",
+  "mythFamilyId": "dreams",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-dreams-c4b7bd",
+  "title": "Dreams.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:517.517.1-517.517.1:fef81d16",
+      "gutenberg:ebooks:39250:517.517.2-517.517.2:4079970c",
+      "gutenberg:ebooks:39250:517.517.3-517.517.3:a6775d10",
+      "gutenberg:ebooks:39250:517.517.4-517.517.4:f05cf97d",
+      "gutenberg:ebooks:39250:517.517.5-517.517.5:a4ee6416"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hermes",
+      "athena"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:517.517.1-517.517.1:fef81d16"
+        }
+      ]
+    },
+    {
+      "sourceName": "Minerva",
+      "normalizedId": "athena",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:517.517.1-517.517.1:fef81d16"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Princess changed into a tree, 298-300. Obscure deity put to flight by Minerva, 55, 57.",
+    "openingSituation": "Princess changed into a tree, 298-300.",
+    "centralConflict": "Princess changed into a tree, 298-300.",
+    "resolution": "Obscure deity put to flight by Minerva, 55, 57.",
+    "outcome": "Obscure deity put to flight by Minerva, 55, 57.",
+    "storyline": [
+      "Princess changed into a tree, 298-300.",
+      "Obscure deity put to flight by Minerva, 55, 57."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:517.517.1-517.517.1:fef81d16",
+        "gutenberg:ebooks:39250:517.517.2-517.517.2:4079970c",
+        "gutenberg:ebooks:39250:517.517.3-517.517.3:a6775d10"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:517.517.4-517.517.4:f05cf97d"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:517.517.4-517.517.4:f05cf97d"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:517.517.5-517.517.5:a4ee6416"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:517.517.5-517.517.5:a4ee6416"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:517.517.1-517.517.1:fef81d16",
+      "excerpt": "Spirits in cave of Somnus; passed out through gates of ivory and horn, 210, 211; Mercury, leader of, 137.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:517.517.2-517.517.2:4079970c",
+      "excerpt": "Drep´a-num. Land visited by Æneas, where Anchises died, 365.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:517.517.3-517.517.3:a6775d10",
+      "excerpt": "Dry´a-des. Plant nymphs, supposed to watch over vegetation, 297.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:517.517.4-517.517.4:f05cf97d",
+      "excerpt": "Dry´o-pe. Princess changed into a tree, 298-300.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:517.517.5-517.517.5:a4ee6416",
+      "excerpt": "Dull´ness. Obscure deity put to flight by Minerva, 55, 57.",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hermes",
+      "predicate": "opening_situation",
+      "object": "Princess changed into a tree, 298-300.",
+      "evidence": [
+        "gutenberg:ebooks:39250:517.517.1-517.517.1:fef81d16"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Princess changed into a tree, 298-300.",
+      "sourceClause": "Princess changed into a tree, 298-300.",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "changed",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Princess changed into a tree, 298-300.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:517.517.4-517.517.4:f05cf97d"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "Obscure deity put to flight by Minerva, 55, 57.",
+      "sourceClause": "Obscure deity put to flight by Minerva, 55, 57.",
+      "actor": null,
+      "action": "flee",
+      "sourceAction": "flight",
+      "object": null,
+      "target": "athena",
+      "recipient": null,
+      "location": null,
+      "result": "Obscure deity put to flight by Minerva, 55, 57.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:517.517.5-517.517.5:a4ee6416"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hermes",
+      "predicate": "outcome",
+      "object": "Obscure deity put to flight by Minerva, 55, 57.",
+      "evidence": [
+        "gutenberg:ebooks:39250:517.517.5-517.517.5:a4ee6416"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Princess changed into a tree, 298-300.",
+      "Obscure deity put to flight by Minerva, 55, 57."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-b3e4d46d",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0517-02fcae",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Dreams.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:517.517.1-517.517.1:fef81d16",
+        "gutenberg:ebooks:39250:517.517.2-517.517.2:4079970c",
+        "gutenberg:ebooks:39250:517.517.3-517.517.3:a6775d10"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-8214d614",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0166",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Dreams.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:517.517.1-517.517.1:fef81d16",
+        "gutenberg:ebooks:39250:517.517.2-517.517.2:4079970c",
+        "gutenberg:ebooks:39250:517.517.3-517.517.3:a6775d10"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-3f1772a7",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0166",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Dreams.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:517.517.1-517.517.1:fef81d16",
+        "gutenberg:ebooks:39250:517.517.2-517.517.2:4079970c",
+        "gutenberg:ebooks:39250:517.517.3-517.517.3:a6775d10"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 71,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.355,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "hermes",
+    "athena"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

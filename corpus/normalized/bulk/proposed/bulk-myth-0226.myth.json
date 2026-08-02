@@ -1,0 +1,281 @@
+{
+  "mythId": "bulk-myth-0226",
+  "mythFamilyId": "chapter-xviii",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-chapter-xviii-3eaa87",
+  "title": "Chapter XVIII",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524",
+      "gutenberg:ebooks:45489:113.113.2-113.113.2:ca73ab65",
+      "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "achilles",
+      "poseidon"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Achilles",
+      "normalizedId": "achilles",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524"
+        }
+      ]
+    },
+    {
+      "sourceName": "Neptune",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Neptune and the Sea-Gods I In the days when the Titans ruled the universe, Oceanus, with his wife Tethys, controlled all the lakes, rivers, and seas; but when the Titans were There were two others of the Nereids who became famous: Galatea, beloved by the Cyclops Polyphemus,[48] and Thetis, the mother of Achilles; but none of them equaled Amphitrite in",
+    "openingSituation": "Neptune and the Sea-Gods I In the days when the Titans ruled the universe, Oceanus, with his wife Tethys, controlled all the lakes, rivers, and seas; but when the Titans were",
+    "centralConflict": "There were two others of the Nereids who became famous: Galatea, beloved by the Cyclops Polyphemus,[48] and Thetis, the mother of Achilles; but none of them equaled Amphitrite in",
+    "resolution": "There were two others of the Nereids who became famous: Galatea, beloved by the Cyclops Polyphemus,[48] and Thetis, the mother of Achilles; but none of them equaled Amphitrite in",
+    "outcome": "There were two others of the Nereids who became famous: Galatea, beloved by the Cyclops Polyphemus,[48] and Thetis, the mother of Achilles; but none of them equaled Amphitrite in",
+    "storyline": [
+      "Neptune and the Sea-Gods I In the days when the Titans ruled the universe, Oceanus, with his wife Tethys, controlled all the lakes, rivers, and seas; but when the Titans were",
+      "There were two others of the Nereids who became famous: Galatea, beloved by the Cyclops Polyphemus,[48] and Thetis, the mother of Achilles; but none of them equaled Amphitrite in"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524",
+        "gutenberg:ebooks:45489:113.113.2-113.113.2:ca73ab65",
+        "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524",
+        "gutenberg:ebooks:45489:113.113.2-113.113.2:ca73ab65",
+        "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524",
+      "excerpt": "Neptune and the Sea-Gods",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:113.113.2-113.113.2:ca73ab65",
+      "excerpt": "I",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae",
+      "excerpt": "In the days when the Titans ruled the universe, Oceanus, with his wife Tethys, controlled all the lakes, rivers, and seas; but when the Titans were overthrown, Neptune took possession of this great kingdom, and old Oceanus reluctantly gave",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "achilles",
+      "predicate": "opening_situation",
+      "object": "Neptune and the Sea-Gods I In the days when the Titans ruled the universe, Oceanus, with his wife Tethys, controlled all the lakes, rivers, and seas; but when the Titans were",
+      "evidence": [
+        "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Neptune and the Sea-Gods I In the days when the Titans ruled the universe, Oceanus, with his wife Tethys, controlled all the lakes, rivers, and seas; but when the Titans were overthrown, Neptune took possession of this great kingdom, and old Oceanus reluctantly gave up his dominion over the waters of the earth.",
+      "sourceClause": "Neptune and the Sea-Gods I In the days when the Titans ruled the universe, Oceanus, with his wife Tethys, controlled all the lakes, rivers, and seas; but when the Titans were overthrown, Neptune took possession of this great kingdom, and old Oceanus reluctantly gave up his dominion over the waters of the earth.",
+      "actor": "poseidon",
+      "action": "give",
+      "sourceAction": "gave",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Neptune and the Sea-Gods I In the days when the Titans ruled the universe, Oceanus, with his wife Tethys, controlled all the lakes, rivers, and seas; but when the Titans were",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.2-113.113.2:ca73ab65"
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "There were two others of the Nereids who became famous: Galatea, beloved by the Cyclops Polyphemus,[48] and Thetis, the mother of Achilles; but none of them equaled Amphitrite in beauty.",
+      "sourceClause": "There were two others of the Nereids who became famous: Galatea, beloved by the Cyclops Polyphemus,[48] and Thetis, the mother of Achilles; but none of them equaled Amphitrite in beauty.",
+      "actor": null,
+      "action": "become",
+      "sourceAction": "become",
+      "object": null,
+      "target": "achilles",
+      "recipient": null,
+      "location": null,
+      "result": "There were two others of the Nereids who became famous: Galatea, beloved by the Cyclops Polyphemus,[48] and Thetis, the mother of Achilles; but none of them equaled Amphitrite in",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "achilles",
+      "predicate": "outcome",
+      "object": "There were two others of the Nereids who became famous: Galatea, beloved by the Cyclops Polyphemus,[48] and Thetis, the mother of Achilles; but none of them equaled Amphitrite in",
+      "evidence": [
+        "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Neptune and the Sea-Gods I In the days when the Titans ruled the universe, Oceanus, with his wife Tethys, controlled all the lakes, rivers, and seas; but when the Titans were",
+      "There were two others of the Nereids who became famous: Galatea, beloved by the Cyclops Polyphemus,[48] and Thetis, the mother of Achilles; but none of them equaled Amphitrite in"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-6f94dfbe",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0113-88eaa2",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Chapter XVIII",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524",
+        "gutenberg:ebooks:45489:113.113.2-113.113.2:ca73ab65",
+        "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-68da36a0",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0226",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Chapter XVIII",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524",
+        "gutenberg:ebooks:45489:113.113.2-113.113.2:ca73ab65",
+        "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-d1a9f970",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0226",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Chapter XVIII",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:113.113.1-113.113.1:bf56b524",
+        "gutenberg:ebooks:45489:113.113.2-113.113.2:ca73ab65",
+        "gutenberg:ebooks:45489:113.113.3-113.113.3:d9f9faae"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 76,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 2,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.38,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "achilles",
+    "poseidon"
+  ],
+  "uncertainEvents": [
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

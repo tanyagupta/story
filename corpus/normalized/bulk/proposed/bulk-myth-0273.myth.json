@@ -1,0 +1,219 @@
+{
+  "mythId": "bulk-myth-0273",
+  "mythFamilyId": "goldsmith",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-goldsmith-647eb7",
+  "title": "Goldsmith.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6",
+      "gutenberg:ebooks:39250:210.210.2-210.210.2:6878d255"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hermes"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity",
+    "openingSituation": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity",
+    "centralConflict": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity",
+    "resolution": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity",
+    "outcome": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity",
+    "storyline": [
+      "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6",
+        "gutenberg:ebooks:39250:210.210.2-210.210.2:6878d255"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6",
+      "excerpt": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity of motion.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:210.210.2-210.210.2:6878d255",
+      "excerpt": "\"Foot-feather'd Mercury appear'd sublime Beyond the tall tree tops; and in less time Than shoots the slanted hail-storm, down he dropt Towards the ground; but rested not, nor stopt One moment from his home; only the sward He with his wand",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hermes",
+      "predicate": "opening_situation",
+      "object": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity",
+      "evidence": [
+        "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity of motion.",
+      "sourceClause": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity of motion.",
+      "actor": "hermes",
+      "action": "give",
+      "sourceAction": "presented",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity",
+      "actorResolutionConfidence": 0.7,
+      "confidence": 0.62,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hermes",
+      "predicate": "outcome",
+      "object": "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity",
+      "evidence": [
+        "gutenberg:ebooks:39250:210.210.2-210.210.2:6878d255"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Mercury was in due time appointed messenger of the gods, who, to make him fleet of foot, presented him with winged sandals, the Talaria, which endowed him with marvelous rapidity"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-9f6393a0",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0210-eceae8",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Goldsmith.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6",
+        "gutenberg:ebooks:39250:210.210.2-210.210.2:6878d255"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-4a707c32",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0273",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Goldsmith.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6",
+        "gutenberg:ebooks:39250:210.210.2-210.210.2:6878d255"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-a9310a23",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0273",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Goldsmith.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:210.210.1-210.210.1:a1f0c9a6",
+        "gutenberg:ebooks:39250:210.210.2-210.210.2:6878d255"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 57,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 1,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.285,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "hermes"
+  ],
+  "uncertainEvents": [],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

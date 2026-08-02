@@ -1,0 +1,266 @@
+{
+  "mythId": "bulk-myth-0271",
+  "mythFamilyId": "transcribers-note",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-transcribers-note-7cc03d",
+  "title": "Transcriber's Note",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:562.562.1-562.562.1:1d35f31c",
+      "gutenberg:ebooks:39250:562.562.2-562.562.2:27154591",
+      "gutenberg:ebooks:39250:562.562.3-562.562.3:767e715b",
+      "gutenberg:ebooks:39250:562.562.4-562.562.4:70ba647b",
+      "gutenberg:ebooks:39250:562.562.5-562.562.5:1a04e4b1"
+    ]
+  },
+  "entities": {
+    "characters": [],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Hyphenation and accent usage has been made consistent. came to Athens, delivered her from captivity, ...\"",
+    "openingSituation": "Hyphenation and accent usage has been made consistent.",
+    "centralConflict": "came to Athens, delivered her from captivity, ...\"",
+    "resolution": "came to Athens, delivered her from captivity, ...\"",
+    "outcome": "came to Athens, delivered her from captivity, ...\"",
+    "storyline": [
+      "Hyphenation and accent usage has been made consistent.",
+      "came to Athens, delivered her from captivity, ...\""
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:562.562.1-562.562.1:1d35f31c",
+        "gutenberg:ebooks:39250:562.562.2-562.562.2:27154591",
+        "gutenberg:ebooks:39250:562.562.3-562.562.3:767e715b"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:562.562.2-562.562.2:27154591"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:562.562.3-562.562.3:767e715b"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:562.562.3-562.562.3:767e715b"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:562.562.3-562.562.3:767e715b"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:562.562.1-562.562.1:1d35f31c",
+      "excerpt": "Variations in spelling of proper nouns are preserved as printed.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:562.562.2-562.562.2:27154591",
+      "excerpt": "Minor punctuation errors have been repaired. Hyphenation and accent usage has been made consistent.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:562.562.3-562.562.3:767e715b",
+      "excerpt": "Page 260--capitivity amended to captivity--\"... came to Athens, delivered her from captivity, ...\"",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:562.562.4-562.562.4:70ba647b",
+      "excerpt": "The transcriptions of the genealogical table have been added by the transcriber for the convenience of the reader. Please note that the original table stated erroneously that Hemera was male and Æther was female.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:562.562.5-562.562.5:1a04e4b1",
+      "excerpt": "End of Project Gutenberg's Myths of Greece and Rome, by H. A. Guerber",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": null,
+      "predicate": "opening_situation",
+      "object": "Hyphenation and accent usage has been made consistent.",
+      "evidence": [
+        "gutenberg:ebooks:39250:562.562.1-562.562.1:1d35f31c"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "Hyphenation and accent usage has been made consistent.",
+      "sourceClause": "Hyphenation and accent usage has been made consistent.",
+      "actor": null,
+      "action": "create",
+      "sourceAction": "made",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Hyphenation and accent usage has been made consistent.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:562.562.2-562.562.2:27154591"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "came to Athens, delivered her from captivity, ...\"",
+      "sourceClause": "came to Athens, delivered her from captivity, ...\"",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": "athens",
+      "result": "came to Athens, delivered her from captivity, ...\"",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:562.562.3-562.562.3:767e715b"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": null,
+      "predicate": "outcome",
+      "object": "came to Athens, delivered her from captivity, ...\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:562.562.5-562.562.5:1a04e4b1"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Hyphenation and accent usage has been made consistent.",
+      "came to Athens, delivered her from captivity, ...\""
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-c8a92a48",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0562-822723",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Transcriber's Note",
+      "suggestions": [
+        "no-mythological-characters",
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:562.562.1-562.562.1:1d35f31c",
+        "gutenberg:ebooks:39250:562.562.2-562.562.2:27154591",
+        "gutenberg:ebooks:39250:562.562.3-562.562.3:767e715b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-862d0d12",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0271",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Transcriber's Note",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:562.562.1-562.562.1:1d35f31c",
+        "gutenberg:ebooks:39250:562.562.2-562.562.2:27154591",
+        "gutenberg:ebooks:39250:562.562.3-562.562.3:767e715b"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-8ceca540",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0271",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Transcriber's Note",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:562.562.1-562.562.1:1d35f31c",
+        "gutenberg:ebooks:39250:562.562.2-562.562.2:27154591",
+        "gutenberg:ebooks:39250:562.562.3-562.562.3:767e715b"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 55,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: no-mythological-characters, fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "no-mythological-characters",
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 0,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.275,
+  "failedGates": [
+    "no-mythological-characters",
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

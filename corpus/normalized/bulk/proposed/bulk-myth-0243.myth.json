@@ -1,0 +1,243 @@
+{
+  "mythId": "bulk-myth-0243",
+  "mythFamilyId": "hades",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-hades-17559b",
+  "title": "Hades.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b",
+      "gutenberg:ebooks:39250:251.251.2-251.251.2:a1d6112d",
+      "gutenberg:ebooks:39250:251.251.3-251.251.3:97a30c90"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hades"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Hades",
+      "normalizedId": "hades",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled",
+    "openingSituation": "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled",
+    "centralConflict": "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled",
+    "resolution": "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled",
+    "outcome": "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled",
+    "storyline": [
+      "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled"
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b",
+        "gutenberg:ebooks:39250:251.251.2-251.251.2:a1d6112d",
+        "gutenberg:ebooks:39250:251.251.3-251.251.3:97a30c90"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b",
+        "gutenberg:ebooks:39250:251.251.2-251.251.2:a1d6112d"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b",
+        "gutenberg:ebooks:39250:251.251.2-251.251.2:a1d6112d"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b",
+        "gutenberg:ebooks:39250:251.251.2-251.251.2:a1d6112d"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b",
+        "gutenberg:ebooks:39250:251.251.2-251.251.2:a1d6112d"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b",
+      "excerpt": "[Sidenote: Tartarus.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:251.251.2-251.251.2:a1d6112d",
+      "excerpt": "When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled with the whistling of the whips incessantly plied by retributive deities.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:251.251.3-251.251.3:97a30c90",
+      "excerpt": "\"What sounds were heard, What scenes appeared, O'er all the dreary coasts! Dreadful gleams, Dismal screams, Fires that glow, Shrieks of woe, Sullen moans, Hollow groans, And cries of tortured ghosts.\"",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hades",
+      "predicate": "opening_situation",
+      "object": "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled",
+      "evidence": [
+        "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled with the whistling of the whips incessantly plied by retributive deities.",
+      "sourceClause": "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled with the whistling of the whips incessantly plied by retributive deities.",
+      "actor": null,
+      "action": "transform",
+      "sourceAction": "turned",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:251.251.2-251.251.2:a1d6112d"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hades",
+      "predicate": "outcome",
+      "object": "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled",
+      "evidence": [
+        "gutenberg:ebooks:39250:251.251.3-251.251.3:97a30c90"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "[Sidenote: Tartarus.] When the gates of Tartarus turned on their hinges to receive the newcomer, a chorus of cries, groans, and imprecations from within fell upon his ear, mingled"
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-44557434",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0251-901994",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Hades.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b",
+        "gutenberg:ebooks:39250:251.251.2-251.251.2:a1d6112d",
+        "gutenberg:ebooks:39250:251.251.3-251.251.3:97a30c90"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-c5793397",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0243",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "Hades.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b",
+        "gutenberg:ebooks:39250:251.251.2-251.251.2:a1d6112d",
+        "gutenberg:ebooks:39250:251.251.3-251.251.3:97a30c90"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-ab51f315",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0243",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Hades.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:251.251.1-251.251.1:44ddba8b",
+        "gutenberg:ebooks:39250:251.251.2-251.251.2:a1d6112d",
+        "gutenberg:ebooks:39250:251.251.3-251.251.3:97a30c90"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 52,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.26,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "hades"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

@@ -1,0 +1,364 @@
+{
+  "mythId": "bulk-myth-0138",
+  "mythFamilyId": "apollo-and-daphne",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-apollo-and-daphne-29a75e",
+  "title": "Wordsworth.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+      "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3",
+      "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4",
+      "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "apollo",
+      "poseidon"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
+        }
+      ]
+    },
+    {
+      "sourceName": "Neptune",
+      "normalizedId": "poseidon",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "[Sidenote: The walls of Troy.] Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the [Sidenote: Apollo slays Python.] Then, his term of exile being ended, he returned to heaven, and there resumed his wonted duties.",
+    "openingSituation": "[Sidenote: The walls of Troy.] Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the",
+    "centralConflict": "From his exalted position he often cast loving glances down upon men, whose life he had shared for a short time, whose every privation he had endured; and, in answer to their",
+    "resolution": "None had dared approach the monster; but Apollo fearlessly drew near, and slew him with his golden shafts.",
+    "outcome": "None had dared approach the monster; but Apollo fearlessly drew near, and slew him with his golden shafts.",
+    "storyline": [
+      "[Sidenote: The walls of Troy.] Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the",
+      "[Sidenote: Apollo slays Python.] Then, his term of exile being ended, he returned to heaven, and there resumed his wonted duties.",
+      "From his exalted position he often cast loving glances down upon men, whose life he had shared for a short time, whose every privation he had endured; and, in answer to their",
+      "Among other deeds done for men was the slaying of the monster serpent Python, born from the slime and stagnant waters which remained upon the surface of the earth after the Deluge.",
+      "None had dared approach the monster; but Apollo fearlessly drew near, and slew him with his golden shafts."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+        "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3",
+        "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+        "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+      "excerpt": "[Sidenote: The walls of Troy.]",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3",
+      "excerpt": "Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the walls of Troy.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4",
+      "excerpt": "[Sidenote: Apollo slays Python.]",
+      "supports": [
+        "event-003"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1",
+      "excerpt": "Then, his term of exile being ended, he returned to heaven, and there resumed his wonted duties.",
+      "supports": [
+        "event-004"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "apollo",
+      "predicate": "opening_situation",
+      "object": "[Sidenote: The walls of Troy.] Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the",
+      "evidence": [
+        "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "[Sidenote: The walls of Troy.] Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the walls of Troy.",
+      "sourceClause": "[Sidenote: The walls of Troy.] Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the walls of Troy.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "went",
+      "object": null,
+      "target": "apollo",
+      "recipient": null,
+      "location": "troy",
+      "result": "[Sidenote: The walls of Troy.] Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "[Sidenote: Apollo slays Python.] Then, his term of exile being ended, he returned to heaven, and there resumed his wonted duties.",
+      "sourceClause": "[Sidenote: Apollo slays Python.] Then, his term of exile being ended, he returned to heaven, and there resumed his wonted duties.",
+      "actor": null,
+      "action": "return",
+      "sourceAction": "returned",
+      "object": null,
+      "target": "apollo",
+      "recipient": null,
+      "location": null,
+      "result": "[Sidenote: Apollo slays Python.] Then, his term of exile being ended, he returned to heaven, and there resumed his wonted duties.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4"
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-003",
+      "sourceSentence": "From his exalted position he often cast loving glances down upon men, whose life he had shared for a short time, whose every privation he had endured; and, in answer to their prayers, he graciously extended his protection over them, and delivered them from misfortunes too numerous to mention.",
+      "sourceClause": "From his exalted position he often cast loving glances down upon men, whose life he had shared for a short time, whose every privation he had endured; and, in answer to their prayers, he graciously extended his protection over them, and delivered them from misfortunes too numerous to mention.",
+      "actor": null,
+      "action": "rescue",
+      "sourceAction": "delivered",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "From his exalted position he often cast loving glances down upon men, whose life he had shared for a short time, whose every privation he had endured; and, in answer to their",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-004",
+      "sourceSentence": "Among other deeds done for men was the slaying of the monster serpent Python, born from the slime and stagnant waters which remained upon the surface of the earth after the Deluge.",
+      "sourceClause": "Among other deeds done for men was the slaying of the monster serpent Python, born from the slime and stagnant waters which remained upon the surface of the earth after the Deluge.",
+      "actor": null,
+      "action": "birth",
+      "sourceAction": "born",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "Among other deeds done for men was the slaying of the monster serpent Python, born from the slime and stagnant waters which remained upon the surface of the earth after the Deluge.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-005",
+      "sourceSentence": "None had dared approach the monster; but Apollo fearlessly drew near, and slew him with his golden shafts.",
+      "sourceClause": "None had dared approach the monster; but Apollo fearlessly drew near, and slew him with his golden shafts.",
+      "actor": null,
+      "action": "defeat",
+      "sourceAction": "slew",
+      "object": null,
+      "target": "apollo",
+      "recipient": null,
+      "location": null,
+      "result": "None had dared approach the monster; but Apollo fearlessly drew near, and slew him with his golden shafts.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "apollo",
+      "predicate": "outcome",
+      "object": "None had dared approach the monster; but Apollo fearlessly drew near, and slew him with his golden shafts.",
+      "evidence": [
+        "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "[Sidenote: The walls of Troy.] Apollo, after endowing Admetus with immortality, left his service, and went to assist Neptune, who had also been banished to earth, to build the",
+      "[Sidenote: Apollo slays Python.] Then, his term of exile being ended, he returned to heaven, and there resumed his wonted duties.",
+      "From his exalted position he often cast loving glances down upon men, whose life he had shared for a short time, whose every privation he had endured; and, in answer to their",
+      "Among other deeds done for men was the slaying of the monster serpent Python, born from the slime and stagnant waters which remained upon the surface of the earth after the Deluge.",
+      "None had dared approach the monster; but Apollo fearlessly drew near, and slew him with his golden shafts."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "rejected_non_story"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-bc6ba8b7",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0098-25f6a7",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+        "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3",
+        "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-1b4f9fd2",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0138",
+      "issueType": "verification-program-rejected_non_story",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "rejected_non_story"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+        "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3",
+        "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-0677e6fe",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0138",
+      "issueType": "pr12-audit-rejected_non_story",
+      "sourceValue": "Wordsworth.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+        "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3",
+        "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 104,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 2,
+      "meaningfulEvents": 5,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 5,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.52,
+  "failedGates": [
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "apollo",
+    "poseidon"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002",
+    "event-003",
+    "event-004",
+    "event-005"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "rejected_non_story"
+}

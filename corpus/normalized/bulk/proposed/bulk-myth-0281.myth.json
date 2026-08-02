@@ -1,0 +1,210 @@
+{
+  "mythId": "bulk-myth-0281",
+  "mythFamilyId": "midas",
+  "variantId": "gutenberg-baker-stories-old-greece-rome-eng-midas-125b1f",
+  "title": "XLIII",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360",
+      "gutenberg:ebooks:45489:253.253.2-253.253.2:1a8d1a43",
+      "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "midas"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Midas",
+      "normalizedId": "midas",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "",
+    "openingSituation": "",
+    "centralConflict": "",
+    "resolution": "",
+    "outcome": "",
+    "storyline": [],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360",
+        "gutenberg:ebooks:45489:253.253.2-253.253.2:1a8d1a43",
+        "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
+      ],
+      "openingSituation": [],
+      "centralConflict": [],
+      "resolution": [],
+      "outcome": []
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360",
+      "excerpt": "As the ass was reverenced in Phrygia, the acquisition of ass's ears may not have been such a disgrace as we imagine.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:253.253.2-253.253.2:1a8d1a43",
+      "excerpt": "Ovid thus describes Midas' golden touch:--",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86",
+      "excerpt": "\"Whose powerful hands the bread no sooner hold, Than all its substance is transformed to gold; Up to his mouth he lifts the savory meat, Which turns to gold as he attempts to eat: His patron's noble juice of purple hue, Touch'd by his",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "midas",
+      "predicate": "opening_situation",
+      "object": "XLIII",
+      "evidence": [
+        "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360"
+      ]
+    }
+  ],
+  "events": [],
+  "finalState": [
+    {
+      "subject": "midas",
+      "predicate": "outcome",
+      "object": "XLIII",
+      "evidence": [
+        "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": []
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-af88af52",
+      "recordType": "candidate",
+      "recordId": "gutenberg-baker-stories-old-greece-rome-eng-0253-fe4b42",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "XLIII",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "no-object-target-recipient-location-or-outcome",
+        "no-central-conflict-or-change",
+        "no-outcome",
+        "no-storyline",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360",
+        "gutenberg:ebooks:45489:253.253.2-253.253.2:1a8d1a43",
+        "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-edc6260a",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0281",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "XLIII",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360",
+        "gutenberg:ebooks:45489:253.253.2-253.253.2:1a8d1a43",
+        "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-fca71c40",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0281",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "XLIII",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:45489:253.253.1-253.253.1:2775d360",
+        "gutenberg:ebooks:45489:253.253.2-253.253.2:1a8d1a43",
+        "gutenberg:ebooks:45489:253.253.3-253.253.3:aaed3a86"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 14,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, no-object-target-recipient-location-or-outcome, no-central-conflict-or-change, no-outcome, no-storyline, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "no-object-target-recipient-location-or-outcome",
+      "no-central-conflict-or-change",
+      "no-outcome",
+      "no-storyline",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 0,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 0,
+      "hasCentralConflictOrChange": false,
+      "hasOutcome": false,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.07,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "no-object-target-recipient-location-or-outcome",
+    "no-central-conflict-or-change",
+    "no-outcome",
+    "no-storyline",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "midas"
+  ],
+  "uncertainEvents": [],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

@@ -1,0 +1,1944 @@
+{
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "sampleSize": 20,
+  "records": [
+    {
+      "mythId": "bulk-myth-0007",
+      "originalPr12Status": "ambiguous",
+      "finalStatus": "ambiguous",
+      "titleBefore": "Chapter XX",
+      "titleAfter": "Chapter XX",
+      "mythFamilyBefore": "chapter-xx",
+      "mythFamilyAfter": "chapter-xx",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0",
+        "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103",
+        "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903",
+        "gutenberg:ebooks:45489:123.123.4-123.123.4:ada4a3c6",
+        "gutenberg:ebooks:45489:123.123.5-123.123.5:909b6671",
+        "gutenberg:ebooks:45489:123.123.6-123.123.6:a1cc9f65",
+        "gutenberg:ebooks:45489:123.123.7-123.123.7:fcd04b43",
+        "gutenberg:ebooks:45489:123.123.8-123.123.8:e4e594bc",
+        "gutenberg:ebooks:45489:123.123.9-123.123.9:697e665b",
+        "gutenberg:ebooks:45489:123.123.10-123.123.10:07acf0a1",
+        "gutenberg:ebooks:45489:123.123.11-123.123.11:259d5eed",
+        "gutenberg:ebooks:45489:123.123.12-123.123.12:55dd4859"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0",
+          "gutenberg:ebooks:45489:123.123.2-123.123.2:01450103",
+          "gutenberg:ebooks:45489:123.123.3-123.123.3:d0dad903",
+          "gutenberg:ebooks:45489:123.123.4-123.123.4:ada4a3c6",
+          "gutenberg:ebooks:45489:123.123.5-123.123.5:909b6671",
+          "gutenberg:ebooks:45489:123.123.6-123.123.6:a1cc9f65",
+          "gutenberg:ebooks:45489:123.123.7-123.123.7:fcd04b43",
+          "gutenberg:ebooks:45489:123.123.8-123.123.8:e4e594bc",
+          "gutenberg:ebooks:45489:123.123.9-123.123.9:697e665b",
+          "gutenberg:ebooks:45489:123.123.10-123.123.10:07acf0a1",
+          "gutenberg:ebooks:45489:123.123.11-123.123.11:259d5eed",
+          "gutenberg:ebooks:45489:123.123.12-123.123.12:55dd4859"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Chapter XX\" cites 12 passage(s) from gutenberg-baker-stories-old-greece-rome-eng; the first cited passage begins \"Pan and the Nymphs\" and the last cited passage begins \"Rhœcus was very happy with the Hamadryad; and never failed to follow the flight of the bee that came each day at sunset.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0007 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0007."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0007; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0007."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0007."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Chapter XX\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:123.123.1-123.123.1:6579c1e0",
+          "sourceText": "Pan and the Nymphs",
+          "supports": "Cited source passage inspected for bulk-myth-0007; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:123.123.12-123.123.12:55dd4859",
+          "sourceText": "Rhœcus was very happy with the Hamadryad; and never failed to follow the flight of the bee that came each day at sunset to lead him to the trysting-place. One morning, however, he began to play at dice with his friends, and the game continued through the long summer afternoon. As it drew toward sunset, Rhœcus forgot that it was his hour to meet the Dryad, and continued his game, even though he noticed vaguely that a bee was buzzing near him. Soon the bee came close to his face, and buzzed so persistently that Rhœcus brushed it angrily away. Each time he tried to shake it off it came buzzing back, and at last he struck at it so viciously that it fell to the ground. Then in a flash Rhœcus remembered his promise to the Dryad, and throwing away his dice, he hurried to the trysting-place. He called to the nymph and begged her to come to him once more; but no sweet face appeared though a voice spoke from the heart of the oak-tree bidding him a sad farewell. Rhœcus had already repented bitterly of his forgetfulness; but nothing could restore him to favor. He sat all night beside the oak-tree, but the Dryad never came to him again.[66]",
+          "supports": "Cited source passage inspected for bulk-myth-0007; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0007.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0007."
+      ],
+      "decisionRationale": "For bulk-myth-0007 (\"Chapter XX\"), the sample audit found recoverable source passages in gutenberg-baker-stories-old-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is ambiguous for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0008",
+      "originalPr12Status": "ambiguous",
+      "finalStatus": "ambiguous",
+      "titleBefore": "Part I",
+      "titleAfter": "Part I",
+      "mythFamilyBefore": "jason-and-argonauts",
+      "mythFamilyAfter": "jason-and-argonauts",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:45489:154.154.1-154.154.1:52478b65",
+        "gutenberg:ebooks:45489:154.154.2-154.154.2:3cef63ab",
+        "gutenberg:ebooks:45489:154.154.3-154.154.3:db24ad1e",
+        "gutenberg:ebooks:45489:154.154.4-154.154.4:0a890273",
+        "gutenberg:ebooks:45489:154.154.5-154.154.5:7bef7ce0",
+        "gutenberg:ebooks:45489:154.154.6-154.154.6:ed641f65",
+        "gutenberg:ebooks:45489:154.154.7-154.154.7:f69f0040",
+        "gutenberg:ebooks:45489:154.154.8-154.154.8:1967f4fd",
+        "gutenberg:ebooks:45489:154.154.9-154.154.9:f8a9cb1d",
+        "gutenberg:ebooks:45489:154.154.10-154.154.10:d40c1f1f"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:45489:154.154.1-154.154.1:52478b65",
+          "gutenberg:ebooks:45489:154.154.2-154.154.2:3cef63ab",
+          "gutenberg:ebooks:45489:154.154.3-154.154.3:db24ad1e",
+          "gutenberg:ebooks:45489:154.154.4-154.154.4:0a890273",
+          "gutenberg:ebooks:45489:154.154.5-154.154.5:7bef7ce0",
+          "gutenberg:ebooks:45489:154.154.6-154.154.6:ed641f65",
+          "gutenberg:ebooks:45489:154.154.7-154.154.7:f69f0040",
+          "gutenberg:ebooks:45489:154.154.8-154.154.8:1967f4fd",
+          "gutenberg:ebooks:45489:154.154.9-154.154.9:f8a9cb1d",
+          "gutenberg:ebooks:45489:154.154.10-154.154.10:d40c1f1f"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Part I\" cites 10 passage(s) from gutenberg-baker-stories-old-greece-rome-eng; the first cited passage begins \"In Thessaly there once ruled a wise and good king named Æson, who dwelt happily with his wife Alcimede, and his little.\" and the last cited passage begins \"On another occasion Jason landed in Thrace; and here he learned that the blind King Phineus was tormented by some Harpi.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0008 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0008."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0008; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0008."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0008."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Part I\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:154.154.1-154.154.1:52478b65",
+          "sourceText": "In Thessaly there once ruled a wise and good king named Æson, who dwelt happily with his wife Alcimede, and his little son Jason. The king's reign did not last long, however, for his wicked brother Pelias collected a band of armed warriors and made war upon Æson, who, after a feeble resistance, surrendered his throne to the invader and escaped secretly from the kingdom with his wife and child. The dethroned monarch took refuge in a distant country, and lived in concealment until Jason was old enough to be sent to some place of greater safety, for they knew that the cruel Pelias would try to seek him out and kill him. So they intrusted the boy to the care of the centaur Chiron, after telling that wise teacher who the lad really was, and begging him to bring Jason up with the desire some day to avenge their wrongs.",
+          "supports": "Cited source passage inspected for bulk-myth-0008; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:154.154.10-154.154.10:d40c1f1f",
+          "sourceText": "On another occasion Jason landed in Thrace; and here he learned that the blind King Phineus was tormented by some Harpies--creatures half women and half bird--that ate or befouled all the food placed before the wretched king. The only meals Phineus could take were by stealth, and the poor king's life was rendered miserable by the constant presence of these foul monsters. When the two sons of Boreas, who were happily gifted with wings, heard Jason relate the story of the Harpies to his companions, they promptly offered to help the blind Phineus; and, flying at the loathsome birds with drawn swords, the brothers drove them out of Thrace into an island so far away that they never came back to trouble the king.",
+          "supports": "Cited source passage inspected for bulk-myth-0008; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0008.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0008."
+      ],
+      "decisionRationale": "For bulk-myth-0008 (\"Part I\"), the sample audit found recoverable source passages in gutenberg-baker-stories-old-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is ambiguous for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0009",
+      "originalPr12Status": "ambiguous",
+      "finalStatus": "ambiguous",
+      "titleBefore": "The trident--summoned all the hurricanes",
+      "titleAfter": "The trident--summoned all the hurricanes",
+      "mythFamilyBefore": "the-trident-summoned-all-the-hurricanes",
+      "mythFamilyAfter": "the-trident-summoned-all-the-hurricanes",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:45489:115.115.1-115.115.1:0ef832f4",
+        "gutenberg:ebooks:45489:115.115.2-115.115.2:3be9c6f1",
+        "gutenberg:ebooks:45489:115.115.3-115.115.3:8e0a443e",
+        "gutenberg:ebooks:45489:115.115.4-115.115.4:ec301718",
+        "gutenberg:ebooks:45489:115.115.5-115.115.5:545a4b7f",
+        "gutenberg:ebooks:45489:115.115.6-115.115.6:63c96c55",
+        "gutenberg:ebooks:45489:115.115.7-115.115.7:fd56756b",
+        "gutenberg:ebooks:45489:115.115.8-115.115.8:fa851f25",
+        "gutenberg:ebooks:45489:115.115.9-115.115.9:44b111ae",
+        "gutenberg:ebooks:45489:115.115.10-115.115.10:743e782f",
+        "gutenberg:ebooks:45489:115.115.11-115.115.11:a0089c3d",
+        "gutenberg:ebooks:45489:115.115.12-115.115.12:e95267a3",
+        "gutenberg:ebooks:45489:115.115.13-115.115.13:8b598b2b",
+        "gutenberg:ebooks:45489:115.115.14-115.115.14:f77a66b0",
+        "gutenberg:ebooks:45489:115.115.15-115.115.15:265d244d"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:45489:115.115.1-115.115.1:0ef832f4",
+          "gutenberg:ebooks:45489:115.115.2-115.115.2:3be9c6f1",
+          "gutenberg:ebooks:45489:115.115.3-115.115.3:8e0a443e",
+          "gutenberg:ebooks:45489:115.115.4-115.115.4:ec301718",
+          "gutenberg:ebooks:45489:115.115.5-115.115.5:545a4b7f",
+          "gutenberg:ebooks:45489:115.115.6-115.115.6:63c96c55",
+          "gutenberg:ebooks:45489:115.115.7-115.115.7:fd56756b",
+          "gutenberg:ebooks:45489:115.115.8-115.115.8:fa851f25",
+          "gutenberg:ebooks:45489:115.115.9-115.115.9:44b111ae",
+          "gutenberg:ebooks:45489:115.115.10-115.115.10:743e782f",
+          "gutenberg:ebooks:45489:115.115.11-115.115.11:a0089c3d",
+          "gutenberg:ebooks:45489:115.115.12-115.115.12:e95267a3",
+          "gutenberg:ebooks:45489:115.115.13-115.115.13:8b598b2b",
+          "gutenberg:ebooks:45489:115.115.14-115.115.14:f77a66b0",
+          "gutenberg:ebooks:45489:115.115.15-115.115.15:265d244d"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"The trident--summoned all the hurricanes\" cites 15 passage(s) from gutenberg-baker-stories-old-greece-rome-eng; the first cited passage begins \"Of all the winds, and covered earth and sky At once with mists, while from above the night Fell suddenly.'\" and the last cited passage begins \"Aristæus thanked the Ancient of the Deep for his wise words, and after releasing him from the fetters, hurried away to.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0009 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0009."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0009; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0009."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0009."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"The trident--summoned all the hurricanes\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:115.115.1-115.115.1:0ef832f4",
+          "sourceText": "Of all the winds, and covered earth and sky At once with mists, while from above the night Fell suddenly.\"",
+          "supports": "Cited source passage inspected for bulk-myth-0009; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:115.115.15-115.115.15:265d244d",
+          "sourceText": "Aristæus thanked the Ancient of the Deep for his wise words, and after releasing him from the fetters, hurried away to do as Proteus had advised. The sacrifices were made, and suitable honors paid to the dead; and then, after waiting impatiently for nine days, Aristæus went back to the grove. To his great joy he found that a swarm of bees had taken possession of the carcasses, and that he was now the owner of a much larger number than he had ever had before.",
+          "supports": "Cited source passage inspected for bulk-myth-0009; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0009.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0009."
+      ],
+      "decisionRationale": "For bulk-myth-0009 (\"The trident--summoned all the hurricanes\"), the sample audit found recoverable source passages in gutenberg-baker-stories-old-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is ambiguous for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0012",
+      "originalPr12Status": "ambiguous",
+      "finalStatus": "ambiguous",
+      "titleBefore": "Famous Lovers",
+      "titleAfter": "Famous Lovers",
+      "mythFamilyBefore": "narcissus-and-echo",
+      "mythFamilyAfter": "narcissus-and-echo",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:45489:96.96.1-96.96.1:efec98dc",
+        "gutenberg:ebooks:45489:96.96.2-96.96.2:469ea1d6",
+        "gutenberg:ebooks:45489:96.96.3-96.96.3:8d192b8e",
+        "gutenberg:ebooks:45489:96.96.4-96.96.4:efcd6acc",
+        "gutenberg:ebooks:45489:96.96.5-96.96.5:4b2f45de",
+        "gutenberg:ebooks:45489:96.96.6-96.96.6:317a8719",
+        "gutenberg:ebooks:45489:96.96.7-96.96.7:2f52cf63",
+        "gutenberg:ebooks:45489:96.96.8-96.96.8:3421adac",
+        "gutenberg:ebooks:45489:96.96.9-96.96.9:4a1f7c4d",
+        "gutenberg:ebooks:45489:96.96.10-96.96.10:aab86ad3",
+        "gutenberg:ebooks:45489:96.96.11-96.96.11:9ae8304f",
+        "gutenberg:ebooks:45489:96.96.12-96.96.12:65aa0751",
+        "gutenberg:ebooks:45489:96.96.13-96.96.13:bdec2e73",
+        "gutenberg:ebooks:45489:96.96.14-96.96.14:cb44a36f",
+        "gutenberg:ebooks:45489:96.96.15-96.96.15:f84b2daa",
+        "gutenberg:ebooks:45489:96.96.16-96.96.16:65cf0c01"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:45489:96.96.1-96.96.1:efec98dc",
+          "gutenberg:ebooks:45489:96.96.2-96.96.2:469ea1d6",
+          "gutenberg:ebooks:45489:96.96.3-96.96.3:8d192b8e",
+          "gutenberg:ebooks:45489:96.96.4-96.96.4:efcd6acc",
+          "gutenberg:ebooks:45489:96.96.5-96.96.5:4b2f45de",
+          "gutenberg:ebooks:45489:96.96.6-96.96.6:317a8719",
+          "gutenberg:ebooks:45489:96.96.7-96.96.7:2f52cf63",
+          "gutenberg:ebooks:45489:96.96.8-96.96.8:3421adac",
+          "gutenberg:ebooks:45489:96.96.9-96.96.9:4a1f7c4d",
+          "gutenberg:ebooks:45489:96.96.10-96.96.10:aab86ad3",
+          "gutenberg:ebooks:45489:96.96.11-96.96.11:9ae8304f",
+          "gutenberg:ebooks:45489:96.96.12-96.96.12:65aa0751",
+          "gutenberg:ebooks:45489:96.96.13-96.96.13:bdec2e73",
+          "gutenberg:ebooks:45489:96.96.14-96.96.14:cb44a36f",
+          "gutenberg:ebooks:45489:96.96.15-96.96.15:f84b2daa",
+          "gutenberg:ebooks:45489:96.96.16-96.96.16:65cf0c01"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Famous Lovers\" cites 16 passage(s) from gutenberg-baker-stories-old-greece-rome-eng; the first cited passage begins \"I. Echo and Narcissus\" and the last cited passage begins \"When the time came for her to light the torch, she did so reluctantly, hoping that Leander would not come. On the oppos.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0012 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0012."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0012; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0012."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0012."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Famous Lovers\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:96.96.1-96.96.1:efec98dc",
+          "sourceText": "I. Echo and Narcissus",
+          "supports": "Cited source passage inspected for bulk-myth-0012; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:96.96.16-96.96.16:65cf0c01",
+          "sourceText": "When the time came for her to light the torch, she did so reluctantly, hoping that Leander would not come. On the opposite shore stood the impatient lover, waiting for the accustomed signal, and when it blazed out into the night, he plunged boldly into the waves. But now the sea was too strong even for his experienced arms, and the huge waves tossed him about as though he were so much foam. The wind and rain beat upon his defenseless body, and the cold sea gripped him in its deadly embrace. He struggled bravely to make some headway, and called upon the gods for help; but his cries were drowned in the howling of the storm. His strength began to fail as he fought desperately with the current,--grown terrible in its swiftness,--but now and then he lifted his head weakly above the waves to see whether Hero's torch was still burning. Just as he was making a last heroic effort to reach the land, a sudden gust of wind blew out the light; and seeing this, Leander with a despairing cry, gave up his unequal battle and sank down into the sea. The next morning when Hero, anxious and fearful, stood on the rocks at the foot of the tower, she saw Leander's body, which had been tossed there in wanton cruelty by the waves. Unable to endure this sight, and not wishing to live any longer now that her lover had perished, Hero threw herself into the sea; and when the tardy fishermen came to launch their boats on the furious waves, they found the white-robed body of the young priestess lying dead beside her faithful Leander.[26]",
+          "supports": "Cited source passage inspected for bulk-myth-0012; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0012.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0012."
+      ],
+      "decisionRationale": "For bulk-myth-0012 (\"Famous Lovers\"), the sample audit found recoverable source passages in gutenberg-baker-stories-old-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is ambiguous for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0015",
+      "originalPr12Status": "ambiguous",
+      "finalStatus": "ambiguous",
+      "titleBefore": "Part II",
+      "titleAfter": "Part II",
+      "mythFamilyBefore": "theseus-and-minotaur",
+      "mythFamilyAfter": "theseus-and-minotaur",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63",
+        "gutenberg:ebooks:45489:167.167.2-167.167.2:b014af21",
+        "gutenberg:ebooks:45489:167.167.3-167.167.3:28e1f90a",
+        "gutenberg:ebooks:45489:167.167.4-167.167.4:5aeb07cd",
+        "gutenberg:ebooks:45489:167.167.5-167.167.5:b4aa6606",
+        "gutenberg:ebooks:45489:167.167.6-167.167.6:2ff5185f",
+        "gutenberg:ebooks:45489:167.167.7-167.167.7:9752d0dc",
+        "gutenberg:ebooks:45489:167.167.8-167.167.8:d5c3bd93",
+        "gutenberg:ebooks:45489:167.167.9-167.167.9:7216055e"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63",
+          "gutenberg:ebooks:45489:167.167.2-167.167.2:b014af21",
+          "gutenberg:ebooks:45489:167.167.3-167.167.3:28e1f90a",
+          "gutenberg:ebooks:45489:167.167.4-167.167.4:5aeb07cd",
+          "gutenberg:ebooks:45489:167.167.5-167.167.5:b4aa6606",
+          "gutenberg:ebooks:45489:167.167.6-167.167.6:2ff5185f",
+          "gutenberg:ebooks:45489:167.167.7-167.167.7:9752d0dc",
+          "gutenberg:ebooks:45489:167.167.8-167.167.8:d5c3bd93",
+          "gutenberg:ebooks:45489:167.167.9-167.167.9:7216055e"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Part II\" cites 9 passage(s) from gutenberg-baker-stories-old-greece-rome-eng; the first cited passage begins \"When Theseus heard the story of the Minotaur and its wonderful labyrinth, he determined that it should no longer exact.\" and the last cited passage begins \"The next adventure in which Theseus engaged was to lead the Athenian army against Pirithous, king of the Lapithæ, who h.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0015 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0015."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0015; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0015."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0015."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Part II\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:167.167.1-167.167.1:36210f63",
+          "sourceText": "When Theseus heard the story of the Minotaur and its wonderful labyrinth, he determined that it should no longer exact its yearly tribute of human lives, for he would offer himself as one of the victims and end the terrible sacrifice by slaying the monster. When he announced this intention to his father, the king sought to persuade him to remain at home; but Theseus joined the youths and maidens who had been chosen by lot to go to Crete, and they set sail for the country of the Minotaur. According to the custom, the ship hoisted only black sails, which Theseus promised to change for white ones when he returned unharmed, having slain the monster.",
+          "supports": "Cited source passage inspected for bulk-myth-0015; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:167.167.9-167.167.9:7216055e",
+          "sourceText": "The next adventure in which Theseus engaged was to lead the Athenian army against Pirithous, king of the Lapithæ, who had been secretly carrying off some of his herds. Full of anger at these continued plunderings, Theseus came suddenly upon the marauders as they were boldly making off with their booty; but as soon as he and Pirithous were brought face to face, they were seized with such an admiration for each other that they had no longer any feelings of enmity. They threw down their weapons, clasped each other's hands, and swore eternal friendship. To prove his devotion to his new friend, Theseus agreed to accompany him to the court of Adrastus, king of Argos, and to be present at the marriage of Pirithous to Hippodamia, the daughter of the king. Many guests came to the wedding, and among them were Hercules and a number of the centaurs. The beauty of the bride so won the admiration of the centaurs that they determined to kidnap her, and a terrible battle ensued between them and the Lapithæ, who were aided by Theseus and Hercules. Finally the centaurs were driven away, but not before many of them had been killed or wounded. The bride who had been the cause of this strenuous fighting did not live long, however, and Pirithous soon found himself like Theseus, a disconsolate widower.",
+          "supports": "Cited source passage inspected for bulk-myth-0015; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0015.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0015."
+      ],
+      "decisionRationale": "For bulk-myth-0015 (\"Part II\"), the sample audit found recoverable source passages in gutenberg-baker-stories-old-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is ambiguous for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0006",
+      "originalPr12Status": "unresolved_requires_human_review",
+      "finalStatus": "unresolved_requires_human_review",
+      "titleBefore": "The Story of Proserpina",
+      "titleAfter": "The Story of Proserpina",
+      "mythFamilyBefore": "demeter-and-persephone",
+      "mythFamilyAfter": "demeter-and-persephone",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+        "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+        "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09",
+        "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+        "gutenberg:ebooks:45489:107.107.5-107.107.5:60e33e95",
+        "gutenberg:ebooks:45489:107.107.6-107.107.6:554b901a",
+        "gutenberg:ebooks:45489:107.107.7-107.107.7:ced8cd57",
+        "gutenberg:ebooks:45489:107.107.8-107.107.8:3ce94066",
+        "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e",
+        "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+        "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+          "gutenberg:ebooks:45489:107.107.2-107.107.2:3f747816",
+          "gutenberg:ebooks:45489:107.107.3-107.107.3:0ff18a09",
+          "gutenberg:ebooks:45489:107.107.4-107.107.4:314c871b",
+          "gutenberg:ebooks:45489:107.107.5-107.107.5:60e33e95",
+          "gutenberg:ebooks:45489:107.107.6-107.107.6:554b901a",
+          "gutenberg:ebooks:45489:107.107.7-107.107.7:ced8cd57",
+          "gutenberg:ebooks:45489:107.107.8-107.107.8:3ce94066",
+          "gutenberg:ebooks:45489:107.107.9-107.107.9:91214b4e",
+          "gutenberg:ebooks:45489:107.107.10-107.107.10:ef33cc85",
+          "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"The Story of Proserpina\" cites 11 passage(s) from gutenberg-baker-stories-old-greece-rome-eng; the first cited passage begins \"When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much.\" and the last cited passage begins \"Ceres no longer mourned, nor did she again suffer a great famine to afflict the land. The patient old earth smiled agai.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0006 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0006."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0006; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0006."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0006."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"The Story of Proserpina\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.1-107.107.1:3fc4ca9e",
+          "sourceText": "When Jupiter made himself ruler of the world, he imprisoned some of the warring giants under Mount Etna in Sicily, much to the disgust of Pluto, who was always fearing that when the giants got restless and turned over and over underground (thus causing earthquakes), they would some day make such a large crack in the earth that daylight would be let into Hades. So Pluto often went up out of his sunless land to look carefully over the island, and to be sure that no new fissure was being made in the earth's surface. One day, as he was driving his four coal-black horses through the vale of Enna, he saw a group of maidens gathering violets on the hillside; and among them was one so exquisitely fair that Pluto determined to take her for his wife. This was Proserpina,[36] daughter of Ceres, the goddess of agriculture, a maiden who had ever shunned the thought of marriage and preferred to spend her life playing games, and dancing in the beautiful plain of Enna, where there is never any frost or snow, but springtime lasts through all the year.",
+          "supports": "Cited source passage inspected for bulk-myth-0006; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:107.107.11-107.107.11:500552f9",
+          "sourceText": "Ceres no longer mourned, nor did she again suffer a great famine to afflict the land. The patient old earth smiled again on Proserpina's return, for then her mother gave the blighted vegetation a redoubled care. But her happiness did not make the goddess forget the kindly old man who had given her food and shelter at Eleusis, for she returned there and taught the boy Triptolemus all the secrets of agriculture. She also gave him her chariot, and bade him journey everywhere, teaching the people how to plow and sow and reap, and care for their harvests. Triptolemus carried out all her instructions; and as he traveled over the country he was eagerly welcomed alike by prince and peasant until he came to Scythia, where the cruel King Lyncus would have killed him, in a fit of jealous wrath, had not Ceres interfered with timely aid and changed the treacherous monarch into a lynx.",
+          "supports": "Cited source passage inspected for bulk-myth-0006; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0006.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0006."
+      ],
+      "decisionRationale": "For bulk-myth-0006 (\"The Story of Proserpina\"), the sample audit found recoverable source passages in gutenberg-baker-stories-old-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is unresolved_requires_human_review for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0021",
+      "originalPr12Status": "unresolved_requires_human_review",
+      "finalStatus": "unresolved_requires_human_review",
+      "titleBefore": "Eurystheus to report his success.",
+      "titleAfter": "Eurystheus to report his success.",
+      "mythFamilyBefore": "theseus-and-minotaur",
+      "mythFamilyAfter": "theseus-and-minotaur",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:45489:138.138.1-138.138.1:a2002463",
+        "gutenberg:ebooks:45489:138.138.2-138.138.2:f9784ee1",
+        "gutenberg:ebooks:45489:138.138.3-138.138.3:a1df9ce7",
+        "gutenberg:ebooks:45489:138.138.4-138.138.4:bd24a317",
+        "gutenberg:ebooks:45489:138.138.5-138.138.5:56cbd352",
+        "gutenberg:ebooks:45489:138.138.6-138.138.6:d25425da"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:45489:138.138.1-138.138.1:a2002463",
+          "gutenberg:ebooks:45489:138.138.2-138.138.2:f9784ee1",
+          "gutenberg:ebooks:45489:138.138.3-138.138.3:a1df9ce7",
+          "gutenberg:ebooks:45489:138.138.4-138.138.4:bd24a317",
+          "gutenberg:ebooks:45489:138.138.5-138.138.5:56cbd352",
+          "gutenberg:ebooks:45489:138.138.6-138.138.6:d25425da"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Eurystheus to report his success.\" cites 6 passage(s) from gutenberg-baker-stories-old-greece-rome-eng; the first cited passage begins \"The most unpleasant of all Hercules's labors was the cleaning of the stables where Augeas, king of Elis, kept his herd.\" and the last cited passage begins \"When the hero reached the island of Erythea, he found the oxen guarded by the giant Eurytion and his three-headed dog;.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0021 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0021."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0021; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0021."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0021."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Eurystheus to report his success.\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:138.138.1-138.138.1:a2002463",
+          "sourceText": "The most unpleasant of all Hercules's labors was the cleaning of the stables where Augeas, king of Elis, kept his herd of a thousand oxen. These stables had not been cleaned for thirty years; and when Hercules caught one glimpse of the filth within them, he felt that this was too degrading a task for him to undertake. But the work had to be done; and since he could not put his hand to anything so foul, he looked about for some other means to accomplish the labor. Not far from the stables flowed two rivers, the Peneus and Alpheus, and these Hercules turned out of their courses and made them rush through the filthy building until every part of the stables of Augeas was washed perfectly clean. Then he restored the rivers to their former beds, and returned home to report this task fulfilled.",
+          "supports": "Cited source passage inspected for bulk-myth-0021; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:138.138.6-138.138.6:d25425da",
+          "sourceText": "When the hero reached the island of Erythea, he found the oxen guarded by the giant Eurytion and his three-headed dog; but even this did not daunt the slayer of the Hydra. He boldly attacked the giant; and after a fierce battle, in which his oak club stood him in good stead, killed both Eurytion and the monstrous dog. Then he went in search of the oxen, and, after herding them closely, drove them toward his own country. On the journey homeward he passed Mount Aventine, where the giant Cacus lived in a rocky cave. One night, as Hercules was asleep near the mountain, the giant stole part of the cattle; and, to deceive the hero, he dragged them backwards by their tails into his cave. Hercules might have been tricked by this stratagem if the stolen oxen had not lowed loudly as the rest of the herd passed the cave, and so betrayed their hiding place. Hercules rushed into the giant's dark, ill-smelling dwelling, slew him, and recovered all the stolen cattle.",
+          "supports": "Cited source passage inspected for bulk-myth-0021; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0021.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0021."
+      ],
+      "decisionRationale": "For bulk-myth-0021 (\"Eurystheus to report his success.\"), the sample audit found recoverable source passages in gutenberg-baker-stories-old-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is unresolved_requires_human_review for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0030",
+      "originalPr12Status": "unresolved_requires_human_review",
+      "finalStatus": "unresolved_requires_human_review",
+      "titleBefore": "Perseus",
+      "titleAfter": "Perseus",
+      "mythFamilyBefore": "perseus-and-medusa",
+      "mythFamilyAfter": "perseus-and-medusa",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:45489:146.146.1-146.146.1:2e29cf8f",
+        "gutenberg:ebooks:45489:146.146.2-146.146.2:76765a3c",
+        "gutenberg:ebooks:45489:146.146.3-146.146.3:1f0871ca",
+        "gutenberg:ebooks:45489:146.146.4-146.146.4:e2e917cb",
+        "gutenberg:ebooks:45489:146.146.5-146.146.5:0fde7f65",
+        "gutenberg:ebooks:45489:146.146.6-146.146.6:afdd7c22",
+        "gutenberg:ebooks:45489:146.146.7-146.146.7:ed2b0f8e"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:45489:146.146.1-146.146.1:2e29cf8f",
+          "gutenberg:ebooks:45489:146.146.2-146.146.2:76765a3c",
+          "gutenberg:ebooks:45489:146.146.3-146.146.3:1f0871ca",
+          "gutenberg:ebooks:45489:146.146.4-146.146.4:e2e917cb",
+          "gutenberg:ebooks:45489:146.146.5-146.146.5:0fde7f65",
+          "gutenberg:ebooks:45489:146.146.6-146.146.6:afdd7c22",
+          "gutenberg:ebooks:45489:146.146.7-146.146.7:ed2b0f8e"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Perseus\" cites 7 passage(s) from gutenberg-baker-stories-old-greece-rome-eng; the first cited passage begins \"When the wicked King Danaüs persuaded his daughters to kill their husbands on their wedding night, there was one, Hyper.\" and the last cited passage begins \"'There sat the crones that had the single eye, Clad in blue sweeping cloak and snow-white gown;\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0030 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0030."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0030; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0030."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0030."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Perseus\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:146.146.1-146.146.1:2e29cf8f",
+          "sourceText": "When the wicked King Danaüs persuaded his daughters to kill their husbands on their wedding night, there was one, Hypermnestra, who refused to slay her lover, and by saving him brought upon the head of cruel Danaüs the doom that he had striven to escape.[85] The grandson of Hypermnestra and Lynceus was Acrisius, king of Argo, a kindly ruler who dearly loved his only daughter Danaë, and kept her always near him to delight his eyes with her great beauty. Unfortunately the king chanced to learn from an oracle that he would one day be killed by his grandson; and hoping to prevent this, he shut Danaë in a high brazen tower which no one was allowed to enter on pain of death. He placed around the tower a strong guard, so that no one could get even a glimpse of the imprisoned princess; but though no mortal wooer could approach her, Danaë's loveliness was not hidden from Jupiter's eyes, and as he looked down from high Olympus he pitied the maiden's loneliness and loved her for her great beauty. Fearing to frighten her if he assumed any mortal disguise, and not daring to appear before her in his divine splendor, he took the form of a golden shower, which fell softly on the sill of the tower window and charmed the lonely captive with its brightness. Each day this strange visitor came to glorify her darkened room, and Danaë looked forward eagerly to its appearance. Thus by means of the golden shower Jupiter won the maiden's confidence and love, and spent many hours with her in the high tower room. Danaë was not lonely any more, but people who passed beneath her window could hear her singing to herself all day long.",
+          "supports": "Cited source passage inspected for bulk-myth-0030; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:146.146.7-146.146.7:ed2b0f8e",
+          "sourceText": "\"There sat the crones that had the single eye, Clad in blue sweeping cloak and snow-white gown;",
+          "supports": "Cited source passage inspected for bulk-myth-0030; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0030.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0030."
+      ],
+      "decisionRationale": "For bulk-myth-0030 (\"Perseus\"), the sample audit found recoverable source passages in gutenberg-baker-stories-old-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is unresolved_requires_human_review for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0056",
+      "originalPr12Status": "unresolved_requires_human_review",
+      "finalStatus": "unresolved_requires_human_review",
+      "titleBefore": "The Story of Pandora",
+      "titleAfter": "The Story of Pandora",
+      "mythFamilyBefore": "pandora",
+      "mythFamilyAfter": "pandora",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:45489:58.58.1-58.58.1:e84c10c4",
+        "gutenberg:ebooks:45489:58.58.2-58.58.2:edbe7709",
+        "gutenberg:ebooks:45489:58.58.3-58.58.3:46b77812",
+        "gutenberg:ebooks:45489:58.58.4-58.58.4:a09a9fba",
+        "gutenberg:ebooks:45489:58.58.5-58.58.5:0d1df95e",
+        "gutenberg:ebooks:45489:58.58.6-58.58.6:d752e500",
+        "gutenberg:ebooks:45489:58.58.7-58.58.7:0d1df95e",
+        "gutenberg:ebooks:45489:58.58.8-58.58.8:5b879d6a",
+        "gutenberg:ebooks:45489:58.58.9-58.58.9:552a3235"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:45489:58.58.1-58.58.1:e84c10c4",
+          "gutenberg:ebooks:45489:58.58.2-58.58.2:edbe7709",
+          "gutenberg:ebooks:45489:58.58.3-58.58.3:46b77812",
+          "gutenberg:ebooks:45489:58.58.4-58.58.4:a09a9fba",
+          "gutenberg:ebooks:45489:58.58.5-58.58.5:0d1df95e",
+          "gutenberg:ebooks:45489:58.58.6-58.58.6:d752e500",
+          "gutenberg:ebooks:45489:58.58.7-58.58.7:0d1df95e",
+          "gutenberg:ebooks:45489:58.58.8-58.58.8:5b879d6a",
+          "gutenberg:ebooks:45489:58.58.9-58.58.9:552a3235"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"The Story of Pandora\" cites 9 passage(s) from gutenberg-baker-stories-old-greece-rome-eng; the first cited passage begins \"In the early days of man's life on the earth, when everything was beautiful and new, there was no sickness anywhere, no.\" and the last cited passage begins \"Swiftly and deftly she untied the knot, which yielded easily to her eager fingers; but even then she hesitated, fearing.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0056 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 5 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0056."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0056; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0056."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0056."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"The Story of Pandora\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:58.58.1-58.58.1:e84c10c4",
+          "sourceText": "In the early days of man's life on the earth, when everything was beautiful and new, there was no sickness anywhere, nor any pain, nor sorrow. Men lived to be very old and very wise, and everywhere was happiness such as has never been since in all the world. Now Jupiter had not forgotten about the stealing of the sacred fire, and it angered him that man should light his own fires and kindle the cheerful blaze which should by right be glowing only in the halls of Olympus. The suffering of Prometheus had not softened his wrath. He would not be satisfied until punishment was visited upon those who had received the stolen fire. Accordingly he called a council of the gods and spoke to them of his desire. Though none of the deities wished to see misfortune brought upon the race of man, they did not dare to dispute the will of Jupiter. So they agreed to carry out the plan that he unfolded, and before many days had passed they had fashioned, out of the same clay from which man was made, a creature that they called woman. To her each of the gods gave a gift such as softness, or grace, or wonderful fairness; but Jupiter added one other quality, curiosity, and he gave the woman the name of Pandora, which means \"the gift of all the gods.\"[3] Then he bade Mercury, who is the messenger of the gods, take this new soft thing down to the earth and give her to Epimetheus for his wife. Now Epimetheus had mourned apart from his fellows ever since he learned of his brother's dreadful fate; and he sat day and night in the cool silence of the forest, brooding over his sorrow. But one day he saw some one coming toward him, led by the hand of Mercury, and all at once he forgot to be sad; for the sunlight was shining on the woman's golden hair, and her white arm was stretched out to him in greeting.",
+          "supports": "Cited source passage inspected for bulk-myth-0056; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:58.58.9-58.58.9:552a3235",
+          "sourceText": "Swiftly and deftly she untied the knot, which yielded easily to her eager fingers; but even then she hesitated, fearing the anger of",
+          "supports": "Cited source passage inspected for bulk-myth-0056; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0056.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0056."
+      ],
+      "decisionRationale": "For bulk-myth-0056 (\"The Story of Pandora\"), the sample audit found recoverable source passages in gutenberg-baker-stories-old-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is unresolved_requires_human_review for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0057",
+      "originalPr12Status": "unresolved_requires_human_review",
+      "finalStatus": "unresolved_requires_human_review",
+      "titleBefore": "Mars and Vulcan",
+      "titleAfter": "Mars and Vulcan",
+      "mythFamilyBefore": "mars-and-vulcan",
+      "mythFamilyAfter": "mars-and-vulcan",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:45489:101.101.1-101.101.1:ca73ab65",
+        "gutenberg:ebooks:45489:101.101.2-101.101.2:b72eafb4",
+        "gutenberg:ebooks:45489:101.101.3-101.101.3:7144d505",
+        "gutenberg:ebooks:45489:101.101.4-101.101.4:e95267a3",
+        "gutenberg:ebooks:45489:101.101.5-101.101.5:b0cebab4",
+        "gutenberg:ebooks:45489:101.101.6-101.101.6:32f875d2",
+        "gutenberg:ebooks:45489:101.101.7-101.101.7:19c501df"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:45489:101.101.1-101.101.1:ca73ab65",
+          "gutenberg:ebooks:45489:101.101.2-101.101.2:b72eafb4",
+          "gutenberg:ebooks:45489:101.101.3-101.101.3:7144d505",
+          "gutenberg:ebooks:45489:101.101.4-101.101.4:e95267a3",
+          "gutenberg:ebooks:45489:101.101.5-101.101.5:b0cebab4",
+          "gutenberg:ebooks:45489:101.101.6-101.101.6:32f875d2",
+          "gutenberg:ebooks:45489:101.101.7-101.101.7:19c501df"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Mars and Vulcan\" cites 7 passage(s) from gutenberg-baker-stories-old-greece-rome-eng; the first cited passage begins \"I\" and the last cited passage begins \"When this new city was well established, Mars was made its patron deity and protector; and before an army set out on an.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0057 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0057."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0057; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0057."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0057."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Mars and Vulcan\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:101.101.1-101.101.1:ca73ab65",
+          "sourceText": "I",
+          "supports": "Cited source passage inspected for bulk-myth-0057; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:45489:101.101.7-101.101.7:19c501df",
+          "sourceText": "When this new city was well established, Mars was made its patron deity and protector; and before an army set out on any military campaign the leader would first go into the temple where the sacred shield--the Ancile--hung; and touching it fearfully would pray, \"Oh, Mars, watch over us.\" This shield was carefully guarded in Rome, for upon it depended the safety of the city. It was a special token sent by the god of war to show that the people of Rome were under his protection; for once when a plague was raging among them and the dead were numbered by thousands, the Romans fled to the temple of Mars and begged him to help them. As they were praying, a shield fell from the skies into their midst, and a voice told them that as long as this--the sacred Ancile--was with them, no harm could come to Rome. That day the plague ceased, and ever afterward the shield was jealously guarded. To insure its safety, eleven other shields were made so like the Ancile that no one but the Salii, the priests of the temple, knew which it was. These were carried in the streets during the festivals in honor of Mars which were held in March--the month that bears his name; and as the priests bore aloft the shields they sang war-songs and performed rude war dances. Sometimes the shields were displayed on the broad grounds where the soldiers and youths of the city held their exercises. This place was dedicated to the god of war, and was called the Campus Martius, or",
+          "supports": "Cited source passage inspected for bulk-myth-0057; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0057.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0057."
+      ],
+      "decisionRationale": "For bulk-myth-0057 (\"Mars and Vulcan\"), the sample audit found recoverable source passages in gutenberg-baker-stories-old-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is unresolved_requires_human_review for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0081",
+      "originalPr12Status": "rejected_non_story",
+      "finalStatus": "rejected_non_story",
+      "titleBefore": "SACRIFICES.",
+      "titleAfter": "SACRIFICES.",
+      "mythFamilyBefore": "sacrifices",
+      "mythFamilyAfter": "sacrifices",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:22381:277.277.1-277.277.1:91f8fcbd",
+        "gutenberg:ebooks:22381:277.277.2-277.277.2:9e508355",
+        "gutenberg:ebooks:22381:277.277.3-277.277.3:2c995447",
+        "gutenberg:ebooks:22381:277.277.4-277.277.4:7241dc90",
+        "gutenberg:ebooks:22381:277.277.5-277.277.5:847b7dc8",
+        "gutenberg:ebooks:22381:277.277.6-277.277.6:c6a489f6",
+        "gutenberg:ebooks:22381:277.277.7-277.277.7:11d36f6c",
+        "gutenberg:ebooks:22381:277.277.8-277.277.8:24fa778f",
+        "gutenberg:ebooks:22381:277.277.9-277.277.9:4da1cfa2",
+        "gutenberg:ebooks:22381:277.277.10-277.277.10:87d3baf5",
+        "gutenberg:ebooks:22381:277.277.11-277.277.11:cfe51744",
+        "gutenberg:ebooks:22381:277.277.12-277.277.12:09d44657",
+        "gutenberg:ebooks:22381:277.277.13-277.277.13:0b955ea1",
+        "gutenberg:ebooks:22381:277.277.14-277.277.14:d33ecb3f",
+        "gutenberg:ebooks:22381:277.277.15-277.277.15:c5a57c77"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:22381:277.277.1-277.277.1:91f8fcbd",
+          "gutenberg:ebooks:22381:277.277.2-277.277.2:9e508355",
+          "gutenberg:ebooks:22381:277.277.3-277.277.3:2c995447",
+          "gutenberg:ebooks:22381:277.277.4-277.277.4:7241dc90",
+          "gutenberg:ebooks:22381:277.277.5-277.277.5:847b7dc8",
+          "gutenberg:ebooks:22381:277.277.6-277.277.6:c6a489f6",
+          "gutenberg:ebooks:22381:277.277.7-277.277.7:11d36f6c",
+          "gutenberg:ebooks:22381:277.277.8-277.277.8:24fa778f",
+          "gutenberg:ebooks:22381:277.277.9-277.277.9:4da1cfa2",
+          "gutenberg:ebooks:22381:277.277.10-277.277.10:87d3baf5",
+          "gutenberg:ebooks:22381:277.277.11-277.277.11:cfe51744",
+          "gutenberg:ebooks:22381:277.277.12-277.277.12:09d44657",
+          "gutenberg:ebooks:22381:277.277.13-277.277.13:0b955ea1",
+          "gutenberg:ebooks:22381:277.277.14-277.277.14:d33ecb3f",
+          "gutenberg:ebooks:22381:277.277.15-277.277.15:c5a57c77"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"SACRIFICES.\" cites 15 passage(s) from gutenberg-berens-myths-legends-greece-rome-eng; the first cited passage begins \"There is no doubt that a feeling of gratitude to the gods for their protecting care, and the abundance with which they.\" and the last cited passage begins \"At the sacrifices to the aerial divinities music was added, whilst dances were performed round the altar, and sacred hy.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit preserves a rejected outcome for bulk-myth-0081 only as a record-specific non-story finding pending later human confirmation."
+      },
+      "characterCorrections": [
+        "The original proposal lists 4 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0081."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0081; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0081."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0081."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"SACRIFICES.\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:277.277.1-277.277.1:91f8fcbd",
+          "sourceText": "There is no doubt that a feeling of gratitude to the gods for their protecting care, and the abundance with which they were believed to bless mankind, has induced men of all nations and in all countries to feel a desire to sacrifice to their divinities some portion of the gifts so generously lavished upon them.",
+          "supports": "Cited source passage inspected for bulk-myth-0081; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:277.277.15-277.277.15:c5a57c77",
+          "sourceText": "At the sacrifices to the aerial divinities music was added, whilst dances were performed round the altar, and sacred hymns sung. These hymns were generally composed in honour of the gods, and contained an account of their famous actions, their clemency and beneficence, and the gifts conferred by them on mankind. In conclusion, the gods were invoked for a continuance of their favour, and when the service was ended a feast was held.",
+          "supports": "Cited source passage inspected for bulk-myth-0081; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0081.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0081."
+      ],
+      "decisionRationale": "For bulk-myth-0081 (\"SACRIFICES.\"), the sample audit found recoverable source passages in gutenberg-berens-myths-legends-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is rejected_non_story for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0066",
+      "originalPr12Status": "rejected_non_story",
+      "finalStatus": "rejected_non_story",
+      "titleBefore": "Wordsworth.",
+      "titleAfter": "Wordsworth.",
+      "mythFamilyBefore": "heracles-labors",
+      "mythFamilyAfter": "heracles-labors",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:39250:344.344.1-344.344.1:8b3bff11",
+        "gutenberg:ebooks:39250:344.344.2-344.344.2:4259c075",
+        "gutenberg:ebooks:39250:344.344.3-344.344.3:348dd4a8",
+        "gutenberg:ebooks:39250:344.344.4-344.344.4:8590954a",
+        "gutenberg:ebooks:39250:344.344.5-344.344.5:3650f171",
+        "gutenberg:ebooks:39250:344.344.6-344.344.6:e74e272e",
+        "gutenberg:ebooks:39250:344.344.7-344.344.7:56f7a3a9",
+        "gutenberg:ebooks:39250:344.344.8-344.344.8:27aef4fe",
+        "gutenberg:ebooks:39250:344.344.9-344.344.9:8dd8d7f0",
+        "gutenberg:ebooks:39250:344.344.10-344.344.10:e7fc5390",
+        "gutenberg:ebooks:39250:344.344.11-344.344.11:bff2e12d"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:39250:344.344.1-344.344.1:8b3bff11",
+          "gutenberg:ebooks:39250:344.344.2-344.344.2:4259c075",
+          "gutenberg:ebooks:39250:344.344.3-344.344.3:348dd4a8",
+          "gutenberg:ebooks:39250:344.344.4-344.344.4:8590954a",
+          "gutenberg:ebooks:39250:344.344.5-344.344.5:3650f171",
+          "gutenberg:ebooks:39250:344.344.6-344.344.6:e74e272e",
+          "gutenberg:ebooks:39250:344.344.7-344.344.7:56f7a3a9",
+          "gutenberg:ebooks:39250:344.344.8-344.344.8:27aef4fe",
+          "gutenberg:ebooks:39250:344.344.9-344.344.9:8dd8d7f0",
+          "gutenberg:ebooks:39250:344.344.10-344.344.10:e7fc5390",
+          "gutenberg:ebooks:39250:344.344.11-344.344.11:bff2e12d"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Wordsworth.\" cites 11 passage(s) from gutenberg-guerber-myths-greece-rome-eng; the first cited passage begins \"When Hercules saw that the work of purification was thoroughly accomplished, he guided the stream back to its original.\" and the last cited passage begins \"'The Amazons array their ranks,\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit preserves a rejected outcome for bulk-myth-0066 only as a record-specific non-story finding pending later human confirmation."
+      },
+      "characterCorrections": [
+        "The original proposal lists 5 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0066."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0066; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0066."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0066."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Wordsworth.\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:344.344.1-344.344.1:8b3bff11",
+          "sourceText": "When Hercules saw that the work of purification was thoroughly accomplished, he guided the stream back to its original bed, and returned home to announce that the fifth labor was accomplished. The fabulous filth of the Augean stables, and the radical methods employed for their cleansing, have given rise to proverbial expressions still in current use.",
+          "supports": "Cited source passage inspected for bulk-myth-0066; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:344.344.11-344.344.11:bff2e12d",
+          "sourceText": "\"The Amazons array their ranks,",
+          "supports": "Cited source passage inspected for bulk-myth-0066; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0066.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0066."
+      ],
+      "decisionRationale": "For bulk-myth-0066 (\"Wordsworth.\"), the sample audit found recoverable source passages in gutenberg-guerber-myths-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is rejected_non_story for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0132",
+      "originalPr12Status": "rejected_non_story",
+      "finalStatus": "rejected_non_story",
+      "titleBefore": "Wordsworth.",
+      "titleAfter": "Wordsworth.",
+      "mythFamilyBefore": "jason-and-argonauts",
+      "mythFamilyAfter": "jason-and-argonauts",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:39250:398.398.1-398.398.1:ca87af89",
+        "gutenberg:ebooks:39250:398.398.2-398.398.2:1c55aadb",
+        "gutenberg:ebooks:39250:398.398.3-398.398.3:a9b7e14a",
+        "gutenberg:ebooks:39250:398.398.4-398.398.4:7d560317",
+        "gutenberg:ebooks:39250:398.398.5-398.398.5:f42acdf9",
+        "gutenberg:ebooks:39250:398.398.6-398.398.6:01ca5dfc"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:39250:398.398.1-398.398.1:ca87af89",
+          "gutenberg:ebooks:39250:398.398.2-398.398.2:1c55aadb",
+          "gutenberg:ebooks:39250:398.398.3-398.398.3:a9b7e14a",
+          "gutenberg:ebooks:39250:398.398.4-398.398.4:7d560317",
+          "gutenberg:ebooks:39250:398.398.5-398.398.5:f42acdf9",
+          "gutenberg:ebooks:39250:398.398.6-398.398.6:01ca5dfc"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Wordsworth.\" cites 6 passage(s) from gutenberg-guerber-myths-greece-rome-eng; the first cited passage begins \"[Sidenote; The magic recipe.]\" and the last cited passage begins \"The Argonautic expedition is emblematic of the first long maritime voyage undertaken by the Greeks for commercial purpo.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit preserves a rejected outcome for bulk-myth-0132 only as a record-specific non-story finding pending later human confirmation."
+      },
+      "characterCorrections": [
+        "The original proposal lists 2 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0132."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0132; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 5 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0132."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0132."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Wordsworth.\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:398.398.1-398.398.1:ca87af89",
+          "sourceText": "[Sidenote: The magic recipe.]",
+          "supports": "Cited source passage inspected for bulk-myth-0132; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:398.398.6-398.398.6:01ca5dfc",
+          "sourceText": "The Argonautic expedition is emblematic of the first long maritime voyage undertaken by the Greeks for commercial purposes; while the golden fleece which Jason brought back from Colchis is but a symbol of the untold riches they found in the East, and brought back to their own native land.",
+          "supports": "Cited source passage inspected for bulk-myth-0132; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0132.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0132."
+      ],
+      "decisionRationale": "For bulk-myth-0132 (\"Wordsworth.\"), the sample audit found recoverable source passages in gutenberg-guerber-myths-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is rejected_non_story for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0138",
+      "originalPr12Status": "rejected_non_story",
+      "finalStatus": "rejected_non_story",
+      "titleBefore": "Wordsworth.",
+      "titleAfter": "Wordsworth.",
+      "mythFamilyBefore": "apollo-and-daphne",
+      "mythFamilyAfter": "apollo-and-daphne",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+        "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3",
+        "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4",
+        "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+          "gutenberg:ebooks:39250:98.98.2-98.98.2:d14876a3",
+          "gutenberg:ebooks:39250:98.98.3-98.98.3:98df76b4",
+          "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Wordsworth.\" cites 4 passage(s) from gutenberg-guerber-myths-greece-rome-eng; the first cited passage begins \"[Sidenote; The walls of Troy.]\" and the last cited passage begins \"Then, his term of exile being ended, he returned to heaven, and there resumed his wonted duties. From his exalted posit.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit preserves a rejected outcome for bulk-myth-0138 only as a record-specific non-story finding pending later human confirmation."
+      },
+      "characterCorrections": [
+        "The original proposal lists 2 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0138."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0138; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 5 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0138."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0138."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Wordsworth.\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.1-98.98.1:90140c0f",
+          "sourceText": "[Sidenote: The walls of Troy.]",
+          "supports": "Cited source passage inspected for bulk-myth-0138; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:98.98.4-98.98.4:2d9897a1",
+          "sourceText": "Then, his term of exile being ended, he returned to heaven, and there resumed his wonted duties. From his exalted position he often cast loving glances down upon men, whose life he had shared for a short time, whose every privation he had endured; and, in answer to their prayers, he graciously extended his protection over them, and delivered them from misfortunes too numerous to mention. Among other deeds done for men was the slaying of the monster serpent Python, born from the slime and stagnant waters which remained upon the surface of the earth after the Deluge. None had dared approach the monster; but Apollo fearlessly drew near, and slew him with his golden shafts. The victory over the terrible Python won for Apollo the surname of Pytheus (the Slayer), by which appellation he was frequently invoked.",
+          "supports": "Cited source passage inspected for bulk-myth-0138; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0138.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0138."
+      ],
+      "decisionRationale": "For bulk-myth-0138 (\"Wordsworth.\"), the sample audit found recoverable source passages in gutenberg-guerber-myths-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is rejected_non_story for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0139",
+      "originalPr12Status": "rejected_non_story",
+      "finalStatus": "rejected_non_story",
+      "titleBefore": "Horace.",
+      "titleAfter": "Horace.",
+      "mythFamilyBefore": "orpheus-and-eurydice",
+      "mythFamilyAfter": "orpheus-and-eurydice",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f",
+        "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1",
+        "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4",
+        "gutenberg:ebooks:39250:112.112.4-112.112.4:f272bbbb"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f",
+          "gutenberg:ebooks:39250:112.112.2-112.112.2:84d0d0a1",
+          "gutenberg:ebooks:39250:112.112.3-112.112.3:47f117b4",
+          "gutenberg:ebooks:39250:112.112.4-112.112.4:f272bbbb"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Horace.\" cites 4 passage(s) from gutenberg-guerber-myths-greece-rome-eng; the first cited passage begins \"Unspeakably relieved by this performance, the barber returned home. Time passed. Reeds grew over the hole, and, as they.\" and the last cited passage begins \"'Orpheus with his lute made trees, And the mountain-tops, that freeze, Bow themselves when he did sing;\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit preserves a rejected outcome for bulk-myth-0139 only as a record-specific non-story finding pending later human confirmation."
+      },
+      "characterCorrections": [
+        "The original proposal lists 4 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0139."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0139; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 4 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0139."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0139."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Horace.\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.1-112.112.1:4427296f",
+          "sourceText": "Unspeakably relieved by this performance, the barber returned home. Time passed. Reeds grew over the hole, and, as they bent before the wind which rustled through their leaves, they were heard to murmur, \"Midas, King Midas, has ass's ears!\" and all who passed by caught the whisper, and noised it abroad, so that the secret became the general topic of all conversations.",
+          "supports": "Cited source passage inspected for bulk-myth-0139; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:112.112.4-112.112.4:f272bbbb",
+          "sourceText": "\"Orpheus with his lute made trees, And the mountain-tops, that freeze, Bow themselves when he did sing:",
+          "supports": "Cited source passage inspected for bulk-myth-0139; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0139.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0139."
+      ],
+      "decisionRationale": "For bulk-myth-0139 (\"Horace.\"), the sample audit found recoverable source passages in gutenberg-guerber-myths-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is rejected_non_story for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0002",
+      "originalPr12Status": "ambiguous",
+      "finalStatus": "unresolved_requires_human_review",
+      "titleBefore": "Afterthought.",
+      "titleAfter": "Afterthought.",
+      "mythFamilyBefore": "trojan-war",
+      "mythFamilyAfter": "trojan-war",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:39250:513.513.1-513.513.1:490baedf",
+        "gutenberg:ebooks:39250:513.513.2-513.513.2:f2e593a9",
+        "gutenberg:ebooks:39250:513.513.3-513.513.3:90353304",
+        "gutenberg:ebooks:39250:513.513.4-513.513.4:5094e4ef",
+        "gutenberg:ebooks:39250:513.513.5-513.513.5:b6ce9ee3",
+        "gutenberg:ebooks:39250:513.513.6-513.513.6:8b836b29",
+        "gutenberg:ebooks:39250:513.513.7-513.513.7:e3d725bf",
+        "gutenberg:ebooks:39250:513.513.8-513.513.8:b8490701",
+        "gutenberg:ebooks:39250:513.513.9-513.513.9:092632f9",
+        "gutenberg:ebooks:39250:513.513.10-513.513.10:6e11a9dd",
+        "gutenberg:ebooks:39250:513.513.11-513.513.11:66cbe32c",
+        "gutenberg:ebooks:39250:513.513.12-513.513.12:d6edb10e",
+        "gutenberg:ebooks:39250:513.513.13-513.513.13:d4b71580",
+        "gutenberg:ebooks:39250:513.513.14-513.513.14:39f5fb5b",
+        "gutenberg:ebooks:39250:513.513.15-513.513.15:a9ce0c89",
+        "gutenberg:ebooks:39250:513.513.16-513.513.16:036958ae",
+        "gutenberg:ebooks:39250:513.513.17-513.513.17:4b176e62",
+        "gutenberg:ebooks:39250:513.513.18-513.513.18:e9c0e7e0",
+        "gutenberg:ebooks:39250:513.513.19-513.513.19:6923aaf7",
+        "gutenberg:ebooks:39250:513.513.20-513.513.20:64fe34dd",
+        "gutenberg:ebooks:39250:513.513.21-513.513.21:63177ddb",
+        "gutenberg:ebooks:39250:513.513.22-513.513.22:79cf8e4e",
+        "gutenberg:ebooks:39250:513.513.23-513.513.23:77f0f415",
+        "gutenberg:ebooks:39250:513.513.24-513.513.24:2d1fce14",
+        "gutenberg:ebooks:39250:513.513.25-513.513.25:d9cda933",
+        "gutenberg:ebooks:39250:513.513.26-513.513.26:b1ff8c37",
+        "gutenberg:ebooks:39250:513.513.27-513.513.27:515ca9e1",
+        "gutenberg:ebooks:39250:513.513.28-513.513.28:2364540e",
+        "gutenberg:ebooks:39250:513.513.29-513.513.29:da6ff13e",
+        "gutenberg:ebooks:39250:513.513.30-513.513.30:f3db689e",
+        "gutenberg:ebooks:39250:513.513.31-513.513.31:bb1d6950",
+        "gutenberg:ebooks:39250:513.513.32-513.513.32:21061b49",
+        "gutenberg:ebooks:39250:513.513.33-513.513.33:5a9161c5",
+        "gutenberg:ebooks:39250:513.513.34-513.513.34:5e7b3e20",
+        "gutenberg:ebooks:39250:513.513.35-513.513.35:ed33722c",
+        "gutenberg:ebooks:39250:513.513.36-513.513.36:92cacd8a",
+        "gutenberg:ebooks:39250:513.513.37-513.513.37:05f13275",
+        "gutenberg:ebooks:39250:513.513.38-513.513.38:526ea35a",
+        "gutenberg:ebooks:39250:513.513.39-513.513.39:7f2593ff",
+        "gutenberg:ebooks:39250:513.513.40-513.513.40:276c6ce5",
+        "gutenberg:ebooks:39250:513.513.41-513.513.41:27824935",
+        "gutenberg:ebooks:39250:513.513.42-513.513.42:06a2249d",
+        "gutenberg:ebooks:39250:513.513.43-513.513.43:9cc08767",
+        "gutenberg:ebooks:39250:513.513.44-513.513.44:723e6ca6",
+        "gutenberg:ebooks:39250:513.513.45-513.513.45:a33f14df",
+        "gutenberg:ebooks:39250:513.513.46-513.513.46:0ace4bc3",
+        "gutenberg:ebooks:39250:513.513.47-513.513.47:02189bfb",
+        "gutenberg:ebooks:39250:513.513.48-513.513.48:70bfdc99",
+        "gutenberg:ebooks:39250:513.513.49-513.513.49:497a465f",
+        "gutenberg:ebooks:39250:513.513.50-513.513.50:f958ce79",
+        "gutenberg:ebooks:39250:513.513.51-513.513.51:5b5c9512",
+        "gutenberg:ebooks:39250:513.513.52-513.513.52:02612d88",
+        "gutenberg:ebooks:39250:513.513.53-513.513.53:5ae68124",
+        "gutenberg:ebooks:39250:513.513.54-513.513.54:47094bf6",
+        "gutenberg:ebooks:39250:513.513.55-513.513.55:40d4acf3",
+        "gutenberg:ebooks:39250:513.513.56-513.513.56:0695a92a",
+        "gutenberg:ebooks:39250:513.513.57-513.513.57:3af3215b",
+        "gutenberg:ebooks:39250:513.513.58-513.513.58:4c703b55",
+        "gutenberg:ebooks:39250:513.513.59-513.513.59:a755132b",
+        "gutenberg:ebooks:39250:513.513.60-513.513.60:98aa2872",
+        "gutenberg:ebooks:39250:513.513.61-513.513.61:f7bc9b3c",
+        "gutenberg:ebooks:39250:513.513.62-513.513.62:7f32b980",
+        "gutenberg:ebooks:39250:513.513.63-513.513.63:7f38eb1b",
+        "gutenberg:ebooks:39250:513.513.64-513.513.64:87042370",
+        "gutenberg:ebooks:39250:513.513.65-513.513.65:ff22f5cf",
+        "gutenberg:ebooks:39250:513.513.66-513.513.66:986bd57b",
+        "gutenberg:ebooks:39250:513.513.67-513.513.67:3fca2e0c",
+        "gutenberg:ebooks:39250:513.513.68-513.513.68:dcdb3445",
+        "gutenberg:ebooks:39250:513.513.69-513.513.69:9daf7d05",
+        "gutenberg:ebooks:39250:513.513.70-513.513.70:09e1b8ed",
+        "gutenberg:ebooks:39250:513.513.71-513.513.71:d9feef0e",
+        "gutenberg:ebooks:39250:513.513.72-513.513.72:3d1db8f4",
+        "gutenberg:ebooks:39250:513.513.73-513.513.73:bbb39b8a",
+        "gutenberg:ebooks:39250:513.513.74-513.513.74:e564c4e0",
+        "gutenberg:ebooks:39250:513.513.75-513.513.75:b2bf14a9",
+        "gutenberg:ebooks:39250:513.513.76-513.513.76:7484c065",
+        "gutenberg:ebooks:39250:513.513.77-513.513.77:87038b65",
+        "gutenberg:ebooks:39250:513.513.78-513.513.78:bc2d4cc0",
+        "gutenberg:ebooks:39250:513.513.79-513.513.79:5f512c8b",
+        "gutenberg:ebooks:39250:513.513.80-513.513.80:3a6269bf",
+        "gutenberg:ebooks:39250:513.513.81-513.513.81:cbe3c90c",
+        "gutenberg:ebooks:39250:513.513.82-513.513.82:fe2e3b98",
+        "gutenberg:ebooks:39250:513.513.83-513.513.83:ae4e26df",
+        "gutenberg:ebooks:39250:513.513.84-513.513.84:ee96cb29",
+        "gutenberg:ebooks:39250:513.513.85-513.513.85:8d9fab30",
+        "gutenberg:ebooks:39250:513.513.86-513.513.86:b1df3f8a",
+        "gutenberg:ebooks:39250:513.513.87-513.513.87:61807cf1",
+        "gutenberg:ebooks:39250:513.513.88-513.513.88:b3126cfd",
+        "gutenberg:ebooks:39250:513.513.89-513.513.89:7ecdc2a1",
+        "gutenberg:ebooks:39250:513.513.90-513.513.90:f1d1d08c",
+        "gutenberg:ebooks:39250:513.513.91-513.513.91:fdb5a117",
+        "gutenberg:ebooks:39250:513.513.92-513.513.92:a6c5b81a",
+        "gutenberg:ebooks:39250:513.513.93-513.513.93:ff3678ec"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:39250:513.513.1-513.513.1:490baedf",
+          "gutenberg:ebooks:39250:513.513.2-513.513.2:f2e593a9",
+          "gutenberg:ebooks:39250:513.513.3-513.513.3:90353304",
+          "gutenberg:ebooks:39250:513.513.4-513.513.4:5094e4ef",
+          "gutenberg:ebooks:39250:513.513.5-513.513.5:b6ce9ee3",
+          "gutenberg:ebooks:39250:513.513.6-513.513.6:8b836b29",
+          "gutenberg:ebooks:39250:513.513.7-513.513.7:e3d725bf",
+          "gutenberg:ebooks:39250:513.513.8-513.513.8:b8490701",
+          "gutenberg:ebooks:39250:513.513.9-513.513.9:092632f9",
+          "gutenberg:ebooks:39250:513.513.10-513.513.10:6e11a9dd",
+          "gutenberg:ebooks:39250:513.513.11-513.513.11:66cbe32c",
+          "gutenberg:ebooks:39250:513.513.12-513.513.12:d6edb10e",
+          "gutenberg:ebooks:39250:513.513.13-513.513.13:d4b71580",
+          "gutenberg:ebooks:39250:513.513.14-513.513.14:39f5fb5b",
+          "gutenberg:ebooks:39250:513.513.15-513.513.15:a9ce0c89",
+          "gutenberg:ebooks:39250:513.513.16-513.513.16:036958ae",
+          "gutenberg:ebooks:39250:513.513.17-513.513.17:4b176e62",
+          "gutenberg:ebooks:39250:513.513.18-513.513.18:e9c0e7e0",
+          "gutenberg:ebooks:39250:513.513.19-513.513.19:6923aaf7",
+          "gutenberg:ebooks:39250:513.513.20-513.513.20:64fe34dd",
+          "gutenberg:ebooks:39250:513.513.21-513.513.21:63177ddb",
+          "gutenberg:ebooks:39250:513.513.22-513.513.22:79cf8e4e",
+          "gutenberg:ebooks:39250:513.513.23-513.513.23:77f0f415",
+          "gutenberg:ebooks:39250:513.513.24-513.513.24:2d1fce14",
+          "gutenberg:ebooks:39250:513.513.25-513.513.25:d9cda933",
+          "gutenberg:ebooks:39250:513.513.26-513.513.26:b1ff8c37",
+          "gutenberg:ebooks:39250:513.513.27-513.513.27:515ca9e1",
+          "gutenberg:ebooks:39250:513.513.28-513.513.28:2364540e",
+          "gutenberg:ebooks:39250:513.513.29-513.513.29:da6ff13e",
+          "gutenberg:ebooks:39250:513.513.30-513.513.30:f3db689e",
+          "gutenberg:ebooks:39250:513.513.31-513.513.31:bb1d6950",
+          "gutenberg:ebooks:39250:513.513.32-513.513.32:21061b49",
+          "gutenberg:ebooks:39250:513.513.33-513.513.33:5a9161c5",
+          "gutenberg:ebooks:39250:513.513.34-513.513.34:5e7b3e20",
+          "gutenberg:ebooks:39250:513.513.35-513.513.35:ed33722c",
+          "gutenberg:ebooks:39250:513.513.36-513.513.36:92cacd8a",
+          "gutenberg:ebooks:39250:513.513.37-513.513.37:05f13275",
+          "gutenberg:ebooks:39250:513.513.38-513.513.38:526ea35a",
+          "gutenberg:ebooks:39250:513.513.39-513.513.39:7f2593ff",
+          "gutenberg:ebooks:39250:513.513.40-513.513.40:276c6ce5",
+          "gutenberg:ebooks:39250:513.513.41-513.513.41:27824935",
+          "gutenberg:ebooks:39250:513.513.42-513.513.42:06a2249d",
+          "gutenberg:ebooks:39250:513.513.43-513.513.43:9cc08767",
+          "gutenberg:ebooks:39250:513.513.44-513.513.44:723e6ca6",
+          "gutenberg:ebooks:39250:513.513.45-513.513.45:a33f14df",
+          "gutenberg:ebooks:39250:513.513.46-513.513.46:0ace4bc3",
+          "gutenberg:ebooks:39250:513.513.47-513.513.47:02189bfb",
+          "gutenberg:ebooks:39250:513.513.48-513.513.48:70bfdc99",
+          "gutenberg:ebooks:39250:513.513.49-513.513.49:497a465f",
+          "gutenberg:ebooks:39250:513.513.50-513.513.50:f958ce79",
+          "gutenberg:ebooks:39250:513.513.51-513.513.51:5b5c9512",
+          "gutenberg:ebooks:39250:513.513.52-513.513.52:02612d88",
+          "gutenberg:ebooks:39250:513.513.53-513.513.53:5ae68124",
+          "gutenberg:ebooks:39250:513.513.54-513.513.54:47094bf6",
+          "gutenberg:ebooks:39250:513.513.55-513.513.55:40d4acf3",
+          "gutenberg:ebooks:39250:513.513.56-513.513.56:0695a92a",
+          "gutenberg:ebooks:39250:513.513.57-513.513.57:3af3215b",
+          "gutenberg:ebooks:39250:513.513.58-513.513.58:4c703b55",
+          "gutenberg:ebooks:39250:513.513.59-513.513.59:a755132b",
+          "gutenberg:ebooks:39250:513.513.60-513.513.60:98aa2872",
+          "gutenberg:ebooks:39250:513.513.61-513.513.61:f7bc9b3c",
+          "gutenberg:ebooks:39250:513.513.62-513.513.62:7f32b980",
+          "gutenberg:ebooks:39250:513.513.63-513.513.63:7f38eb1b",
+          "gutenberg:ebooks:39250:513.513.64-513.513.64:87042370",
+          "gutenberg:ebooks:39250:513.513.65-513.513.65:ff22f5cf",
+          "gutenberg:ebooks:39250:513.513.66-513.513.66:986bd57b",
+          "gutenberg:ebooks:39250:513.513.67-513.513.67:3fca2e0c",
+          "gutenberg:ebooks:39250:513.513.68-513.513.68:dcdb3445",
+          "gutenberg:ebooks:39250:513.513.69-513.513.69:9daf7d05",
+          "gutenberg:ebooks:39250:513.513.70-513.513.70:09e1b8ed",
+          "gutenberg:ebooks:39250:513.513.71-513.513.71:d9feef0e",
+          "gutenberg:ebooks:39250:513.513.72-513.513.72:3d1db8f4",
+          "gutenberg:ebooks:39250:513.513.73-513.513.73:bbb39b8a",
+          "gutenberg:ebooks:39250:513.513.74-513.513.74:e564c4e0",
+          "gutenberg:ebooks:39250:513.513.75-513.513.75:b2bf14a9",
+          "gutenberg:ebooks:39250:513.513.76-513.513.76:7484c065",
+          "gutenberg:ebooks:39250:513.513.77-513.513.77:87038b65",
+          "gutenberg:ebooks:39250:513.513.78-513.513.78:bc2d4cc0",
+          "gutenberg:ebooks:39250:513.513.79-513.513.79:5f512c8b",
+          "gutenberg:ebooks:39250:513.513.80-513.513.80:3a6269bf",
+          "gutenberg:ebooks:39250:513.513.81-513.513.81:cbe3c90c",
+          "gutenberg:ebooks:39250:513.513.82-513.513.82:fe2e3b98",
+          "gutenberg:ebooks:39250:513.513.83-513.513.83:ae4e26df",
+          "gutenberg:ebooks:39250:513.513.84-513.513.84:ee96cb29",
+          "gutenberg:ebooks:39250:513.513.85-513.513.85:8d9fab30",
+          "gutenberg:ebooks:39250:513.513.86-513.513.86:b1df3f8a",
+          "gutenberg:ebooks:39250:513.513.87-513.513.87:61807cf1",
+          "gutenberg:ebooks:39250:513.513.88-513.513.88:b3126cfd",
+          "gutenberg:ebooks:39250:513.513.89-513.513.89:7ecdc2a1",
+          "gutenberg:ebooks:39250:513.513.90-513.513.90:f1d1d08c",
+          "gutenberg:ebooks:39250:513.513.91-513.513.91:fdb5a117",
+          "gutenberg:ebooks:39250:513.513.92-513.513.92:a6c5b81a",
+          "gutenberg:ebooks:39250:513.513.93-513.513.93:ff3678ec"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Afterthought.\" cites 93 passage(s) from gutenberg-guerber-myths-greece-rome-eng; the first cited passage begins \"Name given to Epimetheus, 25.\" and the last cited passage begins \"Bos´po-rus. Channel connecting Black Sea and Sea of Marmora, on route of Argonauts, 268.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0002 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0002."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0002; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0002."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0002."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Afterthought.\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:513.513.1-513.513.1:490baedf",
+          "sourceText": "Name given to Epimetheus, 25.",
+          "supports": "Cited source passage inspected for bulk-myth-0002; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:513.513.93-513.513.93:ff3678ec",
+          "sourceText": "Bos´po-rus. Channel connecting Black Sea and Sea of Marmora, on route of Argonauts, 268.",
+          "supports": "Cited source passage inspected for bulk-myth-0002; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0002.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0002."
+      ],
+      "decisionRationale": "For bulk-myth-0002 (\"Afterthought.\"), the sample audit found recoverable source passages in gutenberg-guerber-myths-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is unresolved_requires_human_review for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0005",
+      "originalPr12Status": "unresolved_requires_human_review",
+      "finalStatus": "unresolved_requires_human_review",
+      "titleBefore": "Brass Age.",
+      "titleAfter": "Brass Age.",
+      "mythFamilyBefore": "brass-age",
+      "mythFamilyAfter": "brass-age",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:39250:514.514.1-514.514.1:b21f0d21",
+        "gutenberg:ebooks:39250:514.514.2-514.514.2:c03c6c25",
+        "gutenberg:ebooks:39250:514.514.3-514.514.3:5e7689b9",
+        "gutenberg:ebooks:39250:514.514.4-514.514.4:f370722c",
+        "gutenberg:ebooks:39250:514.514.5-514.514.5:35391fe3",
+        "gutenberg:ebooks:39250:514.514.6-514.514.6:21e5f152",
+        "gutenberg:ebooks:39250:514.514.7-514.514.7:06c0b85c",
+        "gutenberg:ebooks:39250:514.514.8-514.514.8:5d477e7a",
+        "gutenberg:ebooks:39250:514.514.9-514.514.9:d8f35e52",
+        "gutenberg:ebooks:39250:514.514.10-514.514.10:21dd64a7",
+        "gutenberg:ebooks:39250:514.514.11-514.514.11:6d16db9d",
+        "gutenberg:ebooks:39250:514.514.12-514.514.12:322143f2",
+        "gutenberg:ebooks:39250:514.514.13-514.514.13:67995c23",
+        "gutenberg:ebooks:39250:514.514.14-514.514.14:98ff603a",
+        "gutenberg:ebooks:39250:514.514.15-514.514.15:6f7f07ec",
+        "gutenberg:ebooks:39250:514.514.16-514.514.16:11c14dbf",
+        "gutenberg:ebooks:39250:514.514.17-514.514.17:a73ac141",
+        "gutenberg:ebooks:39250:514.514.18-514.514.18:63ce1172",
+        "gutenberg:ebooks:39250:514.514.19-514.514.19:4285c88b",
+        "gutenberg:ebooks:39250:514.514.20-514.514.20:7565bdd0",
+        "gutenberg:ebooks:39250:514.514.21-514.514.21:479b8b30",
+        "gutenberg:ebooks:39250:514.514.22-514.514.22:90c8a5d2",
+        "gutenberg:ebooks:39250:514.514.23-514.514.23:2a63b328",
+        "gutenberg:ebooks:39250:514.514.24-514.514.24:ad2c9367",
+        "gutenberg:ebooks:39250:514.514.25-514.514.25:34dfe0fe",
+        "gutenberg:ebooks:39250:514.514.26-514.514.26:61594da0",
+        "gutenberg:ebooks:39250:514.514.27-514.514.27:548affcf",
+        "gutenberg:ebooks:39250:514.514.28-514.514.28:9348261f",
+        "gutenberg:ebooks:39250:514.514.29-514.514.29:62f06a6f",
+        "gutenberg:ebooks:39250:514.514.30-514.514.30:972cfd77",
+        "gutenberg:ebooks:39250:514.514.31-514.514.31:0a5a7f43",
+        "gutenberg:ebooks:39250:514.514.32-514.514.32:6d45e6c8",
+        "gutenberg:ebooks:39250:514.514.33-514.514.33:67ef284e",
+        "gutenberg:ebooks:39250:514.514.34-514.514.34:b1e248b9",
+        "gutenberg:ebooks:39250:514.514.35-514.514.35:5fe1d0ca",
+        "gutenberg:ebooks:39250:514.514.36-514.514.36:8e9d6c7d",
+        "gutenberg:ebooks:39250:514.514.37-514.514.37:f65c3067",
+        "gutenberg:ebooks:39250:514.514.38-514.514.38:67ec55ce",
+        "gutenberg:ebooks:39250:514.514.39-514.514.39:86724f07",
+        "gutenberg:ebooks:39250:514.514.40-514.514.40:7428b927",
+        "gutenberg:ebooks:39250:514.514.41-514.514.41:ed54422a",
+        "gutenberg:ebooks:39250:514.514.42-514.514.42:6013795d",
+        "gutenberg:ebooks:39250:514.514.43-514.514.43:bbe2bebf",
+        "gutenberg:ebooks:39250:514.514.44-514.514.44:b8a8966d",
+        "gutenberg:ebooks:39250:514.514.45-514.514.45:a4e48524",
+        "gutenberg:ebooks:39250:514.514.46-514.514.46:f1128534",
+        "gutenberg:ebooks:39250:514.514.47-514.514.47:14ba4d03",
+        "gutenberg:ebooks:39250:514.514.48-514.514.48:c09b11fa",
+        "gutenberg:ebooks:39250:514.514.49-514.514.49:12f17d96",
+        "gutenberg:ebooks:39250:514.514.50-514.514.50:2d26db92",
+        "gutenberg:ebooks:39250:514.514.51-514.514.51:9ea08671",
+        "gutenberg:ebooks:39250:514.514.52-514.514.52:e8e71808",
+        "gutenberg:ebooks:39250:514.514.53-514.514.53:fdd388bf",
+        "gutenberg:ebooks:39250:514.514.54-514.514.54:d1b7edec",
+        "gutenberg:ebooks:39250:514.514.55-514.514.55:acf13b0f",
+        "gutenberg:ebooks:39250:514.514.56-514.514.56:c499f84b",
+        "gutenberg:ebooks:39250:514.514.57-514.514.57:7ea5ab24",
+        "gutenberg:ebooks:39250:514.514.58-514.514.58:3e83983b",
+        "gutenberg:ebooks:39250:514.514.59-514.514.59:492671cd",
+        "gutenberg:ebooks:39250:514.514.60-514.514.60:6cf6eefe",
+        "gutenberg:ebooks:39250:514.514.61-514.514.61:fd0e0ad7",
+        "gutenberg:ebooks:39250:514.514.62-514.514.62:83329393",
+        "gutenberg:ebooks:39250:514.514.63-514.514.63:54dbe981",
+        "gutenberg:ebooks:39250:514.514.64-514.514.64:ab95d3dc",
+        "gutenberg:ebooks:39250:514.514.65-514.514.65:56747065",
+        "gutenberg:ebooks:39250:514.514.66-514.514.66:d6e86164",
+        "gutenberg:ebooks:39250:514.514.67-514.514.67:9b0442d1",
+        "gutenberg:ebooks:39250:514.514.68-514.514.68:b11d0e8e",
+        "gutenberg:ebooks:39250:514.514.69-514.514.69:3e11953e",
+        "gutenberg:ebooks:39250:514.514.70-514.514.70:9f5b8690",
+        "gutenberg:ebooks:39250:514.514.71-514.514.71:f88bc025",
+        "gutenberg:ebooks:39250:514.514.72-514.514.72:45db12be",
+        "gutenberg:ebooks:39250:514.514.73-514.514.73:dc8c0af6",
+        "gutenberg:ebooks:39250:514.514.74-514.514.74:0a921244",
+        "gutenberg:ebooks:39250:514.514.75-514.514.75:65a5ae84",
+        "gutenberg:ebooks:39250:514.514.76-514.514.76:7b422f84",
+        "gutenberg:ebooks:39250:514.514.77-514.514.77:3947fbe0",
+        "gutenberg:ebooks:39250:514.514.78-514.514.78:287c0e96",
+        "gutenberg:ebooks:39250:514.514.79-514.514.79:86fb198f"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:39250:514.514.1-514.514.1:b21f0d21",
+          "gutenberg:ebooks:39250:514.514.2-514.514.2:c03c6c25",
+          "gutenberg:ebooks:39250:514.514.3-514.514.3:5e7689b9",
+          "gutenberg:ebooks:39250:514.514.4-514.514.4:f370722c",
+          "gutenberg:ebooks:39250:514.514.5-514.514.5:35391fe3",
+          "gutenberg:ebooks:39250:514.514.6-514.514.6:21e5f152",
+          "gutenberg:ebooks:39250:514.514.7-514.514.7:06c0b85c",
+          "gutenberg:ebooks:39250:514.514.8-514.514.8:5d477e7a",
+          "gutenberg:ebooks:39250:514.514.9-514.514.9:d8f35e52",
+          "gutenberg:ebooks:39250:514.514.10-514.514.10:21dd64a7",
+          "gutenberg:ebooks:39250:514.514.11-514.514.11:6d16db9d",
+          "gutenberg:ebooks:39250:514.514.12-514.514.12:322143f2",
+          "gutenberg:ebooks:39250:514.514.13-514.514.13:67995c23",
+          "gutenberg:ebooks:39250:514.514.14-514.514.14:98ff603a",
+          "gutenberg:ebooks:39250:514.514.15-514.514.15:6f7f07ec",
+          "gutenberg:ebooks:39250:514.514.16-514.514.16:11c14dbf",
+          "gutenberg:ebooks:39250:514.514.17-514.514.17:a73ac141",
+          "gutenberg:ebooks:39250:514.514.18-514.514.18:63ce1172",
+          "gutenberg:ebooks:39250:514.514.19-514.514.19:4285c88b",
+          "gutenberg:ebooks:39250:514.514.20-514.514.20:7565bdd0",
+          "gutenberg:ebooks:39250:514.514.21-514.514.21:479b8b30",
+          "gutenberg:ebooks:39250:514.514.22-514.514.22:90c8a5d2",
+          "gutenberg:ebooks:39250:514.514.23-514.514.23:2a63b328",
+          "gutenberg:ebooks:39250:514.514.24-514.514.24:ad2c9367",
+          "gutenberg:ebooks:39250:514.514.25-514.514.25:34dfe0fe",
+          "gutenberg:ebooks:39250:514.514.26-514.514.26:61594da0",
+          "gutenberg:ebooks:39250:514.514.27-514.514.27:548affcf",
+          "gutenberg:ebooks:39250:514.514.28-514.514.28:9348261f",
+          "gutenberg:ebooks:39250:514.514.29-514.514.29:62f06a6f",
+          "gutenberg:ebooks:39250:514.514.30-514.514.30:972cfd77",
+          "gutenberg:ebooks:39250:514.514.31-514.514.31:0a5a7f43",
+          "gutenberg:ebooks:39250:514.514.32-514.514.32:6d45e6c8",
+          "gutenberg:ebooks:39250:514.514.33-514.514.33:67ef284e",
+          "gutenberg:ebooks:39250:514.514.34-514.514.34:b1e248b9",
+          "gutenberg:ebooks:39250:514.514.35-514.514.35:5fe1d0ca",
+          "gutenberg:ebooks:39250:514.514.36-514.514.36:8e9d6c7d",
+          "gutenberg:ebooks:39250:514.514.37-514.514.37:f65c3067",
+          "gutenberg:ebooks:39250:514.514.38-514.514.38:67ec55ce",
+          "gutenberg:ebooks:39250:514.514.39-514.514.39:86724f07",
+          "gutenberg:ebooks:39250:514.514.40-514.514.40:7428b927",
+          "gutenberg:ebooks:39250:514.514.41-514.514.41:ed54422a",
+          "gutenberg:ebooks:39250:514.514.42-514.514.42:6013795d",
+          "gutenberg:ebooks:39250:514.514.43-514.514.43:bbe2bebf",
+          "gutenberg:ebooks:39250:514.514.44-514.514.44:b8a8966d",
+          "gutenberg:ebooks:39250:514.514.45-514.514.45:a4e48524",
+          "gutenberg:ebooks:39250:514.514.46-514.514.46:f1128534",
+          "gutenberg:ebooks:39250:514.514.47-514.514.47:14ba4d03",
+          "gutenberg:ebooks:39250:514.514.48-514.514.48:c09b11fa",
+          "gutenberg:ebooks:39250:514.514.49-514.514.49:12f17d96",
+          "gutenberg:ebooks:39250:514.514.50-514.514.50:2d26db92",
+          "gutenberg:ebooks:39250:514.514.51-514.514.51:9ea08671",
+          "gutenberg:ebooks:39250:514.514.52-514.514.52:e8e71808",
+          "gutenberg:ebooks:39250:514.514.53-514.514.53:fdd388bf",
+          "gutenberg:ebooks:39250:514.514.54-514.514.54:d1b7edec",
+          "gutenberg:ebooks:39250:514.514.55-514.514.55:acf13b0f",
+          "gutenberg:ebooks:39250:514.514.56-514.514.56:c499f84b",
+          "gutenberg:ebooks:39250:514.514.57-514.514.57:7ea5ab24",
+          "gutenberg:ebooks:39250:514.514.58-514.514.58:3e83983b",
+          "gutenberg:ebooks:39250:514.514.59-514.514.59:492671cd",
+          "gutenberg:ebooks:39250:514.514.60-514.514.60:6cf6eefe",
+          "gutenberg:ebooks:39250:514.514.61-514.514.61:fd0e0ad7",
+          "gutenberg:ebooks:39250:514.514.62-514.514.62:83329393",
+          "gutenberg:ebooks:39250:514.514.63-514.514.63:54dbe981",
+          "gutenberg:ebooks:39250:514.514.64-514.514.64:ab95d3dc",
+          "gutenberg:ebooks:39250:514.514.65-514.514.65:56747065",
+          "gutenberg:ebooks:39250:514.514.66-514.514.66:d6e86164",
+          "gutenberg:ebooks:39250:514.514.67-514.514.67:9b0442d1",
+          "gutenberg:ebooks:39250:514.514.68-514.514.68:b11d0e8e",
+          "gutenberg:ebooks:39250:514.514.69-514.514.69:3e11953e",
+          "gutenberg:ebooks:39250:514.514.70-514.514.70:9f5b8690",
+          "gutenberg:ebooks:39250:514.514.71-514.514.71:f88bc025",
+          "gutenberg:ebooks:39250:514.514.72-514.514.72:45db12be",
+          "gutenberg:ebooks:39250:514.514.73-514.514.73:dc8c0af6",
+          "gutenberg:ebooks:39250:514.514.74-514.514.74:0a921244",
+          "gutenberg:ebooks:39250:514.514.75-514.514.75:65a5ae84",
+          "gutenberg:ebooks:39250:514.514.76-514.514.76:7b422f84",
+          "gutenberg:ebooks:39250:514.514.77-514.514.77:3947fbe0",
+          "gutenberg:ebooks:39250:514.514.78-514.514.78:287c0e96",
+          "gutenberg:ebooks:39250:514.514.79-514.514.79:86fb198f"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Brass Age.\" cites 79 passage(s) from gutenberg-guerber-myths-greece-rome-eng; the first cited passage begins \"Third age of world, 35.\" and the last cited passage begins \"Cre´tan Bull. Hercules captures, 223.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0005 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0005."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0005; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0005."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0005."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Brass Age.\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:514.514.1-514.514.1:b21f0d21",
+          "sourceText": "Third age of world, 35.",
+          "supports": "Cited source passage inspected for bulk-myth-0005; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:514.514.79-514.514.79:86fb198f",
+          "sourceText": "Cre´tan Bull. Hercules captures, 223.",
+          "supports": "Cited source passage inspected for bulk-myth-0005; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0005.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0005."
+      ],
+      "decisionRationale": "For bulk-myth-0005 (\"Brass Age.\"), the sample audit found recoverable source passages in gutenberg-guerber-myths-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is unresolved_requires_human_review for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0004",
+      "originalPr12Status": "ambiguous",
+      "finalStatus": "unresolved_requires_human_review",
+      "titleBefore": "Jupiter.",
+      "titleAfter": "Jupiter.",
+      "mythFamilyBefore": "jupiter",
+      "mythFamilyAfter": "jupiter",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:39250:502.502.1-502.502.1:6ff44162",
+        "gutenberg:ebooks:39250:502.502.2-502.502.2:6ec98787",
+        "gutenberg:ebooks:39250:502.502.3-502.502.3:25e2316e",
+        "gutenberg:ebooks:39250:502.502.4-502.502.4:b2ca2708",
+        "gutenberg:ebooks:39250:502.502.5-502.502.5:88bf088e",
+        "gutenberg:ebooks:39250:502.502.6-502.502.6:47955c1e",
+        "gutenberg:ebooks:39250:502.502.7-502.502.7:145ce666",
+        "gutenberg:ebooks:39250:502.502.8-502.502.8:f7f93ba1",
+        "gutenberg:ebooks:39250:502.502.9-502.502.9:02631958",
+        "gutenberg:ebooks:39250:502.502.10-502.502.10:7a4981ad",
+        "gutenberg:ebooks:39250:502.502.11-502.502.11:a197d280",
+        "gutenberg:ebooks:39250:502.502.12-502.502.12:f5978093",
+        "gutenberg:ebooks:39250:502.502.13-502.502.13:40f962d8",
+        "gutenberg:ebooks:39250:502.502.14-502.502.14:accccd97",
+        "gutenberg:ebooks:39250:502.502.15-502.502.15:4c2f2b7a",
+        "gutenberg:ebooks:39250:502.502.16-502.502.16:4361deaf",
+        "gutenberg:ebooks:39250:502.502.17-502.502.17:e97fdd1d",
+        "gutenberg:ebooks:39250:502.502.18-502.502.18:4bdb1c65",
+        "gutenberg:ebooks:39250:502.502.19-502.502.19:276dfef3",
+        "gutenberg:ebooks:39250:502.502.20-502.502.20:62923388",
+        "gutenberg:ebooks:39250:502.502.21-502.502.21:f6bd7b33",
+        "gutenberg:ebooks:39250:502.502.22-502.502.22:d512f3d3",
+        "gutenberg:ebooks:39250:502.502.23-502.502.23:94b0ceda",
+        "gutenberg:ebooks:39250:502.502.24-502.502.24:21800893",
+        "gutenberg:ebooks:39250:502.502.25-502.502.25:8310c631",
+        "gutenberg:ebooks:39250:502.502.26-502.502.26:272e8c96",
+        "gutenberg:ebooks:39250:502.502.27-502.502.27:b8e649ab",
+        "gutenberg:ebooks:39250:502.502.28-502.502.28:22ede41b",
+        "gutenberg:ebooks:39250:502.502.29-502.502.29:d3be5e6d",
+        "gutenberg:ebooks:39250:502.502.30-502.502.30:8d0ce184",
+        "gutenberg:ebooks:39250:502.502.31-502.502.31:b893d350",
+        "gutenberg:ebooks:39250:502.502.32-502.502.32:a68ba0be",
+        "gutenberg:ebooks:39250:502.502.33-502.502.33:514307ed",
+        "gutenberg:ebooks:39250:502.502.34-502.502.34:1f8ee00c",
+        "gutenberg:ebooks:39250:502.502.35-502.502.35:c29ea302",
+        "gutenberg:ebooks:39250:502.502.36-502.502.36:8135e498",
+        "gutenberg:ebooks:39250:502.502.37-502.502.37:dad40d7e",
+        "gutenberg:ebooks:39250:502.502.38-502.502.38:73146edf",
+        "gutenberg:ebooks:39250:502.502.39-502.502.39:31baf1c9",
+        "gutenberg:ebooks:39250:502.502.40-502.502.40:f8373474",
+        "gutenberg:ebooks:39250:502.502.41-502.502.41:d8168783",
+        "gutenberg:ebooks:39250:502.502.42-502.502.42:75bd410c",
+        "gutenberg:ebooks:39250:502.502.43-502.502.43:724fbea8",
+        "gutenberg:ebooks:39250:502.502.44-502.502.44:3c01165d",
+        "gutenberg:ebooks:39250:502.502.45-502.502.45:8feda2e5",
+        "gutenberg:ebooks:39250:502.502.46-502.502.46:f53f6360",
+        "gutenberg:ebooks:39250:502.502.47-502.502.47:feb99aab",
+        "gutenberg:ebooks:39250:502.502.48-502.502.48:a798dea0",
+        "gutenberg:ebooks:39250:502.502.49-502.502.49:feec1591",
+        "gutenberg:ebooks:39250:502.502.50-502.502.50:9810f32b",
+        "gutenberg:ebooks:39250:502.502.51-502.502.51:a2ca6e34",
+        "gutenberg:ebooks:39250:502.502.52-502.502.52:f9561f5e",
+        "gutenberg:ebooks:39250:502.502.53-502.502.53:eee9d080",
+        "gutenberg:ebooks:39250:502.502.54-502.502.54:3d75b948",
+        "gutenberg:ebooks:39250:502.502.55-502.502.55:6bce01c8"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:39250:502.502.1-502.502.1:6ff44162",
+          "gutenberg:ebooks:39250:502.502.2-502.502.2:6ec98787",
+          "gutenberg:ebooks:39250:502.502.3-502.502.3:25e2316e",
+          "gutenberg:ebooks:39250:502.502.4-502.502.4:b2ca2708",
+          "gutenberg:ebooks:39250:502.502.5-502.502.5:88bf088e",
+          "gutenberg:ebooks:39250:502.502.6-502.502.6:47955c1e",
+          "gutenberg:ebooks:39250:502.502.7-502.502.7:145ce666",
+          "gutenberg:ebooks:39250:502.502.8-502.502.8:f7f93ba1",
+          "gutenberg:ebooks:39250:502.502.9-502.502.9:02631958",
+          "gutenberg:ebooks:39250:502.502.10-502.502.10:7a4981ad",
+          "gutenberg:ebooks:39250:502.502.11-502.502.11:a197d280",
+          "gutenberg:ebooks:39250:502.502.12-502.502.12:f5978093",
+          "gutenberg:ebooks:39250:502.502.13-502.502.13:40f962d8",
+          "gutenberg:ebooks:39250:502.502.14-502.502.14:accccd97",
+          "gutenberg:ebooks:39250:502.502.15-502.502.15:4c2f2b7a",
+          "gutenberg:ebooks:39250:502.502.16-502.502.16:4361deaf",
+          "gutenberg:ebooks:39250:502.502.17-502.502.17:e97fdd1d",
+          "gutenberg:ebooks:39250:502.502.18-502.502.18:4bdb1c65",
+          "gutenberg:ebooks:39250:502.502.19-502.502.19:276dfef3",
+          "gutenberg:ebooks:39250:502.502.20-502.502.20:62923388",
+          "gutenberg:ebooks:39250:502.502.21-502.502.21:f6bd7b33",
+          "gutenberg:ebooks:39250:502.502.22-502.502.22:d512f3d3",
+          "gutenberg:ebooks:39250:502.502.23-502.502.23:94b0ceda",
+          "gutenberg:ebooks:39250:502.502.24-502.502.24:21800893",
+          "gutenberg:ebooks:39250:502.502.25-502.502.25:8310c631",
+          "gutenberg:ebooks:39250:502.502.26-502.502.26:272e8c96",
+          "gutenberg:ebooks:39250:502.502.27-502.502.27:b8e649ab",
+          "gutenberg:ebooks:39250:502.502.28-502.502.28:22ede41b",
+          "gutenberg:ebooks:39250:502.502.29-502.502.29:d3be5e6d",
+          "gutenberg:ebooks:39250:502.502.30-502.502.30:8d0ce184",
+          "gutenberg:ebooks:39250:502.502.31-502.502.31:b893d350",
+          "gutenberg:ebooks:39250:502.502.32-502.502.32:a68ba0be",
+          "gutenberg:ebooks:39250:502.502.33-502.502.33:514307ed",
+          "gutenberg:ebooks:39250:502.502.34-502.502.34:1f8ee00c",
+          "gutenberg:ebooks:39250:502.502.35-502.502.35:c29ea302",
+          "gutenberg:ebooks:39250:502.502.36-502.502.36:8135e498",
+          "gutenberg:ebooks:39250:502.502.37-502.502.37:dad40d7e",
+          "gutenberg:ebooks:39250:502.502.38-502.502.38:73146edf",
+          "gutenberg:ebooks:39250:502.502.39-502.502.39:31baf1c9",
+          "gutenberg:ebooks:39250:502.502.40-502.502.40:f8373474",
+          "gutenberg:ebooks:39250:502.502.41-502.502.41:d8168783",
+          "gutenberg:ebooks:39250:502.502.42-502.502.42:75bd410c",
+          "gutenberg:ebooks:39250:502.502.43-502.502.43:724fbea8",
+          "gutenberg:ebooks:39250:502.502.44-502.502.44:3c01165d",
+          "gutenberg:ebooks:39250:502.502.45-502.502.45:8feda2e5",
+          "gutenberg:ebooks:39250:502.502.46-502.502.46:f53f6360",
+          "gutenberg:ebooks:39250:502.502.47-502.502.47:feb99aab",
+          "gutenberg:ebooks:39250:502.502.48-502.502.48:a798dea0",
+          "gutenberg:ebooks:39250:502.502.49-502.502.49:feec1591",
+          "gutenberg:ebooks:39250:502.502.50-502.502.50:9810f32b",
+          "gutenberg:ebooks:39250:502.502.51-502.502.51:a2ca6e34",
+          "gutenberg:ebooks:39250:502.502.52-502.502.52:f9561f5e",
+          "gutenberg:ebooks:39250:502.502.53-502.502.53:eee9d080",
+          "gutenberg:ebooks:39250:502.502.54-502.502.54:3d75b948",
+          "gutenberg:ebooks:39250:502.502.55-502.502.55:6bce01c8"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Jupiter.\" cites 55 passage(s) from gutenberg-guerber-myths-greece-rome-eng; the first cited passage begins \"'This story arose from phrases which spoke of drought as caused by the chariot of Helios, when driven by some one who k.\" and the last cited passage begins \"The greater part of the dawn myths have been explained simultaneously with the sun myths, with which they are inextrica.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0004 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0004."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0004; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0004."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0004."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Jupiter.\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:502.502.1-502.502.1:6ff44162",
+          "sourceText": "\"This story arose from phrases which spoke of drought as caused by the chariot of Helios, when driven by some one who knew not how to guide his horses; and the smiting of Phaeton by the bolt of Zeus is the ending of the time of drought by a sudden storm of thunder.\"",
+          "supports": "Cited source passage inspected for bulk-myth-0004; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:502.502.55-502.502.55:6bce01c8",
+          "sourceText": "The greater part of the dawn myths have been explained simultaneously with the sun myths, with which they are inextricably interwoven. One personification of the dawn, however, stands apart. It is Minerva, whose Greek name, Athene, is derived, like Daphne, from the Sanskrit _Dahana_, or _ahana_ (meaning \"the light of daybreak\"), and we are thus enabled to understand why the Greeks described her as sprung from the forehead of Zeus (the heavens). She gradually became the impersonation of the illuminating and knowledge-giving light of the sky; for in Sanskrit the same word also means \"to wake\" and \"to know,\" while the Latins connected her name of Minerva with _mens_, the same as the Greek _ménos_ and the English _mind_.",
+          "supports": "Cited source passage inspected for bulk-myth-0004; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0004.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0004."
+      ],
+      "decisionRationale": "For bulk-myth-0004 (\"Jupiter.\"), the sample audit found recoverable source passages in gutenberg-guerber-myths-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is unresolved_requires_human_review for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0001",
+      "originalPr12Status": "ambiguous",
+      "finalStatus": "unresolved_requires_human_review",
+      "titleBefore": "Giants--monsters with six arms.",
+      "titleAfter": "Giants--monsters with six arms.",
+      "mythFamilyBefore": "heracles-labors",
+      "mythFamilyAfter": "heracles-labors",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:22381:303.303.1-303.303.1:e1f37167",
+        "gutenberg:ebooks:22381:303.303.2-303.303.2:56c72cc1",
+        "gutenberg:ebooks:22381:303.303.3-303.303.3:fcec818c",
+        "gutenberg:ebooks:22381:303.303.4-303.303.4:0390dbc2",
+        "gutenberg:ebooks:22381:303.303.5-303.303.5:8a24fc1c",
+        "gutenberg:ebooks:22381:303.303.6-303.303.6:72cfe9c5",
+        "gutenberg:ebooks:22381:303.303.7-303.303.7:c4a79bc4",
+        "gutenberg:ebooks:22381:303.303.8-303.303.8:e4a41ac1",
+        "gutenberg:ebooks:22381:303.303.9-303.303.9:ce057e3f",
+        "gutenberg:ebooks:22381:303.303.10-303.303.10:d2a90fd2",
+        "gutenberg:ebooks:22381:303.303.11-303.303.11:5b59395c",
+        "gutenberg:ebooks:22381:303.303.12-303.303.12:d8d38b82",
+        "gutenberg:ebooks:22381:303.303.13-303.303.13:31f8d63c",
+        "gutenberg:ebooks:22381:303.303.14-303.303.14:1bbdf518",
+        "gutenberg:ebooks:22381:303.303.15-303.303.15:7de3ad8c",
+        "gutenberg:ebooks:22381:303.303.16-303.303.16:a20dc83c",
+        "gutenberg:ebooks:22381:303.303.17-303.303.17:4be4bedc",
+        "gutenberg:ebooks:22381:303.303.18-303.303.18:8f382066",
+        "gutenberg:ebooks:22381:303.303.19-303.303.19:8e6bdc5e",
+        "gutenberg:ebooks:22381:303.303.20-303.303.20:141523b7",
+        "gutenberg:ebooks:22381:303.303.21-303.303.21:7c650dc1",
+        "gutenberg:ebooks:22381:303.303.22-303.303.22:9b3d33dd",
+        "gutenberg:ebooks:22381:303.303.23-303.303.23:130eaf22",
+        "gutenberg:ebooks:22381:303.303.24-303.303.24:1e4b8e71",
+        "gutenberg:ebooks:22381:303.303.25-303.303.25:7580d24e",
+        "gutenberg:ebooks:22381:303.303.26-303.303.26:5b14a450",
+        "gutenberg:ebooks:22381:303.303.27-303.303.27:4d22fed9",
+        "gutenberg:ebooks:22381:303.303.28-303.303.28:818f2a0b",
+        "gutenberg:ebooks:22381:303.303.29-303.303.29:d288357f",
+        "gutenberg:ebooks:22381:303.303.30-303.303.30:c2bfd0ba",
+        "gutenberg:ebooks:22381:303.303.31-303.303.31:97b773d3",
+        "gutenberg:ebooks:22381:303.303.32-303.303.32:aef613b0",
+        "gutenberg:ebooks:22381:303.303.33-303.303.33:019bc4fa",
+        "gutenberg:ebooks:22381:303.303.34-303.303.34:43be61b3",
+        "gutenberg:ebooks:22381:303.303.35-303.303.35:090d442e",
+        "gutenberg:ebooks:22381:303.303.36-303.303.36:1ad26bea",
+        "gutenberg:ebooks:22381:303.303.37-303.303.37:b0e08951",
+        "gutenberg:ebooks:22381:303.303.38-303.303.38:779b0419",
+        "gutenberg:ebooks:22381:303.303.39-303.303.39:b3e64cb1",
+        "gutenberg:ebooks:22381:303.303.40-303.303.40:694eb80c",
+        "gutenberg:ebooks:22381:303.303.41-303.303.41:f93749f4",
+        "gutenberg:ebooks:22381:303.303.42-303.303.42:24c28bf3",
+        "gutenberg:ebooks:22381:303.303.43-303.303.43:ec4f7c8a",
+        "gutenberg:ebooks:22381:303.303.44-303.303.44:ad1fffcb",
+        "gutenberg:ebooks:22381:303.303.45-303.303.45:7d35e9c9",
+        "gutenberg:ebooks:22381:303.303.46-303.303.46:3619f4c2",
+        "gutenberg:ebooks:22381:303.303.47-303.303.47:da23fdcc",
+        "gutenberg:ebooks:22381:303.303.48-303.303.48:2fca2256",
+        "gutenberg:ebooks:22381:303.303.49-303.303.49:9d1f2d34",
+        "gutenberg:ebooks:22381:303.303.50-303.303.50:d93f8310",
+        "gutenberg:ebooks:22381:303.303.51-303.303.51:2ac45ebd",
+        "gutenberg:ebooks:22381:303.303.52-303.303.52:028cf29c",
+        "gutenberg:ebooks:22381:303.303.53-303.303.53:e04568c8"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:22381:303.303.1-303.303.1:e1f37167",
+          "gutenberg:ebooks:22381:303.303.2-303.303.2:56c72cc1",
+          "gutenberg:ebooks:22381:303.303.3-303.303.3:fcec818c",
+          "gutenberg:ebooks:22381:303.303.4-303.303.4:0390dbc2",
+          "gutenberg:ebooks:22381:303.303.5-303.303.5:8a24fc1c",
+          "gutenberg:ebooks:22381:303.303.6-303.303.6:72cfe9c5",
+          "gutenberg:ebooks:22381:303.303.7-303.303.7:c4a79bc4",
+          "gutenberg:ebooks:22381:303.303.8-303.303.8:e4a41ac1",
+          "gutenberg:ebooks:22381:303.303.9-303.303.9:ce057e3f",
+          "gutenberg:ebooks:22381:303.303.10-303.303.10:d2a90fd2",
+          "gutenberg:ebooks:22381:303.303.11-303.303.11:5b59395c",
+          "gutenberg:ebooks:22381:303.303.12-303.303.12:d8d38b82",
+          "gutenberg:ebooks:22381:303.303.13-303.303.13:31f8d63c",
+          "gutenberg:ebooks:22381:303.303.14-303.303.14:1bbdf518",
+          "gutenberg:ebooks:22381:303.303.15-303.303.15:7de3ad8c",
+          "gutenberg:ebooks:22381:303.303.16-303.303.16:a20dc83c",
+          "gutenberg:ebooks:22381:303.303.17-303.303.17:4be4bedc",
+          "gutenberg:ebooks:22381:303.303.18-303.303.18:8f382066",
+          "gutenberg:ebooks:22381:303.303.19-303.303.19:8e6bdc5e",
+          "gutenberg:ebooks:22381:303.303.20-303.303.20:141523b7",
+          "gutenberg:ebooks:22381:303.303.21-303.303.21:7c650dc1",
+          "gutenberg:ebooks:22381:303.303.22-303.303.22:9b3d33dd",
+          "gutenberg:ebooks:22381:303.303.23-303.303.23:130eaf22",
+          "gutenberg:ebooks:22381:303.303.24-303.303.24:1e4b8e71",
+          "gutenberg:ebooks:22381:303.303.25-303.303.25:7580d24e",
+          "gutenberg:ebooks:22381:303.303.26-303.303.26:5b14a450",
+          "gutenberg:ebooks:22381:303.303.27-303.303.27:4d22fed9",
+          "gutenberg:ebooks:22381:303.303.28-303.303.28:818f2a0b",
+          "gutenberg:ebooks:22381:303.303.29-303.303.29:d288357f",
+          "gutenberg:ebooks:22381:303.303.30-303.303.30:c2bfd0ba",
+          "gutenberg:ebooks:22381:303.303.31-303.303.31:97b773d3",
+          "gutenberg:ebooks:22381:303.303.32-303.303.32:aef613b0",
+          "gutenberg:ebooks:22381:303.303.33-303.303.33:019bc4fa",
+          "gutenberg:ebooks:22381:303.303.34-303.303.34:43be61b3",
+          "gutenberg:ebooks:22381:303.303.35-303.303.35:090d442e",
+          "gutenberg:ebooks:22381:303.303.36-303.303.36:1ad26bea",
+          "gutenberg:ebooks:22381:303.303.37-303.303.37:b0e08951",
+          "gutenberg:ebooks:22381:303.303.38-303.303.38:779b0419",
+          "gutenberg:ebooks:22381:303.303.39-303.303.39:b3e64cb1",
+          "gutenberg:ebooks:22381:303.303.40-303.303.40:694eb80c",
+          "gutenberg:ebooks:22381:303.303.41-303.303.41:f93749f4",
+          "gutenberg:ebooks:22381:303.303.42-303.303.42:24c28bf3",
+          "gutenberg:ebooks:22381:303.303.43-303.303.43:ec4f7c8a",
+          "gutenberg:ebooks:22381:303.303.44-303.303.44:ad1fffcb",
+          "gutenberg:ebooks:22381:303.303.45-303.303.45:7d35e9c9",
+          "gutenberg:ebooks:22381:303.303.46-303.303.46:3619f4c2",
+          "gutenberg:ebooks:22381:303.303.47-303.303.47:da23fdcc",
+          "gutenberg:ebooks:22381:303.303.48-303.303.48:2fca2256",
+          "gutenberg:ebooks:22381:303.303.49-303.303.49:9d1f2d34",
+          "gutenberg:ebooks:22381:303.303.50-303.303.50:d93f8310",
+          "gutenberg:ebooks:22381:303.303.51-303.303.51:2ac45ebd",
+          "gutenberg:ebooks:22381:303.303.52-303.303.52:028cf29c",
+          "gutenberg:ebooks:22381:303.303.53-303.303.53:e04568c8"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"Giants--monsters with six arms.\" cites 53 passage(s) from gutenberg-berens-myths-legends-greece-rome-eng; the first cited passage begins \"Whilst his companions were attending a banquet given by king Cyzicus, Heracles, who, as usual, had remained behind to g.\" and the last cited passage begins \"In a fit of despair Jason threw himself on his own sword, and perished on the threshold of his desolate and deserted ho.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0001 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0001."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0001; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0001."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0001."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"Giants--monsters with six arms.\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:303.303.1-303.303.1:e1f37167",
+          "sourceText": "Whilst his companions were attending a banquet given by king Cyzicus, Heracles, who, as usual, had remained behind to guard the ship, observed that these Giants were busy blocking up the harbour with huge rocks. He at once realized the danger, and, attacking them with his arrows, succeeded in considerably thinning their numbers; then, assisted by the heroes, who at length came to his aid, he effectually destroyed the remainder.",
+          "supports": "Cited source passage inspected for bulk-myth-0001; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:22381:303.303.53-303.303.53:e04568c8",
+          "sourceText": "In a fit of despair Jason threw himself on his own sword, and perished on the threshold of his desolate and deserted home.",
+          "supports": "Cited source passage inspected for bulk-myth-0001; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0001.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0001."
+      ],
+      "decisionRationale": "For bulk-myth-0001 (\"Giants--monsters with six arms.\"), the sample audit found recoverable source passages in gutenberg-berens-myths-legends-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is unresolved_requires_human_review for the sample finding and restoration of the original proposed record for later substantive review."
+    },
+    {
+      "mythId": "bulk-myth-0027",
+      "originalPr12Status": "ambiguous",
+      "finalStatus": "unresolved_requires_human_review",
+      "titleBefore": "City in Greece visited by Ceres during her search for",
+      "titleAfter": "City in Greece visited by Ceres during her search for",
+      "mythFamilyBefore": "demeter-and-persephone",
+      "mythFamilyAfter": "demeter-and-persephone",
+      "sourcePassagesRead": [
+        "gutenberg:ebooks:39250:520.520.1-520.520.1:d65ec777",
+        "gutenberg:ebooks:39250:520.520.2-520.520.2:9d3df721",
+        "gutenberg:ebooks:39250:520.520.3-520.520.3:c824ce75",
+        "gutenberg:ebooks:39250:520.520.4-520.520.4:11c6db35",
+        "gutenberg:ebooks:39250:520.520.5-520.520.5:ca350a39",
+        "gutenberg:ebooks:39250:520.520.6-520.520.6:63f47646",
+        "gutenberg:ebooks:39250:520.520.7-520.520.7:adc37695",
+        "gutenberg:ebooks:39250:520.520.8-520.520.8:dd003153",
+        "gutenberg:ebooks:39250:520.520.9-520.520.9:1c759773",
+        "gutenberg:ebooks:39250:520.520.10-520.520.10:426279a2",
+        "gutenberg:ebooks:39250:520.520.11-520.520.11:2b4df8d9",
+        "gutenberg:ebooks:39250:520.520.12-520.520.12:453f42e2",
+        "gutenberg:ebooks:39250:520.520.13-520.520.13:365970c6",
+        "gutenberg:ebooks:39250:520.520.14-520.520.14:589a099a",
+        "gutenberg:ebooks:39250:520.520.15-520.520.15:f038802d",
+        "gutenberg:ebooks:39250:520.520.16-520.520.16:ff02db3e",
+        "gutenberg:ebooks:39250:520.520.17-520.520.17:49cfec6f",
+        "gutenberg:ebooks:39250:520.520.18-520.520.18:1e1eedb1",
+        "gutenberg:ebooks:39250:520.520.19-520.520.19:b8c116dd",
+        "gutenberg:ebooks:39250:520.520.20-520.520.20:d143920e",
+        "gutenberg:ebooks:39250:520.520.21-520.520.21:b1f64b44",
+        "gutenberg:ebooks:39250:520.520.22-520.520.22:9a6ca840",
+        "gutenberg:ebooks:39250:520.520.23-520.520.23:4285373b",
+        "gutenberg:ebooks:39250:520.520.24-520.520.24:0e8e2114",
+        "gutenberg:ebooks:39250:520.520.25-520.520.25:a67a41db",
+        "gutenberg:ebooks:39250:520.520.26-520.520.26:0af7de87",
+        "gutenberg:ebooks:39250:520.520.27-520.520.27:cd080c98",
+        "gutenberg:ebooks:39250:520.520.28-520.520.28:005b8769",
+        "gutenberg:ebooks:39250:520.520.29-520.520.29:c95fc026",
+        "gutenberg:ebooks:39250:520.520.30-520.520.30:3f5b9bf0",
+        "gutenberg:ebooks:39250:520.520.31-520.520.31:f9282c2b",
+        "gutenberg:ebooks:39250:520.520.32-520.520.32:e1e280c7",
+        "gutenberg:ebooks:39250:520.520.33-520.520.33:8974b3a2",
+        "gutenberg:ebooks:39250:520.520.34-520.520.34:5cc841cf",
+        "gutenberg:ebooks:39250:520.520.35-520.520.35:c13c8bdc",
+        "gutenberg:ebooks:39250:520.520.36-520.520.36:d366bad6",
+        "gutenberg:ebooks:39250:520.520.37-520.520.37:6df314e1",
+        "gutenberg:ebooks:39250:520.520.38-520.520.38:5720db0c",
+        "gutenberg:ebooks:39250:520.520.39-520.520.39:2a4e9157",
+        "gutenberg:ebooks:39250:520.520.40-520.520.40:6fd10fd4",
+        "gutenberg:ebooks:39250:520.520.41-520.520.41:465e012c",
+        "gutenberg:ebooks:39250:520.520.42-520.520.42:abcbd186",
+        "gutenberg:ebooks:39250:520.520.43-520.520.43:1b8e7f85",
+        "gutenberg:ebooks:39250:520.520.44-520.520.44:21464c26",
+        "gutenberg:ebooks:39250:520.520.45-520.520.45:ff307958",
+        "gutenberg:ebooks:39250:520.520.46-520.520.46:fa74c1b5",
+        "gutenberg:ebooks:39250:520.520.47-520.520.47:5455346f"
+      ],
+      "boundaryAnalysis": {
+        "includedPassages": [
+          "gutenberg:ebooks:39250:520.520.1-520.520.1:d65ec777",
+          "gutenberg:ebooks:39250:520.520.2-520.520.2:9d3df721",
+          "gutenberg:ebooks:39250:520.520.3-520.520.3:c824ce75",
+          "gutenberg:ebooks:39250:520.520.4-520.520.4:11c6db35",
+          "gutenberg:ebooks:39250:520.520.5-520.520.5:ca350a39",
+          "gutenberg:ebooks:39250:520.520.6-520.520.6:63f47646",
+          "gutenberg:ebooks:39250:520.520.7-520.520.7:adc37695",
+          "gutenberg:ebooks:39250:520.520.8-520.520.8:dd003153",
+          "gutenberg:ebooks:39250:520.520.9-520.520.9:1c759773",
+          "gutenberg:ebooks:39250:520.520.10-520.520.10:426279a2",
+          "gutenberg:ebooks:39250:520.520.11-520.520.11:2b4df8d9",
+          "gutenberg:ebooks:39250:520.520.12-520.520.12:453f42e2",
+          "gutenberg:ebooks:39250:520.520.13-520.520.13:365970c6",
+          "gutenberg:ebooks:39250:520.520.14-520.520.14:589a099a",
+          "gutenberg:ebooks:39250:520.520.15-520.520.15:f038802d",
+          "gutenberg:ebooks:39250:520.520.16-520.520.16:ff02db3e",
+          "gutenberg:ebooks:39250:520.520.17-520.520.17:49cfec6f",
+          "gutenberg:ebooks:39250:520.520.18-520.520.18:1e1eedb1",
+          "gutenberg:ebooks:39250:520.520.19-520.520.19:b8c116dd",
+          "gutenberg:ebooks:39250:520.520.20-520.520.20:d143920e",
+          "gutenberg:ebooks:39250:520.520.21-520.520.21:b1f64b44",
+          "gutenberg:ebooks:39250:520.520.22-520.520.22:9a6ca840",
+          "gutenberg:ebooks:39250:520.520.23-520.520.23:4285373b",
+          "gutenberg:ebooks:39250:520.520.24-520.520.24:0e8e2114",
+          "gutenberg:ebooks:39250:520.520.25-520.520.25:a67a41db",
+          "gutenberg:ebooks:39250:520.520.26-520.520.26:0af7de87",
+          "gutenberg:ebooks:39250:520.520.27-520.520.27:cd080c98",
+          "gutenberg:ebooks:39250:520.520.28-520.520.28:005b8769",
+          "gutenberg:ebooks:39250:520.520.29-520.520.29:c95fc026",
+          "gutenberg:ebooks:39250:520.520.30-520.520.30:3f5b9bf0",
+          "gutenberg:ebooks:39250:520.520.31-520.520.31:f9282c2b",
+          "gutenberg:ebooks:39250:520.520.32-520.520.32:e1e280c7",
+          "gutenberg:ebooks:39250:520.520.33-520.520.33:8974b3a2",
+          "gutenberg:ebooks:39250:520.520.34-520.520.34:5cc841cf",
+          "gutenberg:ebooks:39250:520.520.35-520.520.35:c13c8bdc",
+          "gutenberg:ebooks:39250:520.520.36-520.520.36:d366bad6",
+          "gutenberg:ebooks:39250:520.520.37-520.520.37:6df314e1",
+          "gutenberg:ebooks:39250:520.520.38-520.520.38:5720db0c",
+          "gutenberg:ebooks:39250:520.520.39-520.520.39:2a4e9157",
+          "gutenberg:ebooks:39250:520.520.40-520.520.40:6fd10fd4",
+          "gutenberg:ebooks:39250:520.520.41-520.520.41:465e012c",
+          "gutenberg:ebooks:39250:520.520.42-520.520.42:abcbd186",
+          "gutenberg:ebooks:39250:520.520.43-520.520.43:1b8e7f85",
+          "gutenberg:ebooks:39250:520.520.44-520.520.44:21464c26",
+          "gutenberg:ebooks:39250:520.520.45-520.520.45:ff307958",
+          "gutenberg:ebooks:39250:520.520.46-520.520.46:fa74c1b5",
+          "gutenberg:ebooks:39250:520.520.47-520.520.47:5455346f"
+        ],
+        "excludedPassages": [],
+        "specificProblem": "The proposal titled \"City in Greece visited by Ceres during her search for\" cites 47 passage(s) from gutenberg-guerber-myths-greece-rome-eng; the first cited passage begins \"Proserpina, 188, 196.\" and the last cited passage begins \"Fa´ma. Attendant of Jupiter, goddess of fame, 41.\". PR #12 did not document adjacent-section boundaries or explain why these exact passages form a complete episode.",
+        "resolution": "The sample audit restores bulk-myth-0027 to recoverable proposed output and requires substantive source reconstruction before verification."
+      },
+      "characterCorrections": [
+        "The original proposal lists 6 normalized entity mapping(s); PR #12 did not record a source-specific character correction for bulk-myth-0027."
+      ],
+      "aliasCorrections": [
+        "No alias was accepted as corrected for bulk-myth-0027; aliases must be rechecked against the cited passages before any verified promotion."
+      ],
+      "eventCorrections": [
+        "The original proposal contains 8 event(s); PR #12 did not provide event-by-event actor, action, target, object, recipient, and location corrections for bulk-myth-0027."
+      ],
+      "relationshipCorrections": [
+        "The original proposal contains 0 relationship(s); none were substantively reconstructed in PR #12 for bulk-myth-0027."
+      ],
+      "narrativeCorrections": [
+        "The synopsis/opening/conflict/resolution/outcome for \"City in Greece visited by Ceres during her search for\" were not rewritten from exact source wording during PR #12 and remain proposed data."
+      ],
+      "exactEvidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:520.520.1-520.520.1:d65ec777",
+          "sourceText": "Proserpina, 188, 196.",
+          "supports": "Cited source passage inspected for bulk-myth-0027; it supports recoverability and boundary-review requirements, not verified promotion."
+        },
+        {
+          "passageId": "gutenberg:ebooks:39250:520.520.47-520.520.47:5455346f",
+          "sourceText": "Fa´ma. Attendant of Jupiter, goddess of fame, 41.",
+          "supports": "Cited source passage inspected for bulk-myth-0027; it supports recoverability and boundary-review requirements, not verified promotion."
+        }
+      ],
+      "remainingUncertainties": [
+        "A substantive reviewer still must determine the correct narrative boundary for bulk-myth-0027.",
+        "A substantive reviewer still must rebuild supported events and relationships from exact source wording for bulk-myth-0027."
+      ],
+      "decisionRationale": "For bulk-myth-0027 (\"City in Greece visited by Ceres during her search for\"), the sample audit found recoverable source passages in gutenberg-guerber-myths-greece-rome-eng, but PR #12 supplied no record-specific boundary reconstruction, title/family correction, or event-level source repair. The defensible repair is unresolved_requires_human_review for the sample finding and restoration of the original proposed record for later substantive review."
+    }
+  ]
+}

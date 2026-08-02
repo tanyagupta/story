@@ -1,0 +1,259 @@
+{
+  "mythId": "bulk-myth-0257",
+  "mythFamilyId": "landon",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-landon-3182cb",
+  "title": "Landon.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0",
+      "gutenberg:ebooks:39250:180.180.2-180.180.2:c362d486",
+      "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "aphrodite"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Venus",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "At last he reached the tower steps, and was lovingly greeted by Hero, whose heart had throbbed with anxiety at the thought of the perils her lover was braving for the sake of \"Thus pass'd the summer shadows in delight: Leander came as surely as the night, And when the morning woke upon the sea, It saw him not, for back at home was he.\"",
+    "openingSituation": "At last he reached the tower steps, and was lovingly greeted by Hero, whose heart had throbbed with anxiety at the thought of the perils her lover was braving for the sake of",
+    "centralConflict": "\"Thus pass'd the summer shadows in delight: Leander came as surely as the night, And when the morning woke upon the sea, It saw him not, for back at home was he.\"",
+    "resolution": "\"Thus pass'd the summer shadows in delight: Leander came as surely as the night, And when the morning woke upon the sea, It saw him not, for back at home was he.\"",
+    "outcome": "\"Thus pass'd the summer shadows in delight: Leander came as surely as the night, And when the morning woke upon the sea, It saw him not, for back at home was he.\"",
+    "storyline": [
+      "At last he reached the tower steps, and was lovingly greeted by Hero, whose heart had throbbed with anxiety at the thought of the perils her lover was braving for the sake of",
+      "\"Thus pass'd the summer shadows in delight: Leander came as surely as the night, And when the morning woke upon the sea, It saw him not, for back at home was he.\""
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0",
+        "gutenberg:ebooks:39250:180.180.2-180.180.2:c362d486",
+        "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0",
+      "excerpt": "Venus, from the top of \"many-peaked Olympus,\" smilingly viewed the success of her scheme, and nerved Leander's arm to cleave the rapid current.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:180.180.2-180.180.2:c362d486",
+      "excerpt": "It was only when the dawn began to whiten the east, that the lovers finished their interview and parted, he to return to Abydus, and she to prepare for the daily duties which would soon claim her attention.",
+      "supports": [
+        "event-002"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c",
+      "excerpt": "\"Thus pass'd the summer shadows in delight: Leander came as surely as the night, And when the morning woke upon the sea, It saw him not, for back at home was he.\"",
+      "supports": [
+        "event-002"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "aphrodite",
+      "predicate": "opening_situation",
+      "object": "At last he reached the tower steps, and was lovingly greeted by Hero, whose heart had throbbed with anxiety at the thought of the perils her lover was braving for the sake of",
+      "evidence": [
+        "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "At last he reached the tower steps, and was lovingly greeted by Hero, whose heart had throbbed with anxiety at the thought of the perils her lover was braving for the sake of seeing her once more.",
+      "sourceClause": "At last he reached the tower steps, and was lovingly greeted by Hero, whose heart had throbbed with anxiety at the thought of the perils her lover was braving for the sake of seeing her once more.",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "reached",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "At last he reached the tower steps, and was lovingly greeted by Hero, whose heart had throbbed with anxiety at the thought of the perils her lover was braving for the sake of",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    },
+    {
+      "eventId": "event-002",
+      "sourceSentence": "\"Thus pass'd the summer shadows in delight: Leander came as surely as the night, And when the morning woke upon the sea, It saw him not, for back at home was he.\"",
+      "sourceClause": "\"Thus pass'd the summer shadows in delight: Leander came as surely as the night, And when the morning woke upon the sea, It saw him not, for back at home was he.\"",
+      "actor": null,
+      "action": "travel",
+      "sourceAction": "came",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "\"Thus pass'd the summer shadows in delight: Leander came as surely as the night, And when the morning woke upon the sea, It saw him not, for back at home was he.\"",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "aphrodite",
+      "predicate": "outcome",
+      "object": "\"Thus pass'd the summer shadows in delight: Leander came as surely as the night, And when the morning woke upon the sea, It saw him not, for back at home was he.\"",
+      "evidence": [
+        "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "At last he reached the tower steps, and was lovingly greeted by Hero, whose heart had throbbed with anxiety at the thought of the perils her lover was braving for the sake of",
+      "\"Thus pass'd the summer shadows in delight: Leander came as surely as the night, And when the morning woke upon the sea, It saw him not, for back at home was he.\""
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-f8c5e16a",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0180-185da4",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "Landon.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0",
+        "gutenberg:ebooks:39250:180.180.2-180.180.2:c362d486",
+        "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-51e1d5a9",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0257",
+      "issueType": "verification-program-unresolved_requires_human_review",
+      "sourceValue": "Landon.",
+      "suggestions": [
+        "unresolved_requires_human_review"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0",
+        "gutenberg:ebooks:39250:180.180.2-180.180.2:c362d486",
+        "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-53f24734",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0257",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "Landon.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:180.180.1-180.180.1:29a42da0",
+        "gutenberg:ebooks:39250:180.180.2-180.180.2:c362d486",
+        "gutenberg:ebooks:39250:180.180.3-180.180.3:797c367c"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 63,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 2,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 2,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.315,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events"
+  ],
+  "uncertainEntities": [
+    "aphrodite"
+  ],
+  "uncertainEvents": [
+    "event-001",
+    "event-002"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

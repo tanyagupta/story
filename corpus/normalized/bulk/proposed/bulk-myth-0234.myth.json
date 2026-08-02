@@ -1,0 +1,260 @@
+{
+  "mythId": "bulk-myth-0234",
+  "mythFamilyId": "on-creaking-hinges-turnd-to-break-his-sleep",
+  "variantId": "gutenberg-guerber-myths-greece-rome-eng-on-creaking-hinges-turnd-to-break-his-sleep-110dab",
+  "title": "On creaking hinges turn'd to break his sleep.",
+  "source": {
+    "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f",
+      "gutenberg:ebooks:39250:329.329.2-329.329.2:01315c12",
+      "gutenberg:ebooks:39250:329.329.3-329.329.3:1bb2093f",
+      "gutenberg:ebooks:39250:329.329.4-329.329.4:68af0563",
+      "gutenberg:ebooks:39250:329.329.5-329.329.5:12b9360a",
+      "gutenberg:ebooks:39250:329.329.6-329.329.6:728cc960"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "hermes"
+    ],
+    "locations": [],
+    "objects": [],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Mercury",
+      "normalizedId": "hermes",
+      "normalizationStatus": "approved",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+    "openingSituation": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+    "centralConflict": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+    "resolution": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+    "outcome": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+    "storyline": [
+      "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled."
+    ],
+    "evidence": {
+      "synopsis": [
+        "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f",
+        "gutenberg:ebooks:39250:329.329.2-329.329.2:01315c12",
+        "gutenberg:ebooks:39250:329.329.3-329.329.3:1bb2093f"
+      ],
+      "openingSituation": [
+        "gutenberg:ebooks:39250:329.329.6-329.329.6:728cc960"
+      ],
+      "centralConflict": [
+        "gutenberg:ebooks:39250:329.329.6-329.329.6:728cc960"
+      ],
+      "resolution": [
+        "gutenberg:ebooks:39250:329.329.6-329.329.6:728cc960"
+      ],
+      "outcome": [
+        "gutenberg:ebooks:39250:329.329.6-329.329.6:728cc960"
+      ]
+    }
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f",
+      "excerpt": "But in the gloomy court was rais'd a bed, Stuff'd with black plumes, and on an ebon sted: Black was the covering too, where lay the god, And slept supine, his limbs display'd abroad.",
+      "supports": [
+        "openingSituation",
+        "synopsis"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:329.329.2-329.329.2:01315c12",
+      "excerpt": "Ovid (Dryden's tr.).",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:329.329.3-329.329.3:1bb2093f",
+      "excerpt": "[Sidenote: Dreams and Nightmares.]",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:329.329.4-329.329.4:68af0563",
+      "excerpt": "All around the bed and over it hovered throngs of exquisite spirits, the Dreams, who stooped to whisper their pleasant messages in his ear; while in the distant corners of the apartment lurked the hideous Nightmares.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:329.329.5-329.329.5:12b9360a",
+      "excerpt": "Two gates led out of the valley of sleep,--one of ivory, and the other of horn.",
+      "supports": [
+        "event-001"
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:39250:329.329.6-329.329.6:728cc960",
+      "excerpt": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled. Two portals are there for their shadowy shapes, Of ivory one, and one of horn. The dreams",
+      "supports": [
+        "event-001"
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "hermes",
+      "predicate": "opening_situation",
+      "object": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+      "evidence": [
+        "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceSentence": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+      "sourceClause": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+      "actor": null,
+      "action": "complete_task",
+      "sourceAction": "fulfilled",
+      "object": null,
+      "target": null,
+      "recipient": null,
+      "location": null,
+      "result": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+      "actorResolutionConfidence": 0,
+      "confidence": 0.35,
+      "causedBy": [],
+      "causes": [],
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:39250:329.329.6-329.329.6:728cc960"
+        }
+      ],
+      "reviewStatus": "awaiting_review"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "hermes",
+      "predicate": "outcome",
+      "object": "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled.",
+      "evidence": [
+        "gutenberg:ebooks:39250:329.329.6-329.329.6:728cc960"
+      ]
+    }
+  ],
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "\"Of dreams, O stranger, some are meaningless And idle, and can never be fulfilled."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-guerber-myths-greece-rome-eng"
+      ],
+      "reviewStatus": "awaiting_substantive_source_review"
+    }
+  ],
+  "normalizationWarnings": [
+    {
+      "reviewId": "review-a44833e6",
+      "recordType": "candidate",
+      "recordId": "gutenberg-guerber-myths-greece-rome-eng-0329-63de5f",
+      "issueType": "requires-source-grounded-review",
+      "sourceValue": "On creaking hinges turn'd to break his sleep.",
+      "suggestions": [
+        "fewer-than-three-meaningful-events",
+        "fewer-than-two-actor-events",
+        "weak-or-literary-title"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f",
+        "gutenberg:ebooks:39250:329.329.2-329.329.2:01315c12",
+        "gutenberg:ebooks:39250:329.329.3-329.329.3:1bb2093f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-55464bc4",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0234",
+      "issueType": "verification-program-ambiguous",
+      "sourceValue": "On creaking hinges turn'd to break his sleep.",
+      "suggestions": [
+        "ambiguous"
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f",
+        "gutenberg:ebooks:39250:329.329.2-329.329.2:01315c12",
+        "gutenberg:ebooks:39250:329.329.3-329.329.3:1bb2093f"
+      ],
+      "status": "open"
+    },
+    {
+      "reviewId": "review-18b0a7c3",
+      "recordType": "myth",
+      "recordId": "bulk-myth-0234",
+      "issueType": "pr12-audit-awaiting_substantive_source_review",
+      "sourceValue": "On creaking hinges turn'd to break his sleep.",
+      "suggestions": [
+        "PR #12 audit restored this record for substantive source reconstruction."
+      ],
+      "evidence": [
+        "gutenberg:ebooks:39250:329.329.1-329.329.1:8889a14f",
+        "gutenberg:ebooks:39250:329.329.2-329.329.2:01315c12",
+        "gutenberg:ebooks:39250:329.329.3-329.329.3:1bb2093f"
+      ],
+      "status": "open"
+    }
+  ],
+  "semanticQuality": {
+    "score": 52,
+    "passed": false,
+    "reasons": [
+      "Failed semantic gates: fewer-than-three-meaningful-events, fewer-than-two-actor-events, weak-or-literary-title",
+      "No explicit relationship was extracted from the selected source wording."
+    ],
+    "failedGates": [
+      "fewer-than-three-meaningful-events",
+      "fewer-than-two-actor-events",
+      "weak-or-literary-title"
+    ],
+    "components": {
+      "namedMythologicalEntities": 1,
+      "meaningfulEvents": 1,
+      "actorEvents": 0,
+      "eventsWithObjectTargetRecipientLocationOrOutcome": 1,
+      "hasCentralConflictOrChange": true,
+      "hasOutcome": true,
+      "knownMythFamily": true
+    }
+  },
+  "confidence": 0.26,
+  "failedGates": [
+    "fewer-than-three-meaningful-events",
+    "fewer-than-two-actor-events",
+    "weak-or-literary-title"
+  ],
+  "uncertainEntities": [
+    "hermes"
+  ],
+  "uncertainEvents": [
+    "event-001"
+  ],
+  "boundaryStatus": "machine-proposed-section-boundary",
+  "reviewStatus": "awaiting_substantive_source_review"
+}

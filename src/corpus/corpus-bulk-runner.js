@@ -14,6 +14,7 @@ const { canonicalEntityId } = require("./bulk/entity-normalization");
 const { buildVerifiedSeeds } = require("./bulk/verified-records");
 const { buildVerificationBatch01 } = require("./bulk/verification-batch-01");
 const { buildVerificationProgram } = require("./bulk/verification-program");
+const { RESTORED_STATUS, buildPr12AuditRepair } = require("./bulk/pr12-audit-repair");
 const { printResult, runCli } = require("./cli");
 
 const RETRIEVED_AT = "2026-08-01T00:00:00Z";
@@ -1033,7 +1034,7 @@ function semanticQualityReport(candidates, productionRecords, verifiedRecords, p
       failedQualityGates[failure] = (failedQualityGates[failure] || 0) + 1;
     });
     if (record.myth.reviewStatus === "approved") approvedRecordIds.push(record.myth.mythId);
-    if (record.myth.reviewStatus === "awaiting_review") recordsRequiringReview.push(record.myth.mythId);
+    if (record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS) recordsRequiringReview.push(record.myth.mythId);
     if (record.myth.reviewStatus === "rejected" || record.myth.reviewStatus === "rejected_non_story") rejectedRecordIds.push(record.myth.mythId);
   });
   return {
@@ -1084,7 +1085,26 @@ function reviewCatalog(productionRecords) {
   return {
     generatedAt: GENERATED_AT,
     entries: productionRecords
-      .filter((record) => record.myth.reviewStatus === "awaiting_review")
+      .filter((record) => ["awaiting_review", RESTORED_STATUS, "ambiguous", "unresolved_requires_human_review", "rejected_non_story"].includes(record.myth.reviewStatus))
+      .filter((record) => fs.existsSync(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`)))
+      .map((record) => ({
+        mythId: record.myth.mythId,
+        title: record.myth.title,
+        mythFamilyId: record.myth.mythFamilyId,
+        sourceId: record.myth.source.sourceId,
+        failedGates: record.myth.semanticQuality.failedGates,
+        synopsis: record.myth.narrative.synopsis,
+        reviewStatus: record.myth.reviewStatus,
+        file: `corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`
+      }))
+  };
+}
+
+function awaitingCatalog(productionRecords) {
+  return {
+    generatedAt: GENERATED_AT,
+    entries: productionRecords
+      .filter((record) => record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS)
       .map((record) => ({
         mythId: record.myth.mythId,
         title: record.myth.title,
@@ -1111,7 +1131,9 @@ function statusCatalog(productionRecords, status, label) {
         mythFamilyId: record.myth.mythFamilyId,
         sourceId: record.myth.source.sourceId,
         reviewStatus: record.myth.reviewStatus,
-        file: null,
+        file: fs.existsSync(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`))
+          ? `corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`
+          : null,
         passages: record.myth.source.passages
       }))
   };
@@ -1411,6 +1433,33 @@ runCli(async (args) => {
     record.myth.normalizationWarnings = record.myth.normalizationWarnings.concat(reviewItem("myth", record.myth.mythId, `verification-program-${finalStatus}`, record.myth.title, [finalStatus], record.myth.source.passages.slice(0, 3)));
     fs.rmSync(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), { force: true });
   });
+  const pr12Audit = buildPr12AuditRepair({ productionRecords, program, verifiedRecords, passageMap });
+  productionRecords.forEach((record) => {
+    const repairedStatus = pr12Audit.finalStatusById.get(record.myth.mythId);
+    if (!repairedStatus) return;
+    record.myth.reviewStatus = repairedStatus;
+    record.myth.variantLinks.forEach((link) => {
+      link.reviewStatus = repairedStatus;
+    });
+    record.myth.normalizationWarnings = record.myth.normalizationWarnings.concat(reviewItem("myth", record.myth.mythId, `pr12-audit-${repairedStatus}`, record.myth.title, ["PR #12 audit restored this record for substantive source reconstruction."], record.myth.source.passages.slice(0, 3)));
+    writeJson(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), record.myth);
+  });
+  program.ledger.entries.forEach((entry) => {
+    const repairedStatus = pr12Audit.finalStatusById.get(entry.mythId);
+    if (!repairedStatus) return;
+    entry.currentStatus = repairedStatus;
+    entry.auditFinding = repairedStatus === RESTORED_STATUS
+      ? "PR #12 classification audit found generic rationale; restored for substantive source review."
+      : "PR #12 classification audit sample retained this record-specific outcome while preserving the proposed record.";
+  });
+  program.progress.neverReviewedRemaining = 0;
+  program.progress.verifiedBySourceAudit = verifiedRecords.length;
+  program.progress.ambiguous = productionRecords.filter((record) => record.myth.reviewStatus === "ambiguous").length;
+  program.progress.rejectedNonStory = productionRecords.filter((record) => record.myth.reviewStatus === "rejected_non_story").length;
+  program.progress.deferredComplex = 0;
+  program.progress.unresolvedRequiresHumanReview = productionRecords.filter((record) => record.myth.reviewStatus === "unresolved_requires_human_review").length;
+  program.progress.awaitingSubstantiveSourceReview = productionRecords.filter((record) => record.myth.reviewStatus === RESTORED_STATUS).length;
+  program.progress.programComplete = false;
   program.selectionReports.forEach((report) => writeJson(rel(`corpus/review/${report.batchId}.json`), report));
   program.batchReports.forEach((report) => writeJson(rel(`corpus/review/${report.batchId}-results.json`), report));
   writeJson(rel("corpus/review/deferred-complex-records.json"), program.deferred);
@@ -1418,6 +1467,11 @@ runCli(async (args) => {
   writeJson(rel("corpus/review/verification-ledger.json"), program.ledger);
   writeJson(rel("corpus/review/verification-program-final-report.json"), program.finalReport);
   writeJson(rel("corpus/review/verification-progress.json"), program.progress);
+  writeJson(rel("corpus/review/pr12-audit-baseline.json"), pr12Audit.baseline);
+  writeJson(rel("corpus/review/pr12-methodology-audit.json"), pr12Audit.methodologyAudit);
+  writeJson(rel("corpus/review/pr12-reconstruction-sample.json"), pr12Audit.sample);
+  writeJson(rel("corpus/review/pr12-reconstruction-sample-results.json"), pr12Audit.sampleResults);
+  writeJson(rel("corpus/review/pr12-audit-conclusion.json"), pr12Audit.conclusion);
   const verifiedAudit = validateVerifiedRecords(verifiedRecords, passageMap);
   const validation = validateBulk(outputs, allCandidates, productionRecords, verifiedRecords, duplicateData, reviewItems, batch.results);
   if (!verifiedAudit.valid) {
@@ -1431,7 +1485,7 @@ runCli(async (args) => {
   writeJson(rel("corpus/catalog/approved-myths.json"), approvedCatalog());
   writeJson(rel("corpus/catalog/verified-myths.json"), verifiedCatalog(verifiedRecords));
   writeJson(rel("corpus/catalog/proposed-myths.json"), reviewCatalog(productionRecords));
-  writeJson(rel("corpus/catalog/myths-awaiting-review.json"), reviewCatalog(productionRecords));
+  writeJson(rel("corpus/catalog/myths-awaiting-review.json"), awaitingCatalog(productionRecords));
   writeJson(rel("corpus/catalog/ambiguous-myths.json"), statusCatalog(productionRecords, "ambiguous", "Records source-reviewed as ambiguous; they are not verified and not approved."));
   writeJson(rel("corpus/catalog/human-review-required.json"), statusCatalog(productionRecords, "unresolved_requires_human_review", "Records receiving a final deferred pass that still require human interpretive review."));
   writeJson(rel("corpus/catalog/rejected-candidates.json"), rejectedCatalog(allCandidates, batch.results, productionRecords));
@@ -1449,7 +1503,7 @@ runCli(async (args) => {
     nonStoryCandidates: allCandidates.filter((candidate) => candidate.candidateType !== "narrative_episode").length,
     rejectedNonStoryCandidates: allCandidates.filter((candidate) => candidate.processingStatus === "rejected-non-story").length,
     semanticallyQualifiedCandidates: verifiedRecords.length,
-    normalizedAwaitingReviewRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
+    normalizedAwaitingReviewRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS).length,
     rejectedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "rejected_non_story").length,
     ambiguousRecords: allCandidates.filter((candidate) => candidate.candidateType === "ambiguous").length + productionRecords.filter((record) => record.myth.reviewStatus === "ambiguous").length,
     unresolvedRequiresHumanReviewRecords: productionRecords.filter((record) => record.myth.reviewStatus === "unresolved_requires_human_review").length,
@@ -1457,12 +1511,13 @@ runCli(async (args) => {
     probableDuplicates: duplicateData.probableDuplicates.length,
     distinctSourceVariants: duplicateData.distinctSourceVariants.reduce((sum, item) => sum + item.variantCount, 0),
     uniqueMythFamilies: new Set(allCandidates.map((candidate) => candidate.mythFamilyId)).size,
-    fullyNormalizedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
+    fullyNormalizedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS).length,
     approvedRecords: 0,
     humanApprovedRecords: 0,
     verifiedBySourceAudit: verifiedRecords.length,
-    machineProposedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
-    recordsAwaitingReview: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
+    machineProposedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS).length,
+    recordsAwaitingReview: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review" || record.myth.reviewStatus === RESTORED_STATUS).length,
+    awaitingSubstantiveSourceReviewRecords: productionRecords.filter((record) => record.myth.reviewStatus === RESTORED_STATUS).length,
     rejectedPoorQualityRecords: 0,
     unresolvedEntities: 0,
     unresolvedActions: 0,
