@@ -1,0 +1,366 @@
+{
+  "mythId": "bulk-verified-0011",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Diana drives her moon-car.",
+      "Diana sees Endymion sleeping.",
+      "Diana returns to him nightly.",
+      "Diana takes him to Mount Latmus.",
+      "Diana causes eternal sleep to fall on him."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "Diana and Endymion",
+  "mythFamilyId": "endymion",
+  "variantId": "gutenberg-baker-endymion-verified",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:81.81.1-81.81.1:1475a14c",
+      "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+      "gutenberg:ebooks:45489:81.81.3-81.81.3:23b7512a",
+      "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af"
+    ]
+  },
+  "scope": {
+    "type": "complete-section",
+    "description": "Baker's complete Endymion story from Diana's moon journey through Endymion's eternal sleep on Mount Latmus.",
+    "includedPassages": [
+      "gutenberg:ebooks:45489:81.81.1-81.81.1:1475a14c",
+      "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+      "gutenberg:ebooks:45489:81.81.3-81.81.3:23b7512a",
+      "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "All consecutive body passages in the section are included."
+  },
+  "entities": {
+    "characters": [
+      "artemis",
+      "endymion",
+      "apollo"
+    ],
+    "locations": [
+      "mount-latmus"
+    ],
+    "objects": [
+      "moon-car"
+    ],
+    "creatures": [
+      "horses"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Diana",
+      "normalizedId": "artemis",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:81.81.1-81.81.1:1475a14c",
+          "sourceText": "The chaste Diana was not only a famous huntress, but she was goddess of the moon as well.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Endymion",
+      "normalizedId": "endymion",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+          "sourceText": "Diana was not susceptible to love; but when she saw Endymion sleeping, she marveled at his beauty, and felt a strange longing to be near him.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:81.81.1-81.81.1:1475a14c",
+          "sourceText": "As soon as Apollo had driven his tired, foam-flecked horses within the western gates, and twilight had begun to creep over the hills, Diana mounted her silver car drawn by milk-white steeds, and started on her nightly journey.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "artemis",
+      "sourceNames": [
+        "Diana"
+      ],
+      "role": "moon goddess",
+      "reason": "Diana sees Endymion, visits him, and takes him to Mount Latmus.",
+      "evidence": [
+        "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+        "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af"
+      ]
+    },
+    {
+      "entityId": "endymion",
+      "sourceNames": [
+        "Endymion"
+      ],
+      "role": "sleeping shepherd",
+      "reason": "Endymion sleeps under Diana's gaze and is placed in eternal sleep.",
+      "evidence": [
+        "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+        "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "artemis",
+      "relationship": "loves",
+      "target": "endymion",
+      "sourceText": "Diana was not susceptible to love; but when she saw Endymion sleeping, she marveled at his beauty, and felt a strange longing to be near him.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+        "sourceText": "Diana was not susceptible to love; but when she saw Endymion sleeping, she marveled at his beauty, and felt a strange longing to be near him."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Diana sees Endymion sleeping by moonlight and repeatedly visits him. Wanting him to remain beautiful and young, she takes him to Mount Latmus and causes eternal sleep to fall on him.",
+    "openingSituation": "Diana makes her nightly moon journey after Apollo's sun course ends.",
+    "centralConflict": "Diana longs to remain near the sleeping Endymion without waking him.",
+    "resolution": "Diana takes Endymion to a cave on Mount Latmus.",
+    "outcome": "Endymion remains in eternal sleep, and Diana visits him every night.",
+    "storyline": [
+      "Diana drives her moon-car.",
+      "Diana sees Endymion sleeping.",
+      "Diana returns to him nightly.",
+      "Diana takes him to Mount Latmus.",
+      "Diana causes eternal sleep to fall on him."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+      "sourceText": "Diana was not susceptible to love; but when she saw Endymion sleeping, she marveled at his beauty, and felt a strange longing to be near him.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af",
+      "sourceText": "So to keep him untouched by sickness or sorrow or death she took him to Mount Latmus, where there was a cave dedicated in her honor which no mortal foot had ever profaned.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports resolution.",
+          "field": "resolution"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af",
+      "sourceText": "Here she placed Endymion, and caused an eternal sleep to fall upon him, so that his body in all its youth and beauty might never know decay.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "artemis",
+      "predicate": "travels_by",
+      "object": "moon-car",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:81.81.1-81.81.1:1475a14c",
+          "sourceText": "As soon as Apollo had driven his tired, foam-flecked horses within the western gates, and twilight had begun to creep over the hills, Diana mounted her silver car drawn by milk-white steeds, and started on her nightly journey."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "see",
+      "target": "endymion",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Diana was not susceptible to love; but when she saw Endymion sleeping, she marveled at his beauty, and felt a strange longing to be near him.",
+      "normalizedStatement": "Diana saw Endymion sleeping.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+          "sourceText": "Diana was not susceptible to love; but when she saw Endymion sleeping, she marveled at his beauty, and felt a strange longing to be near him."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "artemis",
+      "action": "see"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "kiss",
+      "target": "endymion",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "For some time the goddess watched the youth in silence, then, stooping, she gently kissed him.",
+      "normalizedStatement": "Diana kissed Endymion.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+          "sourceText": "For some time the goddess watched the youth in silence, then, stooping, she gently kissed him."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "artemis",
+      "action": "kiss"
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "return",
+      "target": "endymion",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "At last she drew near the hillside where Endymion lay, and, on seeing him there, Diana glided again from her silver car and stood beside his unconscious form.",
+      "normalizedStatement": "Diana returned to Endymion.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:81.81.3-81.81.3:23b7512a",
+          "sourceText": "At last she drew near the hillside where Endymion lay, and, on seeing him there, Diana glided again from her silver car and stood beside his unconscious form."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "artemis",
+      "action": "return"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "move",
+      "target": "endymion",
+      "object": null,
+      "recipient": null,
+      "location": "mount-latmus",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "So to keep him untouched by sickness or sorrow or death she took him to Mount Latmus, where there was a cave dedicated in her honor which no mortal foot had ever profaned.",
+      "normalizedStatement": "Diana took Endymion to Mount Latmus.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af",
+          "sourceText": "So to keep him untouched by sickness or sorrow or death she took him to Mount Latmus, where there was a cave dedicated in her honor which no mortal foot had ever profaned."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "artemis",
+      "action": "move"
+    },
+    {
+      "eventId": "event-005",
+      "sourceAction": "enchant",
+      "target": "endymion",
+      "object": null,
+      "recipient": null,
+      "location": "mount-latmus",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Here she placed Endymion, and caused an eternal sleep to fall upon him, so that his body in all its youth and beauty might never know decay.",
+      "normalizedStatement": "Diana caused eternal sleep to fall on Endymion.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af",
+          "sourceText": "Here she placed Endymion, and caused an eternal sleep to fall upon him, so that his body in all its youth and beauty might never know decay."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "artemis",
+      "action": "enchant"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "endymion",
+      "predicate": "sleeps_eternally_at",
+      "object": "mount-latmus",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af",
+          "sourceText": "Here she placed Endymion, and caused an eternal sleep to fall upon him, so that his body in all its youth and beauty might never know decay."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:45489:81.81.1-81.81.1:1475a14c",
+      "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+      "gutenberg:ebooks:45489:81.81.3-81.81.3:23b7512a",
+      "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af"
+    ],
+    "claimsChecked": [
+      "Diana's nightly course",
+      "Endymion sighting",
+      "repeated visits",
+      "Mount Latmus relocation",
+      "eternal sleep outcome"
+    ],
+    "correctionsMade": [
+      "Corrected family from apollo-and-daphne to endymion.",
+      "Kept Diana's Roman source form but normalized to Artemis for the Greek corpus registry."
+    ],
+    "remainingUncertainties": []
+  }
+}

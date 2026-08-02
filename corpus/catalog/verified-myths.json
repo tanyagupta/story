@@ -309,6 +309,431 @@
       "eventCount": 5,
       "reviewStatus": "verified_by_source_audit",
       "file": "corpus/normalized/bulk/verified/bulk-verified-0006.myth.json"
+    },
+    {
+      "mythId": "bulk-verified-0007",
+      "title": "Cadmus Founds Thebes",
+      "mythFamilyId": "cadmus-founds-thebes",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "mainCharacters": [
+        {
+          "entityId": "cadmus",
+          "sourceNames": [
+            "Cadmus"
+          ],
+          "role": "founder",
+          "reason": "Cadmus searches for Europa, kills the dragon, sows its teeth, and builds Thebes.",
+          "evidence": [
+            "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+            "gutenberg:ebooks:22381:295.295.5-295.295.5:484f6684",
+            "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a"
+          ]
+        },
+        {
+          "entityId": "ares",
+          "sourceNames": [
+            "Ares"
+          ],
+          "role": "offended god",
+          "reason": "Ares is angry because Cadmus killed his dragon.",
+          "evidence": [
+            "gutenberg:ebooks:22381:295.295.7-295.295.7:a7fd704c"
+          ]
+        },
+        {
+          "entityId": "athena",
+          "sourceNames": [
+            "Pallas-Athene"
+          ],
+          "role": "divine adviser",
+          "reason": "Athena commands Cadmus to sow the dragon's teeth.",
+          "evidence": [
+            "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a"
+          ]
+        }
+      ],
+      "synopsis": "Agenor sends Cadmus to search for Europa. Apollo's oracle redirects Cadmus to found a city; after a dragon kills his followers, Cadmus slays it, sows its teeth at Athena's command, and builds Thebes with the surviving warriors.",
+      "eventCount": 7,
+      "reviewStatus": "verified_by_source_audit",
+      "file": "corpus/normalized/bulk/verified/bulk-verified-0007.myth.json"
+    },
+    {
+      "mythId": "bulk-verified-0008",
+      "title": "Paris Abducts Helen",
+      "mythFamilyId": "paris-and-helen",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "mainCharacters": [
+        {
+          "entityId": "paris",
+          "sourceNames": [
+            "Paris",
+            "Alexander"
+          ],
+          "role": "Trojan prince",
+          "reason": "The passage follows Paris from exposure to his mission and abduction of Helen.",
+          "evidence": [
+            "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+            "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f"
+          ]
+        },
+        {
+          "entityId": "helen",
+          "sourceNames": [
+            "Helen"
+          ],
+          "role": "abducted queen",
+          "reason": "Paris first beholds her at Sparta and carries her off.",
+          "evidence": [
+            "gutenberg:ebooks:22381:333.333.7-333.333.7:f97534ad",
+            "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f"
+          ]
+        },
+        {
+          "entityId": "cassandra",
+          "sourceNames": [
+            "Cassandra"
+          ],
+          "role": "warner",
+          "reason": "She warns Paris against bringing home a wife from Greece.",
+          "evidence": [
+            "gutenberg:ebooks:22381:333.333.6-333.333.6:4f0c5ff1"
+          ]
+        }
+      ],
+      "synopsis": "Hecuba exposes Paris because of a prophecy, but shepherds raise him. After Paris is recognized at Troy, Priam sends him to Greece; Cassandra warns against bringing home a Greek wife, and Paris later carries Helen away from Sparta.",
+      "eventCount": 6,
+      "reviewStatus": "verified_by_source_audit",
+      "file": "corpus/normalized/bulk/verified/bulk-verified-0008.myth.json"
+    },
+    {
+      "mythId": "bulk-verified-0009",
+      "title": "The Apple of Discord at the Wedding",
+      "mythFamilyId": "apple-of-discord",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "mainCharacters": [
+        {
+          "entityId": "eris",
+          "sourceNames": [
+            "Eris",
+            "Discordia"
+          ],
+          "role": "disruptor",
+          "reason": "She arrives uninvited and throws the golden apple.",
+          "evidence": [
+            "gutenberg:ebooks:45489:175.175.3-175.175.3:df33c925"
+          ]
+        },
+        {
+          "entityId": "hera",
+          "sourceNames": [
+            "Juno"
+          ],
+          "role": "contestant",
+          "reason": "Juno disputes possession of the apple.",
+          "evidence": [
+            "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81"
+          ]
+        },
+        {
+          "entityId": "athena",
+          "sourceNames": [
+            "Minerva"
+          ],
+          "role": "contestant",
+          "reason": "Minerva disputes possession of the apple.",
+          "evidence": [
+            "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81"
+          ]
+        },
+        {
+          "entityId": "aphrodite",
+          "sourceNames": [
+            "Venus"
+          ],
+          "role": "contestant",
+          "reason": "Venus disputes possession of the apple.",
+          "evidence": [
+            "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81"
+          ]
+        },
+        {
+          "entityId": "paris",
+          "sourceNames": [
+            "Paris"
+          ],
+          "role": "judge",
+          "reason": "Jupiter appoints Paris to judge the contest.",
+          "evidence": [
+            "gutenberg:ebooks:45489:175.175.5-175.175.5:caec4f7c"
+          ]
+        }
+      ],
+      "synopsis": "Jupiter gives Thetis to Peleus and promises divine attendance at their wedding. Eris, excluded from the feast, throws a golden apple marked for the fairest; Juno, Minerva, and Venus contest it, and Jupiter appoints Paris as judge.",
+      "eventCount": 5,
+      "reviewStatus": "verified_by_source_audit",
+      "file": "corpus/normalized/bulk/verified/bulk-verified-0009.myth.json"
+    },
+    {
+      "mythId": "bulk-verified-0010",
+      "title": "Bacchus Lures Vulcan to Olympus",
+      "mythFamilyId": "hephaestus-and-hera-throne",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "mainCharacters": [
+        {
+          "entityId": "hephaestus",
+          "sourceNames": [
+            "Vulcan"
+          ],
+          "role": "estranged craftsman",
+          "reason": "He traps Juno in a golden throne and refuses Mercury's invitation.",
+          "evidence": [
+            "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+          ]
+        },
+        {
+          "entityId": "hera",
+          "sourceNames": [
+            "Juno"
+          ],
+          "role": "trapped mother",
+          "reason": "She is caught in the throne sent by Vulcan.",
+          "evidence": [
+            "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+          ]
+        },
+        {
+          "entityId": "dionysus",
+          "sourceNames": [
+            "Bacchus"
+          ],
+          "role": "luring visitor",
+          "reason": "Jupiter sends Bacchus, who makes Vulcan drink and leads him to Olympus.",
+          "evidence": [
+            "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+          ]
+        }
+      ],
+      "synopsis": "After Jupiter casts Vulcan from heaven and Juno shows indifference, Vulcan sends her a golden throne that traps her. Mercury cannot persuade him to return, but Bacchus wins him over with wine and leads him to Olympus.",
+      "eventCount": 5,
+      "reviewStatus": "verified_by_source_audit",
+      "file": "corpus/normalized/bulk/verified/bulk-verified-0010.myth.json"
+    },
+    {
+      "mythId": "bulk-verified-0011",
+      "title": "Diana and Endymion",
+      "mythFamilyId": "endymion",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "mainCharacters": [
+        {
+          "entityId": "artemis",
+          "sourceNames": [
+            "Diana"
+          ],
+          "role": "moon goddess",
+          "reason": "Diana sees Endymion, visits him, and takes him to Mount Latmus.",
+          "evidence": [
+            "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+            "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af"
+          ]
+        },
+        {
+          "entityId": "endymion",
+          "sourceNames": [
+            "Endymion"
+          ],
+          "role": "sleeping shepherd",
+          "reason": "Endymion sleeps under Diana's gaze and is placed in eternal sleep.",
+          "evidence": [
+            "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+            "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af"
+          ]
+        }
+      ],
+      "synopsis": "Diana sees Endymion sleeping by moonlight and repeatedly visits him. Wanting him to remain beautiful and young, she takes him to Mount Latmus and causes eternal sleep to fall on him.",
+      "eventCount": 5,
+      "reviewStatus": "verified_by_source_audit",
+      "file": "corpus/normalized/bulk/verified/bulk-verified-0011.myth.json"
+    },
+    {
+      "mythId": "bulk-verified-0012",
+      "title": "Infant Hercules and the Serpents",
+      "mythFamilyId": "infant-heracles-serpents",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "mainCharacters": [
+        {
+          "entityId": "heracles",
+          "sourceNames": [
+            "Hercules"
+          ],
+          "role": "infant hero",
+          "reason": "He strangles the serpents in his cradle.",
+          "evidence": [
+            "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
+          ]
+        },
+        {
+          "entityId": "hera",
+          "sourceNames": [
+            "Juno"
+          ],
+          "role": "attacker",
+          "reason": "Juno sends serpents to attack the infant Hercules.",
+          "evidence": [
+            "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
+          ]
+        }
+      ],
+      "synopsis": "Juno plots to destroy the infant Hercules and sends two serpents to attack him in his cradle. Hercules seizes the serpents by the neck and strangles them.",
+      "eventCount": 4,
+      "reviewStatus": "verified_by_source_audit",
+      "file": "corpus/normalized/bulk/verified/bulk-verified-0012.myth.json"
+    },
+    {
+      "mythId": "bulk-verified-0013",
+      "title": "The Calydonian Hunt",
+      "mythFamilyId": "calydonian-hunt",
+      "sourceId": "gutenberg-guerber-myths-greece-rome-eng",
+      "mainCharacters": [
+        {
+          "entityId": "meleager",
+          "sourceNames": [
+            "Meleager"
+          ],
+          "role": "hunter",
+          "reason": "Meleager leads the hunt, gives the spoil to Atalanta, kills his uncles, and dies when the brand burns.",
+          "evidence": [
+            "gutenberg:ebooks:39250:400.400.3-400.400.3:26c875d3",
+            "gutenberg:ebooks:39250:400.400.6-400.400.6:ed0b2b19",
+            "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
+          ]
+        },
+        {
+          "entityId": "atalanta",
+          "sourceNames": [
+            "Atalanta"
+          ],
+          "role": "hunter",
+          "reason": "Atalanta mortally wounds the boar and receives its spoil.",
+          "evidence": [
+            "gutenberg:ebooks:39250:400.400.6-400.400.6:ed0b2b19",
+            "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
+          ]
+        },
+        {
+          "entityId": "althaea",
+          "sourceNames": [
+            "Althaea"
+          ],
+          "role": "mother and avenger",
+          "reason": "She saves Meleager as an infant and later burns the brand after he kills her brothers.",
+          "evidence": [
+            "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+            "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
+          ]
+        }
+      ],
+      "synopsis": "The Fates tie Meleager's life to a burning brand, which Althaea saves. Diana later sends a boar against Calydon; Meleager leads the hunt, Atalanta wounds the boar, and Meleager kills it, but his killing of his uncles leads Althaea to burn the brand and cause his death.",
+      "eventCount": 7,
+      "reviewStatus": "verified_by_source_audit",
+      "file": "corpus/normalized/bulk/verified/bulk-verified-0013.myth.json"
+    },
+    {
+      "mythId": "bulk-verified-0014",
+      "title": "Oedipus and the Sphinx",
+      "mythFamilyId": "oedipus",
+      "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+      "mainCharacters": [
+        {
+          "entityId": "oedipus",
+          "sourceNames": [
+            "Oedipus"
+          ],
+          "role": "hero and sufferer",
+          "reason": "The section follows Oedipus from exposure to solving the Sphinx's riddle and later exile.",
+          "evidence": [
+            "gutenberg:ebooks:22381:324.324.2-324.324.2:ac3197eb",
+            "gutenberg:ebooks:22381:324.324.6-324.324.6:4b597425",
+            "gutenberg:ebooks:22381:324.324.9-324.324.9:643d2cb9"
+          ]
+        },
+        {
+          "entityId": "sphinx",
+          "sourceNames": [
+            "Sphinx"
+          ],
+          "role": "monster",
+          "reason": "The Sphinx kills those who fail her riddles and dies when Oedipus solves one.",
+          "evidence": [
+            "gutenberg:ebooks:22381:324.324.4-324.324.4:1bddd95a",
+            "gutenberg:ebooks:22381:324.324.6-324.324.6:4b597425"
+          ]
+        },
+        {
+          "entityId": "jocaste",
+          "sourceNames": [
+            "Jocaste"
+          ],
+          "role": "mother and queen",
+          "reason": "Jocaste consents to the infant's exposure and later dies after the revelation.",
+          "evidence": [
+            "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+            "gutenberg:ebooks:22381:324.324.8-324.324.8:b5d81903"
+          ]
+        }
+      ],
+      "synopsis": "Laius tries to destroy the infant Oedipus because of an oracle, but Oedipus is raised at Corinth. He unknowingly kills Laius, defeats the Sphinx by solving her riddle, becomes king of Thebes and Jocaste's husband, and later blinds himself and goes into exile after Tiresias reveals the truth.",
+      "eventCount": 8,
+      "reviewStatus": "verified_by_source_audit",
+      "file": "corpus/normalized/bulk/verified/bulk-verified-0014.myth.json"
+    },
+    {
+      "mythId": "bulk-verified-0015",
+      "title": "Bellerophon, Pegasus, and the Chimera",
+      "mythFamilyId": "bellerophon-and-pegasus",
+      "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+      "mainCharacters": [
+        {
+          "entityId": "bellerophon",
+          "sourceNames": [
+            "Bellerophon"
+          ],
+          "role": "hero",
+          "reason": "He captures Pegasus, kills the Chimera, and later falls through pride.",
+          "evidence": [
+            "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+            "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84",
+            "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
+          ]
+        },
+        {
+          "entityId": "pegasus",
+          "sourceNames": [
+            "Pegasus"
+          ],
+          "role": "winged helper",
+          "reason": "Pegasus bears Bellerophon against the Chimera and later throws him after Jupiter sends the gadfly.",
+          "evidence": [
+            "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84",
+            "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
+          ]
+        },
+        {
+          "entityId": "chimera",
+          "sourceNames": [
+            "Chimæra"
+          ],
+          "role": "monster",
+          "reason": "The Chimera devastates the land and is killed by Bellerophon.",
+          "evidence": [
+            "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1",
+            "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84"
+          ]
+        }
+      ],
+      "synopsis": "Bellerophon catches Pegasus with Minerva's bridle, rides him to the Chimera's lair, and kills the monster. Iobates rewards him, but after later victories Bellerophon tries to reach Olympus and falls when Jupiter sends a gadfly against Pegasus.",
+      "eventCount": 7,
+      "reviewStatus": "verified_by_source_audit",
+      "file": "corpus/normalized/bulk/verified/bulk-verified-0015.myth.json"
     }
   ]
 }

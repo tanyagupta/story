@@ -12,6 +12,7 @@ const {
 const { validateVerifiedRecords } = require("./bulk/evidence-validator");
 const { canonicalEntityId } = require("./bulk/entity-normalization");
 const { buildVerifiedSeeds } = require("./bulk/verified-records");
+const { buildVerificationBatch01 } = require("./bulk/verification-batch-01");
 const { printResult, runCli } = require("./cli");
 
 const RETRIEVED_AT = "2026-08-01T00:00:00Z";
@@ -1032,7 +1033,7 @@ function semanticQualityReport(candidates, productionRecords, verifiedRecords, p
     });
     if (record.myth.reviewStatus === "approved") approvedRecordIds.push(record.myth.mythId);
     if (record.myth.reviewStatus === "awaiting_review") recordsRequiringReview.push(record.myth.mythId);
-    if (record.myth.reviewStatus === "rejected") rejectedRecordIds.push(record.myth.mythId);
+    if (record.myth.reviewStatus === "rejected" || record.myth.reviewStatus === "rejected_non_story") rejectedRecordIds.push(record.myth.mythId);
   });
   return {
     generatedAt: GENERATED_AT,
@@ -1042,9 +1043,9 @@ function semanticQualityReport(candidates, productionRecords, verifiedRecords, p
     humanApprovedRecords: approvedRecordIds.length,
     verifiedBySourceAudit: verifiedRecordIds.length,
     awaitingReview: recordsRequiringReview.length,
-    rejectedNonStory: candidates.filter((candidate) => candidate.processingStatus === "rejected-non-story").length,
+    rejectedNonStory: candidates.filter((candidate) => candidate.processingStatus === "rejected-non-story").length + productionRecords.filter((record) => record.myth.reviewStatus === "rejected_non_story").length,
     rejectedPoorQuality: candidates.filter((candidate) => candidate.processingStatus === "rejected-poor-quality").length,
-    ambiguous: candidates.filter((candidate) => candidate.candidateType === "ambiguous").length,
+    ambiguous: candidates.filter((candidate) => candidate.candidateType === "ambiguous").length + productionRecords.filter((record) => record.myth.reviewStatus === "ambiguous").length,
     failedQualityGates,
     approvedRecordIds,
     verifiedRecordIds,
@@ -1096,7 +1097,19 @@ function reviewCatalog(productionRecords) {
   };
 }
 
-function rejectedCatalog(candidates) {
+function rejectedCatalog(candidates, batchResults) {
+  const batchRejected = batchResults.reviewedRecords
+    .filter((record) => record.finalStatus === "rejected_non_story")
+    .map((record) => ({
+      candidateId: record.mythId,
+      title: record.title,
+      sourceId: null,
+      candidateType: "source-audited-selection",
+      processingStatus: "rejected-non-story-source-audit",
+      failedGates: ["source-audited-non-story"],
+      passages: [],
+      reason: record.reason
+    }));
   return {
     generatedAt: GENERATED_AT,
     entries: candidates
@@ -1110,6 +1123,7 @@ function rejectedCatalog(candidates) {
         failedGates: (candidate.semanticQuality && candidate.semanticQuality.failedGates) || [],
         passages: candidate.passages
       }))
+      .concat(batchRejected)
   };
 }
 
@@ -1162,7 +1176,7 @@ function codexSourceVerification(verifiedRecords) {
   };
 }
 
-function validateBulk(outputs, candidates, productionRecords, verifiedRecords, duplicateData, reviewItems) {
+function validateBulk(outputs, candidates, productionRecords, verifiedRecords, duplicateData, reviewItems, batchResults) {
   const passageIds = new Set();
   const errors = [];
   const warnings = [];
@@ -1195,6 +1209,12 @@ function validateBulk(outputs, candidates, productionRecords, verifiedRecords, d
       if (!event.evidence || !event.evidence.length) errors.push({ type: "missing-evidence", file: myth.mythId, message: event.eventId });
       if (likelySentenceFragment(event.sourceText || event.result || event.sourceSentence)) errors.push({ type: "sentence-fragment", file: myth.mythId, message: event.eventId });
     });
+  });
+  if (batchResults.reviewedRecords.length !== 20) errors.push({ type: "verification-batch-count", file: "corpus/review/verification-batch-01-results.json", message: String(batchResults.reviewedRecords.length) });
+  batchResults.reviewedRecords.forEach((record) => {
+    if (!["awaiting_review", "verified_by_source_audit", "ambiguous", "rejected_non_story"].includes(record.finalStatus)) {
+      errors.push({ type: "verification-batch-status", file: "corpus/review/verification-batch-01-results.json", message: `${record.mythId}:${record.finalStatus}` });
+    }
   });
   if (candidates.filter((candidate) => candidate.candidateType === "narrative_episode").length < 100) errors.push({ type: "target-not-met", file: "corpus/catalog/myth-inventory.json", message: "Fewer than 100 valid narrative candidates" });
   warnings.push({ type: "automatic-approval-disabled", file: "corpus/catalog/approved-myths.json", message: "Machine-generated records remain awaiting review; human-approved count is zero" });
@@ -1302,7 +1322,25 @@ runCli(async (args) => {
   const reviewItems = duplicateData.probableDuplicates.slice(0, 25).map((item) => reviewItem("candidate", item.candidateIds.join(":"), "probable-duplicate", item.mythFamilyId, item.candidateIds, []));
   const ambiguousFamilies = allCandidates.filter((candidate) => candidate.mythFamilyId === "unresolved-family").slice(0, 25);
   ambiguousFamilies.forEach((candidate) => reviewItems.push(reviewItem("candidate", candidate.candidateId, "ambiguous-myth-family", candidate.title, [], candidate.passages.slice(0, 2))));
-  const verifiedRecords = buildVerifiedSeeds(passageMap);
+  const verifiedSeedRecords = buildVerifiedSeeds(passageMap);
+  const batch = buildVerificationBatch01({ productionRecords, passageMap, existingVerifiedCount: verifiedSeedRecords.length });
+  productionRecords.forEach((record) => {
+    const outcome = batch.outcomes[record.myth.mythId];
+    if (!outcome) return;
+    record.myth.reviewStatus = outcome.finalStatus;
+    record.myth.variantLinks.forEach((link) => {
+      link.reviewStatus = outcome.finalStatus;
+    });
+    if (outcome.finalStatus !== "verified_by_source_audit") {
+      record.myth.normalizationWarnings = record.myth.normalizationWarnings.concat(reviewItem("myth", record.myth.mythId, `batch-${outcome.finalStatus}`, record.myth.title, [outcome.reason], record.myth.source.passages.slice(0, 3)));
+    }
+    if (outcome.finalStatus !== "awaiting_review") {
+      fs.rmSync(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), { force: true });
+    } else {
+      writeJson(rel(`corpus/normalized/bulk/proposed/${record.myth.mythId}.myth.json`), record.myth);
+    }
+  });
+  const verifiedRecords = verifiedSeedRecords.concat(batch.verifiedRecords);
   verifiedRecords.forEach((myth) => {
     writeJson(rel(`corpus/normalized/bulk/verified/${myth.mythId}.myth.json`), myth);
   });
@@ -1327,8 +1365,12 @@ runCli(async (args) => {
   writeJson(rel("corpus/catalog/myth-inventory.json"), inventory);
   writeJson(rel("corpus/catalog/duplicate-and-variant-report.json"), duplicateData);
   writeJson(rel("corpus/review/open-review-items.json"), { items: reviewItems });
+  writeJson(rel("corpus/review/verification-priority.json"), batch.priority);
+  writeJson(rel("corpus/review/verification-batch-01.json"), batch.selection);
+  writeJson(rel("corpus/review/verification-batch-01-results.json"), batch.results);
+  writeJson(rel("corpus/review/verification-progress.json"), batch.progress);
   const verifiedAudit = validateVerifiedRecords(verifiedRecords, passageMap);
-  const validation = validateBulk(outputs, allCandidates, productionRecords, verifiedRecords, duplicateData, reviewItems);
+  const validation = validateBulk(outputs, allCandidates, productionRecords, verifiedRecords, duplicateData, reviewItems, batch.results);
   if (!verifiedAudit.valid) {
     validation.errors.push({ type: "verified-source-audit", file: "corpus/review/source-text-audit-report.json", message: "Verified records failed exact source audit" });
     validation.valid = false;
@@ -1341,7 +1383,7 @@ runCli(async (args) => {
   writeJson(rel("corpus/catalog/verified-myths.json"), verifiedCatalog(verifiedRecords));
   writeJson(rel("corpus/catalog/proposed-myths.json"), reviewCatalog(productionRecords));
   writeJson(rel("corpus/catalog/myths-awaiting-review.json"), reviewCatalog(productionRecords));
-  writeJson(rel("corpus/catalog/rejected-candidates.json"), rejectedCatalog(allCandidates));
+  writeJson(rel("corpus/catalog/rejected-candidates.json"), rejectedCatalog(allCandidates, batch.results));
   writeJson(rel("corpus/review/automated-structure-check.json"), automatedStructureCheck(productionRecords, verifiedRecords));
   writeJson(rel("corpus/review/codex-source-verification.json"), codexSourceVerification(verifiedRecords));
   const summary = {
@@ -1357,17 +1399,17 @@ runCli(async (args) => {
     rejectedNonStoryCandidates: allCandidates.filter((candidate) => candidate.processingStatus === "rejected-non-story").length,
     semanticallyQualifiedCandidates: verifiedRecords.length,
     normalizedAwaitingReviewRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
-    rejectedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "rejected").length,
-    ambiguousRecords: allCandidates.filter((candidate) => candidate.candidateType === "ambiguous").length,
+    rejectedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "rejected_non_story").length,
+    ambiguousRecords: allCandidates.filter((candidate) => candidate.candidateType === "ambiguous").length + productionRecords.filter((record) => record.myth.reviewStatus === "ambiguous").length,
     exactDuplicates: duplicateData.exactDuplicates.length,
     probableDuplicates: duplicateData.probableDuplicates.length,
     distinctSourceVariants: duplicateData.distinctSourceVariants.reduce((sum, item) => sum + item.variantCount, 0),
     uniqueMythFamilies: new Set(allCandidates.map((candidate) => candidate.mythFamilyId)).size,
-    fullyNormalizedRecords: productionRecords.length,
+    fullyNormalizedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
     approvedRecords: 0,
     humanApprovedRecords: 0,
     verifiedBySourceAudit: verifiedRecords.length,
-    machineProposedRecords: productionRecords.length,
+    machineProposedRecords: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
     recordsAwaitingReview: productionRecords.filter((record) => record.myth.reviewStatus === "awaiting_review").length,
     rejectedPoorQualityRecords: 0,
     unresolvedEntities: 0,

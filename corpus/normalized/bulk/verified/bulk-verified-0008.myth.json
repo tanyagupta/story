@@ -1,0 +1,549 @@
+{
+  "mythId": "bulk-verified-0008",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Hecuba exposes Paris.",
+      "Shepherds raise Paris.",
+      "Cassandra reveals Paris at Troy.",
+      "Priam sends Paris to Greece.",
+      "Cassandra warns Paris.",
+      "Paris carries Helen off from Sparta."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "Paris Abducts Helen",
+  "mythFamilyId": "paris-and-helen",
+  "variantId": "gutenberg-berens-paris-helen-verified",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+      "gutenberg:ebooks:22381:333.333.2-333.333.2:228872b7",
+      "gutenberg:ebooks:22381:333.333.3-333.333.3:d354b666",
+      "gutenberg:ebooks:22381:333.333.4-333.333.4:d08e4985",
+      "gutenberg:ebooks:22381:333.333.5-333.333.5:b2f1ea58",
+      "gutenberg:ebooks:22381:333.333.6-333.333.6:4f0c5ff1",
+      "gutenberg:ebooks:22381:333.333.7-333.333.7:f97534ad",
+      "gutenberg:ebooks:22381:333.333.8-333.333.8:090e73af",
+      "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "description": "Paris' exposure, recognition, mission to Greece, warning by Cassandra, and abduction of Helen.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+      "gutenberg:ebooks:22381:333.333.2-333.333.2:228872b7",
+      "gutenberg:ebooks:22381:333.333.3-333.333.3:d354b666",
+      "gutenberg:ebooks:22381:333.333.4-333.333.4:d08e4985",
+      "gutenberg:ebooks:22381:333.333.5-333.333.5:b2f1ea58",
+      "gutenberg:ebooks:22381:333.333.6-333.333.6:4f0c5ff1",
+      "gutenberg:ebooks:22381:333.333.7-333.333.7:f97534ad",
+      "gutenberg:ebooks:22381:333.333.8-333.333.8:090e73af",
+      "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f"
+    ],
+    "omittedPassages": [
+      "gutenberg:ebooks:22381:333.333.10-333.333.10:a96158b3"
+    ],
+    "boundaryRationale": "The following passage is omitted because its extracted text is truncated mid-sentence; the abduction outcome is already complete in the preceding passage."
+  },
+  "entities": {
+    "characters": [
+      "paris",
+      "helen",
+      "hecuba",
+      "aesacus",
+      "priam",
+      "cassandra",
+      "menelaus",
+      "oenone",
+      "aphrodite",
+      "hera",
+      "athena"
+    ],
+    "locations": [
+      "troy",
+      "mount-ida",
+      "sparta",
+      "greece"
+    ],
+    "objects": [
+      "golden-apple",
+      "treasure"
+    ],
+    "creatures": []
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Paris",
+      "normalizedId": "paris",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+          "sourceText": "Before the birth of her second son Paris, Hecuba dreamt that she had given birth to a flaming brand, which was interpreted by AEsacus the seer (a son of Priam by a former marriage) to signify that she would bear a son who would cause the destruction of the city of Troy.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Helen",
+      "normalizedId": "helen",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.7-333.333.7:f97534ad",
+          "sourceText": "Here the young Trojan prince first beheld Helen, the daughter of Zeus and Leda, and sister of the Dioscuri, who was the wife of Menelaus, king of Sparta, and the loveliest woman of her time.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Hecuba",
+      "normalizedId": "hecuba",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+          "sourceText": "Before the birth of her second son Paris, Hecuba dreamt that she had given birth to a flaming brand, which was interpreted by AEsacus the seer (a son of Priam by a former marriage) to signify that she would bear a son who would cause the destruction of the city of Troy.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "AEsacus",
+      "normalizedId": "aesacus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+          "sourceText": "Before the birth of her second son Paris, Hecuba dreamt that she had given birth to a flaming brand, which was interpreted by AEsacus the seer (a son of Priam by a former marriage) to signify that she would bear a son who would cause the destruction of the city of Troy.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Priam",
+      "normalizedId": "priam",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+          "sourceText": "Before the birth of her second son Paris, Hecuba dreamt that she had given birth to a flaming brand, which was interpreted by AEsacus the seer (a son of Priam by a former marriage) to signify that she would bear a son who would cause the destruction of the city of Troy.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Cassandra",
+      "normalizedId": "cassandra",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.4-333.333.4:d08e4985",
+          "sourceText": "There he so greatly distinguished himself in a contest with his unknown brothers, Hector and Deiphobus, that the proud young princes, enraged that an obscure shepherd should snatch from them the prize of victory, were about to create a disturbance, when Cassandra, who had been a spectator of the proceedings, stepped forward, and announced to them that the humble peasant who had so signally defeated them was their own {285} brother Paris.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Menelaus",
+      "normalizedId": "menelaus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.7-333.333.7:f97534ad",
+          "sourceText": "Here the young Trojan prince first beheld Helen, the daughter of Zeus and Leda, and sister of the Dioscuri, who was the wife of Menelaus, king of Sparta, and the loveliest woman of her time.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Oenone",
+      "normalizedId": "oenone",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.3-333.333.3:d354b666",
+          "sourceText": "Paris became united to a beautiful nymph named Oenone, with whom he lived happily in the seclusion and tranquillity of a pastoral life; but to her deep grief this peaceful existence was not fated to be of long duration.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Aphrodite",
+      "normalizedId": "aphrodite",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.2-333.333.2:228872b7",
+          "sourceText": "As we have already seen, he gave his decision in favour of Aphrodite; thus creating for himself two implacable enemies, for Hera and Athene never forgave the slight.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Hera",
+      "normalizedId": "hera",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.2-333.333.2:228872b7",
+          "sourceText": "As we have already seen, he gave his decision in favour of Aphrodite; thus creating for himself two implacable enemies, for Hera and Athene never forgave the slight.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Athene",
+      "normalizedId": "athena",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.2-333.333.2:228872b7",
+          "sourceText": "As we have already seen, he gave his decision in favour of Aphrodite; thus creating for himself two implacable enemies, for Hera and Athene never forgave the slight.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "paris",
+      "sourceNames": [
+        "Paris",
+        "Alexander"
+      ],
+      "role": "Trojan prince",
+      "reason": "The passage follows Paris from exposure to his mission and abduction of Helen.",
+      "evidence": [
+        "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+        "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f"
+      ]
+    },
+    {
+      "entityId": "helen",
+      "sourceNames": [
+        "Helen"
+      ],
+      "role": "abducted queen",
+      "reason": "Paris first beholds her at Sparta and carries her off.",
+      "evidence": [
+        "gutenberg:ebooks:22381:333.333.7-333.333.7:f97534ad",
+        "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f"
+      ]
+    },
+    {
+      "entityId": "cassandra",
+      "sourceNames": [
+        "Cassandra"
+      ],
+      "role": "warner",
+      "reason": "She warns Paris against bringing home a wife from Greece.",
+      "evidence": [
+        "gutenberg:ebooks:22381:333.333.6-333.333.6:4f0c5ff1"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "helen",
+      "relationship": "spouse_of",
+      "target": "menelaus",
+      "sourceText": "Here the young Trojan prince first beheld Helen, the daughter of Zeus and Leda, and sister of the Dioscuri, who was the wife of Menelaus, king of Sparta, and the loveliest woman of her time.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:333.333.7-333.333.7:f97534ad",
+        "sourceText": "Here the young Trojan prince first beheld Helen, the daughter of Zeus and Leda, and sister of the Dioscuri, who was the wife of Menelaus, king of Sparta, and the loveliest woman of her time."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "paris",
+      "relationship": "spouse_of",
+      "target": "oenone",
+      "sourceText": "Paris became united to a beautiful nymph named Oenone, with whom he lived happily in the seclusion and tranquillity of a pastoral life; but to her deep grief this peaceful existence was not fated to be of long duration.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:333.333.3-333.333.3:d354b666",
+        "sourceText": "Paris became united to a beautiful nymph named Oenone, with whom he lived happily in the seclusion and tranquillity of a pastoral life; but to her deep grief this peaceful existence was not fated to be of long duration."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "priam",
+      "relationship": "parent_of",
+      "target": "paris",
+      "sourceText": "Before the birth of her second son Paris, Hecuba dreamt that she had given birth to a flaming brand, which was interpreted by AEsacus the seer (a son of Priam by a former marriage) to signify that she would bear a son who would cause the destruction of the city of Troy.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+        "sourceText": "Before the birth of her second son Paris, Hecuba dreamt that she had given birth to a flaming brand, which was interpreted by AEsacus the seer (a son of Priam by a former marriage) to signify that she would bear a son who would cause the destruction of the city of Troy."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Hecuba exposes Paris because of a prophecy, but shepherds raise him. After Paris is recognized at Troy, Priam sends him to Greece; Cassandra warns against bringing home a Greek wife, and Paris later carries Helen away from Sparta.",
+    "openingSituation": "A prophecy says Hecuba's son Paris will cause Troy's destruction.",
+    "centralConflict": "Paris is accepted back into Troy despite the omen and then warned not to bring home a wife from Greece.",
+    "resolution": "Paris travels to Sparta and is received by Menelaus.",
+    "outcome": "Paris carries off Helen and the treasures of the Spartan palace.",
+    "storyline": [
+      "Hecuba exposes Paris.",
+      "Shepherds raise Paris.",
+      "Cassandra reveals Paris at Troy.",
+      "Priam sends Paris to Greece.",
+      "Cassandra warns Paris.",
+      "Paris carries Helen off from Sparta."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+      "sourceText": "Before the birth of her second son Paris, Hecuba dreamt that she had given birth to a flaming brand, which was interpreted by AEsacus the seer (a son of Priam by a former marriage) to signify that she would bear a son who would cause the destruction of the city of Troy.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:333.333.6-333.333.6:4f0c5ff1",
+      "sourceText": "Before setting out on this expedition, Paris was warned by Cassandra against bringing home a wife from Greece, and she predicted that if he disregarded her injunction he would bring inevitable ruin upon the city of Troy, and destruction to the house of Priam.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f",
+      "sourceText": "He accordingly collected his followers, and with their assistance stormed the royal castle, possessed himself of the rich treasures which it contained, and succeeded in carrying off its beautiful, and not altogether unwilling mistress.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "paris",
+      "predicate": "prophesied_to_destroy",
+      "object": "troy",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+          "sourceText": "Before the birth of her second son Paris, Hecuba dreamt that she had given birth to a flaming brand, which was interpreted by AEsacus the seer (a son of Priam by a former marriage) to signify that she would bear a son who would cause the destruction of the city of Troy."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "expose",
+      "target": "paris",
+      "object": null,
+      "recipient": null,
+      "location": "mount-ida",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Anxious to prevent the fulfilment of the prophecy, Hecuba caused her new-born babe to be exposed on Mount Ida to perish; but being found by some kind-hearted shepherds, the child was reared by them, and grew up unconscious of his noble birth.",
+      "normalizedStatement": "Hecuba exposed Paris on Mount Ida.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+          "sourceText": "Anxious to prevent the fulfilment of the prophecy, Hecuba caused her new-born babe to be exposed on Mount Ida to perish; but being found by some kind-hearted shepherds, the child was reared by them, and grew up unconscious of his noble birth."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "hecuba",
+      "action": "expose"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "reveal",
+      "target": "paris",
+      "object": null,
+      "recipient": "priam",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "There he so greatly distinguished himself in a contest with his unknown brothers, Hector and Deiphobus, that the proud young princes, enraged that an obscure shepherd should snatch from them the prize of victory, were about to create a disturbance, when Cassandra, who had been a spectator of the proceedings, stepped forward, and announced to them that the humble peasant who had so signally defeated them was their own {285} brother Paris.",
+      "normalizedStatement": "Cassandra announced that the shepherd was Paris.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.4-333.333.4:d08e4985",
+          "sourceText": "There he so greatly distinguished himself in a contest with his unknown brothers, Hector and Deiphobus, that the proud young princes, enraged that an obscure shepherd should snatch from them the prize of victory, were about to create a disturbance, when Cassandra, who had been a spectator of the proceedings, stepped forward, and announced to them that the humble peasant who had so signally defeated them was their own {285} brother Paris."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "cassandra",
+      "action": "reveal"
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "warn",
+      "target": "paris",
+      "object": null,
+      "recipient": null,
+      "location": "troy",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Before setting out on this expedition, Paris was warned by Cassandra against bringing home a wife from Greece, and she predicted that if he disregarded her injunction he would bring inevitable ruin upon the city of Troy, and destruction to the house of Priam.",
+      "normalizedStatement": "Cassandra warned Paris not to bring home a wife from Greece.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.6-333.333.6:4f0c5ff1",
+          "sourceText": "Before setting out on this expedition, Paris was warned by Cassandra against bringing home a wife from Greece, and she predicted that if he disregarded her injunction he would bring inevitable ruin upon the city of Troy, and destruction to the house of Priam."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "cassandra",
+      "action": "warn"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "travel",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": "greece",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Under the command of Paris the fleet set sail, and arrived safely in Greece.",
+      "normalizedStatement": "Paris sailed to Greece.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.7-333.333.7:f97534ad",
+          "sourceText": "Under the command of Paris the fleet set sail, and arrived safely in Greece."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "paris",
+      "action": "travel"
+    },
+    {
+      "eventId": "event-005",
+      "sourceAction": "decide",
+      "target": "menelaus",
+      "object": "helen",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Captivated by her surpassing loveliness, the Trojan prince forgot every sense of honour and duty, and resolved to rob his absent host of his beautiful wife.",
+      "normalizedStatement": "Paris resolved to rob Menelaus of Helen.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f",
+          "sourceText": "Captivated by her surpassing loveliness, the Trojan prince forgot every sense of honour and duty, and resolved to rob his absent host of his beautiful wife."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "paris",
+      "action": "decide"
+    },
+    {
+      "eventId": "event-006",
+      "sourceAction": "abduct",
+      "target": "helen",
+      "object": "treasure",
+      "recipient": null,
+      "location": "sparta",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "He accordingly collected his followers, and with their assistance stormed the royal castle, possessed himself of the rich treasures which it contained, and succeeded in carrying off its beautiful, and not altogether unwilling mistress.",
+      "normalizedStatement": "Paris carried off Helen.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f",
+          "sourceText": "He accordingly collected his followers, and with their assistance stormed the royal castle, possessed himself of the rich treasures which it contained, and succeeded in carrying off its beautiful, and not altogether unwilling mistress."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "paris",
+      "action": "abduct"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "helen",
+      "predicate": "carried_off_by",
+      "object": "paris",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f",
+          "sourceText": "He accordingly collected his followers, and with their assistance stormed the royal castle, possessed himself of the rich treasures which it contained, and succeeded in carrying off its beautiful, and not altogether unwilling mistress."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:22381:333.333.1-333.333.1:d96d00b0",
+      "gutenberg:ebooks:22381:333.333.2-333.333.2:228872b7",
+      "gutenberg:ebooks:22381:333.333.3-333.333.3:d354b666",
+      "gutenberg:ebooks:22381:333.333.4-333.333.4:d08e4985",
+      "gutenberg:ebooks:22381:333.333.5-333.333.5:b2f1ea58",
+      "gutenberg:ebooks:22381:333.333.6-333.333.6:4f0c5ff1",
+      "gutenberg:ebooks:22381:333.333.7-333.333.7:f97534ad",
+      "gutenberg:ebooks:22381:333.333.8-333.333.8:090e73af",
+      "gutenberg:ebooks:22381:333.333.9-333.333.9:79b03d0f"
+    ],
+    "claimsChecked": [
+      "prophecy",
+      "exposure",
+      "recognition",
+      "Cassandra warning",
+      "Sparta hospitality",
+      "Helen abduction"
+    ],
+    "correctionsMade": [
+      "Corrected title from broad Trojan war to Paris Abducts Helen.",
+      "Omitted a truncated extracted passage from the verified scope.",
+      "Separated Roman and Greek aliases through canonical IDs."
+    ],
+    "remainingUncertainties": []
+  }
+}

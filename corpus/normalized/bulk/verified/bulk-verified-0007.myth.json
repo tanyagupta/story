@@ -1,0 +1,550 @@
+{
+  "mythId": "bulk-verified-0007",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Agenor sends Cadmus after Europa.",
+      "Apollo redirects Cadmus to found a city.",
+      "A dragon kills Cadmus' followers.",
+      "Cadmus kills the dragon.",
+      "Athena commands Cadmus to sow the teeth.",
+      "Cadmus builds Thebes."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-berens-myths-legends-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "Cadmus Founds Thebes",
+  "mythFamilyId": "cadmus-founds-thebes",
+  "variantId": "gutenberg-berens-cadmus-thebes-verified",
+  "source": {
+    "sourceId": "gutenberg-berens-myths-legends-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09",
+      "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+      "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81",
+      "gutenberg:ebooks:22381:295.295.4-295.295.4:172a3df3",
+      "gutenberg:ebooks:22381:295.295.5-295.295.5:484f6684",
+      "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a",
+      "gutenberg:ebooks:22381:295.295.7-295.295.7:a7fd704c",
+      "gutenberg:ebooks:22381:295.295.8-295.295.8:20caac56",
+      "gutenberg:ebooks:22381:295.295.9-295.295.9:317b0fa8"
+    ]
+  },
+  "scope": {
+    "type": "complete-section",
+    "description": "Berens' Cadmus section from Europa's abduction through Cadmus and Harmonia's transformation.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09",
+      "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+      "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81",
+      "gutenberg:ebooks:22381:295.295.4-295.295.4:172a3df3",
+      "gutenberg:ebooks:22381:295.295.5-295.295.5:484f6684",
+      "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a",
+      "gutenberg:ebooks:22381:295.295.7-295.295.7:a7fd704c",
+      "gutenberg:ebooks:22381:295.295.8-295.295.8:20caac56",
+      "gutenberg:ebooks:22381:295.295.9-295.295.9:317b0fa8"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "The section heading and all consecutive body passages are included."
+  },
+  "entities": {
+    "characters": [
+      "cadmus",
+      "europa",
+      "zeus",
+      "agenor",
+      "apollo",
+      "athena",
+      "ares",
+      "harmonia",
+      "pentheus"
+    ],
+    "locations": [
+      "thebes",
+      "delphi",
+      "illyria",
+      "elysium"
+    ],
+    "objects": [
+      "dragon-teeth",
+      "necklace"
+    ],
+    "creatures": [
+      "dragon",
+      "heifer"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Cadmus",
+      "normalizedId": "cadmus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+          "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Europa",
+      "normalizedId": "europa",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+          "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Zeus",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+          "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Agenor",
+      "normalizedId": "agenor",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+          "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Apollo",
+      "normalizedId": "apollo",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81",
+          "sourceText": "Not daring to return home without her, he consulted the oracle of Apollo at Delphi; and the reply was that he must desist from his task, and take upon himself a new duty, _i.e._ that of founding a city, the site of which would be indicated to him by a heifer which had never borne the yoke, and which would lie down on the spot whereon the city was to be built.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Pallas-Athene",
+      "normalizedId": "athena",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a",
+          "sourceText": "While Cadmus stood surveying his vanquished foe Pallas-Athene appeared to him, and commanded him to sow the teeth of the dead dragon in the ground.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Ares",
+      "normalizedId": "ares",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.7-295.295.7:a7fd704c",
+          "sourceText": "Ares was furious with rage when he discovered that Cadmus had slain his dragon, and would have killed him had not Zeus interfered, and induced him to mitigate his punishment to that of servitude for the term of eight years.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Harmonia",
+      "normalizedId": "harmonia",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.7-295.295.7:a7fd704c",
+          "sourceText": "At the end of that time the god of war became reconciled to Cadmus, and, in token of his forgiveness, bestowed upon him the hand of his daughter Harmonia in marriage.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Pentheus",
+      "normalizedId": "pentheus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.9-295.295.9:317b0fa8",
+          "sourceText": "For many years the founder of Thebes reigned happily, but at length a conspiracy was formed against him, and he was deprived of his throne by his grandson Pentheus.",
+          "coreferenceNote": null
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "cadmus",
+      "sourceNames": [
+        "Cadmus"
+      ],
+      "role": "founder",
+      "reason": "Cadmus searches for Europa, kills the dragon, sows its teeth, and builds Thebes.",
+      "evidence": [
+        "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+        "gutenberg:ebooks:22381:295.295.5-295.295.5:484f6684",
+        "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a"
+      ]
+    },
+    {
+      "entityId": "ares",
+      "sourceNames": [
+        "Ares"
+      ],
+      "role": "offended god",
+      "reason": "Ares is angry because Cadmus killed his dragon.",
+      "evidence": [
+        "gutenberg:ebooks:22381:295.295.7-295.295.7:a7fd704c"
+      ]
+    },
+    {
+      "entityId": "athena",
+      "sourceNames": [
+        "Pallas-Athene"
+      ],
+      "role": "divine adviser",
+      "reason": "Athena commands Cadmus to sow the dragon's teeth.",
+      "evidence": [
+        "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "agenor",
+      "relationship": "parent_of",
+      "target": "cadmus",
+      "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+        "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "agenor",
+      "relationship": "parent_of",
+      "target": "europa",
+      "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+        "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    },
+    {
+      "source": "ares",
+      "relationship": "parent_of",
+      "target": "harmonia",
+      "sourceText": "At the end of that time the god of war became reconciled to Cadmus, and, in token of his forgiveness, bestowed upon him the hand of his daughter Harmonia in marriage.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:22381:295.295.7-295.295.7:a7fd704c",
+        "sourceText": "At the end of that time the god of war became reconciled to Cadmus, and, in token of his forgiveness, bestowed upon him the hand of his daughter Harmonia in marriage."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Agenor sends Cadmus to search for Europa. Apollo's oracle redirects Cadmus to found a city; after a dragon kills his followers, Cadmus slays it, sows its teeth at Athena's command, and builds Thebes with the surviving warriors.",
+    "openingSituation": "Europa has been abducted by Zeus, and Agenor sends Cadmus to find her.",
+    "centralConflict": "Cadmus cannot find Europa and then faces Ares' dragon after it kills his followers.",
+    "resolution": "Cadmus kills the dragon and follows Athena's command to sow its teeth.",
+    "outcome": "Cadmus builds Thebes, later loses his throne, and he and Harmonia are transformed by Zeus after death.",
+    "storyline": [
+      "Agenor sends Cadmus after Europa.",
+      "Apollo redirects Cadmus to found a city.",
+      "A dragon kills Cadmus' followers.",
+      "Cadmus kills the dragon.",
+      "Athena commands Cadmus to sow the teeth.",
+      "Cadmus builds Thebes."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+      "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:295.295.5-295.295.5:484f6684",
+      "sourceText": "Cadmus now tried his lance, and with more success, for it pierced the side of the beast, who, furious with pain, sprang at his adversary, when Cadmus, leaping aside, succeeded in fixing the point of his spear within his jaws, which final stroke put an end to the encounter.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        },
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports resolution.",
+          "field": "resolution"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a",
+      "sourceText": "These last surviving warriors made peace with each other, and it was with their assistance that Cadmus now built the famous city of Thebes.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "cadmus",
+      "predicate": "sent_to_find",
+      "object": "europa",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+          "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "send",
+      "target": "cadmus",
+      "object": "europa",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister.",
+      "normalizedStatement": "Agenor sent Cadmus to search for Europa.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+          "sourceText": "After the abduction of his daughter Europa by Zeus, Agenor, king of Phoenicia, unable to reconcile himself to her loss, despatched his son Cadmus in search of her, desiring him not to return without his sister."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "agenor",
+      "action": "send"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "consult",
+      "target": "apollo",
+      "object": null,
+      "recipient": null,
+      "location": "delphi",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Not daring to return home without her, he consulted the oracle of Apollo at Delphi; and the reply was that he must desist from his task, and take upon himself a new duty, _i.e._ that of founding a city, the site of which would be indicated to him by a heifer which had never borne the yoke, and which would lie down on the spot whereon the city was to be built.",
+      "normalizedStatement": "Cadmus consulted Apollo's oracle at Delphi.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81",
+          "sourceText": "Not daring to return home without her, he consulted the oracle of Apollo at Delphi; and the reply was that he must desist from his task, and take upon himself a new duty, _i.e._ that of founding a city, the site of which would be indicated to him by a heifer which had never borne the yoke, and which would lie down on the spot whereon the city was to be built."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "cadmus",
+      "action": "consult"
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "kill",
+      "target": "cadmus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "This spring, which was sacred to Ares, was situated in a wood, and guarded by a fierce dragon, who, at the approach of the retainers of Cadmus, suddenly pounced upon them and killed them.",
+      "normalizedStatement": "The dragon killed Cadmus' followers.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.4-295.295.4:172a3df3",
+          "sourceText": "This spring, which was sacred to Ares, was situated in a wood, and guarded by a fierce dragon, who, at the approach of the retainers of Cadmus, suddenly pounced upon them and killed them."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "dragon",
+      "action": "kill"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "kill",
+      "target": "dragon",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Cadmus now tried his lance, and with more success, for it pierced the side of the beast, who, furious with pain, sprang at his adversary, when Cadmus, leaping aside, succeeded in fixing the point of his spear within his jaws, which final stroke put an end to the encounter.",
+      "normalizedStatement": "Cadmus killed the dragon.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.5-295.295.5:484f6684",
+          "sourceText": "Cadmus now tried his lance, and with more success, for it pierced the side of the beast, who, furious with pain, sprang at his adversary, when Cadmus, leaping aside, succeeded in fixing the point of his spear within his jaws, which final stroke put an end to the encounter."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "cadmus",
+      "action": "kill"
+    },
+    {
+      "eventId": "event-005",
+      "sourceAction": "command",
+      "target": "cadmus",
+      "object": "dragon-teeth",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "While Cadmus stood surveying his vanquished foe Pallas-Athene appeared to him, and commanded him to sow the teeth of the dead dragon in the ground.",
+      "normalizedStatement": "Athena commanded Cadmus to sow the dragon's teeth.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a",
+          "sourceText": "While Cadmus stood surveying his vanquished foe Pallas-Athene appeared to him, and commanded him to sow the teeth of the dead dragon in the ground."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "athena",
+      "action": "command"
+    },
+    {
+      "eventId": "event-006",
+      "sourceAction": "build",
+      "target": null,
+      "object": "thebes",
+      "recipient": null,
+      "location": "thebes",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "These last surviving warriors made peace with each other, and it was with their assistance that Cadmus now built the famous city of Thebes.",
+      "normalizedStatement": "Cadmus built Thebes.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a",
+          "sourceText": "These last surviving warriors made peace with each other, and it was with their assistance that Cadmus now built the famous city of Thebes."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "cadmus",
+      "action": "build"
+    },
+    {
+      "eventId": "event-007",
+      "sourceAction": "transform",
+      "target": "cadmus",
+      "object": null,
+      "recipient": "harmonia",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Accompanied by his faithful wife Harmonia, he retired into Illyria, and after death they were both changed by Zeus into serpents, and transferred to Elysium.",
+      "normalizedStatement": "Zeus transformed Cadmus and Harmonia into serpents.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.9-295.295.9:317b0fa8",
+          "sourceText": "Accompanied by his faithful wife Harmonia, he retired into Illyria, and after death they were both changed by Zeus into serpents, and transferred to Elysium."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "zeus",
+      "action": "transform"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "cadmus",
+      "predicate": "founds",
+      "object": "thebes",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a",
+          "sourceText": "These last surviving warriors made peace with each other, and it was with their assistance that Cadmus now built the famous city of Thebes."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09",
+      "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+      "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81",
+      "gutenberg:ebooks:22381:295.295.4-295.295.4:172a3df3",
+      "gutenberg:ebooks:22381:295.295.5-295.295.5:484f6684",
+      "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a",
+      "gutenberg:ebooks:22381:295.295.7-295.295.7:a7fd704c",
+      "gutenberg:ebooks:22381:295.295.8-295.295.8:20caac56",
+      "gutenberg:ebooks:22381:295.295.9-295.295.9:317b0fa8"
+    ],
+    "claimsChecked": [
+      "Cadmus boundary",
+      "Europa motive",
+      "dragon episode",
+      "Athena command",
+      "Thebes outcome",
+      "later transformation"
+    ],
+    "correctionsMade": [
+      "Corrected family from europa to cadmus-founds-thebes.",
+      "Removed machine-proposed blanket evidence.",
+      "Separated Ares' anger from Cadmus' dragon combat."
+    ],
+    "remainingUncertainties": []
+  }
+}

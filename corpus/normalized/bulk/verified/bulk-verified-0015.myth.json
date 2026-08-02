@@ -1,0 +1,489 @@
+{
+  "mythId": "bulk-verified-0015",
+  "interpretation": {
+    "themes": [],
+    "storyline": [
+      "Bellerophon sees Pegasus.",
+      "Bellerophon bridles Pegasus.",
+      "Bellerophon attacks the Chimera.",
+      "Bellerophon kills the Chimera.",
+      "Iobates rewards him.",
+      "Jupiter sends a gadfly and Bellerophon falls."
+    ]
+  },
+  "variantLinks": [
+    {
+      "type": "source-variant",
+      "sourceIds": [
+        "gutenberg-baker-stories-old-greece-rome-eng"
+      ],
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "normalizationWarnings": [],
+  "semanticQuality": {
+    "passed": true,
+    "verificationLevel": "source_audited",
+    "checksPassed": [
+      "exact_source_text",
+      "entity_evidence",
+      "event_references",
+      "relationship_references",
+      "narrative_boundary",
+      "cross_field_consistency"
+    ],
+    "failedChecks": [],
+    "limitations": [
+      "Implementation source audit, not human scholarly approval."
+    ]
+  },
+  "reviewStatus": "verified_by_source_audit",
+  "title": "Bellerophon, Pegasus, and the Chimera",
+  "mythFamilyId": "bellerophon-and-pegasus",
+  "variantId": "gutenberg-baker-bellerophon-chimera-verified",
+  "source": {
+    "sourceId": "gutenberg-baker-stories-old-greece-rome-eng",
+    "passages": [
+      "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf",
+      "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+      "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1",
+      "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84",
+      "gutenberg:ebooks:45489:151.151.5-151.151.5:afe64077",
+      "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
+    ]
+  },
+  "scope": {
+    "type": "complete-section",
+    "description": "Baker's Bellerophon section covering Pegasus, the Chimera, Iobates' response, Bellerophon's later pride, and fall.",
+    "includedPassages": [
+      "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf",
+      "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+      "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1",
+      "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84",
+      "gutenberg:ebooks:45489:151.151.5-151.151.5:afe64077",
+      "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
+    ],
+    "omittedPassages": [],
+    "boundaryRationale": "All consecutive body passages in the extracted section are included."
+  },
+  "entities": {
+    "characters": [
+      "bellerophon",
+      "pegasus",
+      "chimera",
+      "iobates",
+      "athena",
+      "zeus",
+      "philonoë"
+    ],
+    "locations": [
+      "lycia",
+      "mount-helicon",
+      "mount-olympus"
+    ],
+    "objects": [
+      "golden-bridle",
+      "sword"
+    ],
+    "creatures": [
+      "pegasus",
+      "chimera",
+      "gadfly"
+    ]
+  },
+  "entityMappings": [
+    {
+      "sourceName": "Bellerophon",
+      "normalizedId": "bellerophon",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf",
+          "sourceText": "Bellerophon meantime had hidden himself in the bushes, and now he watched the beautiful creature as it folded its gorgeous wings and bent its arching neck to drink the clear water.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Pegasus",
+      "normalizedId": "pegasus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf",
+          "sourceText": "Then Pegasus daintily cropped a few clover blossoms, shook his long white mane, and began to run up and down over the meadows, capering madly like a colt just set free in the pasture.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Chimæra",
+      "normalizedId": "chimera",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1",
+          "sourceText": "Happy to find the conflict over, the young hero turned the head of his white-winged steed toward the mountain-region where the dread Chimæra dwelt.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Iobates",
+      "normalizedId": "iobates",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.5-151.151.5:afe64077",
+          "sourceText": "Then Bellerophon sped back to the court of Iobates and announced that the Chimæra was dead.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Jupiter",
+      "normalizedId": "zeus",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476",
+          "sourceText": "Angered at this insolence and daring, Jupiter sent an enormous gadfly which stung Pegasus so cruelly that he gave a sudden leap forward, and this unexpected movement threw his too-confident rider from his back.",
+          "coreferenceNote": null
+        }
+      ]
+    },
+    {
+      "sourceName": "Philonoë",
+      "normalizedId": "philonoë",
+      "normalizationStatus": "verified_by_source_audit",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.5-151.151.5:afe64077",
+          "sourceText": "Bellerophon, however, never came to any harm, for he had always the sure help of Pegasus, and he returned safe from each expedition with trophies to lay at the feet of his beloved princess, Philonoë.",
+          "coreferenceNote": "Unicode source form is preserved; normalized ID uses ASCII transliteration."
+        }
+      ]
+    }
+  ],
+  "mainCharacters": [
+    {
+      "entityId": "bellerophon",
+      "sourceNames": [
+        "Bellerophon"
+      ],
+      "role": "hero",
+      "reason": "He captures Pegasus, kills the Chimera, and later falls through pride.",
+      "evidence": [
+        "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+        "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84",
+        "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
+      ]
+    },
+    {
+      "entityId": "pegasus",
+      "sourceNames": [
+        "Pegasus"
+      ],
+      "role": "winged helper",
+      "reason": "Pegasus bears Bellerophon against the Chimera and later throws him after Jupiter sends the gadfly.",
+      "evidence": [
+        "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84",
+        "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
+      ]
+    },
+    {
+      "entityId": "chimera",
+      "sourceNames": [
+        "Chimæra"
+      ],
+      "role": "monster",
+      "reason": "The Chimera devastates the land and is killed by Bellerophon.",
+      "evidence": [
+        "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1",
+        "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iobates",
+      "relationship": "gives_spouse",
+      "target": "philonoë",
+      "sourceText": "At length the king was convinced that Bellerophon was under the special protection of the gods, and, hoping to win their favor, he gave the young hero his daughter in marriage, and appointed him his successor to the throne.",
+      "evidence": {
+        "passageId": "gutenberg:ebooks:45489:151.151.5-151.151.5:afe64077",
+        "sourceText": "At length the king was convinced that Bellerophon was under the special protection of the gods, and, hoping to win their favor, he gave the young hero his daughter in marriage, and appointed him his successor to the throne."
+      },
+      "reviewStatus": "verified_by_source_audit"
+    }
+  ],
+  "narrative": {
+    "synopsis": "Bellerophon catches Pegasus with Minerva's bridle, rides him to the Chimera's lair, and kills the monster. Iobates rewards him, but after later victories Bellerophon tries to reach Olympus and falls when Jupiter sends a gadfly against Pegasus.",
+    "openingSituation": "Bellerophon waits near Pirene and sees Pegasus descend to drink.",
+    "centralConflict": "Bellerophon must master Pegasus and face the fire-breathing Chimera.",
+    "resolution": "Bellerophon kills the Chimera while Pegasus carries him out of danger.",
+    "outcome": "Iobates honors Bellerophon, but Bellerophon later falls after trying to reach Olympus.",
+    "storyline": [
+      "Bellerophon sees Pegasus.",
+      "Bellerophon bridles Pegasus.",
+      "Bellerophon attacks the Chimera.",
+      "Bellerophon kills the Chimera.",
+      "Iobates rewards him.",
+      "Jupiter sends a gadfly and Bellerophon falls."
+    ]
+  },
+  "evidenceSummary": [
+    {
+      "passageId": "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf",
+      "sourceText": "After rolling luxuriously in the thick grass, and racing like the wind across the meadow, Pegasus grew tired of his play, and folding his snow-white wings, trotted quietly up to the fountain to take one more drink before flying back to his home on Mount Helicon.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports openingSituation.",
+          "field": "openingSituation"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1",
+      "sourceText": "It was a wild and rocky part of the country that Bellerophon looked down upon, and he saw all around him the evidence of ruin wrought by the fire-breathing monster.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports centralConflict.",
+          "field": "centralConflict"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84",
+      "sourceText": "Then like the swift rush of air, Bellerophon swooped down upon the Chimæra and cut off its three horrid heads with his sword; but even then the danger was not over, for the headless creature sprang into the air, and clutched wildly for its enemy with its long claws.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports resolution.",
+          "field": "resolution"
+        }
+      ]
+    },
+    {
+      "passageId": "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476",
+      "sourceText": "Angered at this insolence and daring, Jupiter sent an enormous gadfly which stung Pegasus so cruelly that he gave a sudden leap forward, and this unexpected movement threw his too-confident rider from his back.",
+      "supports": [
+        {
+          "evidenceType": "direct",
+          "rationale": "The quoted source text directly supports outcome.",
+          "field": "outcome"
+        }
+      ]
+    }
+  ],
+  "initialState": [
+    {
+      "subject": "bellerophon",
+      "predicate": "has",
+      "object": "golden-bridle",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+          "sourceText": "Then Bellerophon crept noiselessly out of his hiding place, and while the unsuspicious Pegasus was drinking the cool water and his eyes were no longer watchful, the youth boldly sprang upon his back and took firm hold of the thick mane, being careful meantime not to let Minerva's golden bridle slip from his fingers."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventId": "event-001",
+      "sourceAction": "mount",
+      "target": "pegasus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Then Bellerophon crept noiselessly out of his hiding place, and while the unsuspicious Pegasus was drinking the cool water and his eyes were no longer watchful, the youth boldly sprang upon his back and took firm hold of the thick mane, being careful meantime not to let Minerva's golden bridle slip from his fingers.",
+      "normalizedStatement": "Bellerophon sprang onto Pegasus' back.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+          "sourceText": "Then Bellerophon crept noiselessly out of his hiding place, and while the unsuspicious Pegasus was drinking the cool water and his eyes were no longer watchful, the youth boldly sprang upon his back and took firm hold of the thick mane, being careful meantime not to let Minerva's golden bridle slip from his fingers."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "bellerophon",
+      "action": "mount"
+    },
+    {
+      "eventId": "event-002",
+      "sourceAction": "bind",
+      "target": "pegasus",
+      "object": "golden-bridle",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "All at once Bellerophon saw his chance to slip the golden bridle between the maddened horse's teeth, and suddenly Pegasus became as gentle and tractable as if he had always obeyed the will of a master.",
+      "normalizedStatement": "Bellerophon slipped the golden bridle between Pegasus' teeth.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+          "sourceText": "All at once Bellerophon saw his chance to slip the golden bridle between the maddened horse's teeth, and suddenly Pegasus became as gentle and tractable as if he had always obeyed the will of a master."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "bellerophon",
+      "action": "bind"
+    },
+    {
+      "eventId": "event-003",
+      "sourceAction": "travel",
+      "target": "chimera",
+      "object": null,
+      "recipient": null,
+      "location": "lycia",
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Happy to find the conflict over, the young hero turned the head of his white-winged steed toward the mountain-region where the dread Chimæra dwelt.",
+      "normalizedStatement": "Bellerophon turned Pegasus toward the Chimera's mountain region.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1",
+          "sourceText": "Happy to find the conflict over, the young hero turned the head of his white-winged steed toward the mountain-region where the dread Chimæra dwelt."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "bellerophon",
+      "action": "travel"
+    },
+    {
+      "eventId": "event-004",
+      "sourceAction": "kill",
+      "target": "chimera",
+      "object": "sword",
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Then like the swift rush of air, Bellerophon swooped down upon the Chimæra and cut off its three horrid heads with his sword; but even then the danger was not over, for the headless creature sprang into the air, and clutched wildly for its enemy with its long claws.",
+      "normalizedStatement": "Bellerophon cut off the Chimera's heads.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84",
+          "sourceText": "Then like the swift rush of air, Bellerophon swooped down upon the Chimæra and cut off its three horrid heads with his sword; but even then the danger was not over, for the headless creature sprang into the air, and clutched wildly for its enemy with its long claws."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "bellerophon",
+      "action": "kill"
+    },
+    {
+      "eventId": "event-005",
+      "sourceAction": "give",
+      "target": "philonoë",
+      "object": null,
+      "recipient": "bellerophon",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "At length the king was convinced that Bellerophon was under the special protection of the gods, and, hoping to win their favor, he gave the young hero his daughter in marriage, and appointed him his successor to the throne.",
+      "normalizedStatement": "Iobates gave Philonoë to Bellerophon in marriage.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.5-151.151.5:afe64077",
+          "sourceText": "At length the king was convinced that Bellerophon was under the special protection of the gods, and, hoping to win their favor, he gave the young hero his daughter in marriage, and appointed him his successor to the throne."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "iobates",
+      "action": "give"
+    },
+    {
+      "eventId": "event-006",
+      "sourceAction": "send",
+      "target": "gadfly",
+      "object": null,
+      "recipient": "pegasus",
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Angered at this insolence and daring, Jupiter sent an enormous gadfly which stung Pegasus so cruelly that he gave a sudden leap forward, and this unexpected movement threw his too-confident rider from his back.",
+      "normalizedStatement": "Jupiter sent a gadfly against Pegasus.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476",
+          "sourceText": "Angered at this insolence and daring, Jupiter sent an enormous gadfly which stung Pegasus so cruelly that he gave a sudden leap forward, and this unexpected movement threw his too-confident rider from his back."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "zeus",
+      "action": "send"
+    },
+    {
+      "eventId": "event-007",
+      "sourceAction": "throw",
+      "target": "bellerophon",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "causedBy": [],
+      "causes": [],
+      "reviewStatus": "verified_by_source_audit",
+      "sourceText": "Angered at this insolence and daring, Jupiter sent an enormous gadfly which stung Pegasus so cruelly that he gave a sudden leap forward, and this unexpected movement threw his too-confident rider from his back.",
+      "normalizedStatement": "Pegasus threw Bellerophon from his back.",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476",
+          "sourceText": "Angered at this insolence and daring, Jupiter sent an enormous gadfly which stung Pegasus so cruelly that he gave a sudden leap forward, and this unexpected movement threw his too-confident rider from his back."
+        }
+      ],
+      "confidence": 0.9,
+      "actor": "pegasus",
+      "action": "throw"
+    }
+  ],
+  "finalState": [
+    {
+      "subject": "bellerophon",
+      "predicate": "wanders_after",
+      "object": "fall",
+      "evidence": [
+        {
+          "passageId": "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476",
+          "sourceText": "Ever afterwards he wandered through the fair places of the earth, lame and blind and lonely, lamenting the foolish pride that had led him to risk the anger of the gods."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "verified_by_source_audit",
+    "method": "Codex source-grounded implementation review",
+    "passagesRead": [
+      "gutenberg:ebooks:45489:151.151.1-151.151.1:56765baf",
+      "gutenberg:ebooks:45489:151.151.2-151.151.2:1788f59f",
+      "gutenberg:ebooks:45489:151.151.3-151.151.3:31ad98e1",
+      "gutenberg:ebooks:45489:151.151.4-151.151.4:07c25e84",
+      "gutenberg:ebooks:45489:151.151.5-151.151.5:afe64077",
+      "gutenberg:ebooks:45489:151.151.6-151.151.6:119d9476"
+    ],
+    "claimsChecked": [
+      "Pegasus capture",
+      "Chimera location",
+      "Chimera death",
+      "Iobates reward",
+      "Jupiter gadfly",
+      "Bellerophon fall"
+    ],
+    "correctionsMade": [
+      "Corrected machine-proposed evidence boundaries.",
+      "Kept Pegasus as a creature and character participant.",
+      "Retained the fall as source-supported aftermath."
+    ],
+    "remainingUncertainties": []
+  }
+}

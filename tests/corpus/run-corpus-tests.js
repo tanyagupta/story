@@ -479,12 +479,13 @@ test("bulk inventory meets candidate and production targets", () => {
   const validation = readJson(path.join(root, "corpus/review/bulk-validation-report.json"));
   assert.strictEqual(validation.valid, true);
   assert.ok(summary.validNarrativeCandidates >= 100);
-  assert.strictEqual(summary.fullyNormalizedRecords, summary.narrativeCandidates);
+  assert.strictEqual(summary.narrativeCandidates, 291);
+  assert.strictEqual(summary.fullyNormalizedRecords, 278);
   assert.strictEqual(summary.approvedRecords, 0);
   assert.strictEqual(summary.humanApprovedRecords, 0);
-  assert.strictEqual(summary.verifiedBySourceAudit, 6);
-  assert.strictEqual(summary.machineProposedRecords, summary.narrativeCandidates);
-  assert.ok(summary.recordsAwaitingReview > 0);
+  assert.strictEqual(summary.verifiedBySourceAudit, 15);
+  assert.strictEqual(summary.machineProposedRecords, 278);
+  assert.strictEqual(summary.recordsAwaitingReview, 278);
   assert.ok(inventory.entries.some((entry) => entry.candidateType === "non_story_material"));
   assert.ok(inventory.entries.some((entry) => entry.candidateType === "biographical_material"));
   assert.ok(inventory.entries.every((entry) => entry.semanticQuality));
@@ -516,7 +517,7 @@ test("bulk semantic gates prevent placeholder approvals", () => {
   const proposed = myths.filter((myth) => myth.reviewStatus === "awaiting_review");
   const verified = myths.filter((myth) => myth.reviewStatus === "verified_by_source_audit");
   assert.ok(proposed.length >= 100);
-  assert.strictEqual(verified.length, 6);
+  assert.strictEqual(verified.length, 15);
   assert.strictEqual(myths.filter((myth) => myth.reviewStatus === "approved").length, 0);
   verified.forEach((myth) => {
     assert.ok(myth.entities.characters.length > 0);
@@ -544,10 +545,11 @@ test("bulk non-story and weak narrative candidates are not approved", () => {
   const rejectedCatalog = readJson(path.join(root, "corpus/catalog/rejected-candidates.json"));
   const awaiting = readJson(path.join(root, "corpus/catalog/myths-awaiting-review.json"));
   assert.strictEqual(approvedCatalog.entries.length, 0);
-  assert.strictEqual(verifiedCatalog.entries.length, 6);
+  assert.strictEqual(verifiedCatalog.entries.length, 15);
   assert.ok(verifiedCatalog.entries.every((entry) => entry.reviewStatus === "verified_by_source_audit"));
   assert.ok(verifiedCatalog.entries.every((entry) => entry.file.startsWith("corpus/normalized/bulk/verified/") && fs.existsSync(path.join(root, entry.file))));
   assert.ok(proposedCatalog.entries.every((entry) => entry.file.startsWith("corpus/normalized/bulk/proposed/") && fs.existsSync(path.join(root, entry.file))));
+  assert.ok(verifiedCatalog.entries.every((entry) => !proposedCatalog.entries.some((proposed) => proposed.mythId === entry.mythId)));
   assert.ok(!approvedCatalog.entries.some((entry) => entry.title === "Pindar."));
   assert.ok(rejectedCatalog.entries.some((entry) => entry.title === "Pindar." && entry.processingStatus === "rejected-non-story"));
   assert.ok(awaiting.entries.length > 0);
@@ -560,10 +562,20 @@ test("bulk semantic report and review workflow are populated", () => {
   const structureCheck = readJson(path.join(root, "corpus/review/automated-structure-check.json"));
   const verification = readJson(path.join(root, "corpus/review/codex-source-verification.json"));
   const audit = readJson(path.join(root, "corpus/review/source-text-audit-report.json"));
+  const progress = readJson(path.join(root, "corpus/review/verification-progress.json"));
   const sampleReview = fs.readdirSync(path.join(root, "corpus/review/bulk")).find((file) => file.endsWith(".review.json"));
   const review = readJson(path.join(root, "corpus/review/bulk", sampleReview));
   assert.strictEqual(semantic.approvedRecords, 0);
-  assert.strictEqual(semantic.verifiedBySourceAudit, 6);
+  assert.strictEqual(semantic.verifiedBySourceAudit, 15);
+  assert.strictEqual(semantic.humanApprovedRecords, 0);
+  assert.strictEqual(semantic.awaitingReview, 278);
+  assert.strictEqual(progress.totalProposedBeforeBatch, 291);
+  assert.strictEqual(progress.existingVerifiedBeforeBatch, 6);
+  assert.strictEqual(progress.selectedForReview, 20);
+  assert.strictEqual(progress.verifiedThisBatch, 9);
+  assert.strictEqual(progress.ambiguousThisBatch, 4);
+  assert.strictEqual(progress.rejectedThisBatch, 0);
+  assert.strictEqual(progress.totalVerifiedAfterBatch, 15);
   assert.ok(semantic.awaitingReview > 0);
   assert.ok(Object.keys(semantic.failedQualityGates).length > 0);
   assert.strictEqual(structureCheck.reviewType, "automated-structure-check");
@@ -583,10 +595,53 @@ test("bulk semantic report and review workflow are populated", () => {
     "relationshipFailures",
     "statusConsistencyFailures",
     "misleadingScoreFailures",
+    "unresolvedUncertaintyFailures",
     "duplicateOutputFailures"
   ].forEach((field) => assert.strictEqual(audit[field].length, 0, field));
   assert.ok(review.reviewType);
   assert.ok(review.semanticQuality);
+});
+
+test("verification batch 01 ranking, selection, and outcomes are deterministic", () => {
+  runBulkSources();
+  const priority = readJson(path.join(root, "corpus/review/verification-priority.json"));
+  const selection = readJson(path.join(root, "corpus/review/verification-batch-01.json"));
+  const results = readJson(path.join(root, "corpus/review/verification-batch-01-results.json"));
+  assert.strictEqual(priority.totalProposed, 291);
+  assert.strictEqual(priority.generatedAt, "1970-01-01T00:00:00.000Z");
+  assert.strictEqual(selection.selectedCount, 20);
+  assert.strictEqual(selection.selectedRecords.length, 20);
+  assert.strictEqual(results.reviewedCount, 20);
+  assert.strictEqual(results.reviewedRecords.length, 20);
+  const validStatuses = new Set(["awaiting_review", "verified_by_source_audit", "ambiguous", "rejected_non_story"]);
+  assert.ok(results.reviewedRecords.every((record) => validStatuses.has(record.finalStatus)));
+  assert.strictEqual(results.reviewedRecords.filter((record) => record.finalStatus === "verified_by_source_audit").length, 9);
+  assert.strictEqual(results.reviewedRecords.filter((record) => record.finalStatus === "awaiting_review").length, 7);
+  assert.strictEqual(results.reviewedRecords.filter((record) => record.finalStatus === "ambiguous").length, 4);
+  assert.strictEqual(results.manualInspections.length, 5);
+  assert.ok(results.newlyVerifiedRecords.every((record) => record.file.startsWith("corpus/normalized/bulk/verified/") && fs.existsSync(path.join(root, record.file))));
+});
+
+test("verification batch 01 reconciles catalogs and removes promoted proposed files", () => {
+  runBulkSources();
+  const results = readJson(path.join(root, "corpus/review/verification-batch-01-results.json"));
+  const verifiedCatalog = readJson(path.join(root, "corpus/catalog/verified-myths.json"));
+  const proposedCatalog = readJson(path.join(root, "corpus/catalog/proposed-myths.json"));
+  const approvedCatalog = readJson(path.join(root, "corpus/catalog/approved-myths.json"));
+  const verifiedIds = new Set(verifiedCatalog.entries.map((entry) => entry.mythId));
+  const proposedIds = new Set(proposedCatalog.entries.map((entry) => entry.mythId));
+  assert.strictEqual(approvedCatalog.entries.length, 0);
+  results.newlyVerifiedRecords.forEach((record) => {
+    assert.ok(verifiedIds.has(record.mythId));
+    assert.ok(!proposedIds.has(record.mythId));
+    assert.ok(!fs.existsSync(path.join(root, `corpus/normalized/bulk/proposed/${record.mythId}.myth.json`)));
+  });
+  results.reviewedRecords
+    .filter((record) => record.finalStatus === "ambiguous")
+    .forEach((record) => assert.ok(!proposedIds.has(record.mythId)));
+  results.reviewedRecords
+    .filter((record) => record.finalStatus === "awaiting_review")
+    .forEach((record) => assert.ok(proposedIds.has(record.mythId)));
 });
 
 test("bulk runner removes stale generated normalized files", () => {
@@ -611,7 +666,11 @@ test("bulk semantic reports are portable and deterministic", () => {
     "corpus/catalog/rejected-candidates.json",
     "corpus/review/automated-structure-check.json",
     "corpus/review/codex-source-verification.json",
-    "corpus/review/source-text-audit-report.json"
+    "corpus/review/source-text-audit-report.json",
+    "corpus/review/verification-priority.json",
+    "corpus/review/verification-batch-01.json",
+    "corpus/review/verification-batch-01-results.json",
+    "corpus/review/verification-progress.json"
   ].map((file) => path.join(root, file));
   const before = files.map(hashFile);
   runBulkSources();
