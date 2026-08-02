@@ -1,12 +1,12 @@
 {
   "id": "production-myth-0033",
-  "title": "Pandora Opens the Jar",
+  "title": "Pandora Opens the Box",
   "mythFamily": "Prometheus and Early Mortals",
   "status": "ai_constructed_production",
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation of Pandora Opens the Jar; not a source edition.",
+    "constructionPolicy": "Source-aligned editorial adaptation of Pandora Opens the Box based only on the linked source-audited record; not a source edition.",
     "basedOnSourceAuditedReference": true
   },
   "referenceLinks": {
@@ -15,128 +15,106 @@
     ]
   },
   "scope": {
-    "beginning": "Zeus prepares a beautiful countergift after Prometheus gives fire to humans.",
-    "ending": "Pandora opens the jar, troubles fly into human life, and Hope remains within.",
-    "boundaryRationale": "The episode begins with zeus prepares a beautiful countergift after prometheus gives fire to humans and closes at pandora opens the jar, troubles fly into human life, and hope remains within, leaving surrounding cycle material outside this production unit."
+    "beginning": "The episode begins when Hermes leaves a heavy box with Pandora and Epimetheus.",
+    "ending": "It ends after Pandora opens the box a second time and Hope heals the wounds caused by the escaped evils.",
+    "boundaryRationale": "The linked Guerber record is a box-version household episode; Pandora's creation, Prometheus' theft, and a Hesiodic jar are outside this source boundary."
   },
   "variant": {
-    "chosenVersion": "Hesiodic Pandora jar version; “box” is treated as later wording.",
-    "materialAlternatives": []
+    "chosenVersion": "Guerber's box version: Hermes leaves the box, Pandora opens it, evils escape, and Hope is later released.",
+    "materialAlternatives": [
+      "The Hesiodic jar version and the creation of Pandora as Zeus' retaliation are excluded."
+    ]
   },
   "characters": [
     {
       "id": "pandora",
       "name": "Pandora",
-      "role": "first crafted woman",
-      "goal": "enter Epimetheus’ house with dangerous curiosity"
+      "role": "curious keeper of the box",
+      "goal": "look inside the mysterious box"
     },
     {
       "id": "epimetheus",
       "name": "Epimetheus",
-      "role": "recipient of Pandora",
-      "goal": "ignore Prometheus’ warning"
+      "role": "Pandora's companion in the household",
+      "goal": "respond to the evils released into the room"
     },
     {
-      "id": "zeus",
-      "name": "Zeus",
-      "role": "planner of retaliation",
-      "goal": "send a beautiful punishment"
+      "id": "hermes",
+      "name": "Hermes",
+      "role": "messenger who leaves the box",
+      "goal": "deposit the box and depart"
     },
     {
-      "id": "prometheus",
-      "name": "Prometheus",
-      "role": "warning brother",
-      "goal": "recognize Zeus’ danger"
+      "id": "evils",
+      "name": "Evils",
+      "role": "afflictions confined in the box",
+      "goal": "escape when the lid is raised"
     },
     {
       "id": "hope",
       "name": "Hope",
-      "role": "remaining presence",
-      "goal": "stay inside the jar"
-    },
-    {
-      "id": "gods",
-      "name": "Gods",
-      "role": "makers of Pandora",
-      "goal": "complete Zeus’ retaliatory gift"
-    },
-    {
-      "id": "humans",
-      "name": "Humans",
-      "role": "mortal recipients of suffering",
-      "goal": "endure the changed world"
+      "role": "kindly spirit concealed among the evils",
+      "goal": "heal wounds and comfort the afflicted"
     }
   ],
   "relationships": [
     {
-      "source": "zeus",
-      "relationship": "punishes",
-      "target": "humans",
-      "rationale": "Zeus punishes humans during Pandora Opens the Jar."
-    },
-    {
-      "source": "prometheus",
-      "relationship": "sibling-of",
-      "target": "epimetheus",
-      "rationale": "Prometheus sibling of Epimetheus during Pandora Opens the Jar."
-    },
-    {
-      "source": "epimetheus",
-      "relationship": "spouse-of",
+      "source": "hope",
+      "relationship": "protects",
       "target": "pandora",
-      "rationale": "Epimetheus spouse of Pandora during Pandora Opens the Jar."
+      "rationale": "Hope relieves Pandora’s suffering after the evils escape."
     },
     {
-      "source": "zeus",
-      "relationship": "punishes",
-      "target": "humans",
-      "rationale": "Zeus punishes humans through the gift of Pandora."
+      "source": "hope",
+      "relationship": "protects",
+      "target": "epimetheus",
+      "rationale": "Hope relieves Epimetheus’s suffering after the evils escape."
     }
   ],
   "narrative": {
-    "synopsis": "Pandora is not a random curious figure but Zeus’ answer to Prometheus’ theft. Her arrival in Epimetheus’ house brings the jar whose opening explains the spread of human suffering and the strange survival of hope.",
-    "openingSituation": "Zeus seeks a punishment that mortals will welcome rather than fear.",
-    "centralConflict": "The danger arrives disguised as a desirable gift, and Epimetheus fails to heed warning.",
-    "resolution": "The jar is opened and human life changes irreversibly.",
-    "outcome": "Suffering spreads through the world, but Hope remains as an ambiguous remnant."
+    "synopsis": "Hermes leaves a mysterious box with Pandora and Epimetheus. Pandora raises the lid, releasing evils that sting them; when she opens it again, Hope emerges, heals their wounds, and goes out to aid other sufferers.",
+    "openingSituation": "Pandora and Epimetheus are entrusted with a heavy box whose contents are unknown.",
+    "centralConflict": "Pandora's curiosity leads her to raise the lid and release the evils confined inside.",
+    "resolution": "Pandora opens the box a second time and releases Hope.",
+    "outcome": "Evils enter the world, but Hope follows them to heal and encourage humanity."
   },
   "events": [
     {
       "sequence": 1,
-      "actor": "zeus",
-      "action": "commission",
+      "actor": "hermes",
+      "action": "place",
       "target": "pandora",
-      "consequence": "Zeus orders Pandora made as retaliation.",
+      "consequence": "Hermes leaves the heavy box with Pandora and Epimetheus.",
       "factIds": [
         "fact-01"
       ]
     },
     {
       "sequence": 2,
-      "actor": "gods",
-      "action": "adorn",
-      "target": "pandora",
-      "consequence": "The gods give her compelling gifts.",
+      "actor": "pandora",
+      "action": "open",
+      "target": "evils",
+      "consequence": "Pandora raises the lid for a brief look.",
       "factIds": [
         "fact-02"
       ]
     },
     {
       "sequence": 3,
-      "actor": "prometheus",
-      "action": "warn",
-      "target": "epimetheus",
-      "consequence": "Prometheus distrusts Zeus’ gift.",
+      "actor": "evils",
+      "action": "escape",
+      "target": "pandora",
+      "consequence": "Diseases, sorrows, vices, and crimes fly out of the box.",
       "factIds": [
         "fact-03"
       ]
     },
     {
       "sequence": 4,
-      "actor": "epimetheus",
-      "action": "receive",
-      "target": "pandora",
-      "consequence": "Epimetheus accepts Pandora.",
+      "actor": "evils",
+      "action": "sting",
+      "target": "epimetheus",
+      "consequence": "The escaped creatures wound Pandora and Epimetheus.",
       "factIds": [
         "fact-04"
       ]
@@ -144,9 +122,9 @@
     {
       "sequence": 5,
       "actor": "pandora",
-      "action": "open",
+      "action": "open-again",
       "target": "hope",
-      "consequence": "Pandora opens the jar.",
+      "consequence": "Pandora opens the box a second time and Hope emerges.",
       "factIds": [
         "fact-05"
       ]
@@ -154,35 +132,36 @@
     {
       "sequence": 6,
       "actor": "hope",
-      "action": "remain",
+      "action": "heal",
       "target": "pandora",
-      "consequence": "Hope stays inside after troubles escape.",
+      "consequence": "Hope heals Pandora and Epimetheus, then goes to aid others.",
       "factIds": [
         "fact-06"
       ]
     }
   ],
   "locations": [
-    "Epimetheus’ house",
-    "early mortal world"
+    "Pandora and Epimetheus' home",
+    "mortal world"
   ],
   "themes": [
     "curiosity",
-    "divine retaliation",
+    "human suffering",
     "hope"
   ],
   "adaptation": {
     "recommendedSceneCount": 6,
     "visualBeats": [
-      "Zeus seeks a punishment that mortals will welcome rather than fear.",
-      "The danger arrives disguised as a desirable gift, and Epimetheus fails to heed warning.",
-      "The jar is opened and human life changes irreversibly."
+      "Hermes sets the unexplained box in the household and leaves.",
+      "The lifted lid releases a swarm of winged evils.",
+      "Hope emerges on white wings and heals the wounds left behind."
     ],
     "sensitiveContent": [
-      "mythic violence or distress"
+      "stinging creatures",
+      "human suffering"
     ],
     "productionNotes": [
-      "Show Pandora as deliberately crafted by the gods, then shift to the quiet dread of the jar."
+      "Use a box, not a jar, and omit Pandora's divine manufacture and Prometheus' warning because they are not in the linked record."
     ]
   }
 }
