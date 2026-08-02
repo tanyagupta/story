@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation of Demeter Searches the Earth; not a source edition.",
+    "constructionPolicy": "Source-aligned editorial adaptation of Demeter Searches the Earth based only on the linked source-audited record; not a source edition.",
     "basedOnSourceAuditedReference": true
   },
   "referenceLinks": {
@@ -15,44 +15,34 @@
     ]
   },
   "scope": {
-    "beginning": "The episode begins after Persephone vanishes from the meadow.",
-    "ending": "It ends when Demeter learns from Helios that Hades took Persephone with Zeus’ consent.",
-    "boundaryRationale": "The episode begins with the episode begins after persephone vanishes from the meadow and closes at it ends when demeter learns from helios that hades took persephone with zeus’ consent, leaving surrounding cycle material outside this production unit."
+    "beginning": "The episode begins when Hades seizes Persephone and drives toward the underworld before Demeter can intervene.",
+    "ending": "It ends when Demeter discovers Persephone's girdle beside the River Cyane, the first material trace found during her search.",
+    "boundaryRationale": "This production unit adapts only the abduction and early search passages in the linked Baker record; the pomegranate and final compromise are left for a separate episode."
   },
   "variant": {
-    "chosenVersion": "Homeric Hymn to Demeter search sequence, stopping before Eleusis and the final compromise.",
-    "materialAlternatives": []
+    "chosenVersion": "Baker's Ceres-and-Proserpina version, using the River Cyane and the lost girdle rather than the Hecate-Helios search sequence.",
+    "materialAlternatives": [
+      "The Homeric Hymn sequence involving Hecate, Helios, and Zeus' prior consent is excluded."
+    ]
   },
   "characters": [
     {
       "id": "demeter",
       "name": "Demeter",
-      "role": "grieving mother",
-      "goal": "find Persephone"
+      "role": "mother searching for Persephone",
+      "goal": "find her missing daughter"
     },
     {
       "id": "persephone",
       "name": "Persephone",
-      "role": "missing daughter",
-      "goal": "be recovered from the underworld"
-    },
-    {
-      "id": "hecate",
-      "name": "Hecate",
-      "role": "torch-bearing witness",
-      "goal": "join the search"
-    },
-    {
-      "id": "helios",
-      "name": "Helios",
-      "role": "all-seeing witness",
-      "goal": "reveal what happened"
+      "role": "abducted daughter",
+      "goal": "survive Hades' seizure"
     },
     {
       "id": "hades",
       "name": "Hades",
-      "role": "abductor",
-      "goal": "hold Persephone below"
+      "role": "abductor driving toward the underworld",
+      "goal": "reach Hades before Demeter arrives"
     }
   ],
   "relationships": [
@@ -60,71 +50,59 @@
       "source": "demeter",
       "relationship": "parent-of",
       "target": "persephone",
-      "rationale": "Demeter parent of Persephone during Demeter Searches the Earth."
+      "rationale": "The linked source identifies Demeter as Persephone's mother."
     },
     {
       "source": "hades",
       "relationship": "captor-of",
       "target": "persephone",
-      "rationale": "Hades captor of Persephone during Demeter Searches the Earth."
-    },
-    {
-      "source": "hecate",
-      "relationship": "ally-of",
-      "target": "demeter",
-      "rationale": "Hecate ally of Demeter during Demeter Searches the Earth."
-    },
-    {
-      "source": "helios",
-      "relationship": "ally-of",
-      "target": "demeter",
-      "rationale": "Helios ally of Demeter during Demeter Searches the Earth."
+      "rationale": "Hades seizes Persephone and drives toward the underworld."
     }
   ],
   "narrative": {
-    "synopsis": "Demeter’s first response to Persephone’s disappearance is relentless search. Hecate can confirm the cry, but Helios finally names Hades and Zeus, turning grief into divine accusation.",
-    "openingSituation": "Persephone has vanished, leaving Demeter without a body, witness, or explanation.",
-    "centralConflict": "A mother goddess cannot recover her daughter until she learns who crossed the boundary between worlds.",
-    "resolution": "Helios tells Demeter that Hades took Persephone with Zeus’ approval.",
-    "outcome": "Demeter’s private grief becomes a crisis aimed at the Olympian order."
+    "synopsis": "Hades seizes Persephone and drives away before her cries can bring Demeter. Unable to learn what happened, Demeter begins a desperate search and eventually finds Persephone's girdle beside the River Cyane.",
+    "openingSituation": "Persephone is seized and carried away while Demeter is absent.",
+    "centralConflict": "Demeter searches without knowing whether her daughter is alive or where she has been taken.",
+    "resolution": "At the River Cyane, Demeter discovers the girdle Persephone dropped during the flight.",
+    "outcome": "Demeter gains her first concrete trace of Persephone, but the search is not yet resolved."
   },
   "events": [
     {
       "sequence": 1,
-      "actor": "persephone",
-      "action": "vanish",
-      "target": "demeter",
-      "consequence": "The daughter disappears from the meadow.",
+      "actor": "hades",
+      "action": "seize",
+      "target": "persephone",
+      "consequence": "Hades takes Persephone in his arms.",
       "factIds": [
         "fact-01"
       ]
     },
     {
       "sequence": 2,
-      "actor": "demeter",
-      "action": "search",
+      "actor": "hades",
+      "action": "drive-away",
       "target": "persephone",
-      "consequence": "Demeter begins wandering with torches.",
+      "consequence": "He urges the chariot toward Hades before Demeter can rescue her.",
       "factIds": [
         "fact-02"
       ]
     },
     {
       "sequence": 3,
-      "actor": "hecate",
-      "action": "hear",
+      "actor": "demeter",
+      "action": "search",
       "target": "persephone",
-      "consequence": "Hecate confirms the cry but not the whole event.",
+      "consequence": "Demeter begins searching without knowing what became of her daughter.",
       "factIds": [
         "fact-03"
       ]
     },
     {
       "sequence": 4,
-      "actor": "helios",
-      "action": "reveal",
-      "target": "hades",
-      "consequence": "Helios names the abductor.",
+      "actor": "demeter",
+      "action": "reach",
+      "target": null,
+      "consequence": "Her search brings her to the water's edge.",
       "factIds": [
         "fact-04"
       ]
@@ -132,34 +110,36 @@
     {
       "sequence": 5,
       "actor": "demeter",
-      "action": "accuse",
-      "target": "hades",
-      "consequence": "Demeter understands the divine betrayal behind the loss.",
+      "action": "discover",
+      "target": "persephone",
+      "consequence": "She finds the girdle Persephone dropped in flight.",
       "factIds": [
         "fact-05"
       ]
     }
   ],
   "locations": [
-    "earth roads and Helios’ vantage"
+    "Earth",
+    "River Cyane"
   ],
   "themes": [
-    "divine authority",
-    "Olympian order",
-    "vanish"
+    "maternal search",
+    "abduction",
+    "evidence of loss"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
     "visualBeats": [
-      "Persephone has vanished, leaving Demeter without a body, witness, or explanation.",
-      "A mother goddess cannot recover her daughter until she learns who crossed the boundary between worlds.",
-      "Helios tells Demeter that Hades took Persephone with Zeus’ approval."
+      "Hades lifts Persephone into the chariot and races away.",
+      "Demeter crosses the earth with no reliable witness or direction.",
+      "A girdle at the River Cyane becomes the first trace of Persephone."
     ],
     "sensitiveContent": [
-      "mythic violence or distress"
+      "abduction",
+      "parental grief"
     ],
     "productionNotes": [
-      "Emphasize the specific mythic turn: A mother goddess cannot recover her daughter until she learns who crossed the boundary between worlds."
+      "Do not introduce Hecate, Helios, or Zeus' consent; those belong to a different source variant."
     ]
   }
 }

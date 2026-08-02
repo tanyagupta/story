@@ -1,0 +1,148 @@
+{
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "description": "Source-aligned overrides for the seven substantively repaired production records explicitly linked to source-audited corpus records.",
+  "records": [
+    {
+      "productionRecordId": "production-myth-0019",
+      "workingTitle": "Hephaestus Returns to Olympus",
+      "beginning": "The episode begins with Zeus casting Hephaestus from heaven and Hephaestus refusing Olympus.",
+      "ending": "It ends when Dionysus lures Hephaestus with wine and leads him back to Olympus.",
+      "principalCharacters": ["Hephaestus", "Hera", "Dionysus"],
+      "variantDecision": "Baker's throne-and-wine version; the source boundary stops at Hephaestus' arrival in Olympus.",
+      "excludedMaterial": ["Hera's completed release.", "A formal restoration of Hephaestus' status.", "Material after the truncated source ending."],
+      "coreFacts": [
+        {"factId": "fact-01", "fact": "Zeus casts Hephaestus from heaven."},
+        {"factId": "fact-02", "fact": "Hephaestus refuses to return to Olympus and remains at Mount Etna."},
+        {"factId": "fact-03", "fact": "Hephaestus sends Hera a golden throne."},
+        {"factId": "fact-04", "fact": "The throne's hidden mechanism traps Hera."},
+        {"factId": "fact-05", "fact": "Hermes fails to persuade Hephaestus to return."},
+        {"factId": "fact-06", "fact": "Dionysus uses wine and leads Hephaestus to Olympus."}
+      ],
+      "requiredCharacters": ["Hephaestus", "Hera", "Zeus", "Hermes", "Dionysus"],
+      "excludedCharacters": ["Golden throne"],
+      "relatedSourceAuditedRecordIds": ["bulk-verified-0010"],
+      "adaptationValue": "Hephaestus Returns to Olympus is a bounded production adaptation aligned to bulk-verified-0010."
+    },
+    {
+      "productionRecordId": "production-myth-0022",
+      "workingTitle": "Demeter Searches the Earth",
+      "beginning": "The episode begins when Hades seizes Persephone.",
+      "ending": "It ends when Demeter discovers Persephone's girdle beside the River Cyane.",
+      "principalCharacters": ["Demeter", "Persephone", "Hades"],
+      "variantDecision": "Baker's River Cyane and girdle version; Hecate and Helios are excluded.",
+      "excludedMaterial": ["Hecate and Helios.", "Zeus' prior consent.", "The pomegranate and final compromise."],
+      "coreFacts": [
+        {"factId": "fact-01", "fact": "Hades seizes Persephone."},
+        {"factId": "fact-02", "fact": "Hades drives toward the underworld before Demeter can intervene."},
+        {"factId": "fact-03", "fact": "Demeter begins searching for Persephone."},
+        {"factId": "fact-04", "fact": "Demeter reaches the River Cyane."},
+        {"factId": "fact-05", "fact": "Demeter discovers Persephone's dropped girdle."}
+      ],
+      "requiredCharacters": ["Demeter", "Persephone", "Hades"],
+      "excludedCharacters": ["Hecate", "Helios"],
+      "relatedSourceAuditedRecordIds": ["bulk-verified-0001"],
+      "adaptationValue": "Demeter Searches the Earth is a bounded production adaptation aligned to bulk-verified-0001."
+    },
+    {
+      "productionRecordId": "production-myth-0033",
+      "workingTitle": "Pandora Opens the Box",
+      "beginning": "The episode begins when Hermes leaves a heavy box with Pandora and Epimetheus.",
+      "ending": "It ends when Hope heals those wounded by the escaped evils.",
+      "principalCharacters": ["Pandora", "Epimetheus", "Hermes", "Hope"],
+      "variantDecision": "Guerber's box version, not a Hesiodic jar or Pandora-creation episode.",
+      "excludedMaterial": ["Pandora's manufacture by the gods.", "Prometheus' theft and warning.", "A Hesiodic jar."],
+      "coreFacts": [
+        {"factId": "fact-01", "fact": "Hermes leaves a heavy box with Pandora and Epimetheus."},
+        {"factId": "fact-02", "fact": "Pandora raises the lid of the box."},
+        {"factId": "fact-03", "fact": "Evils escape from the opened box."},
+        {"factId": "fact-04", "fact": "The escaped evils wound Pandora and Epimetheus."},
+        {"factId": "fact-05", "fact": "Pandora opens the box again and releases Hope."},
+        {"factId": "fact-06", "fact": "Hope heals the wounds and goes out to aid humanity."}
+      ],
+      "requiredCharacters": ["Pandora", "Epimetheus", "Hermes", "Evils", "Hope"],
+      "excludedCharacters": ["Zeus", "Prometheus", "Gods"],
+      "relatedSourceAuditedRecordIds": ["bulk-verified-0006"],
+      "adaptationValue": "Pandora Opens the Box is a bounded production adaptation aligned to bulk-verified-0006."
+    },
+    {
+      "productionRecordId": "production-myth-0042",
+      "workingTitle": "Danae and the Golden Rain",
+      "beginning": "The episode begins with the oracle concerning Danae's future son.",
+      "ending": "It ends when Zeus descends through the brass tower in a shower of gold and reaches Danae.",
+      "principalCharacters": ["Danae", "Acrisius", "Zeus"],
+      "variantDecision": "Berens' brass-tower and golden-rain passage, ending before Perseus' conception or birth.",
+      "excludedMaterial": ["Perseus as an active character.", "Conception, pregnancy, and birth.", "The chest-at-sea episode."],
+      "coreFacts": [
+        {"factId": "fact-01", "fact": "An oracle tells Acrisius that a future son of Danae will cause his death."},
+        {"factId": "fact-02", "fact": "Acrisius imprisons Danae in a brass tower."},
+        {"factId": "fact-03", "fact": "Zeus descends through the roof."},
+        {"factId": "fact-04", "fact": "Zeus appears as a shower of gold."},
+        {"factId": "fact-05", "fact": "The source says Danae becomes Zeus' bride."}
+      ],
+      "requiredCharacters": ["Danae", "Acrisius", "Zeus"],
+      "excludedCharacters": ["Perseus"],
+      "relatedSourceAuditedRecordIds": ["bulk-verified-0022"],
+      "adaptationValue": "Danae and the Golden Rain is a bounded production adaptation aligned to bulk-verified-0022."
+    },
+    {
+      "productionRecordId": "production-myth-0043",
+      "workingTitle": "Danae and Perseus Cast Adrift",
+      "beginning": "The episode begins when Acrisius finds his precautions unavailing.",
+      "ending": "It ends when Dictys conducts Danae and Perseus to the palace on Seriphus.",
+      "principalCharacters": ["Danae", "Perseus", "Acrisius", "Dictys"],
+      "variantDecision": "Berens' chest-at-sea and Seriphus rescue passage.",
+      "excludedMaterial": ["A blood-guilt motive for Acrisius.", "Invented protective actions by Danae.", "Later conflict with Polydectes."],
+      "coreFacts": [
+        {"factId": "fact-01", "fact": "Acrisius finds that his precautions have failed."},
+        {"factId": "fact-02", "fact": "Acrisius orders Danae and Perseus placed in a chest."},
+        {"factId": "fact-03", "fact": "The chest is thrown into the sea."},
+        {"factId": "fact-04", "fact": "The chest strands on Seriphus."},
+        {"factId": "fact-05", "fact": "Dictys finds the chest and conducts the occupants to the palace."}
+      ],
+      "requiredCharacters": ["Danae", "Perseus", "Acrisius", "Dictys"],
+      "excludedCharacters": ["Polydectes"],
+      "relatedSourceAuditedRecordIds": ["bulk-verified-0019"],
+      "adaptationValue": "Danae and Perseus Cast Adrift is a bounded production adaptation aligned to bulk-verified-0019."
+    },
+    {
+      "productionRecordId": "production-myth-0046",
+      "workingTitle": "Perseus Beheads Medusa",
+      "beginning": "The episode begins when Medusa's slaying is selected as Perseus' heroic deed.",
+      "ending": "It ends when Perseus cuts off Medusa's head and places it in his wallet.",
+      "principalCharacters": ["Perseus", "Medusa", "Athena", "Hermes"],
+      "variantDecision": "Berens' concise guided expedition and beheading; no reflective shield or births from Medusa.",
+      "excludedMaterial": ["Reflective shield.", "Sleeping Gorgons.", "Pegasus and Chrysaor.", "An escape sequence."],
+      "coreFacts": [
+        {"factId": "fact-01", "fact": "Polydectes selects the slaying of Medusa as a deed of renown for Perseus."},
+        {"factId": "fact-02", "fact": "Perseus begins the expedition."},
+        {"factId": "fact-03", "fact": "Hermes guides Perseus on the journey."},
+        {"factId": "fact-04", "fact": "Athena guides Perseus."},
+        {"factId": "fact-05", "fact": "Perseus cuts off Medusa's head and puts it in his wallet."}
+      ],
+      "requiredCharacters": ["Perseus", "Medusa", "Athena", "Hermes", "Polydectes"],
+      "excludedCharacters": ["Pegasus", "Chrysaor"],
+      "relatedSourceAuditedRecordIds": ["bulk-verified-0004"],
+      "adaptationValue": "Perseus Beheads Medusa is a bounded production adaptation aligned to bulk-verified-0004."
+    },
+    {
+      "productionRecordId": "production-myth-0050",
+      "workingTitle": "Infant Heracles Strangles the Serpents",
+      "beginning": "The episode begins when Hera sends serpents against the infant Heracles.",
+      "ending": "It ends when Heracles grasps and strangles the serpents.",
+      "principalCharacters": ["Heracles", "Hera", "Serpents"],
+      "variantDecision": "The concise linked infancy episode, without Iphicles, Amphitryon, or an omen interpretation.",
+      "excludedMaterial": ["Iphicles.", "Alcmene and Amphitryon as scene participants.", "Theban nursery details.", "A household omen interpretation."],
+      "coreFacts": [
+        {"factId": "fact-01", "fact": "Hera sends serpents to destroy the infant Heracles."},
+        {"factId": "fact-02", "fact": "The serpents enter Heracles' cradle."},
+        {"factId": "fact-03", "fact": "The serpents attack Heracles."},
+        {"factId": "fact-04", "fact": "Heracles grasps the serpents."},
+        {"factId": "fact-05", "fact": "Heracles strangles and kills the serpents."}
+      ],
+      "requiredCharacters": ["Heracles", "Hera", "Serpents"],
+      "excludedCharacters": ["Iphicles", "Alcmene", "Amphitryon"],
+      "relatedSourceAuditedRecordIds": ["bulk-verified-0012"],
+      "adaptationValue": "Infant Heracles Strangles the Serpents is a bounded production adaptation aligned to bulk-verified-0012."
+    }
+  ]
+}

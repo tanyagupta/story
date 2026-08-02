@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation of Danae and the Golden Rain; not a source edition.",
+    "constructionPolicy": "Source-aligned editorial adaptation of Danae and the Golden Rain based only on the linked source-audited record; not a source edition.",
     "basedOnSourceAuditedReference": true
   },
   "referenceLinks": {
@@ -15,38 +15,34 @@
     ]
   },
   "scope": {
-    "beginning": "Acrisius imprisons Danae because an oracle says her son will kill him.",
-    "ending": "Danae bears Perseus after Zeus reaches her in golden rain.",
-    "boundaryRationale": "The episode begins with acrisius imprisons danae because an oracle says her son will kill him and closes at danae bears perseus after zeus reaches her in golden rain, leaving surrounding cycle material outside this production unit."
+    "beginning": "The episode begins when an oracle tells Acrisius that a future son of Danae will cause his death.",
+    "ending": "It ends when Zeus descends through the brass tower's roof in a shower of gold and reaches Danae.",
+    "boundaryRationale": "The linked source record stops at Zeus' arrival and Danae becoming his bride; Perseus' conception and birth are excluded from this production unit."
   },
   "variant": {
-    "chosenVersion": "Standard Perseus birth version with Zeus as golden rain.",
-    "materialAlternatives": []
+    "chosenVersion": "Berens' brass-tower version in which Zeus descends through the roof as a shower of gold.",
+    "materialAlternatives": [
+      "Perseus' conception, birth, and later exposure at sea are reserved for other episodes."
+    ]
   },
   "characters": [
     {
       "id": "danae",
       "name": "Danae",
-      "role": "imprisoned princess",
-      "goal": "survive confinement and bear Perseus"
-    },
-    {
-      "id": "zeus",
-      "name": "Zeus",
-      "role": "god approaching in golden rain",
-      "goal": "father Perseus"
+      "role": "princess confined in a brass tower",
+      "goal": "endure the isolation imposed by Acrisius"
     },
     {
       "id": "acrisius",
       "name": "Acrisius",
-      "role": "fearful king",
-      "goal": "avoid the oracle about his grandson"
+      "role": "king attempting to prevent an oracle",
+      "goal": "keep Danae separated from the world"
     },
     {
-      "id": "perseus",
-      "name": "Perseus",
-      "role": "prophesied child",
-      "goal": "be born despite imprisonment"
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "god entering the tower as golden rain",
+      "goal": "reach Danae despite the confinement"
     }
   ],
   "relationships": [
@@ -54,35 +50,29 @@
       "source": "acrisius",
       "relationship": "parent-of",
       "target": "danae",
-      "rationale": "Acrisius parent of Danae during Danae and the Golden Rain."
+      "rationale": "The linked source identifies Danae as Acrisius' daughter."
     },
     {
       "source": "zeus",
-      "relationship": "parent-of",
-      "target": "perseus",
-      "rationale": "Zeus parent of Perseus during Danae and the Golden Rain."
-    },
-    {
-      "source": "danae",
-      "relationship": "parent-of",
-      "target": "perseus",
-      "rationale": "Danae parent of Perseus during Danae and the Golden Rain."
+      "relationship": "spouse-of",
+      "target": "danae",
+      "rationale": "The linked source says Danae became the bride of Zeus."
     }
   ],
   "narrative": {
-    "synopsis": "Acrisius tries to stop fate by sealing Danae away, but Zeus reaches her as golden rain. Perseus is conceived inside the very prison meant to prevent him.",
-    "openingSituation": "Acrisius fears the oracle more than he trusts his daughter’s future.",
-    "centralConflict": "The conflict pits royal control against divine approach and prophecy.",
-    "resolution": "Danae bears Perseus despite confinement.",
-    "outcome": "The prophecy survives every attempt to prevent it."
+    "synopsis": "An oracle warns Acrisius that Danae's future son will cause his death. Acrisius imprisons Danae in a brass tower, but Zeus descends through the roof in a shower of gold and reaches her.",
+    "openingSituation": "Acrisius receives an oracle concerning a future son of Danae.",
+    "centralConflict": "Acrisius tries to defeat the oracle by sealing Danae away from the world.",
+    "resolution": "Zeus passes through the tower roof in the form of golden rain.",
+    "outcome": "The confinement fails to prevent Zeus from reaching Danae; the linked episode ends before Perseus' birth."
   },
   "events": [
     {
       "sequence": 1,
       "actor": "acrisius",
-      "action": "fear",
-      "target": "perseus",
-      "consequence": "Acrisius hears the oracle about his grandson.",
+      "action": "receive-oracle",
+      "target": "danae",
+      "consequence": "He learns that a future son of Danae will cause his death.",
       "factIds": [
         "fact-01"
       ]
@@ -92,7 +82,7 @@
       "actor": "acrisius",
       "action": "imprison",
       "target": "danae",
-      "consequence": "Danae is locked away.",
+      "consequence": "Danae is shut in a tower of brass.",
       "factIds": [
         "fact-02"
       ]
@@ -100,29 +90,29 @@
     {
       "sequence": 3,
       "actor": "zeus",
-      "action": "approach",
+      "action": "descend",
       "target": "danae",
-      "consequence": "Zeus comes as golden rain.",
+      "consequence": "Zeus passes through the tower roof.",
       "factIds": [
         "fact-03"
       ]
     },
     {
       "sequence": 4,
-      "actor": "danae",
-      "action": "conceive",
-      "target": "perseus",
-      "consequence": "Perseus is conceived.",
+      "actor": "zeus",
+      "action": "take-form",
+      "target": null,
+      "consequence": "He appears as a shower of gold inside the tower.",
       "factIds": [
         "fact-04"
       ]
     },
     {
       "sequence": 5,
-      "actor": "perseus",
-      "action": "be-born",
-      "target": "acrisius",
-      "consequence": "The child exists despite the king’s precautions.",
+      "actor": "danae",
+      "action": "become-bride",
+      "target": "zeus",
+      "consequence": "The source describes Danae as becoming Zeus' bride.",
       "factIds": [
         "fact-05"
       ]
@@ -130,25 +120,26 @@
   ],
   "locations": [
     "Argos",
-    "bronze chamber"
+    "brass tower"
   ],
   "themes": [
-    "fate",
+    "prophecy",
     "confinement",
-    "divine conception"
+    "divine entry"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
     "visualBeats": [
-      "Acrisius fears the oracle more than he trusts his daughter’s future.",
-      "The conflict pits royal control against divine approach and prophecy.",
-      "Danae bears Perseus despite confinement."
+      "The oracle's words drive Acrisius to isolate his daughter.",
+      "Danae stands alone inside the sealed brass tower.",
+      "Golden light pours through the roof as Zeus descends."
     ],
     "sensitiveContent": [
-      "mythic violence or distress"
+      "confinement",
+      "unequal divine-mortal relationship"
     ],
     "productionNotes": [
-      "Do not portray Danae as passive scenery; center her confinement and survival."
+      "End with Zeus reaching Danae; do not depict conception, pregnancy, or Perseus' birth as part of this linked episode."
     ]
   }
 }
