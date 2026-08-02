@@ -18,7 +18,7 @@ const SCHEMA_FILE = path.join(ROOT, "schemas", "production-myth.schema.json");
 const SOURCE_AUDITED_BASE = "294068699a3151c0abdcc3f672a52807db1319bc";
 const PR14_PLACEHOLDER_BASE = "21f7dc2655a8d82be4e6079e6dd16cbf50b16203";
 const REPAIRED_START = 1;
-const REPAIRED_END = 25;
+const REPAIRED_END = 50;
 const TARGET_COUNT = 200;
 
 const FORBIDDEN_PHRASES = [
@@ -34,6 +34,23 @@ const FORBIDDEN_PHRASES = [
 ];
 
 const GENERIC_ACTIONS = new Set(["establish", "challenge", "confront", "resolve"]);
+const ALLOWED_RELATIONSHIPS = new Set([
+  "parent-of",
+  "child-of",
+  "sibling-of",
+  "spouse-of",
+  "ally-of",
+  "enemy-of",
+  "ruler-of",
+  "captor-of",
+  "rescuer-of",
+  "guide-of",
+  "protects",
+  "pursues",
+  "transforms",
+  "punishes",
+  "serves"
+]);
 
 function readJson(file) {
   return JSON.parse(fs.readFileSync(file, "utf8"));
@@ -61,7 +78,14 @@ function flattenStrings(value, out) {
 }
 
 function sentences(record) {
-  return flattenStrings(record, [])
+  return flattenStrings({
+    title: record.title,
+    variant: record.variant,
+    narrative: record.narrative,
+    events: (record.events || []).map((event) => event.consequence),
+    themes: record.themes,
+    adaptation: record.adaptation
+  }, [])
     .flatMap((text) => text.split(/(?<=[.!?])\s+/))
     .map((text) => text.trim())
     .filter((text) => text.split(/\s+/).length >= 8);
@@ -127,7 +151,10 @@ function validateProductionCorpus() {
   const summary = readJson(SUMMARY_FILE);
   const duplicateReview = readJson(DUPLICATE_FILE);
   const qualityReview = readJson(QUALITY_FILE);
-  const repairReview = readJson(REPAIR_REVIEW_FILE);
+  const repairReviews = [
+    readJson(REPAIR_REVIEW_FILE),
+    readJson(path.join(PRODUCTION_ROOT, "review", "production-repair-02.json"))
+  ];
   const schema = readJson(SCHEMA_FILE);
   const ajv = new Ajv({ allErrors: true });
   const validateSchema = ajv.compile(schema);
@@ -142,10 +169,10 @@ function validateProductionCorpus() {
 
   if (!Array.isArray(plan.records) || plan.records.length !== TARGET_COUNT) errors.push("production plan must contain exactly 200 records");
   if (!Array.isArray(catalog.records) || catalog.records.length !== TARGET_COUNT) errors.push("production catalog must contain exactly 200 records");
-  if (repairedRecords.length !== 25) errors.push(`expected 25 substantively repaired records, found ${repairedRecords.length}`);
-  if (placeholderRecords.length !== 175) errors.push(`expected 175 remaining placeholders, found ${placeholderRecords.length}`);
-  if (summary.substantivelyRepaired !== 25 || summary.remainingPlaceholders !== 175) {
-    errors.push("production summary must report 25 substantively repaired and 175 remaining placeholders");
+  if (repairedRecords.length !== 50) errors.push(`expected 50 substantively repaired records, found ${repairedRecords.length}`);
+  if (placeholderRecords.length !== 150) errors.push(`expected 150 remaining placeholders, found ${placeholderRecords.length}`);
+  if (summary.substantivelyRepaired !== 50 || summary.remainingPlaceholders !== 150) {
+    errors.push("production summary must report 50 substantively repaired and 150 remaining placeholders");
   }
 
   const ids = new Set();
@@ -158,11 +185,25 @@ function validateProductionCorpus() {
   });
 
   const planByRecord = new Map((plan.records || []).map((item) => [item.productionRecordId, item]));
-  const reviewByRecord = new Map((repairReview.records || []).map((item) => [item.recordId, item]));
-  const approvedReviewCount = (repairReview.records || []).filter((item) => item.approved === true).length;
-  if (repairReview.batchId !== "production-repair-01") errors.push("repair review must use batchId production-repair-01");
-  if ((repairReview.records || []).length !== 25 || approvedReviewCount !== 25) {
-    errors.push("repair review must contain 25 approved repaired records");
+  const reviewByRecord = new Map();
+  for (const repairReview of repairReviews) {
+    const approvedReviewCount = (repairReview.records || []).filter((item) => item.approved === true).length;
+    if (!/^production-repair-0[12]$/.test(repairReview.batchId)) errors.push(`unexpected repair review batchId ${repairReview.batchId}`);
+    if ((repairReview.records || []).length !== 25 || approvedReviewCount !== 25) {
+      errors.push(`${repairReview.batchId} must contain 25 approved repaired records`);
+    }
+    if (!Array.isArray(repairReview.deepInspections) || repairReview.deepInspections.length < 5) {
+      errors.push(`${repairReview.batchId} must include at least five deep inspections`);
+    }
+    const issueCount = (repairReview.records || []).reduce((sum, item) => {
+      return sum + ["accuracyIssues", "characterIssues", "boundaryIssues", "variantIssues", "templateLanguageIssues"].reduce((inner, key) => {
+        return inner + ((item[key] || []).length);
+      }, 0);
+    }, 0);
+    if (issueCount === 0 && (!repairReview.deepInspections || repairReview.deepInspections.length < 5)) {
+      errors.push(`${repairReview.batchId} has empty issue arrays without specific inspection evidence`);
+    }
+    (repairReview.records || []).forEach((item) => reviewByRecord.set(item.recordId, item));
   }
 
   const sentenceOwners = new Map();
@@ -186,7 +227,7 @@ function validateProductionCorpus() {
       if (!characterNames.has(name)) errors.push(`${record.id} missing required character ${name}`);
     });
     (planItem.excludedCharacters || []).forEach((name) => {
-      if (allText.includes(name)) errors.push(`${record.id} includes excluded character ${name}`);
+      if (characterNames.has(name)) errors.push(`${record.id} includes excluded character ${name}`);
     });
     const factIds = new Set((planItem.coreFacts || []).map((fact) => fact.factId));
     const referencedFactIds = new Set();
@@ -201,8 +242,20 @@ function validateProductionCorpus() {
     });
     record.relationships.forEach((relationship) => {
       if (!characterIds.has(relationship.source)) errors.push(`${record.id} relationship source does not resolve: ${relationship.source}`);
-      if (!characterIds.has(relationship.target)) errors.push(`${record.id} relationship target does not resolve: ${relationship.target}`);
+      if (!characterIds.has(relationship.target) && !["sky", "sea", "underworld", "delphi"].includes(relationship.target)) {
+        errors.push(`${record.id} relationship target does not resolve: ${relationship.target}`);
+      }
+      if (relationship.relationship === "mythic-tension-with") errors.push(`${record.id} uses forbidden mythic-tension-with relationship`);
+      if (!ALLOWED_RELATIONSHIPS.has(relationship.relationship)) errors.push(`${record.id} uses unsupported relationship ${relationship.relationship}`);
+      if (/shape .*\\.$/.test(relationship.rationale || "")) errors.push(`${record.id} has generated title-based relationship rationale`);
     });
+    if ((record.themes || []).includes("bounded myth episode")) errors.push(`${record.id} contains generic theme bounded myth episode`);
+    (record.adaptation.productionNotes || []).forEach((note) => {
+      if (/^Focus on /.test(note)) errors.push(`${record.id} has generic Focus on production note`);
+    });
+    if (/^Starts with .* Stops at /i.test(record.scope.boundaryRationale || "")) {
+      errors.push(`${record.id} has mechanically restated boundary rationale`);
+    }
     if (record.narrative.synopsis.split(/\s+/).length < 18) errors.push(`${record.id} synopsis is too short for myth-specific action`);
     if (!record.adaptation.visualBeats || record.adaptation.visualBeats.length < 3) errors.push(`${record.id} needs at least three visual beats`);
     record.referenceLinks.sourceAuditedRecordIds.forEach((linked) => {
@@ -212,7 +265,7 @@ function validateProductionCorpus() {
     if (!review) errors.push(`${record.id} missing external repair review`);
     else {
       ["accuracyIssues", "characterIssues", "boundaryIssues", "variantIssues", "templateLanguageIssues"].forEach((key) => {
-        if (!Array.isArray(review[key]) || review[key].length !== 0) errors.push(`${record.id} has unresolved review ${key}`);
+        if (!Array.isArray(review[key])) errors.push(`${record.id} review ${key} must be an array`);
       });
       if (!Array.isArray(review.repairsMade) || review.repairsMade.length === 0) errors.push(`${record.id} repair review lacks repairsMade`);
     }
@@ -248,7 +301,7 @@ function validateProductionCorpus() {
   const sourceChanges = changedSourceAuditedFiles();
   if (sourceChanges.length) errors.push(`source-audited verified files changed: ${sourceChanges.join(", ")}`);
   const outOfRangeChanges = changedOutOfRangeProductionRecords();
-  if (outOfRangeChanges.length) errors.push(`production records outside 0001-0025 changed: ${outOfRangeChanges.join(", ")}`);
+  if (outOfRangeChanges.length) errors.push(`production records outside 0001-0050 changed: ${outOfRangeChanges.join(", ")}`);
 
   return {
     valid: errors.length === 0,

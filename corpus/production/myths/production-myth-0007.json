@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Cronus Swallows His Children; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when Cronus learns that one of his children is fated to overthrow him.",
     "ending": "It ends with Rhea grieving the swallowed children and seeking a way to save the next birth.",
-    "boundaryRationale": "Starts with the episode begins when cronus learns that one of his children is fated to overthrow him. Stops at it ends with rhea grieving the swallowed children and seeking a way to save the next birth."
+    "boundaryRationale": "The episode begins with the episode begins when cronus learns that one of his children is fated to overthrow him and closes at it ends with rhea grieving the swallowed children and seeking a way to save the next birth, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Hesiodic succession version in which Cronus swallows the children born from Rhea.",
@@ -68,15 +68,27 @@
   "relationships": [
     {
       "source": "cronus",
-      "relationship": "mythic-tension-with",
+      "relationship": "spouse-of",
       "target": "rhea",
-      "rationale": "Cronus and Rhea shape Cronus Swallows His Children."
+      "rationale": "Cronus spouse of Rhea during Cronus Swallows His Children."
     },
     {
       "source": "cronus",
-      "relationship": "mythic-tension-with",
+      "relationship": "captor-of",
       "target": "hestia",
-      "rationale": "Cronus and Hestia shape Cronus Swallows His Children."
+      "rationale": "Cronus captor of Hestia during Cronus Swallows His Children."
+    },
+    {
+      "source": "cronus",
+      "relationship": "captor-of",
+      "target": "poseidon",
+      "rationale": "Cronus captor of Poseidon during Cronus Swallows His Children."
+    },
+    {
+      "source": "rhea",
+      "relationship": "parent-of",
+      "target": "hestia",
+      "rationale": "Rhea parent of Hestia during Cronus Swallows His Children."
     }
   ],
   "narrative": {
@@ -142,8 +154,8 @@
     "cosmic beginning"
   ],
   "themes": [
-    "bounded myth episode",
-    "primordial and creation",
+    "primordial emergence",
+    "divine succession",
     "fear"
   ],
   "adaptation": {
@@ -157,8 +169,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Cronus Swallows His Children.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Each birth threatens his throne, and each act of swallowing deepens Rhea’s desperation."
     ]
   }
 }

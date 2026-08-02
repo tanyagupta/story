@@ -6,220 +6,153 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Polydectes Demands Medusa's Head; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Polydectes Demands Medusa's Head begins with Polydectes in a focused Perseus situation rather than a full-cycle summary. The episode closes once Polydectes's decisive action changes the condition of Medusa and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Polydectes wants Danae and sees Perseus as an obstacle.",
+    "ending": "Perseus is bound by his boast or promise to seek Medusa’s head.",
+    "boundaryRationale": "The episode begins with polydectes wants danae and sees perseus as an obstacle and closes at perseus is bound by his boast or promise to seek medusa’s head, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Seriphos demand episode before the divine tool quest.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Polydectes Demands Medusa's Head, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Polydectes Demands Medusa's Head begins with Polydectes in a focused Perseus situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Polydectes and Medusa.",
-    "resolution": "The episode closes once Polydectes's decisive action changes the condition of Medusa and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Polydectes and Medusa, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Polydectes Demands Medusa's Head begins with Polydectes in a focused Perseus situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Polydectes and Medusa."
-      },
-      {
-        "beat": "turn",
-        "text": "Polydectes takes the decisive confront action that defines Polydectes Demands Medusa's Head."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Polydectes and Medusa, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "polydectes",
       "name": "Polydectes",
-      "role": "principal",
-      "entityType": "character"
-    },
-    {
-      "id": "medusa",
-      "name": "Medusa",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "king of Seriphos",
+      "goal": "remove Perseus and pressure Danae"
     },
     {
       "id": "perseus",
       "name": "Perseus",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
+      "role": "young hero",
+      "goal": "accept the impossible demand"
+    },
     {
       "id": "danae",
       "name": "Danae",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "mother of Perseus",
+      "goal": "resist Polydectes’ pursuit"
     },
     {
-      "id": "athena",
-      "name": "Athena",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Polydectes",
-      "normalizedId": "polydectes",
-      "normalizationStatus": "production_canonical"
+      "id": "medusa",
+      "name": "Medusa",
+      "role": "deadly Gorgon",
+      "goal": "become the demanded prize"
     },
     {
-      "sourceName": "Medusa",
-      "normalizedId": "medusa",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Perseus",
-      "normalizedId": "perseus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Danae",
-      "normalizedId": "danae",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Athena",
-      "normalizedId": "athena",
-      "normalizationStatus": "production_canonical"
+      "id": "dictys",
+      "name": "Dictys",
+      "role": "protector",
+      "goal": "stand apart from Polydectes’ scheme"
     }
   ],
   "relationships": [
     {
+      "source": "perseus",
+      "relationship": "protects",
+      "target": "danae",
+      "rationale": "Perseus protects Danae during Polydectes Demands Medusa's Head."
+    },
+    {
       "source": "polydectes",
-      "relationship": "central_to",
-      "target": "medusa",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Polydectes and Medusa define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "relationship": "enemy-of",
+      "target": "perseus",
+      "rationale": "Polydectes enemy of Perseus during Polydectes Demands Medusa's Head."
+    },
+    {
+      "source": "dictys",
+      "relationship": "protects",
+      "target": "danae",
+      "rationale": "Dictys protects Danae during Polydectes Demands Medusa's Head."
     }
   ],
+  "narrative": {
+    "synopsis": "Polydectes weaponizes hospitality and heroic pride to remove Perseus from Seriphos. By demanding Medusa’s head, he turns a courtly exchange into an apparent death sentence.",
+    "openingSituation": "Perseus protects Danae from Polydectes’ pressure.",
+    "centralConflict": "The king cannot seize Danae freely while Perseus remains present.",
+    "resolution": "Perseus accepts the demand for Medusa’s head.",
+    "outcome": "The Gorgon quest begins as a trap set by Polydectes."
+  },
   "events": [
     {
-      "eventId": "production-myth-0044-event-01",
-      "actor": "polydectes",
-      "action": "establish",
-      "target": "medusa",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Polydectes Demands Medusa's Head begins with Polydectes in a focused Perseus situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "polydectes",
+      "action": "desire",
+      "target": "danae",
+      "consequence": "Polydectes pursues Danae.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0044-event-02",
-      "actor": "medusa",
-      "action": "challenge",
-      "target": "polydectes",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Polydectes and Medusa.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "perseus",
+      "action": "protect",
+      "target": "danae",
+      "consequence": "Perseus blocks the king’s pressure.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0044-event-03",
-      "actor": "polydectes",
-      "action": "confront",
-      "target": "perseus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Polydectes performs the decisive action associated with Polydectes Demands Medusa's Head.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "polydectes",
+      "action": "deceive",
+      "target": "perseus",
+      "consequence": "Polydectes sets up the fatal demand.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0044-event-04",
-      "actor": "polydectes",
-      "action": "resolve",
-      "target": "medusa",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The episode closes once Polydectes's decisive action changes the condition of Medusa and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "perseus",
+      "action": "promise",
+      "target": "medusa",
+      "consequence": "Perseus accepts the Gorgon task.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "polydectes",
+      "action": "send",
+      "target": "perseus",
+      "consequence": "The king removes Perseus from Seriphos.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "perseus-setting",
-      "name": "Perseus setting",
-      "role": "primary setting"
-    }
+    "Seriphos",
+    "Polydectes’ hall"
   ],
   "themes": [
-    "production adaptation",
-    "perseus",
-    "confront"
+    "coercion",
+    "heroic promise",
+    "false hospitality"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Polydectes Demands Medusa's Head begins with Polydectes in a focused Perseus situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Polydectes and Medusa.",
-      "The episode closes once Polydectes's decisive action changes the condition of Medusa and leaves later cycle material outside this record."
+    "visualBeats": [
+      "Perseus protects Danae from Polydectes’ pressure.",
+      "The king cannot seize Danae freely while Perseus remains present.",
+      "Perseus accepts the demand for Medusa’s head."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Polydectes and Medusa.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Make the feast or demand feel socially polite on the surface and lethal underneath."
     ]
   }
 }

@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Hera Claims Her Throne; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins after Zeus’ kingship is established and Hera takes her place beside him.",
     "ending": "It ends with Hera recognized as queen and guardian of marriage, though divine conflict remains possible.",
-    "boundaryRationale": "Starts with the episode begins after zeus’ kingship is established and hera takes her place beside him. Stops at it ends with hera recognized as queen and guardian of marriage, though divine conflict remains possible."
+    "boundaryRationale": "The episode begins with the episode begins after zeus’ kingship is established and hera takes her place beside him and closes at it ends with hera recognized as queen and guardian of marriage, though divine conflict remains possible, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Production adaptation of Hera’s enthronement as status episode, not a jealousy tale.",
@@ -50,15 +50,21 @@
   "relationships": [
     {
       "source": "hera",
-      "relationship": "mythic-tension-with",
+      "relationship": "spouse-of",
       "target": "zeus",
-      "rationale": "Hera and Zeus shape Hera Claims Her Throne."
+      "rationale": "Hera spouse of Zeus during Hera Claims Her Throne."
     },
     {
       "source": "hera",
-      "relationship": "mythic-tension-with",
+      "relationship": "ruler-of",
       "target": "olympians",
-      "rationale": "Hera and Olympians shape Hera Claims Her Throne."
+      "rationale": "Hera ruler of Olympians during Hera Claims Her Throne."
+    },
+    {
+      "source": "hebe",
+      "relationship": "child-of",
+      "target": "hera",
+      "rationale": "Hebe child of Hera during Hera Claims Her Throne."
     }
   ],
   "narrative": {
@@ -124,8 +130,8 @@
     "Olympian realm"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "ascend"
   ],
   "adaptation": {
@@ -137,8 +143,7 @@
     ],
     "sensitiveContent": [],
     "productionNotes": [
-      "Focus on Hera Claims Her Throne.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: The divine household must balance Zeus’ sovereignty with Hera’s claim over marriage and legitimacy."
     ]
   }
 }

@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Hephaestus Returns to Olympus; not a source edition.",
     "basedOnSourceAuditedReference": true
   },
   "referenceLinks": {
@@ -17,7 +17,7 @@
   "scope": {
     "beginning": "The episode begins after Hephaestus has been cast from Olympus and nurses resentment against Hera.",
     "ending": "It ends when Dionysus brings Hephaestus back and Hera is released from the binding throne.",
-    "boundaryRationale": "Starts with the episode begins after hephaestus has been cast from olympus and nurses resentment against hera. Stops at it ends when dionysus brings hephaestus back and hera is released from the binding throne."
+    "boundaryRationale": "The episode begins with the episode begins after hephaestus has been cast from olympus and nurses resentment against hera and closes at it ends when dionysus brings hephaestus back and hera is released from the binding throne, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Return-to-Olympus version in which Hephaestus traps Hera with a golden throne and Dionysus persuades him back.",
@@ -58,15 +58,21 @@
   "relationships": [
     {
       "source": "hephaestus",
-      "relationship": "mythic-tension-with",
+      "relationship": "child-of",
       "target": "hera",
-      "rationale": "Hephaestus and Hera shape Hephaestus Returns to Olympus."
+      "rationale": "Hephaestus child of Hera during Hephaestus Returns to Olympus."
     },
     {
-      "source": "hephaestus",
-      "relationship": "mythic-tension-with",
-      "target": "dionysus",
-      "rationale": "Hephaestus and Dionysus shape Hephaestus Returns to Olympus."
+      "source": "dionysus",
+      "relationship": "rescuer-of",
+      "target": "hera",
+      "rationale": "Dionysus rescuer of Hera during Hephaestus Returns to Olympus."
+    },
+    {
+      "source": "golden-throne",
+      "relationship": "captor-of",
+      "target": "hera",
+      "rationale": "Golden throne captor of Hera during Hephaestus Returns to Olympus."
     }
   ],
   "narrative": {
@@ -132,8 +138,8 @@
     "Olympian realm"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "resent"
   ],
   "adaptation": {
@@ -147,8 +153,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Hephaestus Returns to Olympus.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Hera is trapped by a gift only Hephaestus can undo."
     ]
   }
 }

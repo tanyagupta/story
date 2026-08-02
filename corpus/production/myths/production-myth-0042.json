@@ -6,199 +6,149 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production adaptation informed by an existing source-audited reference record.",
-    "variantPolicy": "Preserve the core source-audited episode while adapting its structure for production use.",
+    "constructionPolicy": "AI editorial adaptation of Danae and the Golden Rain; not a source edition.",
     "basedOnSourceAuditedReference": true
   },
   "referenceLinks": {
     "sourceAuditedRecordIds": [
       "bulk-verified-0022"
-    ],
-    "relatedSourceProposalIds": []
+    ]
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Danae and the Golden Rain begins with Danae in a focused Perseus situation rather than a full-cycle summary. The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Acrisius imprisons Danae because an oracle says her son will kill him.",
+    "ending": "Danae bears Perseus after Zeus reaches her in golden rain.",
+    "boundaryRationale": "The episode begins with acrisius imprisons danae because an oracle says her son will kill him and closes at danae bears perseus after zeus reaches her in golden rain, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Production adaptation linked to source-audited reference where available, without claiming exact source fidelity.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Standard Perseus birth version with Zeus as golden rain.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Danae and the Golden Rain, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Danae and the Golden Rain begins with Danae in a focused Perseus situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Danae and Perseus.",
-    "resolution": "The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Danae and Perseus, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Danae and the Golden Rain begins with Danae in a focused Perseus situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Danae and Perseus."
-      },
-      {
-        "beat": "turn",
-        "text": "Danae takes the decisive confront action that defines Danae and the Golden Rain."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Danae and Perseus, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "danae",
       "name": "Danae",
-      "role": "principal",
-      "entityType": "character"
+      "role": "imprisoned princess",
+      "goal": "survive confinement and bear Perseus"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "god approaching in golden rain",
+      "goal": "father Perseus"
+    },
+    {
+      "id": "acrisius",
+      "name": "Acrisius",
+      "role": "fearful king",
+      "goal": "avoid the oracle about his grandson"
     },
     {
       "id": "perseus",
       "name": "Perseus",
-      "role": "supporting",
-      "entityType": "character"
-    },
-    {
-      "id": "athena",
-      "name": "Athena",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Danae",
-      "normalizedId": "danae",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Perseus",
-      "normalizedId": "perseus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Athena",
-      "normalizedId": "athena",
-      "normalizationStatus": "production_canonical"
+      "role": "prophesied child",
+      "goal": "be born despite imprisonment"
     }
   ],
   "relationships": [
     {
-      "source": "danae",
-      "relationship": "central_to",
+      "source": "acrisius",
+      "relationship": "parent-of",
+      "target": "danae",
+      "rationale": "Acrisius parent of Danae during Danae and the Golden Rain."
+    },
+    {
+      "source": "zeus",
+      "relationship": "parent-of",
       "target": "perseus",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Danae and Perseus define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Zeus parent of Perseus during Danae and the Golden Rain."
+    },
+    {
+      "source": "danae",
+      "relationship": "parent-of",
+      "target": "perseus",
+      "rationale": "Danae parent of Perseus during Danae and the Golden Rain."
     }
   ],
+  "narrative": {
+    "synopsis": "Acrisius tries to stop fate by sealing Danae away, but Zeus reaches her as golden rain. Perseus is conceived inside the very prison meant to prevent him.",
+    "openingSituation": "Acrisius fears the oracle more than he trusts his daughter’s future.",
+    "centralConflict": "The conflict pits royal control against divine approach and prophecy.",
+    "resolution": "Danae bears Perseus despite confinement.",
+    "outcome": "The prophecy survives every attempt to prevent it."
+  },
   "events": [
     {
-      "eventId": "production-myth-0042-event-01",
-      "actor": "danae",
-      "action": "establish",
-      "target": "perseus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Danae and the Golden Rain begins with Danae in a focused Perseus situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0042-event-02",
-      "actor": "perseus",
-      "action": "challenge",
-      "target": "danae",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Danae and Perseus.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0042-event-03",
-      "actor": "danae",
-      "action": "confront",
-      "target": "athena",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Danae performs the decisive action associated with Danae and the Golden Rain.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0042-event-04",
-      "actor": "danae",
-      "action": "resolve",
+      "actor": "acrisius",
+      "action": "fear",
       "target": "perseus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
+      "consequence": "Acrisius hears the oracle about his grandson.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "acrisius",
+      "action": "imprison",
+      "target": "danae",
+      "consequence": "Danae is locked away.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "zeus",
+      "action": "approach",
+      "target": "danae",
+      "consequence": "Zeus comes as golden rain.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "danae",
+      "action": "conceive",
+      "target": "perseus",
+      "consequence": "Perseus is conceived.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "perseus",
+      "action": "be-born",
+      "target": "acrisius",
+      "consequence": "The child exists despite the king’s precautions.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "perseus-setting",
-      "name": "Perseus setting",
-      "role": "primary setting"
-    }
+    "Argos",
+    "bronze chamber"
   ],
   "themes": [
-    "production adaptation",
-    "perseus",
-    "confront"
+    "fate",
+    "confinement",
+    "divine conception"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Danae and the Golden Rain begins with Danae in a focused Perseus situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Danae and Perseus.",
-      "The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record."
+    "visualBeats": [
+      "Acrisius fears the oracle more than he trusts his daughter’s future.",
+      "The conflict pits royal control against divine approach and prophecy.",
+      "Danae bears Perseus despite confinement."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Danae and Perseus.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Do not portray Danae as passive scenery; center her confinement and survival."
     ]
   }
 }

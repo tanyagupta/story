@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Ares Is Trapped in the Jar; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when the giant brothers Otus and Ephialtes overpower Ares.",
     "ending": "It ends when Hermes rescues the weakened Ares from the bronze jar.",
-    "boundaryRationale": "Starts with the episode begins when the giant brothers otus and ephialtes overpower ares. Stops at it ends when hermes rescues the weakened ares from the bronze jar."
+    "boundaryRationale": "The episode begins with the episode begins when the giant brothers otus and ephialtes overpower ares and closes at it ends when hermes rescues the weakened ares from the bronze jar, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Aloid imprisonment episode known from epic tradition.",
@@ -55,16 +55,28 @@
   ],
   "relationships": [
     {
-      "source": "ares",
-      "relationship": "mythic-tension-with",
-      "target": "otus",
-      "rationale": "Ares and Otus shape Ares Is Trapped in the Jar."
+      "source": "otus",
+      "relationship": "enemy-of",
+      "target": "ares",
+      "rationale": "Otus enemy of Ares during Ares Is Trapped in the Jar."
     },
     {
-      "source": "ares",
-      "relationship": "mythic-tension-with",
-      "target": "ephialtes",
-      "rationale": "Ares and Ephialtes shape Ares Is Trapped in the Jar."
+      "source": "ephialtes",
+      "relationship": "enemy-of",
+      "target": "ares",
+      "rationale": "Ephialtes enemy of Ares during Ares Is Trapped in the Jar."
+    },
+    {
+      "source": "hermes",
+      "relationship": "rescuer-of",
+      "target": "ares",
+      "rationale": "Hermes rescuer of Ares during Ares Is Trapped in the Jar."
+    },
+    {
+      "source": "eriboea",
+      "relationship": "ally-of",
+      "target": "hermes",
+      "rationale": "Eriboea ally of Hermes during Ares Is Trapped in the Jar."
     }
   ],
   "narrative": {
@@ -130,8 +142,8 @@
     "Olympian realm"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "capture"
   ],
   "adaptation": {
@@ -145,8 +157,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Ares Is Trapped in the Jar.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Ares is removed from battle and sealed in a humiliating prison."
     ]
   }
 }

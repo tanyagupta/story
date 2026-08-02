@@ -6,197 +6,154 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Persephone Gathers Flowers; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Persephone Gathers Flowers begins with Persephone in a focused Demeter and Persephone situation rather than a full-cycle summary. The episode closes once Persephone's decisive action changes the condition of Demeter and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Persephone gathers flowers in a meadow with companions.",
+    "ending": "The earth opens and Hades carries Persephone into the underworld.",
+    "boundaryRationale": "The episode begins with persephone gathers flowers in a meadow with companions and closes at the earth opens and hades carries persephone into the underworld, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Homeric Hymn meadow abduction sequence; the later search is outside this record.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Persephone Gathers Flowers, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Persephone Gathers Flowers begins with Persephone in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the gather action named by the episode, involving Persephone and Demeter.",
-    "resolution": "The episode closes once Persephone's decisive action changes the condition of Demeter and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Persephone and Demeter, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Persephone Gathers Flowers begins with Persephone in a focused Demeter and Persephone situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the gather action named by the episode, involving Persephone and Demeter."
-      },
-      {
-        "beat": "turn",
-        "text": "Persephone takes the decisive gather action that defines Persephone Gathers Flowers."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Persephone and Demeter, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "persephone",
       "name": "Persephone",
-      "role": "principal",
-      "entityType": "character"
-    },
-    {
-      "id": "demeter",
-      "name": "Demeter",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "daughter gathering flowers",
+      "goal": "be taken from the meadow"
     },
     {
       "id": "hades",
       "name": "Hades",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Persephone",
-      "normalizedId": "persephone",
-      "normalizationStatus": "production_canonical"
+      "role": "underworld ruler",
+      "goal": "abduct Persephone"
     },
     {
-      "sourceName": "Demeter",
-      "normalizedId": "demeter",
-      "normalizationStatus": "production_canonical"
+      "id": "gaia",
+      "name": "Gaia",
+      "role": "earth power",
+      "goal": "produce the wondrous flower"
     },
     {
-      "sourceName": "Hades",
-      "normalizedId": "hades",
-      "normalizationStatus": "production_canonical"
+      "id": "demeter",
+      "name": "Demeter",
+      "role": "absent mother",
+      "goal": "lose her daughter"
+    },
+    {
+      "id": "nymphs",
+      "name": "Nymph companions",
+      "role": "companions in the meadow",
+      "goal": "fail to prevent the abduction"
     }
   ],
   "relationships": [
     {
-      "source": "persephone",
-      "relationship": "central_to",
-      "target": "demeter",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Persephone and Demeter define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "source": "hades",
+      "relationship": "captor-of",
+      "target": "persephone",
+      "rationale": "Hades captor of Persephone during Persephone Gathers Flowers."
+    },
+    {
+      "source": "demeter",
+      "relationship": "parent-of",
+      "target": "persephone",
+      "rationale": "Demeter parent of Persephone during Persephone Gathers Flowers."
+    },
+    {
+      "source": "gaia",
+      "relationship": "ally-of",
+      "target": "hades",
+      "rationale": "Gaia ally of Hades during Persephone Gathers Flowers."
     }
   ],
+  "narrative": {
+    "synopsis": "Persephone’s flower-gathering turns from play to rupture when a miraculous bloom draws her away from companions. Hades rises through the opened earth and carries her into the underworld.",
+    "openingSituation": "Persephone is in the upper world among flowers and companions.",
+    "centralConflict": "A beautiful lure masks the violence of crossing into Hades’ realm.",
+    "resolution": "Hades takes Persephone below before Demeter can intervene.",
+    "outcome": "The loss that will drive Demeter’s grief has occurred."
+  },
   "events": [
     {
-      "eventId": "production-myth-0037-event-01",
-      "actor": "persephone",
-      "action": "establish",
-      "target": "demeter",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "Persephone Gathers Flowers begins with Persephone in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0037-event-02",
-      "actor": "demeter",
-      "action": "challenge",
-      "target": "persephone",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "The central pressure is the gather action named by the episode, involving Persephone and Demeter.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0037-event-03",
       "actor": "persephone",
       "action": "gather",
-      "target": "hades",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "Persephone performs the decisive action associated with Persephone Gathers Flowers.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "target": "nymphs",
+      "consequence": "Persephone plays among flowers.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0037-event-04",
-      "actor": "persephone",
-      "action": "resolve",
-      "target": "demeter",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "The episode closes once Persephone's decisive action changes the condition of Demeter and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
+      "sequence": 2,
+      "actor": "gaia",
+      "action": "produce",
+      "target": "persephone",
+      "consequence": "A wondrous flower draws her aside.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "hades",
+      "action": "emerge",
+      "target": "persephone",
+      "consequence": "Hades rises through the opened earth.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "hades",
+      "action": "abduct",
+      "target": "persephone",
+      "consequence": "He carries Persephone below.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "demeter",
+      "action": "lose",
+      "target": "persephone",
+      "consequence": "Demeter’s daughter is gone from the upper world.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "demeter-and-persephone-setting",
-      "name": "Demeter and Persephone setting",
-      "role": "primary setting"
-    }
+    "flower meadow",
+    "opening earth",
+    "road to underworld"
   ],
   "themes": [
-    "production adaptation",
-    "demeter and persephone",
-    "gather"
+    "abduction",
+    "seasonal rupture",
+    "lost daughter"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Persephone Gathers Flowers begins with Persephone in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-      "The central pressure is the gather action named by the episode, involving Persephone and Demeter.",
-      "The episode closes once Persephone's decisive action changes the condition of Demeter and leaves later cycle material outside this record."
+    "visualBeats": [
+      "Persephone is in the upper world among flowers and companions.",
+      "A beautiful lure masks the violence of crossing into Hades’ realm.",
+      "Hades takes Persephone below before Demeter can intervene."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Persephone and Demeter.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Start with bright flowers, then break the frame with the opening earth."
     ]
   }
 }

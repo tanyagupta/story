@@ -6,199 +6,150 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production adaptation informed by an existing source-audited reference record.",
-    "variantPolicy": "Preserve the core source-audited episode while adapting its structure for production use.",
+    "constructionPolicy": "AI editorial adaptation of Danae and Perseus Cast Adrift; not a source edition.",
     "basedOnSourceAuditedReference": true
   },
   "referenceLinks": {
     "sourceAuditedRecordIds": [
       "bulk-verified-0019"
-    ],
-    "relatedSourceProposalIds": []
+    ]
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Danae and Perseus Cast Adrift begins with Danae in a focused Perseus situation rather than a full-cycle summary. The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Acrisius discovers Perseus and chooses exile by sea instead of direct killing.",
+    "ending": "Dictys finds the chest and shelters Danae and Perseus on Seriphos.",
+    "boundaryRationale": "The episode begins with acrisius discovers perseus and chooses exile by sea instead of direct killing and closes at dictys finds the chest and shelters danae and perseus on seriphos, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Production adaptation linked to source-audited reference where available, without claiming exact source fidelity.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Seriphos rescue version of Perseus’ infancy.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Danae and Perseus Cast Adrift, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Danae and Perseus Cast Adrift begins with Danae in a focused Perseus situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Danae and Perseus.",
-    "resolution": "The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Danae and Perseus, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Danae and Perseus Cast Adrift begins with Danae in a focused Perseus situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Danae and Perseus."
-      },
-      {
-        "beat": "turn",
-        "text": "Danae takes the decisive confront action that defines Danae and Perseus Cast Adrift."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Danae and Perseus, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "danae",
       "name": "Danae",
-      "role": "principal",
-      "entityType": "character"
+      "role": "endangered mother",
+      "goal": "protect infant Perseus at sea"
     },
     {
       "id": "perseus",
       "name": "Perseus",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "infant hero",
+      "goal": "survive the chest"
     },
     {
-      "id": "athena",
-      "name": "Athena",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Danae",
-      "normalizedId": "danae",
-      "normalizationStatus": "production_canonical"
+      "id": "acrisius",
+      "name": "Acrisius",
+      "role": "fearful grandfather",
+      "goal": "avoid blood guilt while evading prophecy"
     },
     {
-      "sourceName": "Perseus",
-      "normalizedId": "perseus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Athena",
-      "normalizedId": "athena",
-      "normalizationStatus": "production_canonical"
+      "id": "dictys",
+      "name": "Dictys",
+      "role": "fisherman rescuer",
+      "goal": "bring Danae and Perseus to safety"
     }
   ],
   "relationships": [
     {
       "source": "danae",
-      "relationship": "central_to",
+      "relationship": "parent-of",
       "target": "perseus",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Danae and Perseus define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Danae parent of Perseus during Danae and Perseus Cast Adrift."
+    },
+    {
+      "source": "acrisius",
+      "relationship": "parent-of",
+      "target": "danae",
+      "rationale": "Acrisius parent of Danae during Danae and Perseus Cast Adrift."
+    },
+    {
+      "source": "dictys",
+      "relationship": "rescuer-of",
+      "target": "danae",
+      "rationale": "Dictys rescuer of Danae during Danae and Perseus Cast Adrift."
     }
   ],
+  "narrative": {
+    "synopsis": "Acrisius casts Danae and Perseus into the sea to evade the prophecy without openly murdering them. The chest becomes both prison and vessel until Dictys rescues mother and child.",
+    "openingSituation": "The king’s first prison has failed because Perseus has been born.",
+    "centralConflict": "Acrisius chooses a cruel exile that lets the sea do what he fears to do himself.",
+    "resolution": "Dictys finds the chest and saves them.",
+    "outcome": "Perseus grows up away from Argos, but the oracle remains alive."
+  },
   "events": [
     {
-      "eventId": "production-myth-0043-event-01",
-      "actor": "danae",
-      "action": "establish",
-      "target": "perseus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Danae and Perseus Cast Adrift begins with Danae in a focused Perseus situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0043-event-02",
-      "actor": "perseus",
-      "action": "challenge",
-      "target": "danae",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Danae and Perseus.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0043-event-03",
-      "actor": "danae",
-      "action": "confront",
-      "target": "athena",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Danae performs the decisive action associated with Danae and Perseus Cast Adrift.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0043-event-04",
-      "actor": "danae",
-      "action": "resolve",
+      "actor": "acrisius",
+      "action": "discover",
       "target": "perseus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
+      "consequence": "Acrisius learns the child exists.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "acrisius",
+      "action": "seal",
+      "target": "danae",
+      "consequence": "Danae and Perseus are shut in a chest.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "acrisius",
+      "action": "cast-out",
+      "target": "perseus",
+      "consequence": "The chest is thrown into the sea.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "danae",
+      "action": "protect",
+      "target": "perseus",
+      "consequence": "Danae survives the drift with her child.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "dictys",
+      "action": "rescue",
+      "target": "danae",
+      "consequence": "Dictys finds and shelters them.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "perseus-setting",
-      "name": "Perseus setting",
-      "role": "primary setting"
-    }
+    "Argos",
+    "sea",
+    "Seriphos"
   ],
   "themes": [
-    "production adaptation",
-    "perseus",
-    "confront"
+    "exile",
+    "maternal survival",
+    "fate"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Danae and Perseus Cast Adrift begins with Danae in a focused Perseus situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Danae and Perseus.",
-      "The episode closes once Danae's decisive action changes the condition of Perseus and leaves later cycle material outside this record."
+    "visualBeats": [
+      "The king’s first prison has failed because Perseus has been born.",
+      "Acrisius chooses a cruel exile that lets the sea do what he fears to do himself.",
+      "Dictys finds the chest and saves them."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Danae and Perseus.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "The chest at sea should feel like both coffin and cradle."
     ]
   }
 }

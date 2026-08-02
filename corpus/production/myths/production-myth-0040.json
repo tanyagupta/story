@@ -6,197 +6,164 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Persephone Eats the Pomegranate; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Persephone Eats the Pomegranate begins with Persephone in a focused Demeter and Persephone situation rather than a full-cycle summary. The episode closes once Persephone's decisive action changes the condition of Demeter and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Hermes reaches Hades with Zeus’ order to release Persephone.",
+    "ending": "Persephone returns to Demeter but must spend part of each year below because she ate the pomegranate.",
+    "boundaryRationale": "The episode begins with hermes reaches hades with zeus’ order to release persephone and closes at persephone returns to demeter but must spend part of each year below because she ate the pomegranate, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Pomegranate-binding version of the seasonal compromise.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Persephone Eats the Pomegranate, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Persephone Eats the Pomegranate begins with Persephone in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Persephone and Demeter.",
-    "resolution": "The episode closes once Persephone's decisive action changes the condition of Demeter and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Persephone and Demeter, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Persephone Eats the Pomegranate begins with Persephone in a focused Demeter and Persephone situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Persephone and Demeter."
-      },
-      {
-        "beat": "turn",
-        "text": "Persephone takes the decisive confront action that defines Persephone Eats the Pomegranate."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Persephone and Demeter, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "persephone",
       "name": "Persephone",
-      "role": "principal",
-      "entityType": "character"
-    },
-    {
-      "id": "demeter",
-      "name": "Demeter",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "abducted daughter",
+      "goal": "return with a binding condition"
     },
     {
       "id": "hades",
       "name": "Hades",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Persephone",
-      "normalizedId": "persephone",
-      "normalizationStatus": "production_canonical"
+      "role": "underworld ruler",
+      "goal": "secure part of Persephone’s year"
     },
     {
-      "sourceName": "Demeter",
-      "normalizedId": "demeter",
-      "normalizationStatus": "production_canonical"
+      "id": "demeter",
+      "name": "Demeter",
+      "role": "mother seeking reunion",
+      "goal": "recover her daughter incompletely"
     },
     {
-      "sourceName": "Hades",
-      "normalizedId": "hades",
-      "normalizationStatus": "production_canonical"
+      "id": "hermes",
+      "name": "Hermes",
+      "role": "messenger",
+      "goal": "escort Persephone upward"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "arbiter",
+      "goal": "accept the divided year"
     }
   ],
   "relationships": [
     {
-      "source": "persephone",
-      "relationship": "central_to",
-      "target": "demeter",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Persephone and Demeter define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "source": "demeter",
+      "relationship": "parent-of",
+      "target": "persephone",
+      "rationale": "Demeter parent of Persephone during Persephone Eats the Pomegranate."
+    },
+    {
+      "source": "hades",
+      "relationship": "spouse-of",
+      "target": "persephone",
+      "rationale": "Hades spouse of Persephone during Persephone Eats the Pomegranate."
+    },
+    {
+      "source": "hermes",
+      "relationship": "rescuer-of",
+      "target": "persephone",
+      "rationale": "Hermes rescuer of Persephone during Persephone Eats the Pomegranate."
     }
   ],
+  "narrative": {
+    "synopsis": "Persephone’s return is real but incomplete. Hades’ pomegranate makes reunion conditional, creating the divided rhythm between underworld marriage and Demeter’s upper-world joy.",
+    "openingSituation": "Zeus has ordered Persephone’s release from Hades.",
+    "centralConflict": "A small act of eating carries cosmic consequences for mother, daughter, and seasons.",
+    "resolution": "Persephone returns but is bound to come back below.",
+    "outcome": "The year is divided, explaining recurring loss and renewal."
+  },
   "events": [
     {
-      "eventId": "production-myth-0040-event-01",
-      "actor": "persephone",
-      "action": "establish",
-      "target": "demeter",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "Persephone Eats the Pomegranate begins with Persephone in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0040-event-02",
-      "actor": "demeter",
-      "action": "challenge",
-      "target": "persephone",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Persephone and Demeter.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0040-event-03",
-      "actor": "persephone",
-      "action": "confront",
+      "actor": "hermes",
+      "action": "summon",
       "target": "hades",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "Persephone performs the decisive action associated with Persephone Eats the Pomegranate.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "consequence": "Hermes delivers Zeus’ command.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0040-event-04",
+      "sequence": 2,
+      "actor": "hades",
+      "action": "give",
+      "target": "persephone",
+      "consequence": "Hades offers the pomegranate seeds.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
       "actor": "persephone",
-      "action": "resolve",
-      "target": "demeter",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "The episode closes once Persephone's decisive action changes the condition of Demeter and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
+      "action": "eat",
+      "target": "hades",
+      "consequence": "Persephone eats the binding food.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "hermes",
+      "action": "escort",
+      "target": "persephone",
+      "consequence": "Hermes leads her back upward.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "demeter",
+      "action": "reunite",
+      "target": "persephone",
+      "consequence": "Mother and daughter meet again.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "zeus",
+      "action": "divide",
+      "target": "persephone",
+      "consequence": "Zeus accepts the divided year.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "demeter-and-persephone-setting",
-      "name": "Demeter and Persephone setting",
-      "role": "primary setting"
-    }
+    "underworld",
+    "upper world",
+    "Demeter’s sanctuary"
   ],
   "themes": [
-    "production adaptation",
-    "demeter and persephone",
-    "confront"
+    "seasonal cycle",
+    "conditional return",
+    "mother and daughter"
   ],
   "adaptation": {
-    "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Persephone Eats the Pomegranate begins with Persephone in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Persephone and Demeter.",
-      "The episode closes once Persephone's decisive action changes the condition of Demeter and leaves later cycle material outside this record."
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Zeus has ordered Persephone’s release from Hades.",
+      "A small act of eating carries cosmic consequences for mother, daughter, and seasons.",
+      "Persephone returns but is bound to come back below."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Persephone and Demeter.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Show the pomegranate as quiet, small, and more binding than chains."
     ]
   }
 }

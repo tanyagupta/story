@@ -6,209 +6,169 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Perseus Rescues Andromeda; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Perseus Rescues Andromeda begins with Perseus in a focused Perseus situation rather than a full-cycle summary. The episode closes once Perseus's decisive action changes the condition of Andromeda and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Perseus sees Andromeda chained to a rock as an offering to the sea monster.",
+    "ending": "Perseus kills the monster and wins Andromeda’s release and marriage promise.",
+    "boundaryRationale": "The episode begins with perseus sees andromeda chained to a rock as an offering to the sea monster and closes at perseus kills the monster and wins andromeda’s release and marriage promise, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Andromeda rescue episode; the later Phineus wedding fight is excluded.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Perseus Rescues Andromeda, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Perseus Rescues Andromeda begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the rescue action named by the episode, involving Perseus and Andromeda.",
-    "resolution": "The episode closes once Perseus's decisive action changes the condition of Andromeda and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Perseus and Andromeda, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Perseus Rescues Andromeda begins with Perseus in a focused Perseus situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the rescue action named by the episode, involving Perseus and Andromeda."
-      },
-      {
-        "beat": "turn",
-        "text": "Perseus takes the decisive rescue action that defines Perseus Rescues Andromeda."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Perseus and Andromeda, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "perseus",
       "name": "Perseus",
-      "role": "principal",
-      "entityType": "character"
+      "role": "returning hero",
+      "goal": "rescue Andromeda"
     },
     {
       "id": "andromeda",
       "name": "Andromeda",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "chained princess",
+      "goal": "survive sacrifice to the sea monster"
     },
     {
-      "id": "danae",
-      "name": "Danae",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
-    {
-      "id": "athena",
-      "name": "Athena",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Perseus",
-      "normalizedId": "perseus",
-      "normalizationStatus": "production_canonical"
+      "id": "cepheus",
+      "name": "Cepheus",
+      "role": "father and king",
+      "goal": "agree to Perseus’ terms"
     },
     {
-      "sourceName": "Andromeda",
-      "normalizedId": "andromeda",
-      "normalizationStatus": "production_canonical"
+      "id": "cassiopeia",
+      "name": "Cassiopeia",
+      "role": "boastful queen",
+      "goal": "cause the punishment in many versions"
     },
     {
-      "sourceName": "Danae",
-      "normalizedId": "danae",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Athena",
-      "normalizedId": "athena",
-      "normalizationStatus": "production_canonical"
+      "id": "sea-monster",
+      "name": "Sea monster",
+      "role": "divine punishment",
+      "goal": "threaten Andromeda"
     }
   ],
   "relationships": [
     {
-      "source": "perseus",
-      "relationship": "central_to",
+      "source": "cepheus",
+      "relationship": "parent-of",
       "target": "andromeda",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Perseus and Andromeda define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Cepheus parent of Andromeda during Perseus Rescues Andromeda."
+    },
+    {
+      "source": "cassiopeia",
+      "relationship": "parent-of",
+      "target": "andromeda",
+      "rationale": "Cassiopeia parent of Andromeda during Perseus Rescues Andromeda."
+    },
+    {
+      "source": "perseus",
+      "relationship": "rescuer-of",
+      "target": "andromeda",
+      "rationale": "Perseus rescuer of Andromeda during Perseus Rescues Andromeda."
+    },
+    {
+      "source": "sea-monster",
+      "relationship": "enemy-of",
+      "target": "andromeda",
+      "rationale": "Sea monster enemy of Andromeda during Perseus Rescues Andromeda."
     }
   ],
+  "narrative": {
+    "synopsis": "Perseus’ return from the Gorgon quest becomes a rescue when he finds Andromeda chained for a monster. The episode closes with the monster defeated and Andromeda released, before later wedding conflict begins.",
+    "openingSituation": "Andromeda has been exposed because her family’s offense has fallen on her body.",
+    "centralConflict": "Perseus must decide whether to risk his prize and life for a stranger’s rescue.",
+    "resolution": "The sea monster is killed and Andromeda is freed.",
+    "outcome": "A rescue becomes a marriage alliance, while later rival claims remain outside this record."
+  },
   "events": [
     {
-      "eventId": "production-myth-0047-event-01",
-      "actor": "perseus",
-      "action": "establish",
-      "target": "andromeda",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Perseus Rescues Andromeda begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "cassiopeia",
+      "action": "offend",
+      "target": "sea-monster",
+      "consequence": "Cassiopeia’s boast triggers divine punishment.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0047-event-02",
-      "actor": "andromeda",
-      "action": "challenge",
-      "target": "perseus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The central pressure is the rescue action named by the episode, involving Perseus and Andromeda.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "andromeda",
+      "action": "suffer",
+      "target": "cassiopeia",
+      "consequence": "Andromeda is chained for sacrifice.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0047-event-03",
+      "sequence": 3,
+      "actor": "perseus",
+      "action": "find",
+      "target": "andromeda",
+      "consequence": "Perseus sees her on the rock.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "perseus",
+      "action": "bargain",
+      "target": "cepheus",
+      "consequence": "Perseus secures terms for rescue.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "perseus",
+      "action": "slay",
+      "target": "sea-monster",
+      "consequence": "Perseus kills the monster.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
       "actor": "perseus",
       "action": "rescue",
-      "target": "danae",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Perseus performs the decisive action associated with Perseus Rescues Andromeda.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0047-event-04",
-      "actor": "perseus",
-      "action": "resolve",
       "target": "andromeda",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The episode closes once Perseus's decisive action changes the condition of Andromeda and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "consequence": "Andromeda is released.",
+      "factIds": [
+        "fact-06"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "perseus-setting",
-      "name": "Perseus setting",
-      "role": "primary setting"
-    }
+    "Ethiopian coast",
+    "sacrificial rock"
   ],
   "themes": [
-    "production adaptation",
-    "perseus",
-    "rescue"
+    "rescue",
+    "innocent victim",
+    "monster combat"
   ],
   "adaptation": {
-    "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Perseus Rescues Andromeda begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-      "The central pressure is the rescue action named by the episode, involving Perseus and Andromeda.",
-      "The episode closes once Perseus's decisive action changes the condition of Andromeda and leaves later cycle material outside this record."
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Andromeda has been exposed because her family’s offense has fallen on her body.",
+      "Perseus must decide whether to risk his prize and life for a stranger’s rescue.",
+      "The sea monster is killed and Andromeda is freed."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Perseus and Andromeda.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Frame Andromeda’s chains and the sea horizon before Perseus enters."
     ]
   }
 }

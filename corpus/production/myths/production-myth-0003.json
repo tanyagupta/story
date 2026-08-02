@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of The Titans Are Born; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins after Gaia and Uranus are joined as earth and sky.",
     "ending": "It ends with the Titan generation present, including Cronus, the child who will later challenge Uranus.",
-    "boundaryRationale": "Starts with the episode begins after gaia and uranus are joined as earth and sky. Stops at it ends with the titan generation present, including cronus, the child who will later challenge uranus."
+    "boundaryRationale": "The episode begins with the episode begins after gaia and uranus are joined as earth and sky and closes at it ends with the titan generation present, including cronus, the child who will later challenge uranus, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Hesiodic Titan genealogy treated as a bounded birth episode, not a profile of every Titan.",
@@ -56,15 +56,27 @@
   "relationships": [
     {
       "source": "gaia",
-      "relationship": "mythic-tension-with",
-      "target": "uranus",
-      "rationale": "Gaia and Uranus shape The Titans Are Born."
+      "relationship": "parent-of",
+      "target": "oceanus",
+      "rationale": "Gaia parent of Oceanus during The Titans Are Born."
     },
     {
       "source": "gaia",
-      "relationship": "mythic-tension-with",
-      "target": "oceanus",
-      "rationale": "Gaia and Oceanus shape The Titans Are Born."
+      "relationship": "parent-of",
+      "target": "cronus",
+      "rationale": "Gaia parent of Cronus during The Titans Are Born."
+    },
+    {
+      "source": "uranus",
+      "relationship": "parent-of",
+      "target": "rhea",
+      "rationale": "Uranus parent of Rhea during The Titans Are Born."
+    },
+    {
+      "source": "cronus",
+      "relationship": "sibling-of",
+      "target": "rhea",
+      "rationale": "Cronus sibling of Rhea during The Titans Are Born."
     }
   ],
   "narrative": {
@@ -130,8 +142,8 @@
     "cosmic beginning"
   ],
   "themes": [
-    "bounded myth episode",
-    "primordial and creation",
+    "primordial emergence",
+    "divine succession",
     "bear"
   ],
   "adaptation": {
@@ -143,8 +155,7 @@
     ],
     "sensitiveContent": [],
     "productionNotes": [
-      "Focus on The Titans Are Born.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: A generation powerful enough to inherit the cosmos is born under Uranus’ authority."
     ]
   }
 }

@@ -6,197 +6,139 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Triptolemus Receives the Grain; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Triptolemus Receives the Grain begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary. The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "After Demeter’s reconciliation with Eleusis, she chooses Triptolemus as a bearer of grain knowledge.",
+    "ending": "Triptolemus departs to spread agriculture and Demeter’s gift among humans.",
+    "boundaryRationale": "The episode begins with after demeter’s reconciliation with eleusis, she chooses triptolemus as a bearer of grain knowledge and closes at triptolemus departs to spread agriculture and demeter’s gift among humans, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Eleusinian agricultural mission; winged chariot details vary.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Triptolemus Receives the Grain, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Triptolemus Receives the Grain begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the receive action named by the episode, involving Demeter and Persephone.",
-    "resolution": "The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Demeter and Persephone, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Triptolemus Receives the Grain begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the receive action named by the episode, involving Demeter and Persephone."
-      },
-      {
-        "beat": "turn",
-        "text": "Demeter takes the decisive receive action that defines Triptolemus Receives the Grain."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Demeter and Persephone, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "demeter",
       "name": "Demeter",
-      "role": "principal",
-      "entityType": "character"
+      "role": "giver of agriculture",
+      "goal": "teach grain cultivation"
     },
     {
-      "id": "persephone",
-      "name": "Persephone",
-      "role": "supporting",
-      "entityType": "character"
+      "id": "triptolemus",
+      "name": "Triptolemus",
+      "role": "Eleusinian recipient",
+      "goal": "carry grain knowledge to mortals"
     },
     {
-      "id": "hades",
-      "name": "Hades",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Demeter",
-      "normalizedId": "demeter",
-      "normalizationStatus": "production_canonical"
+      "id": "eleusinians",
+      "name": "Eleusinians",
+      "role": "first instructed community",
+      "goal": "preserve Demeter’s rites"
     },
     {
-      "sourceName": "Persephone",
-      "normalizedId": "persephone",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Hades",
-      "normalizedId": "hades",
-      "normalizationStatus": "production_canonical"
+      "id": "humans",
+      "name": "Humans",
+      "role": "future learners",
+      "goal": "receive agriculture"
     }
   ],
   "relationships": [
     {
       "source": "demeter",
-      "relationship": "central_to",
-      "target": "persephone",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Demeter and Persephone define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "relationship": "protects",
+      "target": "triptolemus",
+      "rationale": "Demeter protects Triptolemus during Triptolemus Receives the Grain."
+    },
+    {
+      "source": "triptolemus",
+      "relationship": "ally-of",
+      "target": "eleusinians",
+      "rationale": "Triptolemus ally of Eleusinians during Triptolemus Receives the Grain."
     }
   ],
+  "narrative": {
+    "synopsis": "Triptolemus turns Demeter’s restored favor into human culture. Given grain and instruction, he carries agriculture beyond Eleusis and makes the goddess’ gift visible in cultivated fields.",
+    "openingSituation": "Demeter’s grief has ended enough for fertility to return.",
+    "centralConflict": "The gift of grain must move from divine possession to human practice.",
+    "resolution": "Triptolemus receives the task and begins teaching.",
+    "outcome": "Agriculture becomes a sacred inheritance from Demeter."
+  },
   "events": [
     {
-      "eventId": "production-myth-0041-event-01",
-      "actor": "demeter",
-      "action": "establish",
-      "target": "persephone",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "Triptolemus Receives the Grain begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "demeter",
+      "action": "teach",
+      "target": "triptolemus",
+      "consequence": "Demeter gives grain knowledge.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0041-event-02",
-      "actor": "persephone",
-      "action": "challenge",
-      "target": "demeter",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "The central pressure is the receive action named by the episode, involving Demeter and Persephone.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0041-event-03",
-      "actor": "demeter",
+      "actor": "triptolemus",
       "action": "receive",
-      "target": "hades",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "Demeter performs the decisive action associated with Triptolemus Receives the Grain.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "target": "demeter",
+      "consequence": "Triptolemus accepts the sacred task.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0041-event-04",
-      "actor": "demeter",
-      "action": "resolve",
-      "target": "persephone",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
+      "sequence": 3,
+      "actor": "eleusinians",
+      "action": "honor",
+      "target": "demeter",
+      "consequence": "Eleusis preserves the goddess’ rites.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "triptolemus",
+      "action": "travel",
+      "target": "humans",
+      "consequence": "Triptolemus carries the teaching outward.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "humans",
+      "action": "cultivate",
+      "target": "triptolemus",
+      "consequence": "Mortals learn to grow grain.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "demeter-and-persephone-setting",
-      "name": "Demeter and Persephone setting",
-      "role": "primary setting"
-    }
+    "Eleusis",
+    "cultivated fields"
   ],
   "themes": [
-    "production adaptation",
-    "demeter and persephone",
-    "receive"
+    "agriculture",
+    "sacred teaching",
+    "renewal"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Triptolemus Receives the Grain begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-      "The central pressure is the receive action named by the episode, involving Demeter and Persephone.",
-      "The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record."
-    ],
-    "dialogueOpportunities": [
-      "A charged exchange between Demeter and Persephone.",
-      "A closing line that clarifies the changed mythic condition."
+    "visualBeats": [
+      "Demeter’s grief has ended enough for fertility to return.",
+      "The gift of grain must move from divine possession to human practice.",
+      "Triptolemus receives the task and begins teaching."
     ],
     "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Use golden grain as a visual contrast to earlier barren-earth episodes."
     ]
   }
 }

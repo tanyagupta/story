@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Zeus Frees His Siblings; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when Zeus has grown strong enough to confront the fate of his swallowed siblings.",
     "ending": "It ends with the children of Rhea released and able to stand with Zeus against Cronus.",
-    "boundaryRationale": "Starts with the episode begins when zeus has grown strong enough to confront the fate of his swallowed siblings. Stops at it ends with the children of rhea released and able to stand with zeus against cronus."
+    "boundaryRationale": "The episode begins with the episode begins when zeus has grown strong enough to confront the fate of his swallowed siblings and closes at it ends with the children of rhea released and able to stand with zeus against cronus, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Common version in which Metis helps Zeus make Cronus disgorge the swallowed Olympians.",
@@ -62,15 +62,27 @@
   "relationships": [
     {
       "source": "zeus",
-      "relationship": "mythic-tension-with",
+      "relationship": "child-of",
       "target": "cronus",
-      "rationale": "Zeus and Cronus shape Zeus Frees His Siblings."
+      "rationale": "Zeus child of Cronus during Zeus Frees His Siblings."
     },
     {
-      "source": "zeus",
-      "relationship": "mythic-tension-with",
-      "target": "metis",
-      "rationale": "Zeus and Metis shape Zeus Frees His Siblings."
+      "source": "metis",
+      "relationship": "ally-of",
+      "target": "zeus",
+      "rationale": "Metis ally of Zeus during Zeus Frees His Siblings."
+    },
+    {
+      "source": "poseidon",
+      "relationship": "sibling-of",
+      "target": "zeus",
+      "rationale": "Poseidon sibling of Zeus during Zeus Frees His Siblings."
+    },
+    {
+      "source": "hades",
+      "relationship": "sibling-of",
+      "target": "zeus",
+      "rationale": "Hades sibling of Zeus during Zeus Frees His Siblings."
     }
   ],
   "narrative": {
@@ -136,8 +148,8 @@
     "cosmic beginning"
   ],
   "themes": [
-    "bounded myth episode",
-    "primordial and creation",
+    "primordial emergence",
+    "divine succession",
     "mature"
   ],
   "adaptation": {
@@ -151,8 +163,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Zeus Frees His Siblings.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Cronus still contains the older children and still holds Titan power."
     ]
   }
 }

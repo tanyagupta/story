@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Rhea Saves Zeus; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins with Rhea pregnant again after Cronus has swallowed her earlier children.",
     "ending": "It ends with Zeus hidden in Crete while Cronus believes he has swallowed the newborn.",
-    "boundaryRationale": "Starts with the episode begins with rhea pregnant again after cronus has swallowed her earlier children. Stops at it ends with zeus hidden in crete while cronus believes he has swallowed the newborn."
+    "boundaryRationale": "The episode begins with the episode begins with rhea pregnant again after cronus has swallowed her earlier children and closes at it ends with zeus hidden in crete while cronus believes he has swallowed the newborn, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Cretan infancy version with Rhea substituting a wrapped stone for Zeus.",
@@ -56,15 +56,27 @@
   "relationships": [
     {
       "source": "rhea",
-      "relationship": "mythic-tension-with",
+      "relationship": "parent-of",
       "target": "zeus",
-      "rationale": "Rhea and Zeus shape Rhea Saves Zeus."
+      "rationale": "Rhea parent of Zeus during Rhea Saves Zeus."
     },
     {
-      "source": "rhea",
-      "relationship": "mythic-tension-with",
-      "target": "cronus",
-      "rationale": "Rhea and Cronus shape Rhea Saves Zeus."
+      "source": "cronus",
+      "relationship": "parent-of",
+      "target": "zeus",
+      "rationale": "Cronus parent of Zeus during Rhea Saves Zeus."
+    },
+    {
+      "source": "gaia",
+      "relationship": "ally-of",
+      "target": "rhea",
+      "rationale": "Gaia ally of Rhea during Rhea Saves Zeus."
+    },
+    {
+      "source": "curetes",
+      "relationship": "protects",
+      "target": "zeus",
+      "rationale": "Curetes protects Zeus during Rhea Saves Zeus."
     }
   ],
   "narrative": {
@@ -130,8 +142,8 @@
     "cosmic beginning"
   ],
   "themes": [
-    "bounded myth episode",
-    "primordial and creation",
+    "primordial emergence",
+    "divine succession",
     "consult"
   ],
   "adaptation": {
@@ -145,8 +157,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Rhea Saves Zeus.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: The newborn must be hidden from a father who consumes his heirs."
     ]
   }
 }

@@ -6,197 +6,153 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Perseus Fulfills the Oracle; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Perseus Fulfills the Oracle begins with Perseus in a focused Perseus situation rather than a full-cycle summary. The episode closes once Perseus's decisive action changes the condition of Danae and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Perseus has survived his quests and returns to Greek society as an honored hero.",
+    "ending": "A discus thrown by Perseus strikes Acrisius, fulfilling the oracle without intentional murder.",
+    "boundaryRationale": "The episode begins with perseus has survived his quests and returns to greek society as an honored hero and closes at a discus thrown by perseus strikes acrisius, fulfilling the oracle without intentional murder, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Accidental fulfillment version; location varies by tradition, often games at Larissa.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Perseus Fulfills the Oracle, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Perseus Fulfills the Oracle begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Perseus and Danae.",
-    "resolution": "The episode closes once Perseus's decisive action changes the condition of Danae and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Perseus and Danae, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Perseus Fulfills the Oracle begins with Perseus in a focused Perseus situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Perseus and Danae."
-      },
-      {
-        "beat": "turn",
-        "text": "Perseus takes the decisive confront action that defines Perseus Fulfills the Oracle."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Perseus and Danae, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "perseus",
       "name": "Perseus",
-      "role": "principal",
-      "entityType": "character"
+      "role": "hero unaware of his grandfather’s presence",
+      "goal": "fulfill the prophecy accidentally"
+    },
+    {
+      "id": "acrisius",
+      "name": "Acrisius",
+      "role": "fearful grandfather",
+      "goal": "fail to escape fate"
     },
     {
       "id": "danae",
       "name": "Danae",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "mother of Perseus",
+      "goal": "link the separated generations"
     },
     {
-      "id": "athena",
-      "name": "Athena",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Perseus",
-      "normalizedId": "perseus",
-      "normalizationStatus": "production_canonical"
+      "id": "athletes",
+      "name": "Athletes",
+      "role": "contest participants",
+      "goal": "frame the accidental death"
     },
     {
-      "sourceName": "Danae",
-      "normalizedId": "danae",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Athena",
-      "normalizedId": "athena",
-      "normalizationStatus": "production_canonical"
+      "id": "discus",
+      "name": "Discus",
+      "role": "athletic implement",
+      "goal": "carry the fatal accident"
     }
   ],
   "relationships": [
     {
-      "source": "perseus",
-      "relationship": "central_to",
+      "source": "acrisius",
+      "relationship": "parent-of",
       "target": "danae",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Perseus and Danae define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Acrisius parent of Danae during Perseus Fulfills the Oracle."
+    },
+    {
+      "source": "danae",
+      "relationship": "parent-of",
+      "target": "perseus",
+      "rationale": "Danae parent of Perseus during Perseus Fulfills the Oracle."
+    },
+    {
+      "source": "acrisius",
+      "relationship": "enemy-of",
+      "target": "perseus",
+      "rationale": "Acrisius enemy of Perseus during Perseus Fulfills the Oracle."
     }
   ],
+  "narrative": {
+    "synopsis": "Perseus does not hunt Acrisius; fate completes itself through an athletic accident. The discus fulfills the prophecy more powerfully because both men had lived as if distance could defeat it.",
+    "openingSituation": "The family has been separated by Acrisius’ fear of the oracle.",
+    "centralConflict": "The question is whether avoidance can undo a prophecy already woven through the family.",
+    "resolution": "Perseus’ discus kills Acrisius by accident.",
+    "outcome": "The oracle is fulfilled without deliberate revenge."
+  },
   "events": [
     {
-      "eventId": "production-myth-0049-event-01",
-      "actor": "perseus",
-      "action": "establish",
-      "target": "danae",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Perseus Fulfills the Oracle begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0049-event-02",
-      "actor": "danae",
-      "action": "challenge",
+      "actor": "acrisius",
+      "action": "fear",
       "target": "perseus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Perseus and Danae.",
-      "sourceText": null,
-      "evidence": [],
+      "consequence": "Acrisius has long feared the prophecy.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "perseus",
+      "action": "compete",
+      "target": "athletes",
+      "consequence": "Perseus joins athletic games.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0049-event-03",
-      "actor": "perseus",
-      "action": "confront",
-      "target": "athena",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Perseus performs the decisive action associated with Perseus Fulfills the Oracle.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "perseus",
+      "action": "throw",
+      "target": "discus",
+      "consequence": "Perseus releases the fatal discus.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0049-event-04",
-      "actor": "perseus",
-      "action": "resolve",
-      "target": "danae",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The episode closes once Perseus's decisive action changes the condition of Danae and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "discus",
+      "action": "strike",
+      "target": "acrisius",
+      "consequence": "The discus hits Acrisius.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "perseus",
+      "action": "fulfill",
+      "target": "acrisius",
+      "consequence": "The oracle comes true unintentionally.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "perseus-setting",
-      "name": "Perseus setting",
-      "role": "primary setting"
-    }
+    "athletic games",
+    "Larissa tradition"
   ],
   "themes": [
-    "production adaptation",
-    "perseus",
-    "confront"
+    "fate",
+    "accident",
+    "prophecy"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Perseus Fulfills the Oracle begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Perseus and Danae.",
-      "The episode closes once Perseus's decisive action changes the condition of Danae and leaves later cycle material outside this record."
+    "visualBeats": [
+      "The family has been separated by Acrisius’ fear of the oracle.",
+      "The question is whether avoidance can undo a prophecy already woven through the family.",
+      "Perseus’ discus kills Acrisius by accident."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Perseus and Danae.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Keep the death accidental; do not turn it into revenge."
     ]
   }
 }

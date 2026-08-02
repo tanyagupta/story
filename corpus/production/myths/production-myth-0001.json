@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Chaos Before the First Gods; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins before the ordered cosmos, when only yawning Chaos exists.",
     "ending": "It ends when Gaia, Tartarus, Eros, Erebus, and Night give the universe its first distinct powers.",
-    "boundaryRationale": "Starts with the episode begins before the ordered cosmos, when only yawning chaos exists. Stops at it ends when gaia, tartarus, eros, erebus, and night give the universe its first distinct powers."
+    "boundaryRationale": "The episode begins with the episode begins before the ordered cosmos, when only yawning chaos exists and closes at it ends when gaia, tartarus, eros, erebus, and night give the universe its first distinct powers, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Hesiodic creation sequence; no Olympian gods are present yet.",
@@ -53,20 +53,7 @@
       "goal": "emerge from darkness"
     }
   ],
-  "relationships": [
-    {
-      "source": "chaos",
-      "relationship": "mythic-tension-with",
-      "target": "gaia",
-      "rationale": "Chaos and Gaia shape Chaos Before the First Gods."
-    },
-    {
-      "source": "chaos",
-      "relationship": "mythic-tension-with",
-      "target": "tartarus",
-      "rationale": "Chaos and Tartarus shape Chaos Before the First Gods."
-    }
-  ],
+  "relationships": [],
   "narrative": {
     "synopsis": "Before gods reign or mortals exist, Chaos opens as the first gap. Gaia, Tartarus, Eros, Erebus, and Night appear as separate powers, giving the cosmos its first geography and generative force.",
     "openingSituation": "There is no throne, war, or family yet, only the unshaped gap called Chaos.",
@@ -99,7 +86,7 @@
       "sequence": 3,
       "actor": "tartarus",
       "action": "descend",
-      "target": "gaia",
+      "target": null,
       "consequence": "The lower abyss defines cosmic depth.",
       "factIds": [
         "fact-03"
@@ -109,7 +96,7 @@
       "sequence": 4,
       "actor": "eros",
       "action": "bind",
-      "target": "gaia",
+      "target": null,
       "consequence": "Generative desire makes later births possible.",
       "factIds": [
         "fact-04"
@@ -130,8 +117,8 @@
     "cosmic beginning"
   ],
   "themes": [
-    "bounded myth episode",
-    "primordial and creation",
+    "primordial emergence",
+    "divine succession",
     "open"
   ],
   "adaptation": {
@@ -143,8 +130,7 @@
     ],
     "sensitiveContent": [],
     "productionNotes": [
-      "Focus on Chaos Before the First Gods.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: The dramatic movement is not battle but differentiation: void must become a world with earth, depth, darkness, and desire."
     ]
   }
 }

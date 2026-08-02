@@ -6,199 +6,176 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production adaptation informed by an existing source-audited reference record.",
-    "variantPolicy": "Preserve the core source-audited episode while adapting its structure for production use.",
+    "constructionPolicy": "AI editorial adaptation of Infant Heracles Strangles the Serpents; not a source edition.",
     "basedOnSourceAuditedReference": true
   },
   "referenceLinks": {
     "sourceAuditedRecordIds": [
       "bulk-verified-0012"
-    ],
-    "relatedSourceProposalIds": []
+    ]
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Infant Heracles Strangles the Serpents begins with Heracles in a focused Heracles situation rather than a full-cycle summary. The episode closes once Heracles's decisive action changes the condition of Eurystheus and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "The episode begins with infant Heracles and Iphicles asleep in the nursery.",
+    "ending": "It ends when Heracles is found holding the strangled serpents, proving his supernatural strength.",
+    "boundaryRationale": "The episode begins with the episode begins with infant heracles and iphicles asleep in the nursery and closes at it ends when heracles is found holding the strangled serpents, proving his supernatural strength, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Production adaptation linked to source-audited reference where available, without claiming exact source fidelity.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Infancy omen version; later Labors and adult conflicts are excluded.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Infant Heracles Strangles the Serpents, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Infant Heracles Strangles the Serpents begins with Heracles in a focused Heracles situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Heracles and Eurystheus.",
-    "resolution": "The episode closes once Heracles's decisive action changes the condition of Eurystheus and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Heracles and Eurystheus, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Infant Heracles Strangles the Serpents begins with Heracles in a focused Heracles situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Heracles and Eurystheus."
-      },
-      {
-        "beat": "turn",
-        "text": "Heracles takes the decisive confront action that defines Infant Heracles Strangles the Serpents."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Heracles and Eurystheus, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "heracles",
       "name": "Heracles",
-      "role": "principal",
-      "entityType": "character"
+      "role": "divine-born infant",
+      "goal": "reveal impossible strength"
     },
     {
-      "id": "eurystheus",
-      "name": "Eurystheus",
-      "role": "supporting",
-      "entityType": "character"
+      "id": "iphicles",
+      "name": "Iphicles",
+      "role": "mortal twin",
+      "goal": "show ordinary fear beside Heracles"
+    },
+    {
+      "id": "alcmene",
+      "name": "Alcmene",
+      "role": "mother of the twins",
+      "goal": "discover the miracle"
+    },
+    {
+      "id": "amphitryon",
+      "name": "Amphitryon",
+      "role": "household father",
+      "goal": "recognize the omen"
     },
     {
       "id": "hera",
       "name": "Hera",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Heracles",
-      "normalizedId": "heracles",
-      "normalizationStatus": "production_canonical"
+      "role": "hostile goddess",
+      "goal": "attempt to destroy Zeus’ child"
     },
     {
-      "sourceName": "Eurystheus",
-      "normalizedId": "eurystheus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Hera",
-      "normalizedId": "hera",
-      "normalizationStatus": "production_canonical"
+      "id": "serpents",
+      "name": "Serpents",
+      "role": "sent attackers",
+      "goal": "fail to kill the infant"
     }
   ],
   "relationships": [
     {
+      "source": "hera",
+      "relationship": "enemy-of",
+      "target": "heracles",
+      "rationale": "Hera enemy of Heracles during Infant Heracles Strangles the Serpents."
+    },
+    {
+      "source": "alcmene",
+      "relationship": "parent-of",
+      "target": "heracles",
+      "rationale": "Alcmene parent of Heracles during Infant Heracles Strangles the Serpents."
+    },
+    {
+      "source": "amphitryon",
+      "relationship": "protects",
+      "target": "heracles",
+      "rationale": "Amphitryon protects Heracles during Infant Heracles Strangles the Serpents."
+    },
+    {
       "source": "heracles",
-      "relationship": "central_to",
-      "target": "eurystheus",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Heracles and Eurystheus define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "relationship": "sibling-of",
+      "target": "iphicles",
+      "rationale": "Heracles sibling of Iphicles during Infant Heracles Strangles the Serpents."
     }
   ],
+  "narrative": {
+    "synopsis": "Before Heracles can speak or choose heroism, Hera’s hostility enters the nursery as serpents. The infant’s response reveals strength so unnatural that the household reads it as destiny.",
+    "openingSituation": "The twins sleep like ordinary children under Alcmene’s roof.",
+    "centralConflict": "A divine enemy attacks before Heracles is old enough to understand the danger.",
+    "resolution": "Heracles strangles the serpents in his cradle.",
+    "outcome": "The household sees that his life will not be ordinary."
+  },
   "events": [
     {
-      "eventId": "production-myth-0050-event-01",
-      "actor": "heracles",
-      "action": "establish",
-      "target": "eurystheus",
-      "object": null,
-      "recipient": null,
-      "location": "heracles-setting",
-      "normalizedStatement": "Infant Heracles Strangles the Serpents begins with Heracles in a focused Heracles situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "hera",
+      "action": "send",
+      "target": "serpents",
+      "consequence": "Hera’s hostility reaches the nursery.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0050-event-02",
-      "actor": "eurystheus",
-      "action": "challenge",
-      "target": "heracles",
-      "object": null,
-      "recipient": null,
-      "location": "heracles-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Heracles and Eurystheus.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "serpents",
+      "action": "attack",
+      "target": "heracles",
+      "consequence": "The snakes threaten the infants.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0050-event-03",
-      "actor": "heracles",
-      "action": "confront",
-      "target": "hera",
-      "object": null,
-      "recipient": null,
-      "location": "heracles-setting",
-      "normalizedStatement": "Heracles performs the decisive action associated with Infant Heracles Strangles the Serpents.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "iphicles",
+      "action": "cry-out",
+      "target": "serpents",
+      "consequence": "Iphicles reacts with ordinary fear.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0050-event-04",
-      "actor": "heracles",
-      "action": "resolve",
-      "target": "eurystheus",
-      "object": null,
-      "recipient": null,
-      "location": "heracles-setting",
-      "normalizedStatement": "The episode closes once Heracles's decisive action changes the condition of Eurystheus and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "heracles",
+      "action": "grasp",
+      "target": "serpents",
+      "consequence": "Heracles seizes the attackers.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "heracles",
+      "action": "strangle",
+      "target": "serpents",
+      "consequence": "The infant kills the serpents.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "alcmene",
+      "action": "recognize",
+      "target": "heracles",
+      "consequence": "The household recognizes the omen.",
+      "factIds": [
+        "fact-06"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "heracles-setting",
-      "name": "Heracles setting",
-      "role": "primary setting"
-    }
+    "Theban nursery"
   ],
   "themes": [
-    "production adaptation",
-    "heracles",
-    "confront"
+    "infant strength",
+    "divine hostility",
+    "omen"
   ],
   "adaptation": {
-    "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Infant Heracles Strangles the Serpents begins with Heracles in a focused Heracles situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Heracles and Eurystheus.",
-      "The episode closes once Heracles's decisive action changes the condition of Eurystheus and leaves later cycle material outside this record."
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "The twins sleep like ordinary children under Alcmene’s roof.",
+      "A divine enemy attacks before Heracles is old enough to understand the danger.",
+      "Heracles strangles the serpents in his cradle."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Heracles and Eurystheus.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Stage Iphicles’ fear beside Heracles’ calm grip to show the contrast."
     ]
   }
 }

@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Uranus Imprisons His Children; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when Uranus fears or hates the monstrous children born from Gaia.",
     "ending": "It ends when Gaia, in pain, prepares a sickle and seeks a child willing to attack Uranus.",
-    "boundaryRationale": "Starts with the episode begins when uranus fears or hates the monstrous children born from gaia. Stops at it ends when gaia, in pain, prepares a sickle and seeks a child willing to attack uranus."
+    "boundaryRationale": "The episode begins with the episode begins when uranus fears or hates the monstrous children born from gaia and closes at it ends when gaia, in pain, prepares a sickle and seeks a child willing to attack uranus, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Hesiodic oppression of Cyclopes and Hundred-Handers inside Gaia.",
@@ -56,15 +56,27 @@
   "relationships": [
     {
       "source": "uranus",
-      "relationship": "mythic-tension-with",
-      "target": "gaia",
-      "rationale": "Uranus and Gaia shape Uranus Imprisons His Children."
+      "relationship": "captor-of",
+      "target": "cyclopes",
+      "rationale": "Uranus captor of Cyclopes during Uranus Imprisons His Children."
     },
     {
       "source": "uranus",
-      "relationship": "mythic-tension-with",
+      "relationship": "captor-of",
+      "target": "hecatoncheires",
+      "rationale": "Uranus captor of Hecatoncheires during Uranus Imprisons His Children."
+    },
+    {
+      "source": "gaia",
+      "relationship": "protects",
       "target": "cyclopes",
-      "rationale": "Uranus and Cyclopes shape Uranus Imprisons His Children."
+      "rationale": "Gaia protects Cyclopes during Uranus Imprisons His Children."
+    },
+    {
+      "source": "cronus",
+      "relationship": "ally-of",
+      "target": "gaia",
+      "rationale": "Cronus ally of Gaia during Uranus Imprisons His Children."
     }
   ],
   "narrative": {
@@ -130,8 +142,8 @@
     "cosmic beginning"
   ],
   "themes": [
-    "bounded myth episode",
-    "primordial and creation",
+    "primordial emergence",
+    "divine succession",
     "imprison"
   ],
   "adaptation": {
@@ -145,8 +157,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Uranus Imprisons His Children.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Gaia is crushed by the children hidden inside her while Uranus keeps his dominance."
     ]
   }
 }

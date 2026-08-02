@@ -6,211 +6,158 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production adaptation informed by an existing source-audited reference record.",
-    "variantPolicy": "Preserve the core source-audited episode while adapting its structure for production use.",
+    "constructionPolicy": "AI editorial adaptation of Perseus Beheads Medusa; not a source edition.",
     "basedOnSourceAuditedReference": true
   },
   "referenceLinks": {
     "sourceAuditedRecordIds": [
       "bulk-verified-0004"
-    ],
-    "relatedSourceProposalIds": []
+    ]
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Perseus Beheads Medusa begins with Perseus in a focused Perseus situation rather than a full-cycle summary. The episode closes once Perseus's decisive action changes the condition of Medusa and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Perseus reaches the sleeping Gorgons with Athena’s guidance and divine tools.",
+    "ending": "Medusa is beheaded and Perseus escapes with the head as Pegasus and Chrysaor spring forth.",
+    "boundaryRationale": "The episode begins with perseus reaches the sleeping gorgons with athena’s guidance and divine tools and closes at medusa is beheaded and perseus escapes with the head as pegasus and chrysaor spring forth, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Production adaptation linked to source-audited reference where available, without claiming exact source fidelity.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Standard reflective-shield Medusa episode; later use of the head is excluded.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Perseus Beheads Medusa, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Perseus Beheads Medusa begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Perseus and Medusa.",
-    "resolution": "The episode closes once Perseus's decisive action changes the condition of Medusa and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Perseus and Medusa, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Perseus Beheads Medusa begins with Perseus in a focused Perseus situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Perseus and Medusa."
-      },
-      {
-        "beat": "turn",
-        "text": "Perseus takes the decisive confront action that defines Perseus Beheads Medusa."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Perseus and Medusa, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "perseus",
       "name": "Perseus",
-      "role": "principal",
-      "entityType": "character"
+      "role": "armed hero",
+      "goal": "kill Medusa without meeting her gaze"
     },
     {
       "id": "medusa",
       "name": "Medusa",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "mortal Gorgon",
+      "goal": "guard her deadly power even in sleep"
     },
-    {
-      "id": "danae",
-      "name": "Danae",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
     {
       "id": "athena",
       "name": "Athena",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Perseus",
-      "normalizedId": "perseus",
-      "normalizationStatus": "production_canonical"
+      "role": "guiding goddess",
+      "goal": "aid the reflective approach"
     },
     {
-      "sourceName": "Medusa",
-      "normalizedId": "medusa",
-      "normalizationStatus": "production_canonical"
+      "id": "pegasus",
+      "name": "Pegasus",
+      "role": "winged horse born from Medusa",
+      "goal": "emerge after the beheading"
     },
     {
-      "sourceName": "Danae",
-      "normalizedId": "danae",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Athena",
-      "normalizedId": "athena",
-      "normalizationStatus": "production_canonical"
+      "id": "chrysaor",
+      "name": "Chrysaor",
+      "role": "being born from Medusa",
+      "goal": "emerge after the beheading"
     }
   ],
   "relationships": [
     {
+      "source": "athena",
+      "relationship": "ally-of",
+      "target": "perseus",
+      "rationale": "Athena ally of Perseus during Perseus Beheads Medusa."
+    },
+    {
       "source": "perseus",
-      "relationship": "central_to",
+      "relationship": "enemy-of",
       "target": "medusa",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Perseus and Medusa define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Perseus enemy of Medusa during Perseus Beheads Medusa."
     }
   ],
+  "narrative": {
+    "synopsis": "Perseus kills Medusa by disciplined indirection rather than a direct stare. The beheading produces both the terrible Gorgon head and the wondrous births of Pegasus and Chrysaor.",
+    "openingSituation": "Perseus has reached the Gorgons with tools meant for stealth and restraint.",
+    "centralConflict": "The challenge is that seeing Medusa directly would destroy him.",
+    "resolution": "Medusa is beheaded while Perseus avoids her gaze.",
+    "outcome": "Perseus leaves with the head, and new beings spring from the violence."
+  },
   "events": [
     {
-      "eventId": "production-myth-0046-event-01",
-      "actor": "perseus",
-      "action": "establish",
-      "target": "medusa",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Perseus Beheads Medusa begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0046-event-02",
-      "actor": "medusa",
-      "action": "challenge",
-      "target": "perseus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Perseus and Medusa.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0046-event-03",
       "actor": "perseus",
-      "action": "confront",
-      "target": "danae",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Perseus performs the decisive action associated with Perseus Beheads Medusa.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0046-event-04",
-      "actor": "perseus",
-      "action": "resolve",
+      "action": "approach",
       "target": "medusa",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The episode closes once Perseus's decisive action changes the condition of Medusa and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
+      "consequence": "Perseus reaches the sleeping Gorgons.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "athena",
+      "action": "guide",
+      "target": "perseus",
+      "consequence": "Athena enables the reflective tactic.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "perseus",
+      "action": "avoid",
+      "target": "medusa",
+      "consequence": "Perseus does not meet Medusa’s gaze.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "perseus",
+      "action": "behead",
+      "target": "medusa",
+      "consequence": "Medusa is killed.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "pegasus",
+      "action": "emerge",
+      "target": "medusa",
+      "consequence": "Pegasus springs from Medusa.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "perseus",
+      "action": "escape",
+      "target": "medusa",
+      "consequence": "Perseus carries the head away.",
+      "factIds": [
+        "fact-06"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "perseus-setting",
-      "name": "Perseus setting",
-      "role": "primary setting"
-    }
+    "Gorgons’ lair"
   ],
   "themes": [
-    "production adaptation",
-    "perseus",
-    "confront"
+    "indirection",
+    "monster slaying",
+    "dangerous trophy"
   ],
   "adaptation": {
-    "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Perseus Beheads Medusa begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Perseus and Medusa.",
-      "The episode closes once Perseus's decisive action changes the condition of Medusa and leaves later cycle material outside this record."
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Perseus has reached the Gorgons with tools meant for stealth and restraint.",
+      "The challenge is that seeing Medusa directly would destroy him.",
+      "Medusa is beheaded while Perseus avoids her gaze."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Perseus and Medusa.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Keep the reflective shield central; the scene should not become a simple sword duel."
     ]
   }
 }

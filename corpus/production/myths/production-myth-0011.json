@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Zeus Claims the Sky; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins after the Titans have been defeated and the victorious brothers must order the cosmos.",
     "ending": "It ends when Zeus receives the sky, Poseidon the sea, and Hades the underworld.",
-    "boundaryRationale": "Starts with the episode begins after the titans have been defeated and the victorious brothers must order the cosmos. Stops at it ends when zeus receives the sky, poseidon the sea, and hades the underworld."
+    "boundaryRationale": "The episode begins with the episode begins after the titans have been defeated and the victorious brothers must order the cosmos and closes at it ends when zeus receives the sky, poseidon the sea, and hades the underworld, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Common division-by-lot tradition after the Titanomachy.",
@@ -44,15 +44,33 @@
   "relationships": [
     {
       "source": "zeus",
-      "relationship": "mythic-tension-with",
+      "relationship": "sibling-of",
       "target": "poseidon",
-      "rationale": "Zeus and Poseidon shape Zeus Claims the Sky."
+      "rationale": "Zeus sibling of Poseidon during Zeus Claims the Sky."
     },
     {
       "source": "zeus",
-      "relationship": "mythic-tension-with",
+      "relationship": "sibling-of",
       "target": "hades",
-      "rationale": "Zeus and Hades shape Zeus Claims the Sky."
+      "rationale": "Zeus sibling of Hades during Zeus Claims the Sky."
+    },
+    {
+      "source": "zeus",
+      "relationship": "ruler-of",
+      "target": "sky",
+      "rationale": "Zeus ruler of sky during Zeus Claims the Sky."
+    },
+    {
+      "source": "poseidon",
+      "relationship": "ruler-of",
+      "target": "sea",
+      "rationale": "Poseidon ruler of sea during Zeus Claims the Sky."
+    },
+    {
+      "source": "hades",
+      "relationship": "ruler-of",
+      "target": "underworld",
+      "rationale": "Hades ruler of underworld during Zeus Claims the Sky."
     }
   ],
   "narrative": {
@@ -118,8 +136,8 @@
     "Olympian realm"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "assemble"
   ],
   "adaptation": {
@@ -131,8 +149,7 @@
     ],
     "sensitiveContent": [],
     "productionNotes": [
-      "Focus on Zeus Claims the Sky.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: The brothers must divide power without beginning another succession war."
     ]
   }
 }

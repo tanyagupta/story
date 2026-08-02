@@ -6,220 +6,169 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Deucalion and Pyrrha Survive the Flood; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Deucalion and Pyrrha Survive the Flood begins with Deucalion in a focused Prometheus and Early Mortals situation rather than a full-cycle summary. The episode closes once Deucalion's decisive action changes the condition of Pyrrha and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Zeus decides to flood a corrupt human age, while Deucalion and Pyrrha prepare to survive.",
+    "ending": "After the waters recede, Deucalion and Pyrrha throw stones behind them and renew humankind.",
+    "boundaryRationale": "The episode begins with zeus decides to flood a corrupt human age, while deucalion and pyrrha prepare to survive and closes at after the waters recede, deucalion and pyrrha throw stones behind them and renew humankind, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Greek flood renewal myth; the “bones of the mother” riddle refers to stones of Gaia.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Deucalion and Pyrrha Survive the Flood, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Deucalion and Pyrrha Survive the Flood begins with Deucalion in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the survive action named by the episode, involving Deucalion and Pyrrha.",
-    "resolution": "The episode closes once Deucalion's decisive action changes the condition of Pyrrha and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Deucalion and Pyrrha, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Deucalion and Pyrrha Survive the Flood begins with Deucalion in a focused Prometheus and Early Mortals situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the survive action named by the episode, involving Deucalion and Pyrrha."
-      },
-      {
-        "beat": "turn",
-        "text": "Deucalion takes the decisive survive action that defines Deucalion and Pyrrha Survive the Flood."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Deucalion and Pyrrha, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "deucalion",
       "name": "Deucalion",
-      "role": "principal",
-      "entityType": "character"
+      "role": "pious survivor",
+      "goal": "preserve humanity through the flood"
     },
     {
       "id": "pyrrha",
       "name": "Pyrrha",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "pious survivor",
+      "goal": "renew humanity with Deucalion"
     },
-    {
-      "id": "prometheus",
-      "name": "Prometheus",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
     {
       "id": "zeus",
       "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "sender of the flood",
+      "goal": "destroy a corrupt age"
+    },
+    {
+      "id": "themis",
+      "name": "Themis",
+      "role": "oracle goddess",
+      "goal": "give the riddle of renewal"
+    },
+    {
+      "id": "stones",
+      "name": "Stones",
+      "role": "earth bones",
+      "goal": "become new humans"
     },
     {
       "id": "humans",
       "name": "Humans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Deucalion",
-      "normalizedId": "deucalion",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Pyrrha",
-      "normalizedId": "pyrrha",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Prometheus",
-      "normalizedId": "prometheus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Humans",
-      "normalizedId": "humans",
-      "normalizationStatus": "production_canonical"
+      "role": "renewed race",
+      "goal": "return after the flood"
     }
   ],
   "relationships": [
     {
       "source": "deucalion",
-      "relationship": "central_to",
+      "relationship": "spouse-of",
       "target": "pyrrha",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Deucalion and Pyrrha define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Deucalion spouse of Pyrrha during Deucalion and Pyrrha Survive the Flood."
+    },
+    {
+      "source": "themis",
+      "relationship": "rescuer-of",
+      "target": "deucalion",
+      "rationale": "Themis rescuer of Deucalion during Deucalion and Pyrrha Survive the Flood."
+    },
+    {
+      "source": "zeus",
+      "relationship": "punishes",
+      "target": "humans",
+      "rationale": "Zeus punishes humans during Deucalion and Pyrrha Survive the Flood."
     }
   ],
+  "narrative": {
+    "synopsis": "Deucalion and Pyrrha survive Zeus’ flood not as conquerors but as pious remnants. Their obedience to Themis’ riddle turns stones of Earth into the ancestors of renewed humanity.",
+    "openingSituation": "A corrupt age faces destruction by flood.",
+    "centralConflict": "The survivors must understand an oracle without violating reverence for their actual mothers.",
+    "resolution": "They interpret the riddle as stones of Gaia and cast them behind themselves.",
+    "outcome": "Humanity begins again from earth’s bones."
+  },
   "events": [
     {
-      "eventId": "production-myth-0034-event-01",
-      "actor": "deucalion",
-      "action": "establish",
-      "target": "pyrrha",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "Deucalion and Pyrrha Survive the Flood begins with Deucalion in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "zeus",
+      "action": "flood",
+      "target": "humans",
+      "consequence": "Zeus destroys the corrupt age with water.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0034-event-02",
-      "actor": "pyrrha",
-      "action": "challenge",
-      "target": "deucalion",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "The central pressure is the survive action named by the episode, involving Deucalion and Pyrrha.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0034-event-03",
       "actor": "deucalion",
       "action": "survive",
-      "target": "prometheus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "Deucalion performs the decisive action associated with Deucalion and Pyrrha Survive the Flood.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "target": "zeus",
+      "consequence": "Deucalion rides out the flood.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0034-event-04",
-      "actor": "deucalion",
-      "action": "resolve",
-      "target": "pyrrha",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "The episode closes once Deucalion's decisive action changes the condition of Pyrrha and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
+      "sequence": 3,
+      "actor": "pyrrha",
+      "action": "survive",
+      "target": "zeus",
+      "consequence": "Pyrrha survives with him.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "themis",
+      "action": "instruct",
+      "target": "deucalion",
+      "consequence": "Themis gives the riddle of the mother’s bones.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "deucalion",
+      "action": "throw",
+      "target": "stones",
+      "consequence": "Deucalion casts stones behind him.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "stones",
+      "action": "transform",
+      "target": "pyrrha",
+      "consequence": "The stones become new humans.",
+      "factIds": [
+        "fact-06"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "prometheus-and-early-mortals-setting",
-      "name": "Prometheus and Early Mortals setting",
-      "role": "primary setting"
-    }
+    "flooded earth",
+    "oracle of Themis"
   ],
   "themes": [
-    "production adaptation",
-    "prometheus and early mortals",
-    "survive"
+    "renewal",
+    "piety",
+    "flood"
   ],
   "adaptation": {
-    "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Deucalion and Pyrrha Survive the Flood begins with Deucalion in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-      "The central pressure is the survive action named by the episode, involving Deucalion and Pyrrha.",
-      "The episode closes once Deucalion's decisive action changes the condition of Pyrrha and leaves later cycle material outside this record."
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "A corrupt age faces destruction by flood.",
+      "The survivors must understand an oracle without violating reverence for their actual mothers.",
+      "They interpret the riddle as stones of Gaia and cast them behind themselves."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Deucalion and Pyrrha.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Make the riddle visual: survivors hesitate, then lift stones from the earth."
     ]
   }
 }

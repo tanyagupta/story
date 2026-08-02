@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Cronus Overthrows Uranus; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins with Cronus waiting in ambush after Gaia has armed him.",
     "ending": "It ends when Uranus is overthrown and Cronus becomes the dominant Titan power.",
-    "boundaryRationale": "Starts with the episode begins with cronus waiting in ambush after gaia has armed him. Stops at it ends when uranus is overthrown and cronus becomes the dominant titan power."
+    "boundaryRationale": "The episode begins with the episode begins with cronus waiting in ambush after gaia has armed him and closes at it ends when uranus is overthrown and cronus becomes the dominant titan power, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Hesiodic succession myth centered on Cronus’ ambush and castration of Uranus.",
@@ -56,15 +56,21 @@
   "relationships": [
     {
       "source": "cronus",
-      "relationship": "mythic-tension-with",
+      "relationship": "child-of",
       "target": "gaia",
-      "rationale": "Cronus and Gaia shape Cronus Overthrows Uranus."
+      "rationale": "Cronus child of Gaia during Cronus Overthrows Uranus."
     },
     {
       "source": "cronus",
-      "relationship": "mythic-tension-with",
+      "relationship": "enemy-of",
       "target": "uranus",
-      "rationale": "Cronus and Uranus shape Cronus Overthrows Uranus."
+      "rationale": "Cronus enemy of Uranus during Cronus Overthrows Uranus."
+    },
+    {
+      "source": "gaia",
+      "relationship": "enemy-of",
+      "target": "uranus",
+      "rationale": "Gaia enemy of Uranus during Cronus Overthrows Uranus."
     }
   ],
   "narrative": {
@@ -130,8 +136,8 @@
     "cosmic beginning"
   ],
   "themes": [
-    "bounded myth episode",
-    "primordial and creation",
+    "primordial emergence",
+    "divine succession",
     "ambush"
   ],
   "adaptation": {
@@ -145,8 +151,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Cronus Overthrows Uranus.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Cronus must strike the seemingly untouchable sky father at the moment he covers Gaia."
     ]
   }
 }

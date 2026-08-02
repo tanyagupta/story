@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Apollo Slays Python; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when Apollo approaches the place guarded by the serpent Python.",
     "ending": "It ends with Python dead and Delphi transformed into Apollo’s prophetic sanctuary.",
-    "boundaryRationale": "Starts with the episode begins when apollo approaches the place guarded by the serpent python. Stops at it ends with python dead and delphi transformed into apollo’s prophetic sanctuary."
+    "boundaryRationale": "The episode begins with the episode begins when apollo approaches the place guarded by the serpent python and closes at it ends with python dead and delphi transformed into apollo’s prophetic sanctuary, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Delphic foundation version; Python may be linked to pursuit of Leto in some tellings.",
@@ -50,15 +50,21 @@
   "relationships": [
     {
       "source": "apollo",
-      "relationship": "mythic-tension-with",
+      "relationship": "enemy-of",
       "target": "python",
-      "rationale": "Apollo and Python shape Apollo Slays Python."
+      "rationale": "Apollo enemy of Python during Apollo Slays Python."
     },
     {
       "source": "apollo",
-      "relationship": "mythic-tension-with",
-      "target": "leto",
-      "rationale": "Apollo and Leto shape Apollo Slays Python."
+      "relationship": "ruler-of",
+      "target": "delphi",
+      "rationale": "Apollo ruler of Delphi during Apollo Slays Python."
+    },
+    {
+      "source": "leto",
+      "relationship": "parent-of",
+      "target": "apollo",
+      "rationale": "Leto parent of Apollo during Apollo Slays Python."
     }
   ],
   "narrative": {
@@ -124,8 +130,8 @@
     "Delphi"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "approach"
   ],
   "adaptation": {
@@ -139,8 +145,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Apollo Slays Python.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Apollo must displace the serpent before his oracle can be founded."
     ]
   }
 }

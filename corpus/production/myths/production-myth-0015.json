@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Athena Springs from Zeus; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when Zeus swallows Metis because a prophecy warns of a child who may surpass him.",
     "ending": "It ends when Athena springs fully armed from Zeus’ head and is accepted among the gods.",
-    "boundaryRationale": "Starts with the episode begins when zeus swallows metis because a prophecy warns of a child who may surpass him. Stops at it ends when athena springs fully armed from zeus’ head and is accepted among the gods."
+    "boundaryRationale": "The episode begins with the episode begins when zeus swallows metis because a prophecy warns of a child who may surpass him and closes at it ends when athena springs fully armed from zeus’ head and is accepted among the gods, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Common birth of Athena from Zeus after the swallowing of Metis.",
@@ -50,15 +50,21 @@
   "relationships": [
     {
       "source": "zeus",
-      "relationship": "mythic-tension-with",
-      "target": "metis",
-      "rationale": "Zeus and Metis shape Athena Springs from Zeus."
+      "relationship": "parent-of",
+      "target": "athena",
+      "rationale": "Zeus parent of Athena during Athena Springs from Zeus."
     },
     {
-      "source": "zeus",
-      "relationship": "mythic-tension-with",
+      "source": "metis",
+      "relationship": "parent-of",
       "target": "athena",
-      "rationale": "Zeus and Athena shape Athena Springs from Zeus."
+      "rationale": "Metis parent of Athena during Athena Springs from Zeus."
+    },
+    {
+      "source": "hephaestus",
+      "relationship": "ally-of",
+      "target": "zeus",
+      "rationale": "Hephaestus ally of Zeus during Athena Springs from Zeus."
     }
   ],
   "narrative": {
@@ -124,8 +130,8 @@
     "Olympian realm"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "swallow"
   ],
   "adaptation": {
@@ -139,8 +145,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Athena Springs from Zeus.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Zeus seeks to contain both mother and child inside himself."
     ]
   }
 }

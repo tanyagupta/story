@@ -6,220 +6,152 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Perseus Defeats Phineus; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Perseus Defeats Phineus begins with Perseus in a focused Perseus situation rather than a full-cycle summary. The episode closes once Perseus's decisive action changes the condition of Phineus and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "The episode begins at or after Perseus and Andromeda’s wedding feast, when Phineus presses his prior claim.",
+    "ending": "It ends when Perseus uses Medusa’s head to petrify Phineus and stop the attack.",
+    "boundaryRationale": "The episode begins with the episode begins at or after perseus and andromeda’s wedding feast, when phineus presses his prior claim and closes at it ends when perseus uses medusa’s head to petrify phineus and stop the attack, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Wedding battle version; Andromeda’s earlier rescue is treated as already complete.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Perseus Defeats Phineus, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Perseus Defeats Phineus begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the defeat action named by the episode, involving Perseus and Phineus.",
-    "resolution": "The episode closes once Perseus's decisive action changes the condition of Phineus and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Perseus and Phineus, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Perseus Defeats Phineus begins with Perseus in a focused Perseus situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the defeat action named by the episode, involving Perseus and Phineus."
-      },
-      {
-        "beat": "turn",
-        "text": "Perseus takes the decisive defeat action that defines Perseus Defeats Phineus."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Perseus and Phineus, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "perseus",
       "name": "Perseus",
-      "role": "principal",
-      "entityType": "character"
+      "role": "bridegroom hero",
+      "goal": "defend his marriage"
+    },
+    {
+      "id": "andromeda",
+      "name": "Andromeda",
+      "role": "rescued bride",
+      "goal": "become subject of rival claim"
     },
     {
       "id": "phineus",
       "name": "Phineus",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "rejected claimant",
+      "goal": "attack the wedding"
     },
     {
-      "id": "phineus",
-      "name": "Phineus",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
-    {
-      "id": "danae",
-      "name": "Danae",
-      "role": "supporting",
-      "entityType": "character"
+      "id": "cepheus",
+      "name": "Cepheus",
+      "role": "king and father",
+      "goal": "face the violence of broken promises"
     },
     {
-      "id": "athena",
-      "name": "Athena",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Perseus",
-      "normalizedId": "perseus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Phineus",
-      "normalizedId": "phineus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Phineus",
-      "normalizedId": "phineus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Danae",
-      "normalizedId": "danae",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Athena",
-      "normalizedId": "athena",
-      "normalizationStatus": "production_canonical"
+      "id": "gorgon-head",
+      "name": "Gorgon head",
+      "role": "terrible trophy",
+      "goal": "turn enemies to stone"
     }
   ],
   "relationships": [
     {
       "source": "perseus",
-      "relationship": "central_to",
-      "target": "phineus",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Perseus and Phineus define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "relationship": "spouse-of",
+      "target": "andromeda",
+      "rationale": "Perseus spouse of Andromeda during Perseus Defeats Phineus."
+    },
+    {
+      "source": "phineus",
+      "relationship": "enemy-of",
+      "target": "perseus",
+      "rationale": "Phineus enemy of Perseus during Perseus Defeats Phineus."
+    },
+    {
+      "source": "cepheus",
+      "relationship": "parent-of",
+      "target": "andromeda",
+      "rationale": "Cepheus parent of Andromeda during Perseus Defeats Phineus."
     }
   ],
+  "narrative": {
+    "synopsis": "Perseus’ marriage to Andromeda is interrupted by Phineus’ armed claim. The hero ends the wedding violence by unveiling Medusa’s head, turning the rival party into stone.",
+    "openingSituation": "Andromeda has been rescued and promised to Perseus.",
+    "centralConflict": "A rival claimant turns a marriage settlement into battle.",
+    "resolution": "Perseus petrifies Phineus and his followers.",
+    "outcome": "The marriage is secured through the dangerous trophy won from Medusa."
+  },
   "events": [
     {
-      "eventId": "production-myth-0048-event-01",
-      "actor": "perseus",
-      "action": "establish",
-      "target": "phineus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Perseus Defeats Phineus begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0048-event-02",
       "actor": "phineus",
-      "action": "challenge",
-      "target": "perseus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The central pressure is the defeat action named by the episode, involving Perseus and Phineus.",
-      "sourceText": null,
-      "evidence": [],
+      "action": "claim",
+      "target": "andromeda",
+      "consequence": "Phineus asserts a rival claim.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "phineus",
+      "action": "attack",
+      "target": "perseus",
+      "consequence": "The feast becomes a battle.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0048-event-03",
-      "actor": "perseus",
-      "action": "defeat",
-      "target": "phineus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "Perseus performs the decisive action associated with Perseus Defeats Phineus.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "perseus",
+      "action": "fight",
+      "target": "phineus",
+      "consequence": "Perseus resists the attackers.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0048-event-04",
-      "actor": "perseus",
-      "action": "resolve",
-      "target": "phineus",
-      "object": null,
-      "recipient": null,
-      "location": "perseus-setting",
-      "normalizedStatement": "The episode closes once Perseus's decisive action changes the condition of Phineus and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "perseus",
+      "action": "warn",
+      "target": "andromeda",
+      "consequence": "Perseus protects allies before unveiling the head.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "gorgon-head",
+      "action": "petrify",
+      "target": "phineus",
+      "consequence": "Medusa’s head turns the rival to stone.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "perseus-setting",
-      "name": "Perseus setting",
-      "role": "primary setting"
-    }
+    "wedding hall of Cepheus"
   ],
   "themes": [
-    "production adaptation",
-    "perseus",
-    "defeat"
+    "rival claim",
+    "petrification",
+    "marriage defense"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Perseus Defeats Phineus begins with Perseus in a focused Perseus situation rather than a full-cycle summary.",
-      "The central pressure is the defeat action named by the episode, involving Perseus and Phineus.",
-      "The episode closes once Perseus's decisive action changes the condition of Phineus and leaves later cycle material outside this record."
+    "visualBeats": [
+      "Andromeda has been rescued and promised to Perseus.",
+      "A rival claimant turns a marriage settlement into battle.",
+      "Perseus petrifies Phineus and his followers."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Perseus and Phineus.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Use the shift from feast to stone silence as the episode’s visual turn."
     ]
   }
 }

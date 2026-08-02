@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Apollo and Daphne; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when Apollo mocks Eros and Eros answers with opposing arrows of desire and rejection.",
     "ending": "It ends when Daphne becomes the laurel and Apollo adopts the tree as his emblem.",
-    "boundaryRationale": "Starts with the episode begins when apollo mocks eros and eros answers with opposing arrows of desire and rejection. Stops at it ends when daphne becomes the laurel and apollo adopts the tree as his emblem."
+    "boundaryRationale": "The episode begins with the episode begins when apollo mocks eros and eros answers with opposing arrows of desire and rejection and closes at it ends when daphne becomes the laurel and apollo adopts the tree as his emblem, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Ovidian Daphne episode, preserving the pursuit-and-transformation boundary.",
@@ -45,26 +45,26 @@
       "name": "Peneus",
       "role": "river father",
       "goal": "answer Daphne’s plea"
-    },
-    {
-      "id": "laurel",
-      "name": "Laurel",
-      "role": "transformed Daphne",
-      "goal": "become Apollo’s sacred tree"
     }
   ],
   "relationships": [
     {
       "source": "apollo",
-      "relationship": "mythic-tension-with",
+      "relationship": "pursues",
       "target": "daphne",
-      "rationale": "Apollo and Daphne shape Apollo and Daphne."
+      "rationale": "Apollo pursues Daphne during Apollo and Daphne."
     },
     {
-      "source": "apollo",
-      "relationship": "mythic-tension-with",
-      "target": "eros",
-      "rationale": "Apollo and Eros shape Apollo and Daphne."
+      "source": "eros",
+      "relationship": "punishes",
+      "target": "apollo",
+      "rationale": "Eros punishes Apollo during Apollo and Daphne."
+    },
+    {
+      "source": "peneus",
+      "relationship": "protects",
+      "target": "daphne",
+      "rationale": "Peneus protects Daphne during Apollo and Daphne."
     }
   ],
   "narrative": {
@@ -139,7 +139,7 @@
       "sequence": 7,
       "actor": "apollo",
       "action": "honor",
-      "target": "laurel",
+      "target": "daphne",
       "consequence": "Apollo adopts the laurel as sacred.",
       "factIds": [
         "fact-06"
@@ -150,8 +150,8 @@
     "Thessalian river country"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "mock"
   ],
   "adaptation": {
@@ -165,8 +165,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Apollo and Daphne.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Eros creates a cruel mismatch: Apollo burns with desire while Daphne longs only to escape."
     ]
   }
 }

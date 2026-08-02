@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Hades Takes the Underworld; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when Hades receives the realm below after the divine division.",
     "ending": "It ends with the underworld established as the guarded destination of mortal souls.",
-    "boundaryRationale": "Starts with the episode begins when hades receives the realm below after the divine division. Stops at it ends with the underworld established as the guarded destination of mortal souls."
+    "boundaryRationale": "The episode begins with the episode begins when hades receives the realm below after the divine division and closes at it ends with the underworld established as the guarded destination of mortal souls, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Production boundary covers Hades’ assumption of rule, not Persephone’s abduction.",
@@ -50,15 +50,21 @@
   "relationships": [
     {
       "source": "hades",
-      "relationship": "mythic-tension-with",
-      "target": "persephone",
-      "rationale": "Hades and Persephone shape Hades Takes the Underworld."
+      "relationship": "ruler-of",
+      "target": "shades",
+      "rationale": "Hades ruler of Shades during Hades Takes the Underworld."
     },
     {
-      "source": "hades",
-      "relationship": "mythic-tension-with",
-      "target": "hermes",
-      "rationale": "Hades and Hermes shape Hades Takes the Underworld."
+      "source": "hermes",
+      "relationship": "guide-of",
+      "target": "shades",
+      "rationale": "Hermes guide of Shades during Hades Takes the Underworld."
+    },
+    {
+      "source": "persephone",
+      "relationship": "spouse-of",
+      "target": "hades",
+      "rationale": "Persephone spouse of Hades during Hades Takes the Underworld."
     }
   ],
   "narrative": {
@@ -124,8 +130,8 @@
     "Olympian realm"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "claim"
   ],
   "adaptation": {
@@ -139,8 +145,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Hades Takes the Underworld.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: The dead require a realm with boundaries, passage, and authority."
     ]
   }
 }

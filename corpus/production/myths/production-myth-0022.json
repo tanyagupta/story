@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Demeter Searches the Earth; not a source edition.",
     "basedOnSourceAuditedReference": true
   },
   "referenceLinks": {
@@ -17,7 +17,7 @@
   "scope": {
     "beginning": "The episode begins after Persephone vanishes from the meadow.",
     "ending": "It ends when Demeter learns from Helios that Hades took Persephone with Zeus’ consent.",
-    "boundaryRationale": "Starts with the episode begins after persephone vanishes from the meadow. Stops at it ends when demeter learns from helios that hades took persephone with zeus’ consent."
+    "boundaryRationale": "The episode begins with the episode begins after persephone vanishes from the meadow and closes at it ends when demeter learns from helios that hades took persephone with zeus’ consent, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Homeric Hymn to Demeter search sequence, stopping before Eleusis and the final compromise.",
@@ -58,15 +58,27 @@
   "relationships": [
     {
       "source": "demeter",
-      "relationship": "mythic-tension-with",
+      "relationship": "parent-of",
       "target": "persephone",
-      "rationale": "Demeter and Persephone shape Demeter Searches the Earth."
+      "rationale": "Demeter parent of Persephone during Demeter Searches the Earth."
     },
     {
-      "source": "demeter",
-      "relationship": "mythic-tension-with",
-      "target": "hecate",
-      "rationale": "Demeter and Hecate shape Demeter Searches the Earth."
+      "source": "hades",
+      "relationship": "captor-of",
+      "target": "persephone",
+      "rationale": "Hades captor of Persephone during Demeter Searches the Earth."
+    },
+    {
+      "source": "hecate",
+      "relationship": "ally-of",
+      "target": "demeter",
+      "rationale": "Hecate ally of Demeter during Demeter Searches the Earth."
+    },
+    {
+      "source": "helios",
+      "relationship": "ally-of",
+      "target": "demeter",
+      "rationale": "Helios ally of Demeter during Demeter Searches the Earth."
     }
   ],
   "narrative": {
@@ -132,8 +144,8 @@
     "earth roads and Helios’ vantage"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "vanish"
   ],
   "adaptation": {
@@ -147,8 +159,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Demeter Searches the Earth.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: A mother goddess cannot recover her daughter until she learns who crossed the boundary between worlds."
     ]
   }
 }

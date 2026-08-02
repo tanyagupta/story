@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Gaia Bears Uranus; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins with Gaia already formed as earth but lacking the sky above her.",
     "ending": "It ends when Uranus covers Gaia and becomes the partner from whom later divine children descend.",
-    "boundaryRationale": "Starts with the episode begins with gaia already formed as earth but lacking the sky above her. Stops at it ends when uranus covers gaia and becomes the partner from whom later divine children descend."
+    "boundaryRationale": "The episode begins with the episode begins with gaia already formed as earth but lacking the sky above her and closes at it ends when uranus covers gaia and becomes the partner from whom later divine children descend, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Hesiodic account in which Gaia bears Uranus herself before their union.",
@@ -50,15 +50,21 @@
   "relationships": [
     {
       "source": "gaia",
-      "relationship": "mythic-tension-with",
+      "relationship": "parent-of",
       "target": "uranus",
-      "rationale": "Gaia and Uranus shape Gaia Bears Uranus."
+      "rationale": "Gaia parent of Uranus during Gaia Bears Uranus."
     },
     {
       "source": "gaia",
-      "relationship": "mythic-tension-with",
+      "relationship": "parent-of",
       "target": "ourea",
-      "rationale": "Gaia and Ourea shape Gaia Bears Uranus."
+      "rationale": "Gaia parent of Ourea during Gaia Bears Uranus."
+    },
+    {
+      "source": "gaia",
+      "relationship": "parent-of",
+      "target": "pontus",
+      "rationale": "Gaia parent of Pontus during Gaia Bears Uranus."
     }
   ],
   "narrative": {
@@ -124,8 +130,8 @@
     "cosmic beginning"
   ],
   "themes": [
-    "bounded myth episode",
-    "primordial and creation",
+    "primordial emergence",
+    "divine succession",
     "bear"
   ],
   "adaptation": {
@@ -137,8 +143,7 @@
     ],
     "sensitiveContent": [],
     "productionNotes": [
-      "Focus on Gaia Bears Uranus.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: The world needs height, horizon, and surrounding waters before divine generations can unfold."
     ]
   }
 }

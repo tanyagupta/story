@@ -6,209 +6,164 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Phaethon Drives the Sun Chariot; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Phaethon Drives the Sun Chariot begins with Phaethon in a focused Prometheus and Early Mortals situation rather than a full-cycle summary. The episode closes once Phaethon's decisive action changes the condition of Prometheus and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Phaethon seeks proof that Helios is truly his father.",
+    "ending": "Zeus strikes Phaethon down after the sun chariot threatens earth and sky.",
+    "boundaryRationale": "The episode begins with phaethon seeks proof that helios is truly his father and closes at zeus strikes phaethon down after the sun chariot threatens earth and sky, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Common Phaethon version in which the wish to drive the chariot becomes cosmic disaster.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Phaethon Drives the Sun Chariot, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Phaethon Drives the Sun Chariot begins with Phaethon in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the drive action named by the episode, involving Phaethon and Prometheus.",
-    "resolution": "The episode closes once Phaethon's decisive action changes the condition of Prometheus and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Phaethon and Prometheus, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Phaethon Drives the Sun Chariot begins with Phaethon in a focused Prometheus and Early Mortals situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the drive action named by the episode, involving Phaethon and Prometheus."
-      },
-      {
-        "beat": "turn",
-        "text": "Phaethon takes the decisive drive action that defines Phaethon Drives the Sun Chariot."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Phaethon and Prometheus, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "phaethon",
       "name": "Phaethon",
-      "role": "principal",
-      "entityType": "character"
+      "role": "son seeking proof",
+      "goal": "drive the sun chariot"
     },
     {
-      "id": "prometheus",
-      "name": "Prometheus",
-      "role": "supporting",
-      "entityType": "character"
+      "id": "helios",
+      "name": "Helios",
+      "role": "sun god and father",
+      "goal": "grant a dangerous promise"
     },
     {
       "id": "zeus",
       "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
-    {
-      "id": "humans",
-      "name": "Humans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Phaethon",
-      "normalizedId": "phaethon",
-      "normalizationStatus": "production_canonical"
+      "role": "cosmic protector",
+      "goal": "stop the runaway chariot"
     },
     {
-      "sourceName": "Prometheus",
-      "normalizedId": "prometheus",
-      "normalizationStatus": "production_canonical"
+      "id": "clymene",
+      "name": "Clymene",
+      "role": "mother of Phaethon",
+      "goal": "send him toward Helios’ proof"
     },
     {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Humans",
-      "normalizedId": "humans",
-      "normalizationStatus": "production_canonical"
+      "id": "horses-of-the-sun",
+      "name": "Horses of the Sun",
+      "role": "uncontrollable team",
+      "goal": "drag the chariot off course"
     }
   ],
   "relationships": [
     {
-      "source": "phaethon",
-      "relationship": "central_to",
-      "target": "prometheus",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Phaethon and Prometheus define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "source": "helios",
+      "relationship": "parent-of",
+      "target": "phaethon",
+      "rationale": "Helios parent of Phaethon during Phaethon Drives the Sun Chariot."
+    },
+    {
+      "source": "zeus",
+      "relationship": "punishes",
+      "target": "phaethon",
+      "rationale": "Zeus punishes Phaethon during Phaethon Drives the Sun Chariot."
+    },
+    {
+      "source": "clymene",
+      "relationship": "parent-of",
+      "target": "phaethon",
+      "rationale": "Clymene parent of Phaethon during Phaethon Drives the Sun Chariot."
     }
   ],
+  "narrative": {
+    "synopsis": "Phaethon turns a demand for identity into a cosmic disaster. Helios’ promise gives him the sun chariot, but the horses sense an unready driver and Zeus kills him to save the world.",
+    "openingSituation": "Phaethon wants proof that his father is the sun god.",
+    "centralConflict": "A father’s oath collides with a task no inexperienced youth can survive.",
+    "resolution": "Zeus ends the runaway journey with a thunderbolt.",
+    "outcome": "Phaethon dies, and the world bears the scars of his failed ascent."
+  },
   "events": [
     {
-      "eventId": "production-myth-0036-event-01",
-      "actor": "phaethon",
-      "action": "establish",
-      "target": "prometheus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "Phaethon Drives the Sun Chariot begins with Phaethon in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "phaethon",
+      "action": "seek",
+      "target": "helios",
+      "consequence": "Phaethon asks for proof of his father.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0036-event-02",
-      "actor": "prometheus",
-      "action": "challenge",
-      "target": "phaethon",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "The central pressure is the drive action named by the episode, involving Phaethon and Prometheus.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "helios",
+      "action": "swear",
+      "target": "phaethon",
+      "consequence": "Helios grants a binding promise.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0036-event-03",
-      "actor": "phaethon",
-      "action": "drive",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "Phaethon performs the decisive action associated with Phaethon Drives the Sun Chariot.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "phaethon",
+      "action": "request",
+      "target": "horses-of-the-sun",
+      "consequence": "Phaethon asks for the chariot.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0036-event-04",
-      "actor": "phaethon",
-      "action": "resolve",
-      "target": "prometheus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "The episode closes once Phaethon's decisive action changes the condition of Prometheus and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "horses-of-the-sun",
+      "action": "bolt",
+      "target": "phaethon",
+      "consequence": "The team runs beyond his control.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "zeus",
+      "action": "strike",
+      "target": "phaethon",
+      "consequence": "Zeus stops the chariot with lightning.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "zeus",
+      "action": "end",
+      "target": "phaethon",
+      "consequence": "The thunderbolt leaves Phaethon dead and the world marked by his failed ascent.",
+      "factIds": [
+        "fact-06"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "prometheus-and-early-mortals-setting",
-      "name": "Prometheus and Early Mortals setting",
-      "role": "primary setting"
-    }
+    "palace of Helios",
+    "sky road",
+    "scorched earth"
   ],
   "themes": [
-    "production adaptation",
-    "prometheus and early mortals",
-    "drive"
+    "identity",
+    "overreach",
+    "cosmic order"
   ],
   "adaptation": {
-    "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Phaethon Drives the Sun Chariot begins with Phaethon in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-      "The central pressure is the drive action named by the episode, involving Phaethon and Prometheus.",
-      "The episode closes once Phaethon's decisive action changes the condition of Prometheus and leaves later cycle material outside this record."
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Phaethon wants proof that his father is the sun god.",
+      "A father’s oath collides with a task no inexperienced youth can survive.",
+      "Zeus ends the runaway journey with a thunderbolt."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Phaethon and Prometheus.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "The chariot path should feel beautiful at first, then terrifyingly unstable."
     ]
   }
 }

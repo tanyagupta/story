@@ -6,197 +6,147 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Prometheus Shapes Humanity; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Prometheus Shapes Humanity begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary. The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Prometheus sees that mortal creatures need form and capacities.",
+    "ending": "Humanity stands upright and receives intelligence or craft, though it remains fragile.",
+    "boundaryRationale": "The episode begins with prometheus sees that mortal creatures need form and capacities and closes at humanity stands upright and receives intelligence or craft, though it remains fragile, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Production synthesis of Prometheus as maker and Athena as animating helper; not all ancient versions include the same maker role.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Prometheus Shapes Humanity, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Prometheus Shapes Humanity begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Prometheus and Zeus.",
-    "resolution": "The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Prometheus and Zeus, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Prometheus Shapes Humanity begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Prometheus and Zeus."
-      },
-      {
-        "beat": "turn",
-        "text": "Prometheus takes the decisive confront action that defines Prometheus Shapes Humanity."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Prometheus and Zeus, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "prometheus",
       "name": "Prometheus",
-      "role": "principal",
-      "entityType": "character"
+      "role": "Titan craftsman",
+      "goal": "shape vulnerable humans"
     },
     {
-      "id": "zeus",
-      "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
+      "id": "athena",
+      "name": "Athena",
+      "role": "divine helper",
+      "goal": "animate or teach the new beings"
     },
     {
       "id": "humans",
       "name": "Humans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Prometheus",
-      "normalizedId": "prometheus",
-      "normalizationStatus": "production_canonical"
+      "role": "new mortal race",
+      "goal": "enter the world without natural defenses"
     },
     {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Humans",
-      "normalizedId": "humans",
-      "normalizationStatus": "production_canonical"
+      "id": "epimetheus",
+      "name": "Epimetheus",
+      "role": "afterthought Titan",
+      "goal": "spend gifts on animals first"
     }
   ],
   "relationships": [
     {
       "source": "prometheus",
-      "relationship": "central_to",
-      "target": "zeus",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Prometheus and Zeus define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "relationship": "protects",
+      "target": "humans",
+      "rationale": "Prometheus protects Humans during Prometheus Shapes Humanity."
+    },
+    {
+      "source": "athena",
+      "relationship": "ally-of",
+      "target": "prometheus",
+      "rationale": "Athena ally of Prometheus during Prometheus Shapes Humanity."
+    },
+    {
+      "source": "epimetheus",
+      "relationship": "sibling-of",
+      "target": "prometheus",
+      "rationale": "Epimetheus sibling of Prometheus during Prometheus Shapes Humanity."
     }
   ],
+  "narrative": {
+    "synopsis": "Prometheus’ care for humans begins before the quarrel over fire. After Epimetheus leaves mortals defenseless, Prometheus shapes or equips them, and Athena’s aid gives the new race mind and posture.",
+    "openingSituation": "Animals have received claws, wings, speed, and hides, while humans remain exposed.",
+    "centralConflict": "Prometheus must compensate for human weakness without making mortals divine.",
+    "resolution": "Humans receive form, intelligence, and the need for craft.",
+    "outcome": "The race is prepared for civilization but also for dependence on stolen fire."
+  },
   "events": [
     {
-      "eventId": "production-myth-0029-event-01",
-      "actor": "prometheus",
-      "action": "establish",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "Prometheus Shapes Humanity begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0029-event-02",
-      "actor": "zeus",
-      "action": "challenge",
-      "target": "prometheus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Prometheus and Zeus.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0029-event-03",
-      "actor": "prometheus",
-      "action": "confront",
+      "actor": "epimetheus",
+      "action": "distribute",
       "target": "humans",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "Prometheus performs the decisive action associated with Prometheus Shapes Humanity.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "consequence": "Epimetheus gives protective gifts to animals first.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0029-event-04",
+      "sequence": 2,
+      "actor": "humans",
+      "action": "lack",
+      "target": "prometheus",
+      "consequence": "Humans remain physically vulnerable.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
       "actor": "prometheus",
-      "action": "resolve",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
+      "action": "shape",
+      "target": "humans",
+      "consequence": "Prometheus forms or improves the human race.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "athena",
+      "action": "animate",
+      "target": "humans",
+      "consequence": "Athena contributes life, mind, or skill.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "humans",
+      "action": "stand",
+      "target": "prometheus",
+      "consequence": "Humans become upright and craft-dependent.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "prometheus-and-early-mortals-setting",
-      "name": "Prometheus and Early Mortals setting",
-      "role": "primary setting"
-    }
+    "early earth",
+    "workshop of Prometheus"
   ],
   "themes": [
-    "production adaptation",
-    "prometheus and early mortals",
-    "confront"
+    "human fragility",
+    "craft",
+    "divine aid"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Prometheus Shapes Humanity begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Prometheus and Zeus.",
-      "The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record."
+    "visualBeats": [
+      "Animals have received claws, wings, speed, and hides, while humans remain exposed.",
+      "Prometheus must compensate for human weakness without making mortals divine.",
+      "Humans receive form, intelligence, and the need for craft."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Prometheus and Zeus.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Show animals receiving gifts before the camera finds the unprotected human figures."
     ]
   }
 }

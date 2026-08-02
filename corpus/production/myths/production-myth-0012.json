@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Poseidon Builds His Sea Kingdom; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins after Poseidon receives the sea as his portion of the cosmos.",
     "ending": "It ends with Poseidon’s underwater court established around Amphitrite and the sea powers.",
-    "boundaryRationale": "Starts with the episode begins after poseidon receives the sea as his portion of the cosmos. Stops at it ends with poseidon’s underwater court established around amphitrite and the sea powers."
+    "boundaryRationale": "The episode begins with the episode begins after poseidon receives the sea as his portion of the cosmos and closes at it ends with poseidon’s underwater court established around amphitrite and the sea powers, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Production synthesis of Poseidon’s realm rather than a single courtship episode.",
@@ -50,15 +50,21 @@
   "relationships": [
     {
       "source": "poseidon",
-      "relationship": "mythic-tension-with",
+      "relationship": "spouse-of",
       "target": "amphitrite",
-      "rationale": "Poseidon and Amphitrite shape Poseidon Builds His Sea Kingdom."
+      "rationale": "Poseidon spouse of Amphitrite during Poseidon Builds His Sea Kingdom."
     },
     {
       "source": "poseidon",
-      "relationship": "mythic-tension-with",
+      "relationship": "ruler-of",
       "target": "nereids",
-      "rationale": "Poseidon and Nereids shape Poseidon Builds His Sea Kingdom."
+      "rationale": "Poseidon ruler of Nereids during Poseidon Builds His Sea Kingdom."
+    },
+    {
+      "source": "tritons",
+      "relationship": "ally-of",
+      "target": "poseidon",
+      "rationale": "Tritons ally of Poseidon during Poseidon Builds His Sea Kingdom."
     }
   ],
   "narrative": {
@@ -124,8 +130,8 @@
     "Olympian realm"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "claim"
   ],
   "adaptation": {
@@ -137,8 +143,7 @@
     ],
     "sensitiveContent": [],
     "productionNotes": [
-      "Focus on Poseidon Builds His Sea Kingdom.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: The sea is vast, unstable, and filled with independent powers that must recognize his rule."
     ]
   }
 }

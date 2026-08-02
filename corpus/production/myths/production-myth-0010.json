@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of The Olympians Defeat the Titans; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins after Zeus has freed his siblings and the conflict with Cronus becomes open war.",
     "ending": "It ends when the Titans are defeated and the Olympians can divide power.",
-    "boundaryRationale": "Starts with the episode begins after zeus has freed his siblings and the conflict with cronus becomes open war. Stops at it ends when the titans are defeated and the olympians can divide power."
+    "boundaryRationale": "The episode begins with the episode begins after zeus has freed his siblings and the conflict with cronus becomes open war and closes at it ends when the titans are defeated and the olympians can divide power, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Titanomachy focused on the Olympian victory, aided by freed Cyclopes and other imprisoned powers.",
@@ -62,15 +62,33 @@
   "relationships": [
     {
       "source": "zeus",
-      "relationship": "mythic-tension-with",
+      "relationship": "enemy-of",
       "target": "cronus",
-      "rationale": "Zeus and Cronus shape The Olympians Defeat the Titans."
+      "rationale": "Zeus enemy of Cronus during The Olympians Defeat the Titans."
     },
     {
-      "source": "zeus",
-      "relationship": "mythic-tension-with",
-      "target": "poseidon",
-      "rationale": "Zeus and Poseidon shape The Olympians Defeat the Titans."
+      "source": "poseidon",
+      "relationship": "ally-of",
+      "target": "zeus",
+      "rationale": "Poseidon ally of Zeus during The Olympians Defeat the Titans."
+    },
+    {
+      "source": "hades",
+      "relationship": "ally-of",
+      "target": "zeus",
+      "rationale": "Hades ally of Zeus during The Olympians Defeat the Titans."
+    },
+    {
+      "source": "cyclopes",
+      "relationship": "ally-of",
+      "target": "zeus",
+      "rationale": "Cyclopes ally of Zeus during The Olympians Defeat the Titans."
+    },
+    {
+      "source": "titans",
+      "relationship": "enemy-of",
+      "target": "zeus",
+      "rationale": "Titans enemy of Zeus during The Olympians Defeat the Titans."
     }
   ],
   "narrative": {
@@ -136,8 +154,8 @@
     "cosmic beginning"
   ],
   "themes": [
-    "bounded myth episode",
-    "primordial and creation",
+    "primordial emergence",
+    "divine succession",
     "lead"
   ],
   "adaptation": {
@@ -151,8 +169,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on The Olympians Defeat the Titans.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: The Titans still possess the older claim to rule and must be displaced by force."
     ]
   }
 }

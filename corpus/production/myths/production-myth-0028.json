@@ -6,220 +6,160 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Hera Sends the Madness of Heracles; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Hera Sends the Madness of Heracles begins with Hera in a focused Olympian Gods situation rather than a full-cycle summary. The episode closes once Hera's decisive action changes the condition of Heracles and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Heracles has returned to domestic life with Megara and their children.",
+    "ending": "After the madness and oracle, Heracles enters service to Eurystheus as atonement.",
+    "boundaryRationale": "The episode begins with heracles has returned to domestic life with megara and their children and closes at after the madness and oracle, heracles enters service to eurystheus as atonement, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Common tragic prelude to the Labors; details of Megara’s fate vary by source.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Hera Sends the Madness of Heracles, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Hera Sends the Madness of Heracles begins with Hera in a focused Olympian Gods situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Hera and Heracles.",
-    "resolution": "The episode closes once Hera's decisive action changes the condition of Heracles and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Hera and Heracles, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Hera Sends the Madness of Heracles begins with Hera in a focused Olympian Gods situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Hera and Heracles."
-      },
-      {
-        "beat": "turn",
-        "text": "Hera takes the decisive confront action that defines Hera Sends the Madness of Heracles."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Hera and Heracles, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "hera",
       "name": "Hera",
-      "role": "principal",
-      "entityType": "character"
+      "role": "hostile goddess",
+      "goal": "break Heracles through madness"
     },
     {
       "id": "heracles",
       "name": "Heracles",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "hero and son of Zeus",
+      "goal": "survive guilt and seek atonement"
     },
     {
-      "id": "zeus",
-      "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
-    {
-      "id": "olympians",
-      "name": "Olympians",
-      "role": "supporting",
-      "entityType": "group-or-concept"
+      "id": "megara",
+      "name": "Megara",
+      "role": "wife of Heracles",
+      "goal": "become victim of the madness tradition"
     },
     {
-      "id": "mortals",
-      "name": "Mortals",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Hera",
-      "normalizedId": "hera",
-      "normalizationStatus": "production_canonical"
+      "id": "children-of-heracles",
+      "name": "Children of Heracles",
+      "role": "household victims",
+      "goal": "make the catastrophe irreversible"
     },
     {
-      "sourceName": "Heracles",
-      "normalizedId": "heracles",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Olympians",
-      "normalizedId": "olympians",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Mortals",
-      "normalizedId": "mortals",
-      "normalizationStatus": "production_canonical"
+      "id": "eurystheus",
+      "name": "Eurystheus",
+      "role": "king who imposes labors",
+      "goal": "receive Heracles after the oracle"
     }
   ],
   "relationships": [
     {
       "source": "hera",
-      "relationship": "central_to",
+      "relationship": "enemy-of",
       "target": "heracles",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Hera and Heracles define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Hera enemy of Heracles during Hera Sends the Madness of Heracles."
+    },
+    {
+      "source": "heracles",
+      "relationship": "spouse-of",
+      "target": "megara",
+      "rationale": "Heracles spouse of Megara during Hera Sends the Madness of Heracles."
+    },
+    {
+      "source": "heracles",
+      "relationship": "parent-of",
+      "target": "children-of-heracles",
+      "rationale": "Heracles parent of Children of Heracles during Hera Sends the Madness of Heracles."
+    },
+    {
+      "source": "eurystheus",
+      "relationship": "ruler-of",
+      "target": "heracles",
+      "rationale": "Eurystheus ruler of Heracles during Hera Sends the Madness of Heracles."
     }
   ],
+  "narrative": {
+    "synopsis": "Hera’s persecution turns Heracles’ strength inward against his own house. When sanity returns, the hero’s guilt drives him to purification and to the labors that will define his life.",
+    "openingSituation": "Heracles appears victorious enough to have a family and future.",
+    "centralConflict": "A divine attack makes the hero himself the danger to those he loves.",
+    "resolution": "Heracles seeks divine instruction and submits to Eurystheus.",
+    "outcome": "The Labors become atonement rather than mere adventure."
+  },
   "events": [
     {
-      "eventId": "production-myth-0028-event-01",
-      "actor": "hera",
-      "action": "establish",
-      "target": "heracles",
-      "object": null,
-      "recipient": null,
-      "location": "olympian-gods-setting",
-      "normalizedStatement": "Hera Sends the Madness of Heracles begins with Hera in a focused Olympian Gods situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0028-event-02",
-      "actor": "heracles",
-      "action": "challenge",
-      "target": "hera",
-      "object": null,
-      "recipient": null,
-      "location": "olympian-gods-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Hera and Heracles.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0028-event-03",
       "actor": "hera",
-      "action": "confront",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "olympian-gods-setting",
-      "normalizedStatement": "Hera performs the decisive action associated with Hera Sends the Madness of Heracles.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0028-event-04",
-      "actor": "hera",
-      "action": "resolve",
+      "action": "afflict",
       "target": "heracles",
-      "object": null,
-      "recipient": null,
-      "location": "olympian-gods-setting",
-      "normalizedStatement": "The episode closes once Hera's decisive action changes the condition of Heracles and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
+      "consequence": "Hera sends destructive madness.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "heracles",
+      "action": "kill",
+      "target": "children-of-heracles",
+      "consequence": "Heracles destroys his household in madness.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "heracles",
+      "action": "recognize",
+      "target": "megara",
+      "consequence": "He returns to awareness and faces the ruin.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "heracles",
+      "action": "consult",
+      "target": "eurystheus",
+      "consequence": "He seeks a path of purification.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "eurystheus",
+      "action": "command",
+      "target": "heracles",
+      "consequence": "The service that frames the Labors begins.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "olympian-gods-setting",
-      "name": "Olympian Gods setting",
-      "role": "primary setting"
-    }
+    "Thebes",
+    "Delphi",
+    "Mycenae"
   ],
   "themes": [
-    "production adaptation",
-    "olympian gods",
-    "confront"
+    "atonement",
+    "divine hostility",
+    "heroic guilt"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Hera Sends the Madness of Heracles begins with Hera in a focused Olympian Gods situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Hera and Heracles.",
-      "The episode closes once Hera's decisive action changes the condition of Heracles and leaves later cycle material outside this record."
+    "visualBeats": [
+      "Heracles appears victorious enough to have a family and future.",
+      "A divine attack makes the hero himself the danger to those he loves.",
+      "Heracles seeks divine instruction and submits to Eurystheus."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Hera and Heracles.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Avoid heroic triumphalism; the episode should feel like a tragic origin for the Labors."
     ]
   }
 }

@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Hermes Steals Apollo's Cattle; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins on the day Hermes is born, when he slips from Maia’s cave.",
     "ending": "It ends when Hermes reconciles with Apollo through music and exchange, gaining a place among the gods.",
-    "boundaryRationale": "Starts with the episode begins on the day hermes is born, when he slips from maia’s cave. Stops at it ends when hermes reconciles with apollo through music and exchange, gaining a place among the gods."
+    "boundaryRationale": "The episode begins with the episode begins on the day hermes is born, when he slips from maia’s cave and closes at it ends when hermes reconciles with apollo through music and exchange, gaining a place among the gods, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Homeric Hymn style version centered on theft, denial, lyre, and reconciliation.",
@@ -56,15 +56,21 @@
   "relationships": [
     {
       "source": "hermes",
-      "relationship": "mythic-tension-with",
-      "target": "apollo",
-      "rationale": "Hermes and Apollo shape Hermes Steals Apollo's Cattle."
+      "relationship": "child-of",
+      "target": "maia",
+      "rationale": "Hermes child of Maia during Hermes Steals Apollo's Cattle."
     },
     {
       "source": "hermes",
-      "relationship": "mythic-tension-with",
-      "target": "maia",
-      "rationale": "Hermes and Maia shape Hermes Steals Apollo's Cattle."
+      "relationship": "enemy-of",
+      "target": "apollo",
+      "rationale": "Hermes enemy of Apollo during Hermes Steals Apollo's Cattle."
+    },
+    {
+      "source": "zeus",
+      "relationship": "parent-of",
+      "target": "hermes",
+      "rationale": "Zeus parent of Hermes during Hermes Steals Apollo's Cattle."
     }
   ],
   "narrative": {
@@ -130,8 +136,8 @@
     "Olympian realm"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "escape"
   ],
   "adaptation": {
@@ -143,8 +149,7 @@
     ],
     "sensitiveContent": [],
     "productionNotes": [
-      "Focus on Hermes Steals Apollo's Cattle.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Apollo’s stolen cattle expose Hermes as a trickster before he has an official Olympian role."
     ]
   }
 }

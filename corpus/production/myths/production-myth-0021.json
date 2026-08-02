@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Dionysus and the Pirates; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when pirates seize a beautiful youth they do not recognize as Dionysus.",
     "ending": "It ends when Dionysus transforms the pirates into dolphins and spares the helmsman who warned them.",
-    "boundaryRationale": "Starts with the episode begins when pirates seize a beautiful youth they do not recognize as dionysus. Stops at it ends when dionysus transforms the pirates into dolphins and spares the helmsman who warned them."
+    "boundaryRationale": "The episode begins with the episode begins when pirates seize a beautiful youth they do not recognize as dionysus and closes at it ends when dionysus transforms the pirates into dolphins and spares the helmsman who warned them, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Homeric Hymn to Dionysus version with ship miracles, vine imagery, and dolphin transformation.",
@@ -45,26 +45,20 @@
       "name": "Ship",
       "role": "miracle-filled vessel",
       "goal": "display divine signs"
-    },
-    {
-      "id": "dolphins",
-      "name": "Dolphins",
-      "role": "transformed pirates",
-      "goal": "survive as changed creatures"
     }
   ],
   "relationships": [
     {
       "source": "dionysus",
-      "relationship": "mythic-tension-with",
+      "relationship": "punishes",
       "target": "pirates",
-      "rationale": "Dionysus and Pirates shape Dionysus and the Pirates."
+      "rationale": "Dionysus punishes Pirates during Dionysus and the Pirates."
     },
     {
-      "source": "dionysus",
-      "relationship": "mythic-tension-with",
-      "target": "helmsman",
-      "rationale": "Dionysus and Helmsman shape Dionysus and the Pirates."
+      "source": "helmsman",
+      "relationship": "protects",
+      "target": "dionysus",
+      "rationale": "Helmsman protects Dionysus during Dionysus and the Pirates."
     }
   ],
   "narrative": {
@@ -130,8 +124,8 @@
     "Aegean ship"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "seize"
   ],
   "adaptation": {
@@ -145,8 +139,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Dionysus and the Pirates.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Only the helmsman recognizes the danger of treating the stranger as ordinary prey."
     ]
   }
 }

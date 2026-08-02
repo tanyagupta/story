@@ -6,197 +6,163 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Demeter at Eleusis; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Demeter at Eleusis begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary. The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Demeter arrives at Eleusis disguised as an old woman during her search for Persephone.",
+    "ending": "Demeter reveals herself after Metaneira interrupts the fire ritual and commands Eleusis to honor her.",
+    "boundaryRationale": "The episode begins with demeter arrives at eleusis disguised as an old woman during her search for persephone and closes at demeter reveals herself after metaneira interrupts the fire ritual and commands eleusis to honor her, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Homeric Hymn Eleusis episode; it stops before the final return of Persephone.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Demeter at Eleusis, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Demeter at Eleusis begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Demeter and Persephone.",
-    "resolution": "The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Demeter and Persephone, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Demeter at Eleusis begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Demeter and Persephone."
-      },
-      {
-        "beat": "turn",
-        "text": "Demeter takes the decisive confront action that defines Demeter at Eleusis."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Demeter and Persephone, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "demeter",
       "name": "Demeter",
-      "role": "principal",
-      "entityType": "character"
+      "role": "disguised grieving goddess",
+      "goal": "find shelter and nearly immortalize a child"
     },
     {
-      "id": "persephone",
-      "name": "Persephone",
-      "role": "supporting",
-      "entityType": "character"
+      "id": "metaneira",
+      "name": "Metaneira",
+      "role": "queen of Eleusis",
+      "goal": "interrupt the hidden rite"
     },
     {
-      "id": "hades",
-      "name": "Hades",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Demeter",
-      "normalizedId": "demeter",
-      "normalizationStatus": "production_canonical"
+      "id": "demophon",
+      "name": "Demophon",
+      "role": "royal infant",
+      "goal": "almost receive immortality"
     },
     {
-      "sourceName": "Persephone",
-      "normalizedId": "persephone",
-      "normalizationStatus": "production_canonical"
+      "id": "celeus",
+      "name": "Celeus",
+      "role": "king of Eleusis",
+      "goal": "host the disguised goddess"
     },
     {
-      "sourceName": "Hades",
-      "normalizedId": "hades",
-      "normalizationStatus": "production_canonical"
+      "id": "eleusinians",
+      "name": "Eleusinians",
+      "role": "people of Eleusis",
+      "goal": "receive Demeter’s revelation"
     }
   ],
   "relationships": [
     {
       "source": "demeter",
-      "relationship": "central_to",
-      "target": "persephone",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Demeter and Persephone define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "relationship": "protects",
+      "target": "demophon",
+      "rationale": "Demeter protects Demophon during Demeter at Eleusis."
+    },
+    {
+      "source": "metaneira",
+      "relationship": "parent-of",
+      "target": "demophon",
+      "rationale": "Metaneira parent of Demophon during Demeter at Eleusis."
+    },
+    {
+      "source": "celeus",
+      "relationship": "spouse-of",
+      "target": "metaneira",
+      "rationale": "Celeus spouse of Metaneira during Demeter at Eleusis."
     }
   ],
+  "narrative": {
+    "synopsis": "Demeter’s grief enters a mortal house at Eleusis. Her hidden attempt to make Demophon immortal fails when Metaneira interrupts, but the failure becomes the origin of Eleusinian honor for the goddess.",
+    "openingSituation": "Demeter is wandering in disguise, withdrawn from Olympus and from the harvest.",
+    "centralConflict": "A mortal mother’s fear interrupts a divine attempt to change a child’s fate.",
+    "resolution": "Demeter reveals herself and commands worship.",
+    "outcome": "Eleusis becomes bound to Demeter’s mysteries and favor."
+  },
   "events": [
     {
-      "eventId": "production-myth-0038-event-01",
-      "actor": "demeter",
-      "action": "establish",
-      "target": "persephone",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "Demeter at Eleusis begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "demeter",
+      "action": "arrive",
+      "target": "eleusinians",
+      "consequence": "Demeter comes to Eleusis in disguise.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0038-event-02",
-      "actor": "persephone",
-      "action": "challenge",
-      "target": "demeter",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Demeter and Persephone.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "celeus",
+      "action": "host",
+      "target": "demeter",
+      "consequence": "The royal house receives her.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0038-event-03",
-      "actor": "demeter",
-      "action": "confront",
-      "target": "hades",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "Demeter performs the decisive action associated with Demeter at Eleusis.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "demeter",
+      "action": "nurse",
+      "target": "demophon",
+      "consequence": "Demeter cares for the child.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0038-event-04",
-      "actor": "demeter",
-      "action": "resolve",
-      "target": "persephone",
-      "object": null,
-      "recipient": null,
-      "location": "demeter-and-persephone-setting",
-      "normalizedStatement": "The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "demeter",
+      "action": "immerse",
+      "target": "demophon",
+      "consequence": "She places him in fire to make him deathless.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "metaneira",
+      "action": "interrupt",
+      "target": "demeter",
+      "consequence": "Metaneira cries out and stops the rite.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "demeter",
+      "action": "reveal",
+      "target": "eleusinians",
+      "consequence": "Demeter discloses her divinity.",
+      "factIds": [
+        "fact-06"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "demeter-and-persephone-setting",
-      "name": "Demeter and Persephone setting",
-      "role": "primary setting"
-    }
+    "Eleusis",
+    "house of Celeus"
   ],
   "themes": [
-    "production adaptation",
-    "demeter and persephone",
-    "confront"
+    "hidden divinity",
+    "mortality",
+    "sacred rites"
   ],
   "adaptation": {
-    "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Demeter at Eleusis begins with Demeter in a focused Demeter and Persephone situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Demeter and Persephone.",
-      "The episode closes once Demeter's decisive action changes the condition of Persephone and leaves later cycle material outside this record."
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Demeter is wandering in disguise, withdrawn from Olympus and from the harvest.",
+      "A mortal mother’s fear interrupts a divine attempt to change a child’s fate.",
+      "Demeter reveals herself and commands worship."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Demeter and Persephone.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Play the fire ritual as frightening and holy rather than villainous."
     ]
   }
 }

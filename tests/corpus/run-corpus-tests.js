@@ -949,9 +949,9 @@ test("AI production mythology corpus is separate, complete, and internally valid
   assert.strictEqual(report.planRecords, 200);
   assert.strictEqual(report.catalogRecords, 200);
   assert.strictEqual(report.sourceAuditedReferenceRecords, 32);
-  assert.strictEqual(report.substantivelyRepaired, 25);
-  assert.strictEqual(report.remainingPlaceholders, 175);
-  assert.strictEqual(report.placeholderSelfCertifiedQualityCount, 175);
+  assert.strictEqual(report.substantivelyRepaired, 50);
+  assert.strictEqual(report.remainingPlaceholders, 150);
+  assert.strictEqual(report.placeholderSelfCertifiedQualityCount, 150);
 
   const productionCatalog = readJson(path.join(root, "corpus/production/catalog/production-myths.json"));
   assert.strictEqual(productionCatalog.records.length, 200);

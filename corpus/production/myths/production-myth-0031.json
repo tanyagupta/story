@@ -6,197 +6,141 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Prometheus Steals Fire; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Prometheus Steals Fire begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary. The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Zeus withholds fire from humans after Prometheus’ earlier trick.",
+    "ending": "Prometheus succeeds in bringing hidden fire back to humans, provoking Zeus’ next punishment.",
+    "boundaryRationale": "The episode begins with zeus withholds fire from humans after prometheus’ earlier trick and closes at prometheus succeeds in bringing hidden fire back to humans, provoking zeus’ next punishment, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Hesiodic fire theft with the fire hidden in a fennel stalk.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Prometheus Steals Fire, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Prometheus Steals Fire begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the steal action named by the episode, involving Prometheus and Zeus.",
-    "resolution": "The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Prometheus and Zeus, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Prometheus Steals Fire begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the steal action named by the episode, involving Prometheus and Zeus."
-      },
-      {
-        "beat": "turn",
-        "text": "Prometheus takes the decisive steal action that defines Prometheus Steals Fire."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Prometheus and Zeus, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "prometheus",
       "name": "Prometheus",
-      "role": "principal",
-      "entityType": "character"
+      "role": "defiant benefactor",
+      "goal": "restore fire to humans"
     },
     {
       "id": "zeus",
       "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "angry king",
+      "goal": "withhold fire as punishment"
     },
     {
       "id": "humans",
       "name": "Humans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Prometheus",
-      "normalizedId": "prometheus",
-      "normalizationStatus": "production_canonical"
+      "role": "cold and powerless mortals",
+      "goal": "regain craft and warmth"
     },
     {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Humans",
-      "normalizedId": "humans",
-      "normalizationStatus": "production_canonical"
+      "id": "fennel-stalk",
+      "name": "Fennel stalk",
+      "role": "hidden carrier",
+      "goal": "conceal the stolen fire"
     }
   ],
   "relationships": [
     {
       "source": "prometheus",
-      "relationship": "central_to",
-      "target": "zeus",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Prometheus and Zeus define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "relationship": "protects",
+      "target": "humans",
+      "rationale": "Prometheus protects Humans during Prometheus Steals Fire."
+    },
+    {
+      "source": "zeus",
+      "relationship": "enemy-of",
+      "target": "prometheus",
+      "rationale": "Zeus enemy of Prometheus during Prometheus Steals Fire."
     }
   ],
+  "narrative": {
+    "synopsis": "Prometheus answers Zeus’ punishment by stealing fire for humanity. The theft restores warmth and craft to mortals, but it also turns Zeus’ anger toward a harsher revenge.",
+    "openingSituation": "Humans suffer because Zeus has withheld fire.",
+    "centralConflict": "Prometheus must choose between obedience to Zeus and loyalty to vulnerable mortals.",
+    "resolution": "Fire reaches human hands again.",
+    "outcome": "Human civilization is preserved, but Zeus escalates the conflict."
+  },
   "events": [
     {
-      "eventId": "production-myth-0031-event-01",
-      "actor": "prometheus",
-      "action": "establish",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "Prometheus Steals Fire begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0031-event-02",
       "actor": "zeus",
-      "action": "challenge",
-      "target": "prometheus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "The central pressure is the steal action named by the episode, involving Prometheus and Zeus.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "action": "withhold",
+      "target": "humans",
+      "consequence": "Zeus deprives mortals of fire.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0031-event-03",
+      "sequence": 2,
+      "actor": "humans",
+      "action": "suffer",
+      "target": "zeus",
+      "consequence": "Humans lack warmth and craft.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
       "actor": "prometheus",
       "action": "steal",
-      "target": "humans",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "Prometheus performs the decisive action associated with Prometheus Steals Fire.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "target": "zeus",
+      "consequence": "Prometheus takes fire from the gods.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0031-event-04",
-      "actor": "prometheus",
-      "action": "resolve",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "prometheus",
+      "action": "hide",
+      "target": "fennel-stalk",
+      "consequence": "The flame is concealed in a stalk.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "humans",
+      "action": "receive",
+      "target": "prometheus",
+      "consequence": "Mortals regain fire.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "prometheus-and-early-mortals-setting",
-      "name": "Prometheus and Early Mortals setting",
-      "role": "primary setting"
-    }
+    "Olympus",
+    "earth"
   ],
   "themes": [
-    "production adaptation",
-    "prometheus and early mortals",
-    "steal"
+    "fire",
+    "rebellion",
+    "human craft"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Prometheus Steals Fire begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-      "The central pressure is the steal action named by the episode, involving Prometheus and Zeus.",
-      "The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record."
+    "visualBeats": [
+      "Humans suffer because Zeus has withheld fire.",
+      "Prometheus must choose between obedience to Zeus and loyalty to vulnerable mortals.",
+      "Fire reaches human hands again."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Prometheus and Zeus.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Use darkness and cold before the stolen ember appears."
     ]
   }
 }

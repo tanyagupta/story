@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Athena and Arachne; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when Arachne boasts that her weaving surpasses Athena’s.",
     "ending": "It ends when Arachne is transformed into a spider and condemned to weave forever.",
-    "boundaryRationale": "Starts with the episode begins when arachne boasts that her weaving surpasses athena’s. Stops at it ends when arachne is transformed into a spider and condemned to weave forever."
+    "boundaryRationale": "The episode begins with the episode begins when arachne boasts that her weaving surpasses athena’s and closes at it ends when arachne is transformed into a spider and condemned to weave forever, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Ovidian contest version treated as Greek myth production adaptation with Roman literary transmission disclosed.",
@@ -39,26 +39,20 @@
       "name": "Nymphs",
       "role": "witnesses",
       "goal": "observe the contest"
-    },
-    {
-      "id": "spider",
-      "name": "Spider",
-      "role": "transformed Arachne",
-      "goal": "continue weaving forever"
     }
   ],
   "relationships": [
     {
-      "source": "arachne",
-      "relationship": "mythic-tension-with",
-      "target": "athena",
-      "rationale": "Arachne and Athena shape Athena and Arachne."
+      "source": "athena",
+      "relationship": "punishes",
+      "target": "arachne",
+      "rationale": "Athena punishes Arachne during Athena and Arachne."
     },
     {
       "source": "arachne",
-      "relationship": "mythic-tension-with",
-      "target": "nymphs",
-      "rationale": "Arachne and Nymphs shape Athena and Arachne."
+      "relationship": "enemy-of",
+      "target": "athena",
+      "rationale": "Arachne enemy of Athena during Athena and Arachne."
     }
   ],
   "narrative": {
@@ -113,7 +107,7 @@
       "sequence": 5,
       "actor": "arachne",
       "action": "transform",
-      "target": "spider",
+      "target": "arachne",
       "consequence": "Arachne becomes a spider and keeps weaving.",
       "factIds": [
         "fact-05"
@@ -124,8 +118,8 @@
     "Arachne’s weaving room"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "boast"
   ],
   "adaptation": {
@@ -139,8 +133,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Athena and Arachne.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: The contest is about artistry and authority: whether mortal truth-telling can survive divine anger."
     ]
   }
 }

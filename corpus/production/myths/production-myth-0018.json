@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Artemis Protects Her Mother; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when Niobe boasts that her many children make her greater than Leto.",
     "ending": "It ends with Niobe bereft and transformed by grief, while Leto’s honor is vindicated.",
-    "boundaryRationale": "Starts with the episode begins when niobe boasts that her many children make her greater than leto. Stops at it ends with niobe bereft and transformed by grief, while leto’s honor is vindicated."
+    "boundaryRationale": "The episode begins with the episode begins when niobe boasts that her many children make her greater than leto and closes at it ends with niobe bereft and transformed by grief, while leto’s honor is vindicated, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Niobe punishment episode emphasizing Artemis’ role beside Apollo.",
@@ -56,15 +56,27 @@
   "relationships": [
     {
       "source": "artemis",
-      "relationship": "mythic-tension-with",
-      "target": "apollo",
-      "rationale": "Artemis and Apollo shape Artemis Protects Her Mother."
+      "relationship": "child-of",
+      "target": "leto",
+      "rationale": "Artemis child of Leto during Artemis Protects Her Mother."
+    },
+    {
+      "source": "apollo",
+      "relationship": "sibling-of",
+      "target": "artemis",
+      "rationale": "Apollo sibling of Artemis during Artemis Protects Her Mother."
+    },
+    {
+      "source": "niobe",
+      "relationship": "enemy-of",
+      "target": "leto",
+      "rationale": "Niobe enemy of Leto during Artemis Protects Her Mother."
     },
     {
       "source": "artemis",
-      "relationship": "mythic-tension-with",
-      "target": "leto",
-      "rationale": "Artemis and Leto shape Artemis Protects Her Mother."
+      "relationship": "punishes",
+      "target": "niobe",
+      "rationale": "Artemis punishes Niobe during Artemis Protects Her Mother."
     }
   ],
   "narrative": {
@@ -130,8 +142,8 @@
     "Olympian realm"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "boast"
   ],
   "adaptation": {
@@ -145,8 +157,7 @@
       "mythic violence or distress"
     ],
     "productionNotes": [
-      "Focus on Artemis Protects Her Mother.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: The insult challenges not only Leto but the divine dignity of Apollo and Artemis."
     ]
   }
 }

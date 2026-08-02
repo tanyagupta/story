@@ -6,197 +6,153 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation of Prometheus Bound to the Rock; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Prometheus Bound to the Rock begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary. The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "Zeus orders Prometheus chained after the fire theft.",
+    "ending": "Prometheus remains bound, tormented by the eagle, and still refuses complete submission.",
+    "boundaryRationale": "The episode begins with zeus orders prometheus chained after the fire theft and closes at prometheus remains bound, tormented by the eagle, and still refuses complete submission, leaving surrounding cycle material outside this production unit."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Prometheus Bound tradition; release by Heracles is excluded for a later episode.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Prometheus Bound to the Rock, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Prometheus Bound to the Rock begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Prometheus and Zeus.",
-    "resolution": "The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Prometheus and Zeus, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Prometheus Bound to the Rock begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Prometheus and Zeus."
-      },
-      {
-        "beat": "turn",
-        "text": "Prometheus takes the decisive confront action that defines Prometheus Bound to the Rock."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Prometheus and Zeus, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "prometheus",
       "name": "Prometheus",
-      "role": "principal",
-      "entityType": "character"
+      "role": "punished Titan",
+      "goal": "endure Zeus’ sentence"
     },
     {
       "id": "zeus",
       "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "ruler enforcing punishment",
+      "goal": "break Prometheus’ defiance"
     },
     {
-      "id": "humans",
-      "name": "Humans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Prometheus",
-      "normalizedId": "prometheus",
-      "normalizationStatus": "production_canonical"
+      "id": "hephaestus",
+      "name": "Hephaestus",
+      "role": "reluctant smith",
+      "goal": "fasten the chains"
     },
     {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
+      "id": "eagle",
+      "name": "Eagle",
+      "role": "tormenting creature",
+      "goal": "devour Prometheus’ liver"
     },
     {
-      "sourceName": "Humans",
-      "normalizedId": "humans",
-      "normalizationStatus": "production_canonical"
+      "id": "oceanids",
+      "name": "Oceanids",
+      "role": "witnesses",
+      "goal": "lament his suffering"
     }
   ],
   "relationships": [
     {
-      "source": "prometheus",
-      "relationship": "central_to",
+      "source": "zeus",
+      "relationship": "punishes",
+      "target": "prometheus",
+      "rationale": "Zeus punishes Prometheus during Prometheus Bound to the Rock."
+    },
+    {
+      "source": "hephaestus",
+      "relationship": "serves",
       "target": "zeus",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Prometheus and Zeus define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Hephaestus serves Zeus during Prometheus Bound to the Rock."
+    },
+    {
+      "source": "eagle",
+      "relationship": "enemy-of",
+      "target": "prometheus",
+      "rationale": "Eagle enemy of Prometheus during Prometheus Bound to the Rock."
     }
   ],
+  "narrative": {
+    "synopsis": "Prometheus’ punishment turns divine rebellion into a public spectacle of suffering. Bound by Hephaestus and tormented by Zeus’ eagle, he remains dangerous because endurance and knowledge survive pain.",
+    "openingSituation": "The fire theft has exposed Zeus’ authority to challenge.",
+    "centralConflict": "Zeus can chain Prometheus’ body but cannot easily erase his knowledge or will.",
+    "resolution": "Prometheus remains bound and suffering.",
+    "outcome": "The conflict is suspended in torment until a later liberating episode."
+  },
   "events": [
     {
-      "eventId": "production-myth-0032-event-01",
-      "actor": "prometheus",
-      "action": "establish",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "Prometheus Bound to the Rock begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0032-event-02",
       "actor": "zeus",
-      "action": "challenge",
+      "action": "sentence",
       "target": "prometheus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Prometheus and Zeus.",
-      "sourceText": null,
-      "evidence": [],
+      "consequence": "Zeus orders punishment for the fire theft.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "hephaestus",
+      "action": "chain",
+      "target": "prometheus",
+      "consequence": "Hephaestus fastens Prometheus to the rock.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0032-event-03",
-      "actor": "prometheus",
-      "action": "confront",
-      "target": "humans",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "Prometheus performs the decisive action associated with Prometheus Bound to the Rock.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "eagle",
+      "action": "torment",
+      "target": "prometheus",
+      "consequence": "The eagle devours his liver.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0032-event-04",
-      "actor": "prometheus",
-      "action": "resolve",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "prometheus-and-early-mortals-setting",
-      "normalizedStatement": "The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "oceanids",
+      "action": "lament",
+      "target": "prometheus",
+      "consequence": "Witnesses register the scale of suffering.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "prometheus",
+      "action": "withhold",
+      "target": "zeus",
+      "consequence": "Prometheus keeps dangerous knowledge from Zeus.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "prometheus-and-early-mortals-setting",
-      "name": "Prometheus and Early Mortals setting",
-      "role": "primary setting"
-    }
+    "Caucasus rock",
+    "remote sky"
   ],
   "themes": [
-    "production adaptation",
-    "prometheus and early mortals",
-    "confront"
+    "punishment",
+    "endurance",
+    "knowledge"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Prometheus Bound to the Rock begins with Prometheus in a focused Prometheus and Early Mortals situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Prometheus and Zeus.",
-      "The episode closes once Prometheus's decisive action changes the condition of Zeus and leaves later cycle material outside this record."
+    "visualBeats": [
+      "The fire theft has exposed Zeus’ authority to challenge.",
+      "Zeus can chain Prometheus’ body but cannot easily erase his knowledge or will.",
+      "Prometheus remains bound and suffering."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Prometheus and Zeus.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Hold release by Heracles outside this episode."
     ]
   }
 }

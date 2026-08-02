@@ -6,7 +6,7 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "AI editorial adaptation.",
+    "constructionPolicy": "AI editorial adaptation of Aphrodite and Anchises; not a source edition.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
@@ -15,7 +15,7 @@
   "scope": {
     "beginning": "The episode begins when Zeus causes Aphrodite herself to desire the mortal Anchises.",
     "ending": "It ends when Aphrodite reveals herself, foretells Aeneas, and warns Anchises not to boast.",
-    "boundaryRationale": "Starts with the episode begins when zeus causes aphrodite herself to desire the mortal anchises. Stops at it ends when aphrodite reveals herself, foretells aeneas, and warns anchises not to boast."
+    "boundaryRationale": "The episode begins with the episode begins when zeus causes aphrodite herself to desire the mortal anchises and closes at it ends when aphrodite reveals herself, foretells aeneas, and warns anchises not to boast, leaving surrounding cycle material outside this production unit."
   },
   "variant": {
     "chosenVersion": "Homeric Hymn to Aphrodite version centered on Anchises and the birth prophecy of Aeneas.",
@@ -55,16 +55,22 @@
   ],
   "relationships": [
     {
-      "source": "aphrodite",
-      "relationship": "mythic-tension-with",
-      "target": "anchises",
-      "rationale": "Aphrodite and Anchises shape Aphrodite and Anchises."
+      "source": "zeus",
+      "relationship": "punishes",
+      "target": "aphrodite",
+      "rationale": "Zeus punishes Aphrodite during Aphrodite and Anchises."
     },
     {
       "source": "aphrodite",
-      "relationship": "mythic-tension-with",
-      "target": "zeus",
-      "rationale": "Aphrodite and Zeus shape Aphrodite and Anchises."
+      "relationship": "spouse-of",
+      "target": "anchises",
+      "rationale": "Aphrodite spouse of Anchises during Aphrodite and Anchises."
+    },
+    {
+      "source": "aphrodite",
+      "relationship": "parent-of",
+      "target": "aeneas",
+      "rationale": "Aphrodite parent of Aeneas during Aphrodite and Anchises."
     }
   ],
   "narrative": {
@@ -130,8 +136,8 @@
     "Mount Ida"
   ],
   "themes": [
-    "bounded myth episode",
-    "olympian gods",
+    "divine authority",
+    "Olympian order",
     "compel"
   ],
   "adaptation": {
@@ -143,8 +149,7 @@
     ],
     "sensitiveContent": [],
     "productionNotes": [
-      "Focus on Aphrodite and Anchises.",
-      "Avoid source-verification claims."
+      "Emphasize the specific mythic turn: Anchises cannot safely understand the difference between a disguised goddess and a mortal bride."
     ]
   }
 }
