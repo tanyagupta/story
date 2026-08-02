@@ -106,7 +106,9 @@ function validateVerifiedRecords(records, passageMap) {
     statusConsistencyFailures: [],
     misleadingScoreFailures: [],
     unresolvedUncertaintyFailures: [],
-    duplicateOutputFailures: []
+    duplicateOutputFailures: [],
+    catalogConsistencyFailures: [],
+    ledgerConsistencyFailures: []
   };
   const aliasGroups = [
     ["hades", "pluto", "roman-pluto"],
@@ -235,7 +237,9 @@ function validateVerifiedRecords(records, passageMap) {
     "statusConsistencyFailures",
     "misleadingScoreFailures",
     "unresolvedUncertaintyFailures",
-    "duplicateOutputFailures"
+    "duplicateOutputFailures",
+    "catalogConsistencyFailures",
+    "ledgerConsistencyFailures"
   ].every((field) => report[field].length === 0);
   return report;
 }

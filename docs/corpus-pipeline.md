@@ -242,10 +242,13 @@ total passages: 6292
 total candidate sections: 917
 valid narrative candidates: 291
 non-story candidates: 626
-machine-proposed records awaiting review: 278
+machine-proposed records awaiting review: 0
 source-audited records: 15
 approved by human review: 0
-records awaiting review: 278
+ambiguous source-reviewed records: 178
+rejected non-story source-reviewed records: 21
+unresolved records requiring human review: 83
+records awaiting review: 0
 open review items: probable duplicate and ambiguous family review queues
 ```
 
@@ -313,7 +316,27 @@ corpus/review/verification-progress.json
 
 Each selected record receives one outcome: `verified_by_source_audit`, `awaiting_review`, `ambiguous`, or `rejected_non_story`. A record becomes `verified_by_source_audit` only when the source passages support the title, family, scope, characters, relationships, narrative fields, and every structured event. A record remains unverified whenever a material source or interpretation uncertainty remains.
 
-Batch 01 verified nine additional records: Cadmus Founds Thebes; Paris Abducts Helen; The Apple of Discord at the Wedding; Bacchus Lures Vulcan to Olympus; Diana and Endymion; Infant Hercules and the Serpents; The Calydonian Hunt; Oedipus and the Sphinx; and Bellerophon, Pegasus, and the Chimera. Seven selected records remain `awaiting_review` because their current source spans are partial openings or mislabeled fragments. Four selected records are marked `ambiguous` because their passage groups mix multiple episodes or embed a story inside taxonomy/profile material. No selected records were marked `approved`, and no human-approved records were created.
+Batch 01 verified nine additional records: Cadmus Founds Thebes; Paris Abducts Helen; The Apple of Discord at the Wedding; Bacchus Lures Vulcan to Olympus; Diana and Endymion; Infant Hercules and the Serpents; The Calydonian Hunt; Oedipus and the Sphinx; and Bellerophon, Pegasus, and the Chimera. Seven selected records required later boundary work, and four selected records were marked `ambiguous` because their passage groups mix multiple episodes or embed a story inside taxonomy/profile material. No selected records were marked `approved`, and no human-approved records were created.
+
+After Batch 01, the remaining verification program reviews all remaining machine proposals in deterministic batches 02 through 07, each with no more than 50 records and internal groups of no more than 10. The program maintains `corpus/review/verification-ledger.json` so a record is not selected as new work twice. Batch result files live beside the Batch 01 reports:
+
+```text
+corpus/review/verification-batch-02.json
+corpus/review/verification-batch-02-results.json
+...
+corpus/review/verification-batch-07.json
+corpus/review/verification-batch-07-results.json
+```
+
+Normal batch outcomes are `verified_by_source_audit`, `ambiguous`, `rejected_non_story`, or `deferred_complex`. The final deferred pass then resolves all `deferred_complex` records into final statuses and writes:
+
+```text
+corpus/review/deferred-complex-records.json
+corpus/review/verification-final-deferred-results.json
+corpus/review/verification-program-final-report.json
+```
+
+No record remains `deferred_complex` after the final deferred pass. Records that have plausible narrative material but still require a human to decide source boundaries, split/merge behavior, or interpretation are marked `unresolved_requires_human_review`. These are listed in `corpus/catalog/human-review-required.json`; ambiguous records are listed in `corpus/catalog/ambiguous-myths.json`.
 
 The review checklist in `verification-batch-01-results.json` records boundary, title, family, character, alias, event, relationship, conflict, resolution, outcome, exact-source-text, and evidence-relevance checks for every selected record. It also documents five full manual inspections spanning different myth families. Subsequent batches should create a new deterministic selection report, review checklist, progress report, and source-audit update without changing the meaning of earlier batch records.
 

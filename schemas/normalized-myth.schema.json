@@ -80,6 +80,6 @@
     "semanticQuality": { "type": "object" },
     "variantLinks": { "type": "array" },
     "normalizationWarnings": { "type": "array" },
-    "reviewStatus": { "enum": ["draft", "awaiting_review", "verified_by_source_audit", "approved", "rejected", "rejected_non_story", "rejected_low_confidence", "ambiguous"] }
+    "reviewStatus": { "enum": ["draft", "awaiting_review", "verified_by_source_audit", "approved", "rejected", "rejected_non_story", "rejected_low_confidence", "ambiguous", "unresolved_requires_human_review"] }
   }
 }

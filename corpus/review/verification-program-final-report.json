@@ -1,0 +1,565 @@
+{
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "reportType": "verification-program-final-report",
+  "initialVerifiedCount": 15,
+  "initialAwaitingReviewCount": 278,
+  "batchesCompleted": [
+    {
+      "batchId": "verification-batch-02",
+      "selectedCount": 50,
+      "verifiedCount": 0,
+      "ambiguousCount": 21,
+      "rejectedCount": 0,
+      "deferredComplexCount": 29
+    },
+    {
+      "batchId": "verification-batch-03",
+      "selectedCount": 50,
+      "verifiedCount": 0,
+      "ambiguousCount": 43,
+      "rejectedCount": 0,
+      "deferredComplexCount": 7
+    },
+    {
+      "batchId": "verification-batch-04",
+      "selectedCount": 50,
+      "verifiedCount": 0,
+      "ambiguousCount": 25,
+      "rejectedCount": 0,
+      "deferredComplexCount": 25
+    },
+    {
+      "batchId": "verification-batch-05",
+      "selectedCount": 50,
+      "verifiedCount": 0,
+      "ambiguousCount": 36,
+      "rejectedCount": 2,
+      "deferredComplexCount": 12
+    },
+    {
+      "batchId": "verification-batch-06",
+      "selectedCount": 50,
+      "verifiedCount": 0,
+      "ambiguousCount": 40,
+      "rejectedCount": 8,
+      "deferredComplexCount": 2
+    },
+    {
+      "batchId": "verification-batch-07",
+      "selectedCount": 21,
+      "verifiedCount": 0,
+      "ambiguousCount": 9,
+      "rejectedCount": 11,
+      "deferredComplexCount": 1
+    }
+  ],
+  "finalDeferredPass": {
+    "reviewedCount": 83,
+    "unresolvedRequiresHumanReview": 83,
+    "remainingDeferredComplex": 0
+  },
+  "manualInspections": [
+    {
+      "mythId": "bulk-myth-0006",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0043",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0116",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0087",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0102",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0122",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0047",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0056",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0110",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0167",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0171",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0189",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0031",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0044",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0045",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0111",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0113",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0120",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0148",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0150",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0155",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0216",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0022",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0040",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0188",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0190",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0191",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0227",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0228",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0229",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0206",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0207",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0210",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0273",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0275",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0015",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0067",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0071",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0072",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0077",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0088",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0098",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0176",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0178",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0182",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0276",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0277",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0279",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0180",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0248",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome deferred_complex."
+    },
+    {
+      "mythId": "bulk-myth-0159",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome rejected_non_story."
+    },
+    {
+      "mythId": "bulk-myth-0214",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0220",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0221",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0245",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0246",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0249",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0080",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0212",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome rejected_non_story."
+    },
+    {
+      "mythId": "bulk-myth-0226",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0016",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0017",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0018",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0041",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0046",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0048",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0083",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0089",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0090",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0274",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0282",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0283",
+      "group": 4,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0139",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome rejected_non_story."
+    },
+    {
+      "mythId": "bulk-myth-0203",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome rejected_non_story."
+    },
+    {
+      "mythId": "bulk-myth-0007",
+      "group": 5,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0196",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome rejected_non_story."
+    },
+    {
+      "mythId": "bulk-myth-0211",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome rejected_non_story."
+    },
+    {
+      "mythId": "bulk-myth-0231",
+      "group": 1,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0192",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0070",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0281",
+      "group": 2,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0055",
+      "group": 3,
+      "finding": "Checked cited source passage list, title signal, family signal, event structure, and boundary risk; outcome ambiguous."
+    },
+    {
+      "mythId": "bulk-myth-0032",
+      "phase": "final-deferred-pass",
+      "finding": "Inspected cited passage list, overlapping-risk classification, and final unresolved human-review rationale."
+    },
+    {
+      "mythId": "bulk-myth-0175",
+      "phase": "final-deferred-pass",
+      "finding": "Inspected cited passage list, overlapping-risk classification, and final unresolved human-review rationale."
+    },
+    {
+      "mythId": "bulk-myth-0091",
+      "phase": "final-deferred-pass",
+      "finding": "Inspected cited passage list, overlapping-risk classification, and final unresolved human-review rationale."
+    },
+    {
+      "mythId": "bulk-myth-0030",
+      "phase": "final-deferred-pass",
+      "finding": "Inspected cited passage list, overlapping-risk classification, and final unresolved human-review rationale."
+    },
+    {
+      "mythId": "bulk-myth-0085",
+      "phase": "final-deferred-pass",
+      "finding": "Inspected cited passage list, overlapping-risk classification, and final unresolved human-review rationale."
+    },
+    {
+      "mythId": "bulk-myth-0115",
+      "phase": "final-deferred-pass",
+      "finding": "Inspected cited passage list, overlapping-risk classification, and final unresolved human-review rationale."
+    },
+    {
+      "mythId": "bulk-myth-0164",
+      "phase": "final-deferred-pass",
+      "finding": "Inspected cited passage list, overlapping-risk classification, and final unresolved human-review rationale."
+    },
+    {
+      "mythId": "bulk-myth-0006",
+      "phase": "final-deferred-pass",
+      "finding": "Inspected cited passage list, overlapping-risk classification, and final unresolved human-review rationale."
+    },
+    {
+      "mythId": "bulk-myth-0014",
+      "phase": "final-deferred-pass",
+      "finding": "Inspected cited passage list, overlapping-risk classification, and final unresolved human-review rationale."
+    },
+    {
+      "mythId": "bulk-myth-0020",
+      "phase": "final-deferred-pass",
+      "finding": "Inspected cited passage list, overlapping-risk classification, and final unresolved human-review rationale."
+    }
+  ],
+  "splitRecordInspection": "No automated split was committed; split candidates remain unresolved_requires_human_review when human source-boundary judgment is required.",
+  "mergedFragmentInspection": "No automated merge was committed; merge candidates remain unresolved_requires_human_review when overlap cannot be resolved mechanically.",
+  "ambiguousDecisionInspection": {
+    "mythId": "bulk-myth-0043",
+    "finalStatus": "ambiguous",
+    "correctionsMade": [
+      "Reviewed source passage references and determined that automatic verified promotion is not defensible without further source-boundary work."
+    ],
+    "sourcePassagesRead": [
+      "gutenberg:ebooks:45489:98.98.1-98.98.1:b71a5d7a",
+      "gutenberg:ebooks:45489:98.98.2-98.98.2:a62183e0",
+      "gutenberg:ebooks:45489:98.98.3-98.98.3:ef3f41e3",
+      "gutenberg:ebooks:45489:98.98.4-98.98.4:a24cdaa0",
+      "gutenberg:ebooks:45489:98.98.5-98.98.5:ad6d3441",
+      "gutenberg:ebooks:45489:98.98.6-98.98.6:eb244fa5",
+      "gutenberg:ebooks:45489:98.98.7-98.98.7:5737e4d8",
+      "gutenberg:ebooks:45489:98.98.8-98.98.8:e60e5031"
+    ],
+    "remainingUncertainties": [],
+    "decisionRationale": "Source-grounded batch review found narrative signals mixed with structural headings, commentary, profile material, or unclear boundaries."
+  },
+  "rejectedDecisionInspection": {
+    "mythId": "bulk-myth-0159",
+    "finalStatus": "rejected_non_story",
+    "correctionsMade": [
+      "Reviewed source passage references and determined that automatic verified promotion is not defensible without further source-boundary work."
+    ],
+    "sourcePassagesRead": [
+      "gutenberg:ebooks:39250:104.104.1-104.104.1:5f9914dd",
+      "gutenberg:ebooks:39250:104.104.2-104.104.2:49329cd0",
+      "gutenberg:ebooks:39250:104.104.3-104.104.3:17baff1f",
+      "gutenberg:ebooks:39250:104.104.4-104.104.4:4bea2cfb",
+      "gutenberg:ebooks:39250:104.104.5-104.104.5:2e036f89",
+      "gutenberg:ebooks:39250:104.104.6-104.104.6:40358324"
+    ],
+    "remainingUncertainties": [],
+    "decisionRationale": "Source-grounded batch review found publishing, commentary, attribution, profile, or reference material rather than a bounded myth episode."
+  },
+  "limitations": [
+    "Source-audited records were reviewed against cited repository sources by the implementation workflow. They are not human scholarly approvals.",
+    "Records marked unresolved_requires_human_review require a person to make the final interpretive decision."
+  ]
+}
