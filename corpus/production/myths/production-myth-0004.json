@@ -6,209 +6,147 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Uranus Imprisons His Children begins with Uranus in a focused Primordial and Creation situation rather than a full-cycle summary. The episode closes once Uranus's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "The episode begins when Uranus fears or hates the monstrous children born from Gaia.",
+    "ending": "It ends when Gaia, in pain, prepares a sickle and seeks a child willing to attack Uranus.",
+    "boundaryRationale": "Starts with the episode begins when uranus fears or hates the monstrous children born from gaia. Stops at it ends when gaia, in pain, prepares a sickle and seeks a child willing to attack uranus."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Hesiodic oppression of Cyclopes and Hundred-Handers inside Gaia.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Uranus Imprisons His Children, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Uranus Imprisons His Children begins with Uranus in a focused Primordial and Creation situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Uranus and Gaia.",
-    "resolution": "The episode closes once Uranus's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Uranus and Gaia, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Uranus Imprisons His Children begins with Uranus in a focused Primordial and Creation situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Uranus and Gaia."
-      },
-      {
-        "beat": "turn",
-        "text": "Uranus takes the decisive confront action that defines Uranus Imprisons His Children."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Uranus and Gaia, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "uranus",
       "name": "Uranus",
-      "role": "principal",
-      "entityType": "character"
+      "role": "oppressive sky father",
+      "goal": "prevent threatening children from rising"
     },
     {
       "id": "gaia",
       "name": "Gaia",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "burdened mother",
+      "goal": "free the children hidden inside her"
     },
     {
-      "id": "zeus",
-      "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
-    {
-      "id": "titans",
-      "name": "Titans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Uranus",
-      "normalizedId": "uranus",
-      "normalizationStatus": "production_canonical"
+      "id": "cyclopes",
+      "name": "Cyclopes",
+      "role": "imprisoned children",
+      "goal": "survive confinement"
     },
     {
-      "sourceName": "Gaia",
-      "normalizedId": "gaia",
-      "normalizationStatus": "production_canonical"
+      "id": "hecatoncheires",
+      "name": "Hecatoncheires",
+      "role": "hundred-handed children",
+      "goal": "remain trapped beneath Uranus"
     },
     {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Titans",
-      "normalizedId": "titans",
-      "normalizationStatus": "production_canonical"
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "Titan son",
+      "goal": "listen to Gaia’s revolt"
     }
   ],
   "relationships": [
     {
       "source": "uranus",
-      "relationship": "central_to",
+      "relationship": "mythic-tension-with",
       "target": "gaia",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Uranus and Gaia define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Uranus and Gaia shape Uranus Imprisons His Children."
+    },
+    {
+      "source": "uranus",
+      "relationship": "mythic-tension-with",
+      "target": "cyclopes",
+      "rationale": "Uranus and Cyclopes shape Uranus Imprisons His Children."
     }
   ],
+  "narrative": {
+    "synopsis": "Uranus refuses to let his fearsome children emerge and forces them back into Gaia. Gaia’s pain turns maternity into rebellion as she prepares a sickle and calls on her children for help.",
+    "openingSituation": "The first divine household is ruled by Uranus, who will not tolerate children who frighten him.",
+    "centralConflict": "Gaia is crushed by the children hidden inside her while Uranus keeps his dominance.",
+    "resolution": "Gaia arms a plan of revolt and Cronus becomes the child ready to carry it out.",
+    "outcome": "The conflict moves from silent imprisonment to open succession violence."
+  },
   "events": [
     {
-      "eventId": "production-myth-0004-event-01",
-      "actor": "uranus",
-      "action": "establish",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Uranus Imprisons His Children begins with Uranus in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "uranus",
+      "action": "imprison",
+      "target": "cyclopes",
+      "consequence": "The Cyclopes are hidden away instead of honored as children.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0004-event-02",
-      "actor": "gaia",
-      "action": "challenge",
-      "target": "uranus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Uranus and Gaia.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "uranus",
+      "action": "imprison",
+      "target": "hecatoncheires",
+      "consequence": "The Hundred-Handers are forced into Gaia’s depths.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0004-event-03",
-      "actor": "uranus",
-      "action": "confront",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Uranus performs the decisive action associated with Uranus Imprisons His Children.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "gaia",
+      "action": "suffer",
+      "target": "uranus",
+      "consequence": "Gaia’s body bears the pain of Uranus’ control.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0004-event-04",
-      "actor": "uranus",
-      "action": "resolve",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The episode closes once Uranus's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "gaia",
+      "action": "forge",
+      "target": "cronus",
+      "consequence": "Gaia prepares the sickle and seeks an attacker.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "cronus",
+      "action": "accept",
+      "target": "gaia",
+      "consequence": "Cronus agrees to act where the others hesitate.",
+      "factIds": [
+        "fact-04"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "primordial-and-creation-setting",
-      "name": "Primordial and Creation setting",
-      "role": "primary setting"
-    }
+    "cosmic beginning"
   ],
   "themes": [
-    "production adaptation",
+    "bounded myth episode",
     "primordial and creation",
-    "confront"
+    "imprison"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Uranus Imprisons His Children begins with Uranus in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Uranus and Gaia.",
-      "The episode closes once Uranus's decisive action changes the condition of Gaia and leaves later cycle material outside this record."
+    "visualBeats": [
+      "The first divine household is ruled by Uranus, who will not tolerate children who frighten him.",
+      "Gaia is crushed by the children hidden inside her while Uranus keeps his dominance.",
+      "Gaia arms a plan of revolt and Cronus becomes the child ready to carry it out."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Uranus and Gaia.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Focus on Uranus Imprisons His Children.",
+      "Avoid source-verification claims."
     ]
   }
 }

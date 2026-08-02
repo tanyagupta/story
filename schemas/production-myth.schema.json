@@ -11,15 +11,14 @@
     "provenance",
     "referenceLinks",
     "scope",
-    "variantPolicy",
-    "narrative",
-    "mainCharacters",
+    "variant",
+    "characters",
     "relationships",
+    "narrative",
     "events",
     "locations",
     "themes",
-    "adaptation",
-    "qualityReview"
+    "adaptation"
   ],
   "properties": {
     "id": {
@@ -43,7 +42,6 @@
         "type",
         "specificSourceVerified",
         "constructionPolicy",
-        "variantPolicy",
         "basedOnSourceAuditedReference"
       ],
       "properties": {
@@ -54,10 +52,8 @@
           "const": false
         },
         "constructionPolicy": {
-          "type": "string"
-        },
-        "variantPolicy": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "basedOnSourceAuditedReference": {
           "type": "boolean"
@@ -68,8 +64,7 @@
     "referenceLinks": {
       "type": "object",
       "required": [
-        "sourceAuditedRecordIds",
-        "relatedSourceProposalIds"
+        "sourceAuditedRecordIds"
       ],
       "properties": {
         "sourceAuditedRecordIds": {
@@ -77,35 +72,44 @@
           "items": {
             "type": "string"
           }
-        },
-        "relatedSourceProposalIds": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
         }
-      }
+      },
+      "additionalProperties": true
     },
     "scope": {
       "type": "object",
       "required": [
-        "type",
-        "boundaryRationale",
-        "excludedMaterial"
+        "beginning",
+        "ending",
+        "boundaryRationale"
       ],
       "properties": {
-        "type": {
-          "enum": [
-            "complete-episode",
-            "coherent-subepisode",
-            "cycle-summary"
-          ]
+        "beginning": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ending": {
+          "type": "string",
+          "minLength": 1
         },
         "boundaryRationale": {
           "type": "string",
           "minLength": 1
+        }
+      }
+    },
+    "variant": {
+      "type": "object",
+      "required": [
+        "chosenVersion",
+        "materialAlternatives"
+      ],
+      "properties": {
+        "chosenVersion": {
+          "type": "string",
+          "minLength": 1
         },
-        "excludedMaterial": {
+        "materialAlternatives": {
           "type": "array",
           "items": {
             "type": "string"
@@ -113,8 +117,21 @@
         }
       }
     },
-    "variantPolicy": {
-      "type": "object"
+    "characters": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "role",
+          "goal"
+        ]
+      }
+    },
+    "relationships": {
+      "type": "array"
     },
     "narrative": {
       "type": "object",
@@ -123,26 +140,23 @@
         "openingSituation",
         "centralConflict",
         "resolution",
-        "outcome",
-        "storyline"
+        "outcome"
       ]
-    },
-    "mainCharacters": {
-      "type": "array",
-      "minItems": 1
-    },
-    "supportingCharacters": {
-      "type": "array"
-    },
-    "entityMappings": {
-      "type": "array"
-    },
-    "relationships": {
-      "type": "array"
     },
     "events": {
       "type": "array",
-      "minItems": 1
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "sequence",
+          "actor",
+          "action",
+          "target",
+          "consequence",
+          "factIds"
+        ]
+      }
     },
     "locations": {
       "type": "array",
@@ -155,22 +169,9 @@
       "type": "object",
       "required": [
         "recommendedSceneCount",
-        "visualMoments",
-        "dialogueOpportunities",
+        "visualBeats",
         "sensitiveContent",
         "productionNotes"
-      ]
-    },
-    "qualityReview": {
-      "type": "object",
-      "required": [
-        "internalConsistencyPassed",
-        "variantConsistencyPassed",
-        "characterConsistencyPassed",
-        "eventSequencePassed",
-        "boundaryReviewPassed",
-        "duplicateReviewPassed",
-        "reviewNotes"
       ]
     }
   },

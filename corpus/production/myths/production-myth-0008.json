@@ -6,209 +6,147 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Rhea Saves Zeus begins with Rhea in a focused Primordial and Creation situation rather than a full-cycle summary. The episode closes once Rhea's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "The episode begins with Rhea pregnant again after Cronus has swallowed her earlier children.",
+    "ending": "It ends with Zeus hidden in Crete while Cronus believes he has swallowed the newborn.",
+    "boundaryRationale": "Starts with the episode begins with rhea pregnant again after cronus has swallowed her earlier children. Stops at it ends with zeus hidden in crete while cronus believes he has swallowed the newborn."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Cretan infancy version with Rhea substituting a wrapped stone for Zeus.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Rhea Saves Zeus, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Rhea Saves Zeus begins with Rhea in a focused Primordial and Creation situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Rhea and Zeus.",
-    "resolution": "The episode closes once Rhea's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Rhea and Zeus, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Rhea Saves Zeus begins with Rhea in a focused Primordial and Creation situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Rhea and Zeus."
-      },
-      {
-        "beat": "turn",
-        "text": "Rhea takes the decisive confront action that defines Rhea Saves Zeus."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Rhea and Zeus, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "rhea",
       "name": "Rhea",
-      "role": "principal",
-      "entityType": "character"
+      "role": "protective mother",
+      "goal": "save Zeus from Cronus"
     },
     {
       "id": "zeus",
       "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "hidden infant",
+      "goal": "survive to challenge Cronus"
+    },
+    {
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "deceived father",
+      "goal": "swallow a substitute"
     },
     {
       "id": "gaia",
       "name": "Gaia",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
-    {
-      "id": "titans",
-      "name": "Titans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Rhea",
-      "normalizedId": "rhea",
-      "normalizationStatus": "production_canonical"
+      "role": "counseling elder",
+      "goal": "help hide the child"
     },
     {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Gaia",
-      "normalizedId": "gaia",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Titans",
-      "normalizedId": "titans",
-      "normalizationStatus": "production_canonical"
+      "id": "curetes",
+      "name": "Curetes",
+      "role": "noisy guardians",
+      "goal": "mask the infant cries"
     }
   ],
   "relationships": [
     {
       "source": "rhea",
-      "relationship": "central_to",
+      "relationship": "mythic-tension-with",
       "target": "zeus",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Rhea and Zeus define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Rhea and Zeus shape Rhea Saves Zeus."
+    },
+    {
+      "source": "rhea",
+      "relationship": "mythic-tension-with",
+      "target": "cronus",
+      "rationale": "Rhea and Cronus shape Rhea Saves Zeus."
     }
   ],
+  "narrative": {
+    "synopsis": "Rhea refuses to lose another child to Cronus. With older divine help, she hides Zeus in Crete and gives Cronus a wrapped stone, preserving the child who will break Titan rule.",
+    "openingSituation": "Rhea has watched Cronus swallow every child before Zeus.",
+    "centralConflict": "The newborn must be hidden from a father who consumes his heirs.",
+    "resolution": "Cronus swallows the stone and is deceived.",
+    "outcome": "Zeus survives in secret, making the future revolt possible."
+  },
   "events": [
     {
-      "eventId": "production-myth-0008-event-01",
-      "actor": "rhea",
-      "action": "establish",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Rhea Saves Zeus begins with Rhea in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0008-event-02",
-      "actor": "zeus",
-      "action": "challenge",
-      "target": "rhea",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Rhea and Zeus.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0008-event-03",
       "actor": "rhea",
-      "action": "confront",
+      "action": "consult",
       "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Rhea performs the decisive action associated with Rhea Saves Zeus.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "consequence": "Rhea seeks help before the birth.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0008-event-04",
+      "sequence": 2,
       "actor": "rhea",
-      "action": "resolve",
+      "action": "bear",
       "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The episode closes once Rhea's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
+      "consequence": "Zeus is born away from Cronus’ control.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "rhea",
+      "action": "hide",
+      "target": "zeus",
+      "consequence": "The infant is concealed in Crete.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "rhea",
+      "action": "substitute",
+      "target": "cronus",
+      "consequence": "A wrapped stone replaces the child.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "cronus",
+      "action": "swallow",
+      "target": "rhea",
+      "consequence": "Cronus consumes the stone and believes Zeus is gone.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "primordial-and-creation-setting",
-      "name": "Primordial and Creation setting",
-      "role": "primary setting"
-    }
+    "cosmic beginning"
   ],
   "themes": [
-    "production adaptation",
+    "bounded myth episode",
     "primordial and creation",
-    "confront"
+    "consult"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Rhea Saves Zeus begins with Rhea in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Rhea and Zeus.",
-      "The episode closes once Rhea's decisive action changes the condition of Zeus and leaves later cycle material outside this record."
+    "visualBeats": [
+      "Rhea has watched Cronus swallow every child before Zeus.",
+      "The newborn must be hidden from a father who consumes his heirs.",
+      "Cronus swallows the stone and is deceived."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Rhea and Zeus.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Focus on Rhea Saves Zeus.",
+      "Avoid source-verification claims."
     ]
   }
 }

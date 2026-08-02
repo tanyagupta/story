@@ -6,209 +6,159 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Cronus Swallows His Children begins with Cronus in a focused Primordial and Creation situation rather than a full-cycle summary. The episode closes once Cronus's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "The episode begins when Cronus learns that one of his children is fated to overthrow him.",
+    "ending": "It ends with Rhea grieving the swallowed children and seeking a way to save the next birth.",
+    "boundaryRationale": "Starts with the episode begins when cronus learns that one of his children is fated to overthrow him. Stops at it ends with rhea grieving the swallowed children and seeking a way to save the next birth."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Hesiodic succession version in which Cronus swallows the children born from Rhea.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Cronus Swallows His Children, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Cronus Swallows His Children begins with Cronus in a focused Primordial and Creation situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Cronus and Gaia.",
-    "resolution": "The episode closes once Cronus's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Cronus and Gaia, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Cronus Swallows His Children begins with Cronus in a focused Primordial and Creation situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Cronus and Gaia."
-      },
-      {
-        "beat": "turn",
-        "text": "Cronus takes the decisive confront action that defines Cronus Swallows His Children."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Cronus and Gaia, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "cronus",
       "name": "Cronus",
-      "role": "principal",
-      "entityType": "character"
+      "role": "fearful Titan king",
+      "goal": "prevent a child from replacing him"
     },
     {
-      "id": "gaia",
-      "name": "Gaia",
-      "role": "supporting",
-      "entityType": "character"
+      "id": "rhea",
+      "name": "Rhea",
+      "role": "mother of the Olympians",
+      "goal": "preserve her children"
     },
     {
-      "id": "zeus",
-      "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
-    {
-      "id": "titans",
-      "name": "Titans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Cronus",
-      "normalizedId": "cronus",
-      "normalizationStatus": "production_canonical"
+      "id": "hestia",
+      "name": "Hestia",
+      "role": "swallowed child",
+      "goal": "survive inside Cronus"
     },
     {
-      "sourceName": "Gaia",
-      "normalizedId": "gaia",
-      "normalizationStatus": "production_canonical"
+      "id": "demeter",
+      "name": "Demeter",
+      "role": "swallowed child",
+      "goal": "survive inside Cronus"
     },
     {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
+      "id": "hera",
+      "name": "Hera",
+      "role": "swallowed child",
+      "goal": "survive inside Cronus"
     },
     {
-      "sourceName": "Titans",
-      "normalizedId": "titans",
-      "normalizationStatus": "production_canonical"
+      "id": "poseidon",
+      "name": "Poseidon",
+      "role": "swallowed child",
+      "goal": "survive inside Cronus"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "swallowed child",
+      "goal": "survive inside Cronus"
     }
   ],
   "relationships": [
     {
       "source": "cronus",
-      "relationship": "central_to",
-      "target": "gaia",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Cronus and Gaia define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "relationship": "mythic-tension-with",
+      "target": "rhea",
+      "rationale": "Cronus and Rhea shape Cronus Swallows His Children."
+    },
+    {
+      "source": "cronus",
+      "relationship": "mythic-tension-with",
+      "target": "hestia",
+      "rationale": "Cronus and Hestia shape Cronus Swallows His Children."
     }
   ],
+  "narrative": {
+    "synopsis": "Cronus repeats the logic of succession fear by swallowing each child Rhea bears. Hestia, Demeter, Hera, Hades, and Poseidon disappear into him, but Rhea’s grief turns toward rescue.",
+    "openingSituation": "Cronus rules after overthrowing Uranus but fears suffering the same fate.",
+    "centralConflict": "Each birth threatens his throne, and each act of swallowing deepens Rhea’s desperation.",
+    "resolution": "The older children are trapped alive inside Cronus.",
+    "outcome": "Rhea is driven to protect Zeus before Cronus can swallow him too."
+  },
   "events": [
     {
-      "eventId": "production-myth-0007-event-01",
-      "actor": "cronus",
-      "action": "establish",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Cronus Swallows His Children begins with Cronus in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "cronus",
+      "action": "fear",
+      "target": "rhea",
+      "consequence": "Cronus fears the prophecy attached to his children.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0007-event-02",
-      "actor": "gaia",
-      "action": "challenge",
-      "target": "cronus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Cronus and Gaia.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "rhea",
+      "action": "bear",
+      "target": "hestia",
+      "consequence": "Rhea begins bearing the future Olympians.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0007-event-03",
-      "actor": "cronus",
-      "action": "confront",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Cronus performs the decisive action associated with Cronus Swallows His Children.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "cronus",
+      "action": "swallow",
+      "target": "hestia",
+      "consequence": "Cronus consumes each newborn child.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0007-event-04",
-      "actor": "cronus",
-      "action": "resolve",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The episode closes once Cronus's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "hades",
+      "action": "remain",
+      "target": "cronus",
+      "consequence": "The swallowed children continue hidden inside him.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "rhea",
+      "action": "seek-help",
+      "target": "cronus",
+      "consequence": "Rhea turns toward a plan for the next child.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "primordial-and-creation-setting",
-      "name": "Primordial and Creation setting",
-      "role": "primary setting"
-    }
+    "cosmic beginning"
   ],
   "themes": [
-    "production adaptation",
+    "bounded myth episode",
     "primordial and creation",
-    "confront"
+    "fear"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Cronus Swallows His Children begins with Cronus in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Cronus and Gaia.",
-      "The episode closes once Cronus's decisive action changes the condition of Gaia and leaves later cycle material outside this record."
+    "visualBeats": [
+      "Cronus rules after overthrowing Uranus but fears suffering the same fate.",
+      "Each birth threatens his throne, and each act of swallowing deepens Rhea’s desperation.",
+      "The older children are trapped alive inside Cronus."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Cronus and Gaia.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Focus on Cronus Swallows His Children.",
+      "Avoid source-verification claims."
     ]
   }
 }

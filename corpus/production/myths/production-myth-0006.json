@@ -6,209 +6,147 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Aphrodite Rises from the Sea begins with Aphrodite in a focused Primordial and Creation situation rather than a full-cycle summary. The episode closes once Aphrodite's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "The episode begins after Uranus’ severed generative power falls into the sea.",
+    "ending": "It ends when Aphrodite reaches shore and is received as a goddess of beauty and desire.",
+    "boundaryRationale": "Starts with the episode begins after uranus’ severed generative power falls into the sea. Stops at it ends when aphrodite reaches shore and is received as a goddess of beauty and desire."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Sea-born Aphrodite version arising from the aftermath of Uranus, kept separate from alternate parentage traditions.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Aphrodite Rises from the Sea, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Aphrodite Rises from the Sea begins with Aphrodite in a focused Primordial and Creation situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Aphrodite and Gaia.",
-    "resolution": "The episode closes once Aphrodite's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Aphrodite and Gaia, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Aphrodite Rises from the Sea begins with Aphrodite in a focused Primordial and Creation situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Aphrodite and Gaia."
-      },
-      {
-        "beat": "turn",
-        "text": "Aphrodite takes the decisive confront action that defines Aphrodite Rises from the Sea."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Aphrodite and Gaia, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "aphrodite",
       "name": "Aphrodite",
-      "role": "principal",
-      "entityType": "character"
+      "role": "new goddess of desire",
+      "goal": "enter the divine world"
     },
     {
-      "id": "gaia",
-      "name": "Gaia",
-      "role": "supporting",
-      "entityType": "character"
+      "id": "uranus",
+      "name": "Uranus",
+      "role": "wounded sky father",
+      "goal": "generate a final consequence"
     },
     {
-      "id": "zeus",
-      "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
-    {
-      "id": "titans",
-      "name": "Titans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Aphrodite",
-      "normalizedId": "aphrodite",
-      "normalizationStatus": "production_canonical"
+      "id": "sea",
+      "name": "Sea",
+      "role": "birthplace of foam",
+      "goal": "carry Aphrodite toward shore"
     },
     {
-      "sourceName": "Gaia",
-      "normalizedId": "gaia",
-      "normalizationStatus": "production_canonical"
+      "id": "zephyrus",
+      "name": "Zephyrus",
+      "role": "west wind",
+      "goal": "guide the goddess"
     },
     {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Titans",
-      "normalizedId": "titans",
-      "normalizationStatus": "production_canonical"
+      "id": "hours",
+      "name": "Hours",
+      "role": "welcoming attendants",
+      "goal": "receive Aphrodite"
     }
   ],
   "relationships": [
     {
       "source": "aphrodite",
-      "relationship": "central_to",
-      "target": "gaia",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Aphrodite and Gaia define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "relationship": "mythic-tension-with",
+      "target": "uranus",
+      "rationale": "Aphrodite and Uranus shape Aphrodite Rises from the Sea."
+    },
+    {
+      "source": "aphrodite",
+      "relationship": "mythic-tension-with",
+      "target": "sea",
+      "rationale": "Aphrodite and Sea shape Aphrodite Rises from the Sea."
     }
   ],
+  "narrative": {
+    "synopsis": "From the aftermath of Uranus’ overthrow, foam gathers on the sea and Aphrodite rises as a new divine power. Her arrival turns cosmic violence into the entrance of beauty, attraction, and desire.",
+    "openingSituation": "The sea holds the strange remnant of Uranus’ defeat.",
+    "centralConflict": "A new power must emerge from an act of violence without belonging to the old household in the ordinary way.",
+    "resolution": "Aphrodite reaches land and is welcomed by divine attendants.",
+    "outcome": "Desire becomes an active force among gods and mortals."
+  },
   "events": [
     {
-      "eventId": "production-myth-0006-event-01",
-      "actor": "aphrodite",
-      "action": "establish",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Aphrodite Rises from the Sea begins with Aphrodite in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "sea",
+      "action": "foam",
+      "target": "uranus",
+      "consequence": "Foam gathers around the remnant of Uranus.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0006-event-02",
-      "actor": "gaia",
-      "action": "challenge",
-      "target": "aphrodite",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Aphrodite and Gaia.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "aphrodite",
+      "action": "rise",
+      "target": "sea",
+      "consequence": "Aphrodite emerges from the sea.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0006-event-03",
-      "actor": "aphrodite",
-      "action": "confront",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Aphrodite performs the decisive action associated with Aphrodite Rises from the Sea.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "zephyrus",
+      "action": "carry",
+      "target": "aphrodite",
+      "consequence": "The wind guides her toward shore.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0006-event-04",
-      "actor": "aphrodite",
-      "action": "resolve",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The episode closes once Aphrodite's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "hours",
+      "action": "adorn",
+      "target": "aphrodite",
+      "consequence": "Attendants receive and clothe the goddess.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "aphrodite",
+      "action": "enter",
+      "target": "sea",
+      "consequence": "Aphrodite joins the divine world as desire embodied.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "primordial-and-creation-setting",
-      "name": "Primordial and Creation setting",
-      "role": "primary setting"
-    }
+    "cosmic beginning"
   ],
   "themes": [
-    "production adaptation",
+    "bounded myth episode",
     "primordial and creation",
-    "confront"
+    "foam"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Aphrodite Rises from the Sea begins with Aphrodite in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Aphrodite and Gaia.",
-      "The episode closes once Aphrodite's decisive action changes the condition of Gaia and leaves later cycle material outside this record."
+    "visualBeats": [
+      "The sea holds the strange remnant of Uranus’ defeat.",
+      "A new power must emerge from an act of violence without belonging to the old household in the ordinary way.",
+      "Aphrodite reaches land and is welcomed by divine attendants."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Aphrodite and Gaia.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Focus on Aphrodite Rises from the Sea.",
+      "Avoid source-verification claims."
     ]
   }
 }

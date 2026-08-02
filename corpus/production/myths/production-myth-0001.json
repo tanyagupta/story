@@ -6,209 +6,145 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Chaos Before the First Gods begins with Chaos in a focused Primordial and Creation situation rather than a full-cycle summary. The episode closes once Chaos's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "The episode begins before the ordered cosmos, when only yawning Chaos exists.",
+    "ending": "It ends when Gaia, Tartarus, Eros, Erebus, and Night give the universe its first distinct powers.",
+    "boundaryRationale": "Starts with the episode begins before the ordered cosmos, when only yawning chaos exists. Stops at it ends when gaia, tartarus, eros, erebus, and night give the universe its first distinct powers."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Hesiodic creation sequence; no Olympian gods are present yet.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Chaos Before the First Gods, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Chaos Before the First Gods begins with Chaos in a focused Primordial and Creation situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Chaos and Gaia.",
-    "resolution": "The episode closes once Chaos's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Chaos and Gaia, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Chaos Before the First Gods begins with Chaos in a focused Primordial and Creation situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Chaos and Gaia."
-      },
-      {
-        "beat": "turn",
-        "text": "Chaos takes the decisive confront action that defines Chaos Before the First Gods."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Chaos and Gaia, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "chaos",
       "name": "Chaos",
-      "role": "principal",
-      "entityType": "character"
+      "role": "undifferentiated void",
+      "goal": "open space for existence"
     },
     {
       "id": "gaia",
       "name": "Gaia",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "earth power",
+      "goal": "become stable ground"
     },
     {
-      "id": "zeus",
-      "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
-    {
-      "id": "titans",
-      "name": "Titans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Chaos",
-      "normalizedId": "chaos",
-      "normalizationStatus": "production_canonical"
+      "id": "tartarus",
+      "name": "Tartarus",
+      "role": "deep abyss",
+      "goal": "mark the lower depth"
     },
     {
-      "sourceName": "Gaia",
-      "normalizedId": "gaia",
-      "normalizationStatus": "production_canonical"
+      "id": "eros",
+      "name": "Eros",
+      "role": "binding force",
+      "goal": "make generation possible"
     },
     {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Titans",
-      "normalizedId": "titans",
-      "normalizationStatus": "production_canonical"
+      "id": "nyx",
+      "name": "Nyx",
+      "role": "night",
+      "goal": "emerge from darkness"
     }
   ],
   "relationships": [
     {
       "source": "chaos",
-      "relationship": "central_to",
+      "relationship": "mythic-tension-with",
       "target": "gaia",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Chaos and Gaia define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Chaos and Gaia shape Chaos Before the First Gods."
+    },
+    {
+      "source": "chaos",
+      "relationship": "mythic-tension-with",
+      "target": "tartarus",
+      "rationale": "Chaos and Tartarus shape Chaos Before the First Gods."
     }
   ],
+  "narrative": {
+    "synopsis": "Before gods reign or mortals exist, Chaos opens as the first gap. Gaia, Tartarus, Eros, Erebus, and Night appear as separate powers, giving the cosmos its first geography and generative force.",
+    "openingSituation": "There is no throne, war, or family yet, only the unshaped gap called Chaos.",
+    "centralConflict": "The dramatic movement is not battle but differentiation: void must become a world with earth, depth, darkness, and desire.",
+    "resolution": "Distinct primordial powers stand where undivided Chaos had been.",
+    "outcome": "The cosmos is ready for birth stories, but the Olympian order remains far in the future."
+  },
   "events": [
     {
-      "eventId": "production-myth-0001-event-01",
-      "actor": "chaos",
-      "action": "establish",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Chaos Before the First Gods begins with Chaos in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "chaos",
+      "action": "open",
+      "target": null,
+      "consequence": "Space for existence appears before divine rule.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0001-event-02",
-      "actor": "gaia",
-      "action": "challenge",
-      "target": "chaos",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Chaos and Gaia.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "gaia",
+      "action": "emerge",
+      "target": "chaos",
+      "consequence": "Earth becomes the first stable ground.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0001-event-03",
-      "actor": "chaos",
-      "action": "confront",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Chaos performs the decisive action associated with Chaos Before the First Gods.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "tartarus",
+      "action": "descend",
+      "target": "gaia",
+      "consequence": "The lower abyss defines cosmic depth.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0001-event-04",
-      "actor": "chaos",
-      "action": "resolve",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The episode closes once Chaos's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "eros",
+      "action": "bind",
+      "target": "gaia",
+      "consequence": "Generative desire makes later births possible.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "nyx",
+      "action": "emerge",
+      "target": "chaos",
+      "consequence": "Night and darkness extend the first genealogy.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "primordial-and-creation-setting",
-      "name": "Primordial and Creation setting",
-      "role": "primary setting"
-    }
+    "cosmic beginning"
   ],
   "themes": [
-    "production adaptation",
+    "bounded myth episode",
     "primordial and creation",
-    "confront"
+    "open"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Chaos Before the First Gods begins with Chaos in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Chaos and Gaia.",
-      "The episode closes once Chaos's decisive action changes the condition of Gaia and leaves later cycle material outside this record."
-    ],
-    "dialogueOpportunities": [
-      "A charged exchange between Chaos and Gaia.",
-      "A closing line that clarifies the changed mythic condition."
+    "visualBeats": [
+      "There is no throne, war, or family yet, only the unshaped gap called Chaos.",
+      "The dramatic movement is not battle but differentiation: void must become a world with earth, depth, darkness, and desire.",
+      "Distinct primordial powers stand where undivided Chaos had been."
     ],
     "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Focus on Chaos Before the First Gods.",
+      "Avoid source-verification claims."
     ]
   }
 }

@@ -949,6 +949,9 @@ test("AI production mythology corpus is separate, complete, and internally valid
   assert.strictEqual(report.planRecords, 200);
   assert.strictEqual(report.catalogRecords, 200);
   assert.strictEqual(report.sourceAuditedReferenceRecords, 32);
+  assert.strictEqual(report.substantivelyRepaired, 25);
+  assert.strictEqual(report.remainingPlaceholders, 175);
+  assert.strictEqual(report.placeholderSelfCertifiedQualityCount, 175);
 
   const productionCatalog = readJson(path.join(root, "corpus/production/catalog/production-myths.json"));
   assert.strictEqual(productionCatalog.records.length, 200);
@@ -960,6 +963,8 @@ test("AI production mythology corpus is separate, complete, and internally valid
   const firstRecord = readJson(path.join(root, "corpus/production/myths/production-myth-0001.json"));
   assert.strictEqual(firstRecord.status, "ai_constructed_production");
   assert.strictEqual(firstRecord.provenance.specificSourceVerified, false);
+  assert.ok(!firstRecord.qualityReview);
+  assert.strictEqual(firstRecord.characters[0].name, "Chaos");
   assert.ok(!JSON.stringify(firstRecord).includes("verified_by_source_audit"));
 });
 

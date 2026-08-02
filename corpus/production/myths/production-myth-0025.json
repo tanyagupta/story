@@ -6,220 +6,167 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Apollo and Daphne begins with Apollo in a focused Olympian Gods situation rather than a full-cycle summary. The episode closes once Apollo's decisive action changes the condition of Daphne and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "The episode begins when Apollo mocks Eros and Eros answers with opposing arrows of desire and rejection.",
+    "ending": "It ends when Daphne becomes the laurel and Apollo adopts the tree as his emblem.",
+    "boundaryRationale": "Starts with the episode begins when apollo mocks eros and eros answers with opposing arrows of desire and rejection. Stops at it ends when daphne becomes the laurel and apollo adopts the tree as his emblem."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Ovidian Daphne episode, preserving the pursuit-and-transformation boundary.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Apollo and Daphne, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Apollo and Daphne begins with Apollo in a focused Olympian Gods situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Apollo and Daphne.",
-    "resolution": "The episode closes once Apollo's decisive action changes the condition of Daphne and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Apollo and Daphne, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Apollo and Daphne begins with Apollo in a focused Olympian Gods situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Apollo and Daphne."
-      },
-      {
-        "beat": "turn",
-        "text": "Apollo takes the decisive confront action that defines Apollo and Daphne."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Apollo and Daphne, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "apollo",
       "name": "Apollo",
-      "role": "principal",
-      "entityType": "character"
+      "role": "desiring god",
+      "goal": "pursue Daphne"
     },
     {
       "id": "daphne",
       "name": "Daphne",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "nymph devoted to escape",
+      "goal": "avoid Apollo’s desire"
     },
     {
-      "id": "zeus",
-      "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
-    }
-  ],
-  "supportingCharacters": [
-    {
-      "id": "olympians",
-      "name": "Olympians",
-      "role": "supporting",
-      "entityType": "group-or-concept"
+      "id": "eros",
+      "name": "Eros",
+      "role": "archer of desire",
+      "goal": "wound Apollo and Daphne differently"
     },
     {
-      "id": "mortals",
-      "name": "Mortals",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "entityMappings": [
-    {
-      "sourceName": "Apollo",
-      "normalizedId": "apollo",
-      "normalizationStatus": "production_canonical"
+      "id": "peneus",
+      "name": "Peneus",
+      "role": "river father",
+      "goal": "answer Daphne’s plea"
     },
     {
-      "sourceName": "Daphne",
-      "normalizedId": "daphne",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Olympians",
-      "normalizedId": "olympians",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Mortals",
-      "normalizedId": "mortals",
-      "normalizationStatus": "production_canonical"
+      "id": "laurel",
+      "name": "Laurel",
+      "role": "transformed Daphne",
+      "goal": "become Apollo’s sacred tree"
     }
   ],
   "relationships": [
     {
       "source": "apollo",
-      "relationship": "central_to",
+      "relationship": "mythic-tension-with",
       "target": "daphne",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Apollo and Daphne define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "rationale": "Apollo and Daphne shape Apollo and Daphne."
+    },
+    {
+      "source": "apollo",
+      "relationship": "mythic-tension-with",
+      "target": "eros",
+      "rationale": "Apollo and Eros shape Apollo and Daphne."
     }
   ],
+  "narrative": {
+    "synopsis": "Apollo’s confidence collapses when Eros turns desire into punishment. Daphne flees the god’s pursuit and survives by losing human form, becoming the laurel Apollo can honor but not possess.",
+    "openingSituation": "Apollo treats Eros’ power as lesser than his own divine archery.",
+    "centralConflict": "Eros creates a cruel mismatch: Apollo burns with desire while Daphne longs only to escape.",
+    "resolution": "Peneus answers Daphne’s plea by transforming her into a laurel.",
+    "outcome": "Apollo keeps the laurel as sacred, while Daphne’s escape remains visible in the tree."
+  },
   "events": [
     {
-      "eventId": "production-myth-0025-event-01",
-      "actor": "apollo",
-      "action": "establish",
-      "target": "daphne",
-      "object": null,
-      "recipient": null,
-      "location": "olympian-gods-setting",
-      "normalizedStatement": "Apollo and Daphne begins with Apollo in a focused Olympian Gods situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "apollo",
+      "action": "mock",
+      "target": "eros",
+      "consequence": "Apollo belittles Eros’ archery.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0025-event-02",
-      "actor": "daphne",
-      "action": "challenge",
-      "target": "apollo",
-      "object": null,
-      "recipient": null,
-      "location": "olympian-gods-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Apollo and Daphne.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "eros",
+      "action": "wound",
+      "target": "apollo",
+      "consequence": "Eros makes Apollo desire Daphne.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0025-event-03",
-      "actor": "apollo",
-      "action": "confront",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "olympian-gods-setting",
-      "normalizedStatement": "Apollo performs the decisive action associated with Apollo and Daphne.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "eros",
+      "action": "repel",
+      "target": "daphne",
+      "consequence": "Daphne is driven away from love.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0025-event-04",
-      "actor": "apollo",
-      "action": "resolve",
-      "target": "daphne",
-      "object": null,
-      "recipient": null,
-      "location": "olympian-gods-setting",
-      "normalizedStatement": "The episode closes once Apollo's decisive action changes the condition of Daphne and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "apollo",
+      "action": "pursue",
+      "target": "daphne",
+      "consequence": "Apollo chases Daphne as she flees.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "daphne",
+      "action": "plead",
+      "target": "peneus",
+      "consequence": "Daphne asks her father for rescue.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "peneus",
+      "action": "transform",
+      "target": "daphne",
+      "consequence": "Daphne becomes the laurel.",
+      "factIds": [
+        "fact-06"
+      ]
+    },
+    {
+      "sequence": 7,
+      "actor": "apollo",
+      "action": "honor",
+      "target": "laurel",
+      "consequence": "Apollo adopts the laurel as sacred.",
+      "factIds": [
+        "fact-06"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "olympian-gods-setting",
-      "name": "Olympian Gods setting",
-      "role": "primary setting"
-    }
+    "Thessalian river country"
   ],
   "themes": [
-    "production adaptation",
+    "bounded myth episode",
     "olympian gods",
-    "confront"
+    "mock"
   ],
   "adaptation": {
-    "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Apollo and Daphne begins with Apollo in a focused Olympian Gods situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Apollo and Daphne.",
-      "The episode closes once Apollo's decisive action changes the condition of Daphne and leaves later cycle material outside this record."
+    "recommendedSceneCount": 7,
+    "visualBeats": [
+      "Apollo treats Eros’ power as lesser than his own divine archery.",
+      "Eros creates a cruel mismatch: Apollo burns with desire while Daphne longs only to escape.",
+      "Peneus answers Daphne’s plea by transforming her into a laurel."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Apollo and Daphne.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Focus on Apollo and Daphne.",
+      "Avoid source-verification claims."
     ]
   }
 }

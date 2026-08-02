@@ -6,197 +6,145 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "The Titans Are Born begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary. The episode closes once Gaia's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "The episode begins after Gaia and Uranus are joined as earth and sky.",
+    "ending": "It ends with the Titan generation present, including Cronus, the child who will later challenge Uranus.",
+    "boundaryRationale": "Starts with the episode begins after gaia and uranus are joined as earth and sky. Stops at it ends with the titan generation present, including cronus, the child who will later challenge uranus."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Hesiodic Titan genealogy treated as a bounded birth episode, not a profile of every Titan.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of The Titans Are Born, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "The Titans Are Born begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Gaia and Zeus.",
-    "resolution": "The episode closes once Gaia's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Gaia and Zeus, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "The Titans Are Born begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Gaia and Zeus."
-      },
-      {
-        "beat": "turn",
-        "text": "Gaia takes the decisive confront action that defines The Titans Are Born."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Gaia and Zeus, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "gaia",
       "name": "Gaia",
-      "role": "principal",
-      "entityType": "character"
+      "role": "mother of the Titans",
+      "goal": "bring forth powerful children"
     },
     {
-      "id": "zeus",
-      "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
+      "id": "uranus",
+      "name": "Uranus",
+      "role": "father of the Titans",
+      "goal": "hold authority over the household"
     },
     {
-      "id": "titans",
-      "name": "Titans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Gaia",
-      "normalizedId": "gaia",
-      "normalizationStatus": "production_canonical"
+      "id": "oceanus",
+      "name": "Oceanus",
+      "role": "Titan child",
+      "goal": "embody encircling waters"
     },
     {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "youngest Titan",
+      "goal": "become the dangerous heir"
     },
     {
-      "sourceName": "Titans",
-      "normalizedId": "titans",
-      "normalizationStatus": "production_canonical"
+      "id": "rhea",
+      "name": "Rhea",
+      "role": "Titan daughter",
+      "goal": "continue the divine line"
     }
   ],
   "relationships": [
     {
       "source": "gaia",
-      "relationship": "central_to",
-      "target": "zeus",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Gaia and Zeus define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "relationship": "mythic-tension-with",
+      "target": "uranus",
+      "rationale": "Gaia and Uranus shape The Titans Are Born."
+    },
+    {
+      "source": "gaia",
+      "relationship": "mythic-tension-with",
+      "target": "oceanus",
+      "rationale": "Gaia and Oceanus shape The Titans Are Born."
     }
   ],
+  "narrative": {
+    "synopsis": "Gaia and Uranus produce the Titans, a powerful generation that includes Oceanus, Rhea, and the youngest child Cronus. The birth episode matters because one child already carries the threat of succession.",
+    "openingSituation": "Earth and sky have become a divine household capable of producing children.",
+    "centralConflict": "A generation powerful enough to inherit the cosmos is born under Uranus’ authority.",
+    "resolution": "The Titans stand as a complete sibling group, with Cronus marked as the future danger.",
+    "outcome": "The first ruling household now contains the force that will break it."
+  },
   "events": [
     {
-      "eventId": "production-myth-0003-event-01",
-      "actor": "gaia",
-      "action": "establish",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The Titans Are Born begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "gaia",
+      "action": "bear",
+      "target": "oceanus",
+      "consequence": "The Titan generation begins with children of earth and sky.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0003-event-02",
-      "actor": "zeus",
-      "action": "challenge",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Gaia and Zeus.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "uranus",
+      "action": "father",
+      "target": "rhea",
+      "consequence": "Uranus becomes patriarch of a powerful divine family.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0003-event-03",
-      "actor": "gaia",
-      "action": "confront",
-      "target": "titans",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Gaia performs the decisive action associated with The Titans Are Born.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "gaia",
+      "action": "bear",
+      "target": "cronus",
+      "consequence": "Cronus arrives as the youngest Titan.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0003-event-04",
-      "actor": "gaia",
-      "action": "resolve",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The episode closes once Gaia's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "cronus",
+      "action": "threaten",
+      "target": "uranus",
+      "consequence": "Cronus’ nature creates danger for Uranus.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "rhea",
+      "action": "belong",
+      "target": "cronus",
+      "consequence": "Rhea and Cronus link this generation to later Olympian succession.",
+      "factIds": [
+        "fact-04"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "primordial-and-creation-setting",
-      "name": "Primordial and Creation setting",
-      "role": "primary setting"
-    }
+    "cosmic beginning"
   ],
   "themes": [
-    "production adaptation",
+    "bounded myth episode",
     "primordial and creation",
-    "confront"
+    "bear"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "The Titans Are Born begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Gaia and Zeus.",
-      "The episode closes once Gaia's decisive action changes the condition of Zeus and leaves later cycle material outside this record."
-    ],
-    "dialogueOpportunities": [
-      "A charged exchange between Gaia and Zeus.",
-      "A closing line that clarifies the changed mythic condition."
+    "visualBeats": [
+      "Earth and sky have become a divine household capable of producing children.",
+      "A generation powerful enough to inherit the cosmos is born under Uranus’ authority.",
+      "The Titans stand as a complete sibling group, with Cronus marked as the future danger."
     ],
     "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Focus on The Titans Are Born.",
+      "Avoid source-verification claims."
     ]
   }
 }

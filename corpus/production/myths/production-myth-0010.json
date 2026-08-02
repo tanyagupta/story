@@ -6,197 +6,153 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "The Olympians Defeat the Titans begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary. The episode closes once Gaia's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "The episode begins after Zeus has freed his siblings and the conflict with Cronus becomes open war.",
+    "ending": "It ends when the Titans are defeated and the Olympians can divide power.",
+    "boundaryRationale": "Starts with the episode begins after zeus has freed his siblings and the conflict with cronus becomes open war. Stops at it ends when the titans are defeated and the olympians can divide power."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Titanomachy focused on the Olympian victory, aided by freed Cyclopes and other imprisoned powers.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of The Olympians Defeat the Titans, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "The Olympians Defeat the Titans begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Gaia and Zeus.",
-    "resolution": "The episode closes once Gaia's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Gaia and Zeus, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "The Olympians Defeat the Titans begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Gaia and Zeus."
-      },
-      {
-        "beat": "turn",
-        "text": "Gaia takes the decisive confront action that defines The Olympians Defeat the Titans."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Gaia and Zeus, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
-    {
-      "id": "gaia",
-      "name": "Gaia",
-      "role": "principal",
-      "entityType": "character"
-    },
+  "characters": [
     {
       "id": "zeus",
       "name": "Zeus",
-      "role": "supporting",
-      "entityType": "character"
+      "role": "Olympian leader",
+      "goal": "overthrow Cronus and the Titans"
+    },
+    {
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "Titan king",
+      "goal": "retain cosmic rule"
+    },
+    {
+      "id": "poseidon",
+      "name": "Poseidon",
+      "role": "Olympian ally",
+      "goal": "fight beside Zeus"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "Olympian ally",
+      "goal": "fight beside Zeus"
+    },
+    {
+      "id": "cyclopes",
+      "name": "Cyclopes",
+      "role": "freed smiths",
+      "goal": "arm Zeus with thunder"
     },
     {
       "id": "titans",
       "name": "Titans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Gaia",
-      "normalizedId": "gaia",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
-    },
-    {
-      "sourceName": "Titans",
-      "normalizedId": "titans",
-      "normalizationStatus": "production_canonical"
+      "role": "old ruling generation",
+      "goal": "resist the Olympians"
     }
   ],
   "relationships": [
     {
-      "source": "gaia",
-      "relationship": "central_to",
-      "target": "zeus",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Gaia and Zeus define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "source": "zeus",
+      "relationship": "mythic-tension-with",
+      "target": "cronus",
+      "rationale": "Zeus and Cronus shape The Olympians Defeat the Titans."
+    },
+    {
+      "source": "zeus",
+      "relationship": "mythic-tension-with",
+      "target": "poseidon",
+      "rationale": "Zeus and Poseidon shape The Olympians Defeat the Titans."
     }
   ],
+  "narrative": {
+    "synopsis": "Zeus turns the liberation of his siblings into open war against Cronus. With thunder from the Cyclopes and allied divine forces, the Olympians defeat the Titans and end the old order.",
+    "openingSituation": "Two generations of gods face each other after Cronus’ children are freed.",
+    "centralConflict": "The Titans still possess the older claim to rule and must be displaced by force.",
+    "resolution": "Zeus’ side wins and the Titans lose control of the cosmos.",
+    "outcome": "The Olympian order can now be established."
+  },
   "events": [
     {
-      "eventId": "production-myth-0010-event-01",
-      "actor": "gaia",
-      "action": "establish",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The Olympians Defeat the Titans begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0010-event-02",
       "actor": "zeus",
-      "action": "challenge",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Gaia and Zeus.",
-      "sourceText": null,
-      "evidence": [],
+      "action": "lead",
+      "target": "poseidon",
+      "consequence": "Zeus gathers his siblings for war.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0010-event-03",
-      "actor": "gaia",
-      "action": "confront",
-      "target": "titans",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Gaia performs the decisive action associated with The Olympians Defeat the Titans.",
-      "sourceText": null,
-      "evidence": [],
-      "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
-    },
-    {
-      "eventId": "production-myth-0010-event-04",
-      "actor": "gaia",
-      "action": "resolve",
+      "actor": "cronus",
+      "action": "resist",
       "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The episode closes once Gaia's decisive action changes the condition of Zeus and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
+      "consequence": "Cronus and the Titans defend the old rule.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "zeus",
+      "action": "free",
+      "target": "cyclopes",
+      "consequence": "Zeus gains help from imprisoned powers.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "cyclopes",
+      "action": "arm",
+      "target": "zeus",
+      "consequence": "Thunder and lightning become Zeus’ weapons.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "zeus",
+      "action": "defeat",
+      "target": "titans",
+      "consequence": "The Olympians overcome the Titans.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "primordial-and-creation-setting",
-      "name": "Primordial and Creation setting",
-      "role": "primary setting"
-    }
+    "cosmic beginning"
   ],
   "themes": [
-    "production adaptation",
+    "bounded myth episode",
     "primordial and creation",
-    "confront"
+    "lead"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "The Olympians Defeat the Titans begins with Gaia in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Gaia and Zeus.",
-      "The episode closes once Gaia's decisive action changes the condition of Zeus and leaves later cycle material outside this record."
+    "visualBeats": [
+      "Two generations of gods face each other after Cronus’ children are freed.",
+      "The Titans still possess the older claim to rule and must be displaced by force.",
+      "Zeus’ side wins and the Titans lose control of the cosmos."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Gaia and Zeus.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Focus on The Olympians Defeat the Titans.",
+      "Avoid source-verification claims."
     ]
   }
 }

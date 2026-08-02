@@ -6,197 +6,153 @@
   "provenance": {
     "type": "ai_constructed",
     "specificSourceVerified": false,
-    "constructionPolicy": "Create a coherent production-ready version from widely attested Greek mythology traditions.",
-    "variantPolicy": "Prefer a commonly recognized narrative version and disclose material variant choices.",
+    "constructionPolicy": "AI editorial adaptation.",
     "basedOnSourceAuditedReference": false
   },
   "referenceLinks": {
-    "sourceAuditedRecordIds": [],
-    "relatedSourceProposalIds": []
+    "sourceAuditedRecordIds": []
   },
   "scope": {
-    "type": "complete-episode",
-    "boundaryRationale": "Zeus Frees His Siblings begins with Zeus in a focused Primordial and Creation situation rather than a full-cycle summary. The episode closes once Zeus's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-    "excludedMaterial": [
-      "Separate prequels, sequels, genealogy-only material, and incompatible later variants are outside this bounded production record."
-    ]
+    "beginning": "The episode begins when Zeus has grown strong enough to confront the fate of his swallowed siblings.",
+    "ending": "It ends with the children of Rhea released and able to stand with Zeus against Cronus.",
+    "boundaryRationale": "Starts with the episode begins when zeus has grown strong enough to confront the fate of his swallowed siblings. Stops at it ends with the children of rhea released and able to stand with zeus against cronus."
   },
-  "variantPolicy": {
-    "chosenVersion": "Common production version chosen for coherence and recognizability.",
-    "materialAlternatives": [],
-    "mixedVariants": false,
-    "variantNotes": []
+  "variant": {
+    "chosenVersion": "Common version in which Metis helps Zeus make Cronus disgorge the swallowed Olympians.",
+    "materialAlternatives": []
   },
-  "narrative": {
-    "synopsis": "A coherent production adaptation of Zeus Frees His Siblings, shaped as a bounded Greek myth episode with a clear setup, conflict, decisive turn, and consequence.",
-    "openingSituation": "Zeus Frees His Siblings begins with Zeus in a focused Primordial and Creation situation rather than a full-cycle summary.",
-    "centralConflict": "The central pressure is the confront action named by the episode, involving Zeus and Gaia.",
-    "resolution": "The episode closes once Zeus's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-    "outcome": "The result is a changed mythic situation for Zeus and Gaia, suitable for future adaptation without claiming source verification.",
-    "storyline": [
-      {
-        "beat": "setup",
-        "text": "Zeus Frees His Siblings begins with Zeus in a focused Primordial and Creation situation rather than a full-cycle summary."
-      },
-      {
-        "beat": "conflict",
-        "text": "The central pressure is the confront action named by the episode, involving Zeus and Gaia."
-      },
-      {
-        "beat": "turn",
-        "text": "Zeus takes the decisive confront action that defines Zeus Frees His Siblings."
-      },
-      {
-        "beat": "outcome",
-        "text": "The result is a changed mythic situation for Zeus and Gaia, suitable for future adaptation without claiming source verification."
-      }
-    ]
-  },
-  "mainCharacters": [
+  "characters": [
     {
       "id": "zeus",
       "name": "Zeus",
-      "role": "principal",
-      "entityType": "character"
+      "role": "hidden son of Cronus",
+      "goal": "liberate the swallowed siblings"
     },
     {
-      "id": "gaia",
-      "name": "Gaia",
-      "role": "supporting",
-      "entityType": "character"
+      "id": "cronus",
+      "name": "Cronus",
+      "role": "Titan ruler",
+      "goal": "hold the children inside himself"
     },
     {
-      "id": "titans",
-      "name": "Titans",
-      "role": "supporting",
-      "entityType": "group-or-concept"
-    }
-  ],
-  "supportingCharacters": [],
-  "entityMappings": [
-    {
-      "sourceName": "Zeus",
-      "normalizedId": "zeus",
-      "normalizationStatus": "production_canonical"
+      "id": "metis",
+      "name": "Metis",
+      "role": "counselor",
+      "goal": "supply the means of release"
     },
     {
-      "sourceName": "Gaia",
-      "normalizedId": "gaia",
-      "normalizationStatus": "production_canonical"
+      "id": "hestia",
+      "name": "Hestia",
+      "role": "liberated sibling",
+      "goal": "join Zeus"
     },
     {
-      "sourceName": "Titans",
-      "normalizedId": "titans",
-      "normalizationStatus": "production_canonical"
+      "id": "poseidon",
+      "name": "Poseidon",
+      "role": "liberated sibling",
+      "goal": "join Zeus"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "role": "liberated sibling",
+      "goal": "join Zeus"
     }
   ],
   "relationships": [
     {
       "source": "zeus",
-      "relationship": "central_to",
-      "target": "gaia",
-      "evidence": null,
-      "sourceText": null,
-      "rationale": "Zeus and Gaia define the central production pressure.",
-      "reviewStatus": "ai_constructed_production"
+      "relationship": "mythic-tension-with",
+      "target": "cronus",
+      "rationale": "Zeus and Cronus shape Zeus Frees His Siblings."
+    },
+    {
+      "source": "zeus",
+      "relationship": "mythic-tension-with",
+      "target": "metis",
+      "rationale": "Zeus and Metis shape Zeus Frees His Siblings."
     }
   ],
+  "narrative": {
+    "synopsis": "The hidden Zeus returns not merely to survive but to free the siblings Cronus swallowed. With Metis’ help, Cronus is forced to disgorge them, creating the Olympian alliance.",
+    "openingSituation": "Zeus has survived the deception that saved him as an infant.",
+    "centralConflict": "Cronus still contains the older children and still holds Titan power.",
+    "resolution": "The swallowed siblings emerge and stand with Zeus.",
+    "outcome": "A family revolt against Cronus can now begin."
+  },
   "events": [
     {
-      "eventId": "production-myth-0009-event-01",
-      "actor": "zeus",
-      "action": "establish",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Zeus Frees His Siblings begins with Zeus in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 1,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "zeus",
+      "action": "mature",
+      "target": "cronus",
+      "consequence": "Zeus grows beyond the reach of the old deception.",
+      "factIds": [
+        "fact-01"
+      ]
     },
     {
-      "eventId": "production-myth-0009-event-02",
-      "actor": "gaia",
-      "action": "challenge",
-      "target": "zeus",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The central pressure is the confront action named by the episode, involving Zeus and Gaia.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 2,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "metis",
+      "action": "advise",
+      "target": "zeus",
+      "consequence": "Metis supplies the strategy for release.",
+      "factIds": [
+        "fact-02"
+      ]
     },
     {
-      "eventId": "production-myth-0009-event-03",
-      "actor": "zeus",
-      "action": "confront",
-      "target": "titans",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "Zeus performs the decisive action associated with Zeus Frees His Siblings.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 3,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "zeus",
+      "action": "drug",
+      "target": "cronus",
+      "consequence": "Zeus forces Cronus to disgorge what he swallowed.",
+      "factIds": [
+        "fact-03"
+      ]
     },
     {
-      "eventId": "production-myth-0009-event-04",
-      "actor": "zeus",
-      "action": "resolve",
-      "target": "gaia",
-      "object": null,
-      "recipient": null,
-      "location": "primordial-and-creation-setting",
-      "normalizedStatement": "The episode closes once Zeus's decisive action changes the condition of Gaia and leaves later cycle material outside this record.",
-      "sourceText": null,
-      "evidence": [],
       "sequence": 4,
-      "reviewStatus": "ai_constructed_production"
+      "actor": "cronus",
+      "action": "release",
+      "target": "hestia",
+      "consequence": "The swallowed children emerge alive.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "poseidon",
+      "action": "ally",
+      "target": "zeus",
+      "consequence": "The liberated siblings become Zeus’ allies.",
+      "factIds": [
+        "fact-05"
+      ]
     }
   ],
   "locations": [
-    {
-      "id": "primordial-and-creation-setting",
-      "name": "Primordial and Creation setting",
-      "role": "primary setting"
-    }
+    "cosmic beginning"
   ],
   "themes": [
-    "production adaptation",
+    "bounded myth episode",
     "primordial and creation",
-    "confront"
+    "mature"
   ],
   "adaptation": {
     "recommendedSceneCount": 5,
-    "visualMoments": [
-      "Zeus Frees His Siblings begins with Zeus in a focused Primordial and Creation situation rather than a full-cycle summary.",
-      "The central pressure is the confront action named by the episode, involving Zeus and Gaia.",
-      "The episode closes once Zeus's decisive action changes the condition of Gaia and leaves later cycle material outside this record."
+    "visualBeats": [
+      "Zeus has survived the deception that saved him as an infant.",
+      "Cronus still contains the older children and still holds Titan power.",
+      "The swallowed siblings emerge and stand with Zeus."
     ],
-    "dialogueOpportunities": [
-      "A charged exchange between Zeus and Gaia.",
-      "A closing line that clarifies the changed mythic condition."
+    "sensitiveContent": [
+      "mythic violence or distress"
     ],
-    "sensitiveContent": [],
     "productionNotes": [
-      "Editorial adaptation for future story use; not an ancient quotation.",
-      "Do not present this production wording as source-audited or scholarly verified."
-    ]
-  },
-  "qualityReview": {
-    "internalConsistencyPassed": true,
-    "variantConsistencyPassed": true,
-    "characterConsistencyPassed": true,
-    "eventSequencePassed": true,
-    "boundaryReviewPassed": true,
-    "duplicateReviewPassed": true,
-    "reviewNotes": [
-      "Checked for bounded episode shape, required fields, local entity references, and false-verification claims."
+      "Focus on Zeus Frees His Siblings.",
+      "Avoid source-verification claims."
     ]
   }
 }
