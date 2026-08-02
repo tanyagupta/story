@@ -9,6 +9,7 @@ const MYTH_DIR = path.join(PRODUCTION_ROOT, "myths");
 const PLAN_FILE = path.join(PRODUCTION_ROOT, "plans", "production-myth-plan.json");
 const PLAN_OVERRIDE_FILE = path.join(PRODUCTION_ROOT, "plans", "production-myth-plan-source-aligned-overrides.json");
 const CATALOG_FILE = path.join(PRODUCTION_ROOT, "catalog", "production-myths.json");
+const CATALOG_OVERRIDE_FILE = path.join(PRODUCTION_ROOT, "catalog", "production-myth-catalog-source-aligned-overrides.json");
 const FAMILY_FILE = path.join(PRODUCTION_ROOT, "catalog", "production-myth-families.json");
 const SOURCE_LINK_FILE = path.join(PRODUCTION_ROOT, "catalog", "production-source-links.json");
 const SUMMARY_FILE = path.join(PRODUCTION_ROOT, "review", "production-corpus-summary.json");
@@ -148,6 +149,7 @@ function validateProductionCorpus() {
   const plan = readJson(PLAN_FILE);
   const planOverrides = readJson(PLAN_OVERRIDE_FILE);
   const catalog = readJson(CATALOG_FILE);
+  const catalogOverrides = readJson(CATALOG_OVERRIDE_FILE);
   const familyCatalog = readJson(FAMILY_FILE);
   const sourceLinks = readJson(SOURCE_LINK_FILE);
   const summary = readJson(SUMMARY_FILE);
@@ -174,6 +176,9 @@ function validateProductionCorpus() {
     errors.push("source-aligned plan overrides must contain exactly seven records");
   }
   if (!Array.isArray(catalog.records) || catalog.records.length !== TARGET_COUNT) errors.push("production catalog must contain exactly 200 records");
+  if (!Array.isArray(catalogOverrides.records) || catalogOverrides.records.length !== 1) {
+    errors.push("source-aligned catalog overrides must contain exactly one record");
+  }
   if (repairedRecords.length !== 50) errors.push(`expected 50 substantively repaired records, found ${repairedRecords.length}`);
   if (placeholderRecords.length !== 150) errors.push(`expected 150 remaining placeholders, found ${placeholderRecords.length}`);
   if (summary.substantivelyRepaired !== 50 || summary.remainingPlaceholders !== 150) {
@@ -315,9 +320,29 @@ function validateProductionCorpus() {
     warnings.push(`${placeholderSelfCertifiedQualityCount} unrepaired placeholder records still contain self-certified qualityReview fields`);
   }
 
-  catalog.records.forEach((item) => {
+  const effectiveCatalogRecords = (catalog.records || []).map((item) => ({ ...item }));
+  const effectiveCatalogIndexes = new Map(
+    effectiveCatalogRecords.map((item, index) => [item.id, index])
+  );
+  const catalogOverrideIds = new Set();
+  for (const item of catalogOverrides.records || []) {
+    if (catalogOverrideIds.has(item.id)) {
+      errors.push(`duplicate source-aligned catalog override ${item.id}`);
+      continue;
+    }
+    catalogOverrideIds.add(item.id);
+    const index = effectiveCatalogIndexes.get(item.id);
+    if (index === undefined) {
+      errors.push(`source-aligned catalog override references unknown record ${item.id}`);
+      continue;
+    }
+    effectiveCatalogRecords[index] = { ...effectiveCatalogRecords[index], ...item };
+  }
+  const recordTitleById = new Map(records.map((record) => [record.id, record.title]));
+  effectiveCatalogRecords.forEach((item) => {
     if (!ids.has(item.id)) errors.push(`catalog references missing production record ${item.id}`);
     if (!fs.existsSync(path.join(ROOT, item.file))) errors.push(`catalog file missing ${item.file}`);
+    if (recordTitleById.get(item.id) !== item.title) errors.push(`catalog title does not match production record ${item.id}`);
   });
   if (duplicateReview.valid !== true || qualityReview.valid !== true) errors.push("production review summaries must remain valid");
   if (Object.keys(familyCatalog.families || {}).length === 0) errors.push("production family catalog is empty");
@@ -333,7 +358,8 @@ function validateProductionCorpus() {
     productionRecords: records.length,
     planRecords: effectivePlanRecords.length,
     planOverrideRecords: (planOverrides.records || []).length,
-    catalogRecords: (catalog.records || []).length,
+    catalogRecords: effectiveCatalogRecords.length,
+    catalogOverrideRecords: (catalogOverrides.records || []).length,
     substantivelyRepaired: repairedRecords.length,
     remainingPlaceholders: placeholderRecords.length,
     placeholderSelfCertifiedQualityCount,
