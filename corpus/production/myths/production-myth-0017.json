@@ -1,0 +1,160 @@
+{
+  "id": "production-myth-0017",
+  "title": "Jason Launches the Argo",
+  "mythFamily": "golden-fleece",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0017"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0017.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Jason begins plans to recover the Golden Fleece.",
+    "ending": "The Argo departs under Jason's command.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 3 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:302.302.3-302.302.3:8296fb5e",
+      "gutenberg:ebooks:22381:302.302.4-302.302.4:bef557c3",
+      "gutenberg:ebooks:22381:302.302.5-302.302.5:fed2fc57",
+      "gutenberg:ebooks:22381:302.302.6-302.302.6:6198f7f3",
+      "gutenberg:ebooks:22381:302.302.7-302.302.7:1e4d9de5"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-berens-jason-launches-argo-verified from gutenberg-berens-myths-legends-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Jason arranged plans for the perilous expedition proposed by his uncle."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Argos built the Argo for Jason under Pallas-Athene's guidance."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "The Argonauts took their places in the Argo and departed."
+    }
+  ],
+  "characters": [
+    {
+      "id": "argonauts",
+      "name": "Argonauts",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "argus-shipwright",
+      "name": "Argos",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "jason",
+      "name": "Jason",
+      "role": "expedition leader",
+      "goal": "complete the central action described in the verified episode"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "jason",
+      "relationship": "commands",
+      "target": "argonauts",
+      "rationale": "The linked Phase 1 record verifies this commands relationship for Jason and Argonauts within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Jason summons heroes for the Golden Fleece expedition, receives the newly built Argo, distributes the crew's places, offers sacrifice, and launches the voyage.",
+    "openingSituation": "Jason begins plans to recover the Golden Fleece.",
+    "centralConflict": "The expedition must be organized and launched before the heroes can seek the fleece.",
+    "resolution": "The crew takes its assigned places in the Argo.",
+    "outcome": "The Argo departs under Jason's command.",
+    "storyline": [
+      "Jason arranged plans for the perilous expedition proposed by his uncle.",
+      "Argos built the Argo for Jason under Pallas-Athene's guidance.",
+      "The Argonauts took their places in the Argo and departed."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "jason",
+      "action": "organize",
+      "sourceAction": "arrange",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Jason arranged plans for the perilous expedition proposed by his uncle.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "argus-shipwright",
+      "action": "build",
+      "sourceAction": "built",
+      "target": null,
+      "object": "argo",
+      "recipient": "jason",
+      "location": null,
+      "consequence": "Argos built the Argo for Jason under Pallas-Athene's guidance.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "argonauts",
+      "action": "depart",
+      "sourceAction": "take their allotted places",
+      "target": null,
+      "object": "argo",
+      "recipient": null,
+      "location": null,
+      "consequence": "The Argonauts took their places in the Argo and departed.",
+      "factIds": [
+        "fact-03"
+      ]
+    }
+  ],
+  "locations": [],
+  "objects": [
+    "argo"
+  ],
+  "creatures": [],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 3,
+    "visualBeats": [
+      "Jason arranged plans for the perilous expedition proposed by his uncle.",
+      "Argos built the Argo for Jason under Pallas-Athene's guidance.",
+      "The Argonauts took their places in the Argo and departed."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0017; avoid adding later or parallel variants.",
+      "Keep the ending at: The Argo departs under Jason's command."
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "production-myth-0020",
+  "title": "Perseus Transforms Atlas",
+  "mythFamily": "perseus-and-atlas",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0020"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0020.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Perseus reaches Atlas' kingdom while travelling.",
+    "ending": "Atlas is transformed into a mountain.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 3 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:296.296.9-296.296.9:dcb27f5d"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-berens-perseus-transforms-atlas-verified from gutenberg-berens-myths-legends-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Perseus asked Atlas for rest and shelter."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Atlas refused Perseus' request."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Perseus used Medusa's head to transform Atlas into a mountain."
+    }
+  ],
+  "characters": [
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "role": "traveller",
+      "goal": null
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "Perseus asks Atlas for hospitality, receives a refusal, and transforms Atlas into a mountain by showing him Medusa's head.",
+    "openingSituation": "Perseus reaches Atlas' kingdom while travelling.",
+    "centralConflict": "Atlas refuses Perseus' request for rest and shelter.",
+    "resolution": "Perseus shows Atlas Medusa's head.",
+    "outcome": "Atlas is transformed into a mountain.",
+    "storyline": [
+      "Perseus asked Atlas for rest and shelter.",
+      "Atlas refused Perseus' request.",
+      "Perseus used Medusa's head to transform Atlas into a mountain."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "perseus",
+      "action": "request",
+      "sourceAction": "begged",
+      "target": null,
+      "object": null,
+      "recipient": "atlas",
+      "location": "atlas-kingdom",
+      "consequence": "Perseus asked Atlas for rest and shelter.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "atlas",
+      "action": "refuse",
+      "sourceAction": "refused",
+      "target": "perseus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Atlas refused Perseus' request.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "perseus",
+      "action": "transform",
+      "sourceAction": "transformed",
+      "target": "atlas",
+      "object": "medusa-head",
+      "recipient": null,
+      "location": null,
+      "consequence": "Perseus used Medusa's head to transform Atlas into a mountain.",
+      "factIds": [
+        "fact-03"
+      ]
+    }
+  ],
+  "locations": [
+    "atlas-kingdom"
+  ],
+  "objects": [
+    "medusa-head"
+  ],
+  "creatures": [],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 3,
+    "visualBeats": [
+      "Perseus asked Atlas for rest and shelter.",
+      "Atlas refused Perseus' request.",
+      "Perseus used Medusa's head to transform Atlas into a mountain."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0020; avoid adding later or parallel variants.",
+      "Keep the ending at: Atlas is transformed into a mountain."
+    ]
+  }
+}

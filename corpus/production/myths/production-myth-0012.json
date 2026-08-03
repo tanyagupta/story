@@ -1,0 +1,208 @@
+{
+  "id": "production-myth-0012",
+  "title": "Infant Hercules and the Serpents",
+  "mythFamily": "infant-heracles-serpents",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0012"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0012.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Hercules is named as the son of Jupiter and Alcmene.",
+    "ending": "Hercules strangles the serpents, showing his future strength.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 4 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:339.339.3-339.339.3:227fd21c",
+      "gutenberg:ebooks:39250:339.339.5-339.339.5:6051c551"
+    ],
+    "omittedPassages": [
+      "gutenberg:ebooks:39250:339.339.1-339.339.1:896736a0",
+      "gutenberg:ebooks:39250:339.339.2-339.339.2:d6f117fb",
+      "gutenberg:ebooks:39250:339.339.4-339.339.4:d96f060e"
+    ]
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-guerber-infant-hercules-verified from gutenberg-guerber-myths-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Juno plotted to destroy Hercules."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Juno sent two serpents to attack Hercules."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "The serpents entered the palace unseen."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Hercules strangled the serpents."
+    }
+  ],
+  "characters": [
+    {
+      "id": "alcmene",
+      "name": "Alcmene",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "hera",
+      "name": "Juno",
+      "role": "attacker",
+      "goal": null
+    },
+    {
+      "id": "heracles",
+      "name": "Hercules",
+      "role": "infant hero",
+      "goal": null
+    },
+    {
+      "id": "serpents",
+      "name": "Serpents",
+      "role": "creature or group involved in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "zeus",
+      "name": "Jupiter",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "zeus",
+      "relationship": "parent-of",
+      "target": "heracles",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Jupiter and Hercules within the selected episode."
+    },
+    {
+      "id": "relationship-02",
+      "source": "alcmene",
+      "relationship": "parent-of",
+      "target": "heracles",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Alcmene and Hercules within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Juno plots to destroy the infant Hercules and sends two serpents to attack him in his cradle. Hercules seizes the serpents by the neck and strangles them.",
+    "openingSituation": "Hercules is named as the son of Jupiter and Alcmene.",
+    "centralConflict": "Juno tries to destroy Hercules shortly after his birth.",
+    "resolution": "The infant Hercules catches the serpents by their necks.",
+    "outcome": "Hercules strangles the serpents, showing his future strength.",
+    "storyline": [
+      "Hercules is born.",
+      "Juno plots his destruction.",
+      "Serpents attack his cradle.",
+      "Hercules seizes the serpents.",
+      "Hercules strangles them."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "hera",
+      "action": "plot",
+      "sourceAction": "plot",
+      "target": "heracles",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Juno plotted to destroy Hercules.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "hera",
+      "action": "send",
+      "sourceAction": "send",
+      "target": "serpents",
+      "object": null,
+      "recipient": "heracles",
+      "location": null,
+      "consequence": "Juno sent two serpents to attack Hercules.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "serpents",
+      "action": "enter",
+      "sourceAction": "enter",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "The serpents entered the palace unseen.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "heracles",
+      "action": "kill",
+      "sourceAction": "kill",
+      "target": "serpents",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Hercules strangled the serpents.",
+      "factIds": [
+        "fact-04"
+      ]
+    }
+  ],
+  "locations": [
+    "olympus"
+  ],
+  "objects": [
+    "cradle"
+  ],
+  "creatures": [
+    "serpents"
+  ],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 4,
+    "visualBeats": [
+      "Juno plotted to destroy Hercules.",
+      "Juno sent two serpents to attack Hercules.",
+      "The serpents entered the palace unseen.",
+      "Hercules strangled the serpents."
+    ],
+    "sensitiveContent": [
+      "Juno plotted to destroy Hercules.",
+      "Hercules strangled the serpents."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0012; avoid adding later or parallel variants.",
+      "Keep the ending at: Hercules strangles the serpents, showing his future strength."
+    ]
+  }
+}

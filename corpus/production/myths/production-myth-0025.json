@@ -1,0 +1,184 @@
+{
+  "id": "production-myth-0025",
+  "title": "Agamemnon's Return and Murder",
+  "mythFamily": "agamemnon-return",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0025"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0025.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Agamemnon returns from Troy.",
+    "ending": "Electra saves Orestes, leaving revenge for a later episode.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 3 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:338.338.4-338.338.4:70d4701a",
+      "gutenberg:ebooks:22381:338.338.5-338.338.5:320b9bc6",
+      "gutenberg:ebooks:22381:338.338.6-338.338.6:76ee063f"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-berens-agamemnon-return-murder-verified from gutenberg-berens-myths-legends-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Agamemnon returned from Troy."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "AEgisthus killed Agamemnon with Clytemnestra's aid."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Electra saved Orestes from Aegisthus."
+    }
+  ],
+  "characters": [
+    {
+      "id": "aegisthus",
+      "name": "AEgisthus",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "agamemnon",
+      "name": "Agamemnon",
+      "role": "returning king",
+      "goal": "protect or advance the ruling interest described in the verified episode"
+    },
+    {
+      "id": "clytemnestra",
+      "name": "Clytemnestra",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "electra",
+      "name": "Electra",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "orestes",
+      "name": "Orestes",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "clytemnestra",
+      "relationship": "spouse-of",
+      "target": "agamemnon",
+      "rationale": "The linked Phase 1 record verifies this spouse-of relationship for Clytemnestra and Agamemnon within the selected episode."
+    },
+    {
+      "id": "relationship-02",
+      "source": "agamemnon",
+      "relationship": "parent-of",
+      "target": "electra",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Agamemnon and Electra within the selected episode."
+    },
+    {
+      "id": "relationship-03",
+      "source": "electra",
+      "relationship": "sibling-of",
+      "target": "orestes",
+      "rationale": "The linked Phase 1 record verifies this sibling-of relationship for Electra and Orestes within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Agamemnon ignores Cassandra's warnings, returns to Mycenae, and is murdered by Aegisthus with Clytemnestra's aid; Electra saves Orestes.",
+    "openingSituation": "Agamemnon returns from Troy.",
+    "centralConflict": "Aegisthus and Clytemnestra plot against him.",
+    "resolution": "Agamemnon is murdered.",
+    "outcome": "Electra saves Orestes, leaving revenge for a later episode.",
+    "storyline": [
+      "Agamemnon returned from Troy.",
+      "AEgisthus killed Agamemnon with Clytemnestra's aid.",
+      "Electra saved Orestes from Aegisthus."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "agamemnon",
+      "action": "return",
+      "sourceAction": "return",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Agamemnon returned from Troy.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "aegisthus",
+      "action": "kill",
+      "sourceAction": "slew",
+      "target": "agamemnon",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "AEgisthus killed Agamemnon with Clytemnestra's aid.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "electra",
+      "action": "rescue",
+      "sourceAction": "save",
+      "target": "orestes",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Electra saved Orestes from Aegisthus.",
+      "factIds": [
+        "fact-03"
+      ]
+    }
+  ],
+  "locations": [],
+  "objects": [],
+  "creatures": [],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 3,
+    "visualBeats": [
+      "Agamemnon returned from Troy.",
+      "AEgisthus killed Agamemnon with Clytemnestra's aid.",
+      "Electra saved Orestes from Aegisthus."
+    ],
+    "sensitiveContent": [
+      "AEgisthus killed Agamemnon with Clytemnestra's aid."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0025; avoid adding later or parallel variants.",
+      "Keep the ending at: Electra saves Orestes, leaving revenge for a later episode."
+    ]
+  }
+}

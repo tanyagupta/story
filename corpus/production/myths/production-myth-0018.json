@@ -1,0 +1,186 @@
+{
+  "id": "production-myth-0018",
+  "title": "The Argonauts at Lemnos",
+  "mythFamily": "jason-and-argonauts",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0018"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0018.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "The Argo reaches Lemnos after departure.",
+    "ending": "The Lemnos stay is treated as a delay before the voyage resumes.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 4 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:302.302.8-302.302.8:4fd223df",
+      "gutenberg:ebooks:22381:302.302.9-302.302.9:2f84908e",
+      "gutenberg:ebooks:22381:302.302.10-302.302.10:5ef82920",
+      "gutenberg:ebooks:22381:302.302.11-302.302.11:3132f7fe",
+      "gutenberg:ebooks:22381:302.302.12-302.302.12:4cec3351"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-berens-argonauts-at-lemnos-verified from gutenberg-berens-myths-legends-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "The women of Lemnos armed themselves to oppose the arriving Argo."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "The Argonauts sent a herald from their boats."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Hypsipyle decided to invite the strangers into the city."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Heracles recalled the Argonauts to their duty."
+    }
+  ],
+  "characters": [
+    {
+      "id": "argonauts",
+      "name": "Argonauts",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "heracles",
+      "name": "Heracles",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "hypsipyle",
+      "name": "Hypsipyle",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "jason",
+      "name": "Jason",
+      "role": "visitor",
+      "goal": null
+    },
+    {
+      "id": "lemnian-women",
+      "name": "women",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The Argonauts land at Lemnos, where Hypsipyle and the Lemnian women receive them after initial alarm. The visitors are feasted until Heracles recalls them to their voyage.",
+    "openingSituation": "The Argo reaches Lemnos after departure.",
+    "centralConflict": "A stop at Lemnos delays the voyage toward the Golden Fleece.",
+    "resolution": "Heracles recalls the Argonauts to their duty.",
+    "outcome": "The Lemnos stay is treated as a delay before the voyage resumes.",
+    "storyline": [
+      "The women of Lemnos armed themselves to oppose the arriving Argo.",
+      "The Argonauts sent a herald from their boats.",
+      "Hypsipyle decided to invite the strangers into the city.",
+      "Heracles recalled the Argonauts to their duty."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "lemnian-women",
+      "action": "oppose",
+      "sourceAction": "armed themselves",
+      "target": "argonauts",
+      "object": null,
+      "recipient": null,
+      "location": "lemnos",
+      "consequence": "The women of Lemnos armed themselves to oppose the arriving Argo.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "argonauts",
+      "action": "send",
+      "sourceAction": "despatched",
+      "target": null,
+      "object": null,
+      "recipient": "hypsipyle",
+      "location": "lemnos",
+      "consequence": "The Argonauts sent a herald from their boats.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "hypsipyle",
+      "action": "invite",
+      "sourceAction": "invite",
+      "target": "argonauts",
+      "object": null,
+      "recipient": null,
+      "location": "lemnos",
+      "consequence": "Hypsipyle decided to invite the strangers into the city.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "heracles",
+      "action": "warn",
+      "sourceAction": "recalled",
+      "target": "argonauts",
+      "object": "argo",
+      "recipient": null,
+      "location": null,
+      "consequence": "Heracles recalled the Argonauts to their duty.",
+      "factIds": [
+        "fact-04"
+      ]
+    }
+  ],
+  "locations": [
+    "lemnos"
+  ],
+  "objects": [
+    "argo"
+  ],
+  "creatures": [],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 4,
+    "visualBeats": [
+      "The women of Lemnos armed themselves to oppose the arriving Argo.",
+      "The Argonauts sent a herald from their boats.",
+      "Hypsipyle decided to invite the strangers into the city.",
+      "Heracles recalled the Argonauts to their duty."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0018; avoid adding later or parallel variants.",
+      "Keep the ending at: The Lemnos stay is treated as a delay before the voyage resumes."
+    ]
+  }
+}

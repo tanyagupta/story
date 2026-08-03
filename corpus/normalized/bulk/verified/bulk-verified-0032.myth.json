@@ -198,7 +198,7 @@
       "Aetes set conditions before Jason could obtain the fleece.",
       "Medea was ready to bring her magic to Jason's aid.",
       "Jason used Medea's advice to overcome the dragon-teeth warriors.",
-      "Jason took the Golden Fleece and carried it to the Argo.",
+      "Jason killed the dragon and took the fleece.",
       "The Argo left the Colchian harbor after Jason embarked with Medea."
     ]
   },
@@ -294,7 +294,7 @@
       "actor": "jason",
       "action": "defeat",
       "sourceAction": "threw",
-      "target": null,
+      "target": "dragon-teeth",
       "object": null,
       "recipient": null,
       "location": null,
@@ -314,11 +314,11 @@
     {
       "eventId": "event-004",
       "sourceText": "Jason then tore the coveted fleece from the branch where it had hung for many a year, and bore it in triumph to the Argo.",
-      "normalizedStatement": "Jason took the Golden Fleece and carried it to the Argo.",
+      "normalizedStatement": "Jason killed the dragon and took the fleece.",
       "actor": "jason",
       "action": "take",
       "sourceAction": "tore",
-      "target": null,
+      "target": "dragon",
       "object": "golden-fleece",
       "recipient": null,
       "location": null,

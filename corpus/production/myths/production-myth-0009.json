@@ -1,0 +1,250 @@
+{
+  "id": "production-myth-0009",
+  "title": "The Apple of Discord at the Wedding",
+  "mythFamily": "apple-of-discord",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0009"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0009.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Jupiter avoids marrying Thetis after the Fates say her son will be greater than his father.",
+    "ending": "Jupiter appoints Paris to judge the contest.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 5 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:45489:175.175.1-175.175.1:f7708a76",
+      "gutenberg:ebooks:45489:175.175.2-175.175.2:864e89b6",
+      "gutenberg:ebooks:45489:175.175.3-175.175.3:df33c925",
+      "gutenberg:ebooks:45489:175.175.4-175.175.4:50aebb81",
+      "gutenberg:ebooks:45489:175.175.5-175.175.5:caec4f7c",
+      "gutenberg:ebooks:45489:175.175.6-175.175.6:74dbbb00"
+    ],
+    "omittedPassages": [
+      "gutenberg:ebooks:45489:175.175.7-175.175.7:dd2f49f1"
+    ]
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-baker-apple-discord-verified from gutenberg-baker-stories-old-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Jupiter gave Thetis in marriage to Peleus."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Eris appeared uninvited at the wedding feast."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Eris threw a golden apple onto the table."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Juno, Minerva, and Venus disputed possession of the apple."
+    },
+    {
+      "factId": "fact-05",
+      "fact": "Jupiter appointed Paris judge of the contest."
+    }
+  ],
+  "characters": [
+    {
+      "id": "aphrodite",
+      "name": "Venus",
+      "role": "contestant",
+      "goal": null
+    },
+    {
+      "id": "athena",
+      "name": "Minerva",
+      "role": "contestant",
+      "goal": null
+    },
+    {
+      "id": "eris",
+      "name": "Eris",
+      "role": "disruptor",
+      "goal": null
+    },
+    {
+      "id": "hera",
+      "name": "Juno",
+      "role": "contestant",
+      "goal": null
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "role": "judge",
+      "goal": null
+    },
+    {
+      "id": "peleus",
+      "name": "Peleus",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "priam",
+      "name": "Priam",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "thetis",
+      "name": "Thetis",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "zeus",
+      "name": "Jupiter",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "thetis",
+      "relationship": "spouse-of",
+      "target": "peleus",
+      "rationale": "The linked Phase 1 record verifies this spouse-of relationship for Thetis and Peleus within the selected episode."
+    },
+    {
+      "id": "relationship-02",
+      "source": "priam",
+      "relationship": "parent-of",
+      "target": "paris",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Priam and Paris within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Jupiter gives Thetis to Peleus and promises divine attendance at their wedding. Eris, excluded from the feast, throws a golden apple marked for the fairest; Juno, Minerva, and Venus contest it, and Jupiter appoints Paris as judge.",
+    "openingSituation": "Jupiter avoids marrying Thetis after the Fates say her son will be greater than his father.",
+    "centralConflict": "Eris disrupts the wedding with a golden apple and the goddesses dispute who should receive it.",
+    "resolution": "The gods refuse to judge the dispute themselves and go to Mount Ida.",
+    "outcome": "Jupiter appoints Paris to judge the contest.",
+    "storyline": [
+      "Jupiter gives Thetis to Peleus.",
+      "Eris arrives uninvited.",
+      "Eris throws the golden apple.",
+      "Juno, Minerva, and Venus dispute it.",
+      "Jupiter appoints Paris judge."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "zeus",
+      "action": "arrange",
+      "sourceAction": "arrange",
+      "target": "thetis",
+      "object": null,
+      "recipient": "peleus",
+      "location": null,
+      "consequence": "Jupiter gave Thetis in marriage to Peleus.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "eris",
+      "action": "arrive",
+      "sourceAction": "arrive",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Eris appeared uninvited at the wedding feast.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "eris",
+      "action": "throw",
+      "sourceAction": "throw",
+      "target": null,
+      "object": "golden-apple",
+      "recipient": null,
+      "location": null,
+      "consequence": "Eris threw a golden apple onto the table.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "hera",
+      "action": "dispute",
+      "sourceAction": "dispute",
+      "target": "athena",
+      "object": "golden-apple",
+      "recipient": "aphrodite",
+      "location": null,
+      "consequence": "Juno, Minerva, and Venus disputed possession of the apple.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "zeus",
+      "action": "appoint",
+      "sourceAction": "appoint",
+      "target": "paris",
+      "object": "golden-apple",
+      "recipient": null,
+      "location": "mount-ida",
+      "consequence": "Jupiter appointed Paris judge of the contest.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "olympus",
+    "mount-ida",
+    "troy"
+  ],
+  "objects": [
+    "golden-apple"
+  ],
+  "creatures": [],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Jupiter gave Thetis in marriage to Peleus.",
+      "Eris appeared uninvited at the wedding feast.",
+      "Eris threw a golden apple onto the table.",
+      "Juno, Minerva, and Venus disputed possession of the apple.",
+      "Jupiter appointed Paris judge of the contest."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0009; avoid adding later or parallel variants.",
+      "Keep the ending at: Jupiter appoints Paris to judge the contest."
+    ]
+  }
+}

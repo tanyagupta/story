@@ -1,0 +1,282 @@
+{
+  "id": "production-myth-0003",
+  "title": "The Heraclidae",
+  "mythFamily": "heraclidae",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0003"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0003.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "partial-section",
+    "beginning": "After Heracles' apotheosis, Eurystheus persecutes Heracles' children.",
+    "ending": "The larger source section ends with the descendants of Heracles obtaining the Peloponnesus.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent partial-section arc with 6 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:331.331.1-331.331.1:fd3d5628",
+      "gutenberg:ebooks:22381:331.331.2-331.331.2:39926778",
+      "gutenberg:ebooks:22381:331.331.3-331.331.3:245b0c1b",
+      "gutenberg:ebooks:22381:331.331.4-331.331.4:0fdbe390",
+      "gutenberg:ebooks:22381:331.331.5-331.331.5:e2e63f16",
+      "gutenberg:ebooks:22381:331.331.8-331.331.8:560cd77e",
+      "gutenberg:ebooks:22381:331.331.15-331.331.15:fdad853c"
+    ],
+    "omittedPassages": [
+      "gutenberg:ebooks:22381:331.331.6-331.331.6:5687fdd5",
+      "gutenberg:ebooks:22381:331.331.7-331.331.7:734900b3",
+      "gutenberg:ebooks:22381:331.331.9-331.331.9:4f9a0907",
+      "gutenberg:ebooks:22381:331.331.10-331.331.10:fc0cd86a",
+      "gutenberg:ebooks:22381:331.331.11-331.331.11:49f13c4e",
+      "gutenberg:ebooks:22381:331.331.12-331.331.12:40435215",
+      "gutenberg:ebooks:22381:331.331.13-331.331.13:fa762ab7",
+      "gutenberg:ebooks:22381:331.331.14-331.331.14:2d21a07f"
+    ]
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-berens-heraclidae-verified from gutenberg-berens-myths-legends-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Eurystheus persecuted the children of Heracles."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "The children of Heracles fled to Ceyx for protection."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Macaria offered herself as a sacrifice."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Hyllus advanced with an army to assist his brothers."
+    },
+    {
+      "factId": "fact-05",
+      "fact": "Iolaus borrowed Hyllus' chariot."
+    },
+    {
+      "factId": "fact-06",
+      "fact": "The descendants of Heracles obtained the Peloponnesus."
+    }
+  ],
+  "characters": [
+    {
+      "id": "ceyx",
+      "name": "Ceyx",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "demophoon",
+      "name": "Demophoon",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "eurystheus",
+      "name": "Eurystheus",
+      "role": "persecutor",
+      "goal": null
+    },
+    {
+      "id": "heraclidae",
+      "name": "Heraclidae",
+      "role": "persecuted descendants",
+      "goal": null
+    },
+    {
+      "id": "hyllus",
+      "name": "Hyllus",
+      "role": "claimant",
+      "goal": null
+    },
+    {
+      "id": "iolaus",
+      "name": "Iolaus",
+      "role": "protector",
+      "goal": null
+    },
+    {
+      "id": "macaria",
+      "name": "Macaria",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "eurystheus",
+      "relationship": "persecutes",
+      "target": "heraclidae",
+      "rationale": "The linked Phase 1 record verifies this persecutes relationship for Eurystheus and Heraclidae within the selected episode."
+    },
+    {
+      "id": "relationship-02",
+      "source": "iolaus",
+      "relationship": "assists",
+      "target": "heraclidae",
+      "rationale": "The linked Phase 1 record verifies this assists relationship for Iolaus and Heraclidae within the selected episode."
+    },
+    {
+      "id": "relationship-03",
+      "source": "hyllus",
+      "relationship": "sibling-of",
+      "target": "heraclidae",
+      "rationale": "The linked Phase 1 record verifies this sibling-of relationship for Hyllus and Heraclidae within the selected episode."
+    },
+    {
+      "id": "relationship-04",
+      "source": "demophoon",
+      "relationship": "assists",
+      "target": "heraclidae",
+      "rationale": "The linked Phase 1 record verifies this assists relationship for Demophoon and Heraclidae within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Eurystheus persecutes the children of Heracles, who flee with Iolaus and seek refuge at Athens. Macaria sacrifices herself, Hyllus arrives with an army, and Iolaus borrows Hyllus' chariot in battle; the wider section later ends with the Heraclidae obtaining the Peloponnesus.",
+    "openingSituation": "After Heracles' apotheosis, Eurystheus persecutes Heracles' children.",
+    "centralConflict": "The Heraclidae need protection from Eurystheus and his demand for their surrender.",
+    "resolution": "Athens resists, Macaria offers herself as a sacrifice, Hyllus arrives, and Iolaus helps in battle.",
+    "outcome": "The larger source section ends with the descendants of Heracles obtaining the Peloponnesus.",
+    "storyline": [
+      "Eurystheus persecutes the children of Heracles.",
+      "The Heraclidae seek refuge at Athens.",
+      "Macaria offers herself as a sacrifice.",
+      "Hyllus arrives with an army.",
+      "Iolaus borrows Hyllus' chariot.",
+      "The descendants of Heracles eventually obtain the Peloponnesus."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "eurystheus",
+      "action": "pursue",
+      "sourceAction": "pursue",
+      "target": "heraclidae",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Eurystheus persecuted the children of Heracles.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "heraclidae",
+      "action": "flee",
+      "sourceAction": "flee",
+      "target": null,
+      "object": null,
+      "recipient": "ceyx",
+      "location": null,
+      "consequence": "The children of Heracles fled to Ceyx for protection.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "macaria",
+      "action": "sacrifice",
+      "sourceAction": "sacrifice",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": "athens",
+      "consequence": "Macaria offered herself as a sacrifice.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "hyllus",
+      "action": "travel",
+      "sourceAction": "travel",
+      "target": "heraclidae",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Hyllus advanced with an army to assist his brothers.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "iolaus",
+      "action": "receive",
+      "sourceAction": "borrowed",
+      "target": null,
+      "object": "chariot",
+      "recipient": null,
+      "location": null,
+      "consequence": "Iolaus borrowed Hyllus' chariot.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "heraclidae",
+      "action": "receive",
+      "sourceAction": "receive",
+      "target": null,
+      "object": "peloponnesus",
+      "recipient": null,
+      "location": "peloponnesus",
+      "consequence": "The descendants of Heracles obtained the Peloponnesus.",
+      "factIds": [
+        "fact-06"
+      ]
+    }
+  ],
+  "locations": [
+    "athens",
+    "peloponnesus",
+    "attica"
+  ],
+  "objects": [
+    "chariot"
+  ],
+  "creatures": [],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Eurystheus persecuted the children of Heracles.",
+      "The children of Heracles fled to Ceyx for protection.",
+      "Macaria offered herself as a sacrifice.",
+      "Hyllus advanced with an army to assist his brothers.",
+      "Iolaus borrowed Hyllus' chariot.",
+      "The descendants of Heracles obtained the Peloponnesus."
+    ],
+    "sensitiveContent": [
+      "Macaria offered herself as a sacrifice."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0003; avoid adding later or parallel variants.",
+      "Keep the ending at: The larger source section ends with the descendants of Heracles obtaining the Peloponnesus."
+    ]
+  }
+}

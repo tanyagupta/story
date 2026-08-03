@@ -941,6 +941,20 @@ test("bulk verified records use exact sourceText and targeted entity evidence", 
   });
 });
 
+test("linked Phase 2 production records map one-to-one to verified Phase 1 records", () => {
+  childProcess.execFileSync(process.execPath, [path.join(root, "src/corpus/validate-linked-production.js")], { cwd: root, stdio: "pipe" });
+  const audit = readJson(path.join(root, "corpus/production/review/verified-phase1-phase2-mapping-audit.json"));
+  const catalog = readJson(path.join(root, "corpus/production/catalog/production-myths.json"));
+  const report = readJson(path.join(root, "corpus/production/review/linked-production-validation-report.json"));
+  assert.strictEqual(report.valid, true);
+  assert.strictEqual(audit.phase1VerifiedRecordCount, 32);
+  assert.strictEqual(audit.phase2MappedRecordCount, 32);
+  assert.strictEqual(audit.unresolvedMappings.length, 0);
+  assert.strictEqual(catalog.productionRecordCount, 32);
+  assert.strictEqual(new Set(audit.records.map((item) => item.phase1Id)).size, 32);
+  assert.strictEqual(new Set(audit.records.map((item) => item.phase2Id)).size, 32);
+});
+
 fs.rmSync(tempRoot, { recursive: true, force: true });
 for (const item of tests) {
   try {

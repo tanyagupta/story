@@ -1,0 +1,200 @@
+{
+  "id": "production-myth-0021",
+  "title": "Jason and the One Sandal",
+  "mythFamily": "jason-and-argonauts",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0021"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0021.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Pelias has seized Aeson's throne in Iolcus.",
+    "ending": "Jason confronts Pelias and demands his father's throne.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 4 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:392.392.1-392.392.1:0faf5a96",
+      "gutenberg:ebooks:39250:392.392.2-392.392.2:ff6ad89c",
+      "gutenberg:ebooks:39250:392.392.3-392.392.3:853791f9",
+      "gutenberg:ebooks:39250:392.392.5-392.392.5:5fea9b71",
+      "gutenberg:ebooks:39250:392.392.6-392.392.6:f7990a3f",
+      "gutenberg:ebooks:39250:392.392.7-392.392.7:3b069de4",
+      "gutenberg:ebooks:39250:392.392.8-392.392.8:9b208582",
+      "gutenberg:ebooks:39250:392.392.9-392.392.9:b918f67e",
+      "gutenberg:ebooks:39250:392.392.11-392.392.11:8d53cca9"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-guerber-jason-one-sandal-verified from gutenberg-guerber-myths-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Pelias seized Aeson's throne at Iolcus."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Aeson and Alcimede entrusted Jason to Chiron."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Disguised Juno caused Jason to lose one sandal."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Pelias recognized Jason as the one-sandaled man warned of by the oracle."
+    }
+  ],
+  "characters": [
+    {
+      "id": "aeson",
+      "name": "Æson",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "chiron",
+      "name": "Chiron",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "hera",
+      "name": "Juno",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "jason",
+      "name": "Jason",
+      "role": "returning heir",
+      "goal": null
+    },
+    {
+      "id": "pelias",
+      "name": "Pelias",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "aeson",
+      "relationship": "parent-of",
+      "target": "jason",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Æson and Jason within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Pelias usurps Aeson's throne, Jason is hidden with Chiron, Juno tests him at a stream, and Pelias recognizes the oracle's warning when Jason returns with one sandal.",
+    "openingSituation": "Pelias has seized Aeson's throne in Iolcus.",
+    "centralConflict": "Jason returns as the dispossessed heir whose appearance threatens Pelias.",
+    "resolution": "Pelias sees Jason's bare foot and remembers the oracle.",
+    "outcome": "Jason confronts Pelias and demands his father's throne.",
+    "storyline": [
+      "Pelias seized Aeson's throne at Iolcus.",
+      "Aeson and Alcimede entrusted Jason to Chiron.",
+      "Disguised Juno caused Jason to lose one sandal.",
+      "Pelias recognized Jason as the one-sandaled man warned of by the oracle."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "pelias",
+      "action": "seize",
+      "sourceAction": "took forcible possession",
+      "target": "aeson",
+      "object": null,
+      "recipient": null,
+      "location": "iolcus",
+      "consequence": "Pelias seized Aeson's throne at Iolcus.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "aeson",
+      "action": "entrust",
+      "sourceAction": "intrusted",
+      "target": "jason",
+      "object": null,
+      "recipient": "chiron",
+      "location": null,
+      "consequence": "Aeson and Alcimede entrusted Jason to Chiron.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "hera",
+      "action": "test",
+      "sourceAction": "wrenched off",
+      "target": "jason",
+      "object": "golden-sandal",
+      "recipient": null,
+      "location": null,
+      "consequence": "Disguised Juno caused Jason to lose one sandal.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "pelias",
+      "action": "recognize",
+      "sourceAction": "recollection",
+      "target": "jason",
+      "object": "golden-sandal",
+      "recipient": null,
+      "location": null,
+      "consequence": "Pelias recognized Jason as the one-sandaled man warned of by the oracle.",
+      "factIds": [
+        "fact-04"
+      ]
+    }
+  ],
+  "locations": [
+    "iolcus"
+  ],
+  "objects": [
+    "golden-sandal"
+  ],
+  "creatures": [],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 4,
+    "visualBeats": [
+      "Pelias seized Aeson's throne at Iolcus.",
+      "Aeson and Alcimede entrusted Jason to Chiron.",
+      "Disguised Juno caused Jason to lose one sandal.",
+      "Pelias recognized Jason as the one-sandaled man warned of by the oracle."
+    ],
+    "sensitiveContent": [
+      "Pelias seized Aeson's throne at Iolcus."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0021; avoid adding later or parallel variants.",
+      "Keep the ending at: Jason confronts Pelias and demands his father's throne."
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "production-myth-0031",
+  "title": "The Argonauts Pass the Symplegades",
+  "mythFamily": "argonauts-symplegades",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0031"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0031.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "The Argo approaches the moving rocks.",
+    "ending": "The rocks remain fixed by decree of the gods.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 2 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:395.395.13-395.395.13:681ba5bf"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-guerber-symplegades-verified from gutenberg-guerber-myths-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Jason sent a dove before the Argo through the Symplegades."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "The Argo passed through the Symplegades."
+    }
+  ],
+  "characters": [
+    {
+      "id": "argonauts",
+      "name": "Argonauts",
+      "role": "voyagers",
+      "goal": null
+    },
+    {
+      "id": "jason",
+      "name": "Jason",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The Argonauts test the Symplegades with a dove and drive the Argo through as the rocks close, after which the rocks remain fixed.",
+    "openingSituation": "The Argo approaches the moving rocks.",
+    "centralConflict": "The Symplegades threaten to crush the vessel.",
+    "resolution": "The Argo passes through the opening.",
+    "outcome": "The rocks remain fixed by decree of the gods.",
+    "storyline": [
+      "Jason sent a dove before the Argo through the Symplegades.",
+      "The Argo passed through the Symplegades."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "jason",
+      "action": "test",
+      "sourceAction": "sent",
+      "target": "symplegades",
+      "object": "dove",
+      "recipient": null,
+      "location": null,
+      "consequence": "Jason sent a dove before the Argo through the Symplegades.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "argonauts",
+      "action": "pass",
+      "sourceAction": "darted",
+      "target": "symplegades",
+      "object": "argo",
+      "recipient": null,
+      "location": null,
+      "consequence": "The Argo passed through the Symplegades.",
+      "factIds": [
+        "fact-02"
+      ]
+    }
+  ],
+  "locations": [],
+  "objects": [
+    "argo",
+    "dove",
+    "symplegades"
+  ],
+  "creatures": [],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 3,
+    "visualBeats": [
+      "Jason sent a dove before the Argo through the Symplegades.",
+      "The Argo passed through the Symplegades."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0031; avoid adding later or parallel variants.",
+      "Keep the ending at: The rocks remain fixed by decree of the gods."
+    ]
+  }
+}

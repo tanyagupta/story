@@ -36,6 +36,7 @@
     "corpus:run": "node src/corpus/corpus-runner.js",
     "corpus:real": "node src/corpus/corpus-real-runner.js",
     "corpus:bulk": "node src/corpus/corpus-bulk-runner.js",
+    "corpus:production:validate": "node src/corpus/validate-linked-production.js",
     "test:corpus": "node tests/corpus/run-corpus-tests.js"
   },
   "keywords": [

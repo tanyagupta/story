@@ -1,0 +1,216 @@
+{
+  "id": "production-myth-0010",
+  "title": "Bacchus Lures Vulcan to Olympus",
+  "mythFamily": "hephaestus-and-hera-throne",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0010"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0010.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Vulcan avoids Olympus because he resents his parents' treatment of him.",
+    "ending": "Vulcan allows himself to be led to Olympus.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 5 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:45489:103.103.1-103.103.1:999b640a",
+      "gutenberg:ebooks:45489:103.103.2-103.103.2:c35667d4"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-baker-vulcan-throne-verified from gutenberg-baker-stories-old-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Jupiter kicked Vulcan out of heaven."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Vulcan sent a golden throne to Juno."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "The golden throne held Juno prisoner."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Jupiter sent Bacchus to Vulcan."
+    },
+    {
+      "factId": "fact-05",
+      "fact": "Bacchus led Vulcan to Olympus."
+    }
+  ],
+  "characters": [
+    {
+      "id": "dionysus",
+      "name": "Bacchus",
+      "role": "luring visitor",
+      "goal": null
+    },
+    {
+      "id": "hephaestus",
+      "name": "Vulcan",
+      "role": "estranged craftsman",
+      "goal": null
+    },
+    {
+      "id": "hera",
+      "name": "Juno",
+      "role": "trapped mother",
+      "goal": null
+    },
+    {
+      "id": "zeus",
+      "name": "Jupiter",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "hera",
+      "relationship": "parent-of",
+      "target": "hephaestus",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Juno and Vulcan within the selected episode."
+    },
+    {
+      "id": "relationship-02",
+      "source": "zeus",
+      "relationship": "parent-of",
+      "target": "hephaestus",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Jupiter and Vulcan within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "After Jupiter casts Vulcan from heaven and Juno shows indifference, Vulcan sends her a golden throne that traps her. Mercury cannot persuade him to return, but Bacchus wins him over with wine and leads him to Olympus.",
+    "openingSituation": "Vulcan avoids Olympus because he resents his parents' treatment of him.",
+    "centralConflict": "Vulcan traps Juno in a golden throne as revenge.",
+    "resolution": "Jupiter sends Bacchus, who makes Vulcan drink wine.",
+    "outcome": "Vulcan allows himself to be led to Olympus.",
+    "storyline": [
+      "Jupiter casts Vulcan from heaven.",
+      "Vulcan refuses Olympus.",
+      "Vulcan traps Juno in a golden throne.",
+      "Mercury fails to bring Vulcan back.",
+      "Bacchus lures Vulcan with wine.",
+      "Vulcan is led to Olympus."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "zeus",
+      "action": "banish",
+      "sourceAction": "banish",
+      "target": "hephaestus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Jupiter kicked Vulcan out of heaven.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "hephaestus",
+      "action": "send",
+      "sourceAction": "send",
+      "target": null,
+      "object": "golden-throne",
+      "recipient": "hera",
+      "location": "olympus",
+      "consequence": "Vulcan sent a golden throne to Juno.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "hephaestus",
+      "action": "capture",
+      "sourceAction": "capture",
+      "target": "hera",
+      "object": "golden-throne",
+      "recipient": null,
+      "location": null,
+      "consequence": "The golden throne held Juno prisoner.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "zeus",
+      "action": "send",
+      "sourceAction": "send",
+      "target": "dionysus",
+      "object": null,
+      "recipient": "hephaestus",
+      "location": null,
+      "consequence": "Jupiter sent Bacchus to Vulcan.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "dionysus",
+      "action": "lead",
+      "sourceAction": "lead",
+      "target": "hephaestus",
+      "object": null,
+      "recipient": null,
+      "location": "olympus",
+      "consequence": "Bacchus led Vulcan to Olympus.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "olympus",
+    "mount-etna"
+  ],
+  "objects": [
+    "golden-throne",
+    "chain",
+    "wine"
+  ],
+  "creatures": [],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Jupiter kicked Vulcan out of heaven.",
+      "Vulcan sent a golden throne to Juno.",
+      "The golden throne held Juno prisoner.",
+      "Jupiter sent Bacchus to Vulcan.",
+      "Bacchus led Vulcan to Olympus."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0010; avoid adding later or parallel variants.",
+      "Keep the ending at: Vulcan allows himself to be led to Olympus."
+    ]
+  }
+}

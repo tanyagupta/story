@@ -1,0 +1,305 @@
+{
+  "id": "production-myth-0007",
+  "title": "Cadmus Founds Thebes",
+  "mythFamily": "cadmus-founds-thebes",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0007"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0007.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "complete-section",
+    "beginning": "Europa has been abducted by Zeus, and Agenor sends Cadmus to find her.",
+    "ending": "Cadmus builds Thebes, later loses his throne, and he and Harmonia are transformed by Zeus after death.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent complete-section arc with 7 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:295.295.1-295.295.1:4cdcea09",
+      "gutenberg:ebooks:22381:295.295.2-295.295.2:b4f4d63b",
+      "gutenberg:ebooks:22381:295.295.3-295.295.3:9c0bfe81",
+      "gutenberg:ebooks:22381:295.295.4-295.295.4:172a3df3",
+      "gutenberg:ebooks:22381:295.295.5-295.295.5:484f6684",
+      "gutenberg:ebooks:22381:295.295.6-295.295.6:f7d8457a",
+      "gutenberg:ebooks:22381:295.295.7-295.295.7:a7fd704c",
+      "gutenberg:ebooks:22381:295.295.8-295.295.8:20caac56",
+      "gutenberg:ebooks:22381:295.295.9-295.295.9:317b0fa8"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-berens-cadmus-thebes-verified from gutenberg-berens-myths-legends-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Agenor sent Cadmus to search for Europa."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Cadmus consulted Apollo's oracle at Delphi."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "The dragon killed Cadmus' followers."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Cadmus killed the dragon."
+    },
+    {
+      "factId": "fact-05",
+      "fact": "Athena commanded Cadmus to sow the dragon's teeth."
+    },
+    {
+      "factId": "fact-06",
+      "fact": "Cadmus built Thebes."
+    },
+    {
+      "factId": "fact-07",
+      "fact": "Zeus transformed Cadmus and Harmonia into serpents."
+    }
+  ],
+  "characters": [
+    {
+      "id": "agenor",
+      "name": "Agenor",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "ares",
+      "name": "Ares",
+      "role": "offended god",
+      "goal": null
+    },
+    {
+      "id": "athena",
+      "name": "Pallas-Athene",
+      "role": "divine adviser",
+      "goal": null
+    },
+    {
+      "id": "cadmus",
+      "name": "Cadmus",
+      "role": "founder",
+      "goal": null
+    },
+    {
+      "id": "dragon",
+      "name": "Dragon",
+      "role": "creature or group involved in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "europa",
+      "name": "Europa",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "harmonia",
+      "name": "Harmonia",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "agenor",
+      "relationship": "parent-of",
+      "target": "cadmus",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Agenor and Cadmus within the selected episode."
+    },
+    {
+      "id": "relationship-02",
+      "source": "agenor",
+      "relationship": "parent-of",
+      "target": "europa",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Agenor and Europa within the selected episode."
+    },
+    {
+      "id": "relationship-03",
+      "source": "ares",
+      "relationship": "parent-of",
+      "target": "harmonia",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Ares and Harmonia within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Agenor sends Cadmus to search for Europa. Apollo's oracle redirects Cadmus to found a city; after a dragon kills his followers, Cadmus slays it, sows its teeth at Athena's command, and builds Thebes with the surviving warriors.",
+    "openingSituation": "Europa has been abducted by Zeus, and Agenor sends Cadmus to find her.",
+    "centralConflict": "Cadmus cannot find Europa and then faces Ares' dragon after it kills his followers.",
+    "resolution": "Cadmus kills the dragon and follows Athena's command to sow its teeth.",
+    "outcome": "Cadmus builds Thebes, later loses his throne, and he and Harmonia are transformed by Zeus after death.",
+    "storyline": [
+      "Agenor sends Cadmus after Europa.",
+      "Apollo redirects Cadmus to found a city.",
+      "A dragon kills Cadmus' followers.",
+      "Cadmus kills the dragon.",
+      "Athena commands Cadmus to sow the teeth.",
+      "Cadmus builds Thebes."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "agenor",
+      "action": "send",
+      "sourceAction": "send",
+      "target": "cadmus",
+      "object": "europa",
+      "recipient": null,
+      "location": null,
+      "consequence": "Agenor sent Cadmus to search for Europa.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "cadmus",
+      "action": "consult",
+      "sourceAction": "consult",
+      "target": "apollo",
+      "object": null,
+      "recipient": null,
+      "location": "delphi",
+      "consequence": "Cadmus consulted Apollo's oracle at Delphi.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "dragon",
+      "action": "kill",
+      "sourceAction": "kill",
+      "target": "cadmus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "The dragon killed Cadmus' followers.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "cadmus",
+      "action": "kill",
+      "sourceAction": "kill",
+      "target": "dragon",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Cadmus killed the dragon.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "athena",
+      "action": "command",
+      "sourceAction": "command",
+      "target": "cadmus",
+      "object": "dragon-teeth",
+      "recipient": null,
+      "location": null,
+      "consequence": "Athena commanded Cadmus to sow the dragon's teeth.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "cadmus",
+      "action": "build",
+      "sourceAction": "build",
+      "target": null,
+      "object": "thebes",
+      "recipient": null,
+      "location": "thebes",
+      "consequence": "Cadmus built Thebes.",
+      "factIds": [
+        "fact-06"
+      ]
+    },
+    {
+      "sequence": 7,
+      "actor": "zeus",
+      "action": "transform",
+      "sourceAction": "transform",
+      "target": "cadmus",
+      "object": null,
+      "recipient": "harmonia",
+      "location": null,
+      "consequence": "Zeus transformed Cadmus and Harmonia into serpents.",
+      "factIds": [
+        "fact-07"
+      ]
+    }
+  ],
+  "locations": [
+    "thebes",
+    "delphi",
+    "illyria",
+    "elysium"
+  ],
+  "objects": [
+    "dragon-teeth",
+    "necklace"
+  ],
+  "creatures": [
+    "dragon",
+    "heifer"
+  ],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 7,
+    "visualBeats": [
+      "Agenor sent Cadmus to search for Europa.",
+      "Cadmus consulted Apollo's oracle at Delphi.",
+      "The dragon killed Cadmus' followers.",
+      "Cadmus killed the dragon.",
+      "Athena commanded Cadmus to sow the dragon's teeth.",
+      "Cadmus built Thebes.",
+      "Zeus transformed Cadmus and Harmonia into serpents."
+    ],
+    "sensitiveContent": [
+      "The dragon killed Cadmus' followers.",
+      "Cadmus killed the dragon."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0007; avoid adding later or parallel variants.",
+      "Keep the ending at: Cadmus builds Thebes, later loses his throne, and he and Harmonia are transformed by Zeus after death."
+    ]
+  }
+}

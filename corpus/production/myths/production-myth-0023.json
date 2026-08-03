@@ -1,0 +1,201 @@
+{
+  "id": "production-myth-0023",
+  "title": "Bellerophon Sent Against the Chimera",
+  "mythFamily": "bellerophon-and-pegasus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0023"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0023.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Bellerophon is received by Proetus after fleeing Corinth.",
+    "ending": "Bellerophon is prepared for the Chimera task, but the fight itself lies outside this source boundary.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 4 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:414.414.1-414.414.1:616231f3",
+      "gutenberg:ebooks:39250:414.414.3-414.414.3:9e76752a",
+      "gutenberg:ebooks:39250:414.414.4-414.414.4:f2c9dcf8",
+      "gutenberg:ebooks:39250:414.414.5-414.414.5:ba76c5e5",
+      "gutenberg:ebooks:39250:414.414.7-414.414.7:50399fe3",
+      "gutenberg:ebooks:39250:414.414.10-414.414.10:d203b51d",
+      "gutenberg:ebooks:39250:414.414.11-414.414.11:f208d60d",
+      "gutenberg:ebooks:39250:414.414.13-414.414.13:f7580710"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-guerber-bellerophon-chimera-commission-verified from gutenberg-guerber-myths-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Anteia falsely accused Bellerophon to Proetus."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Proetus sent Bellerophon to Iobates with a death-letter."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Iobates commanded Bellerophon to attack the Chimera."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Minerva gave Bellerophon a golden bridle to control Pegasus."
+    }
+  ],
+  "characters": [
+    {
+      "id": "anteia",
+      "name": "Anteia",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "athena",
+      "name": "Minerva",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "bellerophon",
+      "name": "Bellerophon",
+      "role": "accused hero",
+      "goal": "complete the central action described in the verified episode"
+    },
+    {
+      "id": "iobates",
+      "name": "Iobates",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "proetus",
+      "name": "Prœtus",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "anteia",
+      "relationship": "spouse-of",
+      "target": "proetus",
+      "rationale": "The linked Phase 1 record verifies this spouse-of relationship for Anteia and Prœtus within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "After Anteia falsely accuses Bellerophon, Proetus sends him to Iobates with a deadly letter. Iobates assigns him the Chimera, and Minerva gives him a bridle for Pegasus.",
+    "openingSituation": "Bellerophon is received by Proetus after fleeing Corinth.",
+    "centralConflict": "False accusation turns royal hospitality into a death commission.",
+    "resolution": "Minerva supplies the bridle needed to control Pegasus.",
+    "outcome": "Bellerophon is prepared for the Chimera task, but the fight itself lies outside this source boundary.",
+    "storyline": [
+      "Anteia falsely accused Bellerophon to Proetus.",
+      "Proetus sent Bellerophon to Iobates with a death-letter.",
+      "Iobates commanded Bellerophon to attack the Chimera.",
+      "Minerva gave Bellerophon a golden bridle to control Pegasus."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "anteia",
+      "action": "accuse",
+      "sourceAction": "accused",
+      "target": "bellerophon",
+      "object": null,
+      "recipient": "proetus",
+      "location": null,
+      "consequence": "Anteia falsely accused Bellerophon to Proetus.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "proetus",
+      "action": "send",
+      "sourceAction": "sent",
+      "target": "bellerophon",
+      "object": null,
+      "recipient": "iobates",
+      "location": "lycia",
+      "consequence": "Proetus sent Bellerophon to Iobates with a death-letter.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "iobates",
+      "action": "command",
+      "sourceAction": "send",
+      "target": "bellerophon",
+      "object": "chimera",
+      "recipient": null,
+      "location": null,
+      "consequence": "Iobates commanded Bellerophon to attack the Chimera.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "athena",
+      "action": "assist",
+      "sourceAction": "gave",
+      "target": null,
+      "object": "golden-bridle",
+      "recipient": "bellerophon",
+      "location": null,
+      "consequence": "Minerva gave Bellerophon a golden bridle to control Pegasus.",
+      "factIds": [
+        "fact-04"
+      ]
+    }
+  ],
+  "locations": [
+    "lycia"
+  ],
+  "objects": [
+    "golden-bridle"
+  ],
+  "creatures": [
+    "chimera"
+  ],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 4,
+    "visualBeats": [
+      "Anteia falsely accused Bellerophon to Proetus.",
+      "Proetus sent Bellerophon to Iobates with a death-letter.",
+      "Iobates commanded Bellerophon to attack the Chimera.",
+      "Minerva gave Bellerophon a golden bridle to control Pegasus."
+    ],
+    "sensitiveContent": [
+      "Proetus sent Bellerophon to Iobates with a death-letter."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0023; avoid adding later or parallel variants.",
+      "Keep the ending at: Bellerophon is prepared for the Chimera task, but the fight itself lies outside this source boundary."
+    ]
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "id": "production-myth-0014",
+  "title": "Oedipus and the Sphinx",
+  "mythFamily": "oedipus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0014"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0014.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "complete-section",
+    "beginning": "An oracle foretells that Laius will die by his own son's hand.",
+    "ending": "Jocaste hangs herself, Oedipus blinds himself, and he leaves Thebes with Antigone.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent complete-section arc with 8 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:324.324.1-324.324.1:dd1ab021",
+      "gutenberg:ebooks:22381:324.324.2-324.324.2:ac3197eb",
+      "gutenberg:ebooks:22381:324.324.3-324.324.3:67ff147b",
+      "gutenberg:ebooks:22381:324.324.4-324.324.4:1bddd95a",
+      "gutenberg:ebooks:22381:324.324.5-324.324.5:24306cad",
+      "gutenberg:ebooks:22381:324.324.6-324.324.6:4b597425",
+      "gutenberg:ebooks:22381:324.324.7-324.324.7:8ef76d91",
+      "gutenberg:ebooks:22381:324.324.8-324.324.8:b5d81903",
+      "gutenberg:ebooks:22381:324.324.9-324.324.9:643d2cb9"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-berens-oedipus-verified from gutenberg-berens-myths-legends-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Laius handed the infant Oedipus over to be exposed."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Polybus and Merope adopted Oedipus."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Oedipus killed Laius without knowing his identity."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Oedipus solved the Sphinx's riddle."
+    },
+    {
+      "factId": "fact-05",
+      "fact": "The Sphinx threw herself into the abyss and died."
+    },
+    {
+      "factId": "fact-06",
+      "fact": "Tiresias revealed Oedipus as Laius' murderer."
+    },
+    {
+      "factId": "fact-07",
+      "fact": "Oedipus blinded himself."
+    },
+    {
+      "factId": "fact-08",
+      "fact": "Oedipus left Thebes with Antigone."
+    }
+  ],
+  "characters": [
+    {
+      "id": "antigone",
+      "name": "Antigone",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "jocaste",
+      "name": "Jocaste",
+      "role": "mother and queen",
+      "goal": "protect or advance the ruling interest described in the verified episode"
+    },
+    {
+      "id": "laius",
+      "name": "Laius",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "merope",
+      "name": "Merope",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "oedipus",
+      "name": "Oedipus",
+      "role": "hero and sufferer",
+      "goal": "complete the central action described in the verified episode"
+    },
+    {
+      "id": "polybus",
+      "name": "Polybus",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "sphinx",
+      "name": "Sphinx",
+      "role": "monster",
+      "goal": null
+    },
+    {
+      "id": "tiresias",
+      "name": "Tiresias",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "laius",
+      "relationship": "spouse-of",
+      "target": "jocaste",
+      "rationale": "The linked Phase 1 record verifies this spouse-of relationship for Laius and Jocaste within the selected episode."
+    },
+    {
+      "id": "relationship-02",
+      "source": "laius",
+      "relationship": "parent-of",
+      "target": "oedipus",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Laius and Oedipus within the selected episode."
+    },
+    {
+      "id": "relationship-03",
+      "source": "jocaste",
+      "relationship": "parent-of",
+      "target": "oedipus",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Jocaste and Oedipus within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Laius tries to destroy the infant Oedipus because of an oracle, but Oedipus is raised at Corinth. He unknowingly kills Laius, defeats the Sphinx by solving her riddle, becomes king of Thebes and Jocaste's husband, and later blinds himself and goes into exile after Tiresias reveals the truth.",
+    "openingSituation": "An oracle foretells that Laius will die by his own son's hand.",
+    "centralConflict": "Oedipus unknowingly fulfills the oracle and Thebes suffers under the Sphinx and later a pestilence.",
+    "resolution": "Oedipus solves the Sphinx's riddle and later learns the truth from Tiresias.",
+    "outcome": "Jocaste hangs herself, Oedipus blinds himself, and he leaves Thebes with Antigone.",
+    "storyline": [
+      "Laius exposes Oedipus.",
+      "Oedipus is raised at Corinth.",
+      "Oedipus kills Laius unknowingly.",
+      "Oedipus solves the Sphinx's riddle.",
+      "Oedipus becomes king and husband of Jocaste.",
+      "Tiresias reveals the truth.",
+      "Oedipus leaves Thebes."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "laius",
+      "action": "expose",
+      "sourceAction": "expose",
+      "target": "oedipus",
+      "object": null,
+      "recipient": null,
+      "location": "mount-cithaeron",
+      "consequence": "Laius handed the infant Oedipus over to be exposed.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "polybus",
+      "action": "adopt",
+      "sourceAction": "adopt",
+      "target": "oedipus",
+      "object": null,
+      "recipient": "merope",
+      "location": null,
+      "consequence": "Polybus and Merope adopted Oedipus.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "oedipus",
+      "action": "kill",
+      "sourceAction": "kill",
+      "target": "laius",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Oedipus killed Laius without knowing his identity.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "oedipus",
+      "action": "solve",
+      "sourceAction": "solve",
+      "target": "sphinx",
+      "object": "riddle",
+      "recipient": null,
+      "location": null,
+      "consequence": "Oedipus solved the Sphinx's riddle.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "sphinx",
+      "action": "die",
+      "sourceAction": "die",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "The Sphinx threw herself into the abyss and died.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "tiresias",
+      "action": "reveal",
+      "sourceAction": "reveal",
+      "target": "oedipus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Tiresias revealed Oedipus as Laius' murderer.",
+      "factIds": [
+        "fact-06"
+      ]
+    },
+    {
+      "sequence": 7,
+      "actor": "oedipus",
+      "action": "blind",
+      "sourceAction": "blind",
+      "target": "oedipus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Oedipus blinded himself.",
+      "factIds": [
+        "fact-07"
+      ]
+    },
+    {
+      "sequence": 8,
+      "actor": "oedipus",
+      "action": "leave",
+      "sourceAction": "leave",
+      "target": null,
+      "object": null,
+      "recipient": "antigone",
+      "location": "thebes",
+      "consequence": "Oedipus left Thebes with Antigone.",
+      "factIds": [
+        "fact-08"
+      ]
+    }
+  ],
+  "locations": [
+    "thebes",
+    "corinth",
+    "mount-cithaeron",
+    "delphi",
+    "colonus"
+  ],
+  "objects": [
+    "riddle",
+    "staff"
+  ],
+  "creatures": [
+    "sphinx"
+  ],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 8,
+    "visualBeats": [
+      "Laius handed the infant Oedipus over to be exposed.",
+      "Polybus and Merope adopted Oedipus.",
+      "Oedipus killed Laius without knowing his identity.",
+      "Oedipus solved the Sphinx's riddle.",
+      "The Sphinx threw herself into the abyss and died.",
+      "Tiresias revealed Oedipus as Laius' murderer.",
+      "Oedipus blinded himself.",
+      "Oedipus left Thebes with Antigone."
+    ],
+    "sensitiveContent": [
+      "Oedipus killed Laius without knowing his identity.",
+      "Tiresias revealed Oedipus as Laius' murderer."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0014; avoid adding later or parallel variants.",
+      "Keep the ending at: Jocaste hangs herself, Oedipus blinds himself, and he leaves Thebes with Antigone."
+    ]
+  }
+}
