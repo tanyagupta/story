@@ -1,0 +1,272 @@
+{
+  "id": "production-myth-0002",
+  "title": "Phryxus, Helle, and the Golden Fleece",
+  "mythFamily": "golden-fleece",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0002"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0002.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Athamas has married Nephele, and their children are Helle and Phryxus.",
+    "ending": "Helle drowns, but Phryxus reaches Colchis and presents the fleece to Aetes.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 6 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:302.302.1-302.302.1:e993cd1f",
+      "gutenberg:ebooks:22381:302.302.2-302.302.2:1d2dbd01"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-berens-golden-fleece-opening-verified from gutenberg-berens-myths-legends-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Athamas married Nephele."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Ino planned the destruction of Helle and Phryxus."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Nephele placed Helle and Phryxus on the golden ram."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Helle fell into the sea and drowned."
+    },
+    {
+      "factId": "fact-05",
+      "fact": "Phryxus arrived at Colchis."
+    },
+    {
+      "factId": "fact-06",
+      "fact": "Phryxus presented the fleece to Aetes."
+    }
+  ],
+  "characters": [
+    {
+      "id": "aetes",
+      "name": "Aetes",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "athamas",
+      "name": "Athamas",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "helle",
+      "name": "Helle",
+      "role": "endangered child",
+      "goal": null
+    },
+    {
+      "id": "ino",
+      "name": "Ino",
+      "role": "threat",
+      "goal": null
+    },
+    {
+      "id": "nephele",
+      "name": "Nephele",
+      "role": "rescuer",
+      "goal": "help the principal figure complete the verified episode action"
+    },
+    {
+      "id": "phryxus",
+      "name": "Phryxus",
+      "role": "surviving child",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "athamas",
+      "relationship": "spouse-of",
+      "target": "nephele",
+      "rationale": "The linked Phase 1 record verifies this spouse-of relationship for Athamas and Nephele within the selected episode."
+    },
+    {
+      "id": "relationship-02",
+      "source": "athamas",
+      "relationship": "parent-of",
+      "target": "helle",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Athamas and Helle within the selected episode."
+    },
+    {
+      "id": "relationship-03",
+      "source": "athamas",
+      "relationship": "parent-of",
+      "target": "phryxus",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Athamas and Phryxus within the selected episode."
+    },
+    {
+      "id": "relationship-04",
+      "source": "helle",
+      "relationship": "sibling-of",
+      "target": "phryxus",
+      "rationale": "The linked Phase 1 record verifies this sibling-of relationship for Helle and Phryxus within the selected episode."
+    },
+    {
+      "id": "relationship-05",
+      "source": "ino",
+      "relationship": "stepparent-of",
+      "target": "helle",
+      "rationale": "The linked Phase 1 record verifies this stepparent-of relationship for Ino and Helle within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Ino plots against Helle and Phryxus, the children of Athamas and Nephele. Nephele rescues them on a golden-fleeced ram; Helle falls into the sea and drowns, while Phryxus reaches Colchis and gives the fleece to Aetes.",
+    "openingSituation": "Athamas has married Nephele, and their children are Helle and Phryxus.",
+    "centralConflict": "Ino hates Helle and Phryxus and plans their destruction.",
+    "resolution": "Nephele gets the children out of the palace and sends them away on the winged ram.",
+    "outcome": "Helle drowns, but Phryxus reaches Colchis and presents the fleece to Aetes.",
+    "storyline": [
+      "Athamas marries Nephele.",
+      "Ino plots against Helle and Phryxus.",
+      "Nephele rescues the children on the golden ram.",
+      "Helle falls and drowns.",
+      "Phryxus arrives at Colchis and gives the fleece to Aetes."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "athamas",
+      "action": "marry",
+      "sourceAction": "marry",
+      "target": "nephele",
+      "object": null,
+      "recipient": null,
+      "location": "boeotia",
+      "consequence": "Athamas married Nephele.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "ino",
+      "action": "destroy",
+      "sourceAction": "destroy",
+      "target": "helle",
+      "object": "phryxus",
+      "recipient": null,
+      "location": null,
+      "consequence": "Ino planned the destruction of Helle and Phryxus.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "nephele",
+      "action": "rescue",
+      "sourceAction": "rescue",
+      "target": "helle",
+      "object": "winged-ram",
+      "recipient": null,
+      "location": null,
+      "consequence": "Nephele placed Helle and Phryxus on the golden ram.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "helle",
+      "action": "drown",
+      "sourceAction": "drown",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": "hellespont",
+      "consequence": "Helle fell into the sea and drowned.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "phryxus",
+      "action": "travel",
+      "sourceAction": "travel",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": "colchis",
+      "consequence": "Phryxus arrived at Colchis.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "phryxus",
+      "action": "give",
+      "sourceAction": "give",
+      "target": null,
+      "object": "golden-fleece",
+      "recipient": "aetes",
+      "location": null,
+      "consequence": "Phryxus presented the fleece to Aetes.",
+      "factIds": [
+        "fact-06"
+      ]
+    }
+  ],
+  "locations": [
+    "boeotia",
+    "colchis",
+    "hellespont"
+  ],
+  "objects": [
+    "golden-fleece",
+    "winged-ram"
+  ],
+  "creatures": [
+    "dragon"
+  ],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 6,
+    "visualBeats": [
+      "Athamas married Nephele.",
+      "Ino planned the destruction of Helle and Phryxus.",
+      "Nephele placed Helle and Phryxus on the golden ram.",
+      "Helle fell into the sea and drowned.",
+      "Phryxus arrived at Colchis.",
+      "Phryxus presented the fleece to Aetes."
+    ],
+    "sensitiveContent": [
+      "Ino planned the destruction of Helle and Phryxus.",
+      "Helle fell into the sea and drowned."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0002; avoid adding later or parallel variants.",
+      "Keep the ending at: Helle drowns, but Phryxus reaches Colchis and presents the fleece to Aetes."
+    ]
+  }
+}

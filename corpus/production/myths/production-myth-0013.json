@@ -1,0 +1,282 @@
+{
+  "id": "production-myth-0013",
+  "title": "The Calydonian Hunt",
+  "mythFamily": "calydonian-hunt",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0013"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0013.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "partial-section",
+    "beginning": "Meleager's life depends on a brand saved by Althaea.",
+    "ending": "Althaea burns the brand in revenge, Meleager dies, and Althaea kills herself.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent partial-section arc with 7 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:400.400.2-400.400.2:72cc9bf8",
+      "gutenberg:ebooks:39250:400.400.3-400.400.3:26c875d3",
+      "gutenberg:ebooks:39250:400.400.5-400.400.5:0f1f6abd",
+      "gutenberg:ebooks:39250:400.400.6-400.400.6:ed0b2b19",
+      "gutenberg:ebooks:39250:400.400.8-400.400.8:069e84fd"
+    ],
+    "omittedPassages": [
+      "gutenberg:ebooks:39250:400.400.1-400.400.1:ec8d9a76",
+      "gutenberg:ebooks:39250:400.400.4-400.400.4:4d48a9ec",
+      "gutenberg:ebooks:39250:400.400.7-400.400.7:2ac45975"
+    ]
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-guerber-calydonian-hunt-verified from gutenberg-guerber-myths-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Althaea saved the brand from the fire."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Diana sent a monstrous boar against Oeneus' realm."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Meleager gathered hunters for the boar hunt."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Atalanta dealt the boar a mortal wound."
+    },
+    {
+      "factId": "fact-05",
+      "fact": "Meleager killed the boar."
+    },
+    {
+      "factId": "fact-06",
+      "fact": "Althaea threw the brand into the fire."
+    },
+    {
+      "factId": "fact-07",
+      "fact": "Meleager died when the brand burned away."
+    }
+  ],
+  "characters": [
+    {
+      "id": "althaea",
+      "name": "Althaea",
+      "role": "mother and avenger",
+      "goal": "carry out the revenge described in the verified episode"
+    },
+    {
+      "id": "artemis",
+      "name": "Diana",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "atalanta",
+      "name": "Atalanta",
+      "role": "hunter",
+      "goal": "complete the central action described in the verified episode"
+    },
+    {
+      "id": "boar",
+      "name": "Boar",
+      "role": "creature or group involved in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "jason",
+      "name": "Jason",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "meleager",
+      "name": "Meleager",
+      "role": "hunter",
+      "goal": "complete the central action described in the verified episode"
+    },
+    {
+      "id": "oeneus",
+      "name": "Œneus",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "oeneus",
+      "relationship": "parent-of",
+      "target": "meleager",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Œneus and Meleager within the selected episode."
+    },
+    {
+      "id": "relationship-02",
+      "source": "althaea",
+      "relationship": "parent-of",
+      "target": "meleager",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Althaea and Meleager within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "The Fates tie Meleager's life to a burning brand, which Althaea saves. Diana later sends a boar against Calydon; Meleager leads the hunt, Atalanta wounds the boar, and Meleager kills it, but his killing of his uncles leads Althaea to burn the brand and cause his death.",
+    "openingSituation": "Meleager's life depends on a brand saved by Althaea.",
+    "centralConflict": "Diana sends a monstrous boar to devastate Oeneus' realm.",
+    "resolution": "Atalanta wounds the boar and Meleager delivers the deathblow.",
+    "outcome": "Althaea burns the brand in revenge, Meleager dies, and Althaea kills herself.",
+    "storyline": [
+      "The Fates bind Meleager's life to the brand.",
+      "Diana sends a boar.",
+      "Meleager gathers hunters.",
+      "Atalanta wounds the boar.",
+      "Meleager kills it.",
+      "Althaea burns the brand and Meleager dies."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "althaea",
+      "action": "save",
+      "sourceAction": "save",
+      "target": null,
+      "object": "brand",
+      "recipient": null,
+      "location": null,
+      "consequence": "Althaea saved the brand from the fire.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "artemis",
+      "action": "send",
+      "sourceAction": "send",
+      "target": "boar",
+      "object": null,
+      "recipient": null,
+      "location": "calydon",
+      "consequence": "Diana sent a monstrous boar against Oeneus' realm.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "meleager",
+      "action": "gather",
+      "sourceAction": "gather",
+      "target": "jason",
+      "object": null,
+      "recipient": "atalanta",
+      "location": null,
+      "consequence": "Meleager gathered hunters for the boar hunt.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "atalanta",
+      "action": "wound",
+      "sourceAction": "wound",
+      "target": "boar",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Atalanta dealt the boar a mortal wound.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "meleager",
+      "action": "kill",
+      "sourceAction": "kill",
+      "target": "boar",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Meleager killed the boar.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "althaea",
+      "action": "burn",
+      "sourceAction": "burn",
+      "target": null,
+      "object": "brand",
+      "recipient": null,
+      "location": null,
+      "consequence": "Althaea threw the brand into the fire.",
+      "factIds": [
+        "fact-06"
+      ]
+    },
+    {
+      "sequence": 7,
+      "actor": "meleager",
+      "action": "die",
+      "sourceAction": "die",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Meleager died when the brand burned away.",
+      "factIds": [
+        "fact-07"
+      ]
+    }
+  ],
+  "locations": [
+    "calydon",
+    "aetolia"
+  ],
+  "objects": [
+    "brand",
+    "boar-skin"
+  ],
+  "creatures": [
+    "boar"
+  ],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 7,
+    "visualBeats": [
+      "Althaea saved the brand from the fire.",
+      "Diana sent a monstrous boar against Oeneus' realm.",
+      "Meleager gathered hunters for the boar hunt.",
+      "Atalanta dealt the boar a mortal wound.",
+      "Meleager killed the boar.",
+      "Althaea threw the brand into the fire.",
+      "Meleager died when the brand burned away."
+    ],
+    "sensitiveContent": [
+      "Meleager killed the boar."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0013; avoid adding later or parallel variants.",
+      "Keep the ending at: Althaea burns the brand in revenge, Meleager dies, and Althaea kills herself."
+    ]
+  }
+}

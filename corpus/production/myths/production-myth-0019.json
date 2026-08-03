@@ -1,0 +1,214 @@
+{
+  "id": "production-myth-0019",
+  "title": "Birth and Exposure of Perseus",
+  "mythFamily": "birth-of-perseus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0019"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0019.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Acrisius rules Argos and fears the oracle concerning Danae's future son.",
+    "ending": "Dictys brings Danae and Perseus safely to Polydectes.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 4 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:296.296.1-296.296.1:064b0f7f",
+      "gutenberg:ebooks:22381:296.296.2-296.296.2:6c19224f",
+      "gutenberg:ebooks:22381:296.296.3-296.296.3:6ab78785",
+      "gutenberg:ebooks:22381:296.296.4-296.296.4:b9dbde32"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-berens-birth-exposure-perseus-verified from gutenberg-berens-myths-legends-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Acrisius confined Danae in a tower of brass."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Zeus reached Danae through the tower roof in the form of gold."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Acrisius ordered Danae and Perseus placed in a chest and thrown into the sea."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Dictys brought Danae and Perseus to the palace of Polydectes after finding the chest."
+    }
+  ],
+  "characters": [
+    {
+      "id": "acrisius",
+      "name": "Acrisius",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "danae",
+      "name": "Danae",
+      "role": "confined mother",
+      "goal": null
+    },
+    {
+      "id": "dictys",
+      "name": "Dictys",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "polydectes",
+      "name": "Polydectes",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "acrisius",
+      "relationship": "parent-of",
+      "target": "danae",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Acrisius and Danae within the selected episode."
+    },
+    {
+      "id": "relationship-02",
+      "source": "zeus",
+      "relationship": "parent-of",
+      "target": "perseus",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Zeus and Perseus within the selected episode."
+    },
+    {
+      "id": "relationship-03",
+      "source": "danae",
+      "relationship": "parent-of",
+      "target": "perseus",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Danae and Perseus within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Acrisius receives an oracle that Danae's son will kill him, confines her, discovers Perseus, and casts Danae and Perseus adrift until Dictys rescues them.",
+    "openingSituation": "Acrisius rules Argos and fears the oracle concerning Danae's future son.",
+    "centralConflict": "Acrisius tries to prevent the oracle by confining and exposing Danae and Perseus.",
+    "resolution": "Zeus calms the waters and the chest reaches Seriphus.",
+    "outcome": "Dictys brings Danae and Perseus safely to Polydectes.",
+    "storyline": [
+      "Acrisius confined Danae in a tower of brass.",
+      "Zeus reached Danae through the tower roof in the form of gold.",
+      "Acrisius ordered Danae and Perseus placed in a chest and thrown into the sea.",
+      "Dictys brought Danae and Perseus to the palace of Polydectes after finding the chest."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "acrisius",
+      "action": "confine",
+      "sourceAction": "imprisoned",
+      "target": "danae",
+      "object": null,
+      "recipient": null,
+      "location": "argos",
+      "consequence": "Acrisius confined Danae in a tower of brass.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "zeus",
+      "action": "approach",
+      "sourceAction": "descended",
+      "target": "danae",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Zeus reached Danae through the tower roof in the form of gold.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "acrisius",
+      "action": "expose",
+      "sourceAction": "thrown into the sea",
+      "target": "danae",
+      "object": "chest",
+      "recipient": null,
+      "location": null,
+      "consequence": "Acrisius ordered Danae and Perseus placed in a chest and thrown into the sea.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "dictys",
+      "action": "rescue",
+      "sourceAction": "conducted",
+      "target": "danae",
+      "object": null,
+      "recipient": "polydectes",
+      "location": "seriphus",
+      "consequence": "Dictys brought Danae and Perseus to the palace of Polydectes after finding the chest.",
+      "factIds": [
+        "fact-04"
+      ]
+    }
+  ],
+  "locations": [
+    "argos",
+    "seriphus"
+  ],
+  "objects": [
+    "chest"
+  ],
+  "creatures": [],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 4,
+    "visualBeats": [
+      "Acrisius confined Danae in a tower of brass.",
+      "Zeus reached Danae through the tower roof in the form of gold.",
+      "Acrisius ordered Danae and Perseus placed in a chest and thrown into the sea.",
+      "Dictys brought Danae and Perseus to the palace of Polydectes after finding the chest."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0019; avoid adding later or parallel variants.",
+      "Keep the ending at: Dictys brings Danae and Perseus safely to Polydectes."
+    ]
+  }
+}

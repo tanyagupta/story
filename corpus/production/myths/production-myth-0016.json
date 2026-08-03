@@ -1,0 +1,392 @@
+{
+  "id": "production-myth-0016",
+  "title": "Alcmaeon and the Necklace",
+  "mythFamily": "alcmaeon-and-the-necklace",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0016"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0016.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "complete-section",
+    "beginning": "Alcmaeon returns from the Theban expedition and resolves to avenge Amphiaraus by killing Eriphyle.",
+    "ending": "The sons of Calirrhoe return the necklace and veil to their mother, and Achelous commands that the objects be deposited in Apollo's temple at Delphi.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent complete-section arc with 10 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:330.330.1-330.330.1:b8c2236c",
+      "gutenberg:ebooks:22381:330.330.2-330.330.2:24a54dd5",
+      "gutenberg:ebooks:22381:330.330.3-330.330.3:bcd86bdc",
+      "gutenberg:ebooks:22381:330.330.4-330.330.4:d4a43b24",
+      "gutenberg:ebooks:22381:330.330.5-330.330.5:32dcfb33",
+      "gutenberg:ebooks:22381:330.330.6-330.330.6:e4c2d363",
+      "gutenberg:ebooks:22381:330.330.7-330.330.7:3f00a61f",
+      "gutenberg:ebooks:22381:330.330.8-330.330.8:9e33d1a6",
+      "gutenberg:ebooks:22381:330.330.9-330.330.9:4a265311",
+      "gutenberg:ebooks:22381:330.330.10-330.330.10:583f88a3"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-berens-alcmaeon-necklace-verified from gutenberg-berens-myths-legends-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Alcmaeon killed Eriphyle to avenge Amphiaraus."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "The gods punished Alcmaeon with madness and pursuit by a Fury."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Achelous purified Alcmaeon after he found a new home."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Alcmaeon married Calirrhoe, daughter of Achelous."
+    },
+    {
+      "factId": "fact-05",
+      "fact": "Arsinoe restored the necklace and veil to Alcmaeon after his deception."
+    },
+    {
+      "factId": "fact-06",
+      "fact": "The sons of Phegeus ambushed and killed Alcmaeon."
+    },
+    {
+      "factId": "fact-07",
+      "fact": "Calirrhoe asked Zeus to make her infant sons grown men so they could avenge Alcmaeon."
+    },
+    {
+      "factId": "fact-08",
+      "fact": "Zeus answered by transforming Calirrhoe's children into grown men."
+    },
+    {
+      "factId": "fact-09",
+      "fact": "The sons of Calirrhoe killed the sons of Phegeus at Tegea."
+    },
+    {
+      "factId": "fact-10",
+      "fact": "The sons of Calirrhoe deposited the necklace and veil as offerings in Apollo's temple at Delphi."
+    }
+  ],
+  "characters": [
+    {
+      "id": "achelous",
+      "name": "Achelous",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "alcmaeon",
+      "name": "Alcmaeon",
+      "role": "doomed protagonist",
+      "goal": null
+    },
+    {
+      "id": "amphiaraus",
+      "name": "Amphiaraus",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "arsinoe",
+      "name": "Arsinoe",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "calirrhoe",
+      "name": "Calirrhoe",
+      "role": "second wife and petitioner",
+      "goal": null
+    },
+    {
+      "id": "eriphyle",
+      "name": "Eriphyle",
+      "role": "victim of vengeance",
+      "goal": null
+    },
+    {
+      "id": "fury",
+      "name": "Furies",
+      "role": "creature or group involved in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "gods",
+      "name": "gods",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "sons-of-calirrhoe",
+      "name": "sons of Calirrhoe",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "sons-of-phegeus",
+      "name": "sons of Phegeus",
+      "role": "killers of Alcmaeon",
+      "goal": null
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "amphiaraus",
+      "relationship": "parent-of",
+      "target": "alcmaeon",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Amphiaraus and Alcmaeon within the selected episode."
+    },
+    {
+      "id": "relationship-02",
+      "source": "arsinoe",
+      "relationship": "spouse-of",
+      "target": "alcmaeon",
+      "rationale": "The linked Phase 1 record verifies this spouse-of relationship for Arsinoe and Alcmaeon within the selected episode."
+    },
+    {
+      "id": "relationship-03",
+      "source": "calirrhoe",
+      "relationship": "spouse-of",
+      "target": "alcmaeon",
+      "rationale": "The linked Phase 1 record verifies this spouse-of relationship for Calirrhoe and Alcmaeon within the selected episode."
+    },
+    {
+      "id": "relationship-04",
+      "source": "calirrhoe",
+      "relationship": "parent-of",
+      "target": "sons-of-calirrhoe",
+      "rationale": "The linked Phase 1 record verifies this parent-of relationship for Calirrhoe and sons of Calirrhoe within the selected episode."
+    },
+    {
+      "id": "relationship-05",
+      "source": "sons-of-phegeus",
+      "relationship": "enemy-of",
+      "target": "alcmaeon",
+      "rationale": "The linked Phase 1 record verifies this enemy-of relationship for sons of Phegeus and Alcmaeon within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Alcmaeon kills his mother Eriphyle to avenge Amphiaraus and is punished with madness and pursuit by a Fury. After Achelous purifies him, he marries Calirrhoe, deceives Arsinoe to recover Harmonia's necklace and veil, and is killed by the sons of Phegeus. Calirrhoe asks Zeus to mature her sons, who avenge Alcmaeon and deposit the fatal treasures in Apollo's temple at Delphi.",
+    "openingSituation": "Alcmaeon returns from the Theban expedition and resolves to avenge Amphiaraus by killing Eriphyle.",
+    "centralConflict": "The necklace and veil repeatedly drive betrayal and vengeance: Alcmaeon kills Eriphyle, deceives Arsinoe, and is killed by Phegeus' sons.",
+    "resolution": "Zeus grants Calirrhoe's prayer by transforming her sons into grown men, and they kill the sons of Phegeus.",
+    "outcome": "The sons of Calirrhoe return the necklace and veil to their mother, and Achelous commands that the objects be deposited in Apollo's temple at Delphi.",
+    "storyline": [
+      "Alcmaeon kills Eriphyle for betraying Amphiaraus.",
+      "The gods punish Alcmaeon with madness and pursuit.",
+      "Achelous purifies Alcmaeon after he reaches new land.",
+      "Alcmaeon deceives Arsinoe and recovers Harmonia's necklace and veil.",
+      "The sons of Phegeus kill Alcmaeon.",
+      "Zeus matures Calirrhoe's sons so they can avenge their father.",
+      "The sons of Calirrhoe kill the sons of Phegeus and dedicate the treasures at Delphi."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "alcmaeon",
+      "action": "kill",
+      "sourceAction": "put to death",
+      "target": "eriphyle",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Alcmaeon killed Eriphyle to avenge Amphiaraus.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "gods",
+      "action": "punish",
+      "sourceAction": "afflicted",
+      "target": "alcmaeon",
+      "object": null,
+      "recipient": "fury",
+      "location": null,
+      "consequence": "The gods punished Alcmaeon with madness and pursuit by a Fury.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "achelous",
+      "action": "purify",
+      "sourceAction": "purified",
+      "target": "alcmaeon",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Achelous purified Alcmaeon after he found a new home.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "alcmaeon",
+      "action": "marry",
+      "sourceAction": "became united",
+      "target": "calirrhoe",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Alcmaeon married Calirrhoe, daughter of Achelous.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "arsinoe",
+      "action": "give",
+      "sourceAction": "restored",
+      "target": null,
+      "object": "necklace-and-veil",
+      "recipient": "alcmaeon",
+      "location": null,
+      "consequence": "Arsinoe restored the necklace and veil to Alcmaeon after his deception.",
+      "factIds": [
+        "fact-05"
+      ]
+    },
+    {
+      "sequence": 6,
+      "actor": "sons-of-phegeus",
+      "action": "kill",
+      "sourceAction": "despatched",
+      "target": "alcmaeon",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "The sons of Phegeus ambushed and killed Alcmaeon.",
+      "factIds": [
+        "fact-06"
+      ]
+    },
+    {
+      "sequence": 7,
+      "actor": "calirrhoe",
+      "action": "petition",
+      "sourceAction": "implored",
+      "target": null,
+      "object": null,
+      "recipient": "zeus",
+      "location": null,
+      "consequence": "Calirrhoe asked Zeus to make her infant sons grown men so they could avenge Alcmaeon.",
+      "factIds": [
+        "fact-07"
+      ]
+    },
+    {
+      "sequence": 8,
+      "actor": "zeus",
+      "action": "transform",
+      "sourceAction": "became transformed",
+      "target": "sons-of-calirrhoe",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Zeus answered by transforming Calirrhoe's children into grown men.",
+      "factIds": [
+        "fact-08"
+      ]
+    },
+    {
+      "sequence": 9,
+      "actor": "sons-of-calirrhoe",
+      "action": "kill",
+      "sourceAction": "slew",
+      "target": "sons-of-phegeus",
+      "object": null,
+      "recipient": null,
+      "location": "tegea",
+      "consequence": "The sons of Calirrhoe killed the sons of Phegeus at Tegea.",
+      "factIds": [
+        "fact-09"
+      ]
+    },
+    {
+      "sequence": 10,
+      "actor": "sons-of-calirrhoe",
+      "action": "dedicate",
+      "sourceAction": "deposited",
+      "target": null,
+      "object": "necklace-and-veil",
+      "recipient": "apollo",
+      "location": "delphi",
+      "consequence": "The sons of Calirrhoe deposited the necklace and veil as offerings in Apollo's temple at Delphi.",
+      "factIds": [
+        "fact-10"
+      ]
+    }
+  ],
+  "locations": [
+    "psophis",
+    "delphi",
+    "tegea"
+  ],
+  "objects": [
+    "necklace-and-veil"
+  ],
+  "creatures": [
+    "fury"
+  ],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 8,
+    "visualBeats": [
+      "Alcmaeon killed Eriphyle to avenge Amphiaraus.",
+      "The gods punished Alcmaeon with madness and pursuit by a Fury.",
+      "Achelous purified Alcmaeon after he found a new home.",
+      "Alcmaeon married Calirrhoe, daughter of Achelous.",
+      "Arsinoe restored the necklace and veil to Alcmaeon after his deception.",
+      "The sons of Phegeus ambushed and killed Alcmaeon.",
+      "Calirrhoe asked Zeus to make her infant sons grown men so they could avenge Alcmaeon.",
+      "Zeus answered by transforming Calirrhoe's children into grown men."
+    ],
+    "sensitiveContent": [
+      "Alcmaeon killed Eriphyle to avenge Amphiaraus.",
+      "The sons of Phegeus ambushed and killed Alcmaeon.",
+      "The sons of Calirrhoe killed the sons of Phegeus at Tegea."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0016; avoid adding later or parallel variants.",
+      "Keep the ending at: The sons of Calirrhoe return the necklace and veil to their mother, and Achelous commands that the objects be deposited in Apollo's temple at Delphi."
+    ]
+  }
+}

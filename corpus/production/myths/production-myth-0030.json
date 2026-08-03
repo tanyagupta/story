@@ -1,0 +1,128 @@
+{
+  "id": "production-myth-0030",
+  "title": "Phineus and the Harpies",
+  "mythFamily": "argonauts-phineus",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0030"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0030.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "The Argonauts reach Phineus.",
+    "ending": "The pursuit ends at the Strophades, where Iris forbids further pursuit.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 2 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:395.395.10-395.395.10:c4c8a90a"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-guerber-phineus-harpies-verified from gutenberg-guerber-myths-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "The Harpies afflicted Phineus by ruining his food."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "The sons of Boreas pursued the Harpies."
+    }
+  ],
+  "characters": [
+    {
+      "id": "boreads",
+      "name": "sons of Boreas",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "harpies",
+      "name": "Harpies",
+      "role": "creature or group involved in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "phineus",
+      "name": "Phineus",
+      "role": "afflicted host",
+      "goal": null
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The Argonauts find Phineus tormented by Harpies, and the winged sons of Boreas pursue the Harpies to the Strophades.",
+    "openingSituation": "The Argonauts reach Phineus.",
+    "centralConflict": "The Harpies prevent Phineus from eating.",
+    "resolution": "The sons of Boreas chase the Harpies away.",
+    "outcome": "The pursuit ends at the Strophades, where Iris forbids further pursuit.",
+    "storyline": [
+      "The Harpies afflicted Phineus by ruining his food.",
+      "The sons of Boreas pursued the Harpies."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "harpies",
+      "action": "afflict",
+      "sourceAction": "ate or befouled",
+      "target": "phineus",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "The Harpies afflicted Phineus by ruining his food.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "boreads",
+      "action": "pursue",
+      "sourceAction": "pursued",
+      "target": "harpies",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "The sons of Boreas pursued the Harpies.",
+      "factIds": [
+        "fact-02"
+      ]
+    }
+  ],
+  "locations": [],
+  "objects": [],
+  "creatures": [
+    "harpies"
+  ],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 3,
+    "visualBeats": [
+      "The Harpies afflicted Phineus by ruining his food.",
+      "The sons of Boreas pursued the Harpies."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0030; avoid adding later or parallel variants.",
+      "Keep the ending at: The pursuit ends at the Strophades, where Iris forbids further pursuit."
+    ]
+  }
+}

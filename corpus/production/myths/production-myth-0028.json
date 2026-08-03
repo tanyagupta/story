@@ -1,0 +1,130 @@
+{
+  "id": "production-myth-0028",
+  "title": "Jason Builds the Argo with the Speaking Oak",
+  "mythFamily": "jason-and-argonauts",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0028"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0028.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Jason seeks guidance at Dodona.",
+    "ending": "Jason gathers the Greek heroes for the voyage.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 2 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:395.395.2-395.395.2:afaad2bf",
+      "gutenberg:ebooks:39250:395.395.4-395.395.4:7fcc7593"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-guerber-speaking-oak-argo-verified from gutenberg-guerber-myths-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "The Speaking Oak instructed Jason to use one of its limbs for the Argo."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Jason collected a crew of heroes after the Argo was finished."
+    }
+  ],
+  "characters": [
+    {
+      "id": "argonauts",
+      "name": "heroes",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "jason",
+      "name": "Jason",
+      "role": "quest leader",
+      "goal": "complete the central action described in the verified episode"
+    },
+    {
+      "id": "speaking-oak",
+      "name": "Speaking Oak",
+      "role": "agentive object in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [],
+  "narrative": {
+    "synopsis": "The Speaking Oak directs Jason to use its wood, Minerva provides a speaking figurehead, and the Argo is completed for the expedition.",
+    "openingSituation": "Jason seeks guidance at Dodona.",
+    "centralConflict": "The voyage needs a divinely sanctioned ship.",
+    "resolution": "The Argo is finished with the speaking figurehead.",
+    "outcome": "Jason gathers the Greek heroes for the voyage.",
+    "storyline": [
+      "The Speaking Oak instructed Jason to use one of its limbs for the Argo.",
+      "Jason collected a crew of heroes after the Argo was finished."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "speaking-oak",
+      "action": "instruct",
+      "sourceAction": "bade",
+      "target": null,
+      "object": "argo",
+      "recipient": "jason",
+      "location": null,
+      "consequence": "The Speaking Oak instructed Jason to use one of its limbs for the Argo.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "jason",
+      "action": "assemble",
+      "sourceAction": "collected",
+      "target": "argonauts",
+      "object": "argo",
+      "recipient": null,
+      "location": null,
+      "consequence": "Jason collected a crew of heroes after the Argo was finished.",
+      "factIds": [
+        "fact-02"
+      ]
+    }
+  ],
+  "locations": [],
+  "objects": [
+    "speaking-oak",
+    "argo"
+  ],
+  "creatures": [],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 3,
+    "visualBeats": [
+      "The Speaking Oak instructed Jason to use one of its limbs for the Argo.",
+      "Jason collected a crew of heroes after the Argo was finished."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0028; avoid adding later or parallel variants.",
+      "Keep the ending at: Jason gathers the Greek heroes for the voyage."
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "id": "production-myth-0004",
+  "title": "Perseus and Medusa",
+  "mythFamily": "perseus-and-medusa",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0004"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0004.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "multi-episode",
+    "beginning": "Polydectes decides that slaying Medusa would bring Perseus renown.",
+    "ending": "Perseus uses Medusa's head to transform the sea monster and deliver Andromeda.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent multi-episode arc with 4 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:22381:296.296.5-296.296.5:e504674f",
+      "gutenberg:ebooks:22381:296.296.6-296.296.6:09812735",
+      "gutenberg:ebooks:22381:296.296.7-296.296.7:cd96b6f7",
+      "gutenberg:ebooks:22381:296.296.13-296.296.13:fb8b3e06",
+      "gutenberg:ebooks:22381:296.296.14-296.296.14:817cdd65"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-berens-perseus-medusa-verified from gutenberg-berens-myths-legends-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Perseus started the expedition."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Perseus cut off Medusa's head."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Perseus proposed to slay the dragon for Andromeda's release."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Perseus used Medusa's head to transform the dragon."
+    }
+  ],
+  "characters": [
+    {
+      "id": "andromeda",
+      "name": "Andromeda",
+      "role": "rescued participant",
+      "goal": null
+    },
+    {
+      "id": "cepheus",
+      "name": "Cepheus",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "dragon",
+      "name": "Dragon",
+      "role": "creature or group involved in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "medusa",
+      "name": "Medusa",
+      "role": "quest target",
+      "goal": null
+    },
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "role": "hero",
+      "goal": "complete the central action described in the verified episode"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "perseus",
+      "relationship": "rescues",
+      "target": "andromeda",
+      "rationale": "The linked Phase 1 record verifies this rescues relationship for Perseus and Andromeda within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Perseus undertakes the Medusa expedition with divine guidance, cuts off Medusa's head, and later uses it to deliver Andromeda from the sea monster.",
+    "openingSituation": "Polydectes decides that slaying Medusa would bring Perseus renown.",
+    "centralConflict": "Perseus must kill Medusa without looking directly at the Gorgons.",
+    "resolution": "Guided by Pallas-Athene, Perseus cuts off Medusa's head.",
+    "outcome": "Perseus uses Medusa's head to transform the sea monster and deliver Andromeda.",
+    "storyline": [
+      "Perseus is assigned the Medusa quest.",
+      "Hermes and Pallas-Athene guide him.",
+      "Perseus cuts off Medusa's head.",
+      "Perseus proposes to save Andromeda.",
+      "Perseus transforms the sea monster."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "perseus",
+      "action": "travel",
+      "sourceAction": "travel",
+      "target": null,
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Perseus started the expedition.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "perseus",
+      "action": "kill",
+      "sourceAction": "kill",
+      "target": "medusa",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Perseus cut off Medusa's head.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "perseus",
+      "action": "rescue",
+      "sourceAction": "rescue",
+      "target": "andromeda",
+      "object": null,
+      "recipient": "cepheus",
+      "location": null,
+      "consequence": "Perseus proposed to slay the dragon for Andromeda's release.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "perseus",
+      "action": "transform",
+      "sourceAction": "transform",
+      "target": "dragon",
+      "object": "medusas-head",
+      "recipient": null,
+      "location": null,
+      "consequence": "Perseus used Medusa's head to transform the dragon.",
+      "factIds": [
+        "fact-04"
+      ]
+    }
+  ],
+  "locations": [
+    "aethiopia"
+  ],
+  "objects": [
+    "medusas-head",
+    "winged-sandals",
+    "helmet",
+    "wallet",
+    "sickle"
+  ],
+  "creatures": [
+    "gorgons",
+    "dragon"
+  ],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 4,
+    "visualBeats": [
+      "Perseus started the expedition.",
+      "Perseus cut off Medusa's head.",
+      "Perseus proposed to slay the dragon for Andromeda's release.",
+      "Perseus used Medusa's head to transform the dragon."
+    ],
+    "sensitiveContent": [
+      "Perseus cut off Medusa's head."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0004; avoid adding later or parallel variants.",
+      "Keep the ending at: Perseus uses Medusa's head to transform the sea monster and deliver Andromeda."
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "id": "production-myth-0011",
+  "title": "Diana and Endymion",
+  "mythFamily": "endymion",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0011"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0011.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "complete-section",
+    "beginning": "Diana makes her nightly moon journey after Apollo's sun course ends.",
+    "ending": "Endymion remains in eternal sleep, and Diana visits him every night.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent complete-section arc with 5 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:45489:81.81.1-81.81.1:1475a14c",
+      "gutenberg:ebooks:45489:81.81.2-81.81.2:fb58d597",
+      "gutenberg:ebooks:45489:81.81.3-81.81.3:23b7512a",
+      "gutenberg:ebooks:45489:81.81.4-81.81.4:f61ad1af"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-baker-endymion-verified from gutenberg-baker-stories-old-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Diana saw Endymion sleeping."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Diana kissed Endymion."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Diana returned to Endymion."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Diana took Endymion to Mount Latmus."
+    },
+    {
+      "factId": "fact-05",
+      "fact": "Diana caused eternal sleep to fall on Endymion."
+    }
+  ],
+  "characters": [
+    {
+      "id": "artemis",
+      "name": "Diana",
+      "role": "moon goddess",
+      "goal": null
+    },
+    {
+      "id": "endymion",
+      "name": "Endymion",
+      "role": "sleeping shepherd",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "artemis",
+      "relationship": "loves",
+      "target": "endymion",
+      "rationale": "The linked Phase 1 record verifies this loves relationship for Diana and Endymion within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "Diana sees Endymion sleeping by moonlight and repeatedly visits him. Wanting him to remain beautiful and young, she takes him to Mount Latmus and causes eternal sleep to fall on him.",
+    "openingSituation": "Diana makes her nightly moon journey after Apollo's sun course ends.",
+    "centralConflict": "Diana longs to remain near the sleeping Endymion without waking him.",
+    "resolution": "Diana takes Endymion to a cave on Mount Latmus.",
+    "outcome": "Endymion remains in eternal sleep, and Diana visits him every night.",
+    "storyline": [
+      "Diana drives her moon-car.",
+      "Diana sees Endymion sleeping.",
+      "Diana returns to him nightly.",
+      "Diana takes him to Mount Latmus.",
+      "Diana causes eternal sleep to fall on him."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "artemis",
+      "action": "see",
+      "sourceAction": "see",
+      "target": "endymion",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Diana saw Endymion sleeping.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "artemis",
+      "action": "kiss",
+      "sourceAction": "kiss",
+      "target": "endymion",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Diana kissed Endymion.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "artemis",
+      "action": "return",
+      "sourceAction": "return",
+      "target": "endymion",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Diana returned to Endymion.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "artemis",
+      "action": "move",
+      "sourceAction": "move",
+      "target": "endymion",
+      "object": null,
+      "recipient": null,
+      "location": "mount-latmus",
+      "consequence": "Diana took Endymion to Mount Latmus.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "artemis",
+      "action": "enchant",
+      "sourceAction": "enchant",
+      "target": "endymion",
+      "object": null,
+      "recipient": null,
+      "location": "mount-latmus",
+      "consequence": "Diana caused eternal sleep to fall on Endymion.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "mount-latmus"
+  ],
+  "objects": [
+    "moon-car"
+  ],
+  "creatures": [
+    "horses"
+  ],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Diana saw Endymion sleeping.",
+      "Diana kissed Endymion.",
+      "Diana returned to Endymion.",
+      "Diana took Endymion to Mount Latmus.",
+      "Diana caused eternal sleep to fall on Endymion."
+    ],
+    "sensitiveContent": [],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0011; avoid adding later or parallel variants.",
+      "Keep the ending at: Endymion remains in eternal sleep, and Diana visits him every night."
+    ]
+  }
+}

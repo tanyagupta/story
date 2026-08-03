@@ -1,0 +1,214 @@
+{
+  "id": "production-myth-0032",
+  "title": "Jason Wins the Golden Fleece with Medea",
+  "mythFamily": "golden-fleece",
+  "status": "ai_constructed_production",
+  "provenance": {
+    "type": "ai_constructed",
+    "specificSourceVerified": false,
+    "constructionPolicy": "Create a production adaptation constrained to the linked source-audited Phase 1 record.",
+    "sourceTruthPolicy": "The linked Phase 1 record controls characters, events, relationships, variant, and episode boundary.",
+    "basedOnSourceAuditedReference": true
+  },
+  "referenceLinks": {
+    "sourceAuditedRecordIds": [
+      "bulk-verified-0032"
+    ],
+    "sourceAuditedFiles": [
+      "corpus/normalized/bulk/verified/bulk-verified-0032.myth.json"
+    ]
+  },
+  "scope": {
+    "type": "coherent-subepisode",
+    "beginning": "Jason and the Argonauts reach Colchis to seek the Golden Fleece.",
+    "ending": "Jason sails away with Medea and the fleece.",
+    "boundaryRationale": "This production episode is independently usable because the linked Phase 1 record isolates a coherent coherent-subepisode arc with 5 verified event(s) and explicit included passages. It does not extend beyond those verified passages.",
+    "includedPassages": [
+      "gutenberg:ebooks:39250:395.395.15-395.395.15:437650d3",
+      "gutenberg:ebooks:39250:395.395.17-395.395.17:a494f004",
+      "gutenberg:ebooks:39250:395.395.20-395.395.20:3ab23c0f",
+      "gutenberg:ebooks:39250:395.395.24-395.395.24:8d9217c6",
+      "gutenberg:ebooks:39250:395.395.27-395.395.27:00e24090"
+    ],
+    "omittedPassages": []
+  },
+  "variant": {
+    "chosenVersion": "Production adaptation of gutenberg-guerber-jason-medea-fleece-verified from gutenberg-guerber-myths-greece-rome-eng.",
+    "materialAlternatives": [],
+    "variantNotes": [
+      "Other ancient or modern variants are not blended into this production record."
+    ]
+  },
+  "coreFacts": [
+    {
+      "factId": "fact-01",
+      "fact": "Aetes set conditions before Jason could obtain the fleece."
+    },
+    {
+      "factId": "fact-02",
+      "fact": "Medea was ready to bring her magic to Jason's aid."
+    },
+    {
+      "factId": "fact-03",
+      "fact": "Jason used Medea's advice to overcome the dragon-teeth warriors."
+    },
+    {
+      "factId": "fact-04",
+      "fact": "Jason killed the dragon and took the fleece."
+    },
+    {
+      "factId": "fact-05",
+      "fact": "Jason departed Colchis aboard the Argo with Medea after taking the Golden Fleece."
+    }
+  ],
+  "characters": [
+    {
+      "id": "aetes",
+      "name": "Æetes",
+      "role": "participant in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "dragon",
+      "name": "dragon",
+      "role": "creature or group involved in the verified episode",
+      "goal": null
+    },
+    {
+      "id": "jason",
+      "name": "Jason",
+      "role": "quester",
+      "goal": null
+    },
+    {
+      "id": "medea",
+      "name": "Medea",
+      "role": "participant in the verified episode",
+      "goal": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship-01",
+      "source": "medea",
+      "relationship": "assists",
+      "target": "jason",
+      "rationale": "The linked Phase 1 record verifies this assists relationship for Medea and Jason within the selected episode."
+    }
+  ],
+  "narrative": {
+    "synopsis": "At Colchis, Aetes sets Jason dangerous tasks for the Golden Fleece. Medea helps Jason, he completes the tasks, kills the dragon, takes the fleece, and sails away with Medea.",
+    "openingSituation": "Jason and the Argonauts reach Colchis to seek the Golden Fleece.",
+    "centralConflict": "Aetes will surrender the fleece only if Jason performs dangerous tasks.",
+    "resolution": "Jason completes the tasks with Medea's aid and takes the fleece.",
+    "outcome": "Jason sails away with Medea and the fleece.",
+    "storyline": [
+      "Aetes set conditions before Jason could obtain the fleece.",
+      "Medea was ready to bring her magic to Jason's aid.",
+      "Jason used Medea's advice to overcome the dragon-teeth warriors.",
+      "Jason killed the dragon and took the fleece.",
+      "The Argo left the Colchian harbor after Jason embarked with Medea."
+    ]
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "aetes",
+      "action": "condition",
+      "sourceAction": "obtain",
+      "target": null,
+      "object": "golden-fleece",
+      "recipient": "jason",
+      "location": null,
+      "consequence": "Aetes set conditions before Jason could obtain the fleece.",
+      "factIds": [
+        "fact-01"
+      ]
+    },
+    {
+      "sequence": 2,
+      "actor": "medea",
+      "action": "assist",
+      "sourceAction": "bring her magic",
+      "target": null,
+      "object": null,
+      "recipient": "jason",
+      "location": null,
+      "consequence": "Medea was ready to bring her magic to Jason's aid.",
+      "factIds": [
+        "fact-02"
+      ]
+    },
+    {
+      "sequence": 3,
+      "actor": "jason",
+      "action": "defeat",
+      "sourceAction": "threw",
+      "target": "dragon-teeth",
+      "object": null,
+      "recipient": null,
+      "location": null,
+      "consequence": "Jason used Medea's advice to overcome the dragon-teeth warriors.",
+      "factIds": [
+        "fact-03"
+      ]
+    },
+    {
+      "sequence": 4,
+      "actor": "jason",
+      "action": "take",
+      "sourceAction": "tore",
+      "target": "dragon",
+      "object": "golden-fleece",
+      "recipient": null,
+      "location": null,
+      "consequence": "Jason killed the dragon and took the fleece.",
+      "factIds": [
+        "fact-04"
+      ]
+    },
+    {
+      "sequence": 5,
+      "actor": "jason",
+      "action": "depart",
+      "sourceAction": "depart with Medea aboard the Argo",
+      "target": null,
+      "object": "argo",
+      "recipient": "medea",
+      "location": "colchis",
+      "consequence": "Jason departed Colchis aboard the Argo with Medea after taking the Golden Fleece.",
+      "factIds": [
+        "fact-05"
+      ]
+    }
+  ],
+  "locations": [
+    "colchis"
+  ],
+  "objects": [
+    "golden-fleece",
+    "dragon-teeth",
+    "argo"
+  ],
+  "creatures": [
+    "dragon"
+  ],
+  "themes": [],
+  "adaptation": {
+    "recommendedSceneCount": 5,
+    "visualBeats": [
+      "Aetes set conditions before Jason could obtain the fleece.",
+      "Medea was ready to bring her magic to Jason's aid.",
+      "Jason used Medea's advice to overcome the dragon-teeth warriors.",
+      "Jason killed the dragon and took the fleece.",
+      "Jason departed Colchis aboard the Argo with Medea after taking the Golden Fleece."
+    ],
+    "sensitiveContent": [
+      "Jason killed the dragon and took the fleece."
+    ],
+    "productionNotes": [
+      "Stage only the actions verified in bulk-verified-0032; avoid adding later or parallel variants.",
+      "Keep the ending at: Jason sails away with Medea and the fleece."
+    ]
+  }
+}
